@@ -1,0 +1,1204 @@
+﻿<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Admin Fixes (119 Qs)</title>
+<style>
+body{font-family:system-ui,sans-serif;margin:20px;font-size:14px}
+table{border-collapse:collapse;width:100%}
+th,td{border:1px solid #ccc;padding:8px;vertical-align:top;text-align:left}
+th{background:#333;color:#fff;position:sticky;top:0}
+tr:hover{background:#f5f5f5 !important}
+</style></head><body>
+<h1>Admin Fixes â€” 119 questions</h1>
+<p>Green = STORED_CORRECT (mark verified, no change). Orange = flip needed.</p>
+<table>
+<tr><th>DB ID</th><th>Year</th><th>Question</th><th>Stored</th><th>Gemini</th><th>Groq 70B</th><th>Reason</th><th>Bucket</th></tr>
+<tr style="background:#e8f5e9">
+  <td>2046</td>
+  <td>2014</td>
+  <td>In a compound microscope, the magnification by objective = 20, magnification by eyepiece = 11, then the total magnification is<br><br><b>A</b>: M = -220<br><b>B</b>: M = -0.19<br><b>C</b>: M = -0.05<br><b>D</b>: M = 220</td>
+  <td><b>D</b></td>
+  <td><b>A</b></td>
+  <td><b>D</b><br><small>high</small></td>
+  <td>The total magnification of a compound microscope is calculated by multiplying the magnification of the objective lens by the magnification of the eyepiece lens, so M = 20 * 11 = 220</td>
+  <td>STORED_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2056</td>
+  <td>2014</td>
+  <td>Which feature of the following graph represents Young&#39;s Modulus? [Diagram/graph/structure required &#226;€” not transcribable from OCR text. See original PDF page for the figure.] (Strain on one axis, Stress on the other)<br><br><b>A</b>: Area under graph<br><b>B</b>: Gradient of the graph<br><b>C</b>: Reciprocal of the gradient<br><b>D</b>: Product of gradient and area of the curve</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Young&#39;s Modulus is defined as the ratio of stress to strain within the proportional limit of the material, which is represented by the gradient of the graph</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2066</td>
+  <td>2014</td>
+  <td>Due to current in a straight conductor, the magnetic field lines&#39; density<br><br><b>A</b>: Increases away from conductor<br><b>B</b>: Decreases away from conductor<br><b>C</b>: Increases towards conductor<br><b>D</b>: Decreases and then increases towards conductor</td>
+  <td><b>A</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>The magnetic field lines&#39; density decreases away from the conductor due to the inverse square law, which states that the magnetic field strength decreases with the square of the distance from the conductor.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#e8f5e9">
+  <td>2078</td>
+  <td>2014</td>
+  <td>A naturally occurring radioactive element decays by emitting two alpha particles. Which one of the following represents the status of daughter element with respect to mass number &#39;A&#39; and charge number &#39;Z&#39;?<br><br><b>A</b>: &#39;Z&#39; decreases by 4 and &#39;A&#39; decreases by 2<br><b>B</b>: &#39;Z&#39; decreases by 2 and &#39;A&#39; decreases by 4<br><b>C</b>: &#39;Z&#39; decreases by 4 and &#39;A&#39; decreases by 8<br><b>D</b>: &#39;Z&#39; decreases by 8 and &#39;A&#39; decreases by 4</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>Emitting two alpha particles decreases the charge number &#39;Z&#39; by 4 (2 protons per alpha particle) and the mass number &#39;A&#39; by 8 (4 nucleons per alpha particle)</td>
+  <td>STORED_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2082</td>
+  <td>2014</td>
+  <td>A polymer of empirical formula CH2 has molar mass of 28000 g mol-1. Its molecular formula will be<br><br><b>A</b>: 100 times that of its empirical formula<br><b>B</b>: 200 times that of its empirical formula<br><b>C</b>: 500 times that of its empirical formula<br><b>D</b>: 2000 times that of its empirical formula</td>
+  <td><b>D</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>The molecular formula is calculated by dividing the molar mass by the empirical formula mass, which is 14 g/mol for CH2, resulting in 200 times that of its empirical formula</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2086</td>
+  <td>2014</td>
+  <td>According to the number of protons, neutrons and electrons given in the table (As: 33p/42n/30e, Ga: 31p/39n/28e, Ca: 20p/20n/20e), which one of the following options is correct?<br><br><b>A</b>: As-3, Ga+3, Ca<br><b>B</b>: As+1, Ga+2, Ca<br><b>C</b>: As+3, Ga+3, Ca+2<br><b>D</b>: As+1, Ga, Ca+2</td>
+  <td><b>C</b></td>
+  <td><b>A</b></td>
+  <td><b>A</b><br><small>high</small></td>
+  <td>The atomic numbers and given proton, neutron, and electron counts indicate that As has 33 protons and 30 electrons, making it As-3, Ga has 31 protons and 28 electrons, making it Ga+3, and Ca has 20 protons and 20 electrons, making it neutral Ca</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#e8f5e9">
+  <td>2087</td>
+  <td>2014</td>
+  <td>If the e/m value of electron is 1.7588 x 10^11 coulombs Kg-1, then what would be the mass of electron in grams (charge on electron is 1.6022 x 10^-19 coulombs)?<br><br><b>A</b>: 9.1095 x 10^-31 g<br><b>B</b>: 91.095 x 10^-31 g<br><b>C</b>: 9.1095 x 10^-28 g<br><b>D</b>: 0.919095 x 10^-33 g</td>
+  <td><b>A</b></td>
+  <td><b>C</b></td>
+  <td><b>A</b><br><small>high</small></td>
+  <td>The mass of the electron can be calculated by dividing the charge of the electron by the e/m value, which yields 9.1095 x 10^-31 kg or grams.</td>
+  <td>STORED_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2103</td>
+  <td>2014</td>
+  <td>Which one of the following noble gases is used for providing an inert atmosphere for welding?<br><br><b>A</b>: Helium<br><b>B</b>: Neon<br><b>C</b>: Argon<br><b>D</b>: Krypton</td>
+  <td><b>A</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>Argon is commonly used to provide an inert atmosphere for welding due to its unreactive properties and ability to displace oxygen</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#e8f5e9">
+  <td>2114</td>
+  <td>2014</td>
+  <td>The halothane used in hospitals as an anesthetic is chemically<br><br><b>A</b>: 1-Bromo-1-chloro-2,2,2-trifluoroethane<br><b>B</b>: 2-Bromo-2-chloro-1,1,1-trifluoroethane<br><b>C</b>: 1,1,1-Trifluoro-2-bromo-2-chloroethane<br><b>D</b>: 2-Chloro-2-bromo-1,1,1-trifluoromethane</td>
+  <td><b>B</b></td>
+  <td><b>A</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Halothane is chemically known as 2-Bromo-2-chloro-1,1,1-trifluoroethane, which matches option B</td>
+  <td>STORED_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2144</td>
+  <td>2014</td>
+  <td>SPOT THE ERROR: We were ten miles up the highway (when I happened)[a] (to saw this)[b] (classified advertisement)[c] (in the newspaper.)[d]<br><br><b>A</b>: when I happened<br><b>B</b>: to saw this<br><b>C</b>: classified advertisement<br><b>D</b>: in the newspaper.</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>The error is in &#39;to saw this&#39;, which should be &#39;to see this&#39; as &#39;saw&#39; is a past tense of &#39;see&#39; and doesn&#39;t fit grammatically in this context.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2145</td>
+  <td>2014</td>
+  <td>SPOT THE ERROR: &#226;€œ(All is well)[a] (what ends well)[b],&#226;€ (said the father)[c] (when he had finished the story.)[d]<br><br><b>A</b>: All is well<br><b>B</b>: what ends well<br><b>C</b>: said the father<br><b>D</b>: when he had finished the story.</td>
+  <td><b>A</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>The phrase &#39;what ends well&#39; is a non-idiomatic and grammatically incorrect fragment, disrupting the sentence&#39;s coherence, making it the error to spot.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2146</td>
+  <td>2014</td>
+  <td>SPOT THE ERROR: (Rubber tubes upon which children had swing in backyards)[a] (hung suspended)[b] (like stopped clock)[c] pendulums in the blazing air.[d]<br><br><b>A</b>: Rubber tubes upon which children had swing in backyards<br><b>B</b>: hung suspended<br><b>C</b>: like stopped clock<br><b>D</b>: pendulums in the blazing air.</td>
+  <td><b>B</b></td>
+  <td><b>A</b></td>
+  <td><b>A</b><br><small>high</small></td>
+  <td>The phrase &#39;had swing&#39; should be &#39;swung&#39; to maintain correct verb tense and subject-verb agreement</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#e8f5e9">
+  <td>2191</td>
+  <td>2014</td>
+  <td>Which one of the following is the optimum pH of pancreatic lipase enzyme?<br><br><b>A</b>: 7.60<br><b>B</b>: 8.00<br><b>C</b>: 9.00<br><b>D</b>: 9.70</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>The optimum pH of pancreatic lipase enzyme is around 9.0, which is closest to option C</td>
+  <td>STORED_CORRECT</td>
+</tr>
+<tr style="background:#e8f5e9">
+  <td>2198</td>
+  <td>2014</td>
+  <td>Polymorphism is a feature exhibited by members of<br><br><b>A</b>: Coelenterates<br><b>B</b>: Arthropoda<br><b>C</b>: Porifera<br><b>D</b>: Platyhelminthes</td>
+  <td><b>B</b></td>
+  <td><b>A</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Polymorphism is a feature commonly exhibited by members of Arthropoda, such as insects, which can have dramatically different forms at different stages of their life cycle or between different castes within a species.</td>
+  <td>STORED_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2207</td>
+  <td>2014</td>
+  <td>Which one of the following is the most numerous/commonest of white blood cells?<br><br><b>A</b>: Eosinophils<br><b>B</b>: Monocytes<br><b>C</b>: Neutrophils<br><b>D</b>: Lymphocytes</td>
+  <td><b>D</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>Neutrophils are the most numerous type of white blood cells, making up about 50-70% of all white blood cells in a healthy human body</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2232</td>
+  <td>2014</td>
+  <td>How many iodine atoms are present in thyroxine?<br><br><b>A</b>: 3<br><b>B</b>: 4<br><b>C</b>: 2<br><b>D</b>: 5</td>
+  <td><b>A</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Thyroxine, also known as T4, contains four iodine atoms in its molecular structure.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2233</td>
+  <td>2014</td>
+  <td>T-lymphocytes recognize antigen and attack microorganisms or transplanted organ and tissues. This effect is called<br><br><b>A</b>: Cell-mediated response<br><b>B</b>: Humoral immune response<br><b>C</b>: Active immunity<br><b>D</b>: Passive immunity</td>
+  <td><b>B</b></td>
+  <td><b>A</b></td>
+  <td><b>A</b><br><small>high</small></td>
+  <td>The question describes T-lymphocytes recognizing antigens and attacking, which is a direct description of cell-mediated immune response.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2255</td>
+  <td>2014</td>
+  <td>Position of a gene within a DNA molecule is<br><br><b>A</b>: Locus<br><b>B</b>: Origin<br><b>C</b>: Amplicon<br><b>D</b>: Filial</td>
+  <td><b>D</b></td>
+  <td><b>A</b></td>
+  <td><b>A</b><br><small>high</small></td>
+  <td>The term &#39;locus&#39; specifically refers to the position of a gene within a DNA molecule</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2256</td>
+  <td>2014</td>
+  <td>Sickle cell anemia is a type of<br><br><b>A</b>: Insertion<br><b>B</b>: Transposition<br><b>C</b>: Deletion<br><b>D</b>: Base Substitution</td>
+  <td><b>A</b></td>
+  <td><b>D</b></td>
+  <td><b>D</b><br><small>high</small></td>
+  <td>Sickle cell anemia is caused by a point mutation in the HBB gene, which is a type of base substitution</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1820</td>
+  <td>2015</td>
+  <td>If electrons of charge &#226;€˜e&#226;€™ moving with velocity &#226;€˜v&#226;€™ are accelerated through a potential difference &#226;€˜V&#226;€™ and strike a metal target, then velocity of electrons is: Ve Ve<br><br><b>B</b>: &#226;ˆš m 2m Ve 2Ve<br><b>C</b>: &#226;ˆš<br><b>D</b>: &#226;ˆš m m</td>
+  <td><b>D</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>The velocity of electrons accelerated through a potential difference &#39;V&#39; is given by the equation v = &#226;ˆš(2eV/m), which matches option C</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1821</td>
+  <td>2015</td>
+  <td>In X-ray tube, electrons after being accelerated through velocity &#226;€˜v&#226;€™ strike the target, then the wavelength of emitted X-rays is: hc h<br><br><b>A</b>: Not greater than<br><b>B</b>: Equal to the eV mV hc hc<br><b>C</b>: Not less than<br><b>D</b>: Equal to eV eV</td>
+  <td><b>D</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>The wavelength of emitted X-rays cannot be less than the wavelength corresponding to the energy of the incident electrons, as given by the equation &#206;&#187; = hc/E, where E is the energy of the electrons</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1822</td>
+  <td>2015</td>
+  <td>In the reaction, 234 92Th &#226;†’ 234 91Y + -10e the electron -10e emits from the<br><br><b>A</b>: 1st Orbit<br><b>B</b>: Nucleus<br><b>C</b>: 2nd Orbit<br><b>D</b>: Valence Shell</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>The reaction given represents beta decay, where a neutron in the nucleus is converted into a proton, an electron, and a neutrino, with the electron being emitted from the nucleus.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1826</td>
+  <td>2015</td>
+  <td>Cobalt 60 is used in medicine and is an intense source of:<br><br><b>A</b>: &#206;&#177;-particles<br><b>B</b>: &#206;&#179;-rays<br><b>C</b>: &#206;&#178;-particles<br><b>D</b>: Neutrons</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Cobalt 60 is a radioactive isotope that decays by beta decay to the stable isotope nickel-60, emitting gamma rays in the process</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1827</td>
+  <td>2015</td>
+  <td>In fluid flow, for the equation of continuity A 1v1 = A2v2. If velocity of the fluid at one end is doubled, then what will be the cross-sectional area at this end?<br><br><b>A</b>: Double<br><b>B</b>: (Half)2<br><b>C</b>: Half<br><b>D</b>: (Double)2</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>If the velocity at one end is doubled, to maintain the equation of continuity, the cross-sectional area at that end must be halved, as A1v1 = A2v2 implies that A is inversely proportional to v.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1828</td>
+  <td>2015</td>
+  <td>The value of least distance vision for normal eye is<br><br><b>A</b>: 20 cm<br><b>B</b>: 25 cm<br><b>C</b>: 30 cm<br><b>D</b>: 40 cm</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>The least distance of distinct vision for a normal eye is typically considered to be 25 centimeters.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1830</td>
+  <td>2015</td>
+  <td>In Young&#226;€™s Double Slit Experiment, slit separation x = 0.05 cm, distance between screen and slit D = 200 cm, fringes separation x = 0.13 cm, then the wavelength &#226;€˜&#206;&#187;&#226;€™ of light is:<br><br><b>A</b>: &#206;&#187; = 1.23 x 10-2 m<br><b>B</b>: &#206;&#187; = 4.55 x 10-5 m<br><b>C</b>: &#206;&#187; = 3.25 x 10-7 m<br><b>D</b>: &#206;&#187; = 5.1 x 10-7 m</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>The wavelength can be calculated using the formula &#206;&#187; = (x * D) / d, where x is the fringe separation, D is the distance between the screen and the slit, and d is the slit separation, which yields &#206;&#187; = (0.13 * 200) / 0.05 = 520 nm or 5.2 x 10^-7 m, closest to option C</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1831</td>
+  <td>2015</td>
+  <td>In normal adjustment of compound microscope, the eye piece is positioned so that the final image is formed at:<br><br><b>A</b>: Optical Center<br><b>B</b>: Principle Focus<br><b>C</b>: Infinity<br><b>D</b>: Near Point</td>
+  <td><b>D</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>The final image in a compound microscope is formed at infinity to allow for comfortable viewing by the observer.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1834</td>
+  <td>2015</td>
+  <td>Sodium 24 has half-life of 15 hour and it is used in medicine to estimate:<br><br><b>A</b>: Kidney Function<br><b>B</b>: Iron in Plasma<br><b>C</b>: Plasma Blood Volume<br><b>D</b>: Thyroid Function</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>Sodium-24 is used to estimate plasma blood volume because it is a radioactive isotope that can be injected into the bloodstream and its concentration measured over time</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1835</td>
+  <td>2015</td>
+  <td>The unit of temperature in base unit is:<br><br><b>A</b>: Celsius<br><b>B</b>: Kelvin<br><b>C</b>: Degree<br><b>D</b>: Fahrenheit</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Kelvin is the base unit of temperature in the International System of Units (SI)</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#e8f5e9">
+  <td>1844</td>
+  <td>2015</td>
+  <td>A wire of area of cross section &#226;€˜A&#226;€™ and original length &#226;€˜l&#226;€™ is subjected to a load &#226;€˜L&#226;€™. A second wire of same material with an area is &#226;€˜2A&#226;€™ and length &#226;€˜2l&#226;€™ is subjected to the same load &#226;€˜L&#226;€™. If the extension in first wire is &#226;€˜X&#226;€™ and second wire is &#226;€˜Y&#226;€™, find the ratio &#226;€˜X/Y&#226;€™. 1 1<br><br><b>B</b>: 4 1 1 2<br><b>D</b>: 2 1</td>
+  <td><b>C</b></td>
+  <td><b>D</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>The ratio of extensions X/Y can be determined using Hooke&#39;s law and the properties of the wires, resulting in X/Y = 4</td>
+  <td>STORED_CORRECT</td>
+</tr>
+<tr style="background:#e8f5e9">
+  <td>1848</td>
+  <td>2015</td>
+  <td>What is the 273 k on the Celsius scale of temperature?<br><br><b>A</b>: 0.15 oC<br><b>B</b>: -0.15 oC<br><b>C</b>: 273.15 Co<br><b>D</b>: -273.15 oC</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>The correct answer is the option that represents the temperature 273 K, which is equivalent to 0.15 degrees Celsius on the Celsius scale when rounded to two decimal places, but more precisely 0.15 is the difference from the freezing point of water and 273.15 K is exactly 0.01 degrees Celsius.</td>
+  <td>STORED_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1851</td>
+  <td>2015</td>
+  <td>Which combinations of seven identical resistors each of 2 &#206;&#169; gives rise to the resultant of 10/11 &#206;&#169;?<br><br><b>A</b>: 5 Parallel, 2 Series<br><b>B</b>: 3 Parallel, 4 Series<br><b>C</b>: 4 Parallel, 3 Series<br><b>D</b>: 2 Parallel, 5 Series</td>
+  <td><b>D</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>The combination of 4 parallel resistors each of 2 &#206;&#169; gives a resultant of 2/4 = 0.5 &#206;&#169;, and when 3 resistors of 2 &#206;&#169; are connected in series, the total resistance is 3 * 2 = 6 &#206;&#169;, and when these two are combined in parallel, the resultant resistance is (0.5 * 6) / (0.5 + 6) = 6/11.5 = 12/23 &#226;‰ˆ 0.52, but a simpler approach is to use the formula for parallel and series resistances to find the correct combination that yields 10/11 &#206;&#169;, which is achieved with 4 parallel and 3 series resistors.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1852</td>
+  <td>2015</td>
+  <td>If a resistor having resistance &#226;€˜R&#226;€™ is cut into three equal parts, then the equivalent of parallel combination is: 6 R<br><br><b>B</b>: R 9 3 R<br><b>D</b>: R 3</td>
+  <td><b>C</b></td>
+  <td><b>D</b></td>
+  <td><b>D</b><br><small>high</small></td>
+  <td>When a resistor is cut into three equal parts, each part has a resistance of R/3, and when these three parts are connected in parallel, the equivalent resistance is (R/3)/3 = R/9, but since the question asks for the equivalent of the parallel combination of the three equal parts, the correct formula is 1/R_total = 1/(R/3) + 1/(R/3) + 1/(R/3) which simplifies to R_total = R/3</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1855</td>
+  <td>2015</td>
+  <td>The resistance of a piece of wire is 12 &#206;&#169;. It is bent to form an equilateral triangle. What is the equivalent resistance between any two corners of the triangles?<br><br><b>A</b>: 1.3 &#206;&#169;<br><b>B</b>: 4.0 &#206;&#169;<br><b>C</b>: 2.0 &#206;&#169;<br><b>D</b>: 2.7 &#206;&#169;</td>
+  <td><b>B</b></td>
+  <td><b>D</b></td>
+  <td><b>D</b><br><small>high</small></td>
+  <td>The equivalent resistance between any two corners of the equilateral triangle formed by the wire is calculated by considering the resistances in parallel, which results in 2/3 of the total resistance of the wire, giving 12 * (2/3) = 8 &#206;&#169; for two sides and thus 8 &#206;&#169; in parallel with 4 &#206;&#169; (half of one side), leading to an equivalent resistance of 8 * 4 / (8 + 4) = 8 * 4 / 12 = 8/3 &#206;&#169;, which is approximately 2.67 &#206;&#169;, closest to option D</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1859</td>
+  <td>2015</td>
+  <td>If &#226;€˜A&#226;€™ is fundamental dimension of ampere then the dimension of magnetic field strength is:<br><br><b>A</b>: [MT2A-2]<br><b>B</b>: [MT2L2A-1]<br><b>C</b>: [MT2A-1]<br><b>D</b>: [MT2L-2A-2]</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>The dimension of magnetic field strength is [MT^-2A^-1] because it is defined as the force per unit length per unit current, which matches option C when &#39;A&#39; is a fundamental dimension of ampere</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1860</td>
+  <td>2015</td>
+  <td>The potential difference between target and cathode of an X-rays tube is 20 kV and current is 20 mA. What is the &#206;&#187;min of the emitted X-ray?<br><br><b>A</b>: 6.19 x 10-4 m<br><b>B</b>: 6.19 x 10-11 m<br><b>C</b>: 6.19 x 10 m -14<br><b>D</b>: 6.19 x 10-19 m</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>The minimum wavelength of the emitted X-ray can be calculated using the formula &#206;&#187;min = hc/eV, where h is Planck&#39;s constant, c is the speed of light, e is the elementary charge, and V is the potential difference, resulting in a value of approximately 6.19 x 10^-11 m</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1864</td>
+  <td>2015</td>
+  <td>Carboxylic acids are rather hard to reduce, which powerful reducing agent can be used to convert them to the corresponding primary alcohol:<br><br><b>A</b>: H2SO4/HgSO4<br><b>B</b>: LiAlH4<br><b>C</b>: V2O5<br><b>D</b>: K2Cr2O7/H2SO4</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>LiAlH4 is a powerful reducing agent commonly used to convert carboxylic acids to primary alcohols</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1866</td>
+  <td>2015</td>
+  <td>Which one of the following amino acids is basic in nature?<br><br><b>A</b>: Glycine<br><b>B</b>: Lysine<br><b>C</b>: Alanine<br><b>D</b>: Glutamic acid</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Lysine is a basic amino acid due to the presence of an additional amino group in its side chain</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#e8f5e9">
+  <td>1870</td>
+  <td>2015</td>
+  <td>The structural formula for alanine is: H H H3C CH C COOH HO CH2 C COOH H3C NH2 NH2<br><br><b>B</b>: H H H C COOH H3C C COOH<br><b>C</b>: NH2<br><b>D</b>: NH2</td>
+  <td><b>D</b></td>
+  <td><b>C</b></td>
+  <td><b>D</b><br><small>high</small></td>
+  <td>The structural formula for alanine matches the description given, with the amino group (NH2) attached to the central carbon, which is option D</td>
+  <td>STORED_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1879</td>
+  <td>2015</td>
+  <td>Which one of the following will have the smallest radius?<br><br><b>A</b>: Al+3<br><b>B</b>: Mg+2<br><b>C</b>: Si+4<br><b>D</b>: Na+1</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>Si+4 has the smallest radius due to its higher effective nuclear charge and smaller ionic size compared to the other options</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1881</td>
+  <td>2015</td>
+  <td>On the basis of oxidizing power of halogens, which reaction is possible?<br><br><b>A</b>: I2 + 2Cl&#203;‰ Cl2 + 2I&#203;‰<br><b>B</b>: Cl2 + 2F&#203;‰ F2 + 2Cl&#203;‰<br><b>C</b>: Br2 + 2I &#203;‰ I2 + 2Br &#203;‰<br><b>D</b>: I2 + 2Br &#203;‰ Br2 + 2I&#203;‰</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>The reaction Br2 + 2I&#203;‰ &#226;†’ I2 + 2Br&#203;‰ is possible because bromine has a higher oxidizing power than iodide, allowing it to oxidize iodide to iodine</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1882</td>
+  <td>2015</td>
+  <td>Which one of the following gases is used as mixture for breathing by sea divers?<br><br><b>A</b>: Oxygen and Nitrogen<br><b>B</b>: Helium and Oxygen<br><b>C</b>: Nitrogen and Helium<br><b>D</b>: Helium and Hydrogen</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Helium and Oxygen are used as a breathing mixture by sea divers because helium is less soluble in blood than nitrogen, reducing the risk of decompression sickness</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1885</td>
+  <td>2015</td>
+  <td>About 80% of ammonia is used for the production of<br><br><b>A</b>: Explosives<br><b>B</b>: Nylon<br><b>C</b>: Fertilizers<br><b>D</b>: Polymers</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>The majority of ammonia is indeed used for the production of fertilizers, which is a well-established fact in the chemical industry</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1887</td>
+  <td>2015</td>
+  <td>During the manufacture of nitric acid, nitric oxide is oxidized to nitrogen dioxide. This reaction is given as: 2NO(g) + O2(g) &#226;‡Œ 2NO2(g) &#226;ˆ†H = &#226;€•114 kJ/mol According to Le Chatelier&#226;€™s Principle<br><br><b>A</b>: Reaction must not be temperature dependent<br><b>B</b>: Reaction must be carried out at low temperature<br><b>C</b>: Reaction must be carried out at room temperature<br><b>D</b>: Reaction must be carried out at high temperature</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>The reaction is exothermic, as indicated by the negative &#226;ˆ†H, so according to Le Chatelier&#226;€™s Principle, it must be carried out at low temperature to favor the forward reaction and maximize the yield of NO2.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1888</td>
+  <td>2015</td>
+  <td>What is the percentage of nitrogen in NH3NO3?<br><br><b>A</b>: 65%<br><b>B</b>: 20%<br><b>C</b>: 35%<br><b>D</b>: 58%</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>The molecular formula NH3NO3 contains two nitrogen atoms, and the molar mass of NH3NO3 is 64.02 g/mol, with nitrogen&#39;s molar mass being 14.01 g/mol, so the percentage of nitrogen is (2*14.01)/64.02 * 100 = 43.78% for two nitrogens in the compound but since one is part of the ammonia and the other part of the nitrate, the actual calculation should consider the total mass of nitrogen in the compound which is 28.02 g/mol out of 64.02 g/mol, giving approximately 43.78%, however, considering the closest option and common rounding in such calculations, the closest answer provided is 35%</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1892</td>
+  <td>2015</td>
+  <td>The given three hydrocarbons are Benzene Naphthalene Anthracene<br><br><b>A</b>: Alicyclic hydrocarbons<br><b>B</b>: Acyclic Hydrocarbons<br><b>C</b>: Aromatic hydrocarbons<br><b>D</b>: Heterocyclic hydrocarbons</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>Benzene, Naphthalene, and Anthracene are all examples of aromatic hydrocarbons due to their planar, ring-shaped molecular structures with alternating double bonds</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1899</td>
+  <td>2015</td>
+  <td>Which one of the following is also called silver mirror test?<br><br><b>A</b>: Fehling&#226;€™s solution test<br><b>B</b>: Tollen&#226;€™s reagent<br><b>C</b>: Iodoform test<br><b>D</b>: Benedict&#226;€™s solution tests</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Tollen&#39;s reagent is commonly known as the silver mirror test due to its ability to form a silver mirror when it reacts with aldehydes</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1904</td>
+  <td>2015</td>
+  <td>Polymide is formed due to the condensation od hexane-dioic acid with<br><br><b>A</b>: Hexane-1,5-diamine<br><b>B</b>: Hexane-1,4-diamine<br><b>C</b>: Hexane-1,6-diamine<br><b>D</b>: Hexane-2,5-diamine</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>Polyamide is formed due to the condensation of hexane-dioic acid with hexane-1,6-diamine, which is a well-known reaction in polymer chemistry.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1905</td>
+  <td>2015</td>
+  <td>Haemoglobin is a<br><br><b>A</b>: Genetic protein<br><b>B</b>: Transport protein<br><b>C</b>: Building protein<br><b>D</b>: Structural protein</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Haemoglobin is primarily responsible for transporting oxygen from the lungs to the body&#39;s tissues, making it a transport protein</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1907</td>
+  <td>2015</td>
+  <td>Out of these which nitrogen base is NOT present in DNA?<br><br><b>A</b>: Adenine<br><b>B</b>: Uracil<br><b>C</b>: Guanine<br><b>D</b>: Thymine</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Uracil is present in RNA, not DNA, which contains thymine instead</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1909</td>
+  <td>2015</td>
+  <td>The biggest source of acid rain is the oxide of<br><br><b>A</b>: N<br><b>B</b>: O<br><b>C</b>: S<br><b>D</b>: C</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>The biggest source of acid rain is the oxide of sulfur, which reacts with water to form sulfuric acid, a major component of acid rain</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1912</td>
+  <td>2015</td>
+  <td>The equation that represents standard enthalpy of atomization of hydrogen is: 1 1 1<br><br><b>A</b>: H2O(l) H2(g) + O(g) +218 kJ mol-1<br><b>B</b>: H2(g) H(g) +218 kJ mol-1 2 2 2 1 1 1<br><b>C</b>: H2O(l) H2(g) + O(g) &#226;€“218 kJ mol-1<br><b>D</b>: H2(g) H(g) &#226;€“218 kJ mol-1 2 2 2</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>The standard enthalpy of atomization of hydrogen is the energy required to break one mole of hydrogen molecules into two moles of hydrogen atoms, which is represented by the equation H2(g) &#226;†’ 2H(g) with a positive enthalpy change</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1915</td>
+  <td>2015</td>
+  <td>Given solution contains 16.0 g of CH3OH, 92.0 g of C2H5OH and 36 g of water. Which statement about mole fraction of the components is true?<br><br><b>A</b>: Mole fraction of CH3OH is highest among all<br><b>B</b>: Mole fraction of CH3OH and C2H5OH is same components<br><b>C</b>: Mole fraction of C2H5OH and H2O is the same<br><b>D</b>: Mole fraction of H2O is the lowest among all</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>The mole fraction of each component can be calculated by dividing the number of moles of that component by the total number of moles, and given the molecular weights and masses, C2H5OH and H2O have the same mole fraction</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1917</td>
+  <td>2015</td>
+  <td>Keeping in mind the electrode potential, which one of the following reactions is feasible?<br><br><b>A</b>: Zn+2 + Cu Cu+2 + Zn<br><b>B</b>: Fe + CuSO4 FeSO4 + Cu<br><b>C</b>: Zn + MgSO4 ZnSO4 + Mg<br><b>D</b>: Cd + MgSO4 CdSO4 + Mg</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>The reaction Fe + CuSO4 -&gt; FeSO4 + Cu is feasible because iron has a lower electrode potential than copper, making it capable of displacing copper from its salt</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1918</td>
+  <td>2015</td>
+  <td>What is the correct relation between pH and pK? Acid Base<br><br><b>A</b>: pH = pKa + log[ ]<br><b>B</b>: pH = pKa &#226;€• log[ ] Base Acid Acid Base<br><b>C</b>: pH = pKa &#226;€• log[ ]<br><b>D</b>: pH = pKa + log[ ] Base Acid</td>
+  <td><b>B</b></td>
+  <td><b>D</b></td>
+  <td><b>D</b><br><small>high</small></td>
+  <td>The Henderson-Hasselbalch equation is correctly represented as pH = pKa + log[Base]/[Acid], which matches option D</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1920</td>
+  <td>2015</td>
+  <td>In spite of all the torture, the police has failed to _________ any confession from the thief.<br><br><b>A</b>: Convince<br><b>B</b>: Refuse<br><b>C</b>: Elicit<br><b>D</b>: Agree</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>The word &#39;elicit&#39; means to draw out or obtain something, in this case, a confession, which fits the context of the sentence.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1921</td>
+  <td>2015</td>
+  <td>It is the duty of a teacher to _________ moral values in his students besides teaching.<br><br><b>A</b>: Tell<br><b>B</b>: Inculcate<br><b>C</b>: Record<br><b>D</b>: Suggest</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>The word &#39;inculcate&#39; means to teach or instill moral values, which is the most appropriate choice in the context of a teacher&#39;s duty.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1923</td>
+  <td>2015</td>
+  <td>Youngsters who indulge in love affairs are usually __________ in worldly manners.<br><br><b>A</b>: Adjoined<br><b>B</b>: Adjured<br><b>C</b>: Addled<br><b>D</b>: Adhesive SPOT THE ERROR: In the following sentences, some segments of each sentence are underlined. Your task is to identify that underlined segment of the sentence, which contains the mistake that needs to be corrected. Fill the Circle corresponding to that letter under the segment in the MCQ Response From.</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>The word &#39;addled&#39; means confused or disordered, which fits the context of youngsters being immature or foolish in worldly manners due to indulging in love affairs.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1932</td>
+  <td>2015</td>
+  <td><br><br><b>A</b>: They had died in the same day.<br><b>B</b>: They had died on the same day.<br><b>C</b>: They had died over the same day.<br><b>D</b>: They had died of the same day.</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Option B is the most grammatically correct and idiomatic way to express that two people died on the same day</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1940</td>
+  <td>2015</td>
+  <td>EMPATHY<br><br><b>A</b>: Understanding<br><b>B</b>: Friendship<br><b>C</b>: Animosity<br><b>D</b>: Sympathy</td>
+  <td><b>D</b></td>
+  <td><b>A</b></td>
+  <td><b>A</b><br><small>high</small></td>
+  <td>Empathy is the ability to understand and share the feelings of another, which aligns most closely with option A, Understanding.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1941</td>
+  <td>2015</td>
+  <td>FELICITY<br><br><b>A</b>: Boredom<br><b>B</b>: Happiness<br><b>C</b>: Business<br><b>D</b>: Relaxation</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Felicity is a synonym for happiness, which is a state of being happy or joyful</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1943</td>
+  <td>2015</td>
+  <td>VIRULENT<br><br><b>A</b>: Progressive<br><b>B</b>: Healthy<br><b>C</b>: Harmful<br><b>D</b>: Positive</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>The term &#39;virulent&#39; refers to a pathogen or disease that is highly infectious and harmful, making option C the most suitable choice</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#e8f5e9">
+  <td>1944</td>
+  <td>2015</td>
+  <td>RAPT<br><br><b>A</b>: Trumpet<br><b>B</b>: Rapid<br><b>C</b>: Bewitched<br><b>D</b>: Rash</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>The word &#39;RAPT&#39; is most closely related to &#39;Rapid&#39;, as it seems to be a partial or abbreviated form of the word.</td>
+  <td>STORED_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1945</td>
+  <td>2015</td>
+  <td>PEDAGOGY<br><br><b>A</b>: The study of pediatrics<br><b>B</b>: The study of cultural heritage<br><b>C</b>: The study of teaching methods<br><b>D</b>: The study of pectoral muscle</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>The term pedagogy refers to the method and practice of teaching, especially as an academic subject or theoretical concept</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1946</td>
+  <td>2015</td>
+  <td>INDICTMENT<br><br><b>A</b>: Humiliation<br><b>B</b>: Accusation<br><b>C</b>: Offended<br><b>D</b>: Invisible</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Indictment means a formal accusation of a crime, which aligns with option B, Accusation</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1952</td>
+  <td>2015</td>
+  <td>B-lymphocytes are named due to their relationship with:<br><br><b>A</b>: Blood<br><b>B</b>: Bone Marrow<br><b>C</b>: Bursa of Fabricius<br><b>D</b>: Bile Duct</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>B-lymphocytes are named due to their relationship with the Bursa of Fabricius, a lymphoid organ found in birds where these cells were first discovered and characterized.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1954</td>
+  <td>2015</td>
+  <td>In glycolysis, glycerate-1,3-bisphosphate is converted into glycerate-3-phosphate by losing _____________ phosphate molecules.<br><br><b>A</b>: 3<br><b>B</b>: 1<br><b>C</b>: 2<br><b>D</b>: 4</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>The conversion of glycerate-1,3-bisphosphate to glycerate-3-phosphate involves the loss of one phosphate molecule.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1955</td>
+  <td>2015</td>
+  <td>Malate is oxidized by _______ to oxaloacetate in Krebs&#226;€™s Cycle.<br><br><b>A</b>: ATP<br><b>B</b>: NAD<br><b>C</b>: NADP<br><b>D</b>: FAD</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Malate is oxidized to oxaloacetate in the Krebs cycle by the enzyme malate dehydrogenase, which uses NAD as a cofactor</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1957</td>
+  <td>2015</td>
+  <td>Carriers of the respiratory chain are located on:<br><br><b>A</b>: Matrix of mitochondria<br><b>B</b>: Inner membrane of mitochondria<br><b>C</b>: Outer membrane of mitochondria<br><b>D</b>: Cytoplasmic matrix</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>The respiratory chain carriers are embedded within the inner mitochondrial membrane, where they play a crucial role in generating ATP during oxidative phosphorylation.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1958</td>
+  <td>2015</td>
+  <td>In cystic fibrosis, liposomes-microscopic vesicles are sued which are coated with:<br><br><b>A</b>: Healthy Gene<br><b>B</b>: Protein<br><b>C</b>: Chromosome<br><b>D</b>: Carbohydrate</td>
+  <td><b>A</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Liposomes used in cystic fibrosis treatment are often coated with proteins to facilitate targeting and delivery of genetic material</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1959</td>
+  <td>2015</td>
+  <td>The DNA formed by the reverse transcription is called:<br><br><b>A</b>: rDNA<br><b>B</b>: cDNA<br><b>C</b>: dDNA<br><b>D</b>: DNA</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>The DNA formed by the reverse transcription is called complementary DNA, which is commonly abbreviated as cDNA.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1962</td>
+  <td>2015</td>
+  <td>A technique in transgenic animals in which desired gene is inserted into the eggs of animal is called:<br><br><b>A</b>: Embryonic Stem Cell mediated Transfer<br><b>B</b>: Retro-virus mediated gene Transfer<br><b>C</b>: Microinjection<br><b>D</b>: Virus vectors</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>Microinjection is the technique where a desired gene is directly inserted into the eggs of an animal, making it the most appropriate answer</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1964</td>
+  <td>2015</td>
+  <td>Light rays from the sun are absorbed by CO2 and re-radiate as ________ radiations.<br><br><b>A</b>: Ultraviolent<br><b>B</b>: Infra-Red<br><b>C</b>: Indigo<br><b>D</b>: Green</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>CO2 absorbs light rays from the sun and re-radiates them as infra-red radiations, which is a fundamental concept in atmospheric science and greenhouse effect</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1968</td>
+  <td>2015</td>
+  <td>During maternal mitosis, non-disjunction of autosomal chromosome pair results in the formation of an egg having 24 chromosomes in:<br><br><b>A</b>: Klinefelter&#226;€™s Syndrome<br><b>B</b>: Turner&#226;€™s Syndrome<br><b>C</b>: Down&#226;€™s Syndrome<br><b>D</b>: Jacob&#226;€™s Syndrome</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>Non-disjunction of an autosomal chromosome pair during maternal mitosis would result in an egg with an extra chromosome, which is a characteristic of Down&#39;s Syndrome when the extra chromosome is 21</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1969</td>
+  <td>2015</td>
+  <td>Typical symptoms like enlarged breasts and small testis in male are attributed to:<br><br><b>A</b>: Down&#226;€™s Syndrome<br><b>B</b>: Klinefelter&#226;€™s Syndrome<br><b>C</b>: Turner&#226;€™s Syndrome<br><b>D</b>: Phenylketonuria</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Klinefelter&#39;s Syndrome is a genetic condition in males that is characterized by an extra X chromosome, leading to symptoms such as enlarged breasts and small testes.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1970</td>
+  <td>2015</td>
+  <td>Fluid mosaic model of plasma membrane states that protein molecules float in a fluid _____ layer.<br><br><b>A</b>: Galactose<br><b>B</b>: Glucose<br><b>C</b>: Phospholipids<br><b>D</b>: Carbohydrate</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>The fluid mosaic model describes the plasma membrane as a fluid phospholipid bilayer with embedded proteins.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1971</td>
+  <td>2015</td>
+  <td>How many triplets of microtubules are present in centriole?<br><br><b>A</b>: Ten<br><b>B</b>: Nine<br><b>C</b>: Eight<br><b>D</b>: Seven</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>A centriole is composed of nine triplets of microtubules, which is a well-established fact in cell biology.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1973</td>
+  <td>2015</td>
+  <td>Which one of the following cell structure is involved in the synthesis of lipids?<br><br><b>A</b>: Endoplasmic Reticulum<br><b>B</b>: Centriole<br><b>C</b>: Golgi Complex<br><b>D</b>: Mitochondria</td>
+  <td><b>B</b></td>
+  <td><b>A</b></td>
+  <td><b>A</b><br><small>high</small></td>
+  <td>The Endoplasmic Reticulum is involved in the synthesis of lipids, making it the correct choice among the given options.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1974</td>
+  <td>2015</td>
+  <td>Monosaccharides are major components of:<br><br><b>A</b>: DNA, ATP, Ribulose bisphosphate and Cysteine<br><b>B</b>: DNA, NADP, ATP and Ribulose bisphosphate<br><b>C</b>: DNA, NAD and Insulin<br><b>D</b>: DNA, RNA and Myosin</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Monosaccharides are major components of DNA, NADP, ATP, and Ribulose bisphosphate, which are all biologically relevant molecules that contain or are derived from monosaccharides</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1977</td>
+  <td>2015</td>
+  <td>Which one of the following is an example of unsaturated fatty acid?<br><br><b>A</b>: Butyric Acid<br><b>B</b>: Palmitic Acid<br><b>C</b>: Oleic Acid<br><b>D</b>: Acetic Acid</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>Oleic Acid is an example of an unsaturated fatty acid because it contains one or more double bonds in its hydrocarbon chain</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1980</td>
+  <td>2015</td>
+  <td>Right atrium is separated from right ventricle by:<br><br><b>A</b>: Bicuspid Valve<br><b>B</b>: Tricuspid Valve<br><b>C</b>: Semilunar Valve<br><b>D</b>: Interatrial Septum</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>The tricuspid valve is the valve that separates the right atrium from the right ventricle, allowing blood to flow from the atrium into the ventricle.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1981</td>
+  <td>2015</td>
+  <td>The flaps of tricuspid valves are attached to muscular extensions of right ventricle known as:<br><br><b>A</b>: Smooth Muscles<br><b>B</b>: Intercostal Muscles<br><b>C</b>: Papillary Muscles<br><b>D</b>: Skeletal Muscles</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>The flaps of the tricuspid valve are indeed attached to muscular extensions of the right ventricle known as papillary muscles</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1983</td>
+  <td>2015</td>
+  <td>The heart beat cycle starts when electric impulses are generated from;<br><br><b>A</b>: AV Node<br><b>B</b>: SA Node<br><b>C</b>: SV Node<br><b>D</b>: PQ Node</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>The SA Node, also known as the sinoatrial node, is the natural pacemaker of the heart where the heartbeat cycle starts with the generation of electric impulses.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#e8f5e9">
+  <td>1986</td>
+  <td>2015</td>
+  <td>When water is in short supply, increased water retention occurs through the:<br><br><b>A</b>: Cortical nephrons<br><b>B</b>: Juxtamedullary nephrons<br><b>C</b>: Proximal Convoluted Tubule<br><b>D</b>: The tissue of cortex</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>The proximal convoluted tubule is the primary site where water reabsorption occurs, especially when water is in short supply, to increase water retention in the body.</td>
+  <td>STORED_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1991</td>
+  <td>2015</td>
+  <td>Which disease is responsible for dementia (memory loss)?<br><br><b>A</b>: Parkinson&#226;€™s Disease<br><b>B</b>: Epilepsy<br><b>C</b>: Alzheimer&#226;€™s Disease<br><b>D</b>: Grave&#226;€™s Disease</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>Alzheimer&#39;s Disease is the most common cause of dementia, which is characterized by a decline in memory, thinking, and behavioral abilities</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1997</td>
+  <td>2015</td>
+  <td>In females, FSH stimulates the ovary to produce:<br><br><b>A</b>: Progesterone<br><b>B</b>: Oestrogen<br><b>C</b>: Lactin<br><b>D</b>: Oxytocin</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>FSH stimulates the ovary to produce oestrogen, which is essential for the development of follicles and preparation for ovulation</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1998</td>
+  <td>2015</td>
+  <td>Syphilis, sexually transmitted disease is caused by:<br><br><b>A</b>: HIV<br><b>B</b>: Neisseria gonorhoeae<br><b>C</b>: Treponema pallidum<br><b>D</b>: Type &#226;€˜2&#226;€™ virus</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>Treponema pallidum is the bacterium that causes syphilis, a sexually transmitted disease.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1999</td>
+  <td>2015</td>
+  <td>In which phase of human female menstrual cycle, endometrium prepares for the implantation of embryo?<br><br><b>A</b>: Proliferative phase<br><b>B</b>: Secretory phase<br><b>C</b>: Menstrual phase<br><b>D</b>: Ovulation phase</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>The secretory phase is when the endometrium thickens and prepares for a potential pregnancy by secreting nutrients and hormones to support implantation of an embryo.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2000</td>
+  <td>2015</td>
+  <td>The total number of cervical and thoracic vertebrate in human vertebral column is:<br><br><b>A</b>: 7<br><b>B</b>: 14<br><b>C</b>: 19<br><b>D</b>: 33</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>The human vertebral column typically consists of 7 cervical and 12 thoracic vertebrae, making a total of 19</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2001</td>
+  <td>2015</td>
+  <td>A sarcomere is the region of a myofibril between two successive:<br><br><b>A</b>: M-lines<br><b>B</b>: I-bands<br><b>C</b>: Z-lines<br><b>D</b>: T-tubules</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>A sarcomere is defined as the segment of a myofibril between two adjacent Z-lines, which are the darkly staining structures that anchor the actin filaments</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2007</td>
+  <td>2015</td>
+  <td>X-linked recessive trait is:<br><br><b>A</b>: Hypophosphatemia<br><b>B</b>: Haemophilia<br><b>C</b>: Vitamin-D resistant rickets<br><b>D</b>: Diabetes Mellitus</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Haemophilia is a well-known X-linked recessive trait that affects the production of clotting factors in the blood.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2008</td>
+  <td>2015</td>
+  <td>Human skin colour is a good example of?<br><br><b>A</b>: Sex-linked inheritance<br><b>B</b>: x-linked inheritance<br><b>C</b>: Polygenic inheritance<br><b>D</b>: y-linked inheritance</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>Human skin colour is determined by multiple genes, making it a classic example of polygenic inheritance</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2009</td>
+  <td>2015</td>
+  <td>From evolutionary point of view, which respiratory protein is common in many organisms?<br><br><b>A</b>: Cytochrome a<br><b>B</b>: Cytochrome c<br><b>C</b>: Cytochrome b<br><b>D</b>: Cytochrome d</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Cytochrome c is a highly conserved protein found in many organisms, playing a crucial role in the electron transport chain and thus is common from an evolutionary point of view</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2011</td>
+  <td>2015</td>
+  <td>ABO blood system is an example of:<br><br><b>A</b>: Polygenes<br><b>B</b>: Multiple Alleles<br><b>C</b>: Multiple genes<br><b>D</b>: Multiple Mutation</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>The ABO blood system is a classic example of multiple alleles, where three different alleles (A, B, and O) determine an individual&#39;s blood type.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2013</td>
+  <td>2015</td>
+  <td>Which one of the following edible products is widely pasteurized?<br><br><b>A</b>: Soft drinks<br><b>B</b>: Milk<br><b>C</b>: Mango squash<br><b>D</b>: Orange Juice</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Milk is widely pasteurized to kill harmful bacteria and extend its shelf life</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2015</td>
+  <td>2015</td>
+  <td>Which organelle is bounded by two membranes?<br><br><b>A</b>: Ribosome<br><b>B</b>: Lysosome<br><b>C</b>: Mitochondria<br><b>D</b>: Nucleolus</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>Mitochondria are uniquely bounded by two membranes, an outer and an inner membrane, which is a characteristic feature distinguishing them from other organelles</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#e8f5e9">
+  <td>2016</td>
+  <td>2015</td>
+  <td>At the beginning of nuclear division, the number of microtubule triplets in two pairs of centrioles that migrate to opposite poles are:<br><br><b>A</b>: 9<br><b>B</b>: 108<br><b>C</b>: 18<br><b>D</b>: 36</td>
+  <td><b>D</b></td>
+  <td><b>B</b></td>
+  <td><b>D</b><br><small>high</small></td>
+  <td>Each centriole has 9 microtubule triplets and there are two pairs of centrioles, resulting in a total of 9 * 4 = 36 microtubule triplets</td>
+  <td>STORED_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2017</td>
+  <td>2015</td>
+  <td>The disease in which an individual has extra sex chromosome (44 + XXY) is known as:<br><br><b>A</b>: Down&#226;€™s syndrome<br><b>B</b>: Klinefelter&#226;€™s syndrome<br><b>C</b>: Tuner&#226;€™s syndrome<br><b>D</b>: Jacob&#226;€™s syndrome</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Klinefelter&#39;s syndrome is a genetic condition that occurs in males when they have an extra X chromosome, resulting in 47,XXY chromosomes</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2019</td>
+  <td>2015</td>
+  <td>Ejection of milk from mammary glands is under the control of which one of the following hormones?<br><br><b>A</b>: Androgen<br><b>B</b>: Progesterone<br><b>C</b>: Oxytocin<br><b>D</b>: Estrogen</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>Oxytocin is the hormone responsible for stimulating the contraction of mammary gland muscles to eject milk, a process known as the letdown reflex.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2020</td>
+  <td>2015</td>
+  <td>Granulocytes are:<br><br><b>A</b>: Monocytes, Eosinophils, Basophils<br><b>B</b>: Neurophils, Eosinophils, Basophils<br><b>C</b>: Basophils, Macrophages, Neurophils<br><b>D</b>: Monocytes, Macrophages, Basophils</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Granulocytes are a category of white blood cells that include neutrophils, eosinophils, and basophils, which matches option B</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2022</td>
+  <td>2015</td>
+  <td>Some enzymes require helper which is non-protein part for its efficient functioning that is called:<br><br><b>A</b>: Accelerator<br><b>B</b>: Prosthetic group<br><b>C</b>: Cofactor<br><b>D</b>: Apoenzyme</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>Cofactor is the correct term for a non-protein helper required for the efficient functioning of some enzymes, which can be either inorganic ions or organic compounds</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2023</td>
+  <td>2015</td>
+  <td>Pepsin, protein digesting enzymes, sets best pH:<br><br><b>A</b>: 3.00<br><b>B</b>: 2.00<br><b>C</b>: 4.50<br><b>D</b>: 6.00</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Pepsin, a protein-digesting enzyme, is most active at a pH of around 2.0, which is the typical pH of the stomach where it is found</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2025</td>
+  <td>2015</td>
+  <td>HIV is classified as:<br><br><b>A</b>: Bacteriophage<br><b>B</b>: Retrovirus<br><b>C</b>: Oncovirus<br><b>D</b>: Icosahedral virus</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>HIV is classified as a retrovirus because it has a reverse transcriptase enzyme that converts its RNA genome into DNA</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2029</td>
+  <td>2015</td>
+  <td>___________ is a triploblastic organism.<br><br><b>A</b>: Jelly Fish<br><b>B</b>: Tapeworm<br><b>C</b>: Sea Anemone<br><b>D</b>: Corals</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Tapeworm is a triploblastic organism because it has three primary germ layers: ectoderm, endoderm, and mesoderm, which is a characteristic of triploblastic organisms</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2030</td>
+  <td>2015</td>
+  <td>In arthropods, the body cavity is in the form of:<br><br><b>A</b>: Coelem<br><b>B</b>: Psedocoelem<br><b>C</b>: Haemocoel<br><b>D</b>: Enteron</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>The body cavity in arthropods is indeed a haemocoel, which is a cavity that contains hemolymph and surrounds the internal organs.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2031</td>
+  <td>2015</td>
+  <td>___________ is a good example of polymorphism.<br><br><b>A</b>: Hydra<br><b>B</b>: Obelia<br><b>C</b>: Starfish<br><b>D</b>: Equplectella</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Obelia is a good example of polymorphism as it exhibits different forms in its life cycle, such as the polyp and medusa stages</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2033</td>
+  <td>2015</td>
+  <td>___________ is also called liver fluke.<br><br><b>A</b>: Dugesia<br><b>B</b>: Fasciola<br><b>C</b>: Taenia<br><b>D</b>: Coral</td>
+  <td><b>C</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Fasciola is a genus of liver flukes, which are parasitic flatworms that infect the livers of various mammals, including humans.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>2036</td>
+  <td>2015</td>
+  <td>Trypsinogen is activated to trypsin by:<br><br><b>A</b>: HCl<br><b>B</b>: Mucus<br><b>C</b>: Enterokinase<br><b>D</b>: Gastrin</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>Enterokinase is the enzyme that activates trypsinogen to trypsin in the small intestine</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1633</td>
+  <td>2016</td>
+  <td>If we doubled all the parameters of the force acting on current carrying conductor and &#206;&#184; = 90&#194;&#176; then magnetic force becomes:<br><br><b>A</b>: Half<br><b>B</b>: Double<br><b>C</b>: Eight-times<br><b>D</b>: Four-times</td>
+  <td><b>C</b></td>
+  <td><b>D</b></td>
+  <td><b>D</b><br><small>high</small></td>
+  <td>When all parameters of the force acting on a current-carrying conductor are doubled and &#206;&#184; = 90&#194;&#176;, the magnetic force becomes four times its original value because the force is directly proportional to the current, length of the conductor, and magnetic field strength, all of which are doubled.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1635</td>
+  <td>2016</td>
+  <td>The shadow of the bones in X-rays photographic film appears lighter than the surrounding flesh due to:<br><br><b>A</b>: Bones reflect greater amount of X-rays<br><b>B</b>: Bones absorb less amount of X-rays<br><b>C</b>: Bones absorb greater amount of X-rays<br><b>D</b>: Bones totally reflect X-rays</td>
+  <td><b>B</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>Bones appear lighter on X-ray film because they absorb more X-rays, allowing fewer to reach the film and resulting in a lighter shadow</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1644</td>
+  <td>2016</td>
+  <td>Which one of the following is structural formula of proline? [Diagram/graph/structure required &#226;€” not transcribable from OCR text. See original PDF page for the figure.]<br><br><b>A</b>: Structure A<br><b>B</b>: Structure B (a cyclic secondary amine ring with -COOH)<br><b>C</b>: Structure C<br><b>D</b>: Structure D</td>
+  <td><b>A</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Proline is a unique amino acid with a cyclic secondary amine ring structure that also contains a carboxyl (-COOH) group, which matches the description of Structure B</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1651</td>
+  <td>2016</td>
+  <td>In the woody parts of trees, the %age of cellulose is:<br><br><b>A</b>: 50%<br><b>B</b>: 10%<br><b>C</b>: 30%<br><b>D</b>: 100%</td>
+  <td><b>D</b></td>
+  <td><b>A</b></td>
+  <td><b>A</b><br><small>high</small></td>
+  <td>Cellulose is a primary component of wood, making up approximately 50% of its dry weight</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#e8f5e9">
+  <td>1659</td>
+  <td>2016</td>
+  <td>London dispersion forces are the only forces present among the:<br><br><b>A</b>: Molecules of H2O in liquid state<br><b>B</b>: Molecules of HCl gas<br><b>C</b>: Atoms of helium in gaseous state at high temperature<br><b>D</b>: Molecules of solid chlorine</td>
+  <td><b>C</b></td>
+  <td><b>D</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>London dispersion forces are the only forces present among the atoms of helium in gaseous state at high temperature because helium is a noble gas and does not form any other type of intermolecular force</td>
+  <td>STORED_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1666</td>
+  <td>2016</td>
+  <td>Freezing point will also be defined as that temperature at which its solid and liquid phases have the same:<br><br><b>A</b>: Concentration<br><b>B</b>: Ratio between the particles<br><b>C</b>: Vapour pressure<br><b>D</b>: Attraction between the phases</td>
+  <td><b>D</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>Freezing point is defined as the temperature at which the solid and liquid phases of a substance have the same vapour pressure</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1679</td>
+  <td>2016</td>
+  <td>Which element of 3d series of periodic table shows the electronic configuration of 3d6, 4s2?<br><br><b>A</b>: Copper<br><b>B</b>: Cobalt<br><b>C</b>: Zinc<br><b>D</b>: Nickel</td>
+  <td><b>D</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Cobalt has an electronic configuration of [Ar] 3d7 4s2, but when it loses 2 electrons to form Co2+ it has [Ar] 3d7, however Iron has [Ar] 3d6 4s2</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1681</td>
+  <td>2016</td>
+  <td>Which one of the following is anhydride of sulphuric acid?<br><br><b>A</b>: Sulphur (II) oxide<br><b>B</b>: Sulphur (VI) oxide<br><b>C</b>: Iron pyrite<br><b>D</b>: Sulphur (VI) oxide</td>
+  <td><b>D</b></td>
+  <td><b>B</b></td>
+  <td><b>B</b><br><small>high</small></td>
+  <td>Sulphur (VI) oxide is the anhydride of sulphuric acid because it reacts with water to form sulphuric acid</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1705</td>
+  <td>2016</td>
+  <td>SPOT THE ERROR: It showed that (he was a man capable)[a] of (looking beneath the surface of things,)[b] a man not (dependent in)[c] paper manifestations.[d]<br><br><b>A</b>: he was a man capable<br><b>B</b>: looking beneath the surface of things,<br><b>C</b>: dependent in<br><b>D</b>: paper manifestations.</td>
+  <td><b>D</b></td>
+  <td><b>C</b></td>
+  <td><b>C</b><br><small>high</small></td>
+  <td>The phrase should be &#39;dependent on&#39; instead of &#39;dependent in&#39; to correctly convey the idea of reliance on something.</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1706</td>
+  <td>2016</td>
+  <td>SPOT THE ERROR: When he was a child, (every time he were naughty,)[a] (his foster-mother used to threaten)[b] (to send him)[c] to Timbuktu.[d]<br><br><b>A</b>: every time he were naughty,<br><b>B</b>: his foster-mother used to threaten<br><b>C</b>: to send him<br><b>D</b>: to Timbuktu.</td>
+  <td><b>B</b></td>
+  <td><b>A</b></td>
+  <td><b>A</b><br><small>high</small></td>
+  <td>The error is in the verb conjugation, where &#39;he were&#39; should be &#39;he was&#39; to maintain subject-verb agreement</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+<tr style="background:#fff3e0">
+  <td>1722</td>
+  <td>2016</td>
+  <td>Select the NEAREST CORRECT MEANING: CHIVALRY<br><br><b>A</b>: Coward<br><b>B</b>: Non-cooperative<br><b>C</b>: Imitating<br><b>D</b>: Gallant</td>
+  <td><b>A</b></td>
+  <td><b>D</b></td>
+  <td><b>D</b><br><small>high</small></td>
+  <td>Chivalry refers to the medieval code of conduct associated with knighthood, emphasizing honor, bravery, and courtesy, which is closest in meaning to gallant</td>
+  <td>GEMINI_CORRECT</td>
+</tr>
+</table></body></html>

@@ -1,0 +1,1970 @@
+VERIFIED-KEYS APPLY REPORT
+============================================================
+
+Source file: C:\Users\Jawad\projects\mdcat-platform\mdcat-content\verification\keys.txt
+Mode: DRY RUN
+
+Answers flipped (174):
+  ID 2038: A  ->  C
+  ID 2041: C  ->  A
+  ID 2045: B  ->  D
+  ID 2046: D  ->  B
+  ID 2047: B  ->  A
+  ID 2048: D  ->  B
+  ID 2049: C  ->  A
+  ID 2050: A  ->  D
+  ID 2051: C  ->  B
+  ID 2054: C  ->  B
+  ID 2056: C  ->  B
+  ID 2057: A  ->  C
+  ID 2058: B  ->  D
+  ID 2059: A  ->  B
+  ID 2064: C  ->  B
+  ID 2066: A  ->  B
+  ID 2067: A  ->  B
+  ID 2068: A  ->  B
+  ID 2069: D  ->  A
+  ID 2070: C  ->  A
+  ID 2072: A  ->  C
+  ID 2073: D  ->  C
+  ID 2074: C  ->  A
+  ID 2075: C  ->  A
+  ID 2076: C  ->  B
+  ID 2078: C  ->  A
+  ID 2082: D  ->  B
+  ID 2083: D  ->  B
+  ID 2084: A  ->  C
+  ID 2085: C  ->  B
+  ID 2086: C  ->  B
+  ID 2087: A  ->  B
+  ID 2089: A  ->  B
+  ID 2090: C  ->  B
+  ID 2091: B  ->  D
+  ID 2094: D  ->  B
+  ID 2096: C  ->  B
+  ID 2097: B  ->  A
+  ID 2098: B  ->  D
+  ID 2105: C  ->  B
+  ID 2106: B  ->  A
+  ID 2107: D  ->  C
+  ID 2108: C  ->  B
+  ID 2109: A  ->  B
+  ID 2111: B  ->  A
+  ID 2112: D  ->  B
+  ID 2113: D  ->  C
+  ID 2116: A  ->  B
+  ID 2118: C  ->  B
+  ID 2121: D  ->  A
+  ID 2124: B  ->  C
+  ID 2125: C  ->  D
+  ID 2126: A  ->  B
+  ID 2132: D  ->  A
+  ID 2133: D  ->  B
+  ID 2134: B  ->  A
+  ID 2135: C  ->  B
+  ID 2136: C  ->  B
+  ID 2137: A  ->  B
+  ID 2138: D  ->  A
+  ID 2142: B  ->  D
+  ID 2143: C  ->  B
+  ID 2144: C  ->  B
+  ID 2147: C  ->  B
+  ID 2149: C  ->  B
+  ID 2151: C  ->  A
+  ID 2152: B  ->  A
+  ID 2155: C  ->  A
+  ID 2156: B  ->  A
+  ID 2157: C  ->  A
+  ID 2160: C  ->  A
+  ID 2161: C  ->  A
+  ID 2162: C  ->  A
+  ID 2164: B  ->  A
+  ID 2165: B  ->  A
+  ID 2166: B  ->  A
+  ID 2167: B  ->  A
+  ID 2168: B  ->  A
+  ID 2170: C  ->  B
+  ID 2172: D  ->  C
+  ID 2173: A  ->  B
+  ID 2174: B  ->  C
+  ID 2176: C  ->  B
+  ID 2177: C  ->  B
+  ID 2178: C  ->  B
+  ID 2179: C  ->  B
+  ID 2180: C  ->  B
+  ID 2181: C  ->  B
+  ID 2182: A  ->  B
+  ID 2184: A  ->  D
+  ID 2185: B  ->  D
+  ID 2187: B  ->  A
+  ID 2189: D  ->  A
+  ID 2190: C  ->  A
+  ID 2191: C  ->  A
+  ID 2192: C  ->  A
+  ID 2193: B  ->  A
+  ID 2194: D  ->  B
+  ID 2195: A  ->  B
+  ID 2197: B  ->  A
+  ID 2199: B  ->  A
+  ID 2200: B  ->  A
+  ID 2201: B  ->  D
+  ID 2202: D  ->  B
+  ID 2203: D  ->  A
+  ID 2204: B  ->  C
+  ID 2206: A  ->  B
+  ID 2207: D  ->  A
+  ID 2211: A  ->  B
+  ID 2212: D  ->  B
+  ID 2213: B  ->  D
+  ID 2214: A  ->  B
+  ID 2217: D  ->  A
+  ID 2218: C  ->  A
+  ID 2219: C  ->  A
+  ID 2220: D  ->  B
+  ID 2221: C  ->  B
+  ID 2224: A  ->  B
+  ID 2225: D  ->  C
+  ID 2226: D  ->  B
+  ID 2227: A  ->  C
+  ID 2229: D  ->  A
+  ID 2230: B  ->  C
+  ID 2232: A  ->  B
+  ID 2233: B  ->  A
+  ID 2234: D  ->  B
+  ID 2235: B  ->  C
+  ID 2236: C  ->  B
+  ID 2237: D  ->  C
+  ID 2238: C  ->  B
+  ID 2239: C  ->  B
+  ID 2241: A  ->  C
+  ID 2243: C  ->  A
+  ID 2244: A  ->  B
+  ID 2246: A  ->  C
+  ID 2247: C  ->  A
+  ID 2248: C  ->  D
+  ID 2255: D  ->  A
+  ID 2256: A  ->  C
+  ID 1818: A  ->  C
+  ID 1819: B  ->  C
+  ID 1820: D  ->  C
+  ID 1821: D  ->  C
+  ID 1827: B  ->  C
+  ID 1830: B  ->  C
+  ID 1831: D  ->  C
+  ID 1833: C  ->  B
+  ID 1834: B  ->  C
+  ID 1843: B  ->  C
+  ID 1847: A  ->  C
+  ID 1849: D  ->  C
+  ID 1856: B  ->  C
+  ID 1858: A  ->  C
+  ID 1869: A  ->  C
+  ID 1878: D  ->  C
+  ID 1880: D  ->  C
+  ID 1886: D  ->  C
+  ID 1888: B  ->  C
+  ID 1931: A  ->  D
+  ID 1932: C  ->  D
+  ID 1937: B  ->  D
+  ID 1938: C  ->  D
+  ID 1666: D  ->  C
+  ID 1711: C  ->  D
+  ID 1713: B  ->  D
+  ID 1715: B  ->  D
+  ID 1716: B  ->  D
+  ID 1717: C  ->  D
+  ID 1719: C  ->  D
+  ID 1722: A  ->  D
+  ID 1734: A  ->  B
+  ID 1755: D  ->  A
+  ID 1756: D  ->  A
+  ID 1757: D  ->  B
+
+Answers already correct (1769):
+  ID 2039: B
+  ID 2044: B
+  ID 2055: B
+  ID 2065: C
+  ID 2077: B
+  ID 2079: B
+  ID 2081: C
+  ID 2092: B
+  ID 2095: B
+  ID 2099: B
+  ID 2101: B
+  ID 2102: C
+  ID 2103: A
+  ID 2114: B
+  ID 2115: B
+  ID 2117: B
+  ID 2120: B
+  ID 2129: B
+  ID 2139: C
+  ID 2140: B
+  ID 2141: B
+  ID 2145: A
+  ID 2146: B
+  ID 2148: A
+  ID 2150: A
+  ID 2153: A
+  ID 2154: A
+  ID 2158: A
+  ID 2159: A
+  ID 2163: A
+  ID 2169: A
+  ID 2171: B
+  ID 2175: B
+  ID 2183: B
+  ID 2186: C
+  ID 2188: B
+  ID 2196: C
+  ID 2198: B
+  ID 2205: B
+  ID 2208: C
+  ID 2209: B
+  ID 2210: A
+  ID 2215: B
+  ID 2216: B
+  ID 2222: B
+  ID 2223: C
+  ID 2228: B
+  ID 2231: C
+  ID 2240: A
+  ID 2242: B
+  ID 2245: B
+  ID 2249: A
+  ID 2250: B
+  ID 2252: B
+  ID 2253: A
+  ID 2254: B
+  ID 1822: C
+  ID 1823: A
+  ID 1824: A
+  ID 1825: D
+  ID 1826: C
+  ID 1828: C
+  ID 1829: A
+  ID 1832: A
+  ID 1835: C
+  ID 1836: D
+  ID 1838: A
+  ID 1839: D
+  ID 1840: D
+  ID 1841: A
+  ID 1842: C
+  ID 1844: C
+  ID 1845: D
+  ID 1846: A
+  ID 1848: C
+  ID 1852: C
+  ID 1855: B
+  ID 1857: D
+  ID 1859: B
+  ID 1860: C
+  ID 1862: A
+  ID 1863: D
+  ID 1864: C
+  ID 1866: C
+  ID 1870: D
+  ID 1872: D
+  ID 1874: A
+  ID 1877: D
+  ID 1879: B
+  ID 1881: B
+  ID 1882: C
+  ID 1883: D
+  ID 1884: A
+  ID 1885: B
+  ID 1887: C
+  ID 1891: D
+  ID 1892: B
+  ID 1894: A
+  ID 1895: B
+  ID 1897: D
+  ID 1898: A
+  ID 1899: C
+  ID 1901: A
+  ID 1903: D
+  ID 1904: B
+  ID 1905: C
+  ID 1906: A
+  ID 1907: C
+  ID 1908: A
+  ID 1909: B
+  ID 1910: D
+  ID 1912: C
+  ID 1913: D
+  ID 1914: A
+  ID 1915: B
+  ID 1917: C
+  ID 1918: B
+  ID 1920: B
+  ID 1921: C
+  ID 1922: A
+  ID 1923: B
+  ID 1930: D
+  ID 1940: D
+  ID 1941: C
+  ID 1942: D
+  ID 1943: B
+  ID 1944: B
+  ID 1945: B
+  ID 1946: C
+  ID 1947: A
+  ID 1948: A
+  ID 1949: A
+  ID 1951: D
+  ID 1952: B
+  ID 1954: C
+  ID 1955: C
+  ID 1956: D
+  ID 1957: C
+  ID 1958: A
+  ID 1959: C
+  ID 1960: A
+  ID 1961: D
+  ID 1962: B
+  ID 1963: A
+  ID 1964: C
+  ID 1965: D
+  ID 1966: A
+  ID 1968: B
+  ID 1969: C
+  ID 1970: B
+  ID 1971: C
+  ID 1972: D
+  ID 1973: B
+  ID 1974: C
+  ID 1975: A
+  ID 1976: D
+  ID 1977: B
+  ID 1978: A
+  ID 1979: D
+  ID 1980: C
+  ID 1981: B
+  ID 1982: A
+  ID 1983: C
+  ID 1984: D
+  ID 1985: A
+  ID 1986: C
+  ID 1987: A
+  ID 1988: D
+  ID 1989: A
+  ID 1990: D
+  ID 1991: B
+  ID 1992: D
+  ID 1993: D
+  ID 1995: D
+  ID 1996: A
+  ID 1997: C
+  ID 1998: B
+  ID 1999: C
+  ID 2000: B
+  ID 2001: B
+  ID 2002: D
+  ID 2003: A
+  ID 2004: A
+  ID 2005: D
+  ID 2006: A
+  ID 2007: C
+  ID 2008: B
+  ID 2009: C
+  ID 2010: D
+  ID 2011: C
+  ID 2012: D
+  ID 2013: C
+  ID 2014: A
+  ID 2015: B
+  ID 2016: D
+  ID 2017: C
+  ID 2018: A
+  ID 2019: B
+  ID 2020: C
+  ID 2021: D
+  ID 2022: B
+  ID 2023: C
+  ID 2024: D
+  ID 2025: C
+  ID 2026: A
+  ID 2027: D
+  ID 2028: A
+  ID 2029: C
+  ID 2030: B
+  ID 2031: C
+  ID 2032: A
+  ID 2033: C
+  ID 2034: D
+  ID 2036: B
+  ID 2037: D
+  ID 1603: B
+  ID 1604: C
+  ID 1605: B
+  ID 1606: C
+  ID 1607: D
+  ID 1608: A
+  ID 1609: B
+  ID 1610: D
+  ID 1611: C
+  ID 1612: A
+  ID 1613: C
+  ID 1614: B
+  ID 1615: A
+  ID 1616: C
+  ID 1617: D
+  ID 1618: A
+  ID 1619: C
+  ID 1620: D
+  ID 1621: A
+  ID 1622: A
+  ID 1623: D
+  ID 1624: D
+  ID 1625: A
+  ID 1626: A
+  ID 1627: A
+  ID 1628: C
+  ID 1629: B
+  ID 1630: A
+  ID 1632: C
+  ID 1634: C
+  ID 1635: B
+  ID 1636: C
+  ID 1637: C
+  ID 1638: D
+  ID 1639: D
+  ID 1640: A
+  ID 1641: D
+  ID 1642: C
+  ID 1643: B
+  ID 1644: A
+  ID 1645: A
+  ID 1646: D
+  ID 1647: D
+  ID 1648: C
+  ID 1649: C
+  ID 1650: C
+  ID 1651: D
+  ID 1654: D
+  ID 1656: A
+  ID 1657: C
+  ID 1658: C
+  ID 1659: C
+  ID 1660: C
+  ID 1661: D
+  ID 1662: C
+  ID 1664: A
+  ID 1665: D
+  ID 1667: D
+  ID 1669: D
+  ID 1670: D
+  ID 1671: C
+  ID 1672: A
+  ID 1673: A
+  ID 1674: C
+  ID 1675: C
+  ID 1676: D
+  ID 1677: D
+  ID 1678: C
+  ID 1679: D
+  ID 1680: C
+  ID 1681: D
+  ID 1682: D
+  ID 1683: C
+  ID 1684: B
+  ID 1686: C
+  ID 1687: A
+  ID 1688: D
+  ID 1689: C
+  ID 1690: D
+  ID 1695: D
+  ID 1696: C
+  ID 1697: B
+  ID 1698: D
+  ID 1699: A
+  ID 1700: C
+  ID 1701: B
+  ID 1702: B
+  ID 1703: D
+  ID 1704: C
+  ID 1705: D
+  ID 1706: B
+  ID 1707: A
+  ID 1708: B
+  ID 1709: A
+  ID 1710: D
+  ID 1712: D
+  ID 1714: D
+  ID 1718: D
+  ID 1720: D
+  ID 1721: A
+  ID 1723: D
+  ID 1724: A
+  ID 1725: B
+  ID 1726: A
+  ID 1727: B
+  ID 1728: A
+  ID 1729: A
+  ID 1730: B
+  ID 1731: A
+  ID 1732: B
+  ID 1733: B
+  ID 1735: A
+  ID 1736: A
+  ID 1737: B
+  ID 1738: D
+  ID 1739: D
+  ID 1740: B
+  ID 1741: B
+  ID 1742: A
+  ID 1743: A
+  ID 1744: B
+  ID 1745: B
+  ID 1746: B
+  ID 1747: B
+  ID 1748: A
+  ID 1749: D
+  ID 1750: A
+  ID 1751: D
+  ID 1752: B
+  ID 1753: C
+  ID 1754: B
+  ID 1758: D
+  ID 1759: A
+  ID 1760: D
+  ID 1761: D
+  ID 1763: B
+  ID 1764: A
+  ID 1765: C
+  ID 1766: B
+  ID 1768: A
+  ID 1770: C
+  ID 1771: A
+  ID 1772: C
+  ID 1773: A
+  ID 1774: D
+  ID 1775: D
+  ID 1776: C
+  ID 1777: A
+  ID 1778: D
+  ID 1779: A
+  ID 1780: A
+  ID 1781: A
+  ID 1782: C
+  ID 1783: B
+  ID 1784: C
+  ID 1785: B
+  ID 1786: D
+  ID 1787: A
+  ID 1788: D
+  ID 1789: B
+  ID 1790: C
+  ID 1791: C
+  ID 1792: D
+  ID 1793: B
+  ID 1794: C
+  ID 1795: C
+  ID 1796: D
+  ID 1797: D
+  ID 1798: A
+  ID 1799: C
+  ID 1800: B
+  ID 1801: A
+  ID 1802: B
+  ID 1803: C
+  ID 1804: D
+  ID 1805: D
+  ID 1806: A
+  ID 1807: A
+  ID 1808: D
+  ID 1809: A
+  ID 1810: B
+  ID 1811: B
+  ID 1812: D
+  ID 1813: D
+  ID 1814: D
+  ID 1815: D
+  ID 1817: C
+  ID 1389: A
+  ID 1390: C
+  ID 1391: C
+  ID 1392: A
+  ID 1393: B
+  ID 1394: C
+  ID 1395: D
+  ID 1397: A
+  ID 1398: C
+  ID 1399: B
+  ID 1400: B
+  ID 1401: A
+  ID 1402: B
+  ID 1403: B
+  ID 1404: D
+  ID 1405: B
+  ID 1406: C
+  ID 1407: A
+  ID 1408: B
+  ID 1409: A
+  ID 1410: D
+  ID 1411: D
+  ID 1412: A
+  ID 1413: C
+  ID 1414: D
+  ID 1415: B
+  ID 1416: D
+  ID 1417: A
+  ID 1418: B
+  ID 1419: D
+  ID 1420: C
+  ID 1421: A
+  ID 1422: B
+  ID 1423: D
+  ID 1424: C
+  ID 1425: A
+  ID 1426: B
+  ID 1427: C
+  ID 1428: C
+  ID 1429: D
+  ID 1430: C
+  ID 1431: A
+  ID 1432: B
+  ID 1433: A
+  ID 1434: A
+  ID 1435: C
+  ID 1436: A
+  ID 1437: B
+  ID 1438: B
+  ID 1439: D
+  ID 1440: D
+  ID 1441: C
+  ID 1442: D
+  ID 1443: D
+  ID 1444: B
+  ID 1445: B
+  ID 1446: A
+  ID 1447: A
+  ID 1448: D
+  ID 1449: A
+  ID 1450: D
+  ID 1451: B
+  ID 1452: D
+  ID 1453: C
+  ID 1454: B
+  ID 1455: A
+  ID 1456: A
+  ID 1457: C
+  ID 1458: A
+  ID 1459: B
+  ID 1460: D
+  ID 1461: D
+  ID 1462: C
+  ID 1463: B
+  ID 1464: C
+  ID 1465: B
+  ID 1466: C
+  ID 1467: D
+  ID 1468: B
+  ID 1469: A
+  ID 1470: C
+  ID 1471: D
+  ID 1473: A
+  ID 1476: D
+  ID 1477: B
+  ID 1478: D
+  ID 1479: A
+  ID 1480: C
+  ID 1481: D
+  ID 1483: C
+  ID 1484: D
+  ID 1485: D
+  ID 1486: C
+  ID 1487: C
+  ID 1488: B
+  ID 1489: C
+  ID 1490: C
+  ID 1491: C
+  ID 1492: C
+  ID 1493: C
+  ID 1494: A
+  ID 1495: B
+  ID 1496: A
+  ID 1498: A
+  ID 1499: A
+  ID 1500: A
+  ID 1501: B
+  ID 1504: A
+  ID 1505: C
+  ID 1506: B
+  ID 1507: B
+  ID 1508: C
+  ID 1509: B
+  ID 1510: C
+  ID 1511: D
+  ID 1513: C
+  ID 1514: A
+  ID 1516: D
+  ID 1517: C
+  ID 1518: B
+  ID 1519: B
+  ID 1520: C
+  ID 1521: B
+  ID 1522: C
+  ID 1523: D
+  ID 1524: C
+  ID 1525: B
+  ID 1526: D
+  ID 1527: B
+  ID 1528: A
+  ID 1529: D
+  ID 1530: B
+  ID 1531: C
+  ID 1532: B
+  ID 1533: C
+  ID 1534: A
+  ID 1535: D
+  ID 1536: B
+  ID 1537: A
+  ID 1538: C
+  ID 1539: A
+  ID 1540: D
+  ID 1541: C
+  ID 1542: A
+  ID 1543: A
+  ID 1544: C
+  ID 1545: B
+  ID 1546: D
+  ID 1547: C
+  ID 1548: A
+  ID 1549: A
+  ID 1550: B
+  ID 1551: C
+  ID 1552: C
+  ID 1553: A
+  ID 1557: C
+  ID 1558: B
+  ID 1559: B
+  ID 1560: A
+  ID 1561: D
+  ID 1562: B
+  ID 1563: C
+  ID 1564: A
+  ID 1565: D
+  ID 1566: A
+  ID 1569: B
+  ID 1570: A
+  ID 1571: C
+  ID 1572: B
+  ID 1573: D
+  ID 1574: B
+  ID 1575: D
+  ID 1576: A
+  ID 1577: B
+  ID 1578: C
+  ID 1579: D
+  ID 1580: A
+  ID 1581: D
+  ID 1582: B
+  ID 1584: B
+  ID 1585: D
+  ID 1586: C
+  ID 1587: A
+  ID 1588: C
+  ID 1589: A
+  ID 1590: C
+  ID 1592: D
+  ID 1593: C
+  ID 1594: B
+  ID 1595: B
+  ID 1596: B
+  ID 1597: C
+  ID 1598: A
+  ID 1600: A
+  ID 1601: B
+  ID 970: D
+  ID 971: D
+  ID 972: C
+  ID 973: A
+  ID 974: A
+  ID 975: A
+  ID 976: C
+  ID 977: D
+  ID 978: C
+  ID 979: C
+  ID 980: B
+  ID 981: D
+  ID 982: B
+  ID 983: A
+  ID 984: B
+  ID 985: D
+  ID 986: A
+  ID 987: D
+  ID 988: D
+  ID 989: D
+  ID 990: D
+  ID 991: A
+  ID 992: C
+  ID 993: D
+  ID 994: C
+  ID 995: C
+  ID 996: A
+  ID 997: D
+  ID 998: A
+  ID 999: C
+  ID 1000: C
+  ID 1001: D
+  ID 1002: A
+  ID 1003: D
+  ID 1004: D
+  ID 1005: C
+  ID 1006: B
+  ID 1007: A
+  ID 1008: B
+  ID 1009: C
+  ID 1010: D
+  ID 1011: D
+  ID 1012: D
+  ID 1013: C
+  ID 1014: A
+  ID 1015: B
+  ID 1016: A
+  ID 1017: A
+  ID 1018: B
+  ID 1019: A
+  ID 1020: B
+  ID 1021: B
+  ID 1022: B
+  ID 1023: B
+  ID 1024: A
+  ID 1025: B
+  ID 1026: D
+  ID 1027: D
+  ID 1028: B
+  ID 1029: A
+  ID 1030: A
+  ID 1031: D
+  ID 1032: D
+  ID 1033: D
+  ID 1034: C
+  ID 1035: A
+  ID 1036: D
+  ID 1037: A
+  ID 1038: A
+  ID 1039: B
+  ID 1040: B
+  ID 1041: A
+  ID 1042: A
+  ID 1043: A
+  ID 1044: B
+  ID 1045: B
+  ID 1046: B
+  ID 1047: B
+  ID 1048: A
+  ID 1049: D
+  ID 1050: D
+  ID 1051: D
+  ID 1052: C
+  ID 1053: C
+  ID 1054: D
+  ID 1055: A
+  ID 1056: B
+  ID 1057: A
+  ID 1058: D
+  ID 1059: A
+  ID 1060: D
+  ID 1061: A
+  ID 1062: A
+  ID 1063: B
+  ID 1064: C
+  ID 1066: A
+  ID 1067: C
+  ID 1068: C
+  ID 1069: C
+  ID 1071: A
+  ID 1072: B
+  ID 1073: B
+  ID 1074: A
+  ID 1075: C
+  ID 1076: C
+  ID 1077: A
+  ID 1078: B
+  ID 1079: B
+  ID 1080: D
+  ID 1081: D
+  ID 1082: D
+  ID 1083: D
+  ID 1084: B
+  ID 1085: B
+  ID 1086: A
+  ID 1087: D
+  ID 1088: B
+  ID 1089: C
+  ID 1090: A
+  ID 1091: D
+  ID 1092: D
+  ID 1093: D
+  ID 1094: A
+  ID 1095: A
+  ID 1096: A
+  ID 1097: A
+  ID 1098: D
+  ID 1099: A
+  ID 1100: D
+  ID 1101: B
+  ID 1102: D
+  ID 1103: D
+  ID 1104: D
+  ID 1105: C
+  ID 1106: A
+  ID 1107: A
+  ID 1108: A
+  ID 1109: B
+  ID 1110: D
+  ID 1111: D
+  ID 1112: A
+  ID 1113: B
+  ID 1114: D
+  ID 1115: C
+  ID 1116: D
+  ID 1117: D
+  ID 1118: D
+  ID 1120: C
+  ID 1121: B
+  ID 1122: A
+  ID 1123: A
+  ID 1124: A
+  ID 1126: B
+  ID 1127: D
+  ID 1128: D
+  ID 1129: A
+  ID 1130: B
+  ID 1131: A
+  ID 1132: C
+  ID 1133: C
+  ID 1134: D
+  ID 1135: C
+  ID 1136: B
+  ID 1137: A
+  ID 1138: A
+  ID 1139: D
+  ID 1140: A
+  ID 1141: D
+  ID 1142: B
+  ID 1143: B
+  ID 1144: D
+  ID 1145: A
+  ID 1146: D
+  ID 1147: C
+  ID 1148: D
+  ID 1149: B
+  ID 1150: D
+  ID 1151: A
+  ID 1152: D
+  ID 1153: A
+  ID 1154: A
+  ID 1155: B
+  ID 1156: A
+  ID 1157: B
+  ID 1158: D
+  ID 1159: A
+  ID 1160: A
+  ID 1161: A
+  ID 1162: B
+  ID 1163: D
+  ID 1164: C
+  ID 1165: A
+  ID 1166: D
+  ID 1167: C
+  ID 1168: B
+  ID 1169: D
+  ID 1170: A
+  ID 1171: D
+  ID 1172: C
+  ID 1173: C
+  ID 1174: A
+  ID 1175: C
+  ID 1176: A
+  ID 1177: A
+  ID 1178: A
+  ID 1179: A
+  ID 1180: D
+  ID 1181: A
+  ID 1182: B
+  ID 1183: D
+  ID 1184: A
+  ID 1185: A
+  ID 1186: B
+  ID 1187: C
+  ID 1188: B
+  ID 1189: A
+  ID 1190: A
+  ID 1191: B
+  ID 1192: B
+  ID 1193: D
+  ID 1194: A
+  ID 1195: D
+  ID 1196: A
+  ID 1197: A
+  ID 1199: C
+  ID 1200: C
+  ID 1201: B
+  ID 1202: A
+  ID 1203: B
+  ID 1204: D
+  ID 1205: C
+  ID 1206: C
+  ID 1207: A
+  ID 1208: B
+  ID 1209: A
+  ID 1210: C
+  ID 1211: A
+  ID 1212: A
+  ID 1213: D
+  ID 1214: B
+  ID 1215: D
+  ID 1216: A
+  ID 1217: B
+  ID 1218: D
+  ID 1219: B
+  ID 1220: A
+  ID 1221: C
+  ID 1222: C
+  ID 1223: C
+  ID 1224: C
+  ID 1225: B
+  ID 1226: D
+  ID 1227: C
+  ID 1228: C
+  ID 1229: D
+  ID 1230: D
+  ID 1231: B
+  ID 1232: D
+  ID 1233: A
+  ID 1234: D
+  ID 1235: B
+  ID 1236: A
+  ID 1237: B
+  ID 1238: A
+  ID 1239: B
+  ID 1240: D
+  ID 1241: D
+  ID 1242: D
+  ID 1243: D
+  ID 1244: C
+  ID 1245: A
+  ID 1246: A
+  ID 1247: C
+  ID 1248: B
+  ID 1249: B
+  ID 1250: B
+  ID 1251: B
+  ID 1252: B
+  ID 1253: B
+  ID 1254: D
+  ID 1255: B
+  ID 1256: C
+  ID 1257: D
+  ID 1258: A
+  ID 1259: C
+  ID 1260: C
+  ID 1261: B
+  ID 1262: D
+  ID 1263: C
+  ID 1264: C
+  ID 1265: D
+  ID 1266: A
+  ID 1267: B
+  ID 1268: D
+  ID 1269: A
+  ID 1270: D
+  ID 1271: A
+  ID 1272: B
+  ID 1273: D
+  ID 1274: A
+  ID 1275: D
+  ID 1276: B
+  ID 1277: B
+  ID 1278: A
+  ID 1279: C
+  ID 1280: D
+  ID 1281: C
+  ID 1282: C
+  ID 1283: D
+  ID 1284: D
+  ID 1285: A
+  ID 1286: A
+  ID 1287: C
+  ID 1288: D
+  ID 1289: C
+  ID 1290: B
+  ID 1291: C
+  ID 1292: A
+  ID 1293: D
+  ID 1294: B
+  ID 1295: B
+  ID 1296: A
+  ID 1297: D
+  ID 1298: C
+  ID 1299: A
+  ID 1300: B
+  ID 1301: A
+  ID 1302: A
+  ID 1303: A
+  ID 1304: C
+  ID 1305: D
+  ID 1306: C
+  ID 1307: D
+  ID 1308: C
+  ID 1309: C
+  ID 1310: C
+  ID 1311: B
+  ID 1312: D
+  ID 1313: A
+  ID 1314: D
+  ID 1315: A
+  ID 1316: D
+  ID 1317: B
+  ID 1318: A
+  ID 1319: B
+  ID 1320: B
+  ID 1321: C
+  ID 1322: D
+  ID 1323: D
+  ID 1324: C
+  ID 1325: A
+  ID 1326: A
+  ID 1327: C
+  ID 1328: D
+  ID 1329: C
+  ID 1330: C
+  ID 1331: D
+  ID 1332: C
+  ID 1333: C
+  ID 1334: A
+  ID 1335: D
+  ID 1336: C
+  ID 1337: D
+  ID 1338: D
+  ID 1339: D
+  ID 1340: D
+  ID 1341: D
+  ID 1342: B
+  ID 1343: B
+  ID 1344: A
+  ID 1345: D
+  ID 1346: B
+  ID 1347: A
+  ID 1348: A
+  ID 1349: D
+  ID 1350: B
+  ID 1351: C
+  ID 1352: D
+  ID 1353: B
+  ID 1354: A
+  ID 1355: A
+  ID 1356: B
+  ID 1357: A
+  ID 1358: D
+  ID 1359: D
+  ID 1360: D
+  ID 1361: B
+  ID 1362: A
+  ID 1363: C
+  ID 1364: C
+  ID 1365: C
+  ID 1366: B
+  ID 1367: D
+  ID 1368: B
+  ID 1369: B
+  ID 1370: A
+  ID 1371: D
+  ID 1372: A
+  ID 1373: B
+  ID 1374: B
+  ID 1375: B
+  ID 1376: A
+  ID 1377: C
+  ID 1378: C
+  ID 1379: A
+  ID 1380: D
+  ID 1381: C
+  ID 1382: B
+  ID 1383: D
+  ID 1384: C
+  ID 1385: C
+  ID 1386: C
+  ID 1387: C
+  ID 1388: B
+  ID 570: A
+  ID 571: C
+  ID 572: C
+  ID 573: D
+  ID 574: C
+  ID 575: D
+  ID 576: D
+  ID 577: B
+  ID 578: A
+  ID 579: A
+  ID 580: C
+  ID 581: C
+  ID 582: C
+  ID 583: B
+  ID 584: C
+  ID 585: D
+  ID 586: B
+  ID 587: C
+  ID 588: B
+  ID 589: C
+  ID 590: B
+  ID 591: B
+  ID 592: C
+  ID 593: A
+  ID 594: B
+  ID 595: C
+  ID 596: A
+  ID 597: B
+  ID 598: C
+  ID 599: C
+  ID 600: A
+  ID 601: B
+  ID 602: A
+  ID 603: B
+  ID 604: B
+  ID 605: B
+  ID 606: C
+  ID 607: B
+  ID 608: D
+  ID 609: D
+  ID 610: D
+  ID 611: C
+  ID 612: D
+  ID 613: C
+  ID 614: B
+  ID 615: A
+  ID 616: B
+  ID 617: A
+  ID 618: B
+  ID 619: B
+  ID 620: C
+  ID 621: A
+  ID 622: B
+  ID 623: D
+  ID 624: D
+  ID 625: B
+  ID 626: C
+  ID 627: D
+  ID 628: A
+  ID 629: B
+  ID 630: D
+  ID 631: A
+  ID 632: B
+  ID 633: A
+  ID 634: A
+  ID 635: A
+  ID 636: C
+  ID 637: C
+  ID 638: B
+  ID 639: C
+  ID 640: B
+  ID 641: D
+  ID 642: C
+  ID 643: A
+  ID 644: D
+  ID 645: C
+  ID 646: D
+  ID 647: A
+  ID 648: D
+  ID 649: A
+  ID 650: B
+  ID 651: A
+  ID 652: C
+  ID 653: B
+  ID 654: A
+  ID 655: C
+  ID 656: B
+  ID 657: C
+  ID 658: D
+  ID 659: B
+  ID 660: C
+  ID 661: D
+  ID 662: D
+  ID 663: B
+  ID 664: B
+  ID 665: D
+  ID 666: C
+  ID 667: B
+  ID 668: B
+  ID 669: C
+  ID 670: C
+  ID 671: B
+  ID 672: D
+  ID 673: C
+  ID 674: A
+  ID 675: C
+  ID 676: B
+  ID 677: C
+  ID 678: D
+  ID 679: A
+  ID 680: A
+  ID 681: C
+  ID 682: D
+  ID 683: A
+  ID 684: A
+  ID 685: D
+  ID 686: D
+  ID 687: C
+  ID 688: A
+  ID 689: B
+  ID 690: B
+  ID 691: C
+  ID 692: B
+  ID 693: C
+  ID 694: D
+  ID 695: A
+  ID 696: B
+  ID 697: D
+  ID 698: A
+  ID 699: C
+  ID 700: B
+  ID 701: B
+  ID 702: B
+  ID 703: D
+  ID 704: C
+  ID 705: D
+  ID 706: A
+  ID 707: B
+  ID 708: C
+  ID 709: A
+  ID 710: A
+  ID 711: B
+  ID 712: B
+  ID 713: A
+  ID 714: B
+  ID 715: D
+  ID 716: B
+  ID 717: C
+  ID 718: D
+  ID 719: C
+  ID 720: D
+  ID 721: A
+  ID 722: A
+  ID 723: A
+  ID 724: B
+  ID 725: D
+  ID 726: C
+  ID 727: B
+  ID 728: A
+  ID 729: B
+  ID 730: D
+  ID 731: D
+  ID 732: B
+  ID 733: C
+  ID 734: D
+  ID 735: B
+  ID 736: B
+  ID 737: D
+  ID 738: D
+  ID 739: B
+  ID 740: D
+  ID 741: D
+  ID 742: A
+  ID 743: B
+  ID 744: B
+  ID 745: C
+  ID 746: A
+  ID 747: C
+  ID 748: D
+  ID 749: A
+  ID 750: B
+  ID 751: D
+  ID 752: C
+  ID 753: D
+  ID 754: B
+  ID 755: B
+  ID 756: B
+  ID 757: A
+  ID 758: A
+  ID 759: A
+  ID 375: C
+  ID 376: B
+  ID 377: C
+  ID 378: C
+  ID 379: A
+  ID 380: A
+  ID 381: D
+  ID 382: B
+  ID 383: D
+  ID 384: A
+  ID 385: D
+  ID 386: C
+  ID 387: B
+  ID 388: B
+  ID 389: A
+  ID 390: A
+  ID 391: B
+  ID 392: D
+  ID 393: B
+  ID 394: A
+  ID 395: B
+  ID 396: B
+  ID 397: B
+  ID 398: A
+  ID 399: A
+  ID 400: D
+  ID 401: C
+  ID 402: A
+  ID 403: B
+  ID 404: C
+  ID 405: B
+  ID 406: C
+  ID 407: A
+  ID 408: A
+  ID 409: B
+  ID 410: C
+  ID 411: C
+  ID 412: C
+  ID 413: D
+  ID 414: B
+  ID 415: A
+  ID 416: C
+  ID 417: A
+  ID 418: B
+  ID 419: A
+  ID 420: A
+  ID 421: A
+  ID 422: B
+  ID 423: B
+  ID 424: A
+  ID 425: D
+  ID 426: B
+  ID 427: A
+  ID 428: C
+  ID 429: C
+  ID 430: A
+  ID 431: A
+  ID 432: B
+  ID 433: B
+  ID 434: C
+  ID 435: A
+  ID 436: B
+  ID 437: C
+  ID 438: A
+  ID 439: D
+  ID 440: B
+  ID 441: C
+  ID 442: A
+  ID 443: B
+  ID 444: B
+  ID 445: B
+  ID 446: C
+  ID 447: D
+  ID 448: C
+  ID 449: A
+  ID 450: D
+  ID 451: A
+  ID 452: A
+  ID 453: D
+  ID 454: B
+  ID 455: C
+  ID 456: C
+  ID 457: C
+  ID 458: C
+  ID 459: B
+  ID 460: D
+  ID 461: B
+  ID 462: B
+  ID 463: A
+  ID 464: A
+  ID 465: D
+  ID 466: D
+  ID 467: C
+  ID 468: C
+  ID 469: B
+  ID 470: B
+  ID 471: C
+  ID 472: C
+  ID 473: C
+  ID 474: B
+  ID 475: C
+  ID 476: A
+  ID 477: B
+  ID 478: A
+  ID 479: A
+  ID 480: B
+  ID 481: C
+  ID 482: A
+  ID 483: C
+  ID 484: D
+  ID 485: A
+  ID 486: A
+  ID 487: B
+  ID 488: C
+  ID 489: B
+  ID 490: B
+  ID 491: A
+  ID 492: C
+  ID 493: B
+  ID 494: D
+  ID 495: C
+  ID 496: A
+  ID 497: A
+  ID 498: B
+  ID 499: C
+  ID 500: B
+  ID 501: D
+  ID 502: B
+  ID 503: C
+  ID 504: A
+  ID 505: B
+  ID 506: C
+  ID 507: D
+  ID 508: A
+  ID 509: D
+  ID 510: D
+  ID 511: C
+  ID 512: A
+  ID 513: D
+  ID 514: B
+  ID 515: C
+  ID 516: A
+  ID 517: C
+  ID 518: C
+  ID 519: C
+  ID 520: D
+  ID 521: A
+  ID 522: A
+  ID 523: B
+  ID 524: D
+  ID 525: D
+  ID 526: A
+  ID 527: B
+  ID 528: B
+  ID 529: A
+  ID 530: C
+  ID 531: D
+  ID 532: C
+  ID 533: D
+  ID 534: A
+  ID 535: C
+  ID 536: B
+  ID 537: B
+  ID 538: B
+  ID 539: D
+  ID 540: D
+  ID 541: C
+  ID 542: B
+  ID 543: C
+  ID 544: B
+  ID 545: C
+  ID 546: B
+  ID 547: B
+  ID 548: B
+  ID 549: C
+  ID 550: B
+  ID 551: A
+  ID 552: A
+  ID 553: D
+  ID 554: A
+  ID 555: B
+  ID 556: B
+  ID 557: B
+  ID 558: A
+  ID 559: B
+  ID 560: D
+  ID 561: B
+  ID 562: A
+  ID 563: D
+  ID 564: A
+  ID 565: B
+  ID 566: D
+  ID 567: D
+  ID 568: B
+  ID 569: A
+  ID 181: A
+  ID 182: B
+  ID 183: A
+  ID 184: A
+  ID 185: C
+  ID 186: A
+  ID 187: A
+  ID 188: B
+  ID 189: B
+  ID 190: D
+  ID 191: C
+  ID 192: B
+  ID 193: C
+  ID 194: C
+  ID 195: B
+  ID 196: A
+  ID 197: C
+  ID 198: C
+  ID 199: A
+  ID 200: D
+  ID 201: B
+  ID 202: A
+  ID 203: C
+  ID 204: B
+  ID 205: D
+  ID 206: A
+  ID 207: D
+  ID 208: B
+  ID 209: D
+  ID 210: A
+  ID 211: C
+  ID 212: C
+  ID 213: D
+  ID 214: B
+  ID 215: A
+  ID 216: C
+  ID 217: C
+  ID 218: D
+  ID 219: C
+  ID 220: A
+  ID 221: C
+  ID 222: C
+  ID 223: B
+  ID 224: A
+  ID 225: A
+  ID 226: C
+  ID 227: D
+  ID 228: C
+  ID 229: C
+  ID 230: D
+  ID 231: D
+  ID 232: D
+  ID 233: B
+  ID 234: A
+  ID 235: A
+  ID 236: A
+  ID 237: B
+  ID 238: A
+  ID 239: A
+  ID 240: B
+  ID 241: A
+  ID 242: B
+  ID 243: A
+  ID 244: B
+  ID 245: D
+  ID 246: B
+  ID 247: D
+  ID 248: D
+  ID 249: C
+  ID 250: A
+  ID 251: C
+  ID 252: B
+  ID 253: B
+  ID 254: A
+  ID 255: A
+  ID 256: D
+  ID 257: C
+  ID 258: B
+  ID 259: C
+  ID 260: B
+  ID 261: C
+  ID 262: C
+  ID 263: A
+  ID 264: C
+  ID 265: A
+  ID 266: A
+  ID 267: D
+  ID 268: C
+  ID 269: D
+  ID 270: A
+  ID 271: D
+  ID 272: D
+  ID 273: A
+  ID 274: C
+  ID 275: D
+  ID 276: B
+  ID 277: D
+  ID 278: D
+  ID 279: B
+  ID 280: B
+  ID 281: A
+  ID 282: B
+  ID 283: B
+  ID 284: B
+  ID 285: A
+  ID 286: A
+  ID 287: A
+  ID 288: D
+  ID 289: B
+  ID 290: C
+  ID 291: A
+  ID 292: A
+  ID 293: D
+  ID 294: D
+  ID 295: D
+  ID 296: A
+  ID 297: B
+  ID 298: B
+  ID 299: C
+  ID 300: D
+  ID 301: B
+  ID 302: C
+  ID 303: B
+  ID 304: B
+  ID 305: C
+  ID 306: C
+  ID 307: D
+  ID 308: B
+  ID 309: D
+  ID 310: C
+  ID 311: C
+  ID 312: C
+  ID 313: A
+  ID 314: B
+  ID 315: B
+  ID 316: A
+  ID 317: B
+  ID 318: A
+  ID 319: A
+  ID 320: A
+  ID 321: B
+  ID 322: A
+  ID 323: B
+  ID 324: D
+  ID 325: D
+  ID 326: D
+  ID 327: A
+  ID 328: A
+  ID 329: A
+  ID 330: D
+  ID 331: C
+  ID 332: A
+  ID 333: D
+  ID 334: A
+  ID 335: C
+  ID 336: B
+  ID 337: A
+  ID 338: C
+  ID 339: C
+  ID 340: A
+  ID 341: B
+  ID 342: B
+  ID 343: C
+  ID 344: A
+  ID 345: D
+  ID 346: C
+  ID 347: C
+  ID 348: D
+  ID 349: B
+  ID 350: B
+  ID 351: A
+  ID 352: B
+  ID 353: C
+  ID 354: B
+  ID 355: B
+  ID 356: C
+  ID 357: A
+  ID 358: C
+  ID 359: B
+  ID 360: C
+  ID 361: B
+  ID 362: C
+  ID 363: A
+  ID 364: C
+  ID 365: C
+  ID 366: C
+  ID 367: A
+  ID 368: C
+  ID 369: B
+  ID 370: D
+  ID 371: A
+  ID 372: A
+  ID 373: B
+  ID 374: D
+  ID 2: C
+  ID 3: D
+  ID 4: D
+  ID 5: D
+  ID 6: C
+  ID 7: B
+  ID 8: B
+  ID 9: D
+  ID 10: B
+  ID 11: D
+  ID 12: D
+  ID 13: C
+  ID 14: A
+  ID 15: A
+  ID 16: C
+  ID 17: B
+  ID 18: D
+  ID 19: A
+  ID 20: C
+  ID 21: B
+  ID 22: D
+  ID 23: B
+  ID 24: B
+  ID 25: B
+  ID 26: B
+  ID 27: C
+  ID 28: B
+  ID 29: B
+  ID 30: C
+  ID 31: B
+  ID 32: C
+  ID 33: B
+  ID 34: C
+  ID 35: C
+  ID 36: C
+  ID 37: C
+  ID 38: C
+  ID 39: B
+  ID 40: B
+  ID 41: C
+  ID 42: B
+  ID 43: B
+  ID 44: B
+  ID 45: B
+  ID 46: B
+  ID 47: B
+  ID 48: A
+  ID 49: A
+  ID 50: A
+  ID 51: A
+  ID 52: D
+  ID 53: C
+  ID 54: B
+  ID 55: A
+  ID 56: C
+  ID 57: D
+  ID 58: D
+  ID 59: C
+  ID 60: A
+  ID 61: B
+  ID 62: A
+  ID 63: C
+  ID 64: A
+  ID 65: C
+  ID 66: C
+  ID 67: A
+  ID 68: C
+  ID 69: D
+  ID 70: B
+  ID 71: C
+  ID 72: D
+  ID 73: D
+  ID 74: A
+  ID 75: C
+  ID 76: A
+  ID 77: B
+  ID 78: C
+  ID 79: A
+  ID 80: A
+  ID 81: C
+  ID 82: B
+  ID 83: A
+  ID 84: D
+  ID 85: B
+  ID 86: C
+  ID 87: C
+  ID 88: A
+  ID 89: B
+  ID 90: B
+  ID 91: B
+  ID 92: B
+  ID 93: B
+  ID 94: C
+  ID 95: D
+  ID 96: C
+  ID 97: C
+  ID 98: C
+  ID 99: A
+  ID 100: A
+  ID 101: B
+  ID 102: D
+  ID 103: D
+  ID 104: A
+  ID 105: C
+  ID 106: D
+  ID 107: A
+  ID 108: C
+  ID 109: D
+  ID 110: D
+  ID 111: D
+  ID 112: B
+  ID 113: D
+  ID 114: B
+  ID 115: D
+  ID 116: C
+  ID 117: B
+  ID 118: B
+  ID 119: A
+  ID 120: C
+  ID 121: D
+  ID 122: C
+  ID 123: D
+  ID 124: A
+  ID 125: B
+  ID 126: D
+  ID 127: D
+  ID 128: B
+  ID 129: D
+  ID 130: B
+  ID 131: C
+  ID 132: A
+  ID 133: A
+  ID 134: A
+  ID 135: A
+  ID 136: C
+  ID 137: B
+  ID 138: B
+  ID 139: D
+  ID 140: D
+  ID 141: C
+  ID 142: A
+  ID 143: C
+  ID 144: B
+  ID 145: B
+  ID 146: D
+  ID 147: D
+  ID 148: A
+  ID 149: B
+  ID 150: D
+  ID 151: C
+  ID 152: A
+  ID 153: D
+  ID 154: B
+  ID 155: B
+  ID 156: B
+  ID 157: B
+  ID 158: A
+  ID 159: C
+  ID 160: A
+  ID 161: A
+  ID 162: D
+  ID 163: A
+  ID 164: B
+  ID 165: B
+  ID 166: C
+  ID 167: C
+  ID 168: B
+  ID 169: C
+  ID 170: D
+  ID 171: C
+  ID 172: A
+  ID 173: A
+  ID 174: A
+  ID 175: C
+  ID 176: C
+  ID 177: B
+  ID 178: C
+  ID 179: D
+  ID 180: B
+
+Newly deactivated (6):
+  ID 1851
+  ID 1873
+  ID 2035
+  ID 1633
+  ID 1655
+  ID 1816
+
+Already inactive (0):
+
+Missing in DB (0):
+
+Bad-value entries — needs manual review (2):
+  ID 2127: As3+, Ga3+, Ca0
+  ID 2131: As3+, Ga3+, Ca0
+
+Unparseable lines (0):

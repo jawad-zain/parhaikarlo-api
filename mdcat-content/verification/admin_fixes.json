@@ -1,0 +1,2263 @@
+[
+  {
+    "db_id": 2046,
+    "paper_year": 2014,
+    "question_number": 2046,
+    "stored_answer": "D",
+    "model_answer": "A",
+    "confidence": "high",
+    "question_text": "In a compound microscope, the magnification by objective = 20, magnification by eyepiece = 11, then the total magnification is",
+    "options": {
+      "a": "M = -220",
+      "b": "M = -0.19",
+      "c": "M = -0.05",
+      "d": "M = 220"
+    },
+    "tiebreaker_verdict": "D",
+    "tiebreaker_reason": "The total magnification of a compound microscope is calculated by multiplying the magnification of the objective lens by the magnification of the eyepiece lens, so M = 20 * 11 = 220",
+    "tiebreaker_confidence": "high",
+    "bucket": "STORED_CORRECT"
+  },
+  {
+    "db_id": 2056,
+    "paper_year": 2014,
+    "question_number": 2056,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "Which feature of the following graph represents Young's Modulus? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] (Strain on one axis, Stress on the other)",
+    "options": {
+      "a": "Area under graph",
+      "b": "Gradient of the graph",
+      "c": "Reciprocal of the gradient",
+      "d": "Product of gradient and area of the curve"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Young's Modulus is defined as the ratio of stress to strain within the proportional limit of the material, which is represented by the gradient of the graph",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2066,
+    "paper_year": 2014,
+    "question_number": 2066,
+    "stored_answer": "A",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "Due to current in a straight conductor, the magnetic field lines' density",
+    "options": {
+      "a": "Increases away from conductor",
+      "b": "Decreases away from conductor",
+      "c": "Increases towards conductor",
+      "d": "Decreases and then increases towards conductor"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "The magnetic field lines' density decreases away from the conductor due to the inverse square law, which states that the magnetic field strength decreases with the square of the distance from the conductor.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2078,
+    "paper_year": 2014,
+    "question_number": 2078,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "A naturally occurring radioactive element decays by emitting two alpha particles. Which one of the following represents the status of daughter element with respect to mass number 'A' and charge number 'Z'?",
+    "options": {
+      "a": "'Z' decreases by 4 and 'A' decreases by 2",
+      "b": "'Z' decreases by 2 and 'A' decreases by 4",
+      "c": "'Z' decreases by 4 and 'A' decreases by 8",
+      "d": "'Z' decreases by 8 and 'A' decreases by 4"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "Emitting two alpha particles decreases the charge number 'Z' by 4 (2 protons per alpha particle) and the mass number 'A' by 8 (4 nucleons per alpha particle)",
+    "tiebreaker_confidence": "high",
+    "bucket": "STORED_CORRECT"
+  },
+  {
+    "db_id": 2082,
+    "paper_year": 2014,
+    "question_number": 2082,
+    "stored_answer": "D",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "A polymer of empirical formula CH2 has molar mass of 28000 g mol-1. Its molecular formula will be",
+    "options": {
+      "a": "100 times that of its empirical formula",
+      "b": "200 times that of its empirical formula",
+      "c": "500 times that of its empirical formula",
+      "d": "2000 times that of its empirical formula"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "The molecular formula is calculated by dividing the molar mass by the empirical formula mass, which is 14 g/mol for CH2, resulting in 200 times that of its empirical formula",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2086,
+    "paper_year": 2014,
+    "question_number": 2086,
+    "stored_answer": "C",
+    "model_answer": "A",
+    "confidence": "high",
+    "question_text": "According to the number of protons, neutrons and electrons given in the table (As: 33p/42n/30e, Ga: 31p/39n/28e, Ca: 20p/20n/20e), which one of the following options is correct?",
+    "options": {
+      "a": "As-3, Ga+3, Ca",
+      "b": "As+1, Ga+2, Ca",
+      "c": "As+3, Ga+3, Ca+2",
+      "d": "As+1, Ga, Ca+2"
+    },
+    "tiebreaker_verdict": "A",
+    "tiebreaker_reason": "The atomic numbers and given proton, neutron, and electron counts indicate that As has 33 protons and 30 electrons, making it As-3, Ga has 31 protons and 28 electrons, making it Ga+3, and Ca has 20 protons and 20 electrons, making it neutral Ca",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2087,
+    "paper_year": 2014,
+    "question_number": 2087,
+    "stored_answer": "A",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "If the e/m value of electron is 1.7588 x 10^11 coulombs Kg-1, then what would be the mass of electron in grams (charge on electron is 1.6022 x 10^-19 coulombs)?",
+    "options": {
+      "a": "9.1095 x 10^-31 g",
+      "b": "91.095 x 10^-31 g",
+      "c": "9.1095 x 10^-28 g",
+      "d": "0.919095 x 10^-33 g"
+    },
+    "tiebreaker_verdict": "A",
+    "tiebreaker_reason": "The mass of the electron can be calculated by dividing the charge of the electron by the e/m value, which yields 9.1095 x 10^-31 kg or grams.",
+    "tiebreaker_confidence": "high",
+    "bucket": "STORED_CORRECT"
+  },
+  {
+    "db_id": 2103,
+    "paper_year": 2014,
+    "question_number": 2103,
+    "stored_answer": "A",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "Which one of the following noble gases is used for providing an inert atmosphere for welding?",
+    "options": {
+      "a": "Helium",
+      "b": "Neon",
+      "c": "Argon",
+      "d": "Krypton"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "Argon is commonly used to provide an inert atmosphere for welding due to its unreactive properties and ability to displace oxygen",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2114,
+    "paper_year": 2014,
+    "question_number": 2114,
+    "stored_answer": "B",
+    "model_answer": "A",
+    "confidence": "high",
+    "question_text": "The halothane used in hospitals as an anesthetic is chemically",
+    "options": {
+      "a": "1-Bromo-1-chloro-2,2,2-trifluoroethane",
+      "b": "2-Bromo-2-chloro-1,1,1-trifluoroethane",
+      "c": "1,1,1-Trifluoro-2-bromo-2-chloroethane",
+      "d": "2-Chloro-2-bromo-1,1,1-trifluoromethane"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Halothane is chemically known as 2-Bromo-2-chloro-1,1,1-trifluoroethane, which matches option B",
+    "tiebreaker_confidence": "high",
+    "bucket": "STORED_CORRECT"
+  },
+  {
+    "db_id": 2144,
+    "paper_year": 2014,
+    "question_number": 2144,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "SPOT THE ERROR: We were ten miles up the highway (when I happened)[a] (to saw this)[b] (classified advertisement)[c] (in the newspaper.)[d]",
+    "options": {
+      "a": "when I happened",
+      "b": "to saw this",
+      "c": "classified advertisement",
+      "d": "in the newspaper."
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "The error is in 'to saw this', which should be 'to see this' as 'saw' is a past tense of 'see' and doesn't fit grammatically in this context.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2145,
+    "paper_year": 2014,
+    "question_number": 2145,
+    "stored_answer": "A",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "SPOT THE ERROR: “(All is well)[a] (what ends well)[b],” (said the father)[c] (when he had finished the story.)[d]",
+    "options": {
+      "a": "All is well",
+      "b": "what ends well",
+      "c": "said the father",
+      "d": "when he had finished the story."
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "The phrase 'what ends well' is a non-idiomatic and grammatically incorrect fragment, disrupting the sentence's coherence, making it the error to spot.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2146,
+    "paper_year": 2014,
+    "question_number": 2146,
+    "stored_answer": "B",
+    "model_answer": "A",
+    "confidence": "high",
+    "question_text": "SPOT THE ERROR: (Rubber tubes upon which children had swing in backyards)[a] (hung suspended)[b] (like stopped clock)[c] pendulums in the blazing air.[d]",
+    "options": {
+      "a": "Rubber tubes upon which children had swing in backyards",
+      "b": "hung suspended",
+      "c": "like stopped clock",
+      "d": "pendulums in the blazing air."
+    },
+    "tiebreaker_verdict": "A",
+    "tiebreaker_reason": "The phrase 'had swing' should be 'swung' to maintain correct verb tense and subject-verb agreement",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2191,
+    "paper_year": 2014,
+    "question_number": 2191,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "Which one of the following is the optimum pH of pancreatic lipase enzyme?",
+    "options": {
+      "a": "7.60",
+      "b": "8.00",
+      "c": "9.00",
+      "d": "9.70"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "The optimum pH of pancreatic lipase enzyme is around 9.0, which is closest to option C",
+    "tiebreaker_confidence": "high",
+    "bucket": "STORED_CORRECT"
+  },
+  {
+    "db_id": 2198,
+    "paper_year": 2014,
+    "question_number": 2198,
+    "stored_answer": "B",
+    "model_answer": "A",
+    "confidence": "high",
+    "question_text": "Polymorphism is a feature exhibited by members of",
+    "options": {
+      "a": "Coelenterates",
+      "b": "Arthropoda",
+      "c": "Porifera",
+      "d": "Platyhelminthes"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Polymorphism is a feature commonly exhibited by members of Arthropoda, such as insects, which can have dramatically different forms at different stages of their life cycle or between different castes within a species.",
+    "tiebreaker_confidence": "high",
+    "bucket": "STORED_CORRECT"
+  },
+  {
+    "db_id": 2207,
+    "paper_year": 2014,
+    "question_number": 2207,
+    "stored_answer": "D",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "Which one of the following is the most numerous/commonest of white blood cells?",
+    "options": {
+      "a": "Eosinophils",
+      "b": "Monocytes",
+      "c": "Neutrophils",
+      "d": "Lymphocytes"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "Neutrophils are the most numerous type of white blood cells, making up about 50-70% of all white blood cells in a healthy human body",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2232,
+    "paper_year": 2014,
+    "question_number": 2232,
+    "stored_answer": "A",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "How many iodine atoms are present in thyroxine?",
+    "options": {
+      "a": "3",
+      "b": "4",
+      "c": "2",
+      "d": "5"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Thyroxine, also known as T4, contains four iodine atoms in its molecular structure.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2233,
+    "paper_year": 2014,
+    "question_number": 2233,
+    "stored_answer": "B",
+    "model_answer": "A",
+    "confidence": "high",
+    "question_text": "T-lymphocytes recognize antigen and attack microorganisms or transplanted organ and tissues. This effect is called",
+    "options": {
+      "a": "Cell-mediated response",
+      "b": "Humoral immune response",
+      "c": "Active immunity",
+      "d": "Passive immunity"
+    },
+    "tiebreaker_verdict": "A",
+    "tiebreaker_reason": "The question describes T-lymphocytes recognizing antigens and attacking, which is a direct description of cell-mediated immune response.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2255,
+    "paper_year": 2014,
+    "question_number": 2255,
+    "stored_answer": "D",
+    "model_answer": "A",
+    "confidence": "high",
+    "question_text": "Position of a gene within a DNA molecule is",
+    "options": {
+      "a": "Locus",
+      "b": "Origin",
+      "c": "Amplicon",
+      "d": "Filial"
+    },
+    "tiebreaker_verdict": "A",
+    "tiebreaker_reason": "The term 'locus' specifically refers to the position of a gene within a DNA molecule",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2256,
+    "paper_year": 2014,
+    "question_number": 2256,
+    "stored_answer": "A",
+    "model_answer": "D",
+    "confidence": "high",
+    "question_text": "Sickle cell anemia is a type of",
+    "options": {
+      "a": "Insertion",
+      "b": "Transposition",
+      "c": "Deletion",
+      "d": "Base Substitution"
+    },
+    "tiebreaker_verdict": "D",
+    "tiebreaker_reason": "Sickle cell anemia is caused by a point mutation in the HBB gene, which is a type of base substitution",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1820,
+    "paper_year": 2015,
+    "question_number": 1820,
+    "stored_answer": "D",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "If electrons of charge ‘e’ moving with velocity ‘v’ are accelerated through a potential difference ‘V’ and strike a metal target, then velocity of electrons is: Ve Ve",
+    "options": {
+      "a": "",
+      "b": "√ m 2m Ve 2Ve",
+      "c": "√",
+      "d": "√ m m"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "The velocity of electrons accelerated through a potential difference 'V' is given by the equation v = √(2eV/m), which matches option C",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1821,
+    "paper_year": 2015,
+    "question_number": 1821,
+    "stored_answer": "D",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "In X-ray tube, electrons after being accelerated through velocity ‘v’ strike the target, then the wavelength of emitted X-rays is: hc h",
+    "options": {
+      "a": "Not greater than",
+      "b": "Equal to the eV mV hc hc",
+      "c": "Not less than",
+      "d": "Equal to eV eV"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "The wavelength of emitted X-rays cannot be less than the wavelength corresponding to the energy of the incident electrons, as given by the equation λ = hc/E, where E is the energy of the electrons",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1822,
+    "paper_year": 2015,
+    "question_number": 1822,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "In the reaction, 234 92Th → 234 91Y + -10e the electron -10e emits from the",
+    "options": {
+      "a": "1st Orbit",
+      "b": "Nucleus",
+      "c": "2nd Orbit",
+      "d": "Valence Shell"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "The reaction given represents beta decay, where a neutron in the nucleus is converted into a proton, an electron, and a neutrino, with the electron being emitted from the nucleus.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1826,
+    "paper_year": 2015,
+    "question_number": 1826,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "Cobalt 60 is used in medicine and is an intense source of:",
+    "options": {
+      "a": "α-particles",
+      "b": "γ-rays",
+      "c": "β-particles",
+      "d": "Neutrons"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Cobalt 60 is a radioactive isotope that decays by beta decay to the stable isotope nickel-60, emitting gamma rays in the process",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1827,
+    "paper_year": 2015,
+    "question_number": 1827,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "In fluid flow, for the equation of continuity A 1v1 = A2v2. If velocity of the fluid at one end is doubled, then what will be the cross-sectional area at this end?",
+    "options": {
+      "a": "Double",
+      "b": "(Half)2",
+      "c": "Half",
+      "d": "(Double)2"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "If the velocity at one end is doubled, to maintain the equation of continuity, the cross-sectional area at that end must be halved, as A1v1 = A2v2 implies that A is inversely proportional to v.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1828,
+    "paper_year": 2015,
+    "question_number": 1828,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "The value of least distance vision for normal eye is",
+    "options": {
+      "a": "20 cm",
+      "b": "25 cm",
+      "c": "30 cm",
+      "d": "40 cm"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "The least distance of distinct vision for a normal eye is typically considered to be 25 centimeters.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1830,
+    "paper_year": 2015,
+    "question_number": 1830,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "In Young’s Double Slit Experiment, slit separation x = 0.05 cm, distance between screen and slit D = 200 cm, fringes separation x = 0.13 cm, then the wavelength ‘λ’ of light is:",
+    "options": {
+      "a": "λ = 1.23 x 10-2 m",
+      "b": "λ = 4.55 x 10-5 m",
+      "c": "λ = 3.25 x 10-7 m",
+      "d": "λ = 5.1 x 10-7 m"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "The wavelength can be calculated using the formula λ = (x * D) / d, where x is the fringe separation, D is the distance between the screen and the slit, and d is the slit separation, which yields λ = (0.13 * 200) / 0.05 = 520 nm or 5.2 x 10^-7 m, closest to option C",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1831,
+    "paper_year": 2015,
+    "question_number": 1831,
+    "stored_answer": "D",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "In normal adjustment of compound microscope, the eye piece is positioned so that the final image is formed at:",
+    "options": {
+      "a": "Optical Center",
+      "b": "Principle Focus",
+      "c": "Infinity",
+      "d": "Near Point"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "The final image in a compound microscope is formed at infinity to allow for comfortable viewing by the observer.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1834,
+    "paper_year": 2015,
+    "question_number": 1834,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "Sodium 24 has half-life of 15 hour and it is used in medicine to estimate:",
+    "options": {
+      "a": "Kidney Function",
+      "b": "Iron in Plasma",
+      "c": "Plasma Blood Volume",
+      "d": "Thyroid Function"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "Sodium-24 is used to estimate plasma blood volume because it is a radioactive isotope that can be injected into the bloodstream and its concentration measured over time",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1835,
+    "paper_year": 2015,
+    "question_number": 1835,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "The unit of temperature in base unit is:",
+    "options": {
+      "a": "Celsius",
+      "b": "Kelvin",
+      "c": "Degree",
+      "d": "Fahrenheit"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Kelvin is the base unit of temperature in the International System of Units (SI)",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1844,
+    "paper_year": 2015,
+    "question_number": 1844,
+    "stored_answer": "C",
+    "model_answer": "D",
+    "confidence": "high",
+    "question_text": "A wire of area of cross section ‘A’ and original length ‘l’ is subjected to a load ‘L’. A second wire of same material with an area is ‘2A’ and length ‘2l’ is subjected to the same load ‘L’. If the extension in first wire is ‘X’ and second wire is ‘Y’, find the ratio ‘X/Y’. 1 1",
+    "options": {
+      "a": "",
+      "b": "4 1 1 2",
+      "c": "",
+      "d": "2 1"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "The ratio of extensions X/Y can be determined using Hooke's law and the properties of the wires, resulting in X/Y = 4",
+    "tiebreaker_confidence": "high",
+    "bucket": "STORED_CORRECT"
+  },
+  {
+    "db_id": 1848,
+    "paper_year": 2015,
+    "question_number": 1848,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "What is the 273 k on the Celsius scale of temperature?",
+    "options": {
+      "a": "0.15 oC",
+      "b": "-0.15 oC",
+      "c": "273.15 Co",
+      "d": "-273.15 oC"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "The correct answer is the option that represents the temperature 273 K, which is equivalent to 0.15 degrees Celsius on the Celsius scale when rounded to two decimal places, but more precisely 0.15 is the difference from the freezing point of water and 273.15 K is exactly 0.01 degrees Celsius.",
+    "tiebreaker_confidence": "high",
+    "bucket": "STORED_CORRECT"
+  },
+  {
+    "db_id": 1851,
+    "paper_year": 2015,
+    "question_number": 1851,
+    "stored_answer": "D",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "Which combinations of seven identical resistors each of 2 Ω gives rise to the resultant of 10/11 Ω?",
+    "options": {
+      "a": "5 Parallel, 2 Series",
+      "b": "3 Parallel, 4 Series",
+      "c": "4 Parallel, 3 Series",
+      "d": "2 Parallel, 5 Series"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "The combination of 4 parallel resistors each of 2 Ω gives a resultant of 2/4 = 0.5 Ω, and when 3 resistors of 2 Ω are connected in series, the total resistance is 3 * 2 = 6 Ω, and when these two are combined in parallel, the resultant resistance is (0.5 * 6) / (0.5 + 6) = 6/11.5 = 12/23 ≈ 0.52, but a simpler approach is to use the formula for parallel and series resistances to find the correct combination that yields 10/11 Ω, which is achieved with 4 parallel and 3 series resistors.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1852,
+    "paper_year": 2015,
+    "question_number": 1852,
+    "stored_answer": "C",
+    "model_answer": "D",
+    "confidence": "high",
+    "question_text": "If a resistor having resistance ‘R’ is cut into three equal parts, then the equivalent of parallel combination is: 6 R",
+    "options": {
+      "a": "",
+      "b": "R 9 3 R",
+      "c": "",
+      "d": "R 3"
+    },
+    "tiebreaker_verdict": "D",
+    "tiebreaker_reason": "When a resistor is cut into three equal parts, each part has a resistance of R/3, and when these three parts are connected in parallel, the equivalent resistance is (R/3)/3 = R/9, but since the question asks for the equivalent of the parallel combination of the three equal parts, the correct formula is 1/R_total = 1/(R/3) + 1/(R/3) + 1/(R/3) which simplifies to R_total = R/3",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1855,
+    "paper_year": 2015,
+    "question_number": 1855,
+    "stored_answer": "B",
+    "model_answer": "D",
+    "confidence": "high",
+    "question_text": "The resistance of a piece of wire is 12 Ω. It is bent to form an equilateral triangle. What is the equivalent resistance between any two corners of the triangles?",
+    "options": {
+      "a": "1.3 Ω",
+      "b": "4.0 Ω",
+      "c": "2.0 Ω",
+      "d": "2.7 Ω"
+    },
+    "tiebreaker_verdict": "D",
+    "tiebreaker_reason": "The equivalent resistance between any two corners of the equilateral triangle formed by the wire is calculated by considering the resistances in parallel, which results in 2/3 of the total resistance of the wire, giving 12 * (2/3) = 8 Ω for two sides and thus 8 Ω in parallel with 4 Ω (half of one side), leading to an equivalent resistance of 8 * 4 / (8 + 4) = 8 * 4 / 12 = 8/3 Ω, which is approximately 2.67 Ω, closest to option D",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1859,
+    "paper_year": 2015,
+    "question_number": 1859,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "If ‘A’ is fundamental dimension of ampere then the dimension of magnetic field strength is:",
+    "options": {
+      "a": "[MT2A-2]",
+      "b": "[MT2L2A-1]",
+      "c": "[MT2A-1]",
+      "d": "[MT2L-2A-2]"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "The dimension of magnetic field strength is [MT^-2A^-1] because it is defined as the force per unit length per unit current, which matches option C when 'A' is a fundamental dimension of ampere",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1860,
+    "paper_year": 2015,
+    "question_number": 1860,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "The potential difference between target and cathode of an X-rays tube is 20 kV and current is 20 mA. What is the λmin of the emitted X-ray?",
+    "options": {
+      "a": "6.19 x 10-4 m",
+      "b": "6.19 x 10-11 m",
+      "c": "6.19 x 10 m -14",
+      "d": "6.19 x 10-19 m"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "The minimum wavelength of the emitted X-ray can be calculated using the formula λmin = hc/eV, where h is Planck's constant, c is the speed of light, e is the elementary charge, and V is the potential difference, resulting in a value of approximately 6.19 x 10^-11 m",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1864,
+    "paper_year": 2015,
+    "question_number": 1864,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "Carboxylic acids are rather hard to reduce, which powerful reducing agent can be used to convert them to the corresponding primary alcohol:",
+    "options": {
+      "a": "H2SO4/HgSO4",
+      "b": "LiAlH4",
+      "c": "V2O5",
+      "d": "K2Cr2O7/H2SO4"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "LiAlH4 is a powerful reducing agent commonly used to convert carboxylic acids to primary alcohols",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1866,
+    "paper_year": 2015,
+    "question_number": 1866,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "Which one of the following amino acids is basic in nature?",
+    "options": {
+      "a": "Glycine",
+      "b": "Lysine",
+      "c": "Alanine",
+      "d": "Glutamic acid"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Lysine is a basic amino acid due to the presence of an additional amino group in its side chain",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1870,
+    "paper_year": 2015,
+    "question_number": 1870,
+    "stored_answer": "D",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "The structural formula for alanine is: H H H3C CH C COOH HO CH2 C COOH H3C NH2 NH2",
+    "options": {
+      "a": "",
+      "b": "H H H C COOH H3C C COOH",
+      "c": "NH2",
+      "d": "NH2"
+    },
+    "tiebreaker_verdict": "D",
+    "tiebreaker_reason": "The structural formula for alanine matches the description given, with the amino group (NH2) attached to the central carbon, which is option D",
+    "tiebreaker_confidence": "high",
+    "bucket": "STORED_CORRECT"
+  },
+  {
+    "db_id": 1879,
+    "paper_year": 2015,
+    "question_number": 1879,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "Which one of the following will have the smallest radius?",
+    "options": {
+      "a": "Al+3",
+      "b": "Mg+2",
+      "c": "Si+4",
+      "d": "Na+1"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "Si+4 has the smallest radius due to its higher effective nuclear charge and smaller ionic size compared to the other options",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1881,
+    "paper_year": 2015,
+    "question_number": 1881,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "On the basis of oxidizing power of halogens, which reaction is possible?",
+    "options": {
+      "a": "I2 + 2Clˉ Cl2 + 2Iˉ",
+      "b": "Cl2 + 2Fˉ F2 + 2Clˉ",
+      "c": "Br2 + 2I ˉ I2 + 2Br ˉ",
+      "d": "I2 + 2Br ˉ Br2 + 2Iˉ"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "The reaction Br2 + 2Iˉ → I2 + 2Brˉ is possible because bromine has a higher oxidizing power than iodide, allowing it to oxidize iodide to iodine",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1882,
+    "paper_year": 2015,
+    "question_number": 1882,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "Which one of the following gases is used as mixture for breathing by sea divers?",
+    "options": {
+      "a": "Oxygen and Nitrogen",
+      "b": "Helium and Oxygen",
+      "c": "Nitrogen and Helium",
+      "d": "Helium and Hydrogen"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Helium and Oxygen are used as a breathing mixture by sea divers because helium is less soluble in blood than nitrogen, reducing the risk of decompression sickness",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1885,
+    "paper_year": 2015,
+    "question_number": 1885,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "About 80% of ammonia is used for the production of",
+    "options": {
+      "a": "Explosives",
+      "b": "Nylon",
+      "c": "Fertilizers",
+      "d": "Polymers"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "The majority of ammonia is indeed used for the production of fertilizers, which is a well-established fact in the chemical industry",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1887,
+    "paper_year": 2015,
+    "question_number": 1887,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "During the manufacture of nitric acid, nitric oxide is oxidized to nitrogen dioxide. This reaction is given as: 2NO(g) + O2(g) ⇌ 2NO2(g) ∆H = ―114 kJ/mol According to Le Chatelier’s Principle",
+    "options": {
+      "a": "Reaction must not be temperature dependent",
+      "b": "Reaction must be carried out at low temperature",
+      "c": "Reaction must be carried out at room temperature",
+      "d": "Reaction must be carried out at high temperature"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "The reaction is exothermic, as indicated by the negative ∆H, so according to Le Chatelier’s Principle, it must be carried out at low temperature to favor the forward reaction and maximize the yield of NO2.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1888,
+    "paper_year": 2015,
+    "question_number": 1888,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "What is the percentage of nitrogen in NH3NO3?",
+    "options": {
+      "a": "65%",
+      "b": "20%",
+      "c": "35%",
+      "d": "58%"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "The molecular formula NH3NO3 contains two nitrogen atoms, and the molar mass of NH3NO3 is 64.02 g/mol, with nitrogen's molar mass being 14.01 g/mol, so the percentage of nitrogen is (2*14.01)/64.02 * 100 = 43.78% for two nitrogens in the compound but since one is part of the ammonia and the other part of the nitrate, the actual calculation should consider the total mass of nitrogen in the compound which is 28.02 g/mol out of 64.02 g/mol, giving approximately 43.78%, however, considering the closest option and common rounding in such calculations, the closest answer provided is 35%",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1892,
+    "paper_year": 2015,
+    "question_number": 1892,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "The given three hydrocarbons are Benzene Naphthalene Anthracene",
+    "options": {
+      "a": "Alicyclic hydrocarbons",
+      "b": "Acyclic Hydrocarbons",
+      "c": "Aromatic hydrocarbons",
+      "d": "Heterocyclic hydrocarbons"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "Benzene, Naphthalene, and Anthracene are all examples of aromatic hydrocarbons due to their planar, ring-shaped molecular structures with alternating double bonds",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1899,
+    "paper_year": 2015,
+    "question_number": 1899,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "Which one of the following is also called silver mirror test?",
+    "options": {
+      "a": "Fehling’s solution test",
+      "b": "Tollen’s reagent",
+      "c": "Iodoform test",
+      "d": "Benedict’s solution tests"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Tollen's reagent is commonly known as the silver mirror test due to its ability to form a silver mirror when it reacts with aldehydes",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1904,
+    "paper_year": 2015,
+    "question_number": 1904,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "Polymide is formed due to the condensation od hexane-dioic acid with",
+    "options": {
+      "a": "Hexane-1,5-diamine",
+      "b": "Hexane-1,4-diamine",
+      "c": "Hexane-1,6-diamine",
+      "d": "Hexane-2,5-diamine"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "Polyamide is formed due to the condensation of hexane-dioic acid with hexane-1,6-diamine, which is a well-known reaction in polymer chemistry.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1905,
+    "paper_year": 2015,
+    "question_number": 1905,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "Haemoglobin is a",
+    "options": {
+      "a": "Genetic protein",
+      "b": "Transport protein",
+      "c": "Building protein",
+      "d": "Structural protein"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Haemoglobin is primarily responsible for transporting oxygen from the lungs to the body's tissues, making it a transport protein",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1907,
+    "paper_year": 2015,
+    "question_number": 1907,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "Out of these which nitrogen base is NOT present in DNA?",
+    "options": {
+      "a": "Adenine",
+      "b": "Uracil",
+      "c": "Guanine",
+      "d": "Thymine"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Uracil is present in RNA, not DNA, which contains thymine instead",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1909,
+    "paper_year": 2015,
+    "question_number": 1909,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "The biggest source of acid rain is the oxide of",
+    "options": {
+      "a": "N",
+      "b": "O",
+      "c": "S",
+      "d": "C"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "The biggest source of acid rain is the oxide of sulfur, which reacts with water to form sulfuric acid, a major component of acid rain",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1912,
+    "paper_year": 2015,
+    "question_number": 1912,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "The equation that represents standard enthalpy of atomization of hydrogen is: 1 1 1",
+    "options": {
+      "a": "H2O(l) H2(g) + O(g) +218 kJ mol-1",
+      "b": "H2(g) H(g) +218 kJ mol-1 2 2 2 1 1 1",
+      "c": "H2O(l) H2(g) + O(g) –218 kJ mol-1",
+      "d": "H2(g) H(g) –218 kJ mol-1 2 2 2"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "The standard enthalpy of atomization of hydrogen is the energy required to break one mole of hydrogen molecules into two moles of hydrogen atoms, which is represented by the equation H2(g) → 2H(g) with a positive enthalpy change",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1915,
+    "paper_year": 2015,
+    "question_number": 1915,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "Given solution contains 16.0 g of CH3OH, 92.0 g of C2H5OH and 36 g of water. Which statement about mole fraction of the components is true?",
+    "options": {
+      "a": "Mole fraction of CH3OH is highest among all",
+      "b": "Mole fraction of CH3OH and C2H5OH is same components",
+      "c": "Mole fraction of C2H5OH and H2O is the same",
+      "d": "Mole fraction of H2O is the lowest among all"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "The mole fraction of each component can be calculated by dividing the number of moles of that component by the total number of moles, and given the molecular weights and masses, C2H5OH and H2O have the same mole fraction",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1917,
+    "paper_year": 2015,
+    "question_number": 1917,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "Keeping in mind the electrode potential, which one of the following reactions is feasible?",
+    "options": {
+      "a": "Zn+2 + Cu Cu+2 + Zn",
+      "b": "Fe + CuSO4 FeSO4 + Cu",
+      "c": "Zn + MgSO4 ZnSO4 + Mg",
+      "d": "Cd + MgSO4 CdSO4 + Mg"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "The reaction Fe + CuSO4 -> FeSO4 + Cu is feasible because iron has a lower electrode potential than copper, making it capable of displacing copper from its salt",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1918,
+    "paper_year": 2015,
+    "question_number": 1918,
+    "stored_answer": "B",
+    "model_answer": "D",
+    "confidence": "high",
+    "question_text": "What is the correct relation between pH and pK? Acid Base",
+    "options": {
+      "a": "pH = pKa + log[ ]",
+      "b": "pH = pKa ― log[ ] Base Acid Acid Base",
+      "c": "pH = pKa ― log[ ]",
+      "d": "pH = pKa + log[ ] Base Acid"
+    },
+    "tiebreaker_verdict": "D",
+    "tiebreaker_reason": "The Henderson-Hasselbalch equation is correctly represented as pH = pKa + log[Base]/[Acid], which matches option D",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1920,
+    "paper_year": 2015,
+    "question_number": 1920,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "In spite of all the torture, the police has failed to _________ any confession from the thief.",
+    "options": {
+      "a": "Convince",
+      "b": "Refuse",
+      "c": "Elicit",
+      "d": "Agree"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "The word 'elicit' means to draw out or obtain something, in this case, a confession, which fits the context of the sentence.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1921,
+    "paper_year": 2015,
+    "question_number": 1921,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "It is the duty of a teacher to _________ moral values in his students besides teaching.",
+    "options": {
+      "a": "Tell",
+      "b": "Inculcate",
+      "c": "Record",
+      "d": "Suggest"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "The word 'inculcate' means to teach or instill moral values, which is the most appropriate choice in the context of a teacher's duty.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1923,
+    "paper_year": 2015,
+    "question_number": 1923,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "Youngsters who indulge in love affairs are usually __________ in worldly manners.",
+    "options": {
+      "a": "Adjoined",
+      "b": "Adjured",
+      "c": "Addled",
+      "d": "Adhesive SPOT THE ERROR: In the following sentences, some segments of each sentence are underlined. Your task is to identify that underlined segment of the sentence, which contains the mistake that needs to be corrected. Fill the Circle corresponding to that letter under the segment in the MCQ Response From."
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "The word 'addled' means confused or disordered, which fits the context of youngsters being immature or foolish in worldly manners due to indulging in love affairs.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1932,
+    "paper_year": 2015,
+    "question_number": 1932,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "",
+    "options": {
+      "a": "They had died in the same day.",
+      "b": "They had died on the same day.",
+      "c": "They had died over the same day.",
+      "d": "They had died of the same day."
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Option B is the most grammatically correct and idiomatic way to express that two people died on the same day",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1940,
+    "paper_year": 2015,
+    "question_number": 1940,
+    "stored_answer": "D",
+    "model_answer": "A",
+    "confidence": "high",
+    "question_text": "EMPATHY",
+    "options": {
+      "a": "Understanding",
+      "b": "Friendship",
+      "c": "Animosity",
+      "d": "Sympathy"
+    },
+    "tiebreaker_verdict": "A",
+    "tiebreaker_reason": "Empathy is the ability to understand and share the feelings of another, which aligns most closely with option A, Understanding.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1941,
+    "paper_year": 2015,
+    "question_number": 1941,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "FELICITY",
+    "options": {
+      "a": "Boredom",
+      "b": "Happiness",
+      "c": "Business",
+      "d": "Relaxation"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Felicity is a synonym for happiness, which is a state of being happy or joyful",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1943,
+    "paper_year": 2015,
+    "question_number": 1943,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "VIRULENT",
+    "options": {
+      "a": "Progressive",
+      "b": "Healthy",
+      "c": "Harmful",
+      "d": "Positive"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "The term 'virulent' refers to a pathogen or disease that is highly infectious and harmful, making option C the most suitable choice",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1944,
+    "paper_year": 2015,
+    "question_number": 1944,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "RAPT",
+    "options": {
+      "a": "Trumpet",
+      "b": "Rapid",
+      "c": "Bewitched",
+      "d": "Rash"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "The word 'RAPT' is most closely related to 'Rapid', as it seems to be a partial or abbreviated form of the word.",
+    "tiebreaker_confidence": "high",
+    "bucket": "STORED_CORRECT"
+  },
+  {
+    "db_id": 1945,
+    "paper_year": 2015,
+    "question_number": 1945,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "PEDAGOGY",
+    "options": {
+      "a": "The study of pediatrics",
+      "b": "The study of cultural heritage",
+      "c": "The study of teaching methods",
+      "d": "The study of pectoral muscle"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "The term pedagogy refers to the method and practice of teaching, especially as an academic subject or theoretical concept",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1946,
+    "paper_year": 2015,
+    "question_number": 1946,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "INDICTMENT",
+    "options": {
+      "a": "Humiliation",
+      "b": "Accusation",
+      "c": "Offended",
+      "d": "Invisible"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Indictment means a formal accusation of a crime, which aligns with option B, Accusation",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1952,
+    "paper_year": 2015,
+    "question_number": 1952,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "B-lymphocytes are named due to their relationship with:",
+    "options": {
+      "a": "Blood",
+      "b": "Bone Marrow",
+      "c": "Bursa of Fabricius",
+      "d": "Bile Duct"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "B-lymphocytes are named due to their relationship with the Bursa of Fabricius, a lymphoid organ found in birds where these cells were first discovered and characterized.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1954,
+    "paper_year": 2015,
+    "question_number": 1954,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "In glycolysis, glycerate-1,3-bisphosphate is converted into glycerate-3-phosphate by losing _____________ phosphate molecules.",
+    "options": {
+      "a": "3",
+      "b": "1",
+      "c": "2",
+      "d": "4"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "The conversion of glycerate-1,3-bisphosphate to glycerate-3-phosphate involves the loss of one phosphate molecule.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1955,
+    "paper_year": 2015,
+    "question_number": 1955,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "Malate is oxidized by _______ to oxaloacetate in Krebs’s Cycle.",
+    "options": {
+      "a": "ATP",
+      "b": "NAD",
+      "c": "NADP",
+      "d": "FAD"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Malate is oxidized to oxaloacetate in the Krebs cycle by the enzyme malate dehydrogenase, which uses NAD as a cofactor",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1957,
+    "paper_year": 2015,
+    "question_number": 1957,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "Carriers of the respiratory chain are located on:",
+    "options": {
+      "a": "Matrix of mitochondria",
+      "b": "Inner membrane of mitochondria",
+      "c": "Outer membrane of mitochondria",
+      "d": "Cytoplasmic matrix"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "The respiratory chain carriers are embedded within the inner mitochondrial membrane, where they play a crucial role in generating ATP during oxidative phosphorylation.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1958,
+    "paper_year": 2015,
+    "question_number": 1958,
+    "stored_answer": "A",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "In cystic fibrosis, liposomes-microscopic vesicles are sued which are coated with:",
+    "options": {
+      "a": "Healthy Gene",
+      "b": "Protein",
+      "c": "Chromosome",
+      "d": "Carbohydrate"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Liposomes used in cystic fibrosis treatment are often coated with proteins to facilitate targeting and delivery of genetic material",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1959,
+    "paper_year": 2015,
+    "question_number": 1959,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "The DNA formed by the reverse transcription is called:",
+    "options": {
+      "a": "rDNA",
+      "b": "cDNA",
+      "c": "dDNA",
+      "d": "DNA"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "The DNA formed by the reverse transcription is called complementary DNA, which is commonly abbreviated as cDNA.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1962,
+    "paper_year": 2015,
+    "question_number": 1962,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "A technique in transgenic animals in which desired gene is inserted into the eggs of animal is called:",
+    "options": {
+      "a": "Embryonic Stem Cell mediated Transfer",
+      "b": "Retro-virus mediated gene Transfer",
+      "c": "Microinjection",
+      "d": "Virus vectors"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "Microinjection is the technique where a desired gene is directly inserted into the eggs of an animal, making it the most appropriate answer",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1964,
+    "paper_year": 2015,
+    "question_number": 1964,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "Light rays from the sun are absorbed by CO2 and re-radiate as ________ radiations.",
+    "options": {
+      "a": "Ultraviolent",
+      "b": "Infra-Red",
+      "c": "Indigo",
+      "d": "Green"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "CO2 absorbs light rays from the sun and re-radiates them as infra-red radiations, which is a fundamental concept in atmospheric science and greenhouse effect",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1968,
+    "paper_year": 2015,
+    "question_number": 1968,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "During maternal mitosis, non-disjunction of autosomal chromosome pair results in the formation of an egg having 24 chromosomes in:",
+    "options": {
+      "a": "Klinefelter’s Syndrome",
+      "b": "Turner’s Syndrome",
+      "c": "Down’s Syndrome",
+      "d": "Jacob’s Syndrome"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "Non-disjunction of an autosomal chromosome pair during maternal mitosis would result in an egg with an extra chromosome, which is a characteristic of Down's Syndrome when the extra chromosome is 21",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1969,
+    "paper_year": 2015,
+    "question_number": 1969,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "Typical symptoms like enlarged breasts and small testis in male are attributed to:",
+    "options": {
+      "a": "Down’s Syndrome",
+      "b": "Klinefelter’s Syndrome",
+      "c": "Turner’s Syndrome",
+      "d": "Phenylketonuria"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Klinefelter's Syndrome is a genetic condition in males that is characterized by an extra X chromosome, leading to symptoms such as enlarged breasts and small testes.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1970,
+    "paper_year": 2015,
+    "question_number": 1970,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "Fluid mosaic model of plasma membrane states that protein molecules float in a fluid _____ layer.",
+    "options": {
+      "a": "Galactose",
+      "b": "Glucose",
+      "c": "Phospholipids",
+      "d": "Carbohydrate"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "The fluid mosaic model describes the plasma membrane as a fluid phospholipid bilayer with embedded proteins.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1971,
+    "paper_year": 2015,
+    "question_number": 1971,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "How many triplets of microtubules are present in centriole?",
+    "options": {
+      "a": "Ten",
+      "b": "Nine",
+      "c": "Eight",
+      "d": "Seven"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "A centriole is composed of nine triplets of microtubules, which is a well-established fact in cell biology.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1973,
+    "paper_year": 2015,
+    "question_number": 1973,
+    "stored_answer": "B",
+    "model_answer": "A",
+    "confidence": "high",
+    "question_text": "Which one of the following cell structure is involved in the synthesis of lipids?",
+    "options": {
+      "a": "Endoplasmic Reticulum",
+      "b": "Centriole",
+      "c": "Golgi Complex",
+      "d": "Mitochondria"
+    },
+    "tiebreaker_verdict": "A",
+    "tiebreaker_reason": "The Endoplasmic Reticulum is involved in the synthesis of lipids, making it the correct choice among the given options.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1974,
+    "paper_year": 2015,
+    "question_number": 1974,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "Monosaccharides are major components of:",
+    "options": {
+      "a": "DNA, ATP, Ribulose bisphosphate and Cysteine",
+      "b": "DNA, NADP, ATP and Ribulose bisphosphate",
+      "c": "DNA, NAD and Insulin",
+      "d": "DNA, RNA and Myosin"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Monosaccharides are major components of DNA, NADP, ATP, and Ribulose bisphosphate, which are all biologically relevant molecules that contain or are derived from monosaccharides",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1977,
+    "paper_year": 2015,
+    "question_number": 1977,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "Which one of the following is an example of unsaturated fatty acid?",
+    "options": {
+      "a": "Butyric Acid",
+      "b": "Palmitic Acid",
+      "c": "Oleic Acid",
+      "d": "Acetic Acid"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "Oleic Acid is an example of an unsaturated fatty acid because it contains one or more double bonds in its hydrocarbon chain",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1980,
+    "paper_year": 2015,
+    "question_number": 1980,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "Right atrium is separated from right ventricle by:",
+    "options": {
+      "a": "Bicuspid Valve",
+      "b": "Tricuspid Valve",
+      "c": "Semilunar Valve",
+      "d": "Interatrial Septum"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "The tricuspid valve is the valve that separates the right atrium from the right ventricle, allowing blood to flow from the atrium into the ventricle.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1981,
+    "paper_year": 2015,
+    "question_number": 1981,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "The flaps of tricuspid valves are attached to muscular extensions of right ventricle known as:",
+    "options": {
+      "a": "Smooth Muscles",
+      "b": "Intercostal Muscles",
+      "c": "Papillary Muscles",
+      "d": "Skeletal Muscles"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "The flaps of the tricuspid valve are indeed attached to muscular extensions of the right ventricle known as papillary muscles",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1983,
+    "paper_year": 2015,
+    "question_number": 1983,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "The heart beat cycle starts when electric impulses are generated from;",
+    "options": {
+      "a": "AV Node",
+      "b": "SA Node",
+      "c": "SV Node",
+      "d": "PQ Node"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "The SA Node, also known as the sinoatrial node, is the natural pacemaker of the heart where the heartbeat cycle starts with the generation of electric impulses.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1986,
+    "paper_year": 2015,
+    "question_number": 1986,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "When water is in short supply, increased water retention occurs through the:",
+    "options": {
+      "a": "Cortical nephrons",
+      "b": "Juxtamedullary nephrons",
+      "c": "Proximal Convoluted Tubule",
+      "d": "The tissue of cortex"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "The proximal convoluted tubule is the primary site where water reabsorption occurs, especially when water is in short supply, to increase water retention in the body.",
+    "tiebreaker_confidence": "high",
+    "bucket": "STORED_CORRECT"
+  },
+  {
+    "db_id": 1991,
+    "paper_year": 2015,
+    "question_number": 1991,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "Which disease is responsible for dementia (memory loss)?",
+    "options": {
+      "a": "Parkinson’s Disease",
+      "b": "Epilepsy",
+      "c": "Alzheimer’s Disease",
+      "d": "Grave’s Disease"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "Alzheimer's Disease is the most common cause of dementia, which is characterized by a decline in memory, thinking, and behavioral abilities",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1997,
+    "paper_year": 2015,
+    "question_number": 1997,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "In females, FSH stimulates the ovary to produce:",
+    "options": {
+      "a": "Progesterone",
+      "b": "Oestrogen",
+      "c": "Lactin",
+      "d": "Oxytocin"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "FSH stimulates the ovary to produce oestrogen, which is essential for the development of follicles and preparation for ovulation",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1998,
+    "paper_year": 2015,
+    "question_number": 1998,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "Syphilis, sexually transmitted disease is caused by:",
+    "options": {
+      "a": "HIV",
+      "b": "Neisseria gonorhoeae",
+      "c": "Treponema pallidum",
+      "d": "Type ‘2’ virus"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "Treponema pallidum is the bacterium that causes syphilis, a sexually transmitted disease.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1999,
+    "paper_year": 2015,
+    "question_number": 1999,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "In which phase of human female menstrual cycle, endometrium prepares for the implantation of embryo?",
+    "options": {
+      "a": "Proliferative phase",
+      "b": "Secretory phase",
+      "c": "Menstrual phase",
+      "d": "Ovulation phase"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "The secretory phase is when the endometrium thickens and prepares for a potential pregnancy by secreting nutrients and hormones to support implantation of an embryo.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2000,
+    "paper_year": 2015,
+    "question_number": 2000,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "The total number of cervical and thoracic vertebrate in human vertebral column is:",
+    "options": {
+      "a": "7",
+      "b": "14",
+      "c": "19",
+      "d": "33"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "The human vertebral column typically consists of 7 cervical and 12 thoracic vertebrae, making a total of 19",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2001,
+    "paper_year": 2015,
+    "question_number": 2001,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "A sarcomere is the region of a myofibril between two successive:",
+    "options": {
+      "a": "M-lines",
+      "b": "I-bands",
+      "c": "Z-lines",
+      "d": "T-tubules"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "A sarcomere is defined as the segment of a myofibril between two adjacent Z-lines, which are the darkly staining structures that anchor the actin filaments",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2007,
+    "paper_year": 2015,
+    "question_number": 2007,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "X-linked recessive trait is:",
+    "options": {
+      "a": "Hypophosphatemia",
+      "b": "Haemophilia",
+      "c": "Vitamin-D resistant rickets",
+      "d": "Diabetes Mellitus"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Haemophilia is a well-known X-linked recessive trait that affects the production of clotting factors in the blood.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2008,
+    "paper_year": 2015,
+    "question_number": 2008,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "Human skin colour is a good example of?",
+    "options": {
+      "a": "Sex-linked inheritance",
+      "b": "x-linked inheritance",
+      "c": "Polygenic inheritance",
+      "d": "y-linked inheritance"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "Human skin colour is determined by multiple genes, making it a classic example of polygenic inheritance",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2009,
+    "paper_year": 2015,
+    "question_number": 2009,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "From evolutionary point of view, which respiratory protein is common in many organisms?",
+    "options": {
+      "a": "Cytochrome a",
+      "b": "Cytochrome c",
+      "c": "Cytochrome b",
+      "d": "Cytochrome d"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Cytochrome c is a highly conserved protein found in many organisms, playing a crucial role in the electron transport chain and thus is common from an evolutionary point of view",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2011,
+    "paper_year": 2015,
+    "question_number": 2011,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "ABO blood system is an example of:",
+    "options": {
+      "a": "Polygenes",
+      "b": "Multiple Alleles",
+      "c": "Multiple genes",
+      "d": "Multiple Mutation"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "The ABO blood system is a classic example of multiple alleles, where three different alleles (A, B, and O) determine an individual's blood type.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2013,
+    "paper_year": 2015,
+    "question_number": 2013,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "Which one of the following edible products is widely pasteurized?",
+    "options": {
+      "a": "Soft drinks",
+      "b": "Milk",
+      "c": "Mango squash",
+      "d": "Orange Juice"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Milk is widely pasteurized to kill harmful bacteria and extend its shelf life",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2015,
+    "paper_year": 2015,
+    "question_number": 2015,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "Which organelle is bounded by two membranes?",
+    "options": {
+      "a": "Ribosome",
+      "b": "Lysosome",
+      "c": "Mitochondria",
+      "d": "Nucleolus"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "Mitochondria are uniquely bounded by two membranes, an outer and an inner membrane, which is a characteristic feature distinguishing them from other organelles",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2016,
+    "paper_year": 2015,
+    "question_number": 2016,
+    "stored_answer": "D",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "At the beginning of nuclear division, the number of microtubule triplets in two pairs of centrioles that migrate to opposite poles are:",
+    "options": {
+      "a": "9",
+      "b": "108",
+      "c": "18",
+      "d": "36"
+    },
+    "tiebreaker_verdict": "D",
+    "tiebreaker_reason": "Each centriole has 9 microtubule triplets and there are two pairs of centrioles, resulting in a total of 9 * 4 = 36 microtubule triplets",
+    "tiebreaker_confidence": "high",
+    "bucket": "STORED_CORRECT"
+  },
+  {
+    "db_id": 2017,
+    "paper_year": 2015,
+    "question_number": 2017,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "The disease in which an individual has extra sex chromosome (44 + XXY) is known as:",
+    "options": {
+      "a": "Down’s syndrome",
+      "b": "Klinefelter’s syndrome",
+      "c": "Tuner’s syndrome",
+      "d": "Jacob’s syndrome"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Klinefelter's syndrome is a genetic condition that occurs in males when they have an extra X chromosome, resulting in 47,XXY chromosomes",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2019,
+    "paper_year": 2015,
+    "question_number": 2019,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "Ejection of milk from mammary glands is under the control of which one of the following hormones?",
+    "options": {
+      "a": "Androgen",
+      "b": "Progesterone",
+      "c": "Oxytocin",
+      "d": "Estrogen"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "Oxytocin is the hormone responsible for stimulating the contraction of mammary gland muscles to eject milk, a process known as the letdown reflex.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2020,
+    "paper_year": 2015,
+    "question_number": 2020,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "Granulocytes are:",
+    "options": {
+      "a": "Monocytes, Eosinophils, Basophils",
+      "b": "Neurophils, Eosinophils, Basophils",
+      "c": "Basophils, Macrophages, Neurophils",
+      "d": "Monocytes, Macrophages, Basophils"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Granulocytes are a category of white blood cells that include neutrophils, eosinophils, and basophils, which matches option B",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2022,
+    "paper_year": 2015,
+    "question_number": 2022,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "Some enzymes require helper which is non-protein part for its efficient functioning that is called:",
+    "options": {
+      "a": "Accelerator",
+      "b": "Prosthetic group",
+      "c": "Cofactor",
+      "d": "Apoenzyme"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "Cofactor is the correct term for a non-protein helper required for the efficient functioning of some enzymes, which can be either inorganic ions or organic compounds",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2023,
+    "paper_year": 2015,
+    "question_number": 2023,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "Pepsin, protein digesting enzymes, sets best pH:",
+    "options": {
+      "a": "3.00",
+      "b": "2.00",
+      "c": "4.50",
+      "d": "6.00"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Pepsin, a protein-digesting enzyme, is most active at a pH of around 2.0, which is the typical pH of the stomach where it is found",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2025,
+    "paper_year": 2015,
+    "question_number": 2025,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "HIV is classified as:",
+    "options": {
+      "a": "Bacteriophage",
+      "b": "Retrovirus",
+      "c": "Oncovirus",
+      "d": "Icosahedral virus"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "HIV is classified as a retrovirus because it has a reverse transcriptase enzyme that converts its RNA genome into DNA",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2029,
+    "paper_year": 2015,
+    "question_number": 2029,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "___________ is a triploblastic organism.",
+    "options": {
+      "a": "Jelly Fish",
+      "b": "Tapeworm",
+      "c": "Sea Anemone",
+      "d": "Corals"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Tapeworm is a triploblastic organism because it has three primary germ layers: ectoderm, endoderm, and mesoderm, which is a characteristic of triploblastic organisms",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2030,
+    "paper_year": 2015,
+    "question_number": 2030,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "In arthropods, the body cavity is in the form of:",
+    "options": {
+      "a": "Coelem",
+      "b": "Psedocoelem",
+      "c": "Haemocoel",
+      "d": "Enteron"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "The body cavity in arthropods is indeed a haemocoel, which is a cavity that contains hemolymph and surrounds the internal organs.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2031,
+    "paper_year": 2015,
+    "question_number": 2031,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "___________ is a good example of polymorphism.",
+    "options": {
+      "a": "Hydra",
+      "b": "Obelia",
+      "c": "Starfish",
+      "d": "Equplectella"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Obelia is a good example of polymorphism as it exhibits different forms in its life cycle, such as the polyp and medusa stages",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2033,
+    "paper_year": 2015,
+    "question_number": 2033,
+    "stored_answer": "C",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "___________ is also called liver fluke.",
+    "options": {
+      "a": "Dugesia",
+      "b": "Fasciola",
+      "c": "Taenia",
+      "d": "Coral"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Fasciola is a genus of liver flukes, which are parasitic flatworms that infect the livers of various mammals, including humans.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 2036,
+    "paper_year": 2015,
+    "question_number": 2036,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "Trypsinogen is activated to trypsin by:",
+    "options": {
+      "a": "HCl",
+      "b": "Mucus",
+      "c": "Enterokinase",
+      "d": "Gastrin"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "Enterokinase is the enzyme that activates trypsinogen to trypsin in the small intestine",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1633,
+    "paper_year": 2016,
+    "question_number": 1633,
+    "stored_answer": "C",
+    "model_answer": "D",
+    "confidence": "high",
+    "question_text": "If we doubled all the parameters of the force acting on current carrying conductor and θ = 90° then magnetic force becomes:",
+    "options": {
+      "a": "Half",
+      "b": "Double",
+      "c": "Eight-times",
+      "d": "Four-times"
+    },
+    "tiebreaker_verdict": "D",
+    "tiebreaker_reason": "When all parameters of the force acting on a current-carrying conductor are doubled and θ = 90°, the magnetic force becomes four times its original value because the force is directly proportional to the current, length of the conductor, and magnetic field strength, all of which are doubled.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1635,
+    "paper_year": 2016,
+    "question_number": 1635,
+    "stored_answer": "B",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "The shadow of the bones in X-rays photographic film appears lighter than the surrounding flesh due to:",
+    "options": {
+      "a": "Bones reflect greater amount of X-rays",
+      "b": "Bones absorb less amount of X-rays",
+      "c": "Bones absorb greater amount of X-rays",
+      "d": "Bones totally reflect X-rays"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "Bones appear lighter on X-ray film because they absorb more X-rays, allowing fewer to reach the film and resulting in a lighter shadow",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1644,
+    "paper_year": 2016,
+    "question_number": 1644,
+    "stored_answer": "A",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "Which one of the following is structural formula of proline? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
+    "options": {
+      "a": "Structure A",
+      "b": "Structure B (a cyclic secondary amine ring with -COOH)",
+      "c": "Structure C",
+      "d": "Structure D"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Proline is a unique amino acid with a cyclic secondary amine ring structure that also contains a carboxyl (-COOH) group, which matches the description of Structure B",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1651,
+    "paper_year": 2016,
+    "question_number": 1651,
+    "stored_answer": "D",
+    "model_answer": "A",
+    "confidence": "high",
+    "question_text": "In the woody parts of trees, the %age of cellulose is:",
+    "options": {
+      "a": "50%",
+      "b": "10%",
+      "c": "30%",
+      "d": "100%"
+    },
+    "tiebreaker_verdict": "A",
+    "tiebreaker_reason": "Cellulose is a primary component of wood, making up approximately 50% of its dry weight",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1659,
+    "paper_year": 2016,
+    "question_number": 1659,
+    "stored_answer": "C",
+    "model_answer": "D",
+    "confidence": "high",
+    "question_text": "London dispersion forces are the only forces present among the:",
+    "options": {
+      "a": "Molecules of H2O in liquid state",
+      "b": "Molecules of HCl gas",
+      "c": "Atoms of helium in gaseous state at high temperature",
+      "d": "Molecules of solid chlorine"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "London dispersion forces are the only forces present among the atoms of helium in gaseous state at high temperature because helium is a noble gas and does not form any other type of intermolecular force",
+    "tiebreaker_confidence": "high",
+    "bucket": "STORED_CORRECT"
+  },
+  {
+    "db_id": 1666,
+    "paper_year": 2016,
+    "question_number": 1666,
+    "stored_answer": "D",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "Freezing point will also be defined as that temperature at which its solid and liquid phases have the same:",
+    "options": {
+      "a": "Concentration",
+      "b": "Ratio between the particles",
+      "c": "Vapour pressure",
+      "d": "Attraction between the phases"
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "Freezing point is defined as the temperature at which the solid and liquid phases of a substance have the same vapour pressure",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1679,
+    "paper_year": 2016,
+    "question_number": 1679,
+    "stored_answer": "D",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "Which element of 3d series of periodic table shows the electronic configuration of 3d6, 4s2?",
+    "options": {
+      "a": "Copper",
+      "b": "Cobalt",
+      "c": "Zinc",
+      "d": "Nickel"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Cobalt has an electronic configuration of [Ar] 3d7 4s2, but when it loses 2 electrons to form Co2+ it has [Ar] 3d7, however Iron has [Ar] 3d6 4s2",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1681,
+    "paper_year": 2016,
+    "question_number": 1681,
+    "stored_answer": "D",
+    "model_answer": "B",
+    "confidence": "high",
+    "question_text": "Which one of the following is anhydride of sulphuric acid?",
+    "options": {
+      "a": "Sulphur (II) oxide",
+      "b": "Sulphur (VI) oxide",
+      "c": "Iron pyrite",
+      "d": "Sulphur (VI) oxide"
+    },
+    "tiebreaker_verdict": "B",
+    "tiebreaker_reason": "Sulphur (VI) oxide is the anhydride of sulphuric acid because it reacts with water to form sulphuric acid",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1705,
+    "paper_year": 2016,
+    "question_number": 1705,
+    "stored_answer": "D",
+    "model_answer": "C",
+    "confidence": "high",
+    "question_text": "SPOT THE ERROR: It showed that (he was a man capable)[a] of (looking beneath the surface of things,)[b] a man not (dependent in)[c] paper manifestations.[d]",
+    "options": {
+      "a": "he was a man capable",
+      "b": "looking beneath the surface of things,",
+      "c": "dependent in",
+      "d": "paper manifestations."
+    },
+    "tiebreaker_verdict": "C",
+    "tiebreaker_reason": "The phrase should be 'dependent on' instead of 'dependent in' to correctly convey the idea of reliance on something.",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1706,
+    "paper_year": 2016,
+    "question_number": 1706,
+    "stored_answer": "B",
+    "model_answer": "A",
+    "confidence": "high",
+    "question_text": "SPOT THE ERROR: When he was a child, (every time he were naughty,)[a] (his foster-mother used to threaten)[b] (to send him)[c] to Timbuktu.[d]",
+    "options": {
+      "a": "every time he were naughty,",
+      "b": "his foster-mother used to threaten",
+      "c": "to send him",
+      "d": "to Timbuktu."
+    },
+    "tiebreaker_verdict": "A",
+    "tiebreaker_reason": "The error is in the verb conjugation, where 'he were' should be 'he was' to maintain subject-verb agreement",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  },
+  {
+    "db_id": 1722,
+    "paper_year": 2016,
+    "question_number": 1722,
+    "stored_answer": "A",
+    "model_answer": "D",
+    "confidence": "high",
+    "question_text": "Select the NEAREST CORRECT MEANING: CHIVALRY",
+    "options": {
+      "a": "Coward",
+      "b": "Non-cooperative",
+      "c": "Imitating",
+      "d": "Gallant"
+    },
+    "tiebreaker_verdict": "D",
+    "tiebreaker_reason": "Chivalry refers to the medieval code of conduct associated with knighthood, emphasizing honor, bravery, and courtesy, which is closest in meaning to gallant",
+    "tiebreaker_confidence": "high",
+    "bucket": "GEMINI_CORRECT"
+  }
+]

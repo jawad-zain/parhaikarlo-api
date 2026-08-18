@@ -1,0 +1,78 @@
+﻿{
+  "exam": "mdcat",
+  "source": "PMDC MDCAT 2025 Curriculum (official) — pmdc.pk",
+  "version": "2025-05-26",
+  "subjects": {
+    "Biology": {
+      "Acellular Life": ["Viruses", "AIDS and HIV Infection"],
+      "Bioenergetics": ["Respiration"],
+      "Biological Molecules": ["Biological Molecules (Definition and Classification)", "Biological Importance of Water", "Carbohydrates", "Proteins", "Lipids", "Ribonucleic Acid (RNA)", "Conjugated Molecules", "Structure of DNA"],
+      "Cell Structure and Function": ["Cell Structure (Animal vs Plant)", "Prokaryotic and Eukaryotic Cell", "Cytoplasmic Organelles", "Chromosomes"],
+      "Coordination and Control": ["Receptors", "Neurons", "Nerve Impulse and Reflexes", "Brain"],
+      "Enzymes": ["Characteristics of Enzymes", "Mode of Enzyme Action", "Factors Affecting Enzyme Action", "Enzyme Inhibitors"],
+      "Evolution": ["Concept of Evolution", "Lamarckism", "Darwinism"],
+      "Reproduction": ["Human Reproductive System", "Menstrual Cycle", "Sexually Transmitted Diseases"],
+      "Support and Movement": ["Human Skeleton (Cartilage, Muscle, Bone)", "Muscles (Smooth, Cardiac, Skeletal)", "Skeletal Muscle Ultra-structure", "Muscle Contraction", "Joints", "Arthritis"],
+      "Inheritance": ["Mendel's Laws of Inheritance", "Gene Linkage and Crossing Over", "X-linked Recessive Inheritance"],
+      "Circulation": ["Human Heart", "Cardiac Cycle and Phases of Heartbeat", "Blood Vessels (Arteries, Veins, Capillaries)", "Lymphatic System"],
+      "Immunity": ["Specific Defense Mechanism"],
+      "Respiration": ["Human Respiratory System", "Gas Exchange in Lungs", "Effect of Smoking"],
+      "Digestion": ["Human Digestive System"],
+      "Homeostasis": ["Kidney Structure and Function", "Glomerular Filtration and Reabsorption", "Kidney Stones and Failure", "Thermoregulation", "Excretion (Nitrogenous Compounds)"],
+      "Biotechnology": ["Biotechnology and Health Care"]
+    },
+    "Chemistry": {
+      "Fundamental Concepts of Chemistry": ["Moles and Avogadro''s Number", "Limiting and Excess Reactants", "Yield (Theoretical, Actual, Percentage)"],
+      "Atomic Structure": ["Discovery of Proton", "Planck''s Quantum Theory", "Quantum Numbers", "Shapes of Orbitals", "Spectrum of Hydrogen", "Electronic Configuration"],
+      "Gases": ["Kinetic Molecular Theory", "Standard Temperature and Pressure", "Boyle''s Law", "Charles''s Law", "Absolute Zero", "Ideal Gas Equation", "Ideal Gas Constant (R)", "Real and Ideal Gases"],
+      "Liquids": ["Properties of Liquids (Kinetic Theory)", "Evaporation, Boiling Point, Vapor Pressure", "Hydrogen Bonding", "Anomalous Behavior of Water"],
+      "Solids": ["Crystalline Solids", "Factors Affecting Shape of Ionic Crystals", "Ionic vs Molecular Crystals", "Crystal Lattice", "Lattice Energy"],
+      "Chemical Equilibrium": ["Chemical Equilibrium (Reversible Reactions)", "Le Chatelier''s Principle", "Solubility Products", "Common Ion Effect", "Buffer Solutions", "Haber''s Process"],
+      "Reaction Kinetics": ["Rate of Reaction and Rate Equation", "Factors Affecting Rate of Reaction", "Order of Reaction", "Activation Energy and Activated Complex", "Rate Constant"],
+      "Thermochemistry and Energetics": ["Thermodynamics (Definition)", "Exothermic and Endothermic Reactions", "System, Surroundings, State Functions", "Internal Energy", "First Law of Thermodynamics", "Hess''s Law", "Enthalpy of Reaction"],
+      "Electrochemistry": ["Redox Reactions", "Oxidation and Reduction", "Balancing Redox Equations", "Standard Hydrogen Electrode (SHE)"],
+      "Chemical Bonding": ["VSEPR Theory", "Sigma and Pi Bonds", "Hybridization", "Molecular Shapes (VSEPR Application)", "Dipole Moment", "Ionic Character of Covalent Bond", "Bond Energy"],
+      "s and p Block Elements": ["Periodic Trends (Radii, IE, EA, Electronegativity)", "s, p, d, f Block Demarcation", "Group I Reactions", "Group II Reactions", "Group IV Reactions"],
+      "Transition Elements": ["Electronic Structure of d-block"],
+      "Fundamental Principles of Organic Chemistry": ["Definition and Classification of Organic Compounds", "Functional Groups", "Isomerism (Stereoisomerism)"],
+      "Chemistry of Hydrocarbons": ["Nomenclature of Alkanes", "Free Radical Mechanism", "Nomenclature of Alkenes", "Shapes of Alkenes (Sigma/Pi Bonds)", "Structure and Reactivity of Alkenes", "Preparation of Alkanes", "MOT of Benzene, Resonance, Resonance Energy", "Reactivity of Benzene", "Chemical Reactions of Benzene", "Effect of Substituents on Benzene", "Nomenclature of Alkynes", "Preparation of Alkynes", "Acidity of Alkynes", "Reactions of Alkynes", "Substitution vs Addition Reactions"],
+      "Alkyl Halides": ["Nomenclature, Structure, Reactivity", "Nucleophilic Substitution Mechanisms", "Elimination Mechanisms"],
+      "Alcohols and Phenols": ["Nomenclature, Structure, Reactivity of Alcohols", "Chemistry of Alcohols (Ethers, Esters)", "Nomenclature, Structure, Reactivity of Phenols", "Electrophilic Aromatic Substitution in Phenols", "Alcohol vs Phenol"],
+      "Aldehydes and Ketones": ["Nomenclature and Structure", "Preparation", "Reactivity of Aldehydes and Ketones", "Nucleophilic Addition Reactions", "Reduction to Alcohols", "Oxidation Reactions"],
+      "Carboxylic Acids": ["Nomenclature, Structure, Preparation", "Reactivity of Carboxylic Acids", "Conversion to Derivatives (Acyl Halides, Anhydrides, Esters)"],
+      "Macromolecules": ["Classification and Structure of Proteins", "Importance of Proteins", "Enzymes as Biocatalysts"],
+      "Industrial Chemistry": ["Adhesives", "Dyes", "Polymers (Condensation and Addition)"]
+    },
+    "Physics": {
+      "Vectors and Equilibrium": ["Addition of Vectors (Rectangular Components)", "Scalar Product of Vectors", "Vector Product of Vectors"],
+      "Force and Motion": ["Displacement", "Velocity", "Displacement-time Graph", "Acceleration", "Uniform and Variable Acceleration", "Projectile Motion", "Ideal Projectile", "Projectile Velocity Components", "Projectile Height, Range, Time of Flight", "Newton''s Laws of Motion", "Newton''s Second Law and Linear Momentum", "Newton''s Third Law and Conservation of Momentum", "Collisions (Elastic and Inelastic)", "Momentum and Explosive Forces", "Perfectly Elastic Collision"],
+      "Work and Energy": ["Work", "Energy", "Kinetic Energy", "Potential Energy", "Absolute Potential Energy", "Power", "Work-Energy Theorem in Resistive Medium", "Energy Losses and Efficiency"],
+      "Rotational and Circular Motion": ["Angular Displacement", "Angular Velocity", "Relation Between Angular and Linear Quantities"],
+      "Fluid Dynamics": ["Terminal Velocity", "Fluid Drag", "Fluid Flow (Streamline, Turbulent)", "Equation of Continuity", "Bernoulli''s Equation"],
+      "Waves": ["Motion of Wave", "Progressive Waves", "Characteristics of Waves", "Wave Speed", "Transverse vs Longitudinal Waves", "Speed of Sound (Newton''s Formula)", "Laplace''s Correction", "Factors Affecting Speed of Sound", "Superposition of Waves", "Interference of Sound Waves", "Stationary Waves", "Stationary Waves in Stretched String", "Organ Pipes", "Simple Harmonic Motion (SHM)", "Circular Motion and SHM"],
+      "Thermodynamics": ["Thermal Equilibrium and Heat", "Specific and Molar Specific Heat", "Work in Thermodynamic System", "First Law of Thermodynamics", "Cp minus Cv Relation for Ideal Gas"],
+      "Electrostatics": ["Coulomb''s Law", "Electric Field", "Electric Field Due to Point Charge", "Electric Field Lines", "Electric Field Due to Infinite Sheet", "Electric Potential Energy and Potential", "Unit of Potential", "Electric Potential Due to Point Charge", "Charging and Discharging of Capacitor"],
+      "Current Electricity": ["Steady Current", "Ohm''s Law", "Resistivity and Temperature Coefficient", "Internal Resistance of Sources", "Maximum Power Transfer"],
+      "Electromagnetism": ["Magnetic Flux Density", "Magnetic Flux", "Motion of Charged Particle in Magnetic Field"],
+      "Electromagnetic Induction": ["Faraday''s Law", "Lenz''s Law", "Transformer"],
+      "Alternating Current": ["Phase of Alternating Current", "AC Through Resistor", "AC Through Capacitor", "AC Through Inductor", "Electromagnetic Spectrum"],
+      "Electronics": ["Rectification (Half and Full Wave)", "PN Junction (Forward and Reverse Bias)"],
+      "Dawn of Modern Physics": ["Quantum Theory and Radiation (Photons)"],
+      "Atomic Spectra": ["Atomic Spectra / Line Spectrum"],
+      "Nuclear Physics": ["Composition of Atomic Nuclei", "Spontaneous and Random Nuclear Decay", "Half-life and Rate of Decay", "Biological and Medical Uses of Radiation"]
+    },
+    "English": {
+      "Reading and Thinking Skills": ["Scan to Answer Short Questions", "Deduce Meaning from Context", "Figurative Language Analysis"],
+      "Formal and Lexical Aspect of Language": ["Contextual Vocabulary", "Synonyms (Irony, Parody, Satire)", "Pronoun-Antecedent Agreement", "Tenses", "Infinitives and Infinitive Phrases", "Gerunds and Gerund Phrases", "Adverb Position", "Prepositions", "Transitional Devices", "Punctuation", "Sentence Structure and Phrase Analysis", "Sentence Inversion", "Active and Passive Voice", "Direct and Indirect Speech"],
+      "Writing Skills": ["Proofreading and Editing", "Faulty Sentence Structure", "Subject-Verb Agreement", "Errors of Function and Spelling"]
+    },
+    "Logical Reasoning": {
+      "Critical Thinking": ["Evaluating Truth vs Falsehood", "Reasoning for Right Beliefs", "Identifying False Beliefs"],
+      "Letter and Symbol Series": ["Arithmetic Number Series", "Geometric Number Series", "Letter and Symbol Series"],
+      "Logical Deductions": ["Predicting New Relations", "Deriving Structures from Given Information"],
+      "Logical Problems": ["Inferring Across Problems", "Puzzle Solving"],
+      "Course of Action": ["Gathering Information", "Decision Making", "Judging Courses via Arguments"],
+      "Cause and Effect": ["Reasoning About Events and Accidents", "Rejecting False Beliefs", "Constructive Arguments"]
+    }
+  }
+}

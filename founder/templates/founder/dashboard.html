@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Founder Dashboard · ParhaiKarlo</title>
+<style>
+  body { background:#0f1419; color:#e6e6e6; font-family:'Inter',system-ui,sans-serif; margin:0; padding:32px; }
+  h1 { color:#c9a961; font-family:'Fraunces',serif; margin:0 0 8px; }
+  h2 { color:#c9a961; font-family:'Fraunces',serif; border-bottom:1px solid #2a3140; padding-bottom:6px; margin-top:32px; }
+  .subtitle { color:#8b9199; margin:0 0 24px; font-size:13px; letter-spacing:.5px; text-transform:uppercase; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:12px; margin-bottom:20px; }
+  .stat { background:#161d38; padding:16px; border-radius:6px; border-left:3px solid #c9a961; }
+  .stat-num { font-size:28px; font-weight:600; color:#fff; font-family:'Fraunces',serif; }
+  .stat-label { color:#8b9199; font-size:12px; text-transform:uppercase; letter-spacing:.5px; margin-top:4px; }
+  table { width:100%; border-collapse:collapse; margin-bottom:16px; background:#161d38; border-radius:6px; overflow:hidden; }
+  th { background:#1c2440; color:#c9a961; text-align:left; padding:10px 14px; font-size:12px; text-transform:uppercase; letter-spacing:.5px; }
+  td { padding:10px 14px; border-top:1px solid #2a3140; font-size:14px; }
+  tr:hover td { background:#1c2440; }
+  .num { text-align:right; font-family:'IBM Plex Mono',monospace; }
+  .done { color:#7ba05b; }
+  .pending { color:#8b9199; }
+  .task-line { padding:6px 0; border-bottom:1px solid #2a3140; }
+  .week-box { background:#161d38; padding:14px 18px; margin-bottom:12px; border-radius:6px; }
+  .week-title { color:#c9a961; font-family:'Fraunces',serif; font-size:16px; margin:0 0 8px; }
+  a { color:#c9a961; }
+  .top-links { margin-top:16px; font-size:13px; }
+  .top-links a { margin-right:16px; }
+</style>
+</head>
+<body>
+
+<h1>Founder Dashboard</h1>
+<p class="subtitle">ParhaiKarlo · content health + build progress</p>
+<div class="top-links">
+  <a href="/admin/">← Django admin</a>
+  <a href="/admin/founder/buildtask/">Edit build tasks</a>
+</div>
+
+<h2>Question bank</h2>
+<div class="grid">
+  <div class="stat"><div class="stat-num">{{ active_qs }}</div><div class="stat-label">Active Qs</div></div>
+  <div class="stat"><div class="stat-num">{{ verified_qs }}</div><div class="stat-label">Verified</div></div>
+  <div class="stat"><div class="stat-num">{{ verified_pct }}%</div><div class="stat-label">Verified rate</div></div>
+  <div class="stat"><div class="stat-num">{{ needs_review }}</div><div class="stat-label">Needs review</div></div>
+  <div class="stat"><div class="stat-num">{{ empty_subtopics_count }}</div><div class="stat-label">Empty subtopics</div></div>
+</div>
+
+<h2>By paper</h2>
+<table>
+  <tr><th>Year</th><th>Paper</th><th class="num">Active</th><th class="num">Verified</th></tr>
+  {% for p in papers %}
+  <tr>
+    <td>{{ p.year }}</td>
+    <td>{{ p.name }}</td>
+    <td class="num">{{ p.q_count }}</td>
+    <td class="num">{{ p.verified_count }}</td>
+  </tr>
+  {% endfor %}
+</table>
+
+<h2>By subject</h2>
+<table>
+  <tr><th>Subject</th><th class="num">Active</th><th class="num">Verified</th></tr>
+  {% for s in subjects %}
+  <tr>
+    <td>{{ s.name }}</td>
+    <td class="num">{{ s.q_count }}</td>
+    <td class="num">{{ s.verified_count }}</td>
+  </tr>
+  {% endfor %}
+</table>
+
+<h2>Coverage gaps ({{ empty_subtopics_count }} subtopics with 0 Qs)</h2>
+{% if empty_subtopics %}
+<table>
+  <tr><th>Subject</th><th>Topic</th><th>Subtopic</th></tr>
+  {% for sub in empty_subtopics|slice:":50" %}
+  <tr>
+    <td>{{ sub.topic.subject.name }}</td>
+    <td>{{ sub.topic.name }}</td>
+    <td>{{ sub.name }}</td>
+  </tr>
+  {% endfor %}
+</table>
+{% if empty_subtopics_count > 50 %}<p class="pending">Showing first 50 of {{ empty_subtopics_count }}.</p>{% endif %}
+{% else %}
+<p class="done">Every subtopic has at least one Q. 🎉</p>
+{% endif %}
+
+<h2>Build checklist — {{ done_tasks }}/{{ total_tasks }} ({{ tasks_pct }}%)</h2>
+{% for week, items in weeks_sorted %}
+  <div class="week-box">
+    <div class="week-title">Week {{ week }}</div>
+    {% for t in items %}
+      <div class="task-line">
+        {% if t.is_done %}<span class="done">✓</span>{% else %}<span class="pending">·</span>{% endif %}
+        {{ t.title }}
+        {% if t.notes %}<div class="pending" style="font-size:12px; margin-left:20px;">{{ t.notes }}</div>{% endif %}
+      </div>
+    {% endfor %}
+  </div>
+{% empty %}
+  <p class="pending">No build tasks seeded yet. Run <code>python manage.py seed_build_tasks</code>.</p>
+{% endfor %}
+
+</body>
+</html>

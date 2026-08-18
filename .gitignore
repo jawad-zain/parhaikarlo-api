@@ -1,0 +1,37 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.log
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+mdcat-content/raw-pdfs/
+mdcat-content/extracted/
+*.pdf
+
+# tagger byproducts
+mdcat-content/parsed-mcqs/*.checkpoint.*.json
+mdcat-content/parsed-mcqs/*.bak
+
+mdcat-content/spot-checks/
+
+# regenerable outputs (kept locally, not tracked)
+questions.json
+review_questions.html
+mdcat_*_review.html
+mdcat_*_visual_review.html
+test_visual.html
+mdcat-content/verification/*.checkpoint.json
+mdcat-content/verification/sample_*.txt
