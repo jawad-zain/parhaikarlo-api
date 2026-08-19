@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt.token_blacklist',
     'corsheaders',
     'django_extensions',
+    'storages',
     'rest_framework.authtoken',
     'founder',
 
@@ -190,5 +191,41 @@ REST_AUTH = {
     'USER_DETAILS_SERIALIZER': 'dj_rest_auth.serializers.UserDetailsSerializer',
 }
 
-MEDIA_URL = "/media/"
-MEDIA_ROOT = BASE_DIR / "media"
+# --- Media storage ---
+# Dev default: served straight off local disk. In production, flip
+# USE_S3_MEDIA=True in .env and point the B2_* vars at a Backblaze B2
+# bucket (S3-compatible) — QuestionImage.image and every other FileField/
+# ImageField then read/write the bucket transparently, no code changes.
+# One-time backfill of files already on local disk: manage.py sync_media_to_storage
+USE_S3_MEDIA = config('USE_S3_MEDIA', default=False, cast=bool)
+
+if USE_S3_MEDIA:
+    STORAGES = {
+        "default": {
+            "BACKEND": "storages.backends.s3.S3Storage",
+        },
+        "staticfiles": {
+            "BACKEND": "django.contrib.staticfiles.storage.StaticFilesStorage",
+        },
+    }
+    AWS_ACCESS_KEY_ID = config('B2_KEY_ID')
+    AWS_SECRET_ACCESS_KEY = config('B2_APPLICATION_KEY')
+    AWS_STORAGE_BUCKET_NAME = config('B2_BUCKET_NAME')
+    AWS_S3_ENDPOINT_URL = config('B2_ENDPOINT_URL')       # e.g. https://s3.us-west-004.backblazeb2.com
+    AWS_S3_REGION_NAME = config('B2_REGION', default='us-west-004')
+    AWS_DEFAULT_ACL = None          # B2 bucket visibility is set at the bucket level, not per-object ACL
+    AWS_QUERYSTRING_AUTH = False    # plain public URLs (not signed) — bucket must be set to public
+    AWS_S3_FILE_OVERWRITE = False   # don't clobber a file if two uploads land on the same name
+
+    # Optional: a custom/CDN domain fronting the bucket (e.g. Cloudflare in front
+    # of B2 to avoid its egress cost). Leave B2_CUSTOM_DOMAIN unset to serve
+    # straight from the B2 endpoint.
+    _custom_domain = config('B2_CUSTOM_DOMAIN', default='')
+    MEDIA_URL = (
+        f'https://{_custom_domain}/'
+        if _custom_domain
+        else f'{AWS_S3_ENDPOINT_URL}/{AWS_STORAGE_BUCKET_NAME}/'
+    )
+else:
+    MEDIA_URL = "/media/"
+    MEDIA_ROOT = BASE_DIR / "media"
