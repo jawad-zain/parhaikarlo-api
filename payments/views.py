@@ -2,7 +2,7 @@ from django.db import transaction
 from django.shortcuts import get_object_or_404
 from rest_framework import generics, status
 from rest_framework.parsers import FormParser, MultiPartParser
-from rest_framework.permissions import IsAuthenticated
+from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
 from django.utils import timezone
 
@@ -19,10 +19,13 @@ class SubscriptionPlanListView(generics.ListAPIView):
     """
     GET /api/payments/plans/?exam=mdcat
 
-    Returns active subscription plans.
+    Returns active subscription plans. Public/read-only like the other
+    browse endpoints (content.views.ExamListView, PastPaperListView,
+    quiz.views.MockTestListView) — the public landing page's pricing
+    section renders this for anonymous visitors before they sign up.
     """
     serializer_class = SubscriptionPlanSerializer
-    permission_classes = [IsAuthenticated]
+    permission_classes = [AllowAny]
 
     def get_queryset(self):
         qs = (

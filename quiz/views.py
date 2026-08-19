@@ -6,14 +6,16 @@ from django.utils import timezone
 from rest_framework import generics, status
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from rest_framework.permissions import IsAuthenticated
+from rest_framework.permissions import IsAuthenticated, AllowAny
 
+from accounts.models import is_guest
 from content.models import Question, Exam, Subject, Topic
 
 from .models import (
     Attempt,
     AttemptQuestion,
     AttemptViolation,
+    MockTest,
     UserProgress,
 )
 
@@ -30,6 +32,7 @@ from .serializers import (
     AttemptCreateSerializer,
     AttemptDetailSerializer,
     AnswerSubmitSerializer,
+    MockTestSerializer,
 )
 
 class QuestionListView(generics.ListAPIView):
@@ -79,7 +82,7 @@ class AttemptCreateView(APIView):
             return Response({'error': str(e)}, status=status.HTTP_400_BAD_REQUEST)
 
         return Response(
-            AttemptDetailSerializer(attempt).data,
+            AttemptDetailSerializer(attempt, context={'request': request}).data,
             status=status.HTTP_201_CREATED,
         )
 
@@ -169,6 +172,7 @@ class AttemptReviewView(APIView):
 
         review_items = [{
             'order': aq.order_in_attempt,
+            'question_id': aq.question.id,
             'question_text': aq.question.question_text,
             'option_a': aq.question.option_a,
             'option_b': aq.question.option_b,
@@ -351,6 +355,27 @@ class WeakTopicsView(APIView):
             "weak_topics": weak_topics,
         })    
     
+class MockTestListView(generics.ListAPIView):
+    """GET /api/quiz/mocks/?exam=1 — browsable list of mock test templates.
+
+    Full mocks and sectional mocks both come back here; the frontend
+    splits them by `kind`. Feeds the Mock tab AND the public per-exam
+    landing page (/exams/[slug]) — public/read-only like the past-paper
+    and syllabus browse endpoints in content/views.py, so visitors can see
+    what's inside an exam before signing up.
+    """
+    serializer_class = MockTestSerializer
+    permission_classes = [AllowAny]
+    pagination_class = None
+
+    def get_queryset(self):
+        qs = MockTest.objects.filter(is_active=True).select_related('subject')
+
+        if exam_id := self.request.query_params.get('exam'):
+            qs = qs.filter(exam_id=exam_id)
+
+        return qs
+
 class MockStartView(APIView):
     """POST /api/quiz/mocks/<mock_id>/start/ — begin a mock attempt from a template.
 
@@ -363,6 +388,12 @@ class MockStartView(APIView):
         from .services import create_mock_attempt
 
         mock_test = get_object_or_404(MockTest, id=mock_id, is_active=True)
+
+        if not mock_test.is_free and is_guest(request.user):
+            return Response(
+                {'error': 'signup_required', 'message': 'Sign up to start this mock.'},
+                status=status.HTTP_403_FORBIDDEN,
+            )
 
         allow_breaks = request.data.get('allow_breaks', True)
         device_class = request.data.get('device_class', 'desktop')
@@ -378,9 +409,9 @@ class MockStartView(APIView):
             return Response({'error': str(e)}, status=status.HTTP_400_BAD_REQUEST)
 
         return Response(
-            AttemptDetailSerializer(attempt).data,
+            AttemptDetailSerializer(attempt, context={'request': request}).data,
             status=status.HTTP_201_CREATED,
-        )    
+        )
 
 class AttemptViolationView(APIView):
     """
@@ -532,9 +563,9 @@ class WeakTopicsDrillView(APIView):
             )
 
         return Response(
-            AttemptDetailSerializer(attempt).data,
+            AttemptDetailSerializer(attempt, context={'request': request}).data,
             status=status.HTTP_201_CREATED,
-        )    
+        )
 
 class MockPerformanceReportView(APIView):
     """
@@ -818,7 +849,13 @@ class TestDatePlanView(APIView):
     permission_classes = [IsAuthenticated]
 
     def get(self, request):
-        profile = request.user.profile
+        profile = getattr(request.user, 'profile', None)
+
+        if profile is None:
+            return Response({
+                "available": False,
+                "message": "Complete your profile (pick your exam) in Settings to unlock a pacing plan.",
+            })
 
         if not profile.target_date:
             return Response({
@@ -933,6 +970,12 @@ class PastPaperStartView(APIView):
 
         paper = get_object_or_404(PastPaper, id=paper_id, is_active=True)
 
+        if not paper.is_free and is_guest(request.user):
+            return Response(
+                {'error': 'signup_required', 'message': 'Sign up to start this paper.'},
+                status=status.HTTP_403_FORBIDDEN,
+            )
+
         # Resume in-progress attempt if one exists
         existing = Attempt.objects.filter(
             user=request.user,
@@ -942,7 +985,7 @@ class PastPaperStartView(APIView):
 
         if existing:
             return Response(
-                AttemptDetailSerializer(existing).data,
+                AttemptDetailSerializer(existing, context={'request': request}).data,
                 status=status.HTTP_200_OK,
             )
 
@@ -956,6 +999,6 @@ class PastPaperStartView(APIView):
             return Response({'error': str(e)}, status=status.HTTP_400_BAD_REQUEST)
 
         return Response(
-            AttemptDetailSerializer(attempt).data,
+            AttemptDetailSerializer(attempt, context={'request': request}).data,
             status=status.HTTP_201_CREATED,
-        )    
+        )

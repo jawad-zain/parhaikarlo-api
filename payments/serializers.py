@@ -42,10 +42,8 @@ class PaymentCreateSerializer(serializers.Serializer):
 
     method = serializers.ChoiceField(
         choices=[
-            "manual",
-            "jazzcash",
             "easypaisa",
-            "bank_transfer",
+            "sadapay",
         ],
     )
 

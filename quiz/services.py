@@ -223,7 +223,15 @@ def create_mock_attempt(user, mock_test, device_class='desktop', allow_breaks=Tr
         raise QuizCreationError('Mock test is not active')
 
     if mock_test.kind == 'full':
-        question_ids = select_questions_for_full_mock(mock_test.exam, mock_test.total_questions)
+        fixed = list(
+            mock_test.questions.filter(is_active=True, is_verified=True)
+            .order_by('paper_order', 'id')
+            .values_list('id', flat=True)
+        )
+        if fixed:
+            question_ids = fixed
+        else:
+            question_ids = select_questions_for_full_mock(mock_test.exam, mock_test.total_questions)
         mode = 'mock'
         subject = None
     elif mock_test.kind == 'sectional':

@@ -42,10 +42,10 @@ except ImportError:
     pass  # optional — env may be set in shell
 
 
-MODEL = "llama-3.1-8b-instant"
+MODEL = "openai/gpt-oss-120b"  # llama-3.1-8b-instant was retired from Groq; swapped 2026-08
 DEFAULT_SYLLABUS = "mdcat-content/syllabus/pmdc_mdcat_syllabus.json"
-BATCH_SIZE = 15           # MCQs per Groq call — keeps under 8B's 6k TPM
-SLEEP_BETWEEN_CALLS = 65  # seconds — respects TPM rolling window
+BATCH_SIZE = 4            # MCQs per Groq call — gpt-oss-120b org TPM limit is 8000, Chemistry's larger vocab needs a smaller batch
+SLEEP_BETWEEN_CALLS = 20  # seconds — gpt-oss-120b has a much higher TPM budget than the old 8B model
 
 SYSTEM_PROMPT = """You are an expert tagger for the Pakistani MDCAT exam curriculum (PMDC 2025).
 Your job: classify each multiple-choice question into the official syllabus.
@@ -117,7 +117,7 @@ Return JSON mapping every question id to {{topic, subtopic, confidence}}. Use on
         ],
         response_format={"type": "json_object"},
         temperature=0.1,
-        max_tokens=1500,
+        max_tokens=6000,
     )
     raw = resp.choices[0].message.content
     try:

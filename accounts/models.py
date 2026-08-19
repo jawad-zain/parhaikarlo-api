@@ -2,6 +2,16 @@ from django.conf import settings
 from django.db import models
 
 
+def is_guest(user):
+    """A guest is a real User row created silently so a visitor can start a
+    free paper without a signup form (see accounts.views.GuestSessionView).
+    No new column for this — Django's own has_usable_password() already
+    tells guest and real accounts apart, since guests are created with
+    set_unusable_password() and real signups always set a real one.
+    """
+    return not user.is_anonymous and not user.has_usable_password()
+
+
 class StudentProfile(models.Model):
     CLASS_CHOICES = [
         ('fsc1', 'FSc Part 1'),

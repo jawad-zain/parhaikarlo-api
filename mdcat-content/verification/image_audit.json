@@ -1,5 +1,972 @@
 [
   {
+    "question_id": 2495,
+    "year": 2012,
+    "paper": "MDCAT 2012",
+    "subject": "Physics",
+    "topic": "Electromagnetism",
+    "is_verified": false,
+    "is_visual_required": true,
+    "signal": "weak",
+    "matched_keywords": [
+      "diagram"
+    ],
+    "verified_image_count": 1,
+    "broken_image_count": 0,
+    "verified_images": [
+      {
+        "id": 241,
+        "name": "question_images/q2495_solenoid_magnet.png"
+      }
+    ],
+    "broken_images": [],
+    "resolved": true,
+    "question_text": "The diagram shows a small magnet hanging on a thread near the end of a solenoid carrying a steady current ‘I’: IRON CORE N S What happens to the magnet as the iron core is inserted into the solenoid?"
+  },
+  {
+    "question_id": 2497,
+    "year": 2012,
+    "paper": "MDCAT 2012",
+    "subject": "Physics",
+    "topic": "Electromagnetism",
+    "is_verified": false,
+    "is_visual_required": true,
+    "signal": "weak",
+    "matched_keywords": [
+      "figure",
+      "shown in the figure"
+    ],
+    "verified_image_count": 1,
+    "broken_image_count": 0,
+    "verified_images": [
+      {
+        "id": 242,
+        "name": "question_images/q2497_parallel_wires.png"
+      }
+    ],
+    "broken_images": [],
+    "resolved": true,
+    "question_text": "Two long straight parallel wires held vertically have equal but opposite currents as shown in the figure. I I X Y Z Which of the following effect will be observed?"
+  },
+  {
+    "question_id": 2509,
+    "year": 2012,
+    "paper": "MDCAT 2012",
+    "subject": "Physics",
+    "topic": "Nuclear Physics",
+    "is_verified": false,
+    "is_visual_required": true,
+    "signal": "weak",
+    "matched_keywords": [
+      "figure",
+      "shown in figure"
+    ],
+    "verified_image_count": 1,
+    "broken_image_count": 0,
+    "verified_images": [
+      {
+        "id": 243,
+        "name": "question_images/q2509_radioactive_decay.png"
+      }
+    ],
+    "broken_images": [],
+    "resolved": true,
+    "question_text": "In a radioactive phenomenon observation shown in figure where α deviates lesser than β in some electric or magnetic field (not shown in figure). What is the reason of less deviation of α? β γ α"
+  },
+  {
+    "question_id": 2513,
+    "year": 2012,
+    "paper": "MDCAT 2012",
+    "subject": "Physics",
+    "topic": "Work and Energy",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "strong",
+    "matched_keywords": [
+      "diagram",
+      "graph"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "If ‘m’ is the mass, ‘c’ is the velocity of light and x = mc2, then dimensions of ‘x’ will be: [Diagram/graph/structure required — see original PDF page.]"
+  },
+  {
+    "question_id": 2522,
+    "year": 2012,
+    "paper": "MDCAT 2012",
+    "subject": "Physics",
+    "topic": "Waves",
+    "is_verified": false,
+    "is_visual_required": false,
+    "signal": "weak",
+    "matched_keywords": [
+      "image"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "The image of an object placed inside the focal length of a convex lens will be largest and clearest when it is at the"
+  },
+  {
+    "question_id": 2523,
+    "year": 2012,
+    "paper": "MDCAT 2012",
+    "subject": "Physics",
+    "topic": "Waves",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "strong",
+    "matched_keywords": [
+      "diagram",
+      "graph"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "A simple harmonic oscillator has a time period of 10 seconds. Which equation rotates its acceleration ‘a’ and displacement ‘x’? 2π 2 [Diagram/graph/structure required — see original PDF page.]"
+  },
+  {
+    "question_id": 2525,
+    "year": 2012,
+    "paper": "MDCAT 2012",
+    "subject": "Physics",
+    "topic": "Waves",
+    "is_verified": false,
+    "is_visual_required": true,
+    "signal": "strong",
+    "matched_keywords": [
+      "diagram",
+      "graph"
+    ],
+    "verified_image_count": 1,
+    "broken_image_count": 0,
+    "verified_images": [
+      {
+        "id": 244,
+        "name": "question_images/q2525_displacement_time_graph.png"
+      }
+    ],
+    "broken_images": [],
+    "resolved": true,
+    "question_text": "In the diagram below, the displacement of an oscillating particle is plotted against time. What does the length ‘PR’ on the time axis represents? Displacement Time [Diagram/graph/structure required — see original PDF page.]"
+  },
+  {
+    "question_id": 2526,
+    "year": 2012,
+    "paper": "MDCAT 2012",
+    "subject": "Physics",
+    "topic": "Waves",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "strong",
+    "matched_keywords": [
+      "diagram",
+      "graph"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "When the source of sound moves towards the stationary observer, the value of apparent frequency ‘fo’ is: v+ui v [Diagram/graph/structure required — see original PDF page.]"
+  },
+  {
+    "question_id": 2530,
+    "year": 2012,
+    "paper": "MDCAT 2012",
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "strong",
+    "matched_keywords": [
+      "diagram",
+      "graph"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "Which of the following is expression of mean square speed of ‘N’ gas molecules contained in a cylinder? v1 + v2 +…+ vx v1 + v2 +…+ vx [Diagram/graph/structure required — see original PDF page.]"
+  },
+  {
+    "question_id": 2534,
+    "year": 2012,
+    "paper": "MDCAT 2012",
+    "subject": "Physics",
+    "topic": "Electronics",
+    "is_verified": false,
+    "is_visual_required": true,
+    "signal": "strong",
+    "matched_keywords": [
+      "diagram",
+      "graph"
+    ],
+    "verified_image_count": 1,
+    "broken_image_count": 0,
+    "verified_images": [
+      {
+        "id": 245,
+        "name": "question_images/q2534_not_gate_symbols.png"
+      }
+    ],
+    "broken_images": [],
+    "resolved": true,
+    "question_text": "What is the logic symbol for a NOT Gate? [Diagram/graph/structure required — see original PDF page.]"
+  },
+  {
+    "question_id": 2538,
+    "year": 2012,
+    "paper": "MDCAT 2012",
+    "subject": "Physics",
+    "topic": "Electronics",
+    "is_verified": false,
+    "is_visual_required": true,
+    "signal": "strong",
+    "matched_keywords": [
+      "diagram",
+      "graph"
+    ],
+    "verified_image_count": 1,
+    "broken_image_count": 0,
+    "verified_images": [
+      {
+        "id": 246,
+        "name": "question_images/q2538_diode_iv_curve.png"
+      }
+    ],
+    "broken_images": [],
+    "resolved": true,
+    "question_text": "Which one of the following is I-V curve of a junction diode? I I I I V V V V [Diagram/graph/structure required — see original PDF page.]"
+  },
+  {
+    "question_id": 2540,
+    "year": 2012,
+    "paper": "MDCAT 2012",
+    "subject": "Chemistry",
+    "topic": "Carboxylic Acids",
+    "is_verified": false,
+    "is_visual_required": false,
+    "signal": "weak",
+    "matched_keywords": [
+      "structure of"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "When ethanol chloride reacts with methylamine, an amide is formed. What is the structure of the amide formed? O O"
+  },
+  {
+    "question_id": 2542,
+    "year": 2012,
+    "paper": "MDCAT 2012",
+    "subject": "Chemistry",
+    "topic": "Macromolecules",
+    "is_verified": false,
+    "is_visual_required": true,
+    "signal": "strong",
+    "matched_keywords": [
+      "diagram",
+      "graph"
+    ],
+    "verified_image_count": 1,
+    "broken_image_count": 0,
+    "verified_images": [
+      {
+        "id": 247,
+        "name": "question_images/q2542_alanine_structures.png"
+      }
+    ],
+    "broken_images": [],
+    "resolved": true,
+    "question_text": "Alanine is an amino acid which shows neutral effect on litmus paper, the formula of alanine may be H H2N C COOH HOOC CH2 CH COOH [Diagram/graph/structure required — see original PDF page.]"
+  },
+  {
+    "question_id": 2543,
+    "year": 2012,
+    "paper": "MDCAT 2012",
+    "subject": "Chemistry",
+    "topic": "Macromolecules",
+    "is_verified": false,
+    "is_visual_required": true,
+    "signal": "weak",
+    "matched_keywords": [
+      "following structure"
+    ],
+    "verified_image_count": 1,
+    "broken_image_count": 0,
+    "verified_images": [
+      {
+        "id": 248,
+        "name": "question_images/q2543_amino_acid_structures.png"
+      }
+    ],
+    "broken_images": [],
+    "resolved": true,
+    "question_text": "Which of the following structures is not an alpha amino acid? H2N CH COOH CH2 H3C CH COOH"
+  },
+  {
+    "question_id": 2546,
+    "year": 2012,
+    "paper": "MDCAT 2012",
+    "subject": "Chemistry",
+    "topic": "Macromolecules",
+    "is_verified": false,
+    "is_visual_required": false,
+    "signal": "weak",
+    "matched_keywords": [
+      "structure of"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "Structure of dipeptide is O H2N CH2 C NH HC COOH CH3 This is called:"
+  },
+  {
+    "question_id": 2586,
+    "year": 2012,
+    "paper": "MDCAT 2012",
+    "subject": "Chemistry",
+    "topic": "Alkyl Halides",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "weak",
+    "matched_keywords": [
+      "shown below"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "The alkaline hydrolysis of bromoethane shown below gives alcohol as the product: H3C―CH2―Br H3C―CH2―OH The reagent and the condition used in this reaction may be:"
+  },
+  {
+    "question_id": 2591,
+    "year": 2012,
+    "paper": "MDCAT 2012",
+    "subject": "Chemistry",
+    "topic": "Alcohols and Phenols",
+    "is_verified": false,
+    "is_visual_required": false,
+    "signal": "weak",
+    "matched_keywords": [
+      "following structure"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "The following structure is of: R R C OH R"
+  },
+  {
+    "question_id": 2601,
+    "year": 2012,
+    "paper": "MDCAT 2012",
+    "subject": "English",
+    "topic": "Writing Skills",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "strong",
+    "matched_keywords": [
+      "diagram",
+      "graph"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "SPOT THE ERROR: The theory was discarded as there was no corroborating evidence for its favour. [Diagram/graph/structure required — see original PDF page.]"
+  },
+  {
+    "question_id": 2602,
+    "year": 2012,
+    "paper": "MDCAT 2012",
+    "subject": "English",
+    "topic": "Writing Skills",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "strong",
+    "matched_keywords": [
+      "diagram",
+      "graph"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "SPOT THE ERROR: The workers were raising much hue and cry when their demands were turned away. [Diagram/graph/structure required — see original PDF page.]"
+  },
+  {
+    "question_id": 2603,
+    "year": 2012,
+    "paper": "MDCAT 2012",
+    "subject": "English",
+    "topic": "Writing Skills",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "strong",
+    "matched_keywords": [
+      "diagram",
+      "graph"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "SPOT THE ERROR: Aslam was badly cudgeled from his step-brother. He received many bruises and contusions. Thank God! No [Diagram/graph/structure required — see original PDF page.]"
+  },
+  {
+    "question_id": 2604,
+    "year": 2012,
+    "paper": "MDCAT 2012",
+    "subject": "English",
+    "topic": "Writing Skills",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "strong",
+    "matched_keywords": [
+      "diagram",
+      "graph"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "SPOT THE ERROR: I extend a cordial invitation for you to visit our farm house. We have grown vegetables without chemical [Diagram/graph/structure required — see original PDF page.]"
+  },
+  {
+    "question_id": 2605,
+    "year": 2012,
+    "paper": "MDCAT 2012",
+    "subject": "English",
+    "topic": "Writing Skills",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "strong",
+    "matched_keywords": [
+      "diagram",
+      "graph"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "SPOT THE ERROR: Although he is not a close relative of me, yet I was greeted with a show of deep cordiality. [Diagram/graph/structure required — see original PDF page.]"
+  },
+  {
+    "question_id": 2606,
+    "year": 2012,
+    "paper": "MDCAT 2012",
+    "subject": "English",
+    "topic": "Writing Skills",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "strong",
+    "matched_keywords": [
+      "diagram",
+      "graph"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "SPOT THE ERROR: This antibiotic destroys red corpuscles in the blood and cause pernicious anaemia. [Diagram/graph/structure required — see original PDF page.]"
+  },
+  {
+    "question_id": 2654,
+    "year": 2012,
+    "paper": "MDCAT 2012",
+    "subject": "Biology",
+    "topic": "Biotechnology",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "weak",
+    "matched_keywords": [
+      "graph"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "In DNA finger printing process, the use of __________ produces distinctive pattern on autoradiography or X-ray film"
+  },
+  {
+    "question_id": 2284,
+    "year": 2013,
+    "paper": "MDCAT 2013",
+    "subject": "Physics",
+    "topic": "Waves",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "weak",
+    "matched_keywords": [
+      "image"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "An object 15 cm from a lens produces a real image 30 cm from the lens. What is the focal length of the lens?"
+  },
+  {
+    "question_id": 2288,
+    "year": 2013,
+    "paper": "MDCAT 2013",
+    "subject": "Physics",
+    "topic": "Force and Motion",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "weak",
+    "matched_keywords": [
+      "graph"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "The stress-strain graph, deduced the following limits successively:"
+  },
+  {
+    "question_id": 2289,
+    "year": 2013,
+    "paper": "MDCAT 2013",
+    "subject": "Physics",
+    "topic": "Waves",
+    "is_verified": true,
+    "is_visual_required": true,
+    "signal": "weak",
+    "matched_keywords": [
+      "figure",
+      "graph",
+      "shown in figure"
+    ],
+    "verified_image_count": 1,
+    "broken_image_count": 0,
+    "verified_images": [
+      {
+        "id": 226,
+        "name": "question_images/q15_oscillation_graph.png"
+      }
+    ],
+    "broken_images": [],
+    "resolved": true,
+    "question_text": "Variation of amplitude with respect to time for an oscillation object is shown in figure. Identify the oscillation: (The amplitude-vs-time graph shows the oscillation staying within fixed limits +Yo and -Yo, i.e. it does NOT decay over time.)"
+  },
+  {
+    "question_id": 2294,
+    "year": 2013,
+    "paper": "MDCAT 2013",
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "is_verified": true,
+    "is_visual_required": true,
+    "signal": "weak",
+    "matched_keywords": [
+      "graph"
+    ],
+    "verified_image_count": 1,
+    "broken_image_count": 0,
+    "verified_images": [
+      {
+        "id": 227,
+        "name": "question_images/q20_isothermal_pv.png"
+      }
+    ],
+    "broken_images": [],
+    "resolved": true,
+    "question_text": "What will be the mathematical form of first law of thermodynamics for a system whose variation of volume by pressure is shown? (The P-V graph shown is labelled 'Isothermal', i.e. temperature is constant, curving from (P1,V1) down to (P2,V2).)"
+  },
+  {
+    "question_id": 2301,
+    "year": 2013,
+    "paper": "MDCAT 2013",
+    "subject": "Physics",
+    "topic": "Electronics",
+    "is_verified": false,
+    "is_visual_required": true,
+    "signal": "weak",
+    "matched_keywords": [
+      "figure",
+      "diagram",
+      "shown in figure"
+    ],
+    "verified_image_count": 1,
+    "broken_image_count": 0,
+    "verified_images": [
+      {
+        "id": 228,
+        "name": "question_images/q27_nand_or.png"
+      }
+    ],
+    "broken_images": [],
+    "resolved": true,
+    "question_text": "What is the output Boolean expression of logic diagram shown in figure below (two NAND gates, each fed by inputs A and B, both feeding into an OR gate whose output is X):"
+  },
+  {
+    "question_id": 2302,
+    "year": 2013,
+    "paper": "MDCAT 2013",
+    "subject": "Physics",
+    "topic": "Current Electricity",
+    "is_verified": false,
+    "is_visual_required": true,
+    "signal": "weak",
+    "matched_keywords": [
+      "figure",
+      "shown in figure"
+    ],
+    "verified_image_count": 1,
+    "broken_image_count": 0,
+    "verified_images": [
+      {
+        "id": 229,
+        "name": "question_images/q28_resistors.png"
+      }
+    ],
+    "broken_images": [],
+    "resolved": true,
+    "question_text": "Three resistors each having value 'R' are connected as shown in figure. What is the equivalence resistance between 'X' and 'Y'?"
+  },
+  {
+    "question_id": 2303,
+    "year": 2013,
+    "paper": "MDCAT 2013",
+    "subject": "Physics",
+    "topic": "Electromagnetism",
+    "is_verified": false,
+    "is_visual_required": true,
+    "signal": "weak",
+    "matched_keywords": [
+      "diagram"
+    ],
+    "verified_image_count": 1,
+    "broken_image_count": 0,
+    "verified_images": [
+      {
+        "id": 230,
+        "name": "question_images/q29_wire_magnet.png"
+      }
+    ],
+    "broken_images": [],
+    "resolved": true,
+    "question_text": "The diagram shows a wire, carrying a current 'I', placed between the poles of magnet: In which direction does the force on the wire act?"
+  },
+  {
+    "question_id": 2331,
+    "year": 2013,
+    "paper": "MDCAT 2013",
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "is_verified": false,
+    "is_visual_required": true,
+    "signal": "weak",
+    "matched_keywords": [
+      "figure"
+    ],
+    "verified_image_count": 1,
+    "broken_image_count": 0,
+    "verified_images": [
+      {
+        "id": 231,
+        "name": "question_images/q57_galvanic_cell.png"
+      }
+    ],
+    "broken_images": [],
+    "resolved": true,
+    "question_text": "In the figure given below, the electron flow in external circuit is from:"
+  },
+  {
+    "question_id": 2332,
+    "year": 2013,
+    "paper": "MDCAT 2013",
+    "subject": "Chemistry",
+    "topic": "Reaction Kinetics",
+    "is_verified": false,
+    "is_visual_required": true,
+    "signal": "weak",
+    "matched_keywords": [
+      "graph"
+    ],
+    "verified_image_count": 1,
+    "broken_image_count": 0,
+    "verified_images": [
+      {
+        "id": 232,
+        "name": "question_images/q58_arrhenius_graph.png"
+      }
+    ],
+    "broken_images": [],
+    "resolved": true,
+    "question_text": "By considering Arrhenius equation, the graph between '1/T' and 'log K' given a curve of the type:"
+  },
+  {
+    "question_id": 2340,
+    "year": 2013,
+    "paper": "MDCAT 2013",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "is_verified": false,
+    "is_visual_required": true,
+    "signal": "weak",
+    "matched_keywords": [
+      "structure of"
+    ],
+    "verified_image_count": 1,
+    "broken_image_count": 0,
+    "verified_images": [
+      {
+        "id": 233,
+        "name": "question_images/q66_co_structure.png"
+      }
+    ],
+    "broken_images": [],
+    "resolved": true,
+    "question_text": "The electronic structure of carbon monoxide is represented as:"
+  },
+  {
+    "question_id": 2347,
+    "year": 2013,
+    "paper": "MDCAT 2013",
+    "subject": "Chemistry",
+    "topic": "Fundamental Principles of Organic Chemistry",
+    "is_verified": false,
+    "is_visual_required": true,
+    "signal": "weak",
+    "matched_keywords": [],
+    "verified_image_count": 1,
+    "broken_image_count": 0,
+    "verified_images": [
+      {
+        "id": 234,
+        "name": "question_images/q73_cis_trans.png"
+      }
+    ],
+    "broken_images": [],
+    "resolved": true,
+    "question_text": "The cis-isomerism is shown by:"
+  },
+  {
+    "question_id": 2350,
+    "year": 2013,
+    "paper": "MDCAT 2013",
+    "subject": "Chemistry",
+    "topic": "Chemistry of Hydrocarbons",
+    "is_verified": false,
+    "is_visual_required": true,
+    "signal": "weak",
+    "matched_keywords": [],
+    "verified_image_count": 1,
+    "broken_image_count": 0,
+    "verified_images": [
+      {
+        "id": 235,
+        "name": "question_images/q76_bromoalkane.png"
+      }
+    ],
+    "broken_images": [],
+    "resolved": true,
+    "question_text": "What is the product formed when propene reacts with HBr?"
+  },
+  {
+    "question_id": 2354,
+    "year": 2013,
+    "paper": "MDCAT 2013",
+    "subject": "Chemistry",
+    "topic": "Alcohols and Phenols",
+    "is_verified": false,
+    "is_visual_required": true,
+    "signal": "weak",
+    "matched_keywords": [],
+    "verified_image_count": 1,
+    "broken_image_count": 0,
+    "verified_images": [
+      {
+        "id": 236,
+        "name": "question_images/q80_picric_acid.png"
+      }
+    ],
+    "broken_images": [],
+    "resolved": true,
+    "question_text": "The compound shown (a phenol ring with OH and three NO2 substituents) is named as:"
+  },
+  {
+    "question_id": 2356,
+    "year": 2013,
+    "paper": "MDCAT 2013",
+    "subject": "Chemistry",
+    "topic": "Alcohols and Phenols",
+    "is_verified": false,
+    "is_visual_required": true,
+    "signal": "weak",
+    "matched_keywords": [
+      "structure of"
+    ],
+    "verified_image_count": 1,
+    "broken_image_count": 0,
+    "verified_images": [
+      {
+        "id": 237,
+        "name": "question_images/q82_bromophenol.png"
+      }
+    ],
+    "broken_images": [],
+    "resolved": true,
+    "question_text": "Aqueous phenol decolorizes bromine water to form a white precipitate. What is the structure of the white precipitate formed?"
+  },
+  {
+    "question_id": 2358,
+    "year": 2013,
+    "paper": "MDCAT 2013",
+    "subject": "Chemistry",
+    "topic": "Aldehydes and Ketones",
+    "is_verified": false,
+    "is_visual_required": true,
+    "signal": "weak",
+    "matched_keywords": [
+      "structure of"
+    ],
+    "verified_image_count": 1,
+    "broken_image_count": 0,
+    "verified_images": [
+      {
+        "id": 238,
+        "name": "question_images/q84_alcohol.png"
+      }
+    ],
+    "broken_images": [],
+    "resolved": true,
+    "question_text": "What is the structure of alcohol which on oxidation with acidified Na2Cr2O7 gives phenyl methyl ketone (acetophenone, C6H5-C(=O)-CH3)?"
+  },
+  {
+    "question_id": 2359,
+    "year": 2013,
+    "paper": "MDCAT 2013",
+    "subject": "Chemistry",
+    "topic": "Aldehydes and Ketones",
+    "is_verified": false,
+    "is_visual_required": true,
+    "signal": "weak",
+    "matched_keywords": [
+      "structure of"
+    ],
+    "verified_image_count": 1,
+    "broken_image_count": 0,
+    "verified_images": [
+      {
+        "id": 239,
+        "name": "question_images/q85_ketone.png"
+      }
+    ],
+    "broken_images": [],
+    "resolved": true,
+    "question_text": "Which of the following is the structure of ketone?"
+  },
+  {
+    "question_id": 2364,
+    "year": 2013,
+    "paper": "MDCAT 2013",
+    "subject": "Chemistry",
+    "topic": "Macromolecules",
+    "is_verified": false,
+    "is_visual_required": true,
+    "signal": "weak",
+    "matched_keywords": [
+      "figure",
+      "shown in the figure"
+    ],
+    "verified_image_count": 1,
+    "broken_image_count": 0,
+    "verified_images": [
+      {
+        "id": 240,
+        "name": "question_images/q90_dipeptide.png"
+      }
+    ],
+    "broken_images": [],
+    "resolved": true,
+    "question_text": "The reaction of two amino acid molecules (glycine + glycine) shown in the figure gives a product called a dipeptide molecule. Which structure correctly represents that dipeptide?"
+  },
+  {
+    "question_id": 2417,
+    "year": 2013,
+    "paper": "MDCAT 2013",
+    "subject": "Biology",
+    "topic": "Cell Structure and Function",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "weak",
+    "matched_keywords": [
+      "following structure"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "Which of the following structures is absent in higher plants and found in animal cells:"
+  },
+  {
+    "question_id": 2464,
+    "year": 2013,
+    "paper": "MDCAT 2013",
+    "subject": "Biology",
+    "topic": "Support and Movement",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "weak",
+    "matched_keywords": [
+      "structure of"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "Where can we find H zone in the fine structure of skeletal muscle's myofibril?"
+  },
+  {
+    "question_id": 2474,
+    "year": 2013,
+    "paper": "MDCAT 2013",
+    "subject": "Biology",
+    "topic": "Immunity",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "weak",
+    "matched_keywords": [
+      "structure of"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "In the structure of an antibody molecule, which portion is occupied by variable chains?"
+  },
+  {
     "question_id": 2040,
     "year": 2014,
     "paper": "MDCAT 2014",
@@ -7,11 +974,9 @@
     "topic": "Force and Motion",
     "is_verified": true,
     "is_visual_required": true,
-    "signal": "strong",
+    "signal": "weak",
     "matched_keywords": [
       "figure",
-      "diagram",
-      "graph",
       "shown in the figure"
     ],
     "verified_image_count": 1,
@@ -24,7 +989,7 @@
     ],
     "broken_images": [],
     "resolved": true,
-    "question_text": "Two forces, 5 N and 10 N are acting at 'O' and 'P' respectively on a uniform meter rod suspended at the position of centre of gravity 50 cm mark, as shown in the figure. [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] What is the position of 'P' on meter rod?"
+    "question_text": "Two forces, 5 N and 10 N are acting at 'O' and 'P' respectively on a uniform meter rod suspended at the position of centre of gravity 50 cm mark, as shown in the figure. What is the position of 'P' on meter rod?"
   },
   {
     "question_id": 2042,
@@ -34,10 +999,8 @@
     "topic": "Fluid Dynamics",
     "is_verified": true,
     "is_visual_required": true,
-    "signal": "strong",
+    "signal": "weak",
     "matched_keywords": [
-      "figure",
-      "diagram",
       "graph"
     ],
     "verified_image_count": 1,
@@ -50,7 +1013,7 @@
     ],
     "broken_images": [],
     "resolved": true,
-    "question_text": "Which of the following is the best graphical representation between drag force 'F' on a spherical object of radius 'r' and its speed 'v' through a fluid of viscosity 'η'? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]"
+    "question_text": "Which of the following is the best graphical representation between drag force 'F' on a spherical object of radius 'r' and its speed 'v' through a fluid of viscosity 'η'?"
   },
   {
     "question_id": 2043,
@@ -60,11 +1023,9 @@
     "topic": "Fluid Dynamics",
     "is_verified": true,
     "is_visual_required": true,
-    "signal": "strong",
+    "signal": "weak",
     "matched_keywords": [
       "figure",
-      "diagram",
-      "graph",
       "shown in the figure"
     ],
     "verified_image_count": 1,
@@ -77,7 +1038,7 @@
     ],
     "broken_images": [],
     "resolved": true,
-    "question_text": "What is the speed of an incompressible non-viscous liquid flowing out from 'B' contained in a container as shown in the figure? Where AB = 5 m and g = 10 m/s2. [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]"
+    "question_text": "What is the speed of an incompressible non-viscous liquid flowing out from 'B' contained in a container as shown in the figure? Where AB = 5 m and g = 10 m/s2."
   },
   {
     "question_id": 2052,
@@ -87,11 +1048,9 @@
     "topic": "Work and Energy",
     "is_verified": true,
     "is_visual_required": true,
-    "signal": "strong",
+    "signal": "weak",
     "matched_keywords": [
       "figure",
-      "diagram",
-      "graph",
       "shown in the figure"
     ],
     "verified_image_count": 1,
@@ -104,7 +1063,7 @@
     ],
     "broken_images": [],
     "resolved": true,
-    "question_text": "Potential energy of a mass spring system with respect to displacement during simple harmonic motion (SHM) is shown in the figure. Which of the following represents the total energy of mass spring system during SHM? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]"
+    "question_text": "Potential energy of a mass spring system with respect to displacement during simple harmonic motion (SHM) is shown in the figure. Which of the following represents the total energy of mass spring system during SHM?"
   },
   {
     "question_id": 2053,
@@ -114,10 +1073,9 @@
     "topic": "Work and Energy",
     "is_verified": true,
     "is_visual_required": true,
-    "signal": "strong",
+    "signal": "weak",
     "matched_keywords": [
       "figure",
-      "diagram",
       "graph",
       "shown in the figure"
     ],
@@ -131,7 +1089,7 @@
     ],
     "broken_images": [],
     "resolved": true,
-    "question_text": "Three graphs for three types of materials are shown in the figure (Stress vs Strain, labelled X, Y, Z). Which row describes the correct materials? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]"
+    "question_text": "Three graphs for three types of materials are shown in the figure (Stress vs Strain, labelled X, Y, Z). Which row describes the correct materials?"
   },
   {
     "question_id": 2056,
@@ -141,10 +1099,8 @@
     "topic": "Work and Energy",
     "is_verified": true,
     "is_visual_required": true,
-    "signal": "strong",
+    "signal": "weak",
     "matched_keywords": [
-      "figure",
-      "diagram",
       "graph"
     ],
     "verified_image_count": 1,
@@ -157,7 +1113,7 @@
     ],
     "broken_images": [],
     "resolved": true,
-    "question_text": "Which feature of the following graph represents Young's Modulus? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] (Strain on one axis, Stress on the other)"
+    "question_text": "Which feature of the following graph represents Young's Modulus? (Strain on the vertical axis, Stress on the horizontal axis)"
   },
   {
     "question_id": 2060,
@@ -167,11 +1123,9 @@
     "topic": "Electronics",
     "is_verified": true,
     "is_visual_required": true,
-    "signal": "strong",
+    "signal": "weak",
     "matched_keywords": [
       "figure",
-      "diagram",
-      "graph",
       "shown in the figure"
     ],
     "verified_image_count": 1,
@@ -184,7 +1138,7 @@
     ],
     "broken_images": [],
     "resolved": true,
-    "question_text": "Three NAND gates are connected as shown in the figure. Which of the following logic gate is formed in the connected circuit? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]"
+    "question_text": "Three NAND gates are connected as shown in the figure. Which of the following logic gate is formed in the connected circuit?"
   },
   {
     "question_id": 2061,
@@ -194,11 +1148,8 @@
     "topic": "Electronics",
     "is_verified": true,
     "is_visual_required": true,
-    "signal": "strong",
+    "signal": "weak",
     "matched_keywords": [
-      "figure",
-      "diagram",
-      "graph",
       "truth table"
     ],
     "verified_image_count": 1,
@@ -211,7 +1162,7 @@
     ],
     "broken_images": [],
     "resolved": true,
-    "question_text": "What is the output of the truth table for x = AB' + A'B? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]"
+    "question_text": "What is the output of the truth table for x = AB' + A'B?"
   },
   {
     "question_id": 2062,
@@ -221,11 +1172,9 @@
     "topic": "Current Electricity",
     "is_verified": true,
     "is_visual_required": true,
-    "signal": "strong",
+    "signal": "weak",
     "matched_keywords": [
-      "figure",
-      "diagram",
-      "graph"
+      "diagram"
     ],
     "verified_image_count": 1,
     "broken_image_count": 0,
@@ -237,7 +1186,7 @@
     ],
     "broken_images": [],
     "resolved": true,
-    "question_text": "What is the reading of Ammeter as shown in the circuit diagram? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] (two 6V cells and a 3Ω resistor)"
+    "question_text": "What is the reading of Ammeter as shown in the circuit diagram? (two 6V cells and a 3Ω resistor)"
   },
   {
     "question_id": 2063,
@@ -247,11 +1196,9 @@
     "topic": "Current Electricity",
     "is_verified": true,
     "is_visual_required": true,
-    "signal": "strong",
+    "signal": "weak",
     "matched_keywords": [
-      "figure",
-      "diagram",
-      "graph"
+      "diagram"
     ],
     "verified_image_count": 1,
     "broken_image_count": 0,
@@ -263,7 +1210,7 @@
     ],
     "broken_images": [],
     "resolved": true,
-    "question_text": "Three 6Ω resistors are connected as shown in the diagram. What is the resistance between points 'A' and 'B'? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]"
+    "question_text": "Three 6Ω resistors are connected as shown in the diagram. What is the resistance between points 'A' and 'B'?"
   },
   {
     "question_id": 2067,
@@ -317,12 +1264,8 @@
     "topic": "Electromagnetism",
     "is_verified": true,
     "is_visual_required": true,
-    "signal": "strong",
-    "matched_keywords": [
-      "figure",
-      "diagram",
-      "graph"
-    ],
+    "signal": "weak",
+    "matched_keywords": [],
     "verified_image_count": 1,
     "broken_image_count": 0,
     "verified_images": [
@@ -333,7 +1276,7 @@
     ],
     "broken_images": [],
     "resolved": true,
-    "question_text": "Which one of the following spectra is most typical of the output of an X-ray tube? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]"
+    "question_text": "Which one of the following spectra is most typical of the output of an X-ray tube?"
   },
   {
     "question_id": 2074,
@@ -362,11 +1305,9 @@
     "topic": "Nuclear Physics",
     "is_verified": true,
     "is_visual_required": true,
-    "signal": "strong",
+    "signal": "weak",
     "matched_keywords": [
       "figure",
-      "diagram",
-      "graph",
       "shown in the figure"
     ],
     "verified_image_count": 1,
@@ -379,7 +1320,7 @@
     ],
     "broken_images": [],
     "resolved": true,
-    "question_text": "Three paths of radioactive radiations are observed as shown in the figure in the presence of an electric field (paths labelled 1, 2, 3 between '+' and '−' plates). Which type of radiation is shown in path 1? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]"
+    "question_text": "Three paths of radioactive radiations are observed as shown in the figure in the presence of an electric field (paths labelled 1, 2, 3 between '+' and '−' plates). Which type of radiation is shown in path 1?"
   },
   {
     "question_id": 2088,
@@ -389,11 +1330,8 @@
     "topic": "Chemical Bonding",
     "is_verified": true,
     "is_visual_required": true,
-    "signal": "strong",
+    "signal": "weak",
     "matched_keywords": [
-      "figure",
-      "diagram",
-      "graph",
       "structure of"
     ],
     "verified_image_count": 1,
@@ -406,7 +1344,7 @@
     ],
     "broken_images": [],
     "resolved": true,
-    "question_text": "The suitable representation of dot structure of chlorine molecule is: [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]"
+    "question_text": "The suitable representation of dot structure of chlorine molecule is:"
   },
   {
     "question_id": 2091,
@@ -435,12 +1373,8 @@
     "topic": "Liquids",
     "is_verified": true,
     "is_visual_required": true,
-    "signal": "strong",
-    "matched_keywords": [
-      "figure",
-      "diagram",
-      "graph"
-    ],
+    "signal": "weak",
+    "matched_keywords": [],
     "verified_image_count": 1,
     "broken_image_count": 0,
     "verified_images": [
@@ -451,7 +1385,7 @@
     ],
     "broken_images": [],
     "resolved": true,
-    "question_text": "The vapor pressure lines for pure as well as solutions of different concentrations are shown, with T1>T2>T3>T4. Which line represents pure water? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]"
+    "question_text": "The vapor pressure lines for pure as well as solutions of different concentrations are shown, with T1>T2>T3>T4. Which line represents pure water?"
   },
   {
     "question_id": 2100,
@@ -461,11 +1395,9 @@
     "topic": "Liquids",
     "is_verified": true,
     "is_visual_required": true,
-    "signal": "strong",
+    "signal": "weak",
     "matched_keywords": [
-      "figure",
-      "diagram",
-      "graph"
+      "figure"
     ],
     "verified_image_count": 1,
     "broken_image_count": 0,
@@ -477,7 +1409,7 @@
     ],
     "broken_images": [],
     "resolved": true,
-    "question_text": "One mole of glucose was dissolved in 1 kg of water, ethanol, ether and benzene separately and the molal boiling point constant of each individual solution was found to be 0.52, 1.75, 2.16 and 2.70 °C kg mol-1 respectively. Which of the following figures (I-IV) shows benzene as solvent in solution? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]"
+    "question_text": "One mole of glucose was dissolved in 1 kg of water, ethanol, ether and benzene separately and the molal boiling point constant of each individual solution was found to be 0.52, 1.75, 2.16 and 2.70 °C kg mol-1 respectively. Which of the following figures (I-IV) shows benzene as solvent in solution?"
   },
   {
     "question_id": 2101,
@@ -511,11 +1443,9 @@
     "topic": "Atomic Structure",
     "is_verified": true,
     "is_visual_required": true,
-    "signal": "strong",
+    "signal": "weak",
     "matched_keywords": [
-      "figure",
-      "diagram",
-      "graph"
+      "diagram"
     ],
     "verified_image_count": 1,
     "broken_image_count": 0,
@@ -527,7 +1457,7 @@
     ],
     "broken_images": [],
     "resolved": true,
-    "question_text": "Electronic configuration of Manganese (Mn) is shown via orbital-box diagrams for 3d and 4s subshells. [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]"
+    "question_text": "Electronic configuration of Manganese (Mn) is shown via orbital-box diagrams for 3d and 4s subshells."
   },
   {
     "question_id": 2110,
@@ -537,12 +1467,8 @@
     "topic": "Chemistry of Hydrocarbons",
     "is_verified": true,
     "is_visual_required": true,
-    "signal": "strong",
-    "matched_keywords": [
-      "figure",
-      "diagram",
-      "graph"
-    ],
+    "signal": "weak",
+    "matched_keywords": [],
     "verified_image_count": 1,
     "broken_image_count": 0,
     "verified_images": [
@@ -553,7 +1479,7 @@
     ],
     "broken_images": [],
     "resolved": true,
-    "question_text": "Which one of the following pairs of compounds is cis and trans isomers of each other? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] (four pairs of substituted-alkene skeletal structures)"
+    "question_text": "Which one of the following pairs of compounds is cis and trans isomers of each other? (four pairs of substituted-alkene skeletal structures)"
   },
   {
     "question_id": 2119,
@@ -563,12 +1489,8 @@
     "topic": "Chemical Bonding",
     "is_verified": true,
     "is_visual_required": true,
-    "signal": "strong",
-    "matched_keywords": [
-      "figure",
-      "diagram",
-      "graph"
-    ],
+    "signal": "weak",
+    "matched_keywords": [],
     "verified_image_count": 1,
     "broken_image_count": 0,
     "verified_images": [
@@ -579,7 +1501,7 @@
     ],
     "broken_images": [],
     "resolved": true,
-    "question_text": "The formula of 2,4,6-tribromophenol is [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] (four benzene-ring structures showing Br substitution positions)"
+    "question_text": "The formula of 2,4,6-tribromophenol is (four benzene-ring structures showing Br substitution positions)"
   },
   {
     "question_id": 2122,
@@ -589,11 +1511,8 @@
     "topic": "Aldehydes and Ketones",
     "is_verified": true,
     "is_visual_required": true,
-    "signal": "strong",
+    "signal": "weak",
     "matched_keywords": [
-      "figure",
-      "diagram",
-      "graph",
       "structural formula"
     ],
     "verified_image_count": 1,
@@ -606,7 +1525,7 @@
     ],
     "broken_images": [],
     "resolved": true,
-    "question_text": "The structural formula of the product of reaction of acetone with 2,4-dinitrophenylhydrazine is: [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]"
+    "question_text": "The structural formula of the product of reaction of acetone with 2,4-dinitrophenylhydrazine is:"
   },
   {
     "question_id": 2123,
@@ -616,12 +1535,8 @@
     "topic": "Chemistry of Hydrocarbons",
     "is_verified": true,
     "is_visual_required": true,
-    "signal": "strong",
-    "matched_keywords": [
-      "figure",
-      "diagram",
-      "graph"
-    ],
+    "signal": "weak",
+    "matched_keywords": [],
     "verified_image_count": 1,
     "broken_image_count": 0,
     "verified_images": [
@@ -632,7 +1547,7 @@
     ],
     "broken_images": [],
     "resolved": true,
-    "question_text": "For the reaction: ? + HCN --Base--> CH3-C(OH)(CN)-C2H5. [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]"
+    "question_text": "For the reaction: ? + HCN --Base--> CH3-C(OH)(CN)-C2H5."
   },
   {
     "question_id": 2128,
@@ -642,12 +1557,8 @@
     "topic": "Fundamental Principles of Organic Chemistry",
     "is_verified": true,
     "is_visual_required": true,
-    "signal": "strong",
-    "matched_keywords": [
-      "figure",
-      "diagram",
-      "graph"
-    ],
+    "signal": "weak",
+    "matched_keywords": [],
     "verified_image_count": 1,
     "broken_image_count": 0,
     "verified_images": [
@@ -658,7 +1569,7 @@
     ],
     "broken_images": [],
     "resolved": true,
-    "question_text": "Which one of the following is Glutamic Acid? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] (four amino-acid structures)"
+    "question_text": "Which one of the following is Glutamic Acid? (four amino-acid structures)"
   },
   {
     "question_id": 2130,
@@ -668,11 +1579,8 @@
     "topic": "s and p Block Elements",
     "is_verified": true,
     "is_visual_required": true,
-    "signal": "strong",
+    "signal": "weak",
     "matched_keywords": [
-      "figure",
-      "diagram",
-      "graph",
       "shown below"
     ],
     "verified_image_count": 1,
@@ -685,7 +1593,7 @@
     ],
     "broken_images": [],
     "resolved": true,
-    "question_text": "The structure shown below (partially recovered: CH=C-CH2-CH(NH2)-COOH with an imidazole-like N/NH ring) represents: [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]"
+    "question_text": "The structure shown below (partially recovered: CH=C-CH2-CH(NH2)-COOH with an imidazole-like N/NH ring) represents:"
   },
   {
     "question_id": 2138,
@@ -733,12 +1641,8 @@
     "topic": "Evolution",
     "is_verified": true,
     "is_visual_required": true,
-    "signal": "strong",
-    "matched_keywords": [
-      "figure",
-      "diagram",
-      "graph"
-    ],
+    "signal": "weak",
+    "matched_keywords": [],
     "verified_image_count": 1,
     "broken_image_count": 0,
     "verified_images": [
@@ -749,7 +1653,7 @@
     ],
     "broken_images": [],
     "resolved": true,
-    "question_text": "How many food chains are present in the following food web (Fox, Grass Snake, Dog, Frog, Beetle, Spider, Caterpillar, Slug, Wood Boring Beetle, Wood Louse feeding from Leaves, Wood, and Bark)? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]"
+    "question_text": "How many food chains are present in the following food web (Fox, Grass Snake, Dog, Frog, Beetle, Spider, Caterpillar, Slug, Wood Boring Beetle, Wood Louse feeding from Leaves, Wood, and Bark)?"
   },
   {
     "question_id": 1831,
@@ -1122,11 +2026,8 @@
     "topic": "Electronics",
     "is_verified": true,
     "is_visual_required": true,
-    "signal": "strong",
+    "signal": "weak",
     "matched_keywords": [
-      "figure",
-      "diagram",
-      "graph",
       "truth table"
     ],
     "verified_image_count": 1,
@@ -1139,7 +2040,7 @@
     ],
     "broken_images": [],
     "resolved": true,
-    "question_text": "Which one of the following is the truth table of NAND gate? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] (four A/B/Y truth tables shown, values partially recovered: A) 0,0->1; 0,1->0; 1,0->0; 1,1->0 | B) 0,0->1; 0,1->1; 1,0->1; 1,1->0 | C) 0,0->1; 1,1->0 | D) 0,0->0; 1,1->1)"
+    "question_text": "Which one of the following is the truth table of NAND gate? (four A/B/Y truth tables shown, values partially recovered: A) 0,0->1; 0,1->0; 1,0->0; 1,1->0 | B) 0,0->1; 0,1->1; 1,0->1; 1,1->0 | C) 0,0->1; 1,1->0 | D) 0,0->0; 1,1->1)"
   },
   {
     "question_id": 1631,
@@ -1194,11 +2095,8 @@
     "topic": "Chemical Bonding",
     "is_verified": true,
     "is_visual_required": true,
-    "signal": "strong",
+    "signal": "weak",
     "matched_keywords": [
-      "figure",
-      "diagram",
-      "graph",
       "structural formula"
     ],
     "verified_image_count": 1,
@@ -1211,7 +2109,7 @@
     ],
     "broken_images": [],
     "resolved": true,
-    "question_text": "Which one of the following is structural formula of proline? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]"
+    "question_text": "Which one of the following is structural formula of proline?"
   },
   {
     "question_id": 1646,
@@ -2138,22 +3036,19 @@
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
-      "figure",
-      "diagram",
-      "graph",
       "following structure"
     ],
     "verified_image_count": 1,
     "broken_image_count": 0,
     "verified_images": [
       {
-        "id": 212,
-        "name": "question_images/q1065_stability_structure.png"
+        "id": 221,
+        "name": "question_images/q96_v2.png"
       }
     ],
     "broken_images": [],
     "resolved": true,
-    "question_text": "[Diagram required — not transcribable from OCR text. See original PDF page for the figure/graph/circuit.] [Original stem: \"The stability in the following structure is due to the\" — shows a molecular/helical structure diagram]"
+    "question_text": "The stability in the following structure is due to the:"
   },
   {
     "question_id": 1066,
@@ -2183,22 +3078,18 @@
     "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
-    "matched_keywords": [
-      "figure",
-      "diagram",
-      "graph"
-    ],
+    "matched_keywords": [],
     "verified_image_count": 1,
     "broken_image_count": 0,
     "verified_images": [
       {
-        "id": 213,
-        "name": "question_images/q1070_periodic_property_graph.png"
+        "id": 222,
+        "name": "question_images/q101_final.png"
       }
     ],
     "broken_images": [],
     "resolved": true,
-    "question_text": "[Diagram required — not transcribable from OCR text. See original PDF page for the figure/graph/circuit.] [Original stem: \"The following sketch shows the variation in a physical property of third period elements against their atomic numbers... What physical property is plotted?\" — shows a line graph, atomic number 11-18 on x-axis, sharp peak near 14-15]"
+    "question_text": "The following sketch shows the variation in a physical property of third period elements against their atomic numbers. What physical property is plotted in this sketch?"
   },
   {
     "question_id": 1078,
@@ -2267,21 +3158,19 @@
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
-      "figure",
-      "diagram",
-      "graph"
+      "diagram"
     ],
     "verified_image_count": 1,
     "broken_image_count": 0,
     "verified_images": [
       {
-        "id": 214,
-        "name": "question_images/q1119_opamp_circuit.png"
+        "id": 224,
+        "name": "question_images/q150_zoom.png"
       }
     ],
     "broken_images": [],
     "resolved": true,
-    "question_text": "[Diagram required — not transcribable from OCR text. See original PDF page for the figure/graph/circuit.] [Original stem: \"An input voltage Vin of 0.50 V is applied to an op-amp connected as shown in the diagram. What is the output voltage Vout?\" — shows an op-amp circuit with labeled resistor values]"
+    "question_text": "An input voltage Vin of 0.50 V is applied to an op-amp connected as shown in the diagram. What is the output voltage Vout?"
   },
   {
     "question_id": 1125,
@@ -2292,22 +3181,18 @@
     "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
-    "matched_keywords": [
-      "figure",
-      "diagram",
-      "graph"
-    ],
+    "matched_keywords": [],
     "verified_image_count": 1,
     "broken_image_count": 0,
     "verified_images": [
       {
-        "id": 215,
-        "name": "question_images/q1125_stress_strain_curve.png"
+        "id": 223,
+        "name": "question_images/q156_final.png"
       }
     ],
     "broken_images": [],
     "resolved": true,
-    "question_text": "[Diagram required — not transcribable from OCR text. See original PDF page for the figure/graph/circuit.] [Original stem: \"Which material will follow the below stress-strain curve.\" — shows a force vs extension graph]"
+    "question_text": "Which material will follow the below stress-strain curve?"
   },
   {
     "question_id": 1140,

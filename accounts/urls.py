@@ -2,7 +2,9 @@ from django.urls import path
 from rest_framework_simplejwt.views import TokenRefreshView, TokenBlacklistView
 
 from .views import (
+    ClaimAccountView,
     EmailTokenObtainPairView,
+    GuestSessionView,
     MeView,
     PasswordResetConfirmView,
     PasswordResetRequestView,
@@ -12,6 +14,8 @@ from .social import GoogleLogin
 
 urlpatterns = [
     path('signup/', SignupView.as_view(), name='signup'),
+    path('guest/', GuestSessionView.as_view(), name='guest-session'),
+    path('claim/', ClaimAccountView.as_view(), name='claim-account'),
     path('login/', EmailTokenObtainPairView.as_view(), name='login'),
     path('refresh/', TokenRefreshView.as_view(), name='token-refresh'),
     path('logout/', TokenBlacklistView.as_view(), name='logout'),

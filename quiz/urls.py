@@ -15,6 +15,7 @@ from .views import (
     MockPerformanceReportView,
     MockFocusPlanView,
     TestDatePlanView,
+    MockTestListView,
 )
 
 
@@ -23,6 +24,12 @@ urlpatterns = [
         'questions/',
         QuestionListView.as_view(),
         name='question-list',
+    ),
+
+    path(
+    "mocks/",
+    MockTestListView.as_view(),
+    name="mock-list",
     ),
 
     path(

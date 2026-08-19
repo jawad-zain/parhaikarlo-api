@@ -17,6 +17,7 @@ def generate_explanation(question):
             "short": question.explanation_short,
             "long": question.explanation_long,
             "trick": question.explanation_trick,
+            "options": question.explanation_options,
         }
 
     # 2. Cache miss — call Groq

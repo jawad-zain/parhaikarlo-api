@@ -1,7 +1,7 @@
 from rest_framework import serializers
 
 from content.models import Question, QuestionImage
-from .models import Attempt, AttemptQuestion
+from .models import Attempt, AttemptQuestion, MockTest
 
 
 class QuestionImageSerializer(serializers.ModelSerializer):
@@ -74,6 +74,29 @@ class QuestionListSerializer(serializers.ModelSerializer):
             'subtopic',
             'is_visual_required',
             'images',
+        ]
+
+
+class MockTestSerializer(serializers.ModelSerializer):
+    """For GET /mocks — the browsable list of mock test templates."""
+
+    subject = serializers.CharField(
+        source='subject.name',
+        read_only=True,
+        allow_null=True,
+    )
+
+    class Meta:
+        model = MockTest
+        fields = [
+            'id',
+            'name',
+            'kind',
+            'subject_id',
+            'subject',
+            'duration_minutes',
+            'total_questions',
+            'is_free',
         ]
 
 

@@ -83,11 +83,13 @@ class Subscription(models.Model):
 
 
 class Payment(models.Model):
+    # Only the two merchant accounts actually offered on the frontend
+    # (app/(app)/plans/upgrade/[planId]/page.tsx METHODS array). Historical
+    # 'manual'/'jazzcash'/'bank_transfer' rows from before this cutover keep
+    # working (choices only validate new writes) but can no longer be picked.
     METHOD_CHOICES = [
-        ('manual', 'Manual'),
-        ('jazzcash', 'JazzCash'),
         ('easypaisa', 'EasyPaisa'),
-        ('bank_transfer', 'Bank Transfer'),
+        ('sadapay', 'SadaPay'),
     ]
 
     STATUS_CHOICES = [
@@ -117,7 +119,7 @@ class Payment(models.Model):
     method = models.CharField(
         max_length=20,
         choices=METHOD_CHOICES,
-        default='manual',
+        default='easypaisa',
     )
 
     transaction_reference = models.CharField(

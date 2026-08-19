@@ -144,6 +144,16 @@ class MockTest(models.Model):
     duration_minutes = models.PositiveSmallIntegerField()  # 210 full, 45 sectional
     total_questions = models.PositiveSmallIntegerField()   # 200 full, 60 sectional
 
+    # Optional fixed question set for kind='full' mocks — e.g. a distinct
+    # authored "paper" (Mock Test 2, 3, ...) rather than a fresh random draw.
+    # If empty, create_mock_attempt() falls back to the original behaviour:
+    # select_questions_for_full_mock() weighted-random-samples the whole
+    # verified Question pool for the exam. If populated, that exact set is
+    # used (in paper_order) every time this MockTest is attempted.
+    questions = models.ManyToManyField(
+        'content.Question', blank=True, related_name='fixed_in_mock_tests',
+    )
+
     # 1 free full mock + 2 free sectional per subject.
     is_free = models.BooleanField(default=False)
     is_active = models.BooleanField(default=True)

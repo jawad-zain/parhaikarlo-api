@@ -1,34 +1,78 @@
 question_id,year,paper,subject,topic,is_verified,is_visual_required,signal,matched_keywords,verified_image_count,broken_image_count,resolved
-2040,2014,MDCAT 2014,Physics,Force and Motion,True,True,strong,figure|diagram|graph|shown in the figure,1,0,True
-2042,2014,MDCAT 2014,Physics,Fluid Dynamics,True,True,strong,figure|diagram|graph,1,0,True
-2043,2014,MDCAT 2014,Physics,Fluid Dynamics,True,True,strong,figure|diagram|graph|shown in the figure,1,0,True
-2052,2014,MDCAT 2014,Physics,Work and Energy,True,True,strong,figure|diagram|graph|shown in the figure,1,0,True
-2053,2014,MDCAT 2014,Physics,Work and Energy,True,True,strong,figure|diagram|graph|shown in the figure,1,0,True
-2056,2014,MDCAT 2014,Physics,Work and Energy,True,True,strong,figure|diagram|graph,1,0,True
-2060,2014,MDCAT 2014,Physics,Electronics,True,True,strong,figure|diagram|graph|shown in the figure,1,0,True
-2061,2014,MDCAT 2014,Physics,Electronics,True,True,strong,figure|diagram|graph|truth table,1,0,True
-2062,2014,MDCAT 2014,Physics,Current Electricity,True,True,strong,figure|diagram|graph,1,0,True
-2063,2014,MDCAT 2014,Physics,Current Electricity,True,True,strong,figure|diagram|graph,1,0,True
+2495,2012,MDCAT 2012,Physics,Electromagnetism,False,True,weak,diagram,1,0,True
+2497,2012,MDCAT 2012,Physics,Electromagnetism,False,True,weak,figure|shown in the figure,1,0,True
+2509,2012,MDCAT 2012,Physics,Nuclear Physics,False,True,weak,figure|shown in figure,1,0,True
+2513,2012,MDCAT 2012,Physics,Work and Energy,True,False,strong,diagram|graph,0,0,False
+2522,2012,MDCAT 2012,Physics,Waves,False,False,weak,image,0,0,False
+2523,2012,MDCAT 2012,Physics,Waves,True,False,strong,diagram|graph,0,0,False
+2525,2012,MDCAT 2012,Physics,Waves,False,True,strong,diagram|graph,1,0,True
+2526,2012,MDCAT 2012,Physics,Waves,True,False,strong,diagram|graph,0,0,False
+2530,2012,MDCAT 2012,Physics,Thermodynamics,True,False,strong,diagram|graph,0,0,False
+2534,2012,MDCAT 2012,Physics,Electronics,False,True,strong,diagram|graph,1,0,True
+2538,2012,MDCAT 2012,Physics,Electronics,False,True,strong,diagram|graph,1,0,True
+2540,2012,MDCAT 2012,Chemistry,Carboxylic Acids,False,False,weak,structure of,0,0,False
+2542,2012,MDCAT 2012,Chemistry,Macromolecules,False,True,strong,diagram|graph,1,0,True
+2543,2012,MDCAT 2012,Chemistry,Macromolecules,False,True,weak,following structure,1,0,True
+2546,2012,MDCAT 2012,Chemistry,Macromolecules,False,False,weak,structure of,0,0,False
+2586,2012,MDCAT 2012,Chemistry,Alkyl Halides,True,False,weak,shown below,0,0,False
+2591,2012,MDCAT 2012,Chemistry,Alcohols and Phenols,False,False,weak,following structure,0,0,False
+2601,2012,MDCAT 2012,English,Writing Skills,True,False,strong,diagram|graph,0,0,False
+2602,2012,MDCAT 2012,English,Writing Skills,True,False,strong,diagram|graph,0,0,False
+2603,2012,MDCAT 2012,English,Writing Skills,True,False,strong,diagram|graph,0,0,False
+2604,2012,MDCAT 2012,English,Writing Skills,True,False,strong,diagram|graph,0,0,False
+2605,2012,MDCAT 2012,English,Writing Skills,True,False,strong,diagram|graph,0,0,False
+2606,2012,MDCAT 2012,English,Writing Skills,True,False,strong,diagram|graph,0,0,False
+2654,2012,MDCAT 2012,Biology,Biotechnology,True,False,weak,graph,0,0,False
+2284,2013,MDCAT 2013,Physics,Waves,True,False,weak,image,0,0,False
+2288,2013,MDCAT 2013,Physics,Force and Motion,True,False,weak,graph,0,0,False
+2289,2013,MDCAT 2013,Physics,Waves,True,True,weak,figure|graph|shown in figure,1,0,True
+2294,2013,MDCAT 2013,Physics,Thermodynamics,True,True,weak,graph,1,0,True
+2301,2013,MDCAT 2013,Physics,Electronics,False,True,weak,figure|diagram|shown in figure,1,0,True
+2302,2013,MDCAT 2013,Physics,Current Electricity,False,True,weak,figure|shown in figure,1,0,True
+2303,2013,MDCAT 2013,Physics,Electromagnetism,False,True,weak,diagram,1,0,True
+2331,2013,MDCAT 2013,Chemistry,Electrochemistry,False,True,weak,figure,1,0,True
+2332,2013,MDCAT 2013,Chemistry,Reaction Kinetics,False,True,weak,graph,1,0,True
+2340,2013,MDCAT 2013,Chemistry,Chemical Bonding,False,True,weak,structure of,1,0,True
+2347,2013,MDCAT 2013,Chemistry,Fundamental Principles of Organic Chemistry,False,True,weak,,1,0,True
+2350,2013,MDCAT 2013,Chemistry,Chemistry of Hydrocarbons,False,True,weak,,1,0,True
+2354,2013,MDCAT 2013,Chemistry,Alcohols and Phenols,False,True,weak,,1,0,True
+2356,2013,MDCAT 2013,Chemistry,Alcohols and Phenols,False,True,weak,structure of,1,0,True
+2358,2013,MDCAT 2013,Chemistry,Aldehydes and Ketones,False,True,weak,structure of,1,0,True
+2359,2013,MDCAT 2013,Chemistry,Aldehydes and Ketones,False,True,weak,structure of,1,0,True
+2364,2013,MDCAT 2013,Chemistry,Macromolecules,False,True,weak,figure|shown in the figure,1,0,True
+2417,2013,MDCAT 2013,Biology,Cell Structure and Function,True,False,weak,following structure,0,0,False
+2464,2013,MDCAT 2013,Biology,Support and Movement,True,False,weak,structure of,0,0,False
+2474,2013,MDCAT 2013,Biology,Immunity,True,False,weak,structure of,0,0,False
+2040,2014,MDCAT 2014,Physics,Force and Motion,True,True,weak,figure|shown in the figure,1,0,True
+2042,2014,MDCAT 2014,Physics,Fluid Dynamics,True,True,weak,graph,1,0,True
+2043,2014,MDCAT 2014,Physics,Fluid Dynamics,True,True,weak,figure|shown in the figure,1,0,True
+2052,2014,MDCAT 2014,Physics,Work and Energy,True,True,weak,figure|shown in the figure,1,0,True
+2053,2014,MDCAT 2014,Physics,Work and Energy,True,True,weak,figure|graph|shown in the figure,1,0,True
+2056,2014,MDCAT 2014,Physics,Work and Energy,True,True,weak,graph,1,0,True
+2060,2014,MDCAT 2014,Physics,Electronics,True,True,weak,figure|shown in the figure,1,0,True
+2061,2014,MDCAT 2014,Physics,Electronics,True,True,weak,truth table,1,0,True
+2062,2014,MDCAT 2014,Physics,Current Electricity,True,True,weak,diagram,1,0,True
+2063,2014,MDCAT 2014,Physics,Current Electricity,True,True,weak,diagram,1,0,True
 2067,2014,MDCAT 2014,Physics,Electromagnetism,True,False,weak,image,0,0,False
 2068,2014,MDCAT 2014,Physics,Electromagnetism,True,True,weak,figure|shown in figure,1,0,True
-2071,2014,MDCAT 2014,Physics,Electromagnetism,True,True,strong,figure|diagram|graph,1,0,True
+2071,2014,MDCAT 2014,Physics,Electromagnetism,True,True,weak,,1,0,True
 2074,2014,MDCAT 2014,Physics,Electromagnetism,True,False,weak,image,0,0,False
-2080,2014,MDCAT 2014,Physics,Nuclear Physics,True,True,strong,figure|diagram|graph|shown in the figure,1,0,True
-2088,2014,MDCAT 2014,Chemistry,Chemical Bonding,True,True,strong,figure|diagram|graph|structure of,1,0,True
+2080,2014,MDCAT 2014,Physics,Nuclear Physics,True,True,weak,figure|shown in the figure,1,0,True
+2088,2014,MDCAT 2014,Chemistry,Chemical Bonding,True,True,weak,structure of,1,0,True
 2091,2014,MDCAT 2014,Chemistry,Thermochemistry and Energetics,True,False,weak,graph,0,0,False
-2093,2014,MDCAT 2014,Chemistry,Liquids,True,True,strong,figure|diagram|graph,1,0,True
-2100,2014,MDCAT 2014,Chemistry,Liquids,True,True,strong,figure|diagram|graph,1,0,True
+2093,2014,MDCAT 2014,Chemistry,Liquids,True,True,weak,,1,0,True
+2100,2014,MDCAT 2014,Chemistry,Liquids,True,True,weak,figure,1,0,True
 2101,2014,MDCAT 2014,Chemistry,Solids,True,True,weak,figure,1,0,True
-2104,2014,MDCAT 2014,Chemistry,Atomic Structure,True,True,strong,figure|diagram|graph,1,0,True
-2110,2014,MDCAT 2014,Chemistry,Chemistry of Hydrocarbons,True,True,strong,figure|diagram|graph,1,0,True
-2119,2014,MDCAT 2014,Chemistry,Chemical Bonding,True,True,strong,figure|diagram|graph,1,0,True
-2122,2014,MDCAT 2014,Chemistry,Aldehydes and Ketones,True,True,strong,figure|diagram|graph|structural formula,1,0,True
-2123,2014,MDCAT 2014,Chemistry,Chemistry of Hydrocarbons,True,True,strong,figure|diagram|graph,1,0,True
-2128,2014,MDCAT 2014,Chemistry,Fundamental Principles of Organic Chemistry,True,True,strong,figure|diagram|graph,1,0,True
-2130,2014,MDCAT 2014,Chemistry,s and p Block Elements,True,True,strong,figure|diagram|graph|shown below,1,0,True
+2104,2014,MDCAT 2014,Chemistry,Atomic Structure,True,True,weak,diagram,1,0,True
+2110,2014,MDCAT 2014,Chemistry,Chemistry of Hydrocarbons,True,True,weak,,1,0,True
+2119,2014,MDCAT 2014,Chemistry,Chemical Bonding,True,True,weak,,1,0,True
+2122,2014,MDCAT 2014,Chemistry,Aldehydes and Ketones,True,True,weak,structural formula,1,0,True
+2123,2014,MDCAT 2014,Chemistry,Chemistry of Hydrocarbons,True,True,weak,,1,0,True
+2128,2014,MDCAT 2014,Chemistry,Fundamental Principles of Organic Chemistry,True,True,weak,,1,0,True
+2130,2014,MDCAT 2014,Chemistry,s and p Block Elements,True,True,weak,shown below,1,0,True
 2138,2014,MDCAT 2014,Chemistry,Chemistry of Hydrocarbons,True,False,weak,following structure,0,0,False
 2225,2014,MDCAT 2014,Biology,Support and Movement,True,False,weak,following structure,0,0,False
-2251,2014,MDCAT 2014,Biology,Evolution,True,True,strong,figure|diagram|graph,1,0,True
+2251,2014,MDCAT 2014,Biology,Evolution,True,True,weak,,1,0,True
 1831,2015,MDCAT 2015,Physics,Electronics,True,False,weak,image,0,0,False
 1837,2015,MDCAT 2015,Physics,Electromagnetism,True,True,weak,,1,0,True
 1850,2015,MDCAT 2015,Physics,Electronics,True,True,weak,diagram,1,0,True
@@ -45,10 +89,10 @@ question_id,year,paper,subject,topic,is_verified,is_visual_required,signal,match
 1994,2015,MDCAT 2015,Biology,Coordination and Control,False,True,weak,diagram,1,0,True
 2012,2015,MDCAT 2015,Biology,Enzymes,True,False,weak,structure of,0,0,False
 1602,2016,MDCAT 2016,Physics,Electromagnetism,False,True,strong,figure|diagram|graph,1,0,True
-1629,2016,MDCAT 2016,Physics,Electronics,True,True,strong,figure|diagram|graph|truth table,1,0,True
+1629,2016,MDCAT 2016,Physics,Electronics,True,True,weak,truth table,1,0,True
 1631,2016,MDCAT 2016,Physics,Current Electricity,False,True,strong,figure|diagram|graph,1,0,True
 1635,2016,MDCAT 2016,Physics,Electrostatics,True,False,weak,graph,0,0,False
-1644,2016,MDCAT 2016,Chemistry,Chemical Bonding,True,True,strong,figure|diagram|graph|structural formula,1,0,True
+1644,2016,MDCAT 2016,Chemistry,Chemical Bonding,True,True,weak,structural formula,1,0,True
 1646,2016,MDCAT 2016,Chemistry,s and p Block Elements,True,False,weak,structural formula,0,0,False
 1652,2016,MDCAT 2016,Chemistry,Chemical Bonding,False,True,strong,figure|diagram|graph,1,0,True
 1653,2016,MDCAT 2016,Chemistry,Chemistry of Hydrocarbons,False,True,strong,figure|diagram|graph,1,0,True
@@ -88,14 +132,14 @@ question_id,year,paper,subject,topic,is_verified,is_visual_required,signal,match
 1599,2017,MDCAT 2017,Chemistry,Liquids,False,True,weak,graph,1,0,True
 1034,2018,MDCAT 2018,Biology,Biological Molecules,True,False,weak,structure of,0,0,False
 1058,2018,MDCAT 2018,Chemistry,Reaction Kinetics,True,False,weak,graph,0,0,False
-1065,2018,MDCAT 2018,Chemistry,Macromolecules,True,True,weak,figure|diagram|graph|following structure,1,0,True
+1065,2018,MDCAT 2018,Chemistry,Macromolecules,True,True,weak,following structure,1,0,True
 1066,2018,MDCAT 2018,Chemistry,Chemistry of Hydrocarbons,True,False,weak,structure of,0,0,False
-1070,2018,MDCAT 2018,Chemistry,s and p Block Elements,True,True,weak,figure|diagram|graph,1,0,True
+1070,2018,MDCAT 2018,Chemistry,s and p Block Elements,True,True,weak,,1,0,True
 1078,2018,MDCAT 2018,Chemistry,Fundamental Principles of Organic Chemistry,True,False,weak,diagram,0,0,False
 1094,2018,MDCAT 2018,Chemistry,Chemistry of Hydrocarbons,True,False,weak,structure of,0,0,False
 1099,2018,MDCAT 2018,Chemistry,Macromolecules,True,False,weak,diagram,0,0,False
-1119,2018,MDCAT 2018,Physics,Electronics,True,True,weak,figure|diagram|graph,1,0,True
-1125,2018,MDCAT 2018,Physics,Force and Motion,True,True,weak,figure|diagram|graph,1,0,True
+1119,2018,MDCAT 2018,Physics,Electronics,True,True,weak,diagram,1,0,True
+1125,2018,MDCAT 2018,Physics,Force and Motion,True,True,weak,,1,0,True
 1140,2018,MDCAT 2018,Physics,Force and Motion,True,False,weak,graph,0,0,False
 1198,2019,MDCAT 2019,Biology,Homeostasis,True,True,weak,diagram,1,0,True
 1224,2019,MDCAT 2019,Biology,Biological Molecules,True,False,weak,image,0,0,False

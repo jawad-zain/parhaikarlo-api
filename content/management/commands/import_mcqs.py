@@ -85,16 +85,21 @@ class Command(BaseCommand):
                     subtopic = subtopic_cache[sub_key]
 
                     # --- resolve/create past paper ---
-                    year = mcq["paper_year"]
-                    if year not in paper_cache:
-                        paper, _ = PastPaper.objects.get_or_create(
-                            exam=exam,
-                            year=year,
-                            name=f"{exam.name.upper()} {year}",
-                            defaults={"slug": slugify(f"{exam.slug}-{year}"), "is_free": False},
-                        )
-                        paper_cache[year] = paper
-                    paper = paper_cache[year]
+                    # paper_year is optional: mock-only questions (not transcribed
+                    # from any real past paper) pass paper_year=None/absent and
+                    # stay unattached (past_paper=NULL — see Question model docstring).
+                    year = mcq.get("paper_year")
+                    paper = None
+                    if year:
+                        if year not in paper_cache:
+                            paper, _ = PastPaper.objects.get_or_create(
+                                exam=exam,
+                                year=year,
+                                name=f"{exam.name.upper()} {year}",
+                                defaults={"slug": slugify(f"{exam.slug}-{year}"), "is_free": False},
+                            )
+                            paper_cache[year] = paper
+                        paper = paper_cache[year]
 
                     # --- build field dict ---
                     opts_dict = mcq["options"]
@@ -115,8 +120,10 @@ class Command(BaseCommand):
                         "explanation_trick": "",
                         "is_active": mcq.get("is_active", True),
                         "is_verified": not is_flagged,
+                        "is_visual_required": bool(mcq.get("is_visual_required", False)),
                         "subtopic": subtopic,
                         "past_paper": paper,
+                        "paper_order": mcq.get("question_number"),
                     }
 
                     if opts["dry_run"]:

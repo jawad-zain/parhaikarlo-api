@@ -2,7 +2,11 @@ from django.db import models
 
 
 class Exam(models.Model):
-    """Top of the content hierarchy. MDCAT, FSc Part 1, O-Level, etc."""
+    """Top of the content hierarchy. MDCAT, ECAT, NUMS, etc.
+
+    This platform is entry-test-only — Matric/FSc board-curriculum content
+    lives on a separate site, not here.
+    """
 
     BOARD_CHOICES = [
         ('PMDC', 'PMDC (Pakistan Medical & Dental Council)'),
@@ -11,19 +15,21 @@ class Exam(models.Model):
         ('Sindh', 'Sindh Board'),
         ('KP', 'KP Board'),
         ('Cambridge', 'Cambridge International'),
+        # Entry tests run by the admitting body itself, not a curriculum
+        # board — NUMS, ECAT, and individual university admission tests
+        # (10+ planned alongside MDCAT/NUMS/ECAT) all land here.
+        ('University', 'University / Admitting Body'),
     ]
 
     LEVEL_CHOICES = [
         ('entry-test', 'Entry Test'),
-        ('matric', 'Matric'),
-        ('intermediate', 'Intermediate / FSc'),
         ('o-level', 'O-Level'),
         ('a-level', 'A-Level'),
     ]
 
     name = models.CharField(max_length=100, unique=True)
     slug = models.SlugField(max_length=100, unique=True)
-    board = models.CharField(max_length=20, choices=BOARD_CHOICES)
+    board = models.CharField(max_length=20, choices=BOARD_CHOICES, blank=True)
     level = models.CharField(max_length=20, choices=LEVEL_CHOICES)
     is_active = models.BooleanField(default=True)
     created_at = models.DateTimeField(auto_now_add=True)
@@ -219,6 +225,14 @@ class Question(models.Model):
         blank=True,
     )
 
+    # Layer 3 — per-option breakdown: why each of a/b/c/d is right or wrong.
+    # {"a": "...", "b": "...", "c": "...", "d": "..."}
+    # Generated + cached in the same Groq call as short/long/trick.
+    explanation_options = models.JSONField(
+        blank=True,
+        default=dict,
+    )
+
     # Content verifier tutor flips this to True after reviewing.
     # Frontend only serves is_verified=True questions
     # to real students in production.
@@ -252,6 +266,11 @@ class Question(models.Model):
         return bool(
             self.explanation_short
             and self.explanation_long
+            and self.explanation_options
+            and all(
+                self.explanation_options.get(letter)
+                for letter in ('a', 'b', 'c', 'd')
+            )
         )
 
 

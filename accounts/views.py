@@ -11,16 +11,62 @@ from rest_framework.views import APIView
 from rest_framework_simplejwt.tokens import RefreshToken
 from rest_framework_simplejwt.views import TokenObtainPairView
 
+from .models import is_guest
 from .serializers import (
+    ClaimAccountSerializer,
+    CompleteProfileSerializer,
     EmailTokenObtainPairSerializer,
     PasswordResetConfirmSerializer,
     PasswordResetRequestSerializer,
     SignupSerializer,
     StudentProfileUpdateSerializer,
     UserMeSerializer,
+    create_guest_user,
 )
 
 User = get_user_model()
+
+
+class GuestSessionView(APIView):
+    """POST /api/auth/guest/ — silently create a throwaway account and return
+    a JWT pair for it, so a visitor can start a free paper with no signup
+    form. Called by the frontend right before starting free content when it
+    doesn't already hold a token (guest or real).
+    """
+    permission_classes = [AllowAny]
+
+    def post(self, request):
+        user = create_guest_user()
+
+        refresh = RefreshToken.for_user(user)
+
+        return Response({
+            'access': str(refresh.access_token),
+            'refresh': str(refresh),
+        }, status=status.HTTP_201_CREATED)
+
+
+class ClaimAccountView(APIView):
+    """POST /api/auth/claim/ — a guest upgrading to a real account (e.g. to
+    buy premium). Attaches email/password/profile to the SAME user row
+    behind their current guest token, so their free-paper attempt history
+    carries over instead of starting fresh.
+    """
+    permission_classes = [IsAuthenticated]
+
+    def post(self, request):
+        serializer = ClaimAccountSerializer(data=request.data, context={'request': request})
+        serializer.is_valid(raise_exception=True)
+        user = serializer.save()
+
+        refresh = RefreshToken.for_user(user)
+        refresh['email'] = user.email
+
+        return Response({
+            'access': str(refresh.access_token),
+            'refresh': str(refresh),
+            'user': UserMeSerializer(user).data,
+        }, status=status.HTTP_200_OK)
 
 
 class EmailTokenObtainPairView(TokenObtainPairView):
@@ -28,7 +74,9 @@ class EmailTokenObtainPairView(TokenObtainPairView):
 
 
 class SignupView(APIView):
-    """POST /api/auth/signup/ — create User + StudentProfile + return JWT pair."""
+    """POST /api/auth/signup/ — email + username + password only. Returns a
+    JWT pair. Profile (exam, name, ...) is completed later — see
+    ClaimAccountView's shape for what that step should collect."""
     permission_classes = [AllowAny]
 
     def post(self, request):
@@ -49,8 +97,13 @@ class SignupView(APIView):
 class MeView(APIView):
     """GET /api/auth/me/ — who am I + my profile. Frontend calls this on every app load.
 
-    PATCH /api/auth/me/ — self-serve update for the narrow set of profile
-    fields students can change themselves (currently: target_date).
+    PATCH /api/auth/me/ — two different jobs depending on current state:
+    - No profile yet (fresh signup, or a Google sign-in): first PATCH must
+      complete it — full_name + primary_exam_id required, see
+      CompleteProfileSerializer. A guest (see accounts.models.is_guest)
+      still can't do this — POST /api/auth/claim/ first.
+    - Profile already exists: narrow self-serve update, currently just
+      target_date (see StudentProfileUpdateSerializer).
     """
     permission_classes = [IsAuthenticated]
 
@@ -58,8 +111,24 @@ class MeView(APIView):
         return Response(UserMeSerializer(request.user).data)
 
     def patch(self, request):
+        profile = getattr(request.user, 'profile', None)
+
+        if profile is None:
+            if is_guest(request.user):
+                return Response(
+                    {'error': 'Guest accounts have no profile — claim your account first.'},
+                    status=status.HTTP_400_BAD_REQUEST,
+                )
+
+            serializer = CompleteProfileSerializer(
+                data=request.data, context={'request': request},
+            )
+            serializer.is_valid(raise_exception=True)
+            serializer.save()
+            return Response(UserMeSerializer(request.user).data)
+
         serializer = StudentProfileUpdateSerializer(
-            request.user.profile, data=request.data, partial=True,
+            profile, data=request.data, partial=True,
         )
         serializer.is_valid(raise_exception=True)
         serializer.save()

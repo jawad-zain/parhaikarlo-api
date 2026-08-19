@@ -27,6 +27,11 @@ mdcat-content/parsed-mcqs/*.bak
 
 mdcat-content/spot-checks/
 
+# per-year source staging (raw PDFs + hand-cropped candidate images pulled
+# during image sourcing; kept locally as working material, not tracked —
+# the real output is imported into media/question_images/ + the DB)
+mdcat-content/tmp_*/
+
 # regenerable outputs (kept locally, not tracked)
 questions.json
 review_questions.html
