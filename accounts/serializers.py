@@ -216,13 +216,17 @@ class StudentProfileSerializer(serializers.ModelSerializer):
 class StudentProfileUpdateSerializer(serializers.ModelSerializer):
     """PATCH /api/auth/me/ — the narrow set of fields a student can self-serve.
 
+    preferred_break_interval_minutes validates against
+    StudentProfile.BREAK_INTERVAL_CHOICES automatically (ModelSerializer
+    derives a ChoiceField from the model field's own `choices`).
+
     Everything else on the profile stays support-managed (see Settings page
     copy) until a fuller profile-edit flow exists.
     """
 
     class Meta:
         model = StudentProfile
-        fields = ['target_date']
+        fields = ['target_date', 'preferred_break_interval_minutes']
 
 
 class UserMeSerializer(serializers.ModelSerializer):

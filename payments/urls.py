@@ -4,6 +4,7 @@ from .views import (
     MySubscriptionListView,
     MyActiveSubscriptionView,
     PaymentCreateView,
+    PaymentMethodOptionListView,
 )
 
 urlpatterns = [
@@ -21,6 +22,11 @@ urlpatterns = [
         "subscription/active/",
         MyActiveSubscriptionView.as_view(),
         name="my-active-subscription",
+    ),
+    path(
+        "methods/",
+        PaymentMethodOptionListView.as_view(),
+        name="payment-method-list",
     ),
     path(
         "payments/",

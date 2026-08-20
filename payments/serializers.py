@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from .models import Payment, Subscription, SubscriptionPlan
+from .models import Payment, PaymentMethodOption, Subscription, SubscriptionPlan
 
 
 class SubscriptionPlanSerializer(serializers.ModelSerializer):
@@ -40,12 +40,7 @@ class SubscriptionSerializer(serializers.ModelSerializer):
 class PaymentCreateSerializer(serializers.Serializer):
     plan_id = serializers.IntegerField()
 
-    method = serializers.ChoiceField(
-        choices=[
-            "easypaisa",
-            "sadapay",
-        ],
-    )
+    method = serializers.ChoiceField(choices=Payment.METHOD_CHOICES)
 
     transaction_reference = serializers.CharField(
         max_length=150,
@@ -62,6 +57,21 @@ class PaymentCreateSerializer(serializers.Serializer):
         required=False,
         allow_blank=True,
     )
+
+    def validate_method(self, value):
+        # A method can be a real rail (Payment.METHOD_CHOICES) without
+        # currently being offered — e.g. temporarily disabled in admin.
+        # Keeps submission validation in sync with whatever
+        # GET /api/payments/methods/ is actually showing the student.
+        if not PaymentMethodOption.objects.filter(method=value, is_active=True).exists():
+            raise serializers.ValidationError("This payment method isn't currently available.")
+        return value
+
+
+class PaymentMethodOptionSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = PaymentMethodOption
+        fields = ["method", "label", "instructions"]
 
 
 class PaymentSerializer(serializers.ModelSerializer):

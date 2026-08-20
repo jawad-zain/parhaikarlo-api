@@ -1,5 +1,22 @@
 from django.conf import settings
 from django.db import models
+from django.utils import timezone
+
+
+def has_active_subscription(user, exam):
+    """True if `user` currently holds a paid, non-expired subscription
+    covering `exam`. Being signed up (not a guest) is NOT enough on its
+    own — used alongside accounts.models.is_guest to gate non-free past
+    papers/mocks (see quiz.views.PastPaperStartView / MockStartView).
+    """
+    if user.is_anonymous:
+        return False
+    return Subscription.objects.filter(
+        user=user,
+        plan__exam=exam,
+        status='active',
+        expires_at__gt=timezone.now(),
+    ).exists()
 
 
 class SubscriptionPlan(models.Model):
@@ -158,3 +175,37 @@ class Payment(models.Model):
             f'{self.user} — {self.amount} — '
             f'{self.method} — {self.status}'
         )
+
+
+class PaymentMethodOption(models.Model):
+    """An admin-editable payment channel to offer on the upgrade screen —
+    e.g. "EasyPaisa — Send to 0321-3529795 · Jawad Zain".
+
+    Replaces what used to be hardcoded in the frontend
+    (app/(app)/plans/upgrade/[planId]/page.tsx's METHODS array): the
+    account number/name students send money to was compiled straight into
+    the JS bundle, so changing it meant a frontend deploy. Now it's data —
+    GET /api/payments/methods/ serves whatever's active here.
+    """
+
+    method = models.CharField(
+        max_length=20,
+        choices=Payment.METHOD_CHOICES,
+        unique=True,
+    )
+    label = models.CharField(max_length=50)
+    instructions = models.CharField(
+        max_length=200,
+        help_text="Shown to the student, e.g. 'Send to 0321-3529795 · Jawad Zain'.",
+    )
+    is_active = models.BooleanField(default=True)
+    order = models.PositiveSmallIntegerField(default=0)
+
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        ordering = ['order', 'method']
+
+    def __str__(self):
+        return f'{self.label} ({"active" if self.is_active else "inactive"})'

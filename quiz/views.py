@@ -10,6 +10,7 @@ from rest_framework.permissions import IsAuthenticated, AllowAny
 
 from accounts.models import is_guest
 from content.models import Question, Exam, Subject, Topic
+from payments.models import has_active_subscription
 
 from .models import (
     Attempt,
@@ -389,11 +390,17 @@ class MockStartView(APIView):
 
         mock_test = get_object_or_404(MockTest, id=mock_id, is_active=True)
 
-        if not mock_test.is_free and is_guest(request.user):
-            return Response(
-                {'error': 'signup_required', 'message': 'Sign up to start this mock.'},
-                status=status.HTTP_403_FORBIDDEN,
-            )
+        if not mock_test.is_free:
+            if is_guest(request.user):
+                return Response(
+                    {'error': 'signup_required', 'message': 'Sign up to start this mock.'},
+                    status=status.HTTP_403_FORBIDDEN,
+                )
+            if not has_active_subscription(request.user, mock_test.exam):
+                return Response(
+                    {'error': 'subscription_required', 'message': 'Upgrade your plan to start this mock.'},
+                    status=status.HTTP_403_FORBIDDEN,
+                )
 
         allow_breaks = request.data.get('allow_breaks', True)
         device_class = request.data.get('device_class', 'desktop')
@@ -970,11 +977,17 @@ class PastPaperStartView(APIView):
 
         paper = get_object_or_404(PastPaper, id=paper_id, is_active=True)
 
-        if not paper.is_free and is_guest(request.user):
-            return Response(
-                {'error': 'signup_required', 'message': 'Sign up to start this paper.'},
-                status=status.HTTP_403_FORBIDDEN,
-            )
+        if not paper.is_free:
+            if is_guest(request.user):
+                return Response(
+                    {'error': 'signup_required', 'message': 'Sign up to start this paper.'},
+                    status=status.HTTP_403_FORBIDDEN,
+                )
+            if not has_active_subscription(request.user, paper.exam):
+                return Response(
+                    {'error': 'subscription_required', 'message': 'Upgrade your plan to start this paper.'},
+                    status=status.HTTP_403_FORBIDDEN,
+                )
 
         # Resume in-progress attempt if one exists
         existing = Attempt.objects.filter(

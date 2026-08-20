@@ -102,8 +102,8 @@ class MeView(APIView):
       complete it — full_name + primary_exam_id required, see
       CompleteProfileSerializer. A guest (see accounts.models.is_guest)
       still can't do this — POST /api/auth/claim/ first.
-    - Profile already exists: narrow self-serve update, currently just
-      target_date (see StudentProfileUpdateSerializer).
+    - Profile already exists: narrow self-serve update — target_date and
+      preferred_break_interval_minutes (see StudentProfileUpdateSerializer).
     """
     permission_classes = [IsAuthenticated]
 

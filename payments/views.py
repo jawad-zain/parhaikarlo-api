@@ -6,11 +6,12 @@ from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
 from django.utils import timezone
 
-from .models import Payment, Subscription, SubscriptionPlan
+from .models import Payment, PaymentMethodOption, Subscription, SubscriptionPlan
 from .serializers import (
     SubscriptionPlanSerializer,
     SubscriptionSerializer,
     PaymentCreateSerializer,
+    PaymentMethodOptionSerializer,
     PaymentSerializer,
 )
 
@@ -97,6 +98,23 @@ class MyActiveSubscriptionView(generics.GenericAPIView):
             "active": True,
             "subscription": SubscriptionSerializer(subscription).data,
         })
+
+class PaymentMethodOptionListView(generics.ListAPIView):
+    """
+    GET /api/payments/methods/
+
+    Active payment channels to offer on the upgrade screen (id, label,
+    display instructions) — e.g. "EasyPaisa: Send to 0321-3529795 · Jawad
+    Zain". Public/read-only like SubscriptionPlanListView; replaces what
+    used to be hardcoded in the frontend's upgrade page.
+    """
+    serializer_class = PaymentMethodOptionSerializer
+    permission_classes = [AllowAny]
+    pagination_class = None
+
+    def get_queryset(self):
+        return PaymentMethodOption.objects.filter(is_active=True)
+
 
 class PaymentCreateView(generics.CreateAPIView):
     """
