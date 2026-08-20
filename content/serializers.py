@@ -24,4 +24,5 @@ class PastPaperSerializer(serializers.ModelSerializer):
             'id', 'name', 'slug', 'year', 'is_free', 'is_active',
             'question_count', 'verified_count',
             'easy_count', 'medium_count', 'hard_count',
+            'student_note',
         ]

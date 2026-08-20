@@ -42,11 +42,16 @@ class SubtopicAdmin(admin.ModelAdmin):
 
 @admin.register(PastPaper)
 class PastPaperAdmin(admin.ModelAdmin):
-    list_display = ('name', 'exam', 'year', 'is_free', 'is_active')
+    list_display = ('name', 'exam', 'year', 'is_free', 'is_active', 'student_note', 'has_notes')
     list_filter = ('exam', 'year', 'is_free', 'is_active')
-    search_fields = ('name', 'slug')
+    search_fields = ('name', 'slug', 'notes', 'student_note')
     prepopulated_fields = {'slug': ('name',)}
     list_editable = ('is_free', 'is_active')
+
+    def has_notes(self, obj):
+        return bool(obj.notes)
+    has_notes.boolean = True
+    has_notes.short_description = 'Has notes'
 
 
 @admin.register(Question)

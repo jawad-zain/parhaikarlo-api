@@ -133,6 +133,20 @@ class PastPaper(models.Model):
     is_active = models.BooleanField(default=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
+    # Internal/admin-only documentation — e.g. recording that a handful of
+    # questions are permanently unrecoverable from the source paper (illegible
+    # scan, no answer key anywhere found) so this doesn't get re-investigated
+    # from scratch later. Never shown to students.
+    notes = models.TextField(blank=True, default='')
+
+    # Short, plain-language, STUDENT-FACING caveat — shown on the paper card
+    # when question_count (active questions) is less than the paper's real
+    # official total. e.g. explaining why this paper shows 216 questions
+    # instead of the official 220, so it reads as "documented", not "buggy".
+    # Keep it brief and free of internal implementation detail (see `notes`
+    # for that) — this is public API surface.
+    student_note = models.CharField(max_length=300, blank=True, default='')
+
     class Meta:
         ordering = ['exam', '-year']
         unique_together = [
