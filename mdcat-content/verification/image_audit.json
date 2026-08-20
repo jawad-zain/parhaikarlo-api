@@ -1,11 +1,291 @@
 [
   {
+    "question_id": 3243,
+    "year": 2010,
+    "paper": "MDCAT 2010",
+    "subject": "Chemistry",
+    "topic": "Solids",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "weak",
+    "matched_keywords": [
+      "structure of"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "In the structure of NaCl, each Na+ is surrounded by _____ Cl- ions."
+  },
+  {
+    "question_id": 3328,
+    "year": 2010,
+    "paper": "MDCAT 2010",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "weak",
+    "matched_keywords": [
+      "graph"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "Group of interbreeding individuals of particular species, sharing common geographical area is called:"
+  },
+  {
+    "question_id": 2924,
+    "year": 2011,
+    "paper": "MDCAT 2011",
+    "subject": "Physics",
+    "topic": "Waves",
+    "is_verified": true,
+    "is_visual_required": true,
+    "signal": "weak",
+    "matched_keywords": [],
+    "verified_image_count": 1,
+    "broken_image_count": 0,
+    "verified_images": [
+      {
+        "id": 249,
+        "name": "question_images/q8_diffraction_graphs.png"
+      }
+    ],
+    "broken_images": [],
+    "resolved": true,
+    "question_text": "A monochromatic light of wavelength λ is used to produce the diffraction pattern through a single slit of width X. Which one of the following represents the intensity distribution across the screen?"
+  },
+  {
+    "question_id": 2927,
+    "year": 2011,
+    "paper": "MDCAT 2011",
+    "subject": "Physics",
+    "topic": "Optics",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "weak",
+    "matched_keywords": [
+      "image"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "The normal human eye can focus a sharp image of an object on the eye if the object is located at certain distance called"
+  },
+  {
+    "question_id": 2931,
+    "year": 2011,
+    "paper": "MDCAT 2011",
+    "subject": "Physics",
+    "topic": "Rotational and Circular Motion",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "weak",
+    "matched_keywords": [
+      "figure"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "Waveform of SHM is given in the figure. At what time/times is displacement equal to zero?"
+  },
+  {
+    "question_id": 2939,
+    "year": 2011,
+    "paper": "MDCAT 2011",
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "is_verified": true,
+    "is_visual_required": true,
+    "signal": "weak",
+    "matched_keywords": [
+      "graph"
+    ],
+    "verified_image_count": 1,
+    "broken_image_count": 0,
+    "verified_images": [
+      {
+        "id": 250,
+        "name": "question_images/q23_pv_graphs.png"
+      }
+    ],
+    "broken_images": [],
+    "resolved": true,
+    "question_text": "Pressure-volume graphs of two systems A and B are plotted under isothermal and adiabatic conditions. Which of the following observations of the graphs represents the two systems?"
+  },
+  {
+    "question_id": 2940,
+    "year": 2011,
+    "paper": "MDCAT 2011",
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "is_verified": true,
+    "is_visual_required": true,
+    "signal": "weak",
+    "matched_keywords": [],
+    "verified_image_count": 1,
+    "broken_image_count": 0,
+    "verified_images": [
+      {
+        "id": 251,
+        "name": "question_images/q24_isotherm_curves.png"
+      }
+    ],
+    "broken_images": [],
+    "resolved": true,
+    "question_text": "Which of the following curves is an isotherm?"
+  },
+  {
+    "question_id": 2943,
+    "year": 2011,
+    "paper": "MDCAT 2011",
+    "subject": "Physics",
+    "topic": "Current Electricity",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "weak",
+    "matched_keywords": [
+      "figure",
+      "shown in the figure"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "Three resistors each having value R are connected as shown in the figure. What is the equivalent resistance between X and Y?"
+  },
+  {
+    "question_id": 2945,
+    "year": 2011,
+    "paper": "MDCAT 2011",
+    "subject": "Physics",
+    "topic": "Electromagnetism",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "weak",
+    "matched_keywords": [
+      "figure",
+      "shown in the figure"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "Two long parallel wires, Wire 1 and Wire 2, repel each other as shown in the figure. What could be the reasons?"
+  },
+  {
+    "question_id": 2946,
+    "year": 2011,
+    "paper": "MDCAT 2011",
+    "subject": "Physics",
+    "topic": "Electromagnetism",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "weak",
+    "matched_keywords": [
+      "diagram"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "The diagram shows a wire carrying a current I placed between the poles of a magnet. In which direction does the force on the wire act?"
+  },
+  {
+    "question_id": 2948,
+    "year": 2011,
+    "paper": "MDCAT 2011",
+    "subject": "Physics",
+    "topic": "Dawn of Modern Physics",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "weak",
+    "matched_keywords": [
+      "image"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "Laser beam can be used to generate three-dimensional image of object in a process called:"
+  },
+  {
+    "question_id": 2950,
+    "year": 2011,
+    "paper": "MDCAT 2011",
+    "subject": "Physics",
+    "topic": "Current Electricity",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "weak",
+    "matched_keywords": [
+      "figure",
+      "shown in the figure"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "Three resistors of resistance R1, R2 and R3 are connected as shown in the figure. Equivalent resistance is:"
+  },
+  {
+    "question_id": 2979,
+    "year": 2011,
+    "paper": "MDCAT 2011",
+    "subject": "Chemistry",
+    "topic": "Solids",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "weak",
+    "matched_keywords": [
+      "graph"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "Carbon exists as allotropes, which are different crystalline or molecular forms of the same substance. Graphite and diamond are allotropes of carbon. Diamond is a non-conductor whereas graphite is a good conductor because:"
+  },
+  {
+    "question_id": 2980,
+    "year": 2011,
+    "paper": "MDCAT 2011",
+    "subject": "Chemistry",
+    "topic": "s and p Block Elements",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "weak",
+    "matched_keywords": [
+      "diagram"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "The diagram below is a plot of melting points of elements of the second period against their atomic numbers. Lithium and fluorine are placed at the extreme ends of the plot. On the basis of melting points, where will you place carbon among the empty slots on the plot?"
+  },
+  {
     "question_id": 2495,
     "year": 2012,
     "paper": "MDCAT 2012",
     "subject": "Physics",
     "topic": "Electromagnetism",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -29,7 +309,7 @@
     "paper": "MDCAT 2012",
     "subject": "Physics",
     "topic": "Electromagnetism",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -54,7 +334,7 @@
     "paper": "MDCAT 2012",
     "subject": "Physics",
     "topic": "Nuclear Physics",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -99,7 +379,7 @@
     "paper": "MDCAT 2012",
     "subject": "Physics",
     "topic": "Waves",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": false,
     "signal": "weak",
     "matched_keywords": [
@@ -138,7 +418,7 @@
     "paper": "MDCAT 2012",
     "subject": "Physics",
     "topic": "Waves",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "strong",
     "matched_keywords": [
@@ -203,7 +483,7 @@
     "paper": "MDCAT 2012",
     "subject": "Physics",
     "topic": "Electronics",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "strong",
     "matched_keywords": [
@@ -228,7 +508,7 @@
     "paper": "MDCAT 2012",
     "subject": "Physics",
     "topic": "Electronics",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "strong",
     "matched_keywords": [
@@ -253,7 +533,7 @@
     "paper": "MDCAT 2012",
     "subject": "Chemistry",
     "topic": "Carboxylic Acids",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": false,
     "signal": "weak",
     "matched_keywords": [
@@ -272,7 +552,7 @@
     "paper": "MDCAT 2012",
     "subject": "Chemistry",
     "topic": "Macromolecules",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "strong",
     "matched_keywords": [
@@ -297,7 +577,7 @@
     "paper": "MDCAT 2012",
     "subject": "Chemistry",
     "topic": "Macromolecules",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -321,7 +601,7 @@
     "paper": "MDCAT 2012",
     "subject": "Chemistry",
     "topic": "Macromolecules",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": false,
     "signal": "weak",
     "matched_keywords": [
@@ -359,7 +639,7 @@
     "paper": "MDCAT 2012",
     "subject": "Chemistry",
     "topic": "Alcohols and Phenols",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": false,
     "signal": "weak",
     "matched_keywords": [
@@ -605,7 +885,7 @@
     "paper": "MDCAT 2013",
     "subject": "Physics",
     "topic": "Electronics",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -631,7 +911,7 @@
     "paper": "MDCAT 2013",
     "subject": "Physics",
     "topic": "Current Electricity",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -656,7 +936,7 @@
     "paper": "MDCAT 2013",
     "subject": "Physics",
     "topic": "Electromagnetism",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -680,7 +960,7 @@
     "paper": "MDCAT 2013",
     "subject": "Chemistry",
     "topic": "Electrochemistry",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -704,7 +984,7 @@
     "paper": "MDCAT 2013",
     "subject": "Chemistry",
     "topic": "Reaction Kinetics",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -728,7 +1008,7 @@
     "paper": "MDCAT 2013",
     "subject": "Chemistry",
     "topic": "Chemical Bonding",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -752,7 +1032,7 @@
     "paper": "MDCAT 2013",
     "subject": "Chemistry",
     "topic": "Fundamental Principles of Organic Chemistry",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [],
@@ -774,7 +1054,7 @@
     "paper": "MDCAT 2013",
     "subject": "Chemistry",
     "topic": "Chemistry of Hydrocarbons",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [],
@@ -796,7 +1076,7 @@
     "paper": "MDCAT 2013",
     "subject": "Chemistry",
     "topic": "Alcohols and Phenols",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [],
@@ -818,7 +1098,7 @@
     "paper": "MDCAT 2013",
     "subject": "Chemistry",
     "topic": "Alcohols and Phenols",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -842,7 +1122,7 @@
     "paper": "MDCAT 2013",
     "subject": "Chemistry",
     "topic": "Aldehydes and Ketones",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -866,7 +1146,7 @@
     "paper": "MDCAT 2013",
     "subject": "Chemistry",
     "topic": "Aldehydes and Ketones",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -890,7 +1170,7 @@
     "paper": "MDCAT 2013",
     "subject": "Chemistry",
     "topic": "Macromolecules",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -1726,7 +2006,7 @@
     "paper": "MDCAT 2015",
     "subject": "Physics",
     "topic": "Electronics",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -1750,7 +2030,7 @@
     "paper": "MDCAT 2015",
     "subject": "Physics",
     "topic": "Force and Motion",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -1811,12 +2091,31 @@
     "question_text": "An organic acid ‘z’ reacts separately with sodium bicarbonate, sodium hydroxide and sodium carbonate. Which one of the following represent the structure of ‘z’?"
   },
   {
+    "question_id": 1865,
+    "year": 2015,
+    "paper": "MDCAT 2015",
+    "subject": "Chemistry",
+    "topic": "Macromolecules",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "weak",
+    "matched_keywords": [
+      "diagram"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "A dipeptide has the structure H₂N–CH₂–CO–NH–CH(CH₃)–COOH — one residue with no side chain (R = H) and one with a methyl side chain (R = CH₃). This structure is: [Note: original diagram text was OCR-garbled; stem rewritten from the decoded atoms, cross-confirmed against an independent source (learnospot.com) which agrees on both the options and the correct answer.]"
+  },
+  {
     "question_id": 1867,
     "year": 2015,
     "paper": "MDCAT 2015",
     "subject": "Chemistry",
     "topic": "s and p Block Elements",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -1833,6 +2132,25 @@
     "broken_images": [],
     "resolved": true,
     "question_text": "Which one of the following structures shows the correct formula of glutamic acid? COOH"
+  },
+  {
+    "question_id": 1868,
+    "year": 2015,
+    "paper": "MDCAT 2015",
+    "subject": "Chemistry",
+    "topic": "s and p Block Elements",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "weak",
+    "matched_keywords": [
+      "structure of"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "Select the correct zwitterionic structure of a general amino acid H₂N-CHR-COOH. [Note: original option text was OCR-garbled beyond recovery. Reconstructed here as the standard four protonation states of an amino acid — the canonical option set for this exact question type. The zwitterion (option B) is independently confirmed: the surviving fragment of the original garbled text still contained the recognizable pattern “H3N+ ... COO-” twice.]"
   },
   {
     "question_id": 1870,
@@ -1864,7 +2182,7 @@
     "paper": "MDCAT 2015",
     "subject": "Chemistry",
     "topic": "Gases",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -1888,7 +2206,7 @@
     "paper": "MDCAT 2015",
     "subject": "Chemistry",
     "topic": "Chemistry of Hydrocarbons",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -1912,7 +2230,7 @@
     "paper": "MDCAT 2015",
     "subject": "Chemistry",
     "topic": "Chemical Bonding",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -1955,7 +2273,7 @@
     "paper": "MDCAT 2015",
     "subject": "Biology",
     "topic": "Coordination and Control",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -2509,7 +2827,7 @@
     "paper": "MDCAT 2017",
     "subject": "Biology",
     "topic": "Coordination and Control",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [],
@@ -2574,7 +2892,7 @@
     "paper": "MDCAT 2017",
     "subject": "Biology",
     "topic": "Digestion",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -2598,7 +2916,7 @@
     "paper": "MDCAT 2017",
     "subject": "Biology",
     "topic": "Digestion",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -2622,7 +2940,7 @@
     "paper": "MDCAT 2017",
     "subject": "Biology",
     "topic": "Respiration",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -2646,7 +2964,7 @@
     "paper": "MDCAT 2017",
     "subject": "Physics",
     "topic": "Work and Energy",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -2695,7 +3013,7 @@
     "paper": "MDCAT 2017",
     "subject": "Physics",
     "topic": "Electrostatics",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -2719,7 +3037,7 @@
     "paper": "MDCAT 2017",
     "subject": "Physics",
     "topic": "Current Electricity",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [],
@@ -2741,7 +3059,7 @@
     "paper": "MDCAT 2017",
     "subject": "Physics",
     "topic": "Electromagnetism",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -2766,7 +3084,7 @@
     "paper": "MDCAT 2017",
     "subject": "Physics",
     "topic": "Current Electricity",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [],
@@ -2788,7 +3106,7 @@
     "paper": "MDCAT 2017",
     "subject": "Physics",
     "topic": "Dawn of Modern Physics",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -2812,7 +3130,7 @@
     "paper": "MDCAT 2017",
     "subject": "Chemistry",
     "topic": "Reaction Kinetics",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -2836,7 +3154,7 @@
     "paper": "MDCAT 2017",
     "subject": "Chemistry",
     "topic": "Gases",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -2860,7 +3178,7 @@
     "paper": "MDCAT 2017",
     "subject": "Chemistry",
     "topic": "Solids",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [],
@@ -2882,7 +3200,7 @@
     "paper": "MDCAT 2017",
     "subject": "Chemistry",
     "topic": "Chemistry of Hydrocarbons",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [],
@@ -2904,7 +3222,7 @@
     "paper": "MDCAT 2017",
     "subject": "Chemistry",
     "topic": "Chemistry of Hydrocarbons",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [],
@@ -2926,7 +3244,7 @@
     "paper": "MDCAT 2017",
     "subject": "Chemistry",
     "topic": "Chemistry of Hydrocarbons",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [],
@@ -2948,7 +3266,7 @@
     "paper": "MDCAT 2017",
     "subject": "Chemistry",
     "topic": "Macromolecules",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [],
@@ -2970,7 +3288,7 @@
     "paper": "MDCAT 2017",
     "subject": "Chemistry",
     "topic": "Liquids",
-    "is_verified": false,
+    "is_verified": true,
     "is_visual_required": true,
     "signal": "weak",
     "matched_keywords": [
@@ -3549,5 +3867,82 @@
     "broken_images": [],
     "resolved": false,
     "question_text": "The secondary structure of proteins is stabilized by:"
+  },
+  {
+    "question_id": 2764,
+    "year": null,
+    "paper": "",
+    "subject": "Biology",
+    "topic": "Circulation",
+    "is_verified": false,
+    "is_visual_required": true,
+    "signal": "weak",
+    "matched_keywords": [
+      "diagram"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "The diagram below shows a simplified anterior cross-section of the human heart with four labelled internal structures, P, Q, R and S. Structure P is a valve located between the left atrium and the left ventricle. Which valve is P? [Diagram: human heart cross-section, structures P/Q/R/S]"
+  },
+  {
+    "question_id": 2844,
+    "year": null,
+    "paper": "",
+    "subject": "Physics",
+    "topic": "Force and Motion",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "weak",
+    "matched_keywords": [
+      "graph"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "A body moving with uniform acceleration has a velocity-time graph that is a:"
+  },
+  {
+    "question_id": 2859,
+    "year": null,
+    "paper": "",
+    "subject": "Physics",
+    "topic": "Waves",
+    "is_verified": false,
+    "is_visual_required": true,
+    "signal": "weak",
+    "matched_keywords": [
+      "diagram",
+      "graph"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "The graph below shows the displacement-time curve of a particle executing simple harmonic motion. At the instant marked P, where the curve crosses the time axis moving downward, the particle's velocity is: [Diagram: displacement-time SHM graph with point P marked]"
+  },
+  {
+    "question_id": 2895,
+    "year": null,
+    "paper": "",
+    "subject": "English",
+    "topic": "Reading and Thinking Skills",
+    "is_verified": true,
+    "is_visual_required": false,
+    "signal": "weak",
+    "matched_keywords": [
+      "figure"
+    ],
+    "verified_image_count": 0,
+    "broken_image_count": 0,
+    "verified_images": [],
+    "broken_images": [],
+    "resolved": false,
+    "question_text": "Identify the figure of speech in: \"The whole village came out to help\" (when only some villagers actually came):"
   }
 ]
