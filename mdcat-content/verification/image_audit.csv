@@ -1,4 +1,11 @@
 question_id,year,paper,subject,topic,is_verified,is_visual_required,signal,matched_keywords,verified_image_count,broken_image_count,resolved
+3675,2008,MDCAT 2008,Chemistry,Fundamental Concepts of Chemistry,True,False,weak,graph,0,0,False
+3364,2009,MDCAT 2009,Physics,Electromagnetism,True,False,weak,graph,0,0,False
+3387,2009,MDCAT 2009,Physics,Force and Motion,True,False,weak,graph,0,0,False
+3404,2009,MDCAT 2009,Physics,Current Electricity,True,False,weak,graph,0,0,False
+3425,2009,MDCAT 2009,Chemistry,Fundamental Concepts of Chemistry,True,False,weak,graph,0,0,False
+3507,2009,MDCAT 2009,Biology,Coordination and Control,False,True,weak,,0,0,False
+3571,2009,MDCAT 2009,Biology,Cell Structure and Function,True,False,weak,structure of,0,0,False
 3243,2010,MDCAT 2010,Chemistry,Solids,True,False,weak,structure of,0,0,False
 3328,2010,MDCAT 2010,Biology,Ecology,True,False,weak,graph,0,0,False
 2924,2011,MDCAT 2011,Physics,Waves,True,True,weak,,1,0,True
@@ -174,7 +181,7 @@ question_id,year,paper,subject,topic,is_verified,is_visual_required,signal,match
 307,2024,MDCAT 2024,Physics,Force and Motion,True,False,weak,graph,0,0,False
 318,2024,MDCAT 2024,Physics,Waves,True,True,weak,figure|wave figure,1,0,True
 31,2025,MDCAT 2025,Biology,Biological Molecules,True,False,weak,structure of,0,0,False
-2764,,,Biology,Circulation,False,True,weak,diagram,0,0,False
+2764,,,Biology,Circulation,True,True,weak,diagram,1,0,True
 2844,,,Physics,Force and Motion,True,False,weak,graph,0,0,False
-2859,,,Physics,Waves,False,True,weak,diagram|graph,0,0,False
+2859,,,Physics,Waves,True,True,weak,diagram|graph,1,0,True
 2895,,,English,Reading and Thinking Skills,True,False,weak,figure,0,0,False

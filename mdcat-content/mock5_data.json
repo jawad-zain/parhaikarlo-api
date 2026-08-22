@@ -1,0 +1,2527 @@
+[
+  {
+    "id": 1,
+    "subject": "Biology",
+    "topic": "Biomolecules",
+    "difficulty": "Easy",
+    "question": "Lipids are primarily composed of which two types of building blocks?",
+    "options": {
+      "A": "Glycerol and fatty acids",
+      "B": "Amino acids and sugars",
+      "C": "Nucleotides and phosphates",
+      "D": "Monosaccharides only"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 2,
+    "subject": "Biology",
+    "topic": "Biomolecules",
+    "difficulty": "Easy",
+    "question": "Which of the following is a disaccharide?",
+    "options": {
+      "A": "Cellulose",
+      "B": "Maltose",
+      "C": "Glucose",
+      "D": "Glycogen"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 3,
+    "subject": "Biology",
+    "topic": "Biomolecules",
+    "difficulty": "Medium",
+    "question": "The tertiary structure of a globular protein refers to:",
+    "options": {
+      "A": "The linear sequence of amino acids",
+      "B": "The overall three-dimensional folding of a single polypeptide chain, stabilized by interactions among side chains",
+      "C": "The association of two or more polypeptide chains",
+      "D": "Only the alpha-helical regions"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 4,
+    "subject": "Biology",
+    "topic": "Biomolecules",
+    "difficulty": "Medium",
+    "question": "Which bond type is broken when a triglyceride undergoes hydrolysis into glycerol and fatty acids?",
+    "options": {
+      "A": "Peptide bond",
+      "B": "Glycosidic bond",
+      "C": "Hydrogen bond",
+      "D": "Ester bond"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 5,
+    "subject": "Biology",
+    "topic": "Biomolecules",
+    "difficulty": "Hard",
+    "question": "Denaturation of a protein primarily disrupts its:",
+    "options": {
+      "A": "Primary structure (amino acid sequence)",
+      "B": "Only the peptide bonds between amino acids",
+      "C": "Secondary, tertiary, and quaternary structure, while the amino acid sequence remains intact",
+      "D": "Nothing; denatured proteins are structurally identical to native ones"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 6,
+    "subject": "Biology",
+    "topic": "Enzymes",
+    "difficulty": "Easy",
+    "question": "The molecule upon which an enzyme acts is called the:",
+    "options": {
+      "A": "Coenzyme",
+      "B": "Substrate",
+      "C": "Product",
+      "D": "Cofactor"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 7,
+    "subject": "Biology",
+    "topic": "Enzymes",
+    "difficulty": "Medium",
+    "question": "A non-competitive inhibitor reduces enzyme activity by:",
+    "options": {
+      "A": "Binding at the active site, directly blocking the substrate",
+      "B": "Binding at a site other than the active site, changing the enzyme's shape and reducing its efficiency",
+      "C": "Increasing the rate of the reaction",
+      "D": "Being converted into product"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 8,
+    "subject": "Biology",
+    "topic": "Enzymes",
+    "difficulty": "Medium",
+    "question": "The graph shows the initial reaction rate of an enzyme-catalyzed reaction plotted against increasing substrate concentration, with the rate leveling off at high substrate levels. This plateau is best explained by:",
+    "options": {
+      "A": "The enzyme being denatured at high substrate levels",
+      "B": "The substrate running out",
+      "C": "All available active sites becoming saturated with substrate",
+      "D": "The reaction reversing direction"
+    },
+    "answer": "C",
+    "image": "images/q5_enzyme_substrate_saturation_graph.png"
+  },
+  {
+    "id": 9,
+    "subject": "Biology",
+    "topic": "Enzymes",
+    "difficulty": "Hard",
+    "question": "Allosteric enzymes are regulated mainly through:",
+    "options": {
+      "A": "Direct competition at the active site only",
+      "B": "Binding of regulatory molecules at a site distinct from the active site, altering enzyme shape and activity",
+      "C": "Permanent covalent modification that cannot be reversed",
+      "D": "Random changes in temperature alone"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 10,
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Easy",
+    "question": "Which structure controls the movement of substances into and out of the cell?",
+    "options": {
+      "A": "Cell wall",
+      "B": "Plasma membrane",
+      "C": "Nucleolus",
+      "D": "Cytoskeleton"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 11,
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Easy",
+    "question": "Peroxisomes within cells are primarily responsible for:",
+    "options": {
+      "A": "Photosynthesis",
+      "B": "Protein synthesis",
+      "C": "Breaking down fatty acids and detoxifying harmful substances using oxidative reactions",
+      "D": "Cell division"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 12,
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Medium",
+    "question": "Which of the following is found in both plant and animal cells?",
+    "options": {
+      "A": "Mitochondrion",
+      "B": "Chloroplast",
+      "C": "Cell wall",
+      "D": "Large central vacuole"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 13,
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Medium",
+    "question": "The endomembrane system includes all of the following EXCEPT:",
+    "options": {
+      "A": "Endoplasmic reticulum",
+      "B": "Golgi apparatus",
+      "C": "Plasma membrane",
+      "D": "Mitochondria"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 14,
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Medium",
+    "question": "The diagram shows a plant cell with structures labeled M, N, O, and P. Structure N is a large, fluid-filled sac that maintains turgor pressure and stores water, ions, and waste products. Which structure is N?",
+    "options": {
+      "A": "Structure M (chloroplast)",
+      "B": "Structure O (cell wall)",
+      "C": "Structure N (central vacuole)",
+      "D": "Structure P (nucleus)"
+    },
+    "answer": "C",
+    "image": "images/q5_plant_cell_diagram_mnop.png"
+  },
+  {
+    "id": 15,
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Medium",
+    "question": "Chromatin condenses into visible chromosomes mainly in preparation for:",
+    "options": {
+      "A": "Interphase",
+      "B": "Protein synthesis",
+      "C": "Apoptosis only",
+      "D": "Cell division"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 16,
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Hard",
+    "question": "A cell with a defective Golgi apparatus would most directly have difficulty with:",
+    "options": {
+      "A": "Replicating its DNA",
+      "B": "Producing ATP",
+      "C": "Breaking down glucose",
+      "D": "Modifying, sorting, and packaging proteins for secretion"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 17,
+    "subject": "Biology",
+    "topic": "Cell Membrane & Transport",
+    "difficulty": "Easy",
+    "question": "Movement of molecules from an area of high concentration to an area of low concentration, without the use of energy, is called:",
+    "options": {
+      "A": "Active transport",
+      "B": "Endocytosis",
+      "C": "Diffusion",
+      "D": "Exocytosis"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 18,
+    "subject": "Biology",
+    "topic": "Cell Membrane & Transport",
+    "difficulty": "Medium",
+    "question": "An animal cell placed in a hypotonic solution will most likely:",
+    "options": {
+      "A": "Shrink due to water leaving the cell",
+      "B": "Remain completely unchanged",
+      "C": "Swell and potentially burst (lysis), since it lacks a rigid cell wall",
+      "D": "Immediately divide"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 19,
+    "subject": "Biology",
+    "topic": "Cell Membrane & Transport",
+    "difficulty": "Medium",
+    "question": "Endocytosis is the process by which a cell:",
+    "options": {
+      "A": "Releases materials by vesicle fusion with the membrane",
+      "B": "Exchanges gases passively",
+      "C": "Engulfs external material by folding the plasma membrane inward to form a vesicle",
+      "D": "Transports water only"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 20,
+    "subject": "Biology",
+    "topic": "Cell Membrane & Transport",
+    "difficulty": "Hard",
+    "question": "Channel proteins differ from carrier proteins in facilitated diffusion in that channel proteins:",
+    "options": {
+      "A": "Require ATP to function",
+      "B": "Always transport substances against their gradient",
+      "C": "Are found only in the nuclear envelope",
+      "D": "Form a continuous pore through which specific molecules or ions pass without the protein changing shape"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 21,
+    "subject": "Biology",
+    "topic": "Cell Membrane & Transport",
+    "difficulty": "Easy",
+    "question": "Cholesterol molecules embedded within the plasma membrane mainly function to:",
+    "options": {
+      "A": "Transport ions across the membrane",
+      "B": "Regulate membrane fluidity, preventing it from becoming too rigid or too fluid",
+      "C": "Catalyze biochemical reactions",
+      "D": "Form the majority of the membrane's phospholipids"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 22,
+    "subject": "Biology",
+    "topic": "Cell Cycle & Division",
+    "difficulty": "Easy",
+    "question": "Which phase of the cell cycle is generally the longest?",
+    "options": {
+      "A": "M phase",
+      "B": "Cytokinesis alone",
+      "C": "Interphase",
+      "D": "Prophase"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 23,
+    "subject": "Biology",
+    "topic": "Cell Cycle & Division",
+    "difficulty": "Easy",
+    "question": "During which phase does the nuclear envelope reform around each set of separated chromosomes?",
+    "options": {
+      "A": "Prophase",
+      "B": "Metaphase",
+      "C": "Telophase",
+      "D": "Anaphase"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 24,
+    "subject": "Biology",
+    "topic": "Cell Cycle & Division",
+    "difficulty": "Medium",
+    "question": "The main biological significance of mitosis is to:",
+    "options": {
+      "A": "Produce gametes with half the chromosome number",
+      "B": "Introduce genetic variation",
+      "C": "Generate genetically identical daughter cells for growth and repair",
+      "D": "Reduce chromosome number by half"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 25,
+    "subject": "Biology",
+    "topic": "Cell Cycle & Division",
+    "difficulty": "Medium",
+    "question": "A cell with a diploid chromosome number of 8 undergoes meiosis. How many chromosomes will each resulting daughter cell (gamete) contain?",
+    "options": {
+      "A": "8",
+      "B": "4",
+      "C": "16",
+      "D": "2"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 26,
+    "subject": "Biology",
+    "topic": "Cell Cycle & Division",
+    "difficulty": "Medium",
+    "question": "Independent assortment during meiosis I refers to:",
+    "options": {
+      "A": "The exchange of segments between sister chromatids",
+      "B": "The identical separation of chromosomes every time",
+      "C": "The doubling of DNA content",
+      "D": "The random orientation of homologous chromosome pairs at the metaphase plate, contributing to genetic variation"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 27,
+    "subject": "Biology",
+    "topic": "Cell Cycle & Division",
+    "difficulty": "Hard",
+    "question": "Apoptosis (programmed cell death) differs from necrosis in that apoptosis:",
+    "options": {
+      "A": "Is a controlled, energy-dependent process that eliminates cells without triggering inflammation",
+      "B": "Is an uncontrolled, damaging process triggered by injury",
+      "C": "Always results from external injury alone",
+      "D": "Never occurs in normal development"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 28,
+    "subject": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Easy",
+    "question": "In pea plants, round seed shape (R) is dominant over wrinkled (r). A cross between a heterozygous round plant and a wrinkled plant (Rr x rr) produces offspring with genotype:",
+    "options": {
+      "A": "All Rr",
+      "B": "All RR",
+      "C": "1 Rr : 1 rr",
+      "D": "All rr"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 29,
+    "subject": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Medium",
+    "question": "A dihybrid cross between two individuals heterozygous for two independently assorting traits (AaBb x AaBb) is expected to give what overall phenotypic ratio?",
+    "options": {
+      "A": "1:2:1",
+      "B": "9:3:3:1",
+      "C": "3:1",
+      "D": "1:1:1:1"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 30,
+    "subject": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Medium",
+    "question": "Color blindness is an X-linked recessive condition. If an affected father and a homozygous unaffected mother have children, what proportion of their daughters is expected to be carriers?",
+    "options": {
+      "A": "0%",
+      "B": "100%",
+      "C": "50%",
+      "D": "25%"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 31,
+    "subject": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Hard",
+    "question": "In a test cross for a single gene, Aa x aa, what fraction of offspring is expected to show the recessive phenotype?",
+    "options": {
+      "A": "1/2",
+      "B": "1/4",
+      "C": "3/4",
+      "D": "1/8"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 32,
+    "subject": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Medium",
+    "question": "A man with blood group AB and a woman with blood group O have children. Which blood groups are possible among their offspring?",
+    "options": {
+      "A": "Only AB",
+      "B": "A, B, AB, and O",
+      "C": "A and B only",
+      "D": "Only O"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 33,
+    "subject": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Hard",
+    "question": "A pedigree in which an affected individual always has an affected parent, and the trait appears in every generation without skipping, is most consistent with:",
+    "options": {
+      "A": "Autosomal recessive inheritance",
+      "B": "X-linked recessive inheritance",
+      "C": "Mitochondrial-only inheritance",
+      "D": "Autosomal dominant inheritance"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 34,
+    "subject": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Medium",
+    "question": "In snapdragons, crossing a red-flowered plant (RR) with a white-flowered plant (WW) produces all pink-flowered offspring (RW). This pattern is an example of:",
+    "options": {
+      "A": "Codominance",
+      "B": "Incomplete dominance",
+      "C": "Epistasis",
+      "D": "Polygenic inheritance"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 35,
+    "subject": "Biology",
+    "topic": "Molecular Biology",
+    "difficulty": "Easy",
+    "question": "The four nitrogenous bases found in DNA are adenine, thymine, guanine, and:",
+    "options": {
+      "A": "Uracil",
+      "B": "Cytosine",
+      "C": "Ribose",
+      "D": "Phosphate"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 36,
+    "subject": "Biology",
+    "topic": "Molecular Biology",
+    "difficulty": "Easy",
+    "question": "The overall flow of genetic information described as DNA -> RNA -> protein is known as the:",
+    "options": {
+      "A": "Genetic code",
+      "B": "Operon model",
+      "C": "Central dogma of molecular biology",
+      "D": "Replication fork"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 37,
+    "subject": "Biology",
+    "topic": "Molecular Biology",
+    "difficulty": "Medium",
+    "question": "Okazaki fragments are formed during DNA replication because:",
+    "options": {
+      "A": "RNA primers are never used",
+      "B": "DNA polymerase can only synthesize in the 5' to 3' direction, requiring discontinuous synthesis on the lagging strand",
+      "C": "The leading strand is synthesized discontinuously",
+      "D": "DNA ligase cannot join fragments"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 38,
+    "subject": "Biology",
+    "topic": "Molecular Biology",
+    "difficulty": "Medium",
+    "question": "During translation, a stop codon on the mRNA causes:",
+    "options": {
+      "A": "Release of the completed polypeptide from the ribosome, as no tRNA recognizes it",
+      "B": "Addition of a stop amino acid",
+      "C": "Immediate degradation of the mRNA",
+      "D": "Reinitiation of transcription"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 39,
+    "subject": "Biology",
+    "topic": "Molecular Biology",
+    "difficulty": "Medium",
+    "question": "A mutation that introduces a premature stop codon into a gene's coding sequence is called a:",
+    "options": {
+      "A": "Silent mutation",
+      "B": "Nonsense mutation",
+      "C": "Missense mutation",
+      "D": "Frameshift mutation only"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 40,
+    "subject": "Biology",
+    "topic": "Molecular Biology",
+    "difficulty": "Hard",
+    "question": "A deletion of three consecutive nucleotides (one full codon) from a gene's coding sequence would most likely result in:",
+    "options": {
+      "A": "A frameshift affecting the entire downstream sequence",
+      "B": "No change to the protein at all",
+      "C": "Complete loss of protein synthesis",
+      "D": "Loss of a single amino acid from the protein, with the reading frame otherwise preserved"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 41,
+    "subject": "Biology",
+    "topic": "Molecular Biology",
+    "difficulty": "Hard",
+    "question": "In the lac operon, the presence of lactose leads to transcription of the lac genes mainly because a lactose derivative:",
+    "options": {
+      "A": "Binds directly to RNA polymerase, activating it",
+      "B": "Destroys the operator sequence permanently",
+      "C": "Binds to the promoter, blocking transcription",
+      "D": "Binds to and inactivates the repressor protein, allowing it to release the operator"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 42,
+    "subject": "Biology",
+    "topic": "Molecular Biology",
+    "difficulty": "Medium",
+    "question": "A codon consists of how many nucleotides, and codes for:",
+    "options": {
+      "A": "Two nucleotides, coding for one amino acid",
+      "B": "Four nucleotides, coding for two amino acids",
+      "C": "One nucleotide, coding for one amino acid",
+      "D": "Three nucleotides, coding for one amino acid"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 43,
+    "subject": "Biology",
+    "topic": "Molecular Biology",
+    "difficulty": "Medium",
+    "question": "Alternative splicing of pre-mRNA allows a single gene to:",
+    "options": {
+      "A": "Produce multiple different protein products by combining exons in different ways",
+      "B": "Be transcribed only once in a cell's lifetime",
+      "C": "Never be translated",
+      "D": "Lose its introns permanently from the DNA"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 44,
+    "subject": "Biology",
+    "topic": "Molecular Biology",
+    "difficulty": "Easy",
+    "question": "Which of the following enzymes joins Okazaki fragments together by forming phosphodiester bonds?",
+    "options": {
+      "A": "DNA ligase",
+      "B": "DNA polymerase",
+      "C": "Helicase",
+      "D": "Primase"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 45,
+    "subject": "Biology",
+    "topic": "Evolution",
+    "difficulty": "Easy",
+    "question": "The term used to describe a heritable trait that increases an organism's chance of survival and reproduction in a given environment is:",
+    "options": {
+      "A": "Mutation",
+      "B": "Speciation",
+      "C": "Extinction",
+      "D": "Adaptation"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 46,
+    "subject": "Biology",
+    "topic": "Evolution",
+    "difficulty": "Medium",
+    "question": "Analogous structures, such as the wings of insects and birds, are the result of:",
+    "options": {
+      "A": "Convergent evolution, where similar traits evolve independently in unrelated lineages facing similar environmental pressures",
+      "B": "Common ancestry",
+      "C": "Identical genetic pathways",
+      "D": "Direct inheritance from a shared recent ancestor"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 47,
+    "subject": "Biology",
+    "topic": "Evolution",
+    "difficulty": "Medium",
+    "question": "Which of the following is NOT one of the conditions required for a population to remain in Hardy-Weinberg equilibrium?",
+    "options": {
+      "A": "Ongoing natural selection favoring certain alleles",
+      "B": "No natural selection",
+      "C": "No mutation",
+      "D": "Random mating"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 48,
+    "subject": "Biology",
+    "topic": "Evolution",
+    "difficulty": "Hard",
+    "question": "In a population in Hardy-Weinberg equilibrium, 16% of individuals show the recessive phenotype. What is the frequency of the dominant allele (p)?",
+    "options": {
+      "A": "0.4",
+      "B": "0.16",
+      "C": "0.6",
+      "D": "0.84"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 49,
+    "subject": "Biology",
+    "topic": "Classification & Diversity",
+    "difficulty": "Easy",
+    "question": "The scientific study of classifying and naming organisms is called:",
+    "options": {
+      "A": "Taxonomy",
+      "B": "Ecology",
+      "C": "Physiology",
+      "D": "Genetics"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 50,
+    "subject": "Biology",
+    "topic": "Classification & Diversity",
+    "difficulty": "Easy",
+    "question": "Members of kingdom Animalia are generally characterized as:",
+    "options": {
+      "A": "Autotrophic organisms with cell walls",
+      "B": "Multicellular heterotrophs that typically ingest food and lack cell walls",
+      "C": "Unicellular prokaryotes",
+      "D": "Decomposers that absorb nutrients"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 51,
+    "subject": "Biology",
+    "topic": "Classification & Diversity",
+    "difficulty": "Medium",
+    "question": "The three-domain system of classification (Bacteria, Archaea, Eukarya) is based primarily on differences in:",
+    "options": {
+      "A": "Body size",
+      "B": "Habitat alone",
+      "C": "Ribosomal RNA sequences and fundamental cell biology",
+      "D": "Ability to move"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 52,
+    "subject": "Biology",
+    "topic": "Classification & Diversity",
+    "difficulty": "Medium",
+    "question": "A newly discovered unicellular organism has a membrane-bound nucleus but lacks chloroplasts and a cell wall, and moves using pseudopodia to engulf food particles. It most likely belongs to:",
+    "options": {
+      "A": "Kingdom Protista",
+      "B": "Kingdom Monera",
+      "C": "Kingdom Fungi",
+      "D": "Kingdom Plantae"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 53,
+    "subject": "Biology",
+    "topic": "Classification & Diversity",
+    "difficulty": "Easy",
+    "question": "Which taxonomic rank groups together several related genera?",
+    "options": {
+      "A": "Species",
+      "B": "Family",
+      "C": "Order",
+      "D": "Class"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 54,
+    "subject": "Biology",
+    "topic": "Classification & Diversity",
+    "difficulty": "Medium",
+    "question": "Members of phylum Chordata are united by the shared presence, at some point in development, of:",
+    "options": {
+      "A": "A notochord, dorsal nerve cord, and pharyngeal slits",
+      "B": "A hard exoskeleton",
+      "C": "Radial symmetry",
+      "D": "A closed circulatory system only"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 55,
+    "subject": "Biology",
+    "topic": "Plant Biology",
+    "difficulty": "Easy",
+    "question": "The organ of a flowering plant primarily responsible for anchoring the plant and absorbing water and minerals is the:",
+    "options": {
+      "A": "Root",
+      "B": "Stem",
+      "C": "Leaf",
+      "D": "Flower"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 56,
+    "subject": "Biology",
+    "topic": "Plant Biology",
+    "difficulty": "Medium",
+    "question": "The overall equation for photosynthesis shows that plants convert carbon dioxide and water into glucose and:",
+    "options": {
+      "A": "Nitrogen",
+      "B": "Carbon monoxide",
+      "C": "Oxygen",
+      "D": "Methane"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 57,
+    "subject": "Biology",
+    "topic": "Plant Biology",
+    "difficulty": "Medium",
+    "question": "Chlorophyll a and chlorophyll b absorb light most strongly in the ______ and ______ regions of the visible spectrum, reflecting green light.",
+    "options": {
+      "A": "Yellow; orange",
+      "B": "Green; violet only",
+      "C": "Red; blue",
+      "D": "Infrared; ultraviolet"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 58,
+    "subject": "Biology",
+    "topic": "Plant Biology",
+    "difficulty": "Hard",
+    "question": "In C3 plants under hot, dry conditions, stomata often close to conserve water, which can lead to reduced photosynthetic efficiency mainly because:",
+    "options": {
+      "A": "CO2 levels drop and RuBisCO increasingly binds O2 instead, causing photorespiration",
+      "B": "Glucose production stops entirely",
+      "C": "Chlorophyll is destroyed",
+      "D": "The Calvin cycle no longer requires CO2"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 59,
+    "subject": "Biology",
+    "topic": "Plant Biology",
+    "difficulty": "Medium",
+    "question": "Guard cells surrounding each stomatal pore regulate gas exchange and water loss mainly by:",
+    "options": {
+      "A": "Producing chlorophyll",
+      "B": "Secreting wax onto the leaf surface",
+      "C": "Changing shape to open or close the pore in response to turgor pressure changes",
+      "D": "Absorbing sunlight directly"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 60,
+    "subject": "Biology",
+    "topic": "Plant Biology",
+    "difficulty": "Easy",
+    "question": "The transfer of pollen from the anther to the stigma of a flower is called:",
+    "options": {
+      "A": "Fertilization",
+      "B": "Pollination",
+      "C": "Germination",
+      "D": "Transpiration"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 61,
+    "subject": "Biology",
+    "topic": "Human Physiology - Digestion",
+    "difficulty": "Easy",
+    "question": "Emulsification of fats in the small intestine is carried out by:",
+    "options": {
+      "A": "Bile",
+      "B": "Pepsin",
+      "C": "Amylase",
+      "D": "Hydrochloric acid"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 62,
+    "subject": "Biology",
+    "topic": "Human Physiology - Digestion",
+    "difficulty": "Medium",
+    "question": "Trypsin, a pancreatic enzyme, is secreted in an inactive form (trypsinogen) mainly to:",
+    "options": {
+      "A": "Prevent the enzyme from digesting the pancreas's own proteins before reaching the intestine",
+      "B": "Slow down digestion unnecessarily",
+      "C": "Allow it to work only in the stomach",
+      "D": "Increase its stability at low pH"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 63,
+    "subject": "Biology",
+    "topic": "Human Physiology - Digestion",
+    "difficulty": "Medium",
+    "question": "The large intestine's primary functions include:",
+    "options": {
+      "A": "Chemical digestion of proteins",
+      "B": "Production of bile",
+      "C": "Initial digestion of starch",
+      "D": "Absorption of water and electrolytes from indigestible food matter"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 64,
+    "subject": "Biology",
+    "topic": "Human Physiology - Digestion",
+    "difficulty": "Hard",
+    "question": "Efficient fat digestion in the small intestine depends on bile emulsifying fats, after which pancreatic lipase:",
+    "options": {
+      "A": "Hydrolyzes triglycerides into fatty acids and monoglycerides for absorption",
+      "B": "Converts fats directly into glucose",
+      "C": "Stores fats permanently in micelles",
+      "D": "Converts fats into amino acids"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 65,
+    "subject": "Biology",
+    "topic": "Human Physiology - Circulation",
+    "difficulty": "Easy",
+    "question": "Blood leaving the left ventricle travels directly into the:",
+    "options": {
+      "A": "Pulmonary artery",
+      "B": "Vena cava",
+      "C": "Aorta",
+      "D": "Pulmonary vein"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 66,
+    "subject": "Biology",
+    "topic": "Human Physiology - Circulation",
+    "difficulty": "Medium",
+    "question": "Which of the following best explains why the left ventricle has a much thicker muscular wall than the right ventricle?",
+    "options": {
+      "A": "The left ventricle must generate enough pressure to pump blood throughout the entire systemic circulation",
+      "B": "The left ventricle pumps blood only to the lungs, a low-pressure circuit",
+      "C": "The left ventricle contains valves while the right does not",
+      "D": "The left ventricle is smaller in volume"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 67,
+    "subject": "Biology",
+    "topic": "Human Physiology - Circulation",
+    "difficulty": "Medium",
+    "question": "Blood pressure is typically measured as two values, systolic over diastolic; the diastolic value represents:",
+    "options": {
+      "A": "Pressure during ventricular contraction",
+      "B": "Pressure in the arteries when the heart is relaxed between beats",
+      "C": "Pressure within the veins only",
+      "D": "The total blood volume"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 68,
+    "subject": "Biology",
+    "topic": "Human Physiology - Circulation",
+    "difficulty": "Hard",
+    "question": "An increase in blood carbon dioxide levels stimulates chemoreceptors, which typically leads to:",
+    "options": {
+      "A": "Decreased heart and respiratory rate",
+      "B": "No physiological response",
+      "C": "Immediate cardiac arrest",
+      "D": "Increased heart and respiratory rate to expel excess CO2"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 69,
+    "subject": "Biology",
+    "topic": "Human Physiology - Respiration",
+    "difficulty": "Easy",
+    "question": "The muscles located between the ribs that assist in expanding the chest cavity during inhalation are the:",
+    "options": {
+      "A": "Diaphragm only",
+      "B": "Intercostal muscles",
+      "C": "Abdominal muscles",
+      "D": "Cardiac muscles"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 70,
+    "subject": "Biology",
+    "topic": "Human Physiology - Respiration",
+    "difficulty": "Medium",
+    "question": "The concentration gradient that drives oxygen diffusion from the alveoli into the surrounding capillary blood exists because:",
+    "options": {
+      "A": "Oxygen concentration is lower in the alveoli than in the blood",
+      "B": "There is no concentration gradient; oxygen moves by active transport",
+      "C": "Oxygen concentration is higher in the alveoli than in the deoxygenated blood arriving at the lungs",
+      "D": "Carbon dioxide concentration is higher in the alveoli"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 71,
+    "subject": "Biology",
+    "topic": "Human Physiology - Respiration",
+    "difficulty": "Medium",
+    "question": "The respiratory control center located in the medulla oblongata primarily regulates breathing rate based on:",
+    "options": {
+      "A": "Blood glucose levels",
+      "B": "Blood carbon dioxide and pH levels",
+      "C": "Blood oxygen levels exclusively",
+      "D": "Body temperature"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 72,
+    "subject": "Biology",
+    "topic": "Human Physiology - Excretion",
+    "difficulty": "Easy",
+    "question": "The functional and structural unit of the kidney responsible for filtering blood is the:",
+    "options": {
+      "A": "Ureter",
+      "B": "Renal pelvis",
+      "C": "Bladder",
+      "D": "Nephron"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 73,
+    "subject": "Biology",
+    "topic": "Human Physiology - Excretion",
+    "difficulty": "Medium",
+    "question": "Substances such as excess hydrogen ions and certain drugs are added to the filtrate from the surrounding blood in the nephron through the process of:",
+    "options": {
+      "A": "Filtration",
+      "B": "Reabsorption",
+      "C": "Excretion",
+      "D": "Tubular secretion"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 74,
+    "subject": "Biology",
+    "topic": "Human Physiology - Excretion",
+    "difficulty": "Hard",
+    "question": "A person who is severely dehydrated would be expected to secrete ______ ADH, resulting in urine that is ______.",
+    "options": {
+      "A": "Less; more dilute",
+      "B": "More; more dilute",
+      "C": "Less; more concentrated",
+      "D": "More; more concentrated"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 75,
+    "subject": "Biology",
+    "topic": "Human Physiology - Nervous & Endocrine",
+    "difficulty": "Easy",
+    "question": "The gap between the axon terminal of one neuron and the dendrite of the next, across which nerve signals are transmitted, is called the:",
+    "options": {
+      "A": "Node of Ranvier",
+      "B": "Synapse",
+      "C": "Myelin sheath",
+      "D": "Axon hillock"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 76,
+    "subject": "Biology",
+    "topic": "Human Physiology - Nervous & Endocrine",
+    "difficulty": "Medium",
+    "question": "The myelin sheath surrounding many axons functions mainly to:",
+    "options": {
+      "A": "Produce neurotransmitters",
+      "B": "Absorb excess ions",
+      "C": "Increase the speed of nerve impulse conduction by enabling saltatory conduction",
+      "D": "Generate the resting potential"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 77,
+    "subject": "Biology",
+    "topic": "Human Physiology - Nervous & Endocrine",
+    "difficulty": "Medium",
+    "question": "Thyroxine, secreted by the thyroid gland, primarily functions to:",
+    "options": {
+      "A": "Regulate blood calcium levels",
+      "B": "Trigger the fight-or-flight response",
+      "C": "Regulate the body's basal metabolic rate",
+      "D": "Regulate blood glucose directly"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 78,
+    "subject": "Biology",
+    "topic": "Human Physiology - Nervous & Endocrine",
+    "difficulty": "Hard",
+    "question": "The resting membrane potential of a neuron is maintained largely by:",
+    "options": {
+      "A": "Equal concentrations of Na+ and K+ on both sides of the membrane",
+      "B": "The sodium-potassium pump and the membrane's greater permeability to K+ than Na+",
+      "C": "Continuous depolarization",
+      "D": "The complete absence of ion channels"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 79,
+    "subject": "Biology",
+    "topic": "Human Physiology - Reproduction",
+    "difficulty": "Easy",
+    "question": "The hormone responsible for triggering ovulation via a surge in its levels is:",
+    "options": {
+      "A": "Estrogen",
+      "B": "Progesterone",
+      "C": "FSH",
+      "D": "Luteinizing hormone (LH)"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 80,
+    "subject": "Biology",
+    "topic": "Human Physiology - Reproduction",
+    "difficulty": "Medium",
+    "question": "If fertilization does not occur, the corpus luteum degenerates, causing progesterone levels to fall, which leads to:",
+    "options": {
+      "A": "Implantation",
+      "B": "Shedding of the uterine lining (menstruation)",
+      "C": "Ovulation",
+      "D": "A surge in LH"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 81,
+    "subject": "Biology",
+    "topic": "Ecology",
+    "difficulty": "Medium",
+    "question": "In a stable ecosystem, the pyramid of energy typically shows that the amount of energy available:",
+    "options": {
+      "A": "Decreases at each successive trophic level, as energy is lost as heat at each transfer",
+      "B": "Increases at each successive trophic level",
+      "C": "Remains exactly constant at every trophic level",
+      "D": "Is concentrated entirely at the top level"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 82,
+    "subject": "Chemistry",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "Which subatomic particle carries a negative charge and orbits the nucleus?",
+    "options": {
+      "A": "Proton",
+      "B": "Electron",
+      "C": "Neutron",
+      "D": "Positron"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 83,
+    "subject": "Chemistry",
+    "topic": "Atomic Structure",
+    "difficulty": "Medium",
+    "question": "An atom of oxygen-18 (atomic number 8) contains how many neutrons?",
+    "options": {
+      "A": "10",
+      "B": "8",
+      "C": "18",
+      "D": "26"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 84,
+    "subject": "Chemistry",
+    "topic": "Atomic Structure",
+    "difficulty": "Medium",
+    "question": "The electron configuration of a neutral chlorine atom (Z = 17) is:",
+    "options": {
+      "A": "1s2 2s2 2p6 3s2 3p6",
+      "B": "1s2 2s2 2p5",
+      "C": "1s2 2s2 2p6 3s1",
+      "D": "1s2 2s2 2p6 3s2 3p5"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 85,
+    "subject": "Chemistry",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "An ion formed from a neutral atom with 8 protons that has gained 2 electrons carries a charge of:",
+    "options": {
+      "A": "+2",
+      "B": "-2",
+      "C": "-1",
+      "D": "+1"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 86,
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "difficulty": "Easy",
+    "question": "Elements in Group 17 of the periodic table, known for being highly reactive nonmetals, are called:",
+    "options": {
+      "A": "Halogens",
+      "B": "Alkali metals",
+      "C": "Noble gases",
+      "D": "Transition metals"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 87,
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "difficulty": "Medium",
+    "question": "Ionization energy generally increases:",
+    "options": {
+      "A": "Down a group, and from left to right across a period",
+      "B": "Down a group only",
+      "C": "Left to right, and down a group",
+      "D": "Across a period from left to right, and up a group"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 88,
+    "subject": "Chemistry",
+    "topic": "Periodic Table",
+    "difficulty": "Medium",
+    "question": "An element with electron configuration [Ne]3s2 would most likely:",
+    "options": {
+      "A": "Gain two electrons to form a -2 ion",
+      "B": "Be chemically inert",
+      "C": "Form covalent bonds exclusively",
+      "D": "Lose two electrons to form a +2 ion"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 89,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "difficulty": "Easy",
+    "question": "A metallic bond can best be described as:",
+    "options": {
+      "A": "A bond formed by complete electron transfer",
+      "B": "A bond formed by sharing electron pairs equally",
+      "C": "A weak intermolecular attraction only",
+      "D": "Positive metal ions held together by a 'sea' of delocalized electrons"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 90,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "difficulty": "Medium",
+    "question": "According to VSEPR theory, a molecule such as methane (CH4), with four bonding pairs and no lone pairs on the central atom, has a molecular shape described as:",
+    "options": {
+      "A": "Tetrahedral",
+      "B": "Trigonal pyramidal",
+      "C": "Bent",
+      "D": "Trigonal planar"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 91,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "difficulty": "Medium",
+    "question": "HCl is a polar molecule mainly because:",
+    "options": {
+      "A": "Chlorine is more electronegative than hydrogen, creating an uneven distribution of electron density",
+      "B": "Hydrogen and chlorine have very similar electronegativities",
+      "C": "The molecule has a symmetrical shape",
+      "D": "It contains no covalent bond"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 92,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "difficulty": "Hard",
+    "question": "Ice is less dense than liquid water mainly because:",
+    "options": {
+      "A": "Water molecules pack more tightly as a solid",
+      "B": "Ice contains fewer water molecules per unit volume through evaporation",
+      "C": "Ice has stronger covalent bonds than liquid water",
+      "D": "Hydrogen bonding in the solid state arranges water molecules into an open lattice structure"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 93,
+    "subject": "Chemistry",
+    "topic": "States of Matter",
+    "difficulty": "Easy",
+    "question": "The change of state from gas directly to solid, without passing through the liquid phase, is called:",
+    "options": {
+      "A": "Deposition",
+      "B": "Sublimation",
+      "C": "Condensation",
+      "D": "Freezing"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 94,
+    "subject": "Chemistry",
+    "topic": "States of Matter",
+    "difficulty": "Medium",
+    "question": "A gas occupies 10.0 L at 1.0 atm. What volume will it occupy at 5.0 atm, assuming constant temperature (Boyle's Law)?",
+    "options": {
+      "A": "2.0 L",
+      "B": "50.0 L",
+      "C": "5.0 L",
+      "D": "10.0 L"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 95,
+    "subject": "Chemistry",
+    "topic": "States of Matter",
+    "difficulty": "Hard",
+    "question": "A fixed mass of gas at 4 atm and 400 K is cooled at constant volume until its pressure drops to 2 atm. What is the new temperature (Gay-Lussac's Law)?",
+    "options": {
+      "A": "800 K",
+      "B": "100 K",
+      "C": "200 K",
+      "D": "400 K"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 96,
+    "subject": "Chemistry",
+    "topic": "Stoichiometry",
+    "difficulty": "Easy",
+    "question": "The molar mass of ammonia (NH3) is approximately:",
+    "options": {
+      "A": "14 g/mol",
+      "B": "17 g/mol",
+      "C": "16 g/mol",
+      "D": "34 g/mol"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 97,
+    "subject": "Chemistry",
+    "topic": "Stoichiometry",
+    "difficulty": "Medium",
+    "question": "How many moles are present in 24 g of magnesium (molar mass 24 g/mol)?",
+    "options": {
+      "A": "0.5 mol",
+      "B": "2 mol",
+      "C": "24 mol",
+      "D": "1 mol"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 98,
+    "subject": "Chemistry",
+    "topic": "Stoichiometry",
+    "difficulty": "Hard",
+    "question": "A 200 mL solution contains 0.05 mole of Na2CO3. What is the molarity of this solution?",
+    "options": {
+      "A": "0.1 M",
+      "B": "0.05 M",
+      "C": "4 M",
+      "D": "0.25 M"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 99,
+    "subject": "Chemistry",
+    "topic": "Stoichiometry",
+    "difficulty": "Medium",
+    "question": "In the balanced equation CaCO3 -> CaO + CO2, how many moles of CO2 are produced from the complete decomposition of 4 moles of CaCO3?",
+    "options": {
+      "A": "2",
+      "B": "8",
+      "C": "1",
+      "D": "4"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 100,
+    "subject": "Chemistry",
+    "topic": "Thermochemistry",
+    "difficulty": "Easy",
+    "question": "A reaction that absorbs heat from its surroundings is classified as:",
+    "options": {
+      "A": "Exothermic",
+      "B": "Endothermic",
+      "C": "Isobaric",
+      "D": "Isochoric"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 101,
+    "subject": "Chemistry",
+    "topic": "Thermochemistry",
+    "difficulty": "Medium",
+    "question": "The standard enthalpy of combustion of a substance is always:",
+    "options": {
+      "A": "Negative (exothermic), since combustion releases heat",
+      "B": "Positive (endothermic)",
+      "C": "Equal to zero",
+      "D": "Undefined for organic compounds"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 102,
+    "subject": "Chemistry",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Medium",
+    "question": "For the equilibrium 2NO2(g) <-> N2O4(g), decreasing the temperature (an exothermic forward reaction) will shift the equilibrium:",
+    "options": {
+      "A": "Toward the product (N2O4)",
+      "B": "Toward the reactants (NO2)",
+      "C": "Not at all",
+      "D": "Completely to the reactant side"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 103,
+    "subject": "Chemistry",
+    "topic": "Chemical Equilibrium",
+    "difficulty": "Hard",
+    "question": "According to Le Chatelier's principle, removing product from an equilibrium mixture as it forms will:",
+    "options": {
+      "A": "Shift the equilibrium toward the reactants",
+      "B": "Have no effect on the equilibrium",
+      "C": "Stop the reaction entirely",
+      "D": "Shift the equilibrium toward the products, favoring further forward reaction"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 104,
+    "subject": "Chemistry",
+    "topic": "Reaction Kinetics",
+    "difficulty": "Easy",
+    "question": "Increasing the surface area of a solid reactant generally increases reaction rate mainly because:",
+    "options": {
+      "A": "It decreases the number of particle collisions",
+      "B": "It exposes more particles at the surface, increasing the frequency of effective collisions",
+      "C": "It lowers the temperature of the reaction",
+      "D": "It decreases the concentration of reactants"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 105,
+    "subject": "Chemistry",
+    "topic": "Reaction Kinetics",
+    "difficulty": "Medium",
+    "question": "A reaction is zero order with respect to a reactant. Doubling the concentration of that reactant will:",
+    "options": {
+      "A": "Have no effect on the rate",
+      "B": "Double the rate",
+      "C": "Quadruple the rate",
+      "D": "Halve the rate"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 106,
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "In an electrolytic cell, an external power source is used to:",
+    "options": {
+      "A": "Drive a non-spontaneous redox reaction",
+      "B": "Generate electricity spontaneously",
+      "C": "Prevent any reaction from occurring",
+      "D": "Measure the pH of a solution"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 107,
+    "subject": "Chemistry",
+    "topic": "Electrochemistry",
+    "difficulty": "Hard",
+    "question": "In the reaction Fe + CuSO4 -> FeSO4 + Cu, iron is oxidized while copper ion (Cu2+) is:",
+    "options": {
+      "A": "Oxidized",
+      "B": "Reduced, gaining electrons to form solid copper",
+      "C": "Unchanged",
+      "D": "Acting as a catalyst"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 108,
+    "subject": "Chemistry",
+    "topic": "Acids & Bases",
+    "difficulty": "Easy",
+    "question": "According to the Bronsted-Lowry definition, an acid is a substance that:",
+    "options": {
+      "A": "Donates a proton (H+)",
+      "B": "Accepts a proton (H+)",
+      "C": "Accepts a pair of electrons",
+      "D": "Donates a hydroxide ion"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 109,
+    "subject": "Chemistry",
+    "topic": "Acids & Bases",
+    "difficulty": "Medium",
+    "question": "A solution has [H+] = 1x10^-4 M. What is its pH?",
+    "options": {
+      "A": "10",
+      "B": "-4",
+      "C": "0.4",
+      "D": "4"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 110,
+    "subject": "Chemistry",
+    "topic": "Acids & Bases",
+    "difficulty": "Medium",
+    "question": "The graph shows the pH curve as NaOH is added to a weak acid (acetic acid) solution. Based on the shape of the curve, the pH at the equivalence point is expected to be:",
+    "options": {
+      "A": "Exactly 7.0",
+      "B": "Slightly less than 7",
+      "C": "Extremely low, near pH 1",
+      "D": "Slightly greater than 7, because the resulting salt solution is weakly basic"
+    },
+    "answer": "D",
+    "image": "images/q5_titration_curve_weak_acid.png"
+  },
+  {
+    "id": 111,
+    "subject": "Chemistry",
+    "topic": "Acids & Bases",
+    "difficulty": "Hard",
+    "question": "A solution's buffering capacity is greatest when:",
+    "options": {
+      "A": "The concentrations of the weak acid and its conjugate base are very different",
+      "B": "Only a strong acid is present",
+      "C": "No equilibrium exists in solution",
+      "D": "The concentrations of the weak acid and its conjugate base are roughly equal"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 112,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "difficulty": "Easy",
+    "question": "The functional group -OH attached to a carbon chain (not part of a carboxyl group) characterizes a class of compounds called:",
+    "options": {
+      "A": "Ethers",
+      "B": "Aldehydes",
+      "C": "Alcohols",
+      "D": "Esters"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 113,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "Alkanes are generally less reactive than alkenes mainly because alkanes:",
+    "options": {
+      "A": "Contain highly reactive triple bonds",
+      "B": "Have no carbon-hydrogen bonds",
+      "C": "Are always found as gases",
+      "D": "Contain only strong, relatively unreactive single (sigma) bonds, lacking the reactive pi bond of a double bond"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 114,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "An ether functional group is characterized by an oxygen atom:",
+    "options": {
+      "A": "Bonded to two separate carbon-containing groups",
+      "B": "Double-bonded to a single carbon",
+      "C": "Bonded to a hydrogen and a carbon (as in -OH)",
+      "D": "Bonded to nitrogen"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 115,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "In addition polymerization, monomers with a carbon-carbon double bond join together mainly by:",
+    "options": {
+      "A": "Releasing a small molecule such as water at each linkage",
+      "B": "The double bond opening up, allowing monomers to bond directly to one another without any byproduct",
+      "C": "Hydrolysis of an ester linkage",
+      "D": "Losing a halogen atom at each step"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 116,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "Saponification refers to the reaction of a fat or oil with a strong base to produce:",
+    "options": {
+      "A": "An ester and water",
+      "B": "A polymer",
+      "C": "Only carbon dioxide and water",
+      "D": "Soap (a fatty acid salt) and glycerol"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 117,
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "difficulty": "Easy",
+    "question": "Optical isomers (enantiomers) are non-superimposable mirror images of each other that arise due to the presence of a:",
+    "options": {
+      "A": "Double bond",
+      "B": "Benzene ring",
+      "C": "Halogen substituent",
+      "D": "Chiral (asymmetric) carbon"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 118,
+    "subject": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "difficulty": "Medium",
+    "question": "Group 1 (alkali metal) hydroxides, such as NaOH, are generally:",
+    "options": {
+      "A": "Weak bases",
+      "B": "Strong bases that fully dissociate in water",
+      "C": "Neutral compounds",
+      "D": "Strong acids"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 119,
+    "subject": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "difficulty": "Medium",
+    "question": "Noble gases are generally unreactive mainly because they:",
+    "options": {
+      "A": "Have incomplete outer electron shells",
+      "B": "Have very small atomic radii only",
+      "C": "Already possess a complete (stable) outer electron shell",
+      "D": "Are strongly electronegative"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 120,
+    "subject": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "difficulty": "Hard",
+    "question": "In the reaction 2Na + Cl2 -> 2NaCl, sodium's oxidation state changes from:",
+    "options": {
+      "A": "0 to -1",
+      "B": "+1 to 0",
+      "C": "0 to +1 (oxidation)",
+      "D": "No change occurs"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 121,
+    "subject": "Chemistry",
+    "topic": "Physical Chemistry",
+    "difficulty": "Medium",
+    "question": "Mole fraction of a component in a mixture is defined as:",
+    "options": {
+      "A": "Grams of that component per liter of solution",
+      "B": "Moles of that component per kilogram of solvent",
+      "C": "Moles of that component divided by total moles of all components in the mixture",
+      "D": "Volume of that component divided by total volume"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 122,
+    "subject": "Chemistry",
+    "topic": "Physical Chemistry",
+    "difficulty": "Hard",
+    "question": "15 mL of 0.4 M H2SO4 is required to exactly neutralize 30 mL of NaOH solution (H2SO4 + 2NaOH -> Na2SO4 + 2H2O). What is the molarity of the NaOH solution?",
+    "options": {
+      "A": "0.2 M",
+      "B": "0.4 M",
+      "C": "0.8 M",
+      "D": "0.1 M"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 123,
+    "subject": "Chemistry",
+    "topic": "Environmental Chemistry",
+    "difficulty": "Easy",
+    "question": "Which of the following is considered a renewable energy source?",
+    "options": {
+      "A": "Coal",
+      "B": "Natural gas",
+      "C": "Petroleum",
+      "D": "Solar energy"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 124,
+    "subject": "Chemistry",
+    "topic": "Environmental Chemistry",
+    "difficulty": "Medium",
+    "question": "Eutrophication of a water body is primarily triggered by:",
+    "options": {
+      "A": "Excess dissolved oxygen",
+      "B": "Excessive nutrient input (such as nitrates and phosphates), causing algal blooms and subsequent oxygen depletion",
+      "C": "A decrease in water temperature",
+      "D": "High salinity alone"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 125,
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding",
+    "difficulty": "Easy",
+    "question": "A single covalent bond between two atoms involves the sharing of:",
+    "options": {
+      "A": "Two pairs of electrons",
+      "B": "Three pairs of electrons",
+      "C": "One pair of electrons",
+      "D": "No electrons"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 126,
+    "subject": "Chemistry",
+    "topic": "Atomic Structure",
+    "difficulty": "Easy",
+    "question": "The atomic mass of an element listed on the periodic table represents:",
+    "options": {
+      "A": "The mass of a single proton",
+      "B": "The number of neutrons only",
+      "C": "The weighted average mass of all naturally occurring isotopes of that element",
+      "D": "The total number of electrons"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 127,
+    "subject": "Physics",
+    "topic": "Kinematics",
+    "difficulty": "Easy",
+    "question": "A car travels 150 km in 3 hours at constant velocity. What is the car's average speed?",
+    "options": {
+      "A": "450 km/h",
+      "B": "45 km/h",
+      "C": "50 km/h",
+      "D": "3 km/h"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 128,
+    "subject": "Physics",
+    "topic": "Kinematics",
+    "difficulty": "Medium",
+    "question": "A cyclist accelerates uniformly from 4 m/s to 12 m/s over 4 seconds. What is the acceleration?",
+    "options": {
+      "A": "4 m/s^2",
+      "B": "8 m/s^2",
+      "C": "2 m/s^2",
+      "D": "3 m/s^2"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 129,
+    "subject": "Physics",
+    "topic": "Kinematics",
+    "difficulty": "Hard",
+    "question": "A stone is thrown vertically upward with an initial velocity of 30 m/s (g = 10 m/s^2). How long does it take to reach its maximum height?",
+    "options": {
+      "A": "1 s",
+      "B": "3 s",
+      "C": "6 s",
+      "D": "30 s"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 130,
+    "subject": "Physics",
+    "topic": "Dynamics",
+    "difficulty": "Easy",
+    "question": "The property of an object that resists changes to its state of motion is called:",
+    "options": {
+      "A": "Momentum",
+      "B": "Velocity",
+      "C": "Inertia",
+      "D": "Acceleration"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 131,
+    "subject": "Physics",
+    "topic": "Dynamics",
+    "difficulty": "Medium",
+    "question": "A 6 kg object accelerates at 2.5 m/s^2 due to an applied net force. What is the magnitude of this force?",
+    "options": {
+      "A": "2.4 N",
+      "B": "8.5 N",
+      "C": "3.5 N",
+      "D": "15 N"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 132,
+    "subject": "Physics",
+    "topic": "Dynamics",
+    "difficulty": "Medium",
+    "question": "Momentum is defined as the product of an object's:",
+    "options": {
+      "A": "Mass and velocity",
+      "B": "Mass and acceleration",
+      "C": "Force and time",
+      "D": "Velocity and time"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 133,
+    "subject": "Physics",
+    "topic": "Dynamics",
+    "difficulty": "Hard",
+    "question": "A 6 kg block is pushed horizontally with a 42 N force across a surface with a coefficient of kinetic friction of 0.3 (g = 10 m/s^2). What is the block's acceleration?",
+    "options": {
+      "A": "2 m/s^2",
+      "B": "4 m/s^2",
+      "C": "7 m/s^2",
+      "D": "1 m/s^2"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 134,
+    "subject": "Physics",
+    "topic": "Work, Energy & Power",
+    "difficulty": "Easy",
+    "question": "Power is defined as the rate at which:",
+    "options": {
+      "A": "Work is done, or energy is transferred, per unit time",
+      "B": "Force is applied",
+      "C": "Distance is covered",
+      "D": "Mass changes over time"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 135,
+    "subject": "Physics",
+    "topic": "Work, Energy & Power",
+    "difficulty": "Medium",
+    "question": "A 6 kg object is raised to a height of 3 m (g = 10 m/s^2). What is its gravitational potential energy at that height?",
+    "options": {
+      "A": "18 J",
+      "B": "180 J",
+      "C": "30 J",
+      "D": "60 J"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 136,
+    "subject": "Physics",
+    "topic": "Work, Energy & Power",
+    "difficulty": "Medium",
+    "question": "A 4 kg object moving at 3 m/s has a kinetic energy of:",
+    "options": {
+      "A": "18 J",
+      "B": "12 J",
+      "C": "24 J",
+      "D": "36 J"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 137,
+    "subject": "Physics",
+    "topic": "Work, Energy & Power",
+    "difficulty": "Hard",
+    "question": "An elevator motor lifts a 600 kg cabin to a height of 15 m in 20 seconds (g = 10 m/s^2). What is the power output of the motor?",
+    "options": {
+      "A": "450 W",
+      "B": "90000 W",
+      "C": "4500 W",
+      "D": "9000 W"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 138,
+    "subject": "Physics",
+    "topic": "Circular Motion & Gravitation",
+    "difficulty": "Easy",
+    "question": "The force that keeps a satellite in circular orbit around a planet is provided by:",
+    "options": {
+      "A": "Friction",
+      "B": "Air resistance",
+      "C": "Gravitational attraction between the satellite and the planet",
+      "D": "The satellite's own thrust continuously"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 139,
+    "subject": "Physics",
+    "topic": "Circular Motion & Gravitation",
+    "difficulty": "Medium",
+    "question": "If the mass of one of two objects is doubled while the distance between them stays the same, the gravitational force between them becomes:",
+    "options": {
+      "A": "Half as large",
+      "B": "Twice as large",
+      "C": "Four times as large",
+      "D": "Unchanged"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 140,
+    "subject": "Physics",
+    "topic": "Circular Motion & Gravitation",
+    "difficulty": "Hard",
+    "question": "According to Kepler's third law, the square of a planet's orbital period is proportional to:",
+    "options": {
+      "A": "The planet's mass",
+      "B": "The planet's radius only",
+      "C": "The cube of its average distance from the Sun",
+      "D": "The eccentricity of its orbit"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 141,
+    "subject": "Physics",
+    "topic": "Fluid Mechanics",
+    "difficulty": "Easy",
+    "question": "According to Pascal's principle, pressure applied to an enclosed, incompressible fluid is:",
+    "options": {
+      "A": "Absorbed entirely at the point of application",
+      "B": "Lost as heat",
+      "C": "Transmitted equally in all directions throughout the fluid",
+      "D": "Reduced as it moves through the fluid"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 142,
+    "subject": "Physics",
+    "topic": "Fluid Mechanics",
+    "difficulty": "Medium",
+    "question": "An object floats partially submerged in a fluid when:",
+    "options": {
+      "A": "Its density is greater than the fluid's density",
+      "B": "Its weight equals the buoyant force exerted by the displaced fluid",
+      "C": "It has zero weight",
+      "D": "The fluid has no density"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 143,
+    "subject": "Physics",
+    "topic": "Fluid Mechanics",
+    "difficulty": "Hard",
+    "question": "A hydraulic lift uses a small-area piston to generate a large force on a larger-area piston, according to:",
+    "options": {
+      "A": "Bernoulli's principle",
+      "B": "The continuity equation",
+      "C": "Archimedes' principle",
+      "D": "Pascal's principle, since pressure is transmitted equally throughout the fluid"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 144,
+    "subject": "Physics",
+    "topic": "Oscillations & Waves",
+    "difficulty": "Easy",
+    "question": "The distance between two consecutive crests (or troughs) of a wave is called its:",
+    "options": {
+      "A": "Amplitude",
+      "B": "Frequency",
+      "C": "Period",
+      "D": "Wavelength"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 145,
+    "subject": "Physics",
+    "topic": "Oscillations & Waves",
+    "difficulty": "Medium",
+    "question": "The speed of a wave is related to its frequency and wavelength by the equation:",
+    "options": {
+      "A": "v = f / lambda",
+      "B": "v = f + lambda",
+      "C": "v = lambda / f^2",
+      "D": "v = f x lambda"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 146,
+    "subject": "Physics",
+    "topic": "Oscillations & Waves",
+    "difficulty": "Medium",
+    "question": "A wave travels at 340 m/s and has a wavelength of 0.68 m. What is its frequency?",
+    "options": {
+      "A": "500 Hz",
+      "B": "231 Hz",
+      "C": "5 Hz",
+      "D": "50 Hz"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 147,
+    "subject": "Physics",
+    "topic": "Oscillations & Waves",
+    "difficulty": "Hard",
+    "question": "Resonance occurs when a system is driven at a frequency that matches its:",
+    "options": {
+      "A": "Amplitude",
+      "B": "Wavelength only",
+      "C": "Damping coefficient",
+      "D": "Natural (or fundamental) frequency, causing a large increase in amplitude"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 148,
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "difficulty": "Easy",
+    "question": "Specific heat capacity is defined as the amount of heat required to raise the temperature of:",
+    "options": {
+      "A": "Any amount of a substance by any temperature change",
+      "B": "A substance until it boils",
+      "C": "A unit mass of a substance by one degree (Celsius or Kelvin)",
+      "D": "A gas at constant volume only"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 149,
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "difficulty": "Medium",
+    "question": "According to the second law of thermodynamics, in any spontaneous process, the total entropy of an isolated system:",
+    "options": {
+      "A": "Always decreases",
+      "B": "Always remains exactly constant",
+      "C": "Is unrelated to spontaneity",
+      "D": "Always increases or remains constant"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 150,
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "difficulty": "Hard",
+    "question": "In an adiabatic process, a gas expands and does work on its surroundings without any heat exchange. The internal energy of the gas will:",
+    "options": {
+      "A": "Increase",
+      "B": "Decrease",
+      "C": "Remain exactly constant",
+      "D": "Become infinite"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 151,
+    "subject": "Physics",
+    "topic": "Electrostatics",
+    "difficulty": "Easy",
+    "question": "The SI unit of electric charge is the:",
+    "options": {
+      "A": "Coulomb",
+      "B": "Volt",
+      "C": "Ampere",
+      "D": "Ohm"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 152,
+    "subject": "Physics",
+    "topic": "Electrostatics",
+    "difficulty": "Medium",
+    "question": "Two point charges of the same sign, when brought near each other, will experience a force that is:",
+    "options": {
+      "A": "Repulsive",
+      "B": "Attractive",
+      "C": "Zero",
+      "D": "Dependent only on their mass"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 153,
+    "subject": "Physics",
+    "topic": "Current Electricity",
+    "difficulty": "Easy",
+    "question": "Ohm's law relates voltage, current, and resistance according to the equation:",
+    "options": {
+      "A": "V = I / R",
+      "B": "V = I + R",
+      "C": "V = I x R",
+      "D": "V = R / I"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 154,
+    "subject": "Physics",
+    "topic": "Current Electricity",
+    "difficulty": "Medium",
+    "question": "In the circuit shown, R1 (4 ohm) and R2 (4 ohm) are connected in parallel, and this parallel combination is connected in series with R3 (3 ohm). What is the total resistance of the circuit?",
+    "options": {
+      "A": "8 ohm",
+      "B": "2 ohm",
+      "C": "11 ohm",
+      "D": "5 ohm"
+    },
+    "answer": "D",
+    "image": "images/q5_circuit_diagram_r1r2r3.png"
+  },
+  {
+    "id": 155,
+    "subject": "Physics",
+    "topic": "Current Electricity",
+    "difficulty": "Hard",
+    "question": "Four resistors of 10 ohm each are connected in series. What is their total resistance?",
+    "options": {
+      "A": "2.5 ohm",
+      "B": "40 ohm",
+      "C": "10 ohm",
+      "D": "100 ohm"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 156,
+    "subject": "Physics",
+    "topic": "Current Electricity",
+    "difficulty": "Medium",
+    "question": "A device draws a current of 5 A when connected to a 100 V supply. What is its resistance?",
+    "options": {
+      "A": "500 ohm",
+      "B": "0.05 ohm",
+      "C": "20 ohm",
+      "D": "105 ohm"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 157,
+    "subject": "Physics",
+    "topic": "Electromagnetism",
+    "difficulty": "Medium",
+    "question": "A current-carrying wire placed within an external magnetic field experiences a force that is:",
+    "options": {
+      "A": "Parallel to the current direction always",
+      "B": "Independent of the current's direction",
+      "C": "Zero regardless of orientation",
+      "D": "Perpendicular to both the current direction and the magnetic field, as given by the right-hand rule"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 158,
+    "subject": "Physics",
+    "topic": "Electromagnetism",
+    "difficulty": "Hard",
+    "question": "According to Faraday's law of electromagnetic induction, an EMF is induced in a coil whenever:",
+    "options": {
+      "A": "The coil is stationary in a constant magnetic field",
+      "B": "No current flows through the coil",
+      "C": "The coil has zero resistance",
+      "D": "The magnetic flux through the coil changes over time"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 159,
+    "subject": "Physics",
+    "topic": "Modern Physics",
+    "difficulty": "Easy",
+    "question": "Isotopes of the same element have the same number of protons but a different number of:",
+    "options": {
+      "A": "Electrons",
+      "B": "Valence electrons",
+      "C": "Energy levels",
+      "D": "Neutrons"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 160,
+    "subject": "Physics",
+    "topic": "Modern Physics",
+    "difficulty": "Medium",
+    "question": "During alpha decay, a nucleus emits a particle consisting of:",
+    "options": {
+      "A": "A single electron",
+      "B": "A single proton only",
+      "C": "High-energy electromagnetic radiation only",
+      "D": "2 protons and 2 neutrons (a helium nucleus)"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 161,
+    "subject": "Physics",
+    "topic": "Modern Physics",
+    "difficulty": "Hard",
+    "question": "A radioactive isotope has a half-life of 5 days. Approximately what fraction of the original sample remains after 20 days?",
+    "options": {
+      "A": "1/16",
+      "B": "1/2",
+      "C": "1/4",
+      "D": "1/8"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 162,
+    "subject": "Physics",
+    "topic": "Optics",
+    "difficulty": "Medium",
+    "question": "The ray diagram shows an object placed exactly at the focal point (F) of a converging (convex) lens. Based on the diagram, the rays emerging from the lens are:",
+    "options": {
+      "A": "Converging to form a small real image close to the lens",
+      "B": "Diverging as though from a virtual image behind the lens",
+      "C": "Parallel to each other, so no real image forms on a screen at any finite distance",
+      "D": "Converging exactly at the lens itself"
+    },
+    "answer": "C",
+    "image": "images/q5_lens_diagram_object_at_f.png"
+  },
+  {
+    "id": 163,
+    "subject": "English",
+    "topic": "Synonyms",
+    "difficulty": "Easy",
+    "question": "Choose the word most nearly similar in meaning to 'CANDID':",
+    "options": {
+      "A": "Secretive",
+      "B": "Frank",
+      "C": "Deceptive",
+      "D": "Timid"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 164,
+    "subject": "English",
+    "topic": "Antonyms",
+    "difficulty": "Easy",
+    "question": "Choose the word most nearly opposite in meaning to 'RETAIN':",
+    "options": {
+      "A": "Discard",
+      "B": "Keep",
+      "C": "Preserve",
+      "D": "Maintain"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 165,
+    "subject": "English",
+    "topic": "Grammar",
+    "difficulty": "Easy",
+    "question": "Choose the grammatically correct sentence:",
+    "options": {
+      "A": "She doesn't like coffee.",
+      "B": "She don't like coffee.",
+      "C": "She doesn't likes coffee.",
+      "D": "She not like coffee."
+    },
+    "answer": "A"
+  },
+  {
+    "id": 166,
+    "subject": "English",
+    "topic": "Grammar",
+    "difficulty": "Medium",
+    "question": "Choose the correct sentence:",
+    "options": {
+      "A": "If I would have known, I would have come.",
+      "B": "If I had known, I would have come.",
+      "C": "If I know, I would have come.",
+      "D": "If I had known, I will come."
+    },
+    "answer": "B"
+  },
+  {
+    "id": 167,
+    "subject": "English",
+    "topic": "Sentence Correction",
+    "difficulty": "Medium",
+    "question": "Identify the sentence that follows correct subject-verb agreement:",
+    "options": {
+      "A": "The team of scientists are conducting the experiment.",
+      "B": "The teams of scientist is conducting the experiment.",
+      "C": "The team of scientists is conducting the experiment.",
+      "D": "The team of scientists were conducting the experiment, is it?"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 168,
+    "subject": "English",
+    "topic": "Vocabulary",
+    "difficulty": "Medium",
+    "question": "Choose the word that best completes the sentence: 'Her ______ remarks during the meeting offended several colleagues.'",
+    "options": {
+      "A": "Tactful",
+      "B": "Courteous",
+      "C": "Blunt",
+      "D": "Diplomatic"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 169,
+    "subject": "English",
+    "topic": "Idioms",
+    "difficulty": "Medium",
+    "question": "Choose the meaning closest to the idiom 'to hit the nail on the head':",
+    "options": {
+      "A": "To make a costly mistake",
+      "B": "To describe something exactly right",
+      "C": "To finish a task quickly",
+      "D": "To argue unnecessarily"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 170,
+    "subject": "English",
+    "topic": "Sentence Correction",
+    "difficulty": "Hard",
+    "question": "Choose the option that best corrects the sentence: 'Everyone must bring their own lunch to the picnic.'",
+    "options": {
+      "A": "Everyone must bring their own lunches to the picnic.",
+      "B": "Everyone must bring his own lunches to the picnic.",
+      "C": "Everyone must bring his or her own lunch to the picnic.",
+      "D": "Everybody must bring their own lunch to the picnics."
+    },
+    "answer": "C"
+  },
+  {
+    "id": 171,
+    "subject": "English",
+    "topic": "Prepositions",
+    "difficulty": "Hard",
+    "question": "Choose the correct preposition to complete the sentence: 'The scientist is known ______ her groundbreaking research.'",
+    "options": {
+      "A": "for",
+      "B": "on",
+      "C": "at",
+      "D": "with"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 172,
+    "subject": "Logical Reasoning",
+    "topic": "Number Series",
+    "difficulty": "Easy",
+    "question": "Find the next number in the series: 7, 14, 28, 56, ?",
+    "options": {
+      "A": "84",
+      "B": "112",
+      "C": "98",
+      "D": "70"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 173,
+    "subject": "Logical Reasoning",
+    "topic": "Number Series",
+    "difficulty": "Easy",
+    "question": "Find the missing number: 3, 8, 13, 18, ?",
+    "options": {
+      "A": "20",
+      "B": "22",
+      "C": "23",
+      "D": "25"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 174,
+    "subject": "Logical Reasoning",
+    "topic": "Analogies",
+    "difficulty": "Easy",
+    "question": "Pen is to Write as Knife is to:",
+    "options": {
+      "A": "Cut",
+      "B": "Sharp",
+      "C": "Kitchen",
+      "D": "Blade"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 175,
+    "subject": "Logical Reasoning",
+    "topic": "Analogies",
+    "difficulty": "Medium",
+    "question": "Fish is to Water as Bird is to:",
+    "options": {
+      "A": "Feather",
+      "B": "Nest",
+      "C": "Sky",
+      "D": "Beak"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 176,
+    "subject": "Logical Reasoning",
+    "topic": "Blood Relations",
+    "difficulty": "Medium",
+    "question": "Sara said, 'His mother is the only daughter of my grandmother.' How is the man related to Sara?",
+    "options": {
+      "A": "Cousin",
+      "B": "Brother",
+      "C": "Father",
+      "D": "Uncle"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 177,
+    "subject": "Logical Reasoning",
+    "topic": "Coding-Decoding",
+    "difficulty": "Medium",
+    "question": "If in a certain code, CHAIR is written as DIBJS, how is TABLE written in the same code?",
+    "options": {
+      "A": "UACMF",
+      "B": "UBDMG",
+      "C": "VBCMF",
+      "D": "UBCMF"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 178,
+    "subject": "Logical Reasoning",
+    "topic": "Syllogism",
+    "difficulty": "Hard",
+    "question": "All mammals are warm-blooded. All cats are mammals. Which conclusion logically follows?",
+    "options": {
+      "A": "All cats are warm-blooded",
+      "B": "All warm-blooded animals are cats",
+      "C": "No cats are warm-blooded",
+      "D": "Some mammals are not warm-blooded"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 179,
+    "subject": "Logical Reasoning",
+    "topic": "Pattern Recognition",
+    "difficulty": "Hard",
+    "question": "Find the next term in the series: 3, 6, 11, 18, 27, ?",
+    "options": {
+      "A": "36",
+      "B": "38",
+      "C": "40",
+      "D": "34"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 180,
+    "subject": "Logical Reasoning",
+    "topic": "Direction Sense",
+    "difficulty": "Medium",
+    "question": "A man walks 8 km east, then turns south and walks 15 km. How far is he from his starting point?",
+    "options": {
+      "A": "17 km",
+      "B": "23 km",
+      "C": "7 km",
+      "D": "21 km"
+    },
+    "answer": "A"
+  }
+]

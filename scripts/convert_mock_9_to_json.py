@@ -1,21 +1,19 @@
 import json
-import sys
 from pathlib import Path
 
-# Load the source .py as a module
 ROOT = Path(__file__).parent.parent
-sys.path.insert(0, str(ROOT / 'mdcat-content'))
-from mdcat_mock_1 import QUESTIONS
+
+data = json.loads((ROOT / "mdcat-content" / "mock9_data.json").read_text(encoding="utf-8"))
 
 
 def main():
     out = []
 
-    for q in QUESTIONS:
+    for q in data:
         out.append({
-            "id": f"mdcat-mock1-q{q['id']}",
-            "paper_year": None,          # not tied to a real past paper/year
-            "mock_test": "MDCAT Mock Test 1",
+            "id": f"mdcat-mock9-q{q['id']}",
+            "paper_year": None,
+            "mock_test": "MDCAT Mock Test 9",
             "question_number": q["id"],
             "subject": q["subject"],
             "question_text": q["question"],
@@ -29,15 +27,15 @@ def main():
             "difficulty": q["difficulty"].lower(),
             "explanation": None,
             "needs_review": False,
-            "source_file": "mdcat_mock_1.py",
+            "source_file": "mdcat_mock_9.py",
             "topic": q["topic"],
-            "subtopic": q["topic"],  # source file has no finer subtopic tagging
+            "subtopic": q["topic"],
             "tag_confidence": "high",
             "is_visual_required": "image" in q,
             "image": q.get("image"),
         })
 
-    out_path = ROOT / "mdcat-content" / "parsed-mcqs" / "MDCAT_MOCK_1.json"
+    out_path = ROOT / "mdcat-content" / "parsed-mcqs" / "MDCAT_MOCK_9.json"
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(out, indent=2, ensure_ascii=False), encoding='utf-8')
 

@@ -1,887 +1,646 @@
-# -*- coding: utf-8 -*-
-# MDCAT Full Mock Test #1 — ORIGINALLY AUTHORED content (not transcribed from any
-# real UHS/PMDC past paper). Built 2026-08-18 to give the practice-question pool
-# fresh, non-recycled items at the exact official MDCAT subject weightage, since
-# quiz.services.select_questions_for_full_mock() samples 34/27/27/9/3% straight
-# from whatever is_active+is_verified in the Question pool — until now that pool
-# was 100% past-paper questions (2012-2025), so repeat mock attempts kept
-# resurfacing the same historical items.
-#
-# Total MCQs: 200. Subject weightage matches quiz.services.FULL_MOCK_WEIGHTAGE:
-#   Biology 34% (68), Chemistry 27% (54), Physics 27% (54),
-#   English 9% (18), Logical Reasoning 3% (6).
-# Topic/subtopic allocation is spread across (almost) every topic in
-# mdcat-content/syllabus/pmdc_mdcat_syllabus.json, weighted roughly by how many
-# subtopics each topic has.
-#
-# NUMBERING: one continuous scheme 1-200, subject order matches the modern
-# (2022+) UHS paper layout: Biology, Chemistry, Physics, English, Logical Reasoning.
-#   Biology            Q.1   - Q.68
-#   Chemistry          Q.69  - Q.122
-#   Physics            Q.123 - Q.176
-#   English            Q.177 - Q.194
-#   Logical Reasoning  Q.195 - Q.200
-#
-# IMAGE QUESTIONS: capped at 2 (per instruction — "not more than 2 image
-# questions" in a mock). Both are flagged below in VISUAL_MCQS; they need a
-# real diagram sourced/drawn and attached via import_question_images before
-# they can go live (same pipeline used for past-paper diagram MCQs — see
-# [[mdcat-image-tooling]]). Until then the JSON exporter marks them
-# needs_review=True / is_visual_required=True so they import as unverified.
-VISUAL_MCQS = {
-    51: {
-        "subject": "BIOLOGY",
-        "notes": "Anterior cross-section of the human heart with four labelled "
-                 "internal structures P/Q/R/S; P is the valve between left atrium "
-                 "and left ventricle.",
-    },
-    146: {
-        "subject": "PHYSICS",
-        "notes": "Displacement-time graph of a particle in SHM, with point P marked "
-                 "where the curve crosses the time axis moving downward.",
-    },
-}
+"""
+MDCAT Mock Test 1
+==================
+Full-length mock test: 180 MCQs
+Weightage: Biology 81 | Chemistry 45 | Physics 36 | English 9 | Logical Reasoning 9
+Difficulty mix (approx): 30% Easy / 50% Medium / 20% Hard, distributed throughout.
+Answer letters (A-D) are balanced ~45 each so the paper cannot be gamed by guessing
+a single letter.
 
-SUBJECTS = [
-    ("BIOLOGY", 1, 68),
-    ("CHEMISTRY", 69, 122),
-    ("PHYSICS", 123, 176),
-    ("ENGLISH", 177, 194),
-    ("LOGICAL REASONING", 195, 200),
-]
+Includes 5 image/diagram-based questions (2 Biology, 1 Chemistry, 2 Physics).
+Each such question has an "image" key giving a relative path to a PNG diagram
+that must be viewed alongside the question (images/ subfolder, shipped alongside
+this file). Diagrams: labeled animal-cell structure, enzyme-activity vs
+temperature graph, acid-base titration curve, a mixed series-parallel resistor
+circuit, and a convex-lens ray diagram.
 
-QUESTIONS = {
-    # ---------------- BIOLOGY (1-68) ----------------
-    1: ("A virus that infects and replicates specifically within bacterial cells is called a:",
-        ["Retrovirus", "Bacteriophage", "Prophage", "Virion"]),
-    2: ("Which component forms the protein coat that encloses the nucleic acid of a virus?",
-        ["Capsid", "Envelope", "Nucleoid", "Pilus"]),
-    3: ("HIV primarily attacks which type of human cell?",
-        ["Red blood cells", "Helper T (CD4+) lymphocytes", "Platelets", "Hepatocytes"]),
-    4: ("HIV belongs to which group of viruses characterized by using the enzyme reverse transcriptase?",
-        ["Retroviruses", "Bacteriophages", "Adenoviruses", "Rhabdoviruses"]),
-    5: ("The complete aerobic oxidation of one molecule of glucose yields approximately how many ATP molecules (theoretical maximum)?",
-        ["2", "4", "36-38", "100"]),
-    6: ("Glycolysis, the first stage of cellular respiration, takes place in the:",
-        ["Mitochondrial matrix", "Cytoplasm", "Nucleus", "Inner mitochondrial membrane"]),
-    7: ("The electron transport chain in aerobic respiration is located in the:",
-        ["Cytoplasm", "Outer mitochondrial membrane", "Inner mitochondrial membrane", "Mitochondrial matrix"]),
-    8: ("Which of the following is classified as a macromolecule?",
-        ["Glucose", "Glycerol", "Starch", "Acetic acid"]),
-    9: ("The high specific heat capacity of water, which helps stabilize body temperature, is mainly due to:",
-        ["Its polarity alone", "Extensive hydrogen bonding between molecules", "Its high molecular weight", "Its low density as ice"]),
-    10: ("Which of the following is a disaccharide formed from glucose and fructose?",
-         ["Maltose", "Lactose", "Sucrose", "Cellulose"]),
-    11: ("The type of bond that links amino acids together in a protein chain is the:",
-         ["Glycosidic bond", "Peptide bond", "Hydrogen bond", "Ester bond"]),
-    12: ("A triglyceride molecule is formed by the combination of glycerol with:",
-         ["Three fatty acids", "Three amino acids", "Three monosaccharides", "Three phosphate groups"]),
-    13: ("In the DNA double helix, adenine always pairs with:",
-         ["Cytosine", "Guanine", "Thymine", "Uracil"]),
-    14: ("Which feature distinguishes a prokaryotic cell from a eukaryotic cell?",
-         ["Presence of ribosomes", "Absence of a membrane-bound nucleus", "Presence of a plasma membrane", "Presence of cytoplasm"]),
-    15: ("Which organelles are primarily responsible for the synthesis and packaging of proteins for secretion?",
-         ["Golgi apparatus and rough endoplasmic reticulum", "Lysosome", "Peroxisome", "Mitochondrion"]),
-    16: ("Which organelle contains hydrolytic enzymes and is responsible for intracellular digestion?",
-         ["Ribosome", "Lysosome", "Centriole", "Golgi apparatus"]),
-    17: ("The constricted region of a chromosome that holds sister chromatids together is called the:",
-         ["Telomere", "Centromere", "Satellite", "Nucleolus"]),
-    18: ("Which structure is present in a plant cell but absent in an animal cell?",
-         ["Mitochondria", "Cell wall", "Ribosomes", "Nucleus"]),
-    19: ("The gap between two adjacent neurons across which a nerve impulse is transmitted chemically is called the:",
-         ["Synapse", "Node of Ranvier", "Axon hillock", "Dendrite"]),
-    20: ("A reflex action is best described as:",
-         ["A voluntary, learned response", "An involuntary, rapid response to a stimulus", "A response controlled entirely by the cerebrum", "A hormonal response"]),
-    21: ("Rods and cones, the photoreceptors of the human eye, are located in the:",
-         ["Cornea", "Retina", "Iris", "Lens"]),
-    22: ("Which part of the human brain is primarily responsible for maintaining balance and coordinating voluntary muscle movement?",
-         ["Cerebrum", "Cerebellum", "Medulla oblongata", "Hypothalamus"]),
-    23: ("The part of the brain that regulates body temperature, hunger, and thirst is the:",
-         ["Thalamus", "Hypothalamus", "Pons", "Cerebellum"]),
-    24: ("Enzymes increase the rate of biochemical reactions primarily by:",
-         ["Increasing the temperature of the reaction", "Lowering the activation energy", "Shifting the equilibrium", "Being consumed in the reaction"]),
-    25: ("According to the induced fit model of enzyme action, the active site:",
-         ["Is a rigid, pre-shaped structure", "Changes shape slightly to fit the substrate", "Never interacts with the substrate", "Is identical to the substrate shape at all times"]),
-    26: ("Beyond the optimum temperature, enzyme activity decreases sharply mainly because the enzyme:",
-         ["Becomes more soluble", "Undergoes denaturation", "Increases its affinity for substrate", "Changes its optimum pH"]),
-    27: ("A competitive inhibitor of an enzyme:",
-         ["Binds to the active site and resembles the substrate", "Binds only to the enzyme-substrate complex", "Permanently destroys the enzyme", "Binds at a site distinct from the active site"]),
-    28: ("Darwin's theory of evolution is primarily based on the principle of:",
-         ["Use and disuse of organs", "Natural selection", "Inheritance of acquired characteristics", "Mutation pressure alone"]),
-    29: ("Lamarck's theory of evolution proposed that evolutionary change occurs through:",
-         ["Natural selection", "Inheritance of acquired characteristics", "Random genetic drift", "Gene mutation"]),
-    30: ("The process by which two or more unrelated species independently evolve similar traits due to similar environmental pressures is called:",
-         ["Divergent evolution", "Convergent evolution", "Co-evolution", "Adaptive radiation"]),
-    31: ("Spermatogenesis takes place within the:",
-         ["Epididymis", "Seminiferous tubules of the testis", "Vas deferens", "Prostate gland"]),
-    32: ("Ovulation in the human menstrual cycle typically occurs around which day of a 28-day cycle?",
-         ["Day 5", "Day 14", "Day 21", "Day 28"]),
-    33: ("The surge of which hormone directly triggers ovulation?",
-         ["Follicle Stimulating Hormone (FSH)", "Luteinizing Hormone (LH)", "Progesterone", "Estrogen alone"]),
-    34: ("Which of the following is a bacterial sexually transmitted disease?",
-         ["AIDS", "Genital herpes", "Syphilis", "Genital warts"]),
-    35: ("Which type of connective tissue provides a smooth, cushioning surface at the ends of long bones in joints?",
-         ["Cartilage", "Tendon", "Ligament", "Bone marrow"]),
-    36: ("Cardiac muscle is described as:",
-         ["Voluntary and unstriated", "Involuntary and striated", "Voluntary and striated", "Involuntary and unstriated"]),
-    37: ("The repeating functional unit of a skeletal muscle fibre, bounded by two Z-lines, is called the:",
-         ["Sarcomere", "Sarcolemma", "Myofibril", "Sarcoplasm"]),
-    38: ("According to the sliding filament theory, muscle contraction occurs when:",
-         ["Actin and myosin filaments shorten individually", "Actin filaments slide over myosin filaments, shortening the sarcomere", "Myosin filaments are destroyed", "Z-lines move apart"]),
-    39: ("The shoulder and hip joints, which allow movement in almost all directions, are examples of:",
-         ["Hinge joints", "Ball-and-socket joints", "Pivot joints", "Gliding joints"]),
-    40: ("Rheumatoid arthritis is best classified as a/an:",
-         ["Bacterial infection of the joint", "Autoimmune disease affecting joint linings", "Age-related wear of cartilage only", "Genetic mineral deficiency"]),
-    41: ("Mendel's Law of Segregation states that:",
-         ["Two alleles for a trait separate during gamete formation", "Genes for different traits always assort together", "Dominant alleles always mask recessive ones completely in F2", "Genes are located on chromosomes"]),
-    42: ("In a monohybrid cross between two heterozygous (Aa) individuals, what is the expected phenotypic ratio in the offspring?",
-         ["1:1", "1:2:1", "3:1", "9:3:3:1"]),
-    43: ("Genes located close together on the same chromosome tend to be inherited together; this phenomenon is called:",
-         ["Independent assortment", "Gene linkage", "Polygenic inheritance", "Codominance"]),
-    44: ("A colour-blind father and a homozygous normal mother have children. What proportion of their sons will be colour-blind?",
-         ["0%", "25%", "50%", "100%"]),
-    45: ("Haemophilia is inherited as a/an:",
-         ["Autosomal dominant trait", "Autosomal recessive trait", "X-linked recessive trait", "Y-linked trait"]),
-    46: ("Which chamber of the human heart pumps oxygenated blood into the aorta?",
-         ["Right atrium", "Right ventricle", "Left atrium", "Left ventricle"]),
-    47: ("The natural pacemaker of the human heart is the:",
-         ["Atrioventricular node", "Sinoatrial node", "Bundle of His", "Purkinje fibres"]),
-    48: ("Which blood vessels have thin, one-cell-thick walls that allow exchange of substances between blood and tissues?",
-         ["Arteries", "Veins", "Capillaries", "Arterioles"]),
-    49: ("Which of the following carries deoxygenated blood despite being an artery?",
-         ["Aorta", "Pulmonary artery", "Renal artery", "Coronary artery"]),
-    50: ("The lymphatic system helps maintain fluid balance mainly by:",
-         ["Producing red blood cells", "Returning excess interstitial fluid to the bloodstream", "Regulating heart rate", "Producing digestive enzymes"]),
-    51: ("The diagram below shows a simplified anterior cross-section of the human heart with four labelled internal "
-         "structures, P, Q, R and S. Structure P is a valve located between the left atrium and the left ventricle. "
-         "Which valve is P? [Diagram: human heart cross-section, structures P/Q/R/S]",
-         ["Tricuspid valve", "Bicuspid (mitral) valve", "Pulmonary semilunar valve", "Aortic semilunar valve"]),
-    52: ("Antibodies are produced by which type of cell?",
-         ["T-lymphocytes", "B-lymphocytes (plasma cells)", "Macrophages", "Neutrophils"]),
-    53: ("Immunity acquired by injecting a weakened form of a pathogen is called:",
-         ["Natural passive immunity", "Artificial active immunity", "Natural active immunity", "Artificial passive immunity"]),
-    54: ("Gas exchange in the human lungs occurs across the walls of the:",
-         ["Bronchi", "Trachea", "Alveoli", "Bronchioles"]),
-    55: ("Oxygen moves from the alveoli into the blood mainly by the process of:",
-         ["Active transport", "Diffusion down a concentration gradient", "Osmosis", "Facilitated transport requiring ATP"]),
-    56: ("Most carbon dioxide is transported in the blood in the form of:",
-         ["Dissolved CO2 gas", "Carbaminohemoglobin", "Bicarbonate ions (HCO3-)", "Carbonic acid crystals"]),
-    57: ("Chronic smoking damages the cilia lining the respiratory tract, which primarily impairs:",
-         ["Gas exchange directly at the alveoli", "The clearing of mucus and trapped particles from the airway", "Blood clotting", "Heart valve function"]),
-    58: ("Bile, which emulsifies fats, is produced by the:",
-         ["Pancreas", "Liver", "Gallbladder", "Stomach"]),
-    59: ("Protein digestion begins in the:",
-         ["Mouth", "Stomach", "Duodenum", "Large intestine"]),
-    60: ("Villi in the small intestine primarily function to:",
-         ["Produce hydrochloric acid", "Increase surface area for absorption of nutrients", "Store undigested food", "Secrete bile"]),
-    61: ("The functional and structural unit of the kidney is the:",
-         ["Nephron", "Glomerulus", "Ureter", "Bowman's capsule"]),
-    62: ("Glomerular filtration is driven mainly by:",
-         ["Active transport of ions", "Hydrostatic (blood) pressure", "Osmotic pressure of plasma proteins", "Diffusion of glucose"]),
-    63: ("Under normal conditions, glucose in the filtrate is almost completely reabsorbed in the:",
-         ["Loop of Henle", "Distal convoluted tubule", "Proximal convoluted tubule", "Collecting duct"]),
-    64: ("Kidney stones are most commonly formed from the crystallization of:",
-         ["Uric acid only", "Calcium oxalate", "Sodium chloride", "Glucose"]),
-    65: ("When body temperature rises above normal, sweating helps cool the body mainly through:",
-         ["Conduction", "Evaporation of sweat, which absorbs heat", "Radiation from the skin surface only", "Convection currents in blood"]),
-    66: ("The main nitrogenous waste product excreted by humans is:",
-         ["Ammonia", "Urea", "Uric acid", "Creatine"]),
-    67: ("Recombinant human insulin used to treat diabetes is commercially produced using genetically engineered:",
-         ["Yeast cells only", "Escherichia coli bacteria", "Human liver cells", "Plant cells only"]),
-    68: ("The enzyme used to cut DNA at specific sequences during genetic engineering is called a:",
-         ["DNA ligase", "DNA polymerase", "Restriction endonuclease", "Reverse transcriptase"]),
+Each question is a dict:
+    id, subject, topic, difficulty, question, [image], options (A-D), answer (correct letter)
 
-    # ---------------- CHEMISTRY (69-122) ----------------
-    69: ("How many moles are present in 88 g of CO2? (Molar mass of CO2 = 44 g/mol)",
-         ["0.5", "1", "2", "4"]),
-    70: ("In a reaction, the reactant that is completely consumed first and determines the amount of product formed is called the:",
-         ["Excess reactant", "Limiting reactant", "Catalyst", "Product"]),
-    71: ("If the theoretical yield of a reaction is 50 g and the actual yield obtained is 40 g, what is the percentage yield?",
-         ["60%", "70%", "80%", "90%"]),
-    72: ("Which quantum number describes the shape of an atomic orbital?",
-         ["Principal quantum number (n)", "Azimuthal quantum number (l)", "Magnetic quantum number (ml)", "Spin quantum number (ms)"]),
-    73: ("The electronic configuration of Na+ (atomic number 11) is the same as that of:",
-         ["Ne", "Mg", "F", "Ar"]),
-    74: ("The proton was discovered through experiments involving:",
-         ["Cathode rays", "Canal rays (anode rays)", "Alpha particle scattering", "Photoelectric effect"]),
-    75: ("The shape of an s-orbital is:",
-         ["Dumbbell", "Spherical", "Cloverleaf", "Complex with four lobes"]),
-    76: ("According to Boyle's Law, at constant temperature, the pressure of a fixed mass of gas is:",
-         ["Directly proportional to volume", "Inversely proportional to volume", "Independent of volume", "Proportional to the square of volume"]),
-    77: ("In the ideal gas equation PV = nRT, which assumption is NOT part of the kinetic molecular theory for an ideal gas?",
-         ["Gas molecules have negligible volume", "Gas molecules have strong intermolecular forces", "Collisions between molecules are perfectly elastic", "Gas molecules are in continuous random motion"]),
-    78: ("Absolute zero, the temperature at which the volume of an ideal gas theoretically becomes zero, corresponds to:",
-         ["0 degrees C", "-100 degrees C", "-273 degrees C", "-373 degrees C"]),
-    79: ("The unusually high boiling point of water compared to H2S is mainly due to:",
-         ["Water's higher molar mass", "Hydrogen bonding between water molecules", "Water's larger molecular size", "Covalent bonding within the water molecule"]),
-    80: ("Water shows anomalous behaviour by expanding when it freezes; a direct consequence of this is that:",
-         ["Ice is denser than liquid water", "Ice floats on liquid water", "Ice sinks in liquid water", "Water has no surface tension"]),
-    81: ("A crystal lattice is best described as:",
-         ["A random arrangement of particles", "A regular, repeating three-dimensional arrangement of particles", "A gaseous arrangement of molecules", "An arrangement found only in metals"]),
-    82: ("Ionic crystals generally have much higher melting points than molecular crystals because:",
-         ["Ionic crystals are held together by strong electrostatic forces between ions", "Molecular crystals contain no electrons", "Ionic crystals are always coloured", "Molecular crystals are always liquids"]),
-    83: ("According to Le Chatelier's Principle, if the pressure on a gaseous equilibrium system is increased, the equilibrium will shift towards the side with:",
-         ["More moles of gas", "Fewer moles of gas", "No change, since pressure has no effect", "Equal moles of gas"]),
-    84: ("A buffer solution resists changes in pH because it contains:",
-         ["A strong acid and a strong base", "A weak acid (or base) and its conjugate salt", "Only pure water", "A strong electrolyte only"]),
-    85: ("The Haber process is industrially used to manufacture:",
-         ["Sulfuric acid", "Ammonia", "Nitric acid", "Sodium carbonate"]),
-    86: ("A catalyst increases the rate of a reaction by:",
-         ["Increasing the temperature of reactants", "Lowering the activation energy of the reaction", "Increasing the concentration of reactants", "Shifting the position of equilibrium"]),
-    87: ("For a reaction that is first order overall, doubling the concentration of the single reactant will:",
-         ["Leave the rate unchanged", "Double the rate", "Quadruple the rate", "Halve the rate"]),
-    88: ("Increasing the temperature of a reaction generally increases the rate mainly because it:",
-         ["Decreases activation energy", "Increases the fraction of molecules with energy greater than or equal to activation energy", "Decreases the concentration of reactants", "Increases the volume of the container"]),
-    89: ("In an exothermic reaction, the enthalpy change (delta-H) is:",
-         ["Positive", "Negative", "Zero", "Undefined"]),
-    90: ("Hess's Law states that the total enthalpy change for a reaction is:",
-         ["Dependent on the reaction pathway", "Independent of the reaction pathway, depending only on initial and final states", "Always zero", "Only valid for exothermic reactions"]),
-    91: ("The First Law of Thermodynamics is a statement of the conservation of:",
-         ["Mass", "Energy", "Momentum", "Entropy"]),
-    92: ("In a redox reaction, the species that loses electrons is said to be:",
-         ["Reduced", "Oxidized", "Neutralized", "Hydrolyzed"]),
-    93: ("The Standard Hydrogen Electrode (SHE) is assigned a standard reduction potential of:",
-         ["+1.00 V", "-1.00 V", "0.00 V", "+0.76 V"]),
-    94: ("The carbon atom in methane (CH4) is:",
-         ["sp hybridized", "sp2 hybridized", "sp3 hybridized", "Not hybridized"]),
-    95: ("According to VSEPR theory, a molecule with four bonding pairs and no lone pairs around the central atom adopts a:",
-         ["Linear shape", "Trigonal planar shape", "Tetrahedral shape", "Bent shape"]),
-    96: ("A triple bond between two carbon atoms, as in an alkyne, consists of:",
-         ["Three sigma bonds", "One sigma and two pi bonds", "Two sigma and one pi bond", "Three pi bonds"]),
-    97: ("A molecule of carbon dioxide (CO2) has a net dipole moment of zero because:",
-         ["It contains no polar bonds", "Its linear symmetric shape causes the individual bond dipoles to cancel", "Carbon and oxygen have identical electronegativities", "It has no lone pairs on oxygen"]),
-    98: ("Moving across a period from left to right, atomic radius generally:",
-         ["Increases", "Decreases", "Remains constant", "Increases then sharply decreases"]),
-    99: ("Alkali metals (Group I) react vigorously with water to produce:",
-         ["A metal oxide and hydrogen gas", "A metal hydroxide and hydrogen gas", "A metal hydride and oxygen gas", "A metal carbonate and water"]),
-    100: ("Elements in which the last electron enters an f-subshell are classified as:",
-          ["s-block elements", "p-block elements", "d-block (transition) elements", "f-block (inner transition) elements"]),
-    101: ("Transition elements are characterized by atoms that have a partially filled:",
-          ["s-subshell", "p-subshell", "d-subshell", "f-subshell"]),
-    102: ("Transition metals commonly form coloured compounds mainly due to:",
-          ["d-d electronic transitions", "s-orbital transitions", "Absence of unpaired electrons", "Their low melting points"]),
-    103: ("The functional group -COOH characterizes which class of organic compounds?",
-          ["Alcohols", "Aldehydes", "Carboxylic acids", "Ketones"]),
-    104: ("Compounds having the same molecular formula but different structural arrangements are called:",
-          ["Allotropes", "Isomers", "Isotopes", "Isobars"]),
-    105: ("The IUPAC name of CH3-CH2-CH2-CH3 is:",
-          ["Propane", "Butane", "Pentane", "Isobutane"]),
-    106: ("Benzene is unusually stable compared to a hypothetical cyclohexatriene mainly because of:",
-          ["Its high molecular weight", "Delocalization of pi electrons around the ring (resonance)", "Presence of only single bonds", "Its planar shape alone"]),
-    107: ("Benzene typically undergoes electrophilic substitution reactions rather than addition reactions because substitution:",
-          ["Destroys aromatic stability", "Preserves the stable aromatic ring system", "Requires no catalyst", "Only occurs with alkenes"]),
-    108: ("Terminal alkynes (e.g., HC-triple-bond-CH) show acidic character because the hydrogen attached to the sp-hybridized carbon is:",
-          ["Non-polar and unreactive", "Relatively acidic due to the high s-character of the sp orbital", "Basic in nature", "Attached to an sp3 carbon"]),
-    109: ("The reaction of a primary alkyl halide with a strong nucleophile in a polar aprotic solvent typically proceeds via which mechanism?",
-          ["SN1", "SN2", "E1", "E2"]),
-    110: ("In an elimination reaction of an alkyl halide, the products formed are typically:",
-          ["An alcohol and a halide ion", "An alkene and a hydrogen halide", "An alkane and water", "A carboxylic acid"]),
-    111: ("Phenol is more acidic than a typical alcohol (e.g., ethanol) mainly because:",
-          ["The phenoxide ion is stabilized by resonance with the aromatic ring", "Phenol has a higher molecular weight", "Alcohols contain no -OH group", "Phenol lacks hydrogen bonding"]),
-    112: ("An alcohol in which the -OH bearing carbon is attached to three other carbon atoms is classified as:",
-          ["Primary", "Secondary", "Tertiary", "Quaternary"]),
-    113: ("The reaction of an alcohol with a carboxylic acid in the presence of an acid catalyst, forming an ester and water, is called:",
-          ["Saponification", "Esterification", "Hydrolysis", "Oxidation"]),
-    114: ("Which functional group is common to both aldehydes and ketones?",
-          ["-OH", "-COOH", "Carbonyl group (C=O)", "-NH2"]),
-    115: ("Reduction of an aldehyde with a suitable reducing agent (e.g., NaBH4) typically produces a:",
-          ["Primary alcohol", "Secondary alcohol", "Carboxylic acid", "Ketone"]),
-    116: ("Aldehydes and ketones readily undergo nucleophilic addition reactions mainly because the carbonyl carbon is:",
-          ["Electron-rich", "Electrophilic (partially positive)", "Non-polar", "sp3 hybridized"]),
-    117: ("Carboxylic acids are more acidic than alcohols mainly because the carboxylate anion formed after deprotonation is:",
-          ["Stabilized by resonance delocalization of the negative charge", "Destabilized by resonance", "Not stable at all", "Positively charged"]),
-    118: ("Reaction of a carboxylic acid with PCl5 or SOCl2 converts it into a/an:",
-          ["Ester", "Acid (acyl) chloride", "Amide", "Anhydride"]),
-    119: ("The specific three-dimensional folded shape of a protein, stabilized by interactions such as hydrogen bonds and disulfide bridges, is its:",
-          ["Primary structure", "Secondary structure", "Tertiary structure", "Quaternary structure only"]),
-    120: ("Enzymes are classified as biocatalysts because they are:",
-          ["Inorganic catalysts", "Proteins that speed up biochemical reactions without being consumed", "Consumed completely during the reaction", "Only active outside living cells"]),
-    121: ("Polyethylene, formed by the polymerization of ethene monomers, is an example of a/an:",
-          ["Condensation polymer", "Addition polymer", "Natural polymer", "Copolymer only"]),
-    122: ("Azo dyes, widely used in the textile industry, are characterized by the presence of which functional group?",
-          ["-N=N- (azo) linkage", "-COOH group", "-OH group", "-CHO group"]),
-
-    # ---------------- PHYSICS (123-176) ----------------
-    123: ("The scalar (dot) product of two vectors A and B is given by A.B = AB cos(theta). If A and B are perpendicular to each other, A.B equals:",
-          ["AB", "0", "-AB", "1"]),
-    124: ("The vector (cross) product of two parallel vectors is:",
-          ["Maximum", "Zero", "Equal to their dot product", "Undefined"]),
-    125: ("Two forces of magnitude 3 N and 4 N act perpendicular to each other on a body. The magnitude of their resultant is:",
-          ["1 N", "5 N", "7 N", "12 N"]),
-    126: ("Newton's Second Law of Motion states that the net force acting on a body is:",
-          ["Inversely proportional to its acceleration", "Directly proportional to the rate of change of its momentum", "Always equal to zero", "Independent of its mass"]),
-    127: ("Newton's Third Law of Motion states that for every action there is:",
-          ["An equal and opposite reaction on the same body", "An equal and opposite reaction on a different body", "A larger reaction on the same body", "No reaction at all"]),
-    128: ("For a projectile launched with the same initial speed, the horizontal range at a launch angle of 30 degrees is the same as the range at a launch angle of:",
-          ["45 degrees", "60 degrees", "75 degrees", "15 degrees"]),
-    129: ("In an isolated system with no external forces, the total linear momentum of the system:",
-          ["Continuously increases", "Continuously decreases", "Remains conserved (constant)", "Becomes zero"]),
-    130: ("In a perfectly elastic collision between two bodies:",
-          ["Only momentum is conserved", "Only kinetic energy is conserved", "Both momentum and kinetic energy are conserved", "Neither momentum nor kinetic energy is conserved"]),
-    131: ("A body moving with uniform acceleration has a velocity-time graph that is a:",
-          ["Straight horizontal line", "Straight line with non-zero slope", "Parabola", "Circle"]),
-    132: ("According to the work-energy theorem, the net work done on a body equals:",
-          ["Its change in momentum", "Its change in kinetic energy", "Its change in potential energy only", "Zero, always"]),
-    133: ("Power is defined as the rate of doing:",
-          ["Force", "Work", "Momentum", "Displacement"]),
-    134: ("The gravitational potential energy of a body of mass 2 kg raised to a height of 5 m above the ground is (g = 10 m/s^2):",
-          ["10 J", "50 J", "100 J", "200 J"]),
-    135: ("The efficiency of a machine is defined as the ratio of:",
-          ["Input energy to output energy", "Output (useful) energy to input energy, expressed as a percentage", "Force to displacement", "Work done to time taken"]),
-    136: ("The relationship between linear velocity v and angular velocity omega for a particle moving in a circle of radius r is:",
-          ["v = omega / r", "v = omega * r", "v = omega + r", "v = omega^2 * r"]),
-    137: ("One complete revolution corresponds to an angular displacement of:",
-          ["pi radians", "2 pi radians", "pi/2 radians", "4 pi radians"]),
-    138: ("Bernoulli's equation is essentially a statement of the conservation of:",
-          ["Mass", "Energy for a flowing incompressible fluid", "Momentum", "Charge"]),
-    139: ("According to the equation of continuity, when a fluid flows through a pipe of varying cross-section, the product of area and velocity (Av) at any section is:",
-          ["Always increasing", "Always decreasing", "Constant", "Zero"]),
-    140: ("A small sphere falling through a viscous fluid reaches terminal velocity when:",
-          ["Its acceleration is maximum", "The net force acting on it becomes zero", "It stops moving completely", "Its weight becomes zero"]),
-    141: ("In a longitudinal wave, the particles of the medium vibrate:",
-          ["Perpendicular to the direction of wave propagation", "Parallel to the direction of wave propagation", "In a circular path", "Not at all"]),
-    142: ("A stationary (standing) wave is produced by the superposition of:",
-          ["Two waves of different frequencies", "Two identical waves travelling in opposite directions", "A single travelling wave", "Two perpendicular waves of different amplitude"]),
-    143: ("In a pipe closed at one end, the fundamental frequency of vibration corresponds to a wavelength that is how many times the length (L) of the pipe?",
-          ["L/2", "L", "2L", "4L"]),
-    144: ("In simple harmonic motion, the acceleration of the particle is always:",
-          ["Constant", "Directed away from the mean position and proportional to displacement", "Directed towards the mean position and proportional to displacement", "Zero at all times"]),
-    145: ("The speed of sound in air increases with an increase in:",
-          ["Air pressure at constant temperature", "Air temperature", "Wavelength only", "Amplitude of the sound wave"]),
-    146: ("The graph below shows the displacement-time curve of a particle executing simple harmonic motion. At the instant "
-          "marked P, where the curve crosses the time axis moving downward, the particle's velocity is: "
-          "[Diagram: displacement-time SHM graph with point P marked]",
-          ["Zero and acceleration is maximum", "Maximum (in magnitude) and directed in the negative direction", "Maximum and directed in the positive direction", "Zero and acceleration is zero"]),
-    147: ("The First Law of Thermodynamics can be written as delta-U = Q - W, where W is the work done:",
-          ["On the system by the surroundings", "By the system on the surroundings", "By gravity on the system", "Only during isothermal processes"]),
-    148: ("The heat required to raise the temperature of a unit mass of a substance by one degree is called its:",
-          ["Latent heat", "Specific heat capacity", "Thermal conductivity", "Heat capacity of the container"]),
-    149: ("Two bodies are said to be in thermal equilibrium when they have the same:",
-          ["Mass", "Volume", "Temperature", "Pressure"]),
-    150: ("For an ideal gas, the molar specific heat at constant pressure (Cp) is always ______ the molar specific heat at constant volume (Cv).",
-          ["Equal to", "Greater than", "Less than", "Unrelated to"]),
-    151: ("According to Coulomb's Law, the electrostatic force between two point charges is:",
-          ["Directly proportional to the square of the distance between them", "Inversely proportional to the square of the distance between them", "Independent of distance", "Directly proportional to the distance between them"]),
-    152: ("Electric field lines around an isolated positive point charge point:",
-          ["Towards the charge", "Radially outward from the charge", "Tangentially around the charge", "In circles around the charge"]),
-    153: ("The electric field near an infinite charged sheet is:",
-          ["Directly proportional to the distance from the sheet", "Inversely proportional to the distance from the sheet", "Uniform, independent of distance from the sheet", "Zero everywhere"]),
-    154: ("When a capacitor is being charged through a resistor, the charge on the capacitor:",
-          ["Increases exponentially and approaches a maximum value", "Increases linearly forever", "Remains constant", "Decreases exponentially"]),
-    155: ("Ohm's Law states that the current through a conductor is directly proportional to the potential difference across it, provided:",
-          ["The resistance changes with current", "The temperature (and other physical conditions) remain constant", "The current is alternating", "The conductor is a semiconductor"]),
-    156: ("For a metallic conductor, resistivity generally:",
-          ["Decreases with increasing temperature", "Increases with increasing temperature", "Remains constant with temperature", "Is independent of temperature entirely"]),
-    157: ("The terminal voltage of a battery with internal resistance, when supplying current, is _______ its EMF.",
-          ["Equal to", "Always greater than", "Less than", "Always double"]),
-    158: ("Maximum power is transferred from a source to a load when the load resistance is:",
-          ["Zero", "Infinite", "Equal to the internal resistance of the source", "Twice the internal resistance of the source"]),
-    159: ("The SI unit of magnetic flux density (magnetic field strength B) is the:",
-          ["Weber", "Tesla", "Henry", "Farad"]),
-    160: ("A charged particle moving parallel to a uniform magnetic field experiences a magnetic force that is:",
-          ["Maximum", "Zero", "Equal to qvB", "Directed perpendicular to its velocity always"]),
-    161: ("Magnetic flux through a surface is defined as the product of magnetic field strength and:",
-          ["The perpendicular area through which the field lines pass", "The resistance of the surface", "The current flowing through it", "The distance from the source"]),
-    162: ("Faraday's Law of electromagnetic induction states that the induced EMF in a circuit is proportional to:",
-          ["The magnetic flux itself", "The rate of change of magnetic flux linkage", "The resistance of the circuit", "The area of the circuit only"]),
-    163: ("Lenz's Law states that the direction of an induced current is such that it:",
-          ["Aids the change that produced it", "Opposes the change in magnetic flux that produced it", "Has no definite direction", "Is always clockwise"]),
-    164: ("A step-up transformer increases voltage while:",
-          ["Increasing current proportionally as well", "Decreasing current in the same proportion (ideally)", "Keeping current unchanged", "Reversing the direction of current"]),
-    165: ("In a purely capacitive AC circuit, the current:",
-          ["Lags the voltage by 90 degrees", "Leads the voltage by 90 degrees", "Is in phase with the voltage", "Leads the voltage by 180 degrees"]),
-    166: ("In a purely inductive AC circuit, the current:",
-          ["Leads the voltage by 90 degrees", "Lags the voltage by 90 degrees", "Is in phase with the voltage", "Lags the voltage by 180 degrees"]),
-    167: ("Arranging electromagnetic waves in order of increasing wavelength, which of the following is correct?",
-          ["Gamma rays < X-rays < ultraviolet < visible light", "Visible light < ultraviolet < X-rays < gamma rays", "Radio waves < microwaves < infrared < visible light", "X-rays < gamma rays < ultraviolet < visible light"]),
-    168: ("A PN junction diode conducts significant current when it is:",
-          ["Reverse biased", "Forward biased with voltage exceeding the barrier potential", "Not connected to any source", "Cooled to absolute zero"]),
-    169: ("A full-wave rectifier circuit converts alternating current into:",
-          ["High-frequency AC", "Pulsating direct current", "Pure sinusoidal AC", "Zero current"]),
-    170: ("In reverse bias, the depletion region of a PN junction diode:",
-          ["Narrows and current increases sharply", "Widens and only a very small leakage current flows", "Disappears completely", "Has no effect on current flow"]),
-    171: ("According to Planck's quantum theory, the energy of a photon is directly proportional to its:",
-          ["Wavelength", "Frequency", "Amplitude", "Speed"]),
-    172: ("In the photoelectric effect, increasing the intensity of incident light (at constant frequency above threshold) increases:",
-          ["The maximum kinetic energy of emitted electrons", "The number of photoelectrons emitted per second", "The threshold frequency", "The work function of the metal"]),
-    173: ("The line spectrum of hydrogen consists of discrete bright lines because electrons:",
-          ["Move continuously between all energy levels", "Emit photons of specific energies when transitioning between discrete energy levels", "Are not present in the atom", "Absorb all wavelengths equally"]),
-    174: ("The Balmer series in the hydrogen spectrum corresponds to electron transitions ending at energy level:",
-          ["n = 1", "n = 2", "n = 3", "n = 4"]),
-    175: ("The half-life of a radioactive substance is the time taken for:",
-          ["All the radioactive nuclei to decay", "Half of the radioactive nuclei present to decay", "The substance to double in mass", "The substance to become stable permanently in one step"]),
-    176: ("Cobalt-60, a gamma-emitting radioisotope, is commonly used in medicine for:",
-          ["Blood grouping", "Radiotherapy to treat cancer", "Measuring blood pressure", "Bone setting"]),
-
-    # ---------------- ENGLISH (177-194) ----------------
-    177: ("Read the sentence: \"The detective's astute observations led him to solve the case within hours.\" The word 'astute' most nearly means:",
-          ["Careless", "Shrewd / perceptive", "Slow", "Random"]),
-    178: ("\"The stars danced in the night sky\" is an example of:",
-          ["Simile", "Metaphor", "Personification", "Alliteration"]),
-    179: ("\"Her smile was as bright as the sun\" is an example of:",
-          ["Metaphor", "Simile", "Hyperbole", "Personification"]),
-    180: ("Choose the word closest in meaning to 'ephemeral':",
-          ["Permanent", "Short-lived", "Massive", "Bright"]),
-    181: ("Passage-based comprehension questions primarily test a reader's ability to:",
-          ["Memorize the passage word for word", "Locate and interpret specific information within a text", "Ignore the main idea", "Translate the passage"]),
-    182: ("Identify the figure of speech in: \"The whole village came out to help\" (when only some villagers actually came):",
-          ["Metaphor", "Hyperbole", "Irony", "Synecdoche"]),
-    183: ("Choose the correct sentence:",
-          ["She has went to the market.", "She has gone to the market.", "She have gone to the market.", "She has goes to the market."]),
-    184: ("Choose the correct sentence:",
-          ["Each of the students must submit their assignment.", "Each of the students must submit his or her assignment.", "Each of the students must submit they assignment.", "Each of the students must submit our assignment."]),
-    185: ("Change into passive voice: \"The teacher explains the lesson.\"",
-          ["The lesson is explained by the teacher.", "The lesson was explained by the teacher.", "The lesson explains the teacher.", "The lesson has been explained by teacher."]),
-    186: ("Convert to indirect speech: He said, \"I am going to school.\"",
-          ["He said that I am going to school.", "He said that he was going to school.", "He said that he is going to school.", "He said that he will go to school."]),
-    187: ("Fill in the blank: \"She is good ___ mathematics.\"",
-          ["in", "at", "on", "for"]),
-    188: ("Identify the gerund in the sentence: \"Swimming is her favourite hobby.\"",
-          ["Her", "Favourite", "Swimming", "Hobby"]),
-    189: ("Choose the sentence with a correctly used infinitive:",
-          ["He wants going home.", "He wants to go home.", "He wants go home.", "He wants went home."]),
-    190: ("Choose the word closest in meaning to 'benevolent':",
-          ["Cruel", "Kind and generous", "Angry", "Selfish"]),
-    191: ("Choose the grammatically correct sentence:",
-          ["The group of students are going on a trip.", "The group of students is going on a trip.", "The group of students were going on a trip.", "The group of students go on a trip."]),
-    192: ("Identify the sentence that is grammatically correct:",
-          ["Being a rainy day, we stayed inside.", "Being a rainy day, the picnic was cancelled.", "Since it was a rainy day, we stayed inside.", "Rainy being the day, we stayed inside."]),
-    193: ("Identify the error in the sentence: \"Neither of the answers are correct.\"",
-          ["'Neither' should be 'Either'", "'are' should be 'is'", "'answers' should be 'answer'", "No error"]),
-    194: ("Choose the correctly spelled word:",
-          ["Recieve", "Receive", "Receeve", "Receve"]),
-
-    # ---------------- LOGICAL REASONING (195-200) ----------------
-    195: ("Statement: \"All doctors are educated. Ali is a doctor.\" Which conclusion logically follows?",
-          ["Ali is educated", "Ali is not educated", "All educated people are doctors", "No conclusion can be drawn"]),
-    196: ("Find the next term in the series: 2, 4, 8, 16, ___",
-          ["20", "24", "32", "30"]),
-    197: ("If all Roses are Flowers, and some Flowers fade quickly, which of the following must be true?",
-          ["All Roses fade quickly", "Some Roses fade quickly", "No valid conclusion can be drawn from the given statements", "All Flowers are Roses"]),
-    198: ("In a certain code, 'CAT' is written as 'DBU'. How would 'DOG' be written in the same code?",
-          ["EPH", "EPI", "DPH", "EOH"]),
-    199: ("Problem: A school's students are consistently arriving late due to a broken bus schedule. Which is the most appropriate course of action?",
-          ["Suspend all late students immediately", "Coordinate with the transport department to fix the bus schedule", "Ignore the issue as it will resolve itself", "Cancel the school bus service entirely"]),
-    200: ("Effect: \"The plants in the garden wilted within a week.\" Which is the most probable cause?",
-          ["The plants were watered regularly", "The plants received no water for an extended period", "The plants were given fertilizer", "The gardener trimmed the leaves"]),
-}
-
-# Answer key. Letters correspond to option position in QUESTIONS (a=1st, b=2nd, c=3rd, d=4th).
-KEY_RAW = """
-1 b
-2 a
-3 b
-4 a
-5 c
-6 b
-7 c
-8 c
-9 b
-10 c
-11 b
-12 a
-13 c
-14 b
-15 a
-16 b
-17 b
-18 b
-19 a
-20 b
-21 b
-22 b
-23 b
-24 b
-25 b
-26 b
-27 a
-28 b
-29 b
-30 b
-31 b
-32 b
-33 b
-34 c
-35 a
-36 b
-37 a
-38 b
-39 b
-40 b
-41 a
-42 c
-43 b
-44 a
-45 c
-46 d
-47 b
-48 c
-49 b
-50 b
-51 b
-52 b
-53 b
-54 c
-55 b
-56 c
-57 b
-58 b
-59 b
-60 b
-61 a
-62 b
-63 c
-64 b
-65 b
-66 b
-67 b
-68 c
-69 c
-70 b
-71 c
-72 b
-73 a
-74 b
-75 b
-76 b
-77 b
-78 c
-79 b
-80 b
-81 b
-82 a
-83 b
-84 b
-85 b
-86 b
-87 b
-88 b
-89 b
-90 b
-91 b
-92 b
-93 c
-94 c
-95 c
-96 b
-97 b
-98 b
-99 b
-100 d
-101 c
-102 a
-103 c
-104 b
-105 b
-106 b
-107 b
-108 b
-109 b
-110 b
-111 a
-112 c
-113 b
-114 c
-115 a
-116 b
-117 a
-118 b
-119 c
-120 b
-121 b
-122 a
-123 b
-124 b
-125 b
-126 b
-127 b
-128 b
-129 c
-130 c
-131 b
-132 b
-133 b
-134 c
-135 b
-136 b
-137 b
-138 b
-139 c
-140 b
-141 b
-142 b
-143 d
-144 c
-145 b
-146 b
-147 b
-148 b
-149 c
-150 b
-151 b
-152 b
-153 c
-154 a
-155 b
-156 b
-157 c
-158 c
-159 b
-160 b
-161 a
-162 b
-163 b
-164 b
-165 b
-166 b
-167 a
-168 b
-169 b
-170 b
-171 b
-172 b
-173 b
-174 b
-175 b
-176 b
-177 b
-178 c
-179 b
-180 b
-181 b
-182 b
-183 b
-184 b
-185 a
-186 b
-187 b
-188 c
-189 b
-190 b
-191 b
-192 c
-193 b
-194 b
-195 a
-196 c
-197 c
-198 a
-199 b
-200 b
+Run this file directly to print a summary / sanity-check the paper
+(counts per subject, counts per difficulty, duplicate check, answer-letter balance,
+and which questions carry an image).
 """
 
-# ---------------------------------------------------------------------------
-# TOPIC_TAGS: question number -> (topic, subtopic, difficulty)
-# Topic/subtopic strings are copied VERBATIM from
-# mdcat-content/syllabus/pmdc_mdcat_syllabus.json (including its doubled-
-# apostrophe artifacts, e.g. "Boyle''s Law") so that Topic/Subtopic rows this
-# import creates line up exactly with the ones already created by
-# scripts/tag_topics.py for the 2012-2025 past papers, instead of forking
-# near-duplicate rows in the DB.
-# ---------------------------------------------------------------------------
-TOPIC_TAGS = {
-    1: ("Acellular Life", "Viruses", "easy"),
-    2: ("Acellular Life", "Viruses", "easy"),
-    3: ("Acellular Life", "AIDS and HIV Infection", "medium"),
-    4: ("Acellular Life", "AIDS and HIV Infection", "medium"),
-    5: ("Bioenergetics", "Respiration", "medium"),
-    6: ("Bioenergetics", "Respiration", "easy"),
-    7: ("Bioenergetics", "Respiration", "medium"),
-    8: ("Biological Molecules", "Biological Molecules (Definition and Classification)", "easy"),
-    9: ("Biological Molecules", "Biological Importance of Water", "medium"),
-    10: ("Biological Molecules", "Carbohydrates", "easy"),
-    11: ("Biological Molecules", "Proteins", "easy"),
-    12: ("Biological Molecules", "Lipids", "easy"),
-    13: ("Biological Molecules", "Structure of DNA", "easy"),
-    14: ("Cell Structure and Function", "Prokaryotic and Eukaryotic Cell", "easy"),
-    15: ("Cell Structure and Function", "Cytoplasmic Organelles", "medium"),
-    16: ("Cell Structure and Function", "Cytoplasmic Organelles", "easy"),
-    17: ("Cell Structure and Function", "Chromosomes", "easy"),
-    18: ("Cell Structure and Function", "Cell Structure (Animal vs Plant)", "easy"),
-    19: ("Coordination and Control", "Neurons", "easy"),
-    20: ("Coordination and Control", "Nerve Impulse and Reflexes", "easy"),
-    21: ("Coordination and Control", "Receptors", "easy"),
-    22: ("Coordination and Control", "Brain", "medium"),
-    23: ("Coordination and Control", "Brain", "medium"),
-    24: ("Enzymes", "Characteristics of Enzymes", "medium"),
-    25: ("Enzymes", "Mode of Enzyme Action", "medium"),
-    26: ("Enzymes", "Factors Affecting Enzyme Action", "easy"),
-    27: ("Enzymes", "Enzyme Inhibitors", "medium"),
-    28: ("Evolution", "Darwinism", "easy"),
-    29: ("Evolution", "Lamarckism", "easy"),
-    30: ("Evolution", "Concept of Evolution", "medium"),
-    31: ("Reproduction", "Human Reproductive System", "easy"),
-    32: ("Reproduction", "Menstrual Cycle", "medium"),
-    33: ("Reproduction", "Menstrual Cycle", "medium"),
-    34: ("Reproduction", "Sexually Transmitted Diseases", "medium"),
-    35: ("Support and Movement", "Human Skeleton (Cartilage, Muscle, Bone)", "easy"),
-    36: ("Support and Movement", "Muscles (Smooth, Cardiac, Skeletal)", "medium"),
-    37: ("Support and Movement", "Skeletal Muscle Ultra-structure", "medium"),
-    38: ("Support and Movement", "Muscle Contraction", "medium"),
-    39: ("Support and Movement", "Joints", "easy"),
-    40: ("Support and Movement", "Arthritis", "medium"),
-    41: ("Inheritance", "Mendel's Laws of Inheritance", "easy"),
-    42: ("Inheritance", "Mendel's Laws of Inheritance", "easy"),
-    43: ("Inheritance", "Gene Linkage and Crossing Over", "medium"),
-    44: ("Inheritance", "X-linked Recessive Inheritance", "medium"),
-    45: ("Inheritance", "X-linked Recessive Inheritance", "easy"),
-    46: ("Circulation", "Human Heart", "easy"),
-    47: ("Circulation", "Cardiac Cycle and Phases of Heartbeat", "easy"),
-    48: ("Circulation", "Blood Vessels (Arteries, Veins, Capillaries)", "easy"),
-    49: ("Circulation", "Blood Vessels (Arteries, Veins, Capillaries)", "medium"),
-    50: ("Circulation", "Lymphatic System", "medium"),
-    51: ("Circulation", "Human Heart", "medium"),
-    52: ("Immunity", "Specific Defense Mechanism", "easy"),
-    53: ("Immunity", "Specific Defense Mechanism", "medium"),
-    54: ("Respiration", "Human Respiratory System", "easy"),
-    55: ("Respiration", "Gas Exchange in Lungs", "easy"),
-    56: ("Respiration", "Gas Exchange in Lungs", "medium"),
-    57: ("Respiration", "Effect of Smoking", "medium"),
-    58: ("Digestion", "Human Digestive System", "easy"),
-    59: ("Digestion", "Human Digestive System", "medium"),
-    60: ("Digestion", "Human Digestive System", "easy"),
-    61: ("Homeostasis", "Kidney Structure and Function", "easy"),
-    62: ("Homeostasis", "Glomerular Filtration and Reabsorption", "medium"),
-    63: ("Homeostasis", "Glomerular Filtration and Reabsorption", "medium"),
-    64: ("Homeostasis", "Kidney Stones and Failure", "medium"),
-    65: ("Homeostasis", "Thermoregulation", "easy"),
-    66: ("Homeostasis", "Excretion (Nitrogenous Compounds)", "easy"),
-    67: ("Biotechnology", "Biotechnology and Health Care", "medium"),
-    68: ("Biotechnology", "Biotechnology and Health Care", "medium"),
+QUESTIONS = [
+# ============================================================
+# BIOLOGY (81 questions) - id 1-81
+# ============================================================
 
-    69: ("Fundamental Concepts of Chemistry", "Moles and Avogadro''s Number", "easy"),
-    70: ("Fundamental Concepts of Chemistry", "Limiting and Excess Reactants", "easy"),
-    71: ("Fundamental Concepts of Chemistry", "Yield (Theoretical, Actual, Percentage)", "easy"),
-    72: ("Atomic Structure", "Quantum Numbers", "medium"),
-    73: ("Atomic Structure", "Electronic Configuration", "medium"),
-    74: ("Atomic Structure", "Discovery of Proton", "medium"),
-    75: ("Atomic Structure", "Shapes of Orbitals", "easy"),
-    76: ("Gases", "Boyle''s Law", "easy"),
-    77: ("Gases", "Ideal Gas Equation", "medium"),
-    78: ("Gases", "Absolute Zero", "easy"),
-    79: ("Liquids", "Hydrogen Bonding", "easy"),
-    80: ("Liquids", "Anomalous Behavior of Water", "medium"),
-    81: ("Solids", "Crystal Lattice", "easy"),
-    82: ("Solids", "Ionic vs Molecular Crystals", "easy"),
-    83: ("Chemical Equilibrium", "Le Chatelier''s Principle", "medium"),
-    84: ("Chemical Equilibrium", "Buffer Solutions", "medium"),
-    85: ("Chemical Equilibrium", "Haber''s Process", "easy"),
-    86: ("Reaction Kinetics", "Activation Energy and Activated Complex", "easy"),
-    87: ("Reaction Kinetics", "Order of Reaction", "medium"),
-    88: ("Reaction Kinetics", "Factors Affecting Rate of Reaction", "medium"),
-    89: ("Thermochemistry and Energetics", "Exothermic and Endothermic Reactions", "easy"),
-    90: ("Thermochemistry and Energetics", "Hess''s Law", "medium"),
-    91: ("Thermochemistry and Energetics", "First Law of Thermodynamics", "easy"),
-    92: ("Electrochemistry", "Oxidation and Reduction", "easy"),
-    93: ("Electrochemistry", "Standard Hydrogen Electrode (SHE)", "medium"),
-    94: ("Chemical Bonding", "Hybridization", "easy"),
-    95: ("Chemical Bonding", "VSEPR Theory", "easy"),
-    96: ("Chemical Bonding", "Sigma and Pi Bonds", "medium"),
-    97: ("Chemical Bonding", "Dipole Moment", "medium"),
-    98: ("s and p Block Elements", "Periodic Trends (Radii, IE, EA, Electronegativity)", "easy"),
-    99: ("s and p Block Elements", "Group I Reactions", "medium"),
-    100: ("s and p Block Elements", "s, p, d, f Block Demarcation", "medium"),
-    101: ("Transition Elements", "Electronic Structure of d-block", "easy"),
-    102: ("Transition Elements", "Electronic Structure of d-block", "medium"),
-    103: ("Fundamental Principles of Organic Chemistry", "Functional Groups", "easy"),
-    104: ("Fundamental Principles of Organic Chemistry", "Isomerism (Stereoisomerism)", "easy"),
-    105: ("Chemistry of Hydrocarbons", "Nomenclature of Alkanes", "easy"),
-    106: ("Chemistry of Hydrocarbons", "MOT of Benzene, Resonance, Resonance Energy", "medium"),
-    107: ("Chemistry of Hydrocarbons", "Reactivity of Benzene", "medium"),
-    108: ("Chemistry of Hydrocarbons", "Acidity of Alkynes", "hard"),
-    109: ("Alkyl Halides", "Nucleophilic Substitution Mechanisms", "medium"),
-    110: ("Alkyl Halides", "Elimination Mechanisms", "medium"),
-    111: ("Alcohols and Phenols", "Alcohol vs Phenol", "medium"),
-    112: ("Alcohols and Phenols", "Nomenclature, Structure, Reactivity of Alcohols", "easy"),
-    113: ("Alcohols and Phenols", "Chemistry of Alcohols (Ethers, Esters)", "easy"),
-    114: ("Aldehydes and Ketones", "Nomenclature and Structure", "easy"),
-    115: ("Aldehydes and Ketones", "Reduction to Alcohols", "medium"),
-    116: ("Aldehydes and Ketones", "Nucleophilic Addition Reactions", "medium"),
-    117: ("Carboxylic Acids", "Reactivity of Carboxylic Acids", "medium"),
-    118: ("Carboxylic Acids", "Conversion to Derivatives (Acyl Halides, Anhydrides, Esters)", "medium"),
-    119: ("Macromolecules", "Classification and Structure of Proteins", "medium"),
-    120: ("Macromolecules", "Enzymes as Biocatalysts", "easy"),
-    121: ("Industrial Chemistry", "Polymers (Condensation and Addition)", "medium"),
-    122: ("Industrial Chemistry", "Dyes", "medium"),
+{"id":1,"subject":"Biology","topic":"Biomolecules","difficulty":"Easy",
+ "question":"Which of the following is a monosaccharide?",
+ "options":{"A":"Starch","B":"Cellulose","C":"Sucrose","D":"Glucose"},"answer":"D"},
+{"id":2,"subject":"Biology","topic":"Biomolecules","difficulty":"Easy",
+ "question":"The bond formed between two amino acids during protein synthesis is called a:",
+ "options":{"A":"Ester bond","B":"Peptide bond","C":"Hydrogen bond","D":"Glycosidic bond"},"answer":"B"},
+{"id":3,"subject":"Biology","topic":"Biomolecules","difficulty":"Medium",
+ "question":"Which level of protein structure is primarily maintained by hydrogen bonds between backbone atoms, forming alpha helices and beta sheets?",
+ "options":{"A":"Secondary","B":"Tertiary","C":"Quaternary","D":"Primary"},"answer":"A"},
+{"id":4,"subject":"Biology","topic":"Biomolecules","difficulty":"Medium",
+ "question":"Triglycerides are formed by the condensation of glycerol with three:",
+ "options":{"A":"Fatty acids","B":"Nucleotides","C":"Monosaccharides","D":"Amino acids"},"answer":"A"},
+{"id":5,"subject":"Biology","topic":"Biomolecules","difficulty":"Hard",
+ "question":"A phospholipid molecule in a cell membrane is amphipathic mainly because:",
+ "options":{"A":"Its fatty acid tails are hydrophobic while its phosphate head is hydrophilic","B":"It can rotate freely within the bilayer","C":"It contains both carbon and hydrogen atoms","D":"It is synthesized in the smooth endoplasmic reticulum"},"answer":"A"},
+{"id":6,"subject":"Biology","topic":"Enzymes","difficulty":"Easy",
+ "question":"Enzymes increase the rate of a reaction mainly by:",
+ "options":{"A":"Lowering the activation energy","B":"Increasing the free energy of the products","C":"Increasing the temperature of the reaction","D":"Making the reaction exergonic"},"answer":"A"},
+{"id":7,"subject":"Biology","topic":"Enzymes","difficulty":"Medium",
+ "question":"A competitive inhibitor of an enzyme typically:",
+ "options":{"A":"Increases the Vmax of the reaction","B":"Resembles the substrate and competes for the active site","C":"Binds only to the enzyme-substrate complex","D":"Binds to the allosteric site and changes enzyme shape permanently"},"answer":"B"},
+{"id":8,"subject":"Biology","topic":"Enzymes","difficulty":"Medium",
+ "question":"The graph shows the rate of an enzyme-catalyzed reaction against temperature. What is the most likely explanation for the sharp decline in rate above the optimum temperature shown on the graph?",
+ "image":"images/q_enzyme_graph.png",
+ "options":{"A":"Substrate concentration falls sharply","B":"The enzyme becomes denatured and loses its active site shape","C":"The reaction becomes reversible","D":"Product inhibition begins"},"answer":"B"},
+{"id":9,"subject":"Biology","topic":"Enzymes","difficulty":"Hard",
+ "question":"In an enzyme-catalyzed reaction, doubling the substrate concentration at a level already well above Km will:",
+ "options":{"A":"Roughly double the reaction rate","B":"Have little effect since the enzyme is already saturated","C":"Stop the reaction completely","D":"Decrease the reaction rate due to substrate inhibition in all cases"},"answer":"B"},
+{"id":10,"subject":"Biology","topic":"Cell Biology","difficulty":"Medium",
+ "question":"The diagram shows an animal cell with four structures labeled A-D. Which labeled structure is the primary site of ATP production through aerobic respiration?",
+ "image":"images/q_cell_diagram.png",
+ "options":{"A":"Structure A","B":"Structure B","C":"Structure C","D":"Structure D"},"answer":"A"},
+{"id":11,"subject":"Biology","topic":"Cell Biology","difficulty":"Easy",
+ "question":"Ribosomes are the site of:",
+ "options":{"A":"Lipid digestion","B":"Protein synthesis","C":"ATP hydrolysis for movement","D":"DNA replication"},"answer":"B"},
+{"id":12,"subject":"Biology","topic":"Cell Biology","difficulty":"Easy",
+ "question":"The cell organelle that packages and modifies proteins for secretion is the:",
+ "options":{"A":"Golgi apparatus","B":"Peroxisome","C":"Centriole","D":"Nucleolus"},"answer":"A"},
+{"id":13,"subject":"Biology","topic":"Cell Biology","difficulty":"Medium",
+ "question":"Which of the following best explains why mitochondria are considered to have originated endosymbiotically?",
+ "options":{"A":"They are surrounded by a single membrane","B":"They are found in both plant and animal cells","C":"They produce carbon dioxide as a waste product","D":"They contain their own circular DNA and ribosomes similar to bacteria"},"answer":"D"},
+{"id":14,"subject":"Biology","topic":"Cell Biology","difficulty":"Medium",
+ "question":"Lysosomes are formed by budding from which organelle?",
+ "options":{"A":"Golgi apparatus","B":"Nuclear envelope","C":"Rough endoplasmic reticulum","D":"Mitochondria"},"answer":"A"},
+{"id":15,"subject":"Biology","topic":"Cell Biology","difficulty":"Medium",
+ "question":"Which statement correctly distinguishes rough ER from smooth ER?",
+ "options":{"A":"Smooth ER is found only in plant cells","B":"Rough ER synthesizes lipids while smooth ER synthesizes proteins","C":"Rough ER is studded with ribosomes and processes proteins; smooth ER lacks ribosomes and is involved in lipid synthesis and detoxification","D":"Rough ER has no connection to the nuclear envelope"},"answer":"C"},
+{"id":16,"subject":"Biology","topic":"Cell Biology","difficulty":"Hard",
+ "question":"A cell treated with a drug that disrupts microtubule polymerization would most directly fail to complete:",
+ "options":{"A":"Transcription of mRNA","B":"Glycolysis","C":"Chromosome segregation during mitosis","D":"DNA replication"},"answer":"C"},
+{"id":17,"subject":"Biology","topic":"Cell Membrane & Transport","difficulty":"Easy",
+ "question":"Movement of water across a selectively permeable membrane from a region of high water potential to low water potential is called:",
+ "options":{"A":"Active transport","B":"Diffusion","C":"Osmosis","D":"Facilitated diffusion"},"answer":"C"},
+{"id":18,"subject":"Biology","topic":"Cell Membrane & Transport","difficulty":"Medium",
+ "question":"When a plant cell is placed in a hypertonic solution, the shrinking of the cytoplasm away from the cell wall is called:",
+ "options":{"A":"Hemolysis","B":"Crenation","C":"Turgidity","D":"Plasmolysis"},"answer":"D"},
+{"id":19,"subject":"Biology","topic":"Cell Membrane & Transport","difficulty":"Medium",
+ "question":"The sodium-potassium pump moves ions against their concentration gradients using energy from:",
+ "options":{"A":"Light energy","B":"A concentration gradient of glucose","C":"GTP hydrolysis","D":"ATP hydrolysis"},"answer":"D"},
+{"id":20,"subject":"Biology","topic":"Cell Membrane & Transport","difficulty":"Hard",
+ "question":"Facilitated diffusion differs from active transport in that facilitated diffusion:",
+ "options":{"A":"Occurs only in plant cells","B":"Moves solutes down their concentration gradient through channel or carrier proteins without ATP","C":"Can move solutes in either direction regardless of concentration","D":"Requires ATP and moves solutes against their gradient"},"answer":"B"},
+{"id":21,"subject":"Biology","topic":"Cell Membrane & Transport","difficulty":"Easy",
+ "question":"According to the fluid mosaic model, the plasma membrane is mainly composed of:",
+ "options":{"A":"Cellulose fibers embedded in protein","B":"Peptidoglycan cross-linked with sugars","C":"A phospholipid bilayer with embedded proteins","D":"A single layer of protein"},"answer":"C"},
+{"id":22,"subject":"Biology","topic":"Cell Cycle & Division","difficulty":"Easy",
+ "question":"DNA replication occurs during which phase of the cell cycle?",
+ "options":{"A":"G2 phase","B":"M phase","C":"G1 phase","D":"S phase"},"answer":"D"},
+{"id":23,"subject":"Biology","topic":"Cell Cycle & Division","difficulty":"Easy",
+ "question":"Homologous chromosomes pair up (synapsis) during which stage of meiosis?",
+ "options":{"A":"Prophase I","B":"Metaphase II","C":"Anaphase I","D":"Telophase II"},"answer":"A"},
+{"id":24,"subject":"Biology","topic":"Cell Cycle & Division","difficulty":"Medium",
+ "question":"Crossing over between non-sister chromatids during meiosis I results in:",
+ "options":{"A":"Loss of one full set of chromosomes","B":"Formation of identical daughter cells","C":"Genetic recombination and increased variation in gametes","D":"A doubling of chromosome number"},"answer":"C"},
+{"id":25,"subject":"Biology","topic":"Cell Cycle & Division","difficulty":"Medium",
+ "question":"A human somatic cell has 46 chromosomes. How many chromosomes are present in each cell at the end of meiosis I?",
+ "options":{"A":"12","B":"46","C":"23","D":"92"},"answer":"C"},
+{"id":26,"subject":"Biology","topic":"Cell Cycle & Division","difficulty":"Hard",
+ "question":"The G1/S checkpoint of the cell cycle mainly ensures that:",
+ "options":{"A":"Cytokinesis has completed before the next G1","B":"Sister chromatids have separated equally","C":"Chromosomes are correctly attached to the spindle before anaphase","D":"The cell has adequate size, nutrients, and undamaged DNA before entering S phase"},"answer":"D"},
+{"id":27,"subject":"Biology","topic":"Cell Cycle & Division","difficulty":"Medium",
+ "question":"Uncontrolled cell division resulting from mutations in genes regulating the cell cycle (e.g., proto-oncogenes becoming oncogenes) can lead to:",
+ "options":{"A":"Apoptosis","B":"Meiotic arrest","C":"Senescence only","D":"Cancer"},"answer":"D"},
+{"id":28,"subject":"Biology","topic":"Genetics","difficulty":"Easy",
+ "question":"In a monohybrid cross between two heterozygous (Aa) individuals, the expected phenotypic ratio in the offspring is:",
+ "options":{"A":"1:1","B":"3:1","C":"1:2:1","D":"9:3:3:1"},"answer":"B"},
+{"id":29,"subject":"Biology","topic":"Genetics","difficulty":"Medium",
+ "question":"A cross between a heterozygous tall pea plant (Tt) and a homozygous recessive short plant (tt) gives what phenotypic ratio in offspring?",
+ "options":{"A":"3 tall : 1 short","B":"All short","C":"All tall","D":"1 tall : 1 short"},"answer":"D"},
+{"id":30,"subject":"Biology","topic":"Genetics","difficulty":"Medium",
+ "question":"Red-green color blindness in humans is an X-linked recessive trait. A color-blind father and a homozygous normal-visioned mother have children. What is the expected outcome?",
+ "options":{"A":"All daughters will be color-blind","B":"All sons will be color-blind","C":"Half of the sons will be color-blind","D":"All daughters will be carriers, no children will be color-blind"},"answer":"D"},
+{"id":31,"subject":"Biology","topic":"Genetics","difficulty":"Hard",
+ "question":"In a dihybrid cross AaBb x AaBb, assuming independent assortment, what fraction of offspring is expected to be homozygous recessive for both traits (aabb)?",
+ "options":{"A":"1/16","B":"1/8","C":"1/4","D":"9/16"},"answer":"A"},
+{"id":32,"subject":"Biology","topic":"Genetics","difficulty":"Medium",
+ "question":"Which term describes a situation where both alleles at a locus are fully expressed in the heterozygote, as seen in the AB blood group?",
+ "options":{"A":"Epistasis","B":"Codominance","C":"Incomplete dominance","D":"Complete dominance"},"answer":"B"},
+{"id":33,"subject":"Biology","topic":"Genetics","difficulty":"Hard",
+ "question":"A woman with blood group AB and a man with blood group O have children. Which blood groups are possible in their offspring?",
+ "options":{"A":"Only AB","B":"O only","C":"A, B, AB, and O","D":"A and B only"},"answer":"D"},
+{"id":34,"subject":"Biology","topic":"Genetics","difficulty":"Medium",
+ "question":"Cystic fibrosis is an autosomal recessive disorder. Two carrier (heterozygous) parents have a child. What is the probability the child is affected?",
+ "options":{"A":"50%","B":"100%","C":"25%","D":"0%"},"answer":"C"},
+{"id":35,"subject":"Biology","topic":"Molecular Biology","difficulty":"Easy",
+ "question":"The two strands of a DNA double helix are held together by:",
+ "options":{"A":"Hydrogen bonds between complementary bases","B":"Covalent bonds between sugars","C":"Ionic bonds between phosphates","D":"Peptide bonds"},"answer":"A"},
+{"id":36,"subject":"Biology","topic":"Molecular Biology","difficulty":"Easy",
+ "question":"In DNA, adenine pairs with:",
+ "options":{"A":"Guanine","B":"Cytosine","C":"Thymine","D":"Uracil"},"answer":"C"},
+{"id":37,"subject":"Biology","topic":"Molecular Biology","difficulty":"Medium",
+ "question":"DNA replication is described as semi-conservative because:",
+ "options":{"A":"Only one of the two daughter cells receives replicated DNA","B":"Each new DNA molecule consists of one original (parental) strand and one newly synthesized strand","C":"DNA polymerase synthesizes both strands simultaneously in the same direction","D":"Only half of the DNA molecule is replicated at a time"},"answer":"B"},
+{"id":38,"subject":"Biology","topic":"Molecular Biology","difficulty":"Medium",
+ "question":"The enzyme responsible for synthesizing mRNA from a DNA template during transcription is:",
+ "options":{"A":"Ligase","B":"RNA polymerase","C":"Helicase","D":"DNA polymerase"},"answer":"B"},
+{"id":39,"subject":"Biology","topic":"Molecular Biology","difficulty":"Medium",
+ "question":"During translation, tRNA molecules deliver amino acids to the ribosome by base-pairing their anticodon with the:",
+ "options":{"A":"Ribosomal RNA exclusively","B":"Start codon only","C":"DNA template strand","D":"Corresponding codon on the mRNA"},"answer":"D"},
+{"id":40,"subject":"Biology","topic":"Molecular Biology","difficulty":"Hard",
+ "question":"A point mutation changes a single DNA base such that a codon coding for an amino acid becomes a stop codon. This type of mutation is called a:",
+ "options":{"A":"Nonsense mutation","B":"Frameshift mutation","C":"Missense mutation","D":"Silent mutation"},"answer":"A"},
+{"id":41,"subject":"Biology","topic":"Molecular Biology","difficulty":"Hard",
+ "question":"Insertion of a single nucleotide into a gene's coding sequence (not in a multiple of three) most likely results in:",
+ "options":{"A":"A silent mutation with no effect on the protein","B":"No change in the protein since introns absorb the change","C":"A frameshift mutation altering the entire downstream amino acid sequence","D":"Immediate cell death in all cases"},"answer":"C"},
+{"id":42,"subject":"Biology","topic":"Molecular Biology","difficulty":"Medium",
+ "question":"In eukaryotic gene expression, the removal of introns and joining of exons from pre-mRNA is called:",
+ "options":{"A":"Splicing","B":"Translation","C":"Replication","D":"Transcription"},"answer":"A"},
+{"id":43,"subject":"Biology","topic":"Molecular Biology","difficulty":"Medium",
+ "question":"Which of these correctly pairs a nitrogenous base with its class?",
+ "options":{"A":"Cytosine - purine","B":"Thymine - purine","C":"Adenine - pyrimidine","D":"Guanine - purine"},"answer":"D"},
+{"id":44,"subject":"Biology","topic":"Molecular Biology","difficulty":"Easy",
+ "question":"The genetic code is described as degenerate because:",
+ "options":{"A":"Stop codons code for amino acids","B":"The code differs completely between species","C":"Some amino acids are coded for by more than one codon","D":"Each codon can code for more than one amino acid"},"answer":"C"},
+{"id":45,"subject":"Biology","topic":"Evolution","difficulty":"Easy",
+ "question":"Natural selection acts on:",
+ "options":{"A":"The genotype directly, regardless of expression","B":"Traits acquired during an individual's lifetime","C":"Heritable variation in phenotype that affects survival and reproduction","D":"Only dominant alleles"},"answer":"C"},
+{"id":46,"subject":"Biology","topic":"Evolution","difficulty":"Medium",
+ "question":"Homologous structures, such as the forelimbs of humans, whales, and bats, provide evidence for evolution because they:",
+ "options":{"A":"Are found only in extinct species","B":"Share a similar underlying structure inherited from a common ancestor despite different functions","C":"Evolved independently through convergent evolution","D":"Have identical functions in all species"},"answer":"B"},
+{"id":47,"subject":"Biology","topic":"Evolution","difficulty":"Medium",
+ "question":"A population is said to be in Hardy-Weinberg equilibrium when allele frequencies remain constant across generations. Which of the following would disrupt this equilibrium?",
+ "options":{"A":"A very large population size","B":"Absence of mutation","C":"Random mating with no migration","D":"Natural selection favoring a particular allele"},"answer":"D"},
+{"id":48,"subject":"Biology","topic":"Evolution","difficulty":"Hard",
+ "question":"In a population, allele A has frequency p = 0.6 and allele a has frequency q = 0.4. Assuming Hardy-Weinberg equilibrium, what proportion of the population is expected to be heterozygous (Aa)?",
+ "options":{"A":"0.36","B":"0.48","C":"0.16","D":"0.24"},"answer":"B"},
+{"id":49,"subject":"Biology","topic":"Classification & Diversity","difficulty":"Easy",
+ "question":"The five-kingdom classification system was proposed by:",
+ "options":{"A":"R.H. Whittaker","B":"Carl Linnaeus","C":"Gregor Mendel","D":"Charles Darwin"},"answer":"A"},
+{"id":50,"subject":"Biology","topic":"Classification & Diversity","difficulty":"Easy",
+ "question":"Organisms belonging to kingdom Fungi are typically:",
+ "options":{"A":"Photosynthetic autotrophs","B":"Prokaryotic and unicellular only","C":"Heterotrophs that absorb nutrients after extracellular digestion","D":"Chemosynthetic autotrophs"},"answer":"C"},
+{"id":51,"subject":"Biology","topic":"Classification & Diversity","difficulty":"Medium",
+ "question":"Bacteria are classified in a separate kingdom (Monera/Prokaryotae) mainly because they:",
+ "options":{"A":"Lack a membrane-bound nucleus and other membrane-bound organelles","B":"Lack a cell wall","C":"Are always pathogenic","D":"Cannot reproduce"},"answer":"A"},
+{"id":52,"subject":"Biology","topic":"Classification & Diversity","difficulty":"Medium",
+ "question":"Viruses are generally not classified within the five-kingdom system because they:",
+ "options":{"A":"Contain both DNA and RNA together","B":"Lack a cellular structure and cannot replicate outside a host cell","C":"Are exclusively plant pathogens","D":"Are too large to be classified"},"answer":"B"},
+{"id":53,"subject":"Biology","topic":"Classification & Diversity","difficulty":"Easy",
+ "question":"Which taxonomic rank lies directly between Kingdom and Class?",
+ "options":{"A":"Genus","B":"Order","C":"Phylum","D":"Family"},"answer":"C"},
+{"id":54,"subject":"Biology","topic":"Classification & Diversity","difficulty":"Medium",
+ "question":"Members of phylum Arthropoda are characterized by:",
+ "options":{"A":"Radial symmetry and a water vascular system","B":"A segmented body, jointed appendages, and an exoskeleton of chitin","C":"Notochord present throughout life","D":"A soft unsegmented body with a single shell"},"answer":"B"},
+{"id":55,"subject":"Biology","topic":"Plant Biology","difficulty":"Easy",
+ "question":"The main site of photosynthesis in a leaf cell is the:",
+ "options":{"A":"Mitochondrion","B":"Nucleus","C":"Chloroplast","D":"Vacuole"},"answer":"C"},
+{"id":56,"subject":"Biology","topic":"Plant Biology","difficulty":"Medium",
+ "question":"During the light-dependent reactions of photosynthesis, water is split (photolysis) mainly to:",
+ "options":{"A":"Provide glucose directly to the cell","B":"Regenerate RuBP","C":"Produce carbon dioxide for the Calvin cycle","D":"Replace electrons lost from photosystem II and release oxygen"},"answer":"D"},
+{"id":57,"subject":"Biology","topic":"Plant Biology","difficulty":"Medium",
+ "question":"In the Calvin cycle, the enzyme responsible for fixing atmospheric CO2 onto RuBP is:",
+ "options":{"A":"ATP synthase","B":"Rubredoxin","C":"Carbonic anhydrase only","D":"RuBisCO"},"answer":"D"},
+{"id":58,"subject":"Biology","topic":"Plant Biology","difficulty":"Hard",
+ "question":"C4 plants such as maize show an adaptive advantage over C3 plants in hot, dry environments primarily because they:",
+ "options":{"A":"Spatially separate initial CO2 fixation and the Calvin cycle, minimizing photorespiration","B":"Do not require light for photosynthesis","C":"Lack stomata entirely, preventing water loss","D":"Perform photosynthesis only at night"},"answer":"A"},
+{"id":59,"subject":"Biology","topic":"Plant Biology","difficulty":"Medium",
+ "question":"Xylem tissue in vascular plants is primarily responsible for:",
+ "options":{"A":"Gas exchange in leaves","B":"Storage of starch","C":"Transport of sugars from source to sink","D":"Transport of water and minerals from roots to shoots"},"answer":"D"},
+{"id":60,"subject":"Biology","topic":"Plant Biology","difficulty":"Easy",
+ "question":"Stomata on a leaf surface primarily function in:",
+ "options":{"A":"Gas exchange and transpiration","B":"Anchoring the plant","C":"Synthesizing chlorophyll","D":"Absorbing water from soil"},"answer":"A"},
+{"id":61,"subject":"Biology","topic":"Human Physiology - Digestion","difficulty":"Easy",
+ "question":"The enzyme pepsin, which begins protein digestion, is active in the:",
+ "options":{"A":"Small intestine","B":"Mouth","C":"Stomach","D":"Large intestine"},"answer":"C"},
+{"id":62,"subject":"Biology","topic":"Human Physiology - Digestion","difficulty":"Medium",
+ "question":"Bile, produced by the liver and stored in the gallbladder, aids digestion mainly by:",
+ "options":{"A":"Emulsifying fats into smaller droplets to increase surface area for lipase action","B":"Neutralizing intestinal alkalinity","C":"Directly digesting proteins into amino acids","D":"Digesting starch into maltose"},"answer":"A"},
+{"id":63,"subject":"Biology","topic":"Human Physiology - Digestion","difficulty":"Medium",
+ "question":"Most absorption of digested nutrients occurs in the:",
+ "options":{"A":"Esophagus","B":"Small intestine","C":"Stomach","D":"Large intestine"},"answer":"B"},
+{"id":64,"subject":"Biology","topic":"Human Physiology - Digestion","difficulty":"Hard",
+ "question":"Villi and microvilli in the small intestine increase the efficiency of nutrient absorption primarily by:",
+ "options":{"A":"Slowing down peristalsis","B":"Producing more digestive enzymes","C":"Vastly increasing the surface area available for absorption","D":"Neutralizing stomach acid"},"answer":"C"},
+{"id":65,"subject":"Biology","topic":"Human Physiology - Circulation","difficulty":"Easy",
+ "question":"Oxygenated blood from the lungs first enters which chamber of the heart?",
+ "options":{"A":"Right ventricle","B":"Right atrium","C":"Left atrium","D":"Left ventricle"},"answer":"C"},
+{"id":66,"subject":"Biology","topic":"Human Physiology - Circulation","difficulty":"Medium",
+ "question":"The thick muscular wall of the left ventricle compared to the right ventricle is an adaptation for:",
+ "options":{"A":"Storing more blood at rest","B":"Pumping blood a short distance to the lungs","C":"Producing red blood cells","D":"Generating higher pressure to pump blood throughout the entire systemic circulation"},"answer":"D"},
+{"id":67,"subject":"Biology","topic":"Human Physiology - Circulation","difficulty":"Medium",
+ "question":"Which blood vessel carries deoxygenated blood but is classified as an artery?",
+ "options":{"A":"Pulmonary vein","B":"Pulmonary artery","C":"Vena cava","D":"Aorta"},"answer":"B"},
+{"id":68,"subject":"Biology","topic":"Human Physiology - Circulation","difficulty":"Hard",
+ "question":"The SA node is often called the natural pacemaker of the heart because it:",
+ "options":{"A":"Is located in the left ventricle","B":"Receives blood first from the vena cava","C":"Produces the largest volume of contractile force","D":"Initiates the electrical impulse that sets the rhythm of the heartbeat"},"answer":"D"},
+{"id":69,"subject":"Biology","topic":"Human Physiology - Respiration","difficulty":"Easy",
+ "question":"Gas exchange in the lungs occurs across the walls of the:",
+ "options":{"A":"Trachea","B":"Bronchi","C":"Alveoli","D":"Larynx"},"answer":"C"},
+{"id":70,"subject":"Biology","topic":"Human Physiology - Respiration","difficulty":"Medium",
+ "question":"During inhalation, contraction of the diaphragm causes it to flatten, which:",
+ "options":{"A":"Directly forces oxygen into the blood","B":"Has no effect on lung volume","C":"Increases thoracic volume and decreases pressure, drawing air in","D":"Decreases thoracic volume and increases pressure, pushing air out"},"answer":"C"},
+{"id":71,"subject":"Biology","topic":"Human Physiology - Respiration","difficulty":"Medium",
+ "question":"Most carbon dioxide is transported in the blood in the form of:",
+ "options":{"A":"Bicarbonate ions in plasma","B":"Carbonic acid crystals","C":"Dissolved CO2 gas","D":"Carbaminohemoglobin"},"answer":"A"},
+{"id":72,"subject":"Biology","topic":"Human Physiology - Excretion","difficulty":"Easy",
+ "question":"The functional unit of the human kidney is the:",
+ "options":{"A":"Nephron","B":"Alveolus","C":"Neuron","D":"Villus"},"answer":"A"},
+{"id":73,"subject":"Biology","topic":"Human Physiology - Excretion","difficulty":"Medium",
+ "question":"Filtration of blood in the nephron occurs in the:",
+ "options":{"A":"Loop of Henle","B":"Distal convoluted tubule","C":"Glomerulus and Bowman's capsule","D":"Collecting duct"},"answer":"C"},
+{"id":74,"subject":"Biology","topic":"Human Physiology - Excretion","difficulty":"Hard",
+ "question":"The hormone ADH (antidiuretic hormone) regulates water balance mainly by:",
+ "options":{"A":"Increasing sodium excretion","B":"Stimulating red blood cell production","C":"Decreasing the glomerular filtration rate directly","D":"Increasing the permeability of the collecting duct to water, reducing urine volume"},"answer":"D"},
+{"id":75,"subject":"Biology","topic":"Human Physiology - Nervous & Endocrine","difficulty":"Easy",
+ "question":"The basic structural and functional unit of the nervous system is the:",
+ "options":{"A":"Synapse","B":"Neuron","C":"Nephron","D":"Axon terminal only"},"answer":"B"},
+{"id":76,"subject":"Biology","topic":"Human Physiology - Nervous & Endocrine","difficulty":"Medium",
+ "question":"At a chemical synapse, an action potential arriving at the axon terminal causes:",
+ "options":{"A":"Immediate destruction of the neuron","B":"Release of neurotransmitter from vesicles into the synaptic cleft","C":"Formation of a new axon","D":"Direct flow of electrical current into the next neuron"},"answer":"B"},
+{"id":77,"subject":"Biology","topic":"Human Physiology - Nervous & Endocrine","difficulty":"Medium",
+ "question":"Insulin, secreted by beta cells of the pancreas, lowers blood glucose mainly by:",
+ "options":{"A":"Stimulating the liver to convert glycogen to glucose","B":"Increasing glucose reabsorption in the kidney","C":"Promoting uptake of glucose by cells and its conversion to glycogen","D":"Breaking down fats into glucose"},"answer":"C"},
+{"id":78,"subject":"Biology","topic":"Human Physiology - Nervous & Endocrine","difficulty":"Hard",
+ "question":"In a resting neuron, the inside of the membrane is negative relative to the outside mainly due to:",
+ "options":{"A":"Absence of any ion channels","B":"The sodium-potassium pump and greater resting permeability to K+, which leaks out","C":"Continuous depolarization","D":"Higher permeability to Na+ than K+ at rest"},"answer":"B"},
+{"id":79,"subject":"Biology","topic":"Human Physiology - Reproduction","difficulty":"Easy",
+ "question":"In the human female reproductive cycle, ovulation refers to the:",
+ "options":{"A":"Release of a mature egg from the ovary","B":"Implantation of the embryo","C":"Formation of the placenta","D":"Shedding of the uterine lining"},"answer":"A"},
+{"id":80,"subject":"Biology","topic":"Human Physiology - Reproduction","difficulty":"Medium",
+ "question":"Fertilization in humans normally occurs in the:",
+ "options":{"A":"Uterus","B":"Vagina","C":"Ovary","D":"Fallopian tube (oviduct)"},"answer":"D"},
+{"id":81,"subject":"Biology","topic":"Ecology","difficulty":"Medium",
+ "question":"In a food chain, the trophic level that captures energy directly from the sun is occupied by:",
+ "options":{"A":"Decomposers","B":"Secondary consumers","C":"Producers","D":"Primary consumers"},"answer":"C"},
 
-    123: ("Vectors and Equilibrium", "Scalar Product of Vectors", "easy"),
-    124: ("Vectors and Equilibrium", "Vector Product of Vectors", "medium"),
-    125: ("Vectors and Equilibrium", "Addition of Vectors (Rectangular Components)", "easy"),
-    126: ("Force and Motion", "Newton''s Second Law and Linear Momentum", "easy"),
-    127: ("Force and Motion", "Newton''s Third Law and Conservation of Momentum", "easy"),
-    128: ("Force and Motion", "Projectile Height, Range, Time of Flight", "medium"),
-    129: ("Force and Motion", "Newton''s Third Law and Conservation of Momentum", "easy"),
-    130: ("Force and Motion", "Perfectly Elastic Collision", "medium"),
-    131: ("Force and Motion", "Uniform and Variable Acceleration", "easy"),
-    132: ("Work and Energy", "Work-Energy Theorem in Resistive Medium", "easy"),
-    133: ("Work and Energy", "Power", "easy"),
-    134: ("Work and Energy", "Potential Energy", "easy"),
-    135: ("Work and Energy", "Energy Losses and Efficiency", "easy"),
-    136: ("Rotational and Circular Motion", "Relation Between Angular and Linear Quantities", "easy"),
-    137: ("Rotational and Circular Motion", "Angular Displacement", "easy"),
-    138: ("Fluid Dynamics", "Bernoulli''s Equation", "medium"),
-    139: ("Fluid Dynamics", "Equation of Continuity", "medium"),
-    140: ("Fluid Dynamics", "Terminal Velocity", "medium"),
-    141: ("Waves", "Transverse vs Longitudinal Waves", "easy"),
-    142: ("Waves", "Stationary Waves", "medium"),
-    143: ("Waves", "Organ Pipes", "hard"),
-    144: ("Waves", "Simple Harmonic Motion (SHM)", "medium"),
-    145: ("Waves", "Factors Affecting Speed of Sound", "medium"),
-    146: ("Waves", "Circular Motion and SHM", "medium"),
-    147: ("Thermodynamics", "First Law of Thermodynamics", "medium"),
-    148: ("Thermodynamics", "Specific and Molar Specific Heat", "easy"),
-    149: ("Thermodynamics", "Thermal Equilibrium and Heat", "easy"),
-    150: ("Thermodynamics", "Cp minus Cv Relation for Ideal Gas", "medium"),
-    151: ("Electrostatics", "Coulomb''s Law", "easy"),
-    152: ("Electrostatics", "Electric Field", "easy"),
-    153: ("Electrostatics", "Electric Field Due to Infinite Sheet", "medium"),
-    154: ("Electrostatics", "Charging and Discharging of Capacitor", "medium"),
-    155: ("Current Electricity", "Ohm''s Law", "easy"),
-    156: ("Current Electricity", "Resistivity and Temperature Coefficient", "medium"),
-    157: ("Current Electricity", "Internal Resistance of Sources", "medium"),
-    158: ("Current Electricity", "Maximum Power Transfer", "medium"),
-    159: ("Electromagnetism", "Magnetic Flux Density", "easy"),
-    160: ("Electromagnetism", "Motion of Charged Particle in Magnetic Field", "medium"),
-    161: ("Electromagnetism", "Magnetic Flux", "medium"),
-    162: ("Electromagnetic Induction", "Faraday''s Law", "easy"),
-    163: ("Electromagnetic Induction", "Lenz''s Law", "medium"),
-    164: ("Electromagnetic Induction", "Transformer", "medium"),
-    165: ("Alternating Current", "AC Through Capacitor", "medium"),
-    166: ("Alternating Current", "AC Through Inductor", "medium"),
-    167: ("Alternating Current", "Electromagnetic Spectrum", "hard"),
-    168: ("Electronics", "PN Junction (Forward and Reverse Bias)", "easy"),
-    169: ("Electronics", "Rectification (Half and Full Wave)", "medium"),
-    170: ("Electronics", "PN Junction (Forward and Reverse Bias)", "medium"),
-    171: ("Dawn of Modern Physics", "Quantum Theory and Radiation (Photons)", "easy"),
-    172: ("Dawn of Modern Physics", "Quantum Theory and Radiation (Photons)", "medium"),
-    173: ("Atomic Spectra", "Atomic Spectra / Line Spectrum", "medium"),
-    174: ("Atomic Spectra", "Atomic Spectra / Line Spectrum", "medium"),
-    175: ("Nuclear Physics", "Half-life and Rate of Decay", "easy"),
-    176: ("Nuclear Physics", "Biological and Medical Uses of Radiation", "medium"),
+# ============================================================
+# CHEMISTRY (45 questions) - id 82-126
+# ============================================================
 
-    177: ("Reading and Thinking Skills", "Deduce Meaning from Context", "easy"),
-    178: ("Reading and Thinking Skills", "Figurative Language Analysis", "easy"),
-    179: ("Reading and Thinking Skills", "Figurative Language Analysis", "easy"),
-    180: ("Reading and Thinking Skills", "Deduce Meaning from Context", "medium"),
-    181: ("Reading and Thinking Skills", "Scan to Answer Short Questions", "easy"),
-    182: ("Reading and Thinking Skills", "Figurative Language Analysis", "medium"),
-    183: ("Formal and Lexical Aspect of Language", "Tenses", "easy"),
-    184: ("Formal and Lexical Aspect of Language", "Pronoun-Antecedent Agreement", "medium"),
-    185: ("Formal and Lexical Aspect of Language", "Active and Passive Voice", "easy"),
-    186: ("Formal and Lexical Aspect of Language", "Direct and Indirect Speech", "medium"),
-    187: ("Formal and Lexical Aspect of Language", "Prepositions", "easy"),
-    188: ("Formal and Lexical Aspect of Language", "Gerunds and Gerund Phrases", "easy"),
-    189: ("Formal and Lexical Aspect of Language", "Infinitives and Infinitive Phrases", "easy"),
-    190: ("Formal and Lexical Aspect of Language", "Synonyms (Irony, Parody, Satire)", "easy"),
-    191: ("Writing Skills", "Subject-Verb Agreement", "medium"),
-    192: ("Writing Skills", "Faulty Sentence Structure", "medium"),
-    193: ("Writing Skills", "Proofreading and Editing", "medium"),
-    194: ("Writing Skills", "Errors of Function and Spelling", "easy"),
+{"id":82,"subject":"Chemistry","topic":"Atomic Structure","difficulty":"Easy",
+ "question":"The number of protons in the nucleus of an atom determines its:",
+ "options":{"A":"Mass number","B":"Atomic number","C":"Number of neutrons","D":"Isotope form"},"answer":"B"},
+{"id":83,"subject":"Chemistry","topic":"Atomic Structure","difficulty":"Medium",
+ "question":"An atom of chlorine-35 (atomic number 17) has how many neutrons?",
+ "options":{"A":"35","B":"17","C":"52","D":"18"},"answer":"D"},
+{"id":84,"subject":"Chemistry","topic":"Atomic Structure","difficulty":"Medium",
+ "question":"According to the Aufbau principle, the electron configuration of a neutral potassium atom (Z=19) ends with:",
+ "options":{"A":"4s^1","B":"3d^1","C":"4p^1","D":"3p^7"},"answer":"A"},
+{"id":85,"subject":"Chemistry","topic":"Atomic Structure","difficulty":"Hard",
+ "question":"Two isotopes of an element differ in:",
+ "options":{"A":"Number of electrons only, with different protons","B":"Number of protons only","C":"Number of neutrons, while having the same number of protons","D":"Atomic number"},"answer":"C"},
+{"id":86,"subject":"Chemistry","topic":"Periodic Table","difficulty":"Easy",
+ "question":"Elements in the same group of the periodic table have similar chemical properties mainly because they have the same:",
+ "options":{"A":"Number of energy shells","B":"Number of neutrons","C":"Atomic mass","D":"Number of valence electrons"},"answer":"D"},
+{"id":87,"subject":"Chemistry","topic":"Periodic Table","difficulty":"Medium",
+ "question":"Across a period from left to right, atomic radius generally:",
+ "options":{"A":"Decreases due to increasing effective nuclear charge pulling electrons closer","B":"Remains constant","C":"Increases due to added electron shells","D":"Increases due to increasing nuclear charge"},"answer":"A"},
+{"id":88,"subject":"Chemistry","topic":"Periodic Table","difficulty":"Medium",
+ "question":"Ionization energy generally increases across a period because:",
+ "options":{"A":"Shielding effect increases dramatically","B":"Atomic size increases, making electrons easier to remove","C":"Increasing nuclear charge holds valence electrons more tightly","D":"Electrons are added to a new outer shell"},"answer":"C"},
+{"id":89,"subject":"Chemistry","topic":"Chemical Bonding","difficulty":"Easy",
+ "question":"An ionic bond is formed by:",
+ "options":{"A":"Sharing of electron pairs between atoms","B":"Weak attraction between molecules","C":"Overlap of atomic orbitals only","D":"Transfer of electrons from one atom to another, forming oppositely charged ions"},"answer":"D"},
+{"id":90,"subject":"Chemistry","topic":"Chemical Bonding","difficulty":"Medium",
+ "question":"The shape of a methane (CH4) molecule, according to VSEPR theory, is:",
+ "options":{"A":"Linear","B":"Trigonal planar","C":"Bent","D":"Tetrahedral"},"answer":"D"},
+{"id":91,"subject":"Chemistry","topic":"Chemical Bonding","difficulty":"Medium",
+ "question":"Water (H2O) is a bent molecule with a bond angle of approximately 104.5 degrees mainly because:",
+ "options":{"A":"Oxygen forms two double bonds with hydrogen","B":"Hydrogen atoms repel each other strongly","C":"Water has no lone pairs on oxygen","D":"Two lone pairs on oxygen repel the bonding pairs, compressing the bond angle"},"answer":"D"},
+{"id":92,"subject":"Chemistry","topic":"Chemical Bonding","difficulty":"Hard",
+ "question":"Hydrogen bonding in water molecules is responsible for which of the following properties?",
+ "options":{"A":"Water's low specific heat capacity","B":"Water's inability to dissolve ionic compounds","C":"Water's unusually high boiling point and surface tension compared to similarly sized molecules","D":"Water's low boiling point compared to H2S"},"answer":"C"},
+{"id":93,"subject":"Chemistry","topic":"States of Matter","difficulty":"Easy",
+ "question":"According to the kinetic molecular theory, increasing the temperature of a gas at constant volume:",
+ "options":{"A":"Decreases the average kinetic energy of particles","B":"Has no effect on particle motion","C":"Increases the average kinetic energy and pressure of the gas","D":"Converts the gas into a liquid"},"answer":"C"},
+{"id":94,"subject":"Chemistry","topic":"States of Matter","difficulty":"Medium",
+ "question":"A gas occupies 2.0 L at 1 atm pressure. At constant temperature, what volume will it occupy at 4 atm pressure (Boyle's Law)?",
+ "options":{"A":"4.0 L","B":"8.0 L","C":"2.0 L","D":"0.5 L"},"answer":"D"},
+{"id":95,"subject":"Chemistry","topic":"States of Matter","difficulty":"Hard",
+ "question":"A fixed mass of gas at 300 K occupies 6 L. If the temperature is raised to 450 K at constant pressure, the new volume (Charles's Law) is:",
+ "options":{"A":"12 L","B":"6 L","C":"4 L","D":"9 L"},"answer":"D"},
+{"id":96,"subject":"Chemistry","topic":"Stoichiometry","difficulty":"Easy",
+ "question":"One mole of any gas at STP occupies approximately:",
+ "options":{"A":"44.8 L","B":"1 L","C":"22.4 L","D":"11.2 L"},"answer":"C"},
+{"id":97,"subject":"Chemistry","topic":"Stoichiometry","difficulty":"Medium",
+ "question":"How many moles of oxygen molecules (O2) are needed to completely combust 2 moles of methane (CH4) according to CH4 + 2O2 -> CO2 + 2H2O?",
+ "options":{"A":"6 moles","B":"2 moles","C":"4 moles","D":"1 mole"},"answer":"C"},
+{"id":98,"subject":"Chemistry","topic":"Stoichiometry","difficulty":"Hard",
+ "question":"5.85 g of NaCl (molar mass 58.5 g/mol) is dissolved in water to make 500 mL of solution. What is the molarity of the solution?",
+ "options":{"A":"1.0 M","B":"0.5 M","C":"0.2 M","D":"0.1 M"},"answer":"C"},
+{"id":99,"subject":"Chemistry","topic":"Stoichiometry","difficulty":"Medium",
+ "question":"In the reaction N2 + 3H2 -> 2NH3, if 1 mole of N2 reacts completely with excess H2, how many moles of NH3 are produced?",
+ "options":{"A":"4","B":"2","C":"3","D":"1"},"answer":"B"},
+{"id":100,"subject":"Chemistry","topic":"Thermochemistry","difficulty":"Easy",
+ "question":"A reaction that releases heat to the surroundings is called:",
+ "options":{"A":"Exothermic","B":"Endothermic","C":"Isothermic","D":"Adiabatic"},"answer":"A"},
+{"id":101,"subject":"Chemistry","topic":"Thermochemistry","difficulty":"Medium",
+ "question":"In an endothermic reaction, the enthalpy of the products compared to the reactants is:",
+ "options":{"A":"Exactly equal","B":"Lower, with negative delta H","C":"Undefined","D":"Higher, with positive delta H"},"answer":"D"},
+{"id":102,"subject":"Chemistry","topic":"Chemical Equilibrium","difficulty":"Medium",
+ "question":"According to Le Chatelier's principle, increasing the pressure on a gaseous equilibrium system will shift the equilibrium toward the side with:",
+ "options":{"A":"No change since pressure does not affect equilibrium","B":"Fewer moles of gas","C":"Equal moles on both sides always","D":"More moles of gas"},"answer":"B"},
+{"id":103,"subject":"Chemistry","topic":"Chemical Equilibrium","difficulty":"Hard",
+ "question":"For an exothermic reaction at equilibrium, increasing the temperature will shift the equilibrium position:",
+ "options":{"A":"Toward the reactants, decreasing product yield","B":"Have no effect on the position of equilibrium","C":"Toward the products, increasing yield","D":"Completely stop the reaction"},"answer":"A"},
+{"id":104,"subject":"Chemistry","topic":"Reaction Kinetics","difficulty":"Easy",
+ "question":"Increasing the concentration of reactants generally increases the rate of a reaction because:",
+ "options":{"A":"It decreases the temperature of the system","B":"It increases the frequency of effective collisions between particles","C":"It lowers the activation energy","D":"It changes the reaction mechanism entirely"},"answer":"B"},
+{"id":105,"subject":"Chemistry","topic":"Reaction Kinetics","difficulty":"Medium",
+ "question":"A catalyst increases the rate of a reaction by:",
+ "options":{"A":"Shifting the equilibrium position toward products","B":"Increasing the concentration of reactants","C":"Increasing the temperature of the reaction mixture","D":"Providing an alternative pathway with lower activation energy"},"answer":"D"},
+{"id":106,"subject":"Chemistry","topic":"Electrochemistry","difficulty":"Medium",
+ "question":"In an electrochemical (galvanic) cell, oxidation occurs at the:",
+ "options":{"A":"External circuit only","B":"Anode","C":"Cathode","D":"Salt bridge"},"answer":"B"},
+{"id":107,"subject":"Chemistry","topic":"Electrochemistry","difficulty":"Hard",
+ "question":"In the reaction Zn(s) + Cu2+(aq) -> Zn2+(aq) + Cu(s), zinc is:",
+ "options":{"A":"Oxidized, acting as the reducing agent","B":"Reduced, acting as the reducing agent","C":"Neither oxidized nor reduced","D":"Reduced, acting as the oxidizing agent"},"answer":"A"},
+{"id":108,"subject":"Chemistry","topic":"Acids & Bases","difficulty":"Easy",
+ "question":"A solution with pH = 3 is:",
+ "options":{"A":"Weakly basic","B":"Acidic","C":"Strongly basic","D":"Neutral"},"answer":"B"},
+{"id":109,"subject":"Chemistry","topic":"Acids & Bases","difficulty":"Medium",
+ "question":"A solution has a hydrogen ion concentration [H+] of 1x10^-5 M. What is its pH?",
+ "options":{"A":"14","B":"9","C":"1x10^-5","D":"5"},"answer":"D"},
+{"id":110,"subject":"Chemistry","topic":"Acids & Bases","difficulty":"Medium",
+ "question":"The graph shows the titration curve obtained when NaOH solution is added to 25 mL of HCl solution. Based on the graph, what is the approximate volume of NaOH required to reach the equivalence point?",
+ "image":"images/q_titration_curve.png",
+ "options":{"A":"10 mL","B":"25 mL","C":"40 mL","D":"50 mL"},"answer":"B"},
+{"id":111,"subject":"Chemistry","topic":"Acids & Bases","difficulty":"Hard",
+ "question":"A buffer solution resists changes in pH mainly because it contains:",
+ "options":{"A":"Only pure water","B":"A weak acid (or base) and its conjugate base (or acid), which can neutralize added H+ or OH-","C":"A strong acid and a strong base in equal amounts","D":"A concentrated strong acid alone"},"answer":"B"},
+{"id":112,"subject":"Chemistry","topic":"Organic Chemistry","difficulty":"Easy",
+ "question":"The general formula for an alkane is:",
+ "options":{"A":"CnH2n","B":"CnHn","C":"CnH2n+2","D":"CnH2n-2"},"answer":"C"},
+{"id":113,"subject":"Chemistry","topic":"Organic Chemistry","difficulty":"Medium",
+ "question":"Alkenes are more reactive than alkanes mainly because:",
+ "options":{"A":"They lack hydrogen atoms","B":"The pi bond in the C=C double bond is relatively weak and reactive toward addition reactions","C":"They contain only single bonds, which are weak","D":"They are ionic compounds"},"answer":"B"},
+{"id":114,"subject":"Chemistry","topic":"Organic Chemistry","difficulty":"Medium",
+ "question":"The functional group -OH, when attached to a carbon chain, characterizes which class of organic compounds?",
+ "options":{"A":"Carboxylic acids","B":"Ethers","C":"Alcohols","D":"Aldehydes"},"answer":"C"},
+{"id":115,"subject":"Chemistry","topic":"Organic Chemistry","difficulty":"Hard",
+ "question":"In a nucleophilic substitution reaction (SN2) on a primary haloalkane, the reaction proceeds via:",
+ "options":{"A":"Elimination of a proton without nucleophile involvement","B":"A single concerted step where the nucleophile attacks as the leaving group departs, with inversion of configuration","C":"Radical chain propagation","D":"Formation of a stable carbocation intermediate followed by nucleophilic attack"},"answer":"B"},
+{"id":116,"subject":"Chemistry","topic":"Organic Chemistry","difficulty":"Medium",
+ "question":"Ethanol (C2H5OH) reacting with ethanoic acid (CH3COOH) in the presence of an acid catalyst produces an ester and:",
+ "options":{"A":"Hydrogen gas","B":"Water","C":"Ammonia","D":"Carbon dioxide"},"answer":"B"},
+{"id":117,"subject":"Chemistry","topic":"Organic Chemistry","difficulty":"Easy",
+ "question":"The functional group -COOH characterizes:",
+ "options":{"A":"Alcohols","B":"Aldehydes","C":"Ketones","D":"Carboxylic acids"},"answer":"D"},
+{"id":118,"subject":"Chemistry","topic":"Inorganic Chemistry","difficulty":"Medium",
+ "question":"Transition metals commonly form colored compounds mainly due to:",
+ "options":{"A":"Formation of only ionic bonds","B":"Electronic transitions between partially filled d-orbitals","C":"Their large atomic radius","D":"Their high melting points"},"answer":"B"},
+{"id":119,"subject":"Chemistry","topic":"Inorganic Chemistry","difficulty":"Medium",
+ "question":"Noble gases are chemically unreactive mainly because they have:",
+ "options":{"A":"A complete outer electron shell","B":"Only two electrons total","C":"A single valence electron","D":"High atomic mass"},"answer":"A"},
+{"id":120,"subject":"Chemistry","topic":"Inorganic Chemistry","difficulty":"Hard",
+ "question":"In the reaction 2KMnO4 + 16HCl -> 2KCl + 2MnCl2 + 5Cl2 + 8H2O, manganese undergoes a change in oxidation state from:",
+ "options":{"A":"+4 to +2","B":"+2 to +7 (oxidation)","C":"+7 to +2 (reduction)","D":"No change in oxidation state"},"answer":"C"},
+{"id":121,"subject":"Chemistry","topic":"Physical Chemistry","difficulty":"Medium",
+ "question":"The molarity of a solution is defined as:",
+ "options":{"A":"Moles of solute per mole of solvent","B":"Moles of solute per kilogram of solvent","C":"Moles of solute per liter of solution","D":"Grams of solute per liter of solution"},"answer":"C"},
+{"id":122,"subject":"Chemistry","topic":"Physical Chemistry","difficulty":"Hard",
+ "question":"If 20 mL of 0.5 M HCl is required to exactly neutralize 25 mL of NaOH solution, the molarity of the NaOH solution is:",
+ "options":{"A":"0.625 M","B":"0.2 M","C":"0.4 M","D":"0.5 M"},"answer":"C"},
+{"id":123,"subject":"Chemistry","topic":"Environmental Chemistry","difficulty":"Easy",
+ "question":"The layer of the atmosphere that absorbs most harmful UV radiation from the sun is composed mainly of:",
+ "options":{"A":"Ozone (O3)","B":"Carbon dioxide (CO2)","C":"Nitrogen (N2)","D":"Oxygen (O2)"},"answer":"A"},
+{"id":124,"subject":"Chemistry","topic":"Environmental Chemistry","difficulty":"Medium",
+ "question":"Acid rain is primarily caused by atmospheric pollutants such as:",
+ "options":{"A":"Sulfur dioxide and nitrogen oxides reacting with water vapor","B":"Oxygen and nitrogen","C":"Water vapor alone","D":"Carbon dioxide only"},"answer":"A"},
+{"id":125,"subject":"Chemistry","topic":"Chemical Bonding","difficulty":"Easy",
+ "question":"A covalent bond is formed by:",
+ "options":{"A":"Attraction between oppositely charged ions","B":"Loss of electrons from a metal atom only","C":"Sharing of a pair of electrons between two atoms","D":"Complete transfer of electrons between atoms"},"answer":"C"},
+{"id":126,"subject":"Chemistry","topic":"Atomic Structure","difficulty":"Easy",
+ "question":"Which subatomic particle has a negligible mass compared to protons and neutrons and carries a negative charge?",
+ "options":{"A":"Electron","B":"Neutron","C":"Positron","D":"Proton"},"answer":"A"},
 
-    195: ("Critical Thinking", "Evaluating Truth vs Falsehood", "easy"),
-    196: ("Letter and Symbol Series", "Geometric Number Series", "easy"),
-    197: ("Logical Deductions", "Predicting New Relations", "medium"),
-    198: ("Logical Problems", "Puzzle Solving", "medium"),
-    199: ("Course of Action", "Judging Courses via Arguments", "easy"),
-    200: ("Cause and Effect", "Reasoning About Events and Accidents", "easy"),
-}
+# ============================================================
+# PHYSICS (36 questions) - id 127-162
+# ============================================================
+
+{"id":127,"subject":"Physics","topic":"Kinematics","difficulty":"Easy",
+ "question":"A car accelerates uniformly from rest to 20 m/s in 5 seconds. What is its acceleration?",
+ "options":{"A":"2 m/s^2","B":"4 m/s^2","C":"100 m/s^2","D":"5 m/s^2"},"answer":"B"},
+{"id":128,"subject":"Physics","topic":"Kinematics","difficulty":"Medium",
+ "question":"An object is dropped from rest and falls freely under gravity (g = 10 m/s^2). How far does it fall in 3 seconds?",
+ "options":{"A":"90 m","B":"30 m","C":"60 m","D":"45 m"},"answer":"D"},
+{"id":129,"subject":"Physics","topic":"Kinematics","difficulty":"Hard",
+ "question":"A ball is thrown vertically upward with an initial speed of 20 m/s (g = 10 m/s^2, ignoring air resistance). How long does it take to return to its starting point?",
+ "options":{"A":"4 s","B":"1 s","C":"20 s","D":"2 s"},"answer":"A"},
+{"id":130,"subject":"Physics","topic":"Dynamics","difficulty":"Easy",
+ "question":"Newton's second law of motion states that force equals:",
+ "options":{"A":"Mass divided by acceleration","B":"Mass times acceleration","C":"Mass times velocity","D":"Mass divided by velocity"},"answer":"B"},
+{"id":131,"subject":"Physics","topic":"Dynamics","difficulty":"Medium",
+ "question":"A net force of 20 N acts on a 4 kg object initially at rest. What is its acceleration?",
+ "options":{"A":"2 m/s^2","B":"10 m/s^2","C":"5 m/s^2","D":"80 m/s^2"},"answer":"C"},
+{"id":132,"subject":"Physics","topic":"Dynamics","difficulty":"Medium",
+ "question":"According to Newton's third law, when object A exerts a force on object B, object B:",
+ "options":{"A":"Exerts a smaller force in the same direction","B":"Exerts an equal and opposite force on A","C":"Accelerates only if A is stationary","D":"Exerts no force on A"},"answer":"B"},
+{"id":133,"subject":"Physics","topic":"Dynamics","difficulty":"Hard",
+ "question":"A block of mass 5 kg rests on a horizontal surface with a coefficient of friction of 0.2. Taking g = 10 m/s^2, what is the minimum horizontal force needed to just start moving the block?",
+ "options":{"A":"10 N","B":"50 N","C":"1 N","D":"5 N"},"answer":"A"},
+{"id":134,"subject":"Physics","topic":"Work, Energy & Power","difficulty":"Easy",
+ "question":"Work done is defined as:",
+ "options":{"A":"Force divided by displacement","B":"Mass times velocity","C":"Force multiplied by displacement in the direction of the force","D":"Force multiplied by time"},"answer":"C"},
+{"id":135,"subject":"Physics","topic":"Work, Energy & Power","difficulty":"Medium",
+ "question":"A 2 kg object moving at 3 m/s has kinetic energy of:",
+ "options":{"A":"9 J","B":"6 J","C":"18 J","D":"3 J"},"answer":"A"},
+{"id":136,"subject":"Physics","topic":"Work, Energy & Power","difficulty":"Medium",
+ "question":"By the work-energy theorem, the net work done on an object equals its:",
+ "options":{"A":"Change in momentum","B":"Total potential energy","C":"Change in kinetic energy","D":"Change in mass"},"answer":"C"},
+{"id":137,"subject":"Physics","topic":"Work, Energy & Power","difficulty":"Hard",
+ "question":"A machine does 500 J of work in 5 seconds. What is its power output?",
+ "options":{"A":"100 W","B":"50 W","C":"2500 W","D":"250 W"},"answer":"A"},
+{"id":138,"subject":"Physics","topic":"Circular Motion & Gravitation","difficulty":"Easy",
+ "question":"The force that keeps an object moving in a circular path directed toward the center is called:",
+ "options":{"A":"Normal force","B":"Centripetal force","C":"Centrifugal force","D":"Frictional force"},"answer":"B"},
+{"id":139,"subject":"Physics","topic":"Circular Motion & Gravitation","difficulty":"Medium",
+ "question":"According to Newton's law of universal gravitation, if the distance between two masses is doubled, the gravitational force between them becomes:",
+ "options":{"A":"Four times","B":"One quarter","C":"Half","D":"Double"},"answer":"B"},
+{"id":140,"subject":"Physics","topic":"Circular Motion & Gravitation","difficulty":"Hard",
+ "question":"A satellite orbits Earth in a circular orbit. As its orbital radius increases, its orbital speed:",
+ "options":{"A":"Becomes zero","B":"Increases","C":"Decreases","D":"Remains the same regardless of radius"},"answer":"C"},
+{"id":141,"subject":"Physics","topic":"Fluid Mechanics","difficulty":"Easy",
+ "question":"Pressure is defined as:",
+ "options":{"A":"Force per unit area","B":"Force per unit volume","C":"Mass per unit volume","D":"Force per unit time"},"answer":"A"},
+{"id":142,"subject":"Physics","topic":"Fluid Mechanics","difficulty":"Medium",
+ "question":"According to Archimedes' principle, the buoyant force on a submerged object equals:",
+ "options":{"A":"The volume of the object","B":"The density of the fluid alone","C":"The weight of the fluid displaced by the object","D":"The weight of the object itself"},"answer":"C"},
+{"id":143,"subject":"Physics","topic":"Fluid Mechanics","difficulty":"Hard",
+ "question":"According to Bernoulli's principle, as the speed of a flowing fluid increases in a horizontal pipe, its pressure:",
+ "options":{"A":"Increases","B":"Becomes zero","C":"Stays the same","D":"Decreases"},"answer":"D"},
+{"id":144,"subject":"Physics","topic":"Oscillations & Waves","difficulty":"Easy",
+ "question":"The time taken to complete one full oscillation of a simple pendulum is called its:",
+ "options":{"A":"Wavelength","B":"Amplitude","C":"Frequency","D":"Period"},"answer":"D"},
+{"id":145,"subject":"Physics","topic":"Oscillations & Waves","difficulty":"Medium",
+ "question":"If the length of a simple pendulum is quadrupled, its period of oscillation becomes:",
+ "options":{"A":"Half as long","B":"Twice as long","C":"Four times as long","D":"Unchanged"},"answer":"B"},
+{"id":146,"subject":"Physics","topic":"Oscillations & Waves","difficulty":"Medium",
+ "question":"A wave has a frequency of 5 Hz and a wavelength of 2 m. What is its speed?",
+ "options":{"A":"7 m/s","B":"2.5 m/s","C":"20 m/s","D":"10 m/s"},"answer":"D"},
+{"id":147,"subject":"Physics","topic":"Oscillations & Waves","difficulty":"Hard",
+ "question":"Sound waves cannot travel through a vacuum because they are:",
+ "options":{"A":"Mechanical waves that require a material medium to propagate","B":"Electromagnetic waves that need charged particles","C":"Transverse waves that need a solid medium only","D":"Too weak to travel any distance"},"answer":"A"},
+{"id":148,"subject":"Physics","topic":"Thermodynamics","difficulty":"Easy",
+ "question":"Heat naturally flows from:",
+ "options":{"A":"A colder body to a hotter body spontaneously","B":"Bodies at the same temperature only","C":"Nowhere, heat does not flow","D":"A hotter body to a colder body"},"answer":"D"},
+{"id":149,"subject":"Physics","topic":"Thermodynamics","difficulty":"Medium",
+ "question":"The first law of thermodynamics is fundamentally a statement of:",
+ "options":{"A":"Conservation of momentum","B":"Conservation of energy","C":"Increase of entropy","D":"Conservation of mass only"},"answer":"B"},
+{"id":150,"subject":"Physics","topic":"Thermodynamics","difficulty":"Hard",
+ "question":"An amount of 500 J of heat is supplied to a gas, and the gas does 200 J of work on its surroundings. According to the first law of thermodynamics, the change in internal energy of the gas is:",
+ "options":{"A":"200 J","B":"700 J","C":"500 J","D":"300 J"},"answer":"D"},
+{"id":151,"subject":"Physics","topic":"Electrostatics","difficulty":"Easy",
+ "question":"Like electric charges:",
+ "options":{"A":"Repel each other","B":"Attract each other","C":"Have no interaction","D":"Always cancel out"},"answer":"A"},
+{"id":152,"subject":"Physics","topic":"Electrostatics","difficulty":"Medium",
+ "question":"According to Coulomb's law, if the distance between two point charges is tripled, the electrostatic force between them becomes:",
+ "options":{"A":"One ninth","B":"Three times","C":"One third","D":"Nine times"},"answer":"A"},
+{"id":153,"subject":"Physics","topic":"Current Electricity","difficulty":"Easy",
+ "question":"According to Ohm's law, the current through a conductor is directly proportional to the voltage across it, provided:",
+ "options":{"A":"Current flows in alternating direction only","B":"Temperature and other physical conditions remain constant","C":"The conductor is a semiconductor","D":"The resistance changes proportionally with voltage"},"answer":"B"},
+{"id":154,"subject":"Physics","topic":"Current Electricity","difficulty":"Medium",
+ "question":"In the circuit shown, R2 and R3 are connected in parallel with each other, and this combination is connected in series with R1. What is the total resistance of the circuit?",
+ "image":"images/q_circuit_diagram.png",
+ "options":{"A":"3 Ω","B":"7 Ω","C":"10 Ω","D":"16 Ω"},"answer":"B"},
+{"id":155,"subject":"Physics","topic":"Current Electricity","difficulty":"Hard",
+ "question":"Two resistors of 4 ohm and 4 ohm are connected in parallel. What is the equivalent resistance?",
+ "options":{"A":"4 ohm","B":"8 ohm","C":"2 ohm","D":"1 ohm"},"answer":"C"},
+{"id":156,"subject":"Physics","topic":"Current Electricity","difficulty":"Medium",
+ "question":"A device operating at 220 V draws a current of 2 A. What is its power consumption?",
+ "options":{"A":"110 W","B":"440 W","C":"220 W","D":"880 W"},"answer":"B"},
+{"id":157,"subject":"Physics","topic":"Electromagnetism","difficulty":"Medium",
+ "question":"A current-carrying conductor placed in a magnetic field experiences a force whose direction is given by:",
+ "options":{"A":"Ohm's law","B":"Lenz's law only","C":"Fleming's left-hand rule","D":"Fleming's right-hand rule"},"answer":"C"},
+{"id":158,"subject":"Physics","topic":"Electromagnetism","difficulty":"Hard",
+ "question":"According to Lenz's law, the direction of an induced current in a coil due to a changing magnetic flux is such that it:",
+ "options":{"A":"Aids the change in flux that produced it","B":"Is always in the same direction regardless of flux change","C":"Has no relation to the change in flux","D":"Opposes the change in flux that produced it"},"answer":"D"},
+{"id":159,"subject":"Physics","topic":"Modern Physics","difficulty":"Easy",
+ "question":"The nucleus of an atom is composed of:",
+ "options":{"A":"Electrons only","B":"Protons and neutrons","C":"Neutrons and electrons","D":"Protons and electrons"},"answer":"B"},
+{"id":160,"subject":"Physics","topic":"Modern Physics","difficulty":"Medium",
+ "question":"In radioactive alpha decay, the emitted alpha particle consists of:",
+ "options":{"A":"A single electron","B":"A photon of high energy","C":"A single neutron","D":"2 protons and 2 neutrons (equivalent to a helium nucleus)"},"answer":"D"},
+{"id":161,"subject":"Physics","topic":"Modern Physics","difficulty":"Hard",
+ "question":"A radioactive sample has a half-life of 4 days. What fraction of the original sample remains after 12 days?",
+ "options":{"A":"1/2","B":"1/16","C":"1/4","D":"1/8"},"answer":"D"},
+{"id":162,"subject":"Physics","topic":"Optics","difficulty":"Medium",
+ "question":"The ray diagram shows an object placed at 2F in front of a convex lens. Based on the diagram, what are the characteristics of the image formed?",
+ "image":"images/q_lens_diagram.png",
+ "options":{"A":"Virtual, upright, and magnified","B":"Real, inverted, same size as the object, formed at 2F on the other side","C":"Real, upright, and diminished","D":"Virtual, inverted, and same size as the object"},"answer":"B"},
+
+# ============================================================
+# ENGLISH (9 questions) - id 163-171
+# ============================================================
+
+{"id":163,"subject":"English","topic":"Synonyms","difficulty":"Easy",
+ "question":"Choose the word most nearly similar in meaning to 'ABUNDANT':",
+ "options":{"A":"Scarce","B":"Fragile","C":"Plentiful","D":"Hidden"},"answer":"C"},
+{"id":164,"subject":"English","topic":"Antonyms","difficulty":"Easy",
+ "question":"Choose the word most nearly opposite in meaning to 'BENEVOLENT':",
+ "options":{"A":"Generous","B":"Malevolent","C":"Kind","D":"Cheerful"},"answer":"B"},
+{"id":165,"subject":"English","topic":"Grammar","difficulty":"Easy",
+ "question":"Choose the correctly punctuated/grammatical sentence:",
+ "options":{"A":"Neither of the boys are present.","B":"Neither of the boys was present.","C":"Neither of the boys were present.","D":"Neither of the boy was present."},"answer":"B"},
+{"id":166,"subject":"English","topic":"Grammar","difficulty":"Medium",
+ "question":"Identify the correct sentence:",
+ "options":{"A":"She has been working here for five years.","B":"She has been working here since five years.","C":"She works here since five years.","D":"She is working here since five years."},"answer":"A"},
+{"id":167,"subject":"English","topic":"Sentence Correction","difficulty":"Medium",
+ "question":"Choose the sentence that is grammatically correct:",
+ "options":{"A":"Each of the students has submitted his or her assignment.","B":"Each of the student have submitted their assignment.","C":"Each of the students submit their assignment yesterday.","D":"Each of the students have submitted their assignment."},"answer":"A"},
+{"id":168,"subject":"English","topic":"Vocabulary","difficulty":"Medium",
+ "question":"Choose the word that best completes the sentence: 'The scientist's theory was so ______ that few could understand it.'",
+ "options":{"A":"Esoteric","B":"Simple","C":"Trivial","D":"Obvious"},"answer":"A"},
+{"id":169,"subject":"English","topic":"Idioms","difficulty":"Medium",
+ "question":"Choose the meaning closest to the idiom 'to turn a blind eye to something':",
+ "options":{"A":"To lose one's eyesight suddenly","B":"To become extremely angry","C":"To deliberately ignore or overlook something","D":"To examine something very carefully"},"answer":"C"},
+{"id":170,"subject":"English","topic":"Sentence Correction","difficulty":"Hard",
+ "question":"Choose the option that best corrects the underlined error: 'Not only he is intelligent but also hardworking.'",
+ "options":{"A":"He is not only intelligent but also hardworking he is.","B":"Not only intelligent he is but also hardworking.","C":"Not only he is intelligent but also he is hardworking.","D":"Not only is he intelligent but also hardworking."},"answer":"D"},
+{"id":171,"subject":"English","topic":"Prepositions","difficulty":"Hard",
+ "question":"Choose the correct preposition to complete the sentence: 'The committee is comprised ______ ten members from different departments.'",
+ "options":{"A":"of","B":"in","C":"with","D":"by"},"answer":"A"},
+
+# ============================================================
+# LOGICAL REASONING (9 questions) - id 172-180
+# ============================================================
+
+{"id":172,"subject":"Logical Reasoning","topic":"Number Series","difficulty":"Easy",
+ "question":"Find the next number in the series: 2, 4, 8, 16, ?",
+ "options":{"A":"36","B":"24","C":"30","D":"32"},"answer":"D"},
+{"id":173,"subject":"Logical Reasoning","topic":"Number Series","difficulty":"Easy",
+ "question":"Find the missing number: 5, 10, 15, 20, ?",
+ "options":{"A":"25","B":"22","C":"30","D":"24"},"answer":"A"},
+{"id":174,"subject":"Logical Reasoning","topic":"Analogies","difficulty":"Easy",
+ "question":"Doctor is to Hospital as Teacher is to:",
+ "options":{"A":"School","B":"Student","C":"Book","D":"Chalk"},"answer":"A"},
+{"id":175,"subject":"Logical Reasoning","topic":"Analogies","difficulty":"Medium",
+ "question":"Pen is to Write as Knife is to:",
+ "options":{"A":"Sharp","B":"Cut","C":"Kitchen","D":"Metal"},"answer":"B"},
+{"id":176,"subject":"Logical Reasoning","topic":"Blood Relations","difficulty":"Medium",
+ "question":"Pointing to a photograph, Ali says, 'She is the daughter of my grandfather's only son.' How is the girl in the photograph related to Ali?",
+ "options":{"A":"Cousin","B":"Sister","C":"Niece","D":"Daughter"},"answer":"B"},
+{"id":177,"subject":"Logical Reasoning","topic":"Coding-Decoding","difficulty":"Medium",
+ "question":"If in a certain code, CAT is written as DBU, how is DOG written in the same code?",
+ "options":{"A":"CPH","B":"EPH","C":"EPI","D":"EOG"},"answer":"B"},
+{"id":178,"subject":"Logical Reasoning","topic":"Syllogism","difficulty":"Hard",
+ "question":"All roses are flowers. Some flowers fade quickly. Which conclusion logically follows?",
+ "options":{"A":"No definite conclusion can be drawn about roses fading quickly","B":"Some roses fade quickly","C":"All roses fade quickly","D":"No flowers are roses"},"answer":"A"},
+{"id":179,"subject":"Logical Reasoning","topic":"Pattern Recognition","difficulty":"Hard",
+ "question":"Find the next term in the series: 1, 4, 9, 16, 25, ?",
+ "options":{"A":"36","B":"49","C":"32","D":"30"},"answer":"A"},
+{"id":180,"subject":"Logical Reasoning","topic":"Direction Sense","difficulty":"Medium",
+ "question":"A man walks 5 km north, then turns right and walks 3 km, then turns right again and walks 5 km. How far is he from his starting point?",
+ "options":{"A":"8 km","B":"13 km","C":"5 km","D":"3 km"},"answer":"D"},
+]
+
+
+# ------------------------------------------------------------
+# Sanity-check / summary utility
+# ------------------------------------------------------------
+def summarize(questions):
+    from collections import Counter
+    subj = Counter(q["subject"] for q in questions)
+    diff = Counter(q["difficulty"] for q in questions)
+    ans = Counter(q["answer"] for q in questions)
+    ids = [q["id"] for q in questions]
+    dup_ids = [i for i in set(ids) if ids.count(i) > 1]
+    dup_q = [q["question"] for q in questions]
+    dup_questions = [t for t in set(dup_q) if dup_q.count(t) > 1]
+    images = [q for q in questions if "image" in q]
+
+    print(f"Total questions: {len(questions)}")
+    print("\nBy subject:")
+    for s, c in subj.items():
+        print(f"  {s}: {c}")
+    print("\nBy difficulty:")
+    for d, c in diff.items():
+        print(f"  {d}: {c}")
+    print("\nBy correct-answer letter (should be balanced, ~45 each):")
+    for L in ["A", "B", "C", "D"]:
+        print(f"  {L}: {ans[L]}")
+    print(f"\nDuplicate IDs: {dup_ids if dup_ids else 'None'}")
+    print(f"Duplicate question text: {dup_questions if dup_questions else 'None'}")
+    print(f"\nImage-based questions ({len(images)}):")
+    for q in images:
+        print(f"  Q{q['id']} [{q['subject']}] -> {q['image']}")
+
+    for q in questions:
+        assert set(q["options"].keys()) == {"A", "B", "C", "D"}, f"Q{q['id']} missing an option"
+        assert q["answer"] in q["options"], f"Q{q['id']} answer key invalid"
+    print("\nAll questions have exactly 4 options (A-D) and a valid answer key. OK.")
+
+
+def print_answer_key(questions):
+    print("\nANSWER KEY")
+    print("-" * 40)
+    for q in questions:
+        print(f"{q['id']:>3}. {q['answer']}", end="   ")
+        if q["id"] % 10 == 0:
+            print()
+    print()
+
+
+if __name__ == "__main__":
+    summarize(QUESTIONS)
+    print_answer_key(QUESTIONS)
