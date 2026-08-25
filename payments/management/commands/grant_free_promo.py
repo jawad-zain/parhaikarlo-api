@@ -1,28 +1,15 @@
-import re
-
 from django.core.management.base import BaseCommand
-from django.db import transaction
-from django.utils import timezone
+from django.contrib.auth import get_user_model
 
 from accounts.models import is_guest
 from content.models import Exam
-from payments.models import Subscription, SubscriptionPlan
-
-
-PROMO_PLAN_NAME = 'Free Promo - First 30'
-
-# Matches the throwaway QA/test accounts this project accumulates in every
-# env (test@example.com, qa-test-*, claimtest_*, pwtest3_*, verify_*,
-# test+mobile...@example.com, anything @example.com, etc.) so a promo run
-# doesn't burn free slots on them instead of real students.
-TEST_EMAIL_PATTERN = re.compile(
-    r'(^test[+.@]|[+.]test|@example\.com$|^(qa|pwtest|claimtest|claimflow|verify)[-_])',
-    re.IGNORECASE,
+from payments.models import has_active_subscription
+from payments.services import (
+    PROMO_DURATION_DAYS,
+    PROMO_SLOT_COUNT,
+    grant_free_promo_if_eligible,
+    looks_like_test_email,
 )
-
-
-def looks_like_test_email(email):
-    return bool(TEST_EMAIL_PATTERN.search(email or ''))
 
 
 class Command(BaseCommand):
@@ -31,8 +18,10 @@ class Command(BaseCommand):
         "(non-guest) signups for an exam, so they get the same access as a "
         "paid subscriber without going through payments. Idempotent — "
         "re-running only tops up users who don't already hold an active "
-        "subscription, and never grants a second promo subscription to "
-        "someone who already has one."
+        "subscription. This is the manual safety net for the automatic "
+        "grant that runs at signup (see payments.services) — use it to "
+        "catch anyone the automatic path missed (e.g. it errored, or was "
+        "deployed after they signed up)."
     )
 
     def add_arguments(self, parser):
@@ -41,12 +30,12 @@ class Command(BaseCommand):
             help="Exam name to grant access to (default: MDCAT).",
         )
         parser.add_argument(
-            '--count', type=int, default=30,
-            help="How many of the earliest signups to grant (default: 30).",
+            '--count', type=int, default=PROMO_SLOT_COUNT,
+            help=f"How many of the earliest signups to grant (default: {PROMO_SLOT_COUNT}).",
         )
         parser.add_argument(
-            '--duration-days', type=int, default=90,
-            help="Length of the free subscription in days (default: 90, "
+            '--duration-days', type=int, default=PROMO_DURATION_DAYS,
+            help=f"Length of the free subscription in days (default: {PROMO_DURATION_DAYS}, "
                  "matching the paid 3-month plan).",
         )
         parser.add_argument(
@@ -69,81 +58,52 @@ class Command(BaseCommand):
         count = opts['count']
         duration_days = opts['duration_days']
 
-        plan, created = SubscriptionPlan.objects.get_or_create(
-            exam=exam,
-            name=PROMO_PLAN_NAME,
-            defaults={
-                'duration_days': duration_days,
-                'price': 0,
-                # Never shown on the public upgrade screen (SubscriptionPlanListView
-                # filters on is_active=True) — this plan exists only so promo
-                # subscriptions have somewhere to point.
-                'is_active': False,
-            },
-        )
-        if created:
-            self.stdout.write(self.style.SUCCESS(f'Created promo plan {plan!r}.'))
-
-        # Real signups only — guests (accounts.models.is_guest) are throwaway
-        # rows created to let a visitor start a free paper without signing up,
-        # not students who "signed up".
-        from django.contrib.auth import get_user_model
         User = get_user_model()
         candidates = User.objects.filter(profile__primary_exam=exam).order_by('date_joined')
         real_signups = [u for u in candidates if not is_guest(u)]
 
         excluded_test = []
         if not opts['include_test_emails']:
-            filtered = []
+            filtered, excluded_test = [], []
             for u in real_signups:
-                if looks_like_test_email(u.email):
-                    excluded_test.append(u)
-                else:
-                    filtered.append(u)
+                (excluded_test if looks_like_test_email(u.email) else filtered).append(u)
             real_signups = filtered
-
-        real_signups = real_signups[:count]
 
         if excluded_test:
             self.stdout.write(f'Excluded {len(excluded_test)} test/QA-looking account(s):')
             for u in excluded_test:
                 self.stdout.write(f'  SKIP   {u.email or u.username}  (looks like a test account)')
 
+        # Same "first N" ordering as the automatic grant would apply, so a
+        # dry run here previews exactly what running for real would do.
+        real_signups = real_signups[:count]
         self.stdout.write(f'{len(real_signups)} of the first {count} real signups for {exam.name}:')
 
-        granted, skipped = [], []
-        now = timezone.now()
-        for user in real_signups:
-            already_active = user.subscriptions.filter(
-                plan__exam=exam,
-                status='active',
-                expires_at__gt=now,
-            ).exists()
-            if already_active:
-                skipped.append(user)
-                continue
-            granted.append(user)
-
-        for user in granted:
-            self.stdout.write(f'  GRANT  {user.email or user.username}')
-        for user in skipped:
-            self.stdout.write(f'  SKIP   {user.email or user.username}  (already has an active subscription)')
-
         if opts['dry_run']:
-            self.stdout.write(self.style.WARNING('Dry run — nothing written.'))
+            already_covered = 0
+            for user in real_signups:
+                if has_active_subscription(user, exam):
+                    self.stdout.write(f'  SKIP   {user.email or user.username}  (already has an active subscription)')
+                    already_covered += 1
+                else:
+                    self.stdout.write(f'  GRANT  {user.email or user.username}')
+            self.stdout.write(self.style.WARNING(
+                f'Dry run — nothing written. Would grant '
+                f'{len(real_signups) - already_covered}, skip {already_covered} already-covered.'
+            ))
             return
 
-        with transaction.atomic():
-            for user in granted:
-                Subscription.objects.create(
-                    user=user,
-                    plan=plan,
-                    starts_at=now,
-                    expires_at=now + timezone.timedelta(days=duration_days),
-                    status='active',
-                )
+        granted, skipped = [], []
+        for user in real_signups:
+            sub = grant_free_promo_if_eligible(user, exam, count=count, duration_days=duration_days)
+            if sub is not None:
+                granted.append(user)
+                self.stdout.write(f'  GRANT  {user.email or user.username}')
+            else:
+                skipped.append(user)
+                self.stdout.write(f'  SKIP   {user.email or user.username}  (already covered, or slots exhausted)')
 
         self.stdout.write(self.style.SUCCESS(
             f'Granted free {duration_days}-day access to {len(granted)} student(s); '
-            f'{len(skipped)} already covered.'
+            f'{len(skipped)} skipped.'
         ))

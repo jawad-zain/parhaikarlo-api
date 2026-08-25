@@ -11,6 +11,8 @@ from rest_framework.views import APIView
 from rest_framework_simplejwt.tokens import RefreshToken
 from rest_framework_simplejwt.views import TokenObtainPairView
 
+from payments.services import grant_free_promo_if_eligible_silently
+
 from .models import is_guest
 from .serializers import (
     ClaimAccountSerializer,
@@ -58,6 +60,10 @@ class ClaimAccountView(APIView):
         serializer = ClaimAccountSerializer(data=request.data, context={'request': request})
         serializer.is_valid(raise_exception=True)
         user = serializer.save()
+
+        # First-30 free promo — see payments.services. Silent: must never
+        # block account claiming if it fails.
+        grant_free_promo_if_eligible_silently(user, user.profile.primary_exam)
 
         refresh = RefreshToken.for_user(user)
         refresh['email'] = user.email
@@ -124,7 +130,12 @@ class MeView(APIView):
                 data=request.data, context={'request': request},
             )
             serializer.is_valid(raise_exception=True)
-            serializer.save()
+            new_profile = serializer.save()
+
+            # First-30 free promo — see payments.services. Silent: must
+            # never block profile completion if it fails.
+            grant_free_promo_if_eligible_silently(request.user, new_profile.primary_exam)
+
             return Response(UserMeSerializer(request.user).data)
 
         serializer = StudentProfileUpdateSerializer(
