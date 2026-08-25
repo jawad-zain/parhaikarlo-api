@@ -10,9 +10,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 GROQ_API_KEY = config('GROQ_API_KEY')
 SECRET_KEY = config('SECRET_KEY')
 
-DEBUG = True
+DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = config(
+    'ALLOWED_HOSTS',
+    default='localhost,127.0.0.1',
+    cast=lambda v: [h.strip() for h in v.split(',') if h.strip()],
+)
 
 
 INSTALLED_APPS = [
@@ -176,11 +180,11 @@ SOCIALACCOUNT_PROVIDERS = {
 }
 
 # --- CORS ---
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "http://127.0.0.1:3000",
-    "https://parhaikarlo-web.vercel.app",
-]
+CORS_ALLOWED_ORIGINS = config(
+    'CORS_ALLOWED_ORIGINS',
+    default='http://localhost:3000,http://127.0.0.1:3000,https://parhaikarlo-web.vercel.app',
+    cast=lambda v: [o.strip() for o in v.split(',') if o.strip()],
+)
 CORS_ALLOW_CREDENTIALS = True
 
 # --- dj-rest-auth: use JWT, not session cookies ---
