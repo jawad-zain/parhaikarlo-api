@@ -52,7 +52,13 @@ Return exactly this structure:
 {{
     "short": "A very short explanation of why the correct answer is correct.",
     "long": "A simple but slightly more detailed explanation.",
-    "trick": "A short and easy memory trick."
+    "trick": "A short and easy memory trick.",
+    "options": {{
+        "a": "One sentence on why option A is correct or incorrect.",
+        "b": "One sentence on why option B is correct or incorrect.",
+        "c": "One sentence on why option C is correct or incorrect.",
+        "d": "One sentence on why option D is correct or incorrect."
+    }}
 }}
 """
 
@@ -74,12 +80,14 @@ Return exactly this structure:
     question.explanation_short = result["short"]
     question.explanation_long = result["long"]
     question.explanation_trick = result["trick"]
+    question.explanation_options = result["options"]
     question.explanation_generated_at = timezone.now()
     question.save(
         update_fields=[
             "explanation_short",
             "explanation_long",
             "explanation_trick",
+            "explanation_options",
             "explanation_generated_at",
             "updated_at",
         ]
