@@ -23,7 +23,7 @@ mt, created = MockTest.objects.get_or_create(
     exam=exam,
     name="MDCAT Mock 5",
     kind="full",
-    defaults={"duration_minutes": 210, "total_questions": 180, "is_free": True},
+    defaults={"duration_minutes": 180, "total_questions": 180, "is_free": True},
 )
 print(f"MockTest {'created' if created else 'reused'}: id={mt.id}")
 
