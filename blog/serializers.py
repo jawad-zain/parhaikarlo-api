@@ -10,6 +10,7 @@ class PostListSerializer(serializers.ModelSerializer):
         fields = [
             'id', 'title', 'slug', 'post_type', 'excerpt',
             'cover_image_url', 'author_name', 'is_pinned', 'published_at',
+            'updated_at',
         ]
 
 
@@ -19,4 +20,5 @@ class PostDetailSerializer(serializers.ModelSerializer):
         fields = [
             'id', 'title', 'slug', 'post_type', 'excerpt', 'body',
             'cover_image_url', 'author_name', 'is_pinned', 'published_at',
+            'updated_at',
         ]
