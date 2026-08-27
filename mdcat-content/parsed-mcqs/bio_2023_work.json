@@ -1,0 +1,596 @@
+[
+ {
+  "id": 375,
+  "q": "According to evolutionary studies, prokaryotes may have arisen around:",
+  "a": "2.5 billion years ago",
+  "b": "3.5 billion years ago",
+  "c": "4.5 billion years ago",
+  "d": "5.5 billion years ago",
+  "ans": "B"
+ },
+ {
+  "id": 376,
+  "q": "The enzyme which can work on pH 7 of the medium is:",
+  "a": "Pepsin",
+  "b": "Sucrase",
+  "c": "Chymotrypsin",
+  "d": "Pancreatic lipase",
+  "ans": "B"
+ },
+ {
+  "id": 377,
+  "q": "Which enzyme is different from others?",
+  "a": "Pepsin",
+  "b": "Trypsin",
+  "c": "Chymotrypsin",
+  "d": "Lactase",
+  "ans": "D"
+ },
+ {
+  "id": 378,
+  "q": "Competitive inhibitors are:",
+  "a": "Homologous to substrate",
+  "b": "Analogous to substrate",
+  "c": "Smaller than substrate",
+  "d": "Larger than substrate",
+  "ans": "B"
+ },
+ {
+  "id": 379,
+  "q": "The active sites of enzymes are composed of:",
+  "a": "Few Nucleotides",
+  "b": "Few Nucleosides",
+  "c": "Few Saccharides",
+  "d": "Few Amino Acids",
+  "ans": "D"
+ },
+ {
+  "id": 380,
+  "q": "NAD is an important:",
+  "a": "Enzyme",
+  "b": "Coenzyme",
+  "c": "Hormone",
+  "d": "Vitamin",
+  "ans": "B"
+ },
+ {
+  "id": 381,
+  "q": "What is true about Oxytocin?",
+  "a": "Acts on kidney tubules",
+  "b": "Stimulates ICSH",
+  "c": "Performs cellular functions",
+  "d": "Dilates milk ducts of mammary glands MDCAT 2023 — Paper D Page 1",
+  "ans": "D"
+ },
+ {
+  "id": 382,
+  "q": "In a typical nerve, the action potential duration is:",
+  "a": "1 millisecond",
+  "b": "1 microsecond",
+  "c": "1 second",
+  "d": "1 minute",
+  "ans": "A"
+ },
+ {
+  "id": 383,
+  "q": "During resting membrane potential condition:",
+  "a": "Outer surface of neuron is more positive",
+  "b": "Inner surface of neuron is more positive",
+  "c": "Both surfaces are equally positive",
+  "d": "Both surfaces are equally negative",
+  "ans": "A"
+ },
+ {
+  "id": 384,
+  "q": "The value of active membrane potential of the neuron is:",
+  "a": "0.01 V",
+  "b": "0.02 V",
+  "c": "0.05 V",
+  "d": "0.07 V",
+  "ans": "D"
+ },
+ {
+  "id": 385,
+  "q": "The chemical messengers that transmit action potential across the synapse are:",
+  "a": "Synaptic knob of synapse",
+  "b": "Reflex actions",
+  "c": "Neurotransmitters",
+  "d": "Acetylcholinesterase",
+  "ans": "C"
+ },
+ {
+  "id": 386,
+  "q": "The pressure receptors that receive deep pressure stimulus in human body are called:",
+  "a": "Meissner Corpuscles",
+  "b": "Pacinian Corpuscles",
+  "c": "Red Blood Corpuscles",
+  "d": "Cholesterol",
+  "ans": "B"
+ },
+ {
+  "id": 387,
+  "q": "Cells of different types can be distinguished on the basis of surface:",
+  "a": "Phospholipids",
+  "b": "Globular proteins",
+  "c": "Glycolipids and glycoproteins",
+  "d": "Cholesterol",
+  "ans": "C"
+ },
+ {
+  "id": 388,
+  "q": "Mitosis, a type of cell division, is observed in:",
+  "a": "E. coli",
+  "b": "Nostoc",
+  "c": "Blue green algae",
+  "d": "Amoeba",
+  "ans": "D"
+ },
+ {
+  "id": 389,
+  "q": "Which of the following types of organs are supposed to be functional in ancestral species rather than in present day species?",
+  "a": "Vestigial organs",
+  "b": "Homologous organs",
+  "c": "Analogous organs",
+  "d": "Embryonic organs",
+  "ans": "A"
+ },
+ {
+  "id": 390,
+  "q": "Which of the following is the main point of Darwinism?",
+  "a": "Over production",
+  "b": "Variation",
+  "c": "Disuse of organ",
+  "d": "Perceived unity of life MDCAT 2023 — Paper D Page 2",
+  "ans": "A"
+ },
+ {
+  "id": 391,
+  "q": "Descending aorta is bifurcated into two vessels which on further division from femoral artery supply blood to high muscles of legs:",
+  "a": "Iliac vein",
+  "b": "Iliac artery",
+  "c": "Temporal artery",
+  "d": "Sciatic artery",
+  "ans": "B"
+ },
+ {
+  "id": 392,
+  "q": "The final destination of lymph is:",
+  "a": "Lymph node",
+  "b": "Lymphoid organs",
+  "c": "Lymph capillaries",
+  "d": "Subclavian vein",
+  "ans": "D"
+ },
+ {
+  "id": 393,
+  "q": "ABO blood group is controlled by more than two alleles in a population. This shows that ABO blood group is an example of:",
+  "a": "Polygenic Inheritance",
+  "b": "Multiple Alleles",
+  "c": "Operons",
+  "d": "Allelic interaction",
+  "ans": "B"
+ },
+ {
+  "id": 394,
+  "q": "According to Mendel's Law of Segregation, the one individual out of four in F generation had a phenotype that failed to express in _____ generation.",
+  "a": "F 1",
+  "b": "F 2",
+  "c": "F 3",
+  "d": "P 1",
+  "ans": "A"
+ },
+ {
+  "id": 395,
+  "q": "Test cross is made to check the genotype of a trait. Which of the following crosses is a test cross?",
+  "a": "Unknown × At",
+  "b": "Unknown × tt",
+  "c": "Unknown × AB",
+  "d": "Unknown × TT",
+  "ans": "B"
+ },
+ {
+  "id": 396,
+  "q": "During sliding of actin filaments, ATP is used for:",
+  "a": "Cross bridge formation",
+  "b": "Cross bridge breaking",
+  "c": "Dragging filaments",
+  "d": "Shortening of filaments",
+  "ans": "B"
+ },
+ {
+  "id": 397,
+  "q": "The cell membrane of muscle cell is:",
+  "a": "Sarcoplasm",
+  "b": "Sarcolemma",
+  "c": "Sarcomere",
+  "d": "Myofibrils",
+  "ans": "B"
+ },
+ {
+  "id": 398,
+  "q": "Irregular striations and involuntary control is related to:",
+  "a": "Cardiac muscle cells",
+  "b": "Fibroelastic cartilage cell",
+  "c": "Skeletal muscle cells",
+  "d": "Smooth muscle cells",
+  "ans": "A"
+ },
+ {
+  "id": 399,
+  "q": "Cartilage is a type of which tissue?",
+  "a": "Connective tissues",
+  "b": "Epithelial tissues",
+  "c": "Muscular tissues",
+  "d": "Nervous tissues MDCAT 2023 — Paper D Page 3",
+  "ans": "A"
+ },
+ {
+  "id": 400,
+  "q": "Production of Follicle-stimulating hormone (FSH) and Luteinizing Hormone (LH) from the pituitary gland of female is controlled by:",
+  "a": "Ovary",
+  "b": "Uterus",
+  "c": "Stimulated follicles",
+  "d": "Hypothalamus",
+  "ans": "D"
+ },
+ {
+  "id": 401,
+  "q": "The term menopause means:",
+  "a": "Start of menstruation",
+  "b": "Start of ovulation",
+  "c": "Stop of ova production",
+  "d": "Degeneration of ovaries",
+  "ans": "C"
+ },
+ {
+  "id": 402,
+  "q": "To study sex linkages in Drosophila, Morgan mated white eyed males with wild type red eyed females. What will be the phenotype of offspring?",
+  "a": "All red eyed males and females",
+  "b": "Red eyed females and white eyed males",
+  "c": "White eyed females and red eyed males",
+  "d": "All white eyed females and males",
+  "ans": "A"
+ },
+ {
+  "id": 403,
+  "q": "Enteron is the characteristic feature of:",
+  "a": "Phylum Porifera",
+  "b": "Phylum Cnidaria",
+  "c": "Phylum Plathelminthes",
+  "d": "Phylum Echinodermata",
+  "ans": "B"
+ },
+ {
+  "id": 404,
+  "q": "The body of which is called metamerically segmented?",
+  "a": "Cnidarians",
+  "b": "Nematodes",
+  "c": "Annelids",
+  "d": "Sponges",
+  "ans": "C"
+ },
+ {
+  "id": 405,
+  "q": "Excretion in Planaria takes place by:",
+  "a": "Malpighian tubules",
+  "b": "Protonephridia",
+  "c": "Metanephridia",
+  "d": "Nephron",
+  "ans": "B"
+ },
+ {
+  "id": 406,
+  "q": "Four chambered heart with right systemic arch only is present in:",
+  "a": "Amphibians",
+  "b": "Reptiles",
+  "c": "Birds",
+  "d": "Mammals",
+  "ans": "C"
+ },
+ {
+  "id": 407,
+  "q": "The movement of water to lower solute concentration area through a semipermeable membrane is:",
+  "a": "Osmotic Potential",
+  "b": "Pressure potential",
+  "c": "Soil potential",
+  "d": "Solute potential",
+  "ans": "A"
+ },
+ {
+  "id": 408,
+  "q": "The ______ describes how water and dissolved chemicals are carried through the cell wall and intercellular gaps of plants.",
+  "a": "Apoplast Theory",
+  "b": "Symplast Theory",
+  "c": "Vacuolar Theory",
+  "d": "Cytoplasmic Theory MDCAT 2023 — Paper D Page 4",
+  "ans": "A"
+ },
+ {
+  "id": 409,
+  "q": "Feeding by living in or on the other organism (host) belonging to different species is called:",
+  "a": "Mineral nutrition",
+  "b": "Parasitic nutrition",
+  "c": "Saprophytic nutrition",
+  "d": "Symbiotic nutrition",
+  "ans": "B"
+ },
+ {
+  "id": 410,
+  "q": "Which of the following virus contains single stranded DNA?",
+  "a": "Adeno virus",
+  "b": "Herpes virus",
+  "c": "Parvo virus",
+  "d": "Pox virus",
+  "ans": "C"
+ },
+ {
+  "id": 411,
+  "q": "Which one of the following is X-Linked Dominant Disorder?",
+  "a": "Haemophilia",
+  "b": "Color blindness",
+  "c": "Hypophosphatemic rickets",
+  "d": "Hypertrichosis",
+  "ans": "C"
+ },
+ {
+  "id": 412,
+  "q": "Only those genes can assort independently whose loci are on:",
+  "a": "Same chromatids",
+  "b": "Same chromosomes",
+  "c": "Non-homologous chromosomes",
+  "d": "Homologous chromosomes",
+  "ans": "C"
+ },
+ {
+  "id": 413,
+  "q": "Smooth muscles are found in all mentioned below except:",
+  "a": "Trachea",
+  "b": "Bronchi",
+  "c": "Bronchioles",
+  "d": "Alveoli",
+  "ans": "D"
+ },
+ {
+  "id": 414,
+  "q": "The method of bringing oxygenated air into contact with a gas exchange surface is called:",
+  "a": "Photorespiration",
+  "b": "Ventilation",
+  "c": "Gas transport",
+  "d": "Respiration",
+  "ans": "B"
+ },
+ {
+  "id": 415,
+  "q": "Number of layers of cell wall in Gram positive bacteria is:",
+  "a": "1",
+  "b": "2",
+  "c": "3",
+  "d": "4",
+  "ans": "A"
+ },
+ {
+  "id": 416,
+  "q": "Helicobacter pylori is an example of:",
+  "a": "Cocci",
+  "b": "Bacilli",
+  "c": "Pleomorphic",
+  "d": "Spiral",
+  "ans": "D"
+ },
+ {
+  "id": 417,
+  "q": "Bacterial cell has ability to maintain its shape through:",
+  "a": "Cell wall",
+  "b": "Capsule",
+  "c": "Cell wall & slime",
+  "d": "Slime",
+  "ans": "A"
+ },
+ {
+  "id": 418,
+  "q": "Which of the following is an example of spiral shaped bacteria?",
+  "a": "Diplococcus pneumoniae",
+  "b": "Hyphomicrobium",
+  "c": "Escherichia coli",
+  "d": "Pseudomonas MDCAT 2023 — Paper D Page 5",
+  "ans": "B"
+ },
+ {
+  "id": 419,
+  "q": "All the following are disinfectants to control bacterial growth except:",
+  "a": "Tincture of Iodine",
+  "b": "Potassium Permanganate",
+  "c": "Mercuric Chloride",
+  "d": "Hydrogen Peroxide",
+  "ans": "A"
+ },
+ {
+  "id": 420,
+  "q": "The function of hyaluronidase enzyme is:",
+  "a": "Penetration of the sperm into the ovum",
+  "b": "Entrance of the sperm into the vagina",
+  "c": "Entrance of the sperm into the fallopian tube",
+  "d": "Inactivation of sperms after their failure to fertilize ovum",
+  "ans": "A"
+ },
+ {
+  "id": 421,
+  "q": "In human females, what is the small, pear-shaped, muscular, distensible, sac-like organ where gestation takes place?",
+  "a": "Uterus",
+  "b": "Kidney",
+  "c": "Fallopian tube",
+  "d": "Stomach",
+  "ans": "A"
+ },
+ {
+  "id": 422,
+  "q": "The labour pains to expel fetus are due to action of oxytocin on:",
+  "a": "Endometrium",
+  "b": "Myometrium",
+  "c": "Perimetrium",
+  "d": "Ovaries",
+  "ans": "B"
+ },
+ {
+  "id": 423,
+  "q": "Virus is what type of agent?",
+  "a": "Cellular agent",
+  "b": "Infectious agent",
+  "c": "Non-infectious agent",
+  "d": "Non-protein agent",
+  "ans": "B"
+ },
+ {
+  "id": 424,
+  "q": "The molecules used to control virus during infection of animal cells are:",
+  "a": "Interferon",
+  "b": "Histone",
+  "c": "Antigen",
+  "d": "Serum",
+  "ans": "A"
+ },
+ {
+  "id": 425,
+  "q": "The provirus of HIV is structurally and chemically made up of:",
+  "a": "ssRNA",
+  "b": "ssDNA",
+  "c": "dsRNA",
+  "d": "dsDNA",
+  "ans": "D"
+ },
+ {
+  "id": 426,
+  "q": "Which of the following is used in baking?",
+  "a": "Aerobic respiration",
+  "b": "Anaerobic respiration",
+  "c": "External respiration",
+  "d": "Internal respiration",
+  "ans": "B"
+ },
+ {
+  "id": 427,
+  "q": "Which is the major event in electron transport chain?",
+  "a": "ATP synthesis",
+  "b": "Decarboxylation",
+  "c": "Substitution",
+  "d": "Isomerisation",
+  "ans": "A"
+ },
+ {
+  "id": 428,
+  "q": "Out of 36 ATPs, how many are produced in electron transport chain?",
+  "a": "28",
+  "b": "30",
+  "c": "32",
+  "d": "34 MDCAT 2023 — Paper D Page 6",
+  "ans": "C"
+ },
+ {
+  "id": 429,
+  "q": "The major enzyme involved in transfer of phosphate group from ATP to Glucose is:",
+  "a": "Isomerase",
+  "b": "Dehydrogenase",
+  "c": "Kinase",
+  "d": "Decarboxylase",
+  "ans": "C"
+ },
+ {
+  "id": 430,
+  "q": "______ forms almost three-fourth of the body by weight.",
+  "a": "Water",
+  "b": "Protein",
+  "c": "Carbohydrates",
+  "d": "Lipids",
+  "ans": "A"
+ },
+ {
+  "id": 431,
+  "q": "Energy is ______ by the breakdown of complex molecules into simpler ones, such reactions are called catabolic reactions.",
+  "a": "Released",
+  "b": "Consumed",
+  "c": "Produced",
+  "d": "Destroyed",
+  "ans": "A"
+ },
+ {
+  "id": 432,
+  "q": "Biologically, ______ plays key roles in maintaining the integrity of lipid bilayer membranes.",
+  "a": "Hydrophilic exclusion",
+  "b": "Hydrophobic exclusion",
+  "c": "Heat of vaporization",
+  "d": "Specific heat capacity",
+  "ans": "B"
+ },
+ {
+  "id": 433,
+  "q": "The specific heat of vaporization of water plays an important role in the regulation of heat produced by ______.",
+  "a": "Reduction",
+  "b": "Oxidation",
+  "c": "Redox",
+  "d": "None of above",
+  "ans": "B"
+ },
+ {
+  "id": 434,
+  "q": "Which type of bond must be broken for water to vaporize?",
+  "a": "Nonpolar covalent bonds",
+  "b": "Polar covalent bonds",
+  "c": "Hydrogen bonds",
+  "d": "Covalent bonds",
+  "ans": "C"
+ },
+ {
+  "id": 435,
+  "q": "Which statement is true about regarding both starch and cellulose?",
+  "a": "They are both polymers of glucose",
+  "b": "They are geometric isomers of each other",
+  "c": "They can both be digested by humans",
+  "d": "They are both used for energy storage in plants",
+  "ans": "A"
+ },
+ {
+  "id": 436,
+  "q": "Most of the monosaccharides form a ring structure when in solution. For example, ribose will form a five cornered ring known as ______.",
+  "a": "Glucopyranose",
+  "b": "Ribofuranose",
+  "c": "Glyceraldehyde",
+  "d": "Acetaldehyde",
+  "ans": "B"
+ },
+ {
+  "id": 437,
+  "q": "Cyclosis and amoeboid movements are due to:",
+  "a": "Microtubule",
+  "b": "Cilia",
+  "c": "Microfilaments",
+  "d": "Intermediate filaments",
+  "ans": "C"
+ },
+ {
+  "id": 438,
+  "q": "Proteins and lipids are modified into Glycoproteins & Glycolipids by which cell organelle?",
+  "a": "Golgi complex",
+  "b": "Rough Endoplasmic Reticulum",
+  "c": "Smooth Endoplasmic Reticulum",
+  "d": "Ribosomes & chromosomes",
+  "ans": "A"
+ },
+ {
+  "id": 439,
+  "q": "Which structure of prokaryotic cell will play the role of mitochondrion?",
+  "a": "Spores",
+  "b": "Cyst",
+  "c": "Nucleoid",
+  "d": "Mesosomes",
+  "ans": "D"
+ },
+ {
+  "id": 440,
+  "q": "Cell wall of prokaryotic cell is composed of:",
+  "a": "Carbohydrates",
+  "b": "Carbohydrates & Proteins",
+  "c": "Proteins",
+  "d": "Proteins & Lipids",
+  "ans": "B"
+ }
+]

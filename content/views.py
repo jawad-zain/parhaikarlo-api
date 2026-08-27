@@ -1,3 +1,4 @@
+from django.core.cache import cache
 from django.db.models import Count, Prefetch, Q
 from django.shortcuts import get_object_or_404
 from rest_framework import generics, status
@@ -5,7 +6,7 @@ from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from .models import ConceptNote, Exam, PastPaper, Subject, Topic, Subtopic
+from .models import ConceptNote, Exam, PastPaper, Question, Subject, Topic, Subtopic
 from .serializers import ExamSerializer, PastPaperSerializer
 
 
@@ -55,6 +56,53 @@ class PastPaperListView(generics.ListAPIView):
         return qs
 
 
+class SiteStatsView(APIView):
+    """
+    GET /api/content/stats/
+
+    Platform-wide aggregate counts for the homepage hero — across ALL
+    exams (MDCAT today, NUST/LUMS/FAST as they go live), not hardcoded to
+    one. Sits on the highest-traffic page, so the result is cached for a
+    few minutes rather than recomputed on every load — these numbers only
+    need to be roughly fresh, never second-accurate.
+    """
+    permission_classes = [AllowAny]
+
+    CACHE_KEY = 'content:site_stats'
+    CACHE_TTL = 600  # 10 minutes
+
+    def get(self, request):
+        data = cache.get(self.CACHE_KEY)
+        if data is None:
+            data = self._compute()
+            cache.set(self.CACHE_KEY, data, self.CACHE_TTL)
+        return Response(data)
+
+    def _compute(self):
+        # Imported locally to avoid a content<->quiz import-time coupling —
+        # quiz.models already references content models by string FK, so
+        # this keeps the dependency one-directional.
+        from quiz.models import MockTest
+
+        # An exam counts as "live" once it actually has content a student
+        # can open — at least one active past paper — rather than a manual
+        # flag that could drift from reality.
+        live_exams = list(
+            Exam.objects.filter(is_active=True, past_papers__is_active=True)
+            .distinct()
+            .order_by('name')
+            .values_list('name', flat=True)
+        )
+
+        return {
+            'total_papers': PastPaper.objects.filter(is_active=True).count(),
+            'total_questions': Question.objects.filter(is_active=True).count(),
+            'total_mock_tests': MockTest.objects.filter(is_active=True).count(),
+            'total_subjects': Subject.objects.filter(is_active=True).count(),
+            'live_exams': live_exams,
+        }
+
+
 class SyllabusView(APIView):
     """
     GET /api/content/syllabus/?exam=1
@@ -78,7 +126,13 @@ class SyllabusView(APIView):
 
         subtopic_qs = (
             Subtopic.objects.filter(is_active=True)
-            .annotate(question_count=Count('questions', filter=Q(questions__is_active=True)))
+            .annotate(
+                question_count=Count('questions', filter=Q(questions__is_active=True)),
+                verified_count=Count(
+                    'questions',
+                    filter=Q(questions__is_active=True, questions__is_verified=True),
+                ),
+            )
             .order_by('order', 'name')
         )
 
@@ -107,6 +161,7 @@ class SyllabusView(APIView):
                         'name': st.name,
                         'slug': st.slug,
                         'question_count': st.question_count,
+                        'verified_count': st.verified_count,
                     }
                     for st in topic.subtopics.all()
                 ]
@@ -121,6 +176,7 @@ class SyllabusView(APIView):
                     'name': topic.name,
                     'slug': topic.slug,
                     'question_count': sum(s['question_count'] for s in subtopics),
+                    'verified_count': sum(s['verified_count'] for s in subtopics),
                     'has_note': has_note,
                     'subtopics': subtopics,
                 })
