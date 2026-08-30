@@ -11,10 +11,18 @@ class QuizCreationError(Exception):
     pass
 
 
-def select_questions_for_practice(user, exam, subject=None, topic=None, difficulty=None, limit=20):
+def select_questions_for_practice(user, exam, subject=None, topic=None, subtopic=None, difficulty=None, limit=20):
     """
     Pick questions for a practice session.
     MVP: random sample from filtered pool.
+
+    A subtopic/topic-scoped pool is often smaller than `limit` — plenty of
+    subtopics only have a handful of questions (see the syllabus click-
+    through feature). Rather than 400 whenever a scoped pool is short,
+    we serve whatever's available and only error out on a genuinely empty
+    pool. Frontend also caps its requested `limit` client-side, but a
+    bookmarked/shared deep link can still arrive with a stale/oversized
+    limit, so this cap has to hold server-side regardless.
     """
     qs = Question.objects.filter(
         subtopic__topic__subject__exam=exam,
@@ -25,25 +33,25 @@ def select_questions_for_practice(user, exam, subject=None, topic=None, difficul
         qs = qs.filter(subtopic__topic__subject=subject)
     if topic:
         qs = qs.filter(subtopic__topic=topic)
+    if subtopic:
+        qs = qs.filter(subtopic=subtopic)
     if difficulty:
         qs = qs.filter(difficulty=difficulty)
 
     question_ids = list(qs.order_by('?').values_list('id', flat=True)[:limit])
 
-    if len(question_ids) < limit:
-        raise QuizCreationError(
-            f'Not enough questions in pool: need {limit}, found {len(question_ids)}'
-        )
+    if not question_ids:
+        raise QuizCreationError('No questions available for this selection.')
     return question_ids
 
 
 @transaction.atomic
-def create_practice_attempt(user, exam, subject=None, topic=None, difficulty=None, limit=20, device_class='desktop'):
+def create_practice_attempt(user, exam, subject=None, topic=None, subtopic=None, difficulty=None, limit=20, device_class='desktop'):
     """
     Create a practice Attempt + snapshot N AttemptQuestion rows in one DB transaction.
     """
     question_ids = select_questions_for_practice(
-        user=user, exam=exam, subject=subject, topic=topic,
+        user=user, exam=exam, subject=subject, topic=topic, subtopic=subtopic,
         difficulty=difficulty, limit=limit,
     )
 
@@ -53,6 +61,7 @@ def create_practice_attempt(user, exam, subject=None, topic=None, difficulty=Non
         exam=exam,
         subject=subject,
         topic=topic,
+        subtopic=subtopic,
         total_questions=len(question_ids),
         device_class=device_class,
     )

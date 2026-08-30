@@ -10,7 +10,7 @@ from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated, AllowAny
 
 from accounts.models import is_guest
-from content.models import Question, Exam, Subject, Topic
+from content.models import Question, Exam, Subject, Topic, Subtopic
 from payments.models import has_active_subscription
 
 from .models import (
@@ -70,6 +70,7 @@ class AttemptCreateView(APIView):
         exam = get_object_or_404(Exam, id=data['exam_id'])
         subject = Subject.objects.filter(id=data.get('subject_id')).first() if data.get('subject_id') else None
         topic = Topic.objects.filter(id=data.get('topic_id')).first() if data.get('topic_id') else None
+        subtopic = Subtopic.objects.filter(id=data.get('subtopic_id')).first() if data.get('subtopic_id') else None
 
         try:
             attempt = create_practice_attempt(
@@ -77,6 +78,7 @@ class AttemptCreateView(APIView):
                 exam=exam,
                 subject=subject,
                 topic=topic,
+                subtopic=subtopic,
                 difficulty=data.get('difficulty'),
                 limit=data.get('limit', 20),
             )

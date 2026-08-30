@@ -33,6 +33,9 @@ class Attempt(models.Model):
     topic = models.ForeignKey(
         'content.Topic', null=True, blank=True, on_delete=models.PROTECT,
     )
+    subtopic = models.ForeignKey(
+        'content.Subtopic', null=True, blank=True, on_delete=models.PROTECT,
+    )
     past_paper = models.ForeignKey(
         'content.PastPaper', null=True, blank=True, on_delete=models.PROTECT,
     )
