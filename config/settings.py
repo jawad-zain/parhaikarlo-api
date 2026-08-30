@@ -135,6 +135,15 @@ DEFAULT_FROM_EMAIL = config('DEFAULT_FROM_EMAIL', default='ParhaiKarlo <no-reply
 # Base URL of the Next.js frontend — used to build the link inside reset emails.
 FRONTEND_URL = config('FRONTEND_URL', default='http://localhost:3000')
 
+# Launch-phase paywall bypass: while True, every authenticated (non-guest)
+# user can start any paper/mock regardless of is_free/subscription status —
+# see quiz/views.py's MockStartView and PastPaperStartView. Traffic-first
+# strategy for the first 2-3 months post-launch. Flip FREE_LAUNCH_MODE=False
+# in the env when premium tiers go live — no code changes needed, and no
+# subscription rows were ever created to unwind (is_free/has_active_subscription
+# stay exactly as they are for when this flips back).
+FREE_LAUNCH_MODE = config('FREE_LAUNCH_MODE', default=True, cast=bool)
+
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework_simplejwt.authentication.JWTAuthentication',

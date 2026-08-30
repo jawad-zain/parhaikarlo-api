@@ -1,5 +1,6 @@
 from datetime import timedelta
 
+from django.conf import settings
 from django.db.models import Prefetch
 from django.shortcuts import get_object_or_404
 from django.utils import timezone
@@ -396,7 +397,9 @@ class MockStartView(APIView):
                     {'error': 'signup_required', 'message': 'Sign up to start this mock.'},
                     status=status.HTTP_403_FORBIDDEN,
                 )
-            if not has_active_subscription(request.user, mock_test.exam):
+            # FREE_LAUNCH_MODE: signed-up users still need an account (above),
+            # but the subscription check itself is bypassed — see settings.py.
+            if not settings.FREE_LAUNCH_MODE and not has_active_subscription(request.user, mock_test.exam):
                 return Response(
                     {'error': 'subscription_required', 'message': 'Upgrade your plan to start this mock.'},
                     status=status.HTTP_403_FORBIDDEN,
@@ -983,7 +986,9 @@ class PastPaperStartView(APIView):
                     {'error': 'signup_required', 'message': 'Sign up to start this paper.'},
                     status=status.HTTP_403_FORBIDDEN,
                 )
-            if not has_active_subscription(request.user, paper.exam):
+            # FREE_LAUNCH_MODE: signed-up users still need an account (above),
+            # but the subscription check itself is bypassed — see settings.py.
+            if not settings.FREE_LAUNCH_MODE and not has_active_subscription(request.user, paper.exam):
                 return Response(
                     {'error': 'subscription_required', 'message': 'Upgrade your plan to start this paper.'},
                     status=status.HTTP_403_FORBIDDEN,
