@@ -10,7 +10,7 @@ from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated, AllowAny
 
 from accounts.models import is_guest
-from content.models import Question, Exam, Subject, Topic
+from content.models import Question, Exam, Subject, Topic, Subtopic
 from payments.models import has_active_subscription
 
 from .models import (
@@ -70,6 +70,7 @@ class AttemptCreateView(APIView):
         exam = get_object_or_404(Exam, id=data['exam_id'])
         subject = Subject.objects.filter(id=data.get('subject_id')).first() if data.get('subject_id') else None
         topic = Topic.objects.filter(id=data.get('topic_id')).first() if data.get('topic_id') else None
+        subtopic = Subtopic.objects.filter(id=data.get('subtopic_id')).first() if data.get('subtopic_id') else None
 
         try:
             attempt = create_practice_attempt(
@@ -77,6 +78,7 @@ class AttemptCreateView(APIView):
                 exam=exam,
                 subject=subject,
                 topic=topic,
+                subtopic=subtopic,
                 difficulty=data.get('difficulty'),
                 limit=data.get('limit', 20),
             )
@@ -122,17 +124,34 @@ class AttemptAnswerView(APIView):
         # Normalize case: AttemptQuestion stores lowercase (a/b/c/d),
         # Question.correct_answer stores uppercase (A/B/C/D).
         selected_upper = data['selected_option'].upper()
-        aq.selected_option = data['selected_option']
-        aq.is_correct = (selected_upper == aq.question.correct_answer)
-        aq.time_spent_seconds = data['time_spent_seconds']
-        aq.answered_at = timezone.now()
-        aq.save()
+        is_correct_now = (selected_upper == aq.question.correct_answer)
 
-        # For practice mode — return correctness immediately (feedback per Q)
-        # For mocks later — we'll gate this behind mode=='practice'
+        # In practice/past_paper mode, a wrong pick doesn't lock the
+        # question — the student retries in place until correct. Only the
+        # FIRST submission is ever written to selected_option/is_correct/
+        # answered_at/time_spent_seconds, since those feed scoring, review,
+        # and analytics — otherwise "keep retrying until right" would make
+        # every question eventually score as correct. Later retries just
+        # bump attempts_count and report this submission's correctness.
+        is_retry_flow = attempt.mode in ('practice', 'past_paper')
+        if is_retry_flow and aq.selected_option:
+            aq.attempts_count = (aq.attempts_count or 1) + 1
+            aq.save(update_fields=['attempts_count'])
+        else:
+            aq.selected_option = data['selected_option']
+            aq.is_correct = is_correct_now
+            aq.time_spent_seconds = data['time_spent_seconds']
+            aq.answered_at = timezone.now()
+            aq.attempts_count = 1
+            aq.save()
+
+        # Never leak the correct letter through the live-answer endpoint —
+        # the frontend only learns whether THIS pick was right or wrong,
+        # so a wrong retry doesn't reveal the answer. The review endpoint
+        # (after submit) still returns the correct_answer as before.
         return Response({
-            'is_correct': aq.is_correct,
-            'correct_answer': aq.question.correct_answer if attempt.mode == 'practice' else None,
+            'is_correct': is_correct_now,
+            'correct_answer': None,
         })
 
 

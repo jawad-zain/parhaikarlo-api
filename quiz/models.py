@@ -33,6 +33,9 @@ class Attempt(models.Model):
     topic = models.ForeignKey(
         'content.Topic', null=True, blank=True, on_delete=models.PROTECT,
     )
+    subtopic = models.ForeignKey(
+        'content.Subtopic', null=True, blank=True, on_delete=models.PROTECT,
+    )
     past_paper = models.ForeignKey(
         'content.PastPaper', null=True, blank=True, on_delete=models.PROTECT,
     )
@@ -81,6 +84,15 @@ class AttemptQuestion(models.Model):
     is_correct = models.BooleanField(null=True)  # null = unanswered
     time_spent_seconds = models.PositiveIntegerField(default=0)
     answered_at = models.DateTimeField(null=True, blank=True)
+
+    # How many times the student submitted an answer for this question.
+    # In practice/past_paper mode a wrong pick doesn't lock the question —
+    # the student can retry the same question until correct — but only the
+    # FIRST submission is ever written to selected_option/is_correct/
+    # answered_at/time_spent_seconds above, since those fields feed scoring,
+    # review, and analytics (accuracy%, weak topics, progress). Later retries
+    # only bump this counter; they never overwrite the scored first attempt.
+    attempts_count = models.PositiveSmallIntegerField(default=0)
 
     class Meta:
         unique_together = [

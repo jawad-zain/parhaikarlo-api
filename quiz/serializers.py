@@ -175,6 +175,11 @@ class AttemptCreateSerializer(serializers.Serializer):
         allow_null=True,
     )
 
+    subtopic_id = serializers.IntegerField(
+        required=False,
+        allow_null=True,
+    )
+
     difficulty = serializers.ChoiceField(
         choices=['easy', 'medium', 'hard'],
         required=False,
