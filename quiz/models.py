@@ -85,6 +85,15 @@ class AttemptQuestion(models.Model):
     time_spent_seconds = models.PositiveIntegerField(default=0)
     answered_at = models.DateTimeField(null=True, blank=True)
 
+    # How many times the student submitted an answer for this question.
+    # In practice/past_paper mode a wrong pick doesn't lock the question —
+    # the student can retry the same question until correct — but only the
+    # FIRST submission is ever written to selected_option/is_correct/
+    # answered_at/time_spent_seconds above, since those fields feed scoring,
+    # review, and analytics (accuracy%, weak topics, progress). Later retries
+    # only bump this counter; they never overwrite the scored first attempt.
+    attempts_count = models.PositiveSmallIntegerField(default=0)
+
     class Meta:
         unique_together = [
             ('attempt', 'question'),        # same Q can't appear twice in one attempt

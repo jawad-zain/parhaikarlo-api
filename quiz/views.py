@@ -124,17 +124,34 @@ class AttemptAnswerView(APIView):
         # Normalize case: AttemptQuestion stores lowercase (a/b/c/d),
         # Question.correct_answer stores uppercase (A/B/C/D).
         selected_upper = data['selected_option'].upper()
-        aq.selected_option = data['selected_option']
-        aq.is_correct = (selected_upper == aq.question.correct_answer)
-        aq.time_spent_seconds = data['time_spent_seconds']
-        aq.answered_at = timezone.now()
-        aq.save()
+        is_correct_now = (selected_upper == aq.question.correct_answer)
 
-        # For practice mode — return correctness immediately (feedback per Q)
-        # For mocks later — we'll gate this behind mode=='practice'
+        # In practice/past_paper mode, a wrong pick doesn't lock the
+        # question — the student retries in place until correct. Only the
+        # FIRST submission is ever written to selected_option/is_correct/
+        # answered_at/time_spent_seconds, since those feed scoring, review,
+        # and analytics — otherwise "keep retrying until right" would make
+        # every question eventually score as correct. Later retries just
+        # bump attempts_count and report this submission's correctness.
+        is_retry_flow = attempt.mode in ('practice', 'past_paper')
+        if is_retry_flow and aq.selected_option:
+            aq.attempts_count = (aq.attempts_count or 1) + 1
+            aq.save(update_fields=['attempts_count'])
+        else:
+            aq.selected_option = data['selected_option']
+            aq.is_correct = is_correct_now
+            aq.time_spent_seconds = data['time_spent_seconds']
+            aq.answered_at = timezone.now()
+            aq.attempts_count = 1
+            aq.save()
+
+        # Never leak the correct letter through the live-answer endpoint —
+        # the frontend only learns whether THIS pick was right or wrong,
+        # so a wrong retry doesn't reveal the answer. The review endpoint
+        # (after submit) still returns the correct_answer as before.
         return Response({
-            'is_correct': aq.is_correct,
-            'correct_answer': aq.question.correct_answer if attempt.mode == 'practice' else None,
+            'is_correct': is_correct_now,
+            'correct_answer': None,
         })
 
 
