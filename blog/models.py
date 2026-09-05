@@ -26,6 +26,21 @@ class Post(models.Model):
     )
     body = models.TextField()  # Markdown allowed — rendered as-is on the frontend for now.
 
+    # SEO overrides — optional. The frontend's <title>/meta-description and
+    # Open Graph/Twitter tags fall back to title/excerpt when these are
+    # blank, so most posts never need to touch them. They exist for cases
+    # where the on-page title reads well but is too long for a SERP title
+    # (~60 chars) or the excerpt runs past a meta description's ~155-160
+    # char display limit before Google truncates it.
+    meta_title = models.CharField(
+        max_length=70, blank=True,
+        help_text='Overrides the <title>/og:title for search & social. Falls back to title. Keep to ~60 chars.',
+    )
+    meta_description = models.CharField(
+        max_length=160, blank=True,
+        help_text='Overrides the meta/og description. Falls back to excerpt. Keep to ~155 chars.',
+    )
+
     # Plain external URL rather than an upload field — keeps this app free
     # of media-serving concerns; paste an image host link if you want one.
     cover_image_url = models.URLField(blank=True)
