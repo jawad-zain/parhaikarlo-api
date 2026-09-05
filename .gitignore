@@ -59,3 +59,22 @@ expl_bio1.json
 expl_chemistry.json
 expl_english.json
 expl_physics.json
+
+# practice-bank / mock explanation-authoring scratch: per-batch dumps,
+# manifests, and one-off generate/explain/validate/verify scripts written
+# during a single authoring session. The lasting outputs are the DB itself
+# (via load_explanations) and the *_practice.py content files + their
+# scripts/convert_*_to_json.py / export_*_explanations_by_content.py
+# tooling, which stay tracked as normal.
+mdcat-content/*_db_dump.json
+mdcat-content/mock*_explanations/
+scripts/*_db_dump.json
+scripts/*_image_manifest.json
+scripts/*explanations*.json
+scripts/*_expl_batch*.json
+scripts/gen_phy_batch*.py
+scripts/explain_mock*_*.py
+scripts/generate_mock*_explanations.py
+scripts/generate_*_practice_explanations.py
+scripts/validate_batch.py
+scripts/verify_*_practice.py
