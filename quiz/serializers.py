@@ -155,6 +155,12 @@ class AttemptQuestionSerializer(serializers.ModelSerializer):
             'option_d',
             'difficulty',
             'selected_option',
+            # Whether the student's OWN selected_option was right — not the
+            # correct letter itself, so this doesn't leak the answer. Lets a
+            # resumed session distinguish "answered and locked correct" from
+            # "answered wrong, still retriable" in practice/past_paper mode
+            # without a second round-trip.
+            'is_correct',
             'is_visual_required',
             'images',
         ]

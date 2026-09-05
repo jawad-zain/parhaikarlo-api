@@ -9,6 +9,8 @@ from .views import (
     AttemptAnswerView,
     AttemptSubmitView,
     AttemptReviewView,
+    AttemptStateView,
+    InProgressAttemptsView,
     MockStartView,
     AttemptViolationView,
     WeakTopicsDrillView,
@@ -68,10 +70,25 @@ urlpatterns = [
         name='attempt-create',
     ),
 
+    # Must come before 'attempts/<int:attempt_id>/' — "in-progress" would
+    # otherwise never be reached since Django tries patterns in order, but
+    # kept first anyway to avoid any ambiguity with the int converter.
+    path(
+        'attempts/in-progress/',
+        InProgressAttemptsView.as_view(),
+        name='attempt-in-progress',
+    ),
+
     path(
         'attempts/<int:attempt_id>/',
         AttemptReviewView.as_view(),
         name='attempt-review',
+    ),
+
+    path(
+        'attempts/<int:attempt_id>/state/',
+        AttemptStateView.as_view(),
+        name='attempt-state',
     ),
 
     path(

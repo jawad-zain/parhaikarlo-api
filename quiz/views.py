@@ -24,6 +24,7 @@ from .models import (
 from .services import (
     create_practice_attempt,
     finalize_attempt,
+    auto_finalize_if_expired,
     QuizCreationError,
     get_weak_topics,
     create_weak_topics_drill,
@@ -71,6 +72,28 @@ class AttemptCreateView(APIView):
         subject = Subject.objects.filter(id=data.get('subject_id')).first() if data.get('subject_id') else None
         topic = Topic.objects.filter(id=data.get('topic_id')).first() if data.get('topic_id') else None
         subtopic = Subtopic.objects.filter(id=data.get('subtopic_id')).first() if data.get('subtopic_id') else None
+
+        # Resume in-progress attempt if one exists for this exact topic/
+        # subtopic scope — same "don't lose your place" pattern as
+        # PastPaperStartView below. Scoped to topic/subtopic-targeted
+        # requests only (a syllabus click): a topic/subtopic-less "custom
+        # session" from the manual practice form, and weak-topic drills,
+        # are meant to draw a fresh random set each time, so they always
+        # create a new attempt.
+        if topic or subtopic:
+            existing = Attempt.objects.filter(
+                user=request.user,
+                mode='practice',
+                exam=exam,
+                topic=topic,
+                subtopic=subtopic,
+                is_completed=False,
+            ).order_by('-started_at').first()
+            if existing:
+                return Response(
+                    AttemptDetailSerializer(existing, context={'request': request}).data,
+                    status=status.HTTP_200_OK,
+                )
 
         try:
             attempt = create_practice_attempt(
@@ -172,6 +195,74 @@ class AttemptSubmitView(APIView):
             'submitted_at': attempt.submitted_at,
             **breakdown,
         })
+
+
+class AttemptStateView(APIView):
+    """GET /api/quiz/attempts/<id>/state/ — current state of an attempt,
+    whether in progress or completed.
+
+    Distinct from AttemptReviewView (`/api/quiz/attempts/<id>/`), which
+    404s-shaped-as-400 unless the attempt is already submitted. The quiz
+    page needs the opposite: a way to fetch an attempt's live state
+    (including which answers are already recorded, for resuming after a
+    refresh, a closed tab, or a "Continue where you left off" link) without
+    caring whether it's done yet. If it turns out to already be completed,
+    the frontend redirects to the result page itself using `is_completed`.
+    """
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request, attempt_id):
+        attempt = get_object_or_404(Attempt, id=attempt_id, user=request.user)
+        auto_finalize_if_expired(attempt)
+        return Response(AttemptDetailSerializer(attempt, context={'request': request}).data)
+
+
+class InProgressAttemptsView(APIView):
+    """GET /api/quiz/attempts/in-progress/ — this user's unsubmitted
+    attempts, newest first, for a "Continue where you left off" list.
+    """
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request):
+        attempts = (
+            Attempt.objects
+            .filter(user=request.user, is_completed=False)
+            .select_related('exam', 'subject', 'topic', 'subtopic', 'past_paper', 'mock_test')
+            .order_by('-started_at')
+        )
+
+        results = []
+        for a in attempts:
+            # Drop any that quietly expired (mock/sectional timer ran out)
+            # rather than list them as resumable.
+            if auto_finalize_if_expired(a):
+                continue
+
+            answered_count = a.items.exclude(selected_option__isnull=True).exclude(selected_option='').count()
+
+            if a.past_paper:
+                label = a.past_paper.name
+            elif a.mock_test:
+                label = a.mock_test.name
+            elif a.subtopic:
+                label = a.subtopic.name
+            elif a.topic:
+                label = a.topic.name
+            elif a.subject:
+                label = f'{a.subject.name} practice'
+            else:
+                label = f'{a.exam.name} practice'
+
+            results.append({
+                'id': a.id,
+                'mode': a.mode,
+                'label': label,
+                'total_questions': a.total_questions,
+                'answered_count': answered_count,
+                'started_at': a.started_at,
+            })
+
+        return Response({'attempts': results})
 
 
 class AttemptReviewView(APIView):
