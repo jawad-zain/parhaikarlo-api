@@ -173,7 +173,10 @@ class MockTest(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
     class Meta:
-        ordering = ['exam', 'kind', 'name']
+        # Not 'name' — "MDCAT Mock 10" sorts before "MDCAT Mock 2"
+        # lexicographically, which is what made the list look shuffled.
+        # 'id' matches creation order, which is the intended sequence.
+        ordering = ['exam', 'kind', 'id']
 
     def __str__(self):
         return f'{self.exam.name} — {self.name} ({self.kind})'
