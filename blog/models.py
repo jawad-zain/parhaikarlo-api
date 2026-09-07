@@ -47,6 +47,31 @@ class Post(models.Model):
 
     author_name = models.CharField(max_length=120, blank=True)
 
+    # Optional FAQ block rendered near the bottom of the post and emitted as
+    # FAQPage JSON-LD. List of {"question": str, "answer": str}. Empty list
+    # (the default) means "no FAQ section" — the frontend and the JSON-LD
+    # builder both skip it entirely rather than rendering an empty heading.
+    faqs = models.JSONField(
+        default=list, blank=True,
+        help_text='Optional FAQ list: [{"question": "...", "answer": "..."}, ...]. '
+                   'Leave empty to skip the FAQ section on this post.',
+    )
+
+    # Optional in-body images. List of:
+    #   {"slug": str, "src": str, "alt": str, "caption": str (optional),
+    #    "width": int, "height": int, "insert_after_heading": str | None}
+    # `slug` is a stable id for this image entry — future edits reorder or
+    # restyle by slug, never by array position. `insert_after_heading` is
+    # the exact text of the H2 the image renders after (case/whitespace
+    # compared loosely on the frontend); null means "insert at the top" of
+    # the body. Empty list (the default) means no inline images.
+    inline_images = models.JSONField(
+        default=list, blank=True,
+        help_text='Optional in-body images: [{"slug": "...", "src": "/blog/foo.svg", '
+                   '"alt": "...", "caption": "...", "width": 720, "height": 400, '
+                   '"insert_after_heading": "Exact H2 text" or null}, ...].',
+    )
+
     is_published = models.BooleanField(default=False)
     is_pinned = models.BooleanField(
         default=False,

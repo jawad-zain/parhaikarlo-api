@@ -18,6 +18,14 @@ class PostAdmin(admin.ModelAdmin):
             'fields': ('meta_title', 'meta_description'),
             'classes': ('collapse',),
         }),
+        ('FAQs (optional — renders a FAQ section + FAQPage schema when non-empty)', {
+            'fields': ('faqs',),
+            'classes': ('collapse',),
+        }),
+        ('Inline images (optional — renders a <figure> after the matching H2)', {
+            'fields': ('inline_images',),
+            'classes': ('collapse',),
+        }),
         ('Publishing', {
             'fields': ('is_published', 'is_pinned', 'published_at'),
         }),
