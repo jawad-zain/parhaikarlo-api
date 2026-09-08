@@ -97,6 +97,48 @@ FAQS_BY_SLUG = {
             ),
         },
     ],
+    'mdcat-biology-chapter-wise-weightage': [
+        {
+            'question': 'What is the total weightage of Biology in MDCAT 2026?',
+            'answer': (
+                "Biology is 81 out of 180 MCQs in MDCAT 2026 — 45% of the paper, the largest single "
+                "subject. This is higher than the 34% Biology carried in the 2022–2024 PMDC-era papers "
+                "(68/200)."
+            ),
+        },
+        {
+            'question': 'Which Biology topic has the most MCQs in past papers?',
+            'answer': (
+                "Biological Molecules, with 170 MCQs across 16 years of tagged past papers — 13.4% of "
+                "every Biology question ever asked, ahead of Cell Structure and Function (128) and "
+                "Coordination and Control (105)."
+            ),
+        },
+        {
+            'question': 'Should I skip low-weightage Biology topics?',
+            'answer': (
+                "No. Topics like Growth and Development (0.2%) or Photosynthesis (0.5%) still appear on "
+                "papers, just rarely. Covering them briefly is worth 1–2 free marks; spend the bulk of "
+                "your time on the top-5 topics instead."
+            ),
+        },
+        {
+            'question': 'Does past-paper data match the official 45% Biology weightage?',
+            'answer': (
+                "Not exactly — historical papers (both old UHS and current PMDC format) have consistently "
+                "tested Biology at 36–38%, below the new 45% target. Use the official 45% figure to plan "
+                "your overall study time, and the topic-level breakdown in this post to plan where inside "
+                "Biology to focus."
+            ),
+        },
+        {
+            'question': 'Where can I practice MCQs for a specific Biology topic?',
+            'answer': (
+                "Use the practice page filtered by topic, or visit a topic's page under the Biology "
+                "syllabus for subtopic-specific past-paper questions with AI explanations."
+            ),
+        },
+    ],
 }
 
 

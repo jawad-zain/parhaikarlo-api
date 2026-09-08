@@ -36,6 +36,17 @@ INLINE_IMAGES_BY_SLUG = {
             'insert_after_heading': "Subject-wise weightage",
         },
     ],
+    'mdcat-biology-chapter-wise-weightage': [
+        {
+            'slug': 'mdcat-biology-topic-weightage-chart',
+            'src': '/blog/mdcat-biology-topic-weightage-chart.svg',
+            'alt': "Top 10 MDCAT Biology topics by past-paper MCQ count, 2008–2025",
+            'caption': "The top 10 Biology topics by real past-paper MCQ count, out of 1,270 tagged questions across 16 years.",
+            'width': 760,
+            'height': 560,
+            'insert_after_heading': "What 16 years of past papers actually show",
+        },
+    ],
 }
 
 
