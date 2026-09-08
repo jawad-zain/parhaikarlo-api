@@ -1,0 +1,802 @@
+[
+  {
+    "question_text": "The SI unit of electric current is the:",
+    "option_a": "Volt"
+  },
+  {
+    "question_text": "Which of the following is a fundamental (base) quantity?",
+    "option_a": "Force"
+  },
+  {
+    "question_text": "The number of significant figures in the measurement 0.00420 is:",
+    "option_a": "2"
+  },
+  {
+    "question_text": "The dimensional formula of force is:",
+    "option_a": "[MLT^-1]"
+  },
+  {
+    "question_text": "Which pair of physical quantities has the same dimensions?",
+    "option_a": "Work and Power"
+  },
+  {
+    "question_text": "The instrument used to measure very small lengths, such as the diameter of a thin wire, with high precision is the:",
+    "option_a": "Meter rule"
+  },
+  {
+    "question_text": "A vernier caliper has 20 divisions on its vernier scale matching 19 main scale divisions of 1 mm each. What is its least count?",
+    "option_a": "0.05 mm"
+  },
+  {
+    "question_text": "A physical quantity Q is calculated as Q = A^2 * B / C^3. If the percentage errors in A, B, and C are 2%, 3%, and 1% respectively, what is the approximate percentage error in Q?",
+    "option_a": "10%"
+  },
+  {
+    "question_text": "Which of the following is a derived unit?",
+    "option_a": "Meter"
+  },
+  {
+    "question_text": "The order of magnitude of Avogadro's number (6.022 x 10^23) is:",
+    "option_a": "10^23"
+  },
+  {
+    "question_text": "A vector quantity has:",
+    "option_a": "Magnitude only"
+  },
+  {
+    "question_text": "Which of the following is a scalar quantity?",
+    "option_a": "Velocity"
+  },
+  {
+    "question_text": "The resultant of two vectors of magnitude 3 N and 4 N acting at right angles to each other is:",
+    "option_a": "1 N"
+  },
+  {
+    "question_text": "Two forces of equal magnitude F act on a point at an angle of 120 degrees to each other. The magnitude of their resultant is:",
+    "option_a": "2F"
+  },
+  {
+    "question_text": "The dot product of two non-zero vectors A and B is zero. This means the vectors are:",
+    "option_a": "Parallel"
+  },
+  {
+    "question_text": "The cross product of two parallel vectors is:",
+    "option_a": "Maximum"
+  },
+  {
+    "question_text": "A rigid body is in complete equilibrium when:",
+    "option_a": "The net force and net torque acting on it are both zero"
+  },
+  {
+    "question_text": "Three concurrent forces of 3 N, 4 N, and 5 N act on a body such that it remains in equilibrium. These forces must:",
+    "option_a": "Be parallel to each other"
+  },
+  {
+    "question_text": "The diagram shows a vector A drawn on a coordinate grid, with its components labeled Ax = 6 and Ay = 8 along the horizontal and vertical axes. Based on the diagram, what is the magnitude of vector A and its angle from the x-axis?",
+    "option_a": "10, 53.1 degrees"
+  },
+  {
+    "question_text": "The component of a force of 10 N along a direction making a 60-degree angle with the force is:",
+    "option_a": "5 N"
+  },
+  {
+    "question_text": "A car covers 40 km in 2 hours at constant speed. What is its speed?",
+    "option_a": "10 km/h"
+  },
+  {
+    "question_text": "Displacement is best defined as:",
+    "option_a": "The shortest straight-line distance between initial and final position, with direction"
+  },
+  {
+    "question_text": "A car accelerates uniformly from 15 m/s to 35 m/s in 4 seconds. What is its acceleration?",
+    "option_a": "5 m/s^2"
+  },
+  {
+    "question_text": "An object starts from rest and accelerates uniformly at 3 m/s^2. How far does it travel in 5 seconds?",
+    "option_a": "15 m"
+  },
+  {
+    "question_text": "A ball is thrown vertically upward with an initial velocity of 20 m/s (g = 10 m/s^2). How long does it take to return to its starting point?",
+    "option_a": "2 s"
+  },
+  {
+    "question_text": "A projectile is launched at 30 m/s at an angle of 30 degrees above the horizontal (g = 10 m/s^2). What is its maximum height?",
+    "option_a": "15 m"
+  },
+  {
+    "question_text": "Which of the following is a vector quantity?",
+    "option_a": "Velocity"
+  },
+  {
+    "question_text": "A car travels at 20 m/s for 10 s, then decelerates uniformly to rest in 5 s. What is the total distance traveled?",
+    "option_a": "200 m"
+  },
+  {
+    "question_text": "The slope of a velocity-time graph represents:",
+    "option_a": "Acceleration"
+  },
+  {
+    "question_text": "The area under a velocity-time graph represents:",
+    "option_a": "Force"
+  },
+  {
+    "question_text": "A stone is dropped from a tower and takes 5 seconds to reach the ground (g = 10 m/s^2). What is the height of the tower?",
+    "option_a": "125 m"
+  },
+  {
+    "question_text": "Two cars A and B start from the same point at the same time; A moves at a constant 20 m/s while B starts from rest with acceleration 4 m/s^2. After how many seconds will B catch up to A?",
+    "option_a": "5 s"
+  },
+  {
+    "question_text": "For an object moving with uniform velocity, its acceleration is:",
+    "option_a": "Zero"
+  },
+  {
+    "question_text": "A particle moves along a straight line with position x = 2t^2 - 3t + 1 (x in meters, t in seconds). What is its velocity at t = 2 s?",
+    "option_a": "5 m/s"
+  },
+  {
+    "question_text": "Newton's first law is also known as the law of:",
+    "option_a": "Action and reaction"
+  },
+  {
+    "question_text": "A net force of 15 N acts on a 3 kg object. What is its acceleration?",
+    "option_a": "45 m/s^2"
+  },
+  {
+    "question_text": "According to Newton's third law, when object A exerts a force on object B, object B:",
+    "option_a": "Remains stationary"
+  },
+  {
+    "question_text": "The momentum of a 5 kg object moving at 4 m/s is:",
+    "option_a": "1.25 kg m/s"
+  },
+  {
+    "question_text": "According to the law of conservation of momentum, in a closed system with no external forces, the total momentum:",
+    "option_a": "Remains constant"
+  },
+  {
+    "question_text": "A 2 kg ball moving at 6 m/s collides head-on with a stationary 4 kg ball and sticks to it. What is their common velocity immediately after the collision?",
+    "option_a": "1 m/s"
+  },
+  {
+    "question_text": "Friction that opposes the start of motion between two surfaces in contact is called:",
+    "option_a": "Kinetic friction"
+  },
+  {
+    "question_text": "A 5 kg block on a horizontal surface experiences a friction force of 10 N when a horizontal force of 25 N is applied. What is the block's acceleration?",
+    "option_a": "5 m/s^2"
+  },
+  {
+    "question_text": "A 6 kg block is pushed with a horizontal force of 30 N across a surface with a coefficient of kinetic friction of 0.2 (g = 10 m/s^2). What is the block's acceleration?",
+    "option_a": "3 m/s^2"
+  },
+  {
+    "question_text": "The impulse experienced by an object equals:",
+    "option_a": "Its mass times velocity"
+  },
+  {
+    "question_text": "Weight is defined as:",
+    "option_a": "The amount of matter in an object"
+  },
+  {
+    "question_text": "A rocket expels gas backward to propel itself forward. This is best explained by:",
+    "option_a": "Newton's first law"
+  },
+  {
+    "question_text": "Two objects of mass 3 kg and 2 kg are connected by a string over a frictionless pulley (an Atwood machine). What is the acceleration of the system (g = 10 m/s^2)?",
+    "option_a": "10 m/s^2"
+  },
+  {
+    "question_text": "The centripetal force acting on a car turning a corner on a flat road is provided by:",
+    "option_a": "The engine's power alone"
+  },
+  {
+    "question_text": "Work done by a force is defined as:",
+    "option_a": "Force multiplied by time"
+  },
+  {
+    "question_text": "A force of 20 N moves an object 5 m in the direction of the force. How much work is done?",
+    "option_a": "4 J"
+  },
+  {
+    "question_text": "A 2 kg object moving at 6 m/s has a kinetic energy of:",
+    "option_a": "12 J"
+  },
+  {
+    "question_text": "The SI unit of power is the:",
+    "option_a": "Joule"
+  },
+  {
+    "question_text": "How much work does a 500 W motor do in 20 seconds?",
+    "option_a": "25 J"
+  },
+  {
+    "question_text": "A pendulum bob of mass 0.5 kg swings from a height of 0.2 m above its lowest point. What is its speed at the lowest point (g = 10 m/s^2, ignoring air resistance)?",
+    "option_a": "1 m/s"
+  },
+  {
+    "question_text": "According to the law of conservation of energy, energy:",
+    "option_a": "Can neither be created nor destroyed, only transformed"
+  },
+  {
+    "question_text": "A spring with spring constant 200 N/m is compressed by 0.1 m. What is the elastic potential energy stored?",
+    "option_a": "1 J"
+  },
+  {
+    "question_text": "Which of the following is an example of a (nearly) elastic collision?",
+    "option_a": "Two cars colliding and sticking together"
+  },
+  {
+    "question_text": "A 1000 kg car moving at 20 m/s brakes and comes to rest over a distance of 50 m. What is the average braking force?",
+    "option_a": "2000 N"
+  },
+  {
+    "question_text": "A machine's mechanical efficiency is defined as the ratio of:",
+    "option_a": "Output (useful) energy to input energy"
+  },
+  {
+    "question_text": "A crane lifts a 200 kg load to a height of 10 m in 20 seconds (g = 10 m/s^2). What power does it deliver?",
+    "option_a": "100 W"
+  },
+  {
+    "question_text": "Centripetal acceleration in uniform circular motion is directed:",
+    "option_a": "Tangent to the circular path"
+  },
+  {
+    "question_text": "A car of mass 1000 kg moves in a circle of radius 50 m at a constant speed of 10 m/s. What is the centripetal force acting on it?",
+    "option_a": "2000 N"
+  },
+  {
+    "question_text": "According to Kepler's third law, the square of a planet's orbital period is proportional to:",
+    "option_a": "The planet's radius"
+  },
+  {
+    "question_text": "Two satellites orbit Earth at radii R and 4R. What is the ratio of their orbital periods (period at 4R divided by period at R)?",
+    "option_a": "2"
+  },
+  {
+    "question_text": "The value of acceleration due to gravity (g) at the surface of the Earth is approximately:",
+    "option_a": "5 m/s^2"
+  },
+  {
+    "question_text": "If a planet has the same mass as Earth but a radius half of Earth's, the acceleration due to gravity at its surface would be:",
+    "option_a": "Half of Earth's"
+  },
+  {
+    "question_text": "The minimum speed needed for an object to permanently escape a planet's gravitational field is called:",
+    "option_a": "Orbital velocity"
+  },
+  {
+    "question_text": "A satellite orbits Earth with a period equal to Earth's rotational period (24 hours), staying above the same point on Earth's surface. This type of orbit is called:",
+    "option_a": "Geostationary orbit"
+  },
+  {
+    "question_text": "Angular velocity is measured in units of:",
+    "option_a": "Radians per second"
+  },
+  {
+    "question_text": "A wheel completes 5 revolutions in 2 seconds. What is its angular velocity?",
+    "option_a": "10*pi rad/s"
+  },
+  {
+    "question_text": "An astronaut in a satellite orbiting Earth appears to be weightless mainly because:",
+    "option_a": "There is no gravity in space at that altitude"
+  },
+  {
+    "question_text": "Centrifugal force, as experienced by an object in a rotating reference frame, is best described as:",
+    "option_a": "A real force pushing objects outward"
+  },
+  {
+    "question_text": "Pressure is defined as force per unit:",
+    "option_a": "Volume"
+  },
+  {
+    "question_text": "According to Pascal's principle, pressure applied to an enclosed fluid is:",
+    "option_a": "Absorbed entirely at the point of application"
+  },
+  {
+    "question_text": "A hydraulic lift has a small piston of area 0.01 m^2 and a large piston of area 0.5 m^2. If a force of 100 N is applied to the small piston, what force is exerted by the large piston?",
+    "option_a": "2 N"
+  },
+  {
+    "question_text": "According to Archimedes' principle, the buoyant force on a submerged object equals:",
+    "option_a": "The weight of the fluid displaced by the object"
+  },
+  {
+    "question_text": "An object floats when the buoyant force acting on it is:",
+    "option_a": "Less than its weight"
+  },
+  {
+    "question_text": "According to the continuity equation, as a fluid flows through a narrowing section of pipe, its speed:",
+    "option_a": "Decreases"
+  },
+  {
+    "question_text": "According to Bernoulli's principle, in a horizontal pipe, as fluid speed increases, its pressure:",
+    "option_a": "Increases"
+  },
+  {
+    "question_text": "An airplane wing generates lift mainly because:",
+    "option_a": "Air moves slower over the top surface than the bottom"
+  },
+  {
+    "question_text": "The property of a fluid that describes its internal resistance to flow is called:",
+    "option_a": "Density"
+  },
+  {
+    "question_text": "Surface tension in a liquid arises due to:",
+    "option_a": "Repulsive forces between surface molecules"
+  },
+  {
+    "question_text": "Simple harmonic motion is characterized by a restoring force that is:",
+    "option_a": "Constant, regardless of displacement"
+  },
+  {
+    "question_text": "The time period of a simple pendulum depends on:",
+    "option_a": "Its mass and length"
+  },
+  {
+    "question_text": "A simple pendulum has a length of 1 m. Using T = 2*pi*sqrt(L/g) with g = 10 m/s^2, what is its approximate period?",
+    "option_a": "1 s"
+  },
+  {
+    "question_text": "If the length of a simple pendulum is quadrupled, its period will:",
+    "option_a": "Double"
+  },
+  {
+    "question_text": "The maximum displacement of an oscillating object from its equilibrium position is called its:",
+    "option_a": "Amplitude"
+  },
+  {
+    "question_text": "The frequency of oscillation is related to the period by:",
+    "option_a": "f = T"
+  },
+  {
+    "question_text": "In simple harmonic motion, the velocity of the oscillating object is maximum:",
+    "option_a": "At the extreme positions"
+  },
+  {
+    "question_text": "A mass-spring system has spring constant k and mass m. If the mass is doubled while k stays the same, the period of oscillation will:",
+    "option_a": "Double"
+  },
+  {
+    "question_text": "Damped oscillations occur when:",
+    "option_a": "No energy is lost from the system"
+  },
+  {
+    "question_text": "Resonance occurs when a system is driven at a frequency that:",
+    "option_a": "Is much lower than its natural frequency"
+  },
+  {
+    "question_text": "A wave that requires a medium in order to travel is called a:",
+    "option_a": "Electromagnetic wave"
+  },
+  {
+    "question_text": "Sound waves are classified as:",
+    "option_a": "Transverse waves"
+  },
+  {
+    "question_text": "A wave has a frequency of 25 Hz and travels at 100 m/s. What is its wavelength?",
+    "option_a": "0.25 m"
+  },
+  {
+    "question_text": "The speed of sound is generally fastest in:",
+    "option_a": "A vacuum"
+  },
+  {
+    "question_text": "The Doppler effect describes the apparent change in:",
+    "option_a": "The frequency (and pitch) of a wave due to relative motion between source and observer"
+  },
+  {
+    "question_text": "A car horn emits sound at 500 Hz. As the car approaches a stationary listener, the listener hears a frequency that is:",
+    "option_a": "Lower than 500 Hz"
+  },
+  {
+    "question_text": "Two sound waves of slightly different frequencies produce a periodic variation in loudness called:",
+    "option_a": "Resonance"
+  },
+  {
+    "question_text": "Which property of a sound wave determines its loudness?",
+    "option_a": "Frequency"
+  },
+  {
+    "question_text": "Which property of a sound wave determines its pitch?",
+    "option_a": "Amplitude"
+  },
+  {
+    "question_text": "A stretched string fixed at both ends vibrates in its fundamental mode with a frequency of 100 Hz. What is the frequency of the second harmonic (first overtone)?",
+    "option_a": "200 Hz"
+  },
+  {
+    "question_text": "Standing waves are formed when:",
+    "option_a": "Two identical waves travel in opposite directions and interfere"
+  },
+  {
+    "question_text": "Ultrasonic waves have frequencies that are:",
+    "option_a": "Below the range of human hearing"
+  },
+  {
+    "question_text": "Heat naturally flows from a body of:",
+    "option_a": "Lower temperature to higher temperature"
+  },
+  {
+    "question_text": "The zeroth law of thermodynamics establishes the concept of:",
+    "option_a": "Energy conservation"
+  },
+  {
+    "question_text": "According to the first law of thermodynamics, the change in internal energy of a system equals:",
+    "option_a": "Heat added plus work done by the system"
+  },
+  {
+    "question_text": "A gas absorbs 500 J of heat and does 150 J of work on its surroundings. What is the change in its internal energy?",
+    "option_a": "650 J"
+  },
+  {
+    "question_text": "Which method of heat transfer occurs through direct particle-to-particle contact, especially in solids?",
+    "option_a": "Convection"
+  },
+  {
+    "question_text": "Convection primarily transfers heat through:",
+    "option_a": "Direct molecular contact in solids"
+  },
+  {
+    "question_text": "The second law of thermodynamics implies that in any energy transfer, the entropy of an isolated system:",
+    "option_a": "Always decreases"
+  },
+  {
+    "question_text": "A heat engine operates between a hot reservoir at 500 K and a cold reservoir at 300 K. What is its maximum possible (Carnot) efficiency?",
+    "option_a": "20%"
+  },
+  {
+    "question_text": "An isobaric process occurs at constant:",
+    "option_a": "Pressure"
+  },
+  {
+    "question_text": "An isochoric (isovolumetric) process occurs at constant:",
+    "option_a": "Volume"
+  },
+  {
+    "question_text": "Specific heat capacity is defined as the amount of heat required to raise the temperature of:",
+    "option_a": "Any mass of a substance by any temperature"
+  },
+  {
+    "question_text": "How much heat is required to raise the temperature of 2 kg of water by 10 degrees Celsius (specific heat of water = 4200 J/kg degreeC)?",
+    "option_a": "8400 J"
+  },
+  {
+    "question_text": "Like electric charges:",
+    "option_a": "Attract each other"
+  },
+  {
+    "question_text": "According to Coulomb's law, the electric force between two point charges is inversely proportional to:",
+    "option_a": "The product of the charges"
+  },
+  {
+    "question_text": "Two point charges of 2 x 10^-6 C and 3 x 10^-6 C are separated by 0.1 m in vacuum (k = 9 x 10^9 Nm^2/C^2). What is the force between them?",
+    "option_a": "0.54 N"
+  },
+  {
+    "question_text": "Electric field lines around a positive point charge point:",
+    "option_a": "Away from the charge, radially outward"
+  },
+  {
+    "question_text": "Electric potential at a point is defined as:",
+    "option_a": "Electric field per unit charge"
+  },
+  {
+    "question_text": "Two identical conducting spheres carrying charges of +6 microC and -2 microC are brought into contact and then separated. What is the charge on each sphere afterward?",
+    "option_a": "+4 microC each"
+  },
+  {
+    "question_text": "A capacitor stores electrical energy by:",
+    "option_a": "Accumulating and separating positive and negative charge on its plates"
+  },
+  {
+    "question_text": "The capacitance of a parallel plate capacitor increases when:",
+    "option_a": "The plate separation increases"
+  },
+  {
+    "question_text": "The SI unit of electric charge is the:",
+    "option_a": "Volt"
+  },
+  {
+    "question_text": "Three capacitors of 2 microF, 3 microF, and 6 microF are connected in parallel. What is their total capacitance?",
+    "option_a": "1 microF"
+  },
+  {
+    "question_text": "The electric field inside a charged conductor in electrostatic equilibrium is:",
+    "option_a": "Maximum"
+  },
+  {
+    "question_text": "Grounding a charged conductor:",
+    "option_a": "Increases its charge"
+  },
+  {
+    "question_text": "Electric current is defined as the rate of flow of:",
+    "option_a": "Energy"
+  },
+  {
+    "question_text": "Ohm's law relates voltage, current, and:",
+    "option_a": "Power"
+  },
+  {
+    "question_text": "A circuit has a voltage of 12 V and a resistance of 4 ohm. What current flows through it?",
+    "option_a": "48 A"
+  },
+  {
+    "question_text": "Two resistors of 6 ohm and 3 ohm are connected in series. What is the total resistance?",
+    "option_a": "9 ohm"
+  },
+  {
+    "question_text": "Two resistors of 6 ohm and 3 ohm are connected in parallel. What is the total resistance?",
+    "option_a": "9 ohm"
+  },
+  {
+    "question_text": "The diagram shows a circuit in which resistors R1 (5 ohm) and R2 (5 ohm) are connected in series, and this series combination is connected in parallel with R3 (10 ohm). What is the total resistance of the circuit?",
+    "option_a": "10 ohm"
+  },
+  {
+    "question_text": "Electrical power dissipated in a resistor can be found using P = I^2 R. A current of 2 A flows through a 10 ohm resistor. What power is dissipated?",
+    "option_a": "5 W"
+  },
+  {
+    "question_text": "A 60 W bulb operates at 120 V. What current does it draw?",
+    "option_a": "2 A"
+  },
+  {
+    "question_text": "Materials that allow electric current to flow easily are called:",
+    "option_a": "Conductors"
+  },
+  {
+    "question_text": "The resistivity of a typical conducting metal, as temperature increases, generally:",
+    "option_a": "Decreases"
+  },
+  {
+    "question_text": "A wire of resistance 8 ohm is stretched to twice its original length, with its volume kept constant. What is its new resistance?",
+    "option_a": "16 ohm"
+  },
+  {
+    "question_text": "The terminal voltage of a battery connected in a circuit is generally _____ its EMF, due to internal resistance.",
+    "option_a": "Equal to"
+  },
+  {
+    "question_text": "Kirchhoff's current law (junction rule) states that:",
+    "option_a": "Voltage is conserved around any loop"
+  },
+  {
+    "question_text": "A battery with EMF 12 V and internal resistance 1 ohm is connected to an external resistor of 5 ohm. What is the current in the circuit?",
+    "option_a": "2.4 A"
+  },
+  {
+    "question_text": "A current-carrying wire produces a magnetic field that circles around it, as described by:",
+    "option_a": "The right-hand rule (Ampere's law)"
+  },
+  {
+    "question_text": "The magnetic force on a moving charge is given by F = qvB*sin(theta), where theta is the angle between velocity and the field. This force is maximum when theta equals:",
+    "option_a": "90 degrees"
+  },
+  {
+    "question_text": "A charged particle moving parallel to a magnetic field experiences:",
+    "option_a": "Maximum magnetic force"
+  },
+  {
+    "question_text": "The diagram shows a straight wire carrying a current of 5 A, placed perpendicular to a uniform magnetic field of 0.2 T, with 0.5 m of the wire's length inside the field. Based on the diagram, what is the magnitude of the force on the wire?",
+    "option_a": "5 N"
+  },
+  {
+    "question_text": "The strength of the magnetic field inside a solenoid is increased by:",
+    "option_a": "Decreasing the number of turns"
+  },
+  {
+    "question_text": "A solenoid with a soft iron core has a stronger magnetic field than an air-core solenoid mainly because:",
+    "option_a": "Iron has high magnetic permeability, which strengthens the field"
+  },
+  {
+    "question_text": "The force between two parallel wires carrying current in the same direction is:",
+    "option_a": "Repulsive"
+  },
+  {
+    "question_text": "A charged particle moves in a circular path within a uniform magnetic field. The magnetic force provides:",
+    "option_a": "Centripetal force, keeping it in circular motion at constant speed"
+  },
+  {
+    "question_text": "A magnetic compass needle aligns with Earth's magnetic field because:",
+    "option_a": "It is attracted directly to Earth's core"
+  },
+  {
+    "question_text": "The magnetic field at the center of a current-carrying circular loop is:",
+    "option_a": "Zero"
+  },
+  {
+    "question_text": "Electromagnetic induction refers to the generation of an EMF due to:",
+    "option_a": "A changing magnetic flux through a circuit"
+  },
+  {
+    "question_text": "Faraday's law of electromagnetic induction states that the induced EMF is proportional to:",
+    "option_a": "The magnetic field strength alone"
+  },
+  {
+    "question_text": "Lenz's law states that the direction of an induced current:",
+    "option_a": "Reinforces the change in flux that caused it"
+  },
+  {
+    "question_text": "A coil with 100 turns experiences a change in magnetic flux of 0.02 Wb over 0.1 s. What is the magnitude of the induced EMF?",
+    "option_a": "2 V"
+  },
+  {
+    "question_text": "A transformer is used to:",
+    "option_a": "Change the voltage level of an alternating current"
+  },
+  {
+    "question_text": "The diagram shows a step-up transformer with 100 turns on the primary coil and 400 turns on the secondary coil, connected to a 20 V AC source on the primary side. Based on the diagram, what is the secondary voltage?",
+    "option_a": "5 V"
+  },
+  {
+    "question_text": "An AC generator converts:",
+    "option_a": "Electrical energy into mechanical energy"
+  },
+  {
+    "question_text": "An AC voltage has a peak value of 170 V. What is its approximate RMS (root-mean-square) value?",
+    "option_a": "85 V"
+  },
+  {
+    "question_text": "Eddy currents are:",
+    "option_a": "Currents that only flow in insulators"
+  },
+  {
+    "question_text": "Self-inductance of a coil opposes:",
+    "option_a": "The current flowing in a neighboring coil only"
+  },
+  {
+    "question_text": "A semiconductor's electrical conductivity lies between that of:",
+    "option_a": "A conductor and an insulator"
+  },
+  {
+    "question_text": "Doping a semiconductor with an element having five valence electrons (such as phosphorus in silicon) creates a(n):",
+    "option_a": "P-type semiconductor"
+  },
+  {
+    "question_text": "A P-N junction diode allows current to flow easily when it is:",
+    "option_a": "Reverse biased"
+  },
+  {
+    "question_text": "A diode is used as a rectifier mainly because it:",
+    "option_a": "Allows current to flow in both directions equally"
+  },
+  {
+    "question_text": "A transistor can act as an amplifier because:",
+    "option_a": "A small change in base current produces a much larger change in collector current"
+  },
+  {
+    "question_text": "The three terminals of a bipolar junction transistor are the:",
+    "option_a": "Emitter, base, and collector"
+  },
+  {
+    "question_text": "Logic gates form the basic building blocks of:",
+    "option_a": "Analog radio circuits only"
+  },
+  {
+    "question_text": "An AND logic gate produces a high (1) output only when:",
+    "option_a": "At least one input is high"
+  },
+  {
+    "question_text": "According to Bohr's model of the atom, electrons orbit the nucleus in:",
+    "option_a": "Random paths with no fixed pattern"
+  },
+  {
+    "question_text": "When an electron transitions from a higher energy level to a lower one, the atom:",
+    "option_a": "Absorbs a photon"
+  },
+  {
+    "question_text": "The photoelectric effect demonstrates that light behaves as:",
+    "option_a": "A continuous wave only, with no particle nature"
+  },
+  {
+    "question_text": "In the photoelectric effect, increasing the intensity of light at a fixed frequency (above the threshold frequency) increases:",
+    "option_a": "The maximum kinetic energy of the emitted electrons"
+  },
+  {
+    "question_text": "The work function of a metal is defined as:",
+    "option_a": "The total energy of an incoming photon"
+  },
+  {
+    "question_text": "X-rays are a form of:",
+    "option_a": "Sound waves"
+  },
+  {
+    "question_text": "According to de Broglie's hypothesis, particles such as electrons exhibit:",
+    "option_a": "Only particle-like behavior"
+  },
+  {
+    "question_text": "According to Heisenberg's uncertainty principle, it is fundamentally impossible to simultaneously know with perfect precision a particle's:",
+    "option_a": "Charge and mass"
+  },
+  {
+    "question_text": "The emission spectrum of hydrogen consists of discrete spectral lines because:",
+    "option_a": "Electrons move in continuous orbits at any energy"
+  },
+  {
+    "question_text": "Photons of light with higher frequency carry:",
+    "option_a": "Less energy"
+  },
+  {
+    "question_text": "The Planck constant relates a photon's energy to its:",
+    "option_a": "Mass"
+  },
+  {
+    "question_text": "Light of frequency 6 x 10^14 Hz strikes a metal with a work function of 2 x 10^-19 J. Using E = hf (h = 6.6 x 10^-34 Js), what is the approximate maximum kinetic energy of the emitted photoelectrons?",
+    "option_a": "3.96 x 10^-19 J"
+  },
+  {
+    "question_text": "The nucleus of an atom consists of:",
+    "option_a": "Protons and neutrons"
+  },
+  {
+    "question_text": "In beta-minus decay, a neutron in the nucleus transforms into a proton, emitting:",
+    "option_a": "An electron and an antineutrino"
+  },
+  {
+    "question_text": "Gamma decay involves the emission of:",
+    "option_a": "High-energy electromagnetic radiation, with no change in atomic or mass number"
+  },
+  {
+    "question_text": "A radioactive sample has a half-life of 6 hours. Starting with 800 g, how much remains after 18 hours?",
+    "option_a": "200 g"
+  },
+  {
+    "question_text": "Nuclear fission involves:",
+    "option_a": "The decay of a single proton"
+  },
+  {
+    "question_text": "Nuclear fusion, the process powering the Sun, involves:",
+    "option_a": "Light nuclei combining to form a heavier nucleus, releasing energy"
+  },
+  {
+    "question_text": "According to Einstein's mass-energy equivalence (E = mc^2), a small amount of mass converted entirely into energy would release:",
+    "option_a": "A negligible amount of energy"
+  },
+  {
+    "question_text": "The binding energy of a nucleus represents:",
+    "option_a": "The kinetic energy of the nucleus"
+  },
+  {
+    "question_text": "The image formed by a plane mirror is:",
+    "option_a": "Virtual, upright, and the same size as the object"
+  },
+  {
+    "question_text": "A concave mirror can form a real image when the object is placed:",
+    "option_a": "Between the pole and the focal point"
+  },
+  {
+    "question_text": "According to the law of refraction (Snell's law), light bends toward the normal when it passes:",
+    "option_a": "From a less dense medium into a denser medium"
+  },
+  {
+    "question_text": "The ray diagram shows a concave mirror with an object placed between the focal point (F) and the mirror's surface. Based on the diagram, the image formed is:",
+    "option_a": "Real, inverted, and diminished"
+  },
+  {
+    "question_text": "The bending of light as it passes from one transparent medium to another of different density is called:",
+    "option_a": "Reflection"
+  },
+  {
+    "question_text": "The refractive index of a medium is defined as the ratio of:",
+    "option_a": "The speed of light in that medium to the speed of light in vacuum"
+  },
+  {
+    "question_text": "Total internal reflection occurs when light traveling in a denser medium strikes the boundary with a less dense medium at an angle:",
+    "option_a": "Less than the critical angle"
+  },
+  {
+    "question_text": "A convex lens has a focal length of 20 cm. An object is placed 40 cm from the lens. Using 1/f = 1/v - 1/u (with sign convention u = -40 cm, f = +20 cm), what is the image distance v?",
+    "option_a": "40 cm"
+  },
+  {
+    "question_text": "Dispersion of white light through a prism occurs because:",
+    "option_a": "Different wavelengths of light travel at different speeds within the prism, refracting by different amounts"
+  },
+  {
+    "question_text": "Which type of lens is used to correct myopia (nearsightedness)?",
+    "option_a": "Convex (converging) lens"
+  }
+]
