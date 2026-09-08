@@ -53,6 +53,13 @@ scratchpad_*
 *.bak
 mdcat-content/parsed-mcqs/*.checkpoint.*.json
 
+# LUMS vertical — mirrors the mdcat-content/ rules above
+lums-content/raw-sources/*.pdf
+lums-content/parsed-mcqs/*.checkpoint.*.json
+lums-content/parsed-mcqs/*.bak
+lums-content/parsed-mcqs/LUMS_*.json
+lums-content/tmp_*/
+
 # explanation-generation intermediate cache (regenerable, not tracked)
 cached_explanations.json
 expl_bio1.json
