@@ -21,16 +21,29 @@ Whoever built the `.py` file worked the answers out from the question
 content itself (grammar/logic for Verbal, calculation for Math).
 
 Consequences of that:
-- Every question imports with `is_verified=False` and stays that way until a
-  human (or a real answer key) confirms it.
-- It's a **standalone practice bank**, not attached to any `PastPaper` row
-  (`paper_year: null` in the parsed JSON) — same convention as MDCAT's
-  `*_practice.py` banks (biology_practice.py, chemistry_practice.py, etc.).
-  Do not invent a fake year to force it into a `PastPaper`.
 - Subject scope is **provisionally Verbal + Math only**. Do not add
   Analytical Reasoning / Physics / Chemistry subjects or topics until a real
   LCAT source document is reviewed showing those sections exist in the
   current test format.
+
+**2026-09-09 update:** the user asked for this bank to go through the same
+pipeline MDCAT mock tests get — mock tests also ship with no external answer
+key, and are still content-verified by Claude reasoning through every
+question by hand, then marked `is_verified=True` if that pass finds zero
+errors. Applied the same treatment here: all 24 questions were independently
+re-derived (grammar/logic for Verbal, hand-worked calculation for Math)
+against the DB's stored `correct_answer`, found zero mismatches, and are now
+`is_verified=True`. The bank is also no longer standalone — it's attached to
+a real `PastPaper` row (`exam=lums`, `slug=lums-sample-past-paper`,
+`name="LUMS Sample Past Paper"`, `is_free=True`) via
+`scripts/attach_lums_sample.py` (get_or_create + match by
+`(question_text, option_a)`, same pattern as the mock `attach_mockN.py`
+scripts — chosen over `import_mcqs.py`'s auto-create-by-year path so the
+paper gets the name "LUMS Sample Past Paper" instead of the generic
+"LUMS 2025"). All 24 questions also have hand-authored
+`explanation_short/long/trick/options` loaded via
+`scripts/lums_sample_explanations.json` + `manage.py load_explanations`, per
+the MDCAT explanation-generation workflow (Groq NOT used).
 
 ## Folder layout
 
