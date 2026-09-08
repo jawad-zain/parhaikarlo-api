@@ -1,0 +1,86 @@
+﻿{
+  "exam": "LUMS",
+  "source": "LUMS Common Admission Test (LCAT) - built from LUMS' official 'Sample Questions for Verbal & Math Sections' guide (sample_lcat_2025.pdf). LCAT mirrors the Digital SAT's domain taxonomy for Verbal and Math, so the top-level topic names below are the official College Board / LCAT domain names, not invented categories.",
+  "note": "SCOPE IS PROVISIONAL. Only Verbal and Math are confirmed as of 2026-09-08 (the only source material ingested so far is a 24-question sample bank, not a full dated past paper). Do NOT add Analytical Reasoning / Physics / Chemistry subjects or topics here until a real LUMS source document showing those sections has been reviewed -- see lums-content/README.md.",
+  "version": "1.0",
+  "subjects": {
+    "Verbal": {
+      "Craft and Structure": [
+        "Words in Context (vocabulary-in-blank)",
+        "Text Structure and Purpose",
+        "Cross-Text Connections"
+      ],
+      "Information and Ideas": [
+        "Central Ideas and Details",
+        "Inferences",
+        "Command of Evidence (quantitative)",
+        "Command of Evidence (textual)",
+        "Synthesizing Multiple Observations"
+      ],
+      "Expression of Ideas": [
+        "Rhetorical Synthesis",
+        "Transitions"
+      ],
+      "Standard English Conventions": [
+        "Sentence Boundaries",
+        "Subject-Verb Agreement",
+        "Pronoun Agreement and Reference",
+        "Punctuation (commas, semicolons, colons)",
+        "Modifier Placement",
+        "Parallel Structure"
+      ],
+      "Reading Comprehension": [
+        "Passage Main Idea",
+        "Supporting Detail Recall",
+        "Author's Tone and Perspective",
+        "Passage-Based Inference"
+      ],
+      "Vocabulary": [
+        "Synonyms",
+        "Antonyms",
+        "Contextual Word Meaning"
+      ]
+    },
+    "Math": {
+      "Algebra": [
+        "Linear Equations in One Variable",
+        "Linear Equations in Two Variables",
+        "Linear Functions",
+        "Systems of Linear Equations",
+        "Linear Inequalities",
+        "Arithmetic Sequences and Series"
+      ],
+      "Advanced Mathematics": [
+        "Quadratic Equations and Functions",
+        "Nonlinear Functions",
+        "Exponents and Radicals",
+        "Logarithms",
+        "Polynomial Expressions",
+        "Rational Expressions and Equations"
+      ],
+      "Problem-Solving and Data Analysis": [
+        "Ratios, Rates, and Proportions",
+        "Percentages",
+        "Unit Conversion",
+        "Averages and Weighted Averages",
+        "Two-Variable Data Interpretation (tables/graphs)",
+        "Probability",
+        "Statistics (mean, median, mode, standard deviation)"
+      ],
+      "Geometry and Trigonometry": [
+        "Area and Perimeter",
+        "Volume and Surface Area",
+        "Lines, Angles, and Triangles",
+        "Right Triangles and the Pythagorean Theorem",
+        "Circles (arcs, sectors, equations)",
+        "Trigonometric Ratios",
+        "Trigonometric Identities"
+      ],
+      "Number Theory": [
+        "Factors and Multiples",
+        "Prime Numbers",
+        "Number Properties (odd/even, divisibility)"
+      ]
+    }
+  }
+}
