@@ -1,0 +1,206 @@
+[
+{"id":7945,"short":"Sucrose is a disaccharide (glucose + fructose joined by a glycosidic bond).",
+"long":"A disaccharide forms when two monosaccharides join via a condensation reaction, losing a water molecule and forming a glycosidic bond. Sucrose = glucose + fructose. Glucose and ribose are monosaccharides, and glycerol is a three-carbon alcohol used to build triglycerides, not a sugar at all.",
+"trick":"Don't be fooled by '-ose' endings — glucose and ribose also end that way but are single simple sugars, not disaccharides.",
+"options":{"a":"Correct — sucrose is a disaccharide of glucose + fructose.","b":"Incorrect — glucose is a monosaccharide, a single simple sugar unit.","c":"Incorrect — ribose is a monosaccharide (a 5-carbon sugar found in RNA).","d":"Incorrect — glycerol is an alcohol backbone of triglycerides, not a sugar."}},
+
+{"id":7946,"short":"Amino acids are the monomer units that link via peptide bonds to form proteins.",
+"long":"Proteins are polymers of amino acids joined by peptide bonds formed through condensation reactions. Fatty acids build lipids, nucleotides build nucleic acids, and monosaccharides build carbohydrates — each biomolecule class has its own distinct monomer.",
+"trick":"Match the monomer to its polymer class: amino acid-protein, nucleotide-nucleic acid, monosaccharide-carbohydrate, fatty acid-lipid.",
+"options":{"a":"Correct — amino acids join by peptide bonds to form polypeptides/proteins.","b":"Incorrect — fatty acids are components of lipids, not proteins.","c":"Incorrect — nucleotides are the monomers of DNA/RNA.","d":"Incorrect — monosaccharides are the monomers of carbohydrates."}},
+
+{"id":7947,"short":"Secondary structure (alpha helices, beta sheets) is stabilized by hydrogen bonds along the polypeptide backbone.",
+"long":"Secondary structure arises from regular, repeating hydrogen bonding between the backbone C=O and N-H groups of the polypeptide chain, independent of the specific R-groups. Ionic bonds, disulfide bridges, and hydrophobic interactions between side chains instead stabilize tertiary/quaternary structure.",
+"trick":"Secondary structure = backbone H-bonds only. Side-chain (R-group) interactions belong to tertiary structure — a very common exam distinction.",
+"options":{"a":"Incorrect — disulfide bridges (between cysteine side chains) mainly stabilize tertiary structure.","b":"Incorrect — ionic bonds between side chains also belong to tertiary structure.","c":"Correct — regular backbone hydrogen bonding creates the helix/sheet pattern.","d":"Incorrect — hydrophobic interactions between distant residues are a tertiary-structure feature."}},
+
+{"id":7948,"short":"Triglycerides (fats/oils) are the body's main long-term energy storage molecules.",
+"long":"Triglycerides consist of glycerol bonded to three fatty acid chains. They pack far more energy per gram than carbohydrates and are stored in adipose tissue for long-term energy reserves, insulation, and organ cushioning.",
+"trick":"Don't confuse triglycerides (storage lipids) with phospholipids (membrane structure) or steroids (hormones/membrane component) — all are lipids but with different roles.",
+"options":{"a":"Incorrect — DNA/RNA (nucleic acids) are genetic material, not lipids.","b":"Incorrect — ribosomal structural components are proteins/rRNA, not triglycerides.","c":"Incorrect — enzymes are proteins, not lipids.","d":"Correct — triglycerides are the body's primary long-term energy reserve."}},
+
+{"id":7949,"short":"Denaturation unfolds a protein's higher-order structure (secondary/tertiary/quaternary) without necessarily breaking its peptide backbone.",
+"long":"Denaturing agents (heat, extreme pH, certain chemicals) disrupt the weak bonds (hydrogen bonds, ionic bonds, hydrophobic interactions) that hold a protein's 3D shape, causing it to unfold and lose function — even though the primary sequence (peptide bonds) usually remains intact.",
+"trick":"Denaturation changes shape, not sequence. If peptide bonds were broken, that would be hydrolysis/digestion, not denaturation.",
+"options":{"a":"Correct — denaturation disrupts folding/shape while the primary amino acid sequence usually stays intact.","b":"Incorrect — peptide bonds (primary structure) are generally NOT broken during denaturation.","c":"Incorrect — denaturation does not change a protein's chemical class into a carbohydrate.","d":"Incorrect — denaturation drastically changes 3D shape, which is exactly why function is lost."}},
+
+{"id":7950,"short":"Enzymes are biological catalysts — they speed up reactions without being consumed or permanently changed.",
+"long":"Enzymes lower the activation energy of biochemical reactions, dramatically increasing reaction rate, while emerging from the reaction chemically unchanged so they can be reused repeatedly.",
+"trick":"Catalysts (including enzymes) are never consumed — if a substance is used up in the reaction, it's a substrate/reactant, not a catalyst.",
+"options":{"a":"Correct — enzymes catalyze reactions and are not consumed in the process.","b":"Incorrect — substrates are consumed and converted into products; enzymes are not.","c":"Incorrect — enzymes are not products; many act in pathways beyond respiration.","d":"Incorrect — enzymes ARE catalytic, not merely structural."}},
+
+{"id":7951,"short":"Competitive inhibitors resemble the substrate and physically occupy the active site, blocking substrate binding.",
+"long":"Because a competitive inhibitor's shape mimics the substrate, it competes directly for the enzyme's active site. Increasing substrate concentration can outcompete the inhibitor and restore activity — a hallmark that distinguishes competitive from non-competitive inhibition.",
+"trick":"Competitive = active site, can be overcome by more substrate. Non-competitive = a different (allosteric) site, cannot be overcome by more substrate.",
+"options":{"a":"Incorrect — binding a distant allosteric site describes non-competitive inhibition.","b":"Incorrect — permanent destruction describes irreversible inhibition, not competitive inhibition specifically.","c":"Correct — competitive inhibitors resemble the substrate and block the active site directly.","d":"Incorrect — inhibitors reduce, not increase, effective enzyme activity."}},
+
+{"id":7952,"short":"Well above the optimum temperature, enzymes denature and activity drops sharply.",
+"long":"Enzyme activity rises with temperature up to an optimum (more kinetic energy → more successful collisions), but beyond that point the heat disrupts the enzyme's weak bonds, denaturing its active site so it can no longer bind substrate — activity falls off sharply, not gradually.",
+"trick":"Don't assume 'more heat = more activity' continues indefinitely — that only holds up to the optimum; past it, denaturation dominates.",
+"options":{"a":"Incorrect — activity does not increase indefinitely; it collapses after denaturation.","b":"Incorrect — there's no such fixed 'doubling per degree' rule especially past the optimum.","c":"Incorrect — activity changes sharply, it does not stay constant.","d":"Correct — high heat denatures the enzyme's active site, sharply reducing activity."}},
+
+{"id":7953,"short":"Non-competitive inhibitors bind a site other than the active site, changing enzyme shape so substrate binding is impaired.",
+"long":"By binding an allosteric (non-active) site, a non-competitive inhibitor induces a conformational change in the enzyme that reduces or eliminates its ability to bind substrate or catalyze the reaction — and this effect is not overcome by adding more substrate.",
+"trick":"Non-competitive inhibition cannot be reversed by raising substrate concentration, unlike competitive inhibition — a frequently tested contrast.",
+"options":{"a":"Correct — binding elsewhere alters enzyme shape, impairing substrate binding.","b":"Incorrect — competing directly at the active site describes competitive inhibition.","c":"Incorrect — inhibitors decrease, not increase, substrate affinity.","d":"Incorrect — non-competitive inhibition is not restricted to enzymes lacking cofactors."}},
+
+{"id":7954,"short":"Ribosomes are the cellular sites of protein synthesis (translation).",
+"long":"Ribosomes read mRNA codons and link amino acids together via peptide bonds to build polypeptide chains — this process is called translation. Ribosomes are found free in the cytoplasm or bound to the rough endoplasmic reticulum.",
+"trick":"Ribosomes make proteins, not DNA (that's replication in the nucleus) and not ATP directly (that's mitochondria).",
+"options":{"a":"Incorrect — lipid digestion occurs via lipase enzymes, not ribosomes.","b":"Correct — ribosomes translate mRNA into polypeptide chains.","c":"Incorrect — DNA replication occurs in the nucleus via DNA polymerase, not ribosomes.","d":"Incorrect — ATP is produced mainly by mitochondria, not ribosomes."}},
+
+{"id":7955,"short":"The Golgi apparatus modifies, sorts, and packages proteins (often received from the ER) for secretion or delivery to their destinations.",
+"long":"Proteins synthesized on the rough ER are transported to the Golgi apparatus, where they're chemically modified (e.g., glycosylation), sorted, and packaged into vesicles for secretion outside the cell or delivery to other organelles.",
+"trick":"Golgi = 'post office' of the cell — packaging and shipping, not manufacturing (that's the ribosome/ER) or energy production.",
+"options":{"a":"Incorrect — genetic material is stored in the nucleus, not the Golgi apparatus.","b":"Incorrect — ATP production via respiration occurs mainly in mitochondria.","c":"Correct — the Golgi modifies, sorts, and packages proteins for secretion/delivery.","d":"Incorrect — photosynthesis occurs in chloroplasts, not the Golgi apparatus."}},
+
+{"id":7956,"short":"Structure X is the inner mitochondrial membrane, which folds inward to form cristae, increasing surface area for ATP synthase.",
+"long":"The mitochondrion has two membranes: a smooth outer membrane (W) and a highly folded inner membrane (X) whose folds are called cristae. These folds greatly increase surface area for the electron transport chain and ATP synthase, maximizing ATP production. Y is the matrix (site of the Krebs cycle) and Z is the intermembrane space (thin gap between the two membranes).",
+"trick":"'Cristae' is always the folded INNER membrane — a very commonly tested mitochondrion labeling point.",
+"options":{"a":"Incorrect — the outer membrane (W) is smooth, not folded into cristae.","b":"Incorrect — the intermembrane space (Z) is the thin gap between membranes, not a folded membrane.","c":"Incorrect — the matrix (Y) is the fluid interior, not a membrane structure.","d":"Correct — the inner membrane (X) folds into cristae to maximize ATP-synthesis surface area."}},
+
+{"id":7957,"short":"Centrioles organize the mitotic spindle fibers that pull chromosomes apart during cell division.",
+"long":"Centrioles, found within the centrosome of animal cells, duplicate and migrate to opposite poles before mitosis, nucleating the microtubules that form the spindle apparatus responsible for chromosome segregation.",
+"trick":"Plant cells lack centrioles but can still form spindles — centrioles help organize spindle fibers but aren't strictly required for spindle formation in all organisms.",
+"options":{"a":"Correct — centrioles organize spindle fiber formation during cell division.","b":"Incorrect — photosynthesis occurs in chloroplasts, unrelated to centrioles.","c":"Incorrect — ribosomal RNA is produced in the nucleolus, not by centrioles.","d":"Incorrect — lipid droplet storage is not a centriole function."}},
+
+{"id":7958,"short":"Nuclear pores regulate selective passage of molecules like mRNA and proteins between the nucleus and cytoplasm.",
+"long":"The nuclear envelope is perforated by nuclear pore complexes that allow selective, regulated transport — mRNA and ribosomal subunits exit to the cytoplasm, while proteins needed in the nucleus (like DNA/RNA polymerases and histones) are imported in.",
+"trick":"Pores are selective, not simply open holes — they control which molecules pass and in which direction.",
+"options":{"a":"Incorrect — pores allow selective passage; they don't block everything.","b":"Correct — nuclear pores regulate traffic of RNA, proteins, and other macromolecules.","c":"Incorrect — pores allow much more than just water through (proteins, RNA, etc.).","d":"Incorrect — nuclear pores have a critical, well-defined transport function."}},
+
+{"id":7959,"short":"Cells with high energy demands (like muscle or liver cells) contain unusually large numbers of mitochondria.",
+"long":"Mitochondria generate ATP via aerobic respiration. Metabolically active tissues — skeletal/cardiac muscle (for contraction) and liver (for its many biosynthetic and detoxification functions) — pack in far more mitochondria than low-energy cells.",
+"trick":"Mature red blood cells actually LACK mitochondria entirely (and a nucleus) in mammals, making option B the opposite of correct.",
+"options":{"a":"Incorrect — low-energy-demand cells need fewer, not more, mitochondria.","b":"Incorrect — mature mammalian red blood cells have NO mitochondria at all.","c":"Correct — high-energy tissues like muscle/liver contain abundant mitochondria.","d":"Incorrect — a cell lacking respiration would have no functional use for mitochondria."}},
+
+{"id":7960,"short":"Osmosis is specifically the diffusion of water across a selectively (semi-)permeable membrane.",
+"long":"Osmosis describes water molecules moving from an area of higher water potential (lower solute concentration) to lower water potential (higher solute concentration) across a membrane that is permeable to water but restricts solutes.",
+"trick":"Osmosis = water only. Diffusion of solutes/ions/gases is called simple/facilitated diffusion, not osmosis specifically.",
+"options":{"a":"Incorrect — osmosis is specific to water, not just any gas.","b":"Incorrect — proteins moving across a membrane is active/facilitated transport, not osmosis.","c":"Incorrect — ions moving against a gradient describes active transport.","d":"Correct — osmosis is the diffusion of water across a selectively permeable membrane."}},
+
+{"id":7961,"short":"Active transport requires ATP to move substances against (up) their concentration gradient.",
+"long":"Unlike passive transport (diffusion, facilitated diffusion, osmosis), which moves substances down their gradient without energy input, active transport uses ATP-powered pumps to move molecules against their gradient — from low to high concentration.",
+"trick":"'Against the gradient' + 'requires energy' always signals active transport on MDCAT-style questions.",
+"options":{"a":"Correct — active transport uses ATP to move substances against their concentration gradient.","b":"Incorrect — active transport commonly DOES use carrier proteins (pumps).","c":"Incorrect — moving down a gradient describes passive transport, the opposite of active transport.","d":"Incorrect — active transport occurs in animal cells too (e.g., the Na+/K+ pump)."}},
+
+{"id":7962,"short":"In a hypertonic solution, water leaves the plant cell, causing the cell membrane to pull away from the rigid cell wall — plasmolysis.",
+"long":"A hypertonic external solution has a lower water potential than the cell's cytoplasm, so water exits the cell by osmosis. The protoplast shrinks and its membrane detaches from the surrounding cell wall, a condition called plasmolysis.",
+"trick":"Cell walls prevent bursting in plant cells (that risk applies to animal cells in hypotonic solutions) — plant cells in hypertonic solutions instead plasmolyze.",
+"options":{"a":"Incorrect — turgor pressure would increase in a hypotonic solution (water entering), the opposite scenario.","b":"Correct — water loss causes the membrane to pull away from the wall (plasmolysis).","c":"Incorrect — the rigid cell wall prevents bursting even under stress; bursting is more relevant to animal cells in hypotonic solutions.","d":"Incorrect — a clear osmotic change (plasmolysis) does occur."}},
+
+{"id":7963,"short":"The Na+/K+ pump moves 3 Na+ out of the cell and 2 K+ into the cell per ATP cycle.",
+"long":"This active transport pump uses one ATP molecule per cycle to export 3 sodium ions and import 2 potassium ions, both against their concentration gradients, maintaining the resting membrane potential essential for neuron and muscle function.",
+"trick":"Memorize the exact ratio: 3 Na+ OUT, 2 K+ IN — a frequently tested exact-number fact, and note the numbers are unequal, not the same.",
+"options":{"a":"Incorrect — the numbers of Na+ and K+ moved are unequal (3 vs 2), and they move in opposite directions, not the same direction.","b":"Incorrect — this reverses the correct ratio (it's 3 Na+ out, not 2).","c":"Correct — 3 Na+ are pumped out and 2 K+ are pumped in per cycle.","d":"Incorrect — the pump moves both Na+ and K+, not Na+ alone."}},
+
+{"id":7964,"short":"Facilitated diffusion uses a carrier/channel protein but moves substances down their gradient, so it needs no ATP.",
+"long":"Facilitated diffusion is a passive transport process: molecules that cannot cross the lipid bilayer directly (like glucose or ions) pass through specific membrane proteins, moving down their concentration gradient without any energy expenditure.",
+"trick":"'Carrier protein' does not automatically mean 'active transport' — facilitated diffusion also uses proteins but remains passive (no ATP).",
+"options":{"a":"Incorrect — endocytosis engulfs material via membrane vesicles and does require energy, not a simple carrier protein process.","b":"Incorrect — active transport requires ATP, which this question excludes.","c":"Incorrect — exocytosis also requires energy for vesicle fusion/release.","d":"Correct — facilitated diffusion uses a carrier/channel protein but needs no ATP since it moves down the gradient."}},
+
+{"id":7965,"short":"Interphase consists of the G1, S, and G2 sub-phases, where the cell grows and replicates its DNA.",
+"long":"Interphase is the longest part of the cell cycle: G1 (cell growth), S (DNA synthesis/replication), and G2 (further growth and preparation for mitosis) all occur before the cell enters M phase (mitosis).",
+"trick":"Interphase is NOT 'resting' — it's when the cell is most metabolically active, growing and duplicating its DNA in preparation for division.",
+"options":{"a":"Correct — G1, S, and G2 together make up interphase.","b":"Incorrect — mitosis is the division phase that follows interphase, not part of it.","c":"Incorrect — cytokinesis is the final physical splitting of the cell, occurring after mitosis.","d":"Incorrect — prophase and metaphase are stages of mitosis, not interphase."}},
+
+{"id":7966,"short":"Sister chromatids separate and migrate to opposite poles during anaphase.",
+"long":"In anaphase, the centromeres split and spindle fibers shorten, pulling sister chromatids apart toward opposite poles of the cell — this ensures each daughter cell receives a complete, identical set of chromosomes.",
+"trick":"Remember the mnemonic order: Prophase (condense) → Metaphase (align) → Anaphase (separate/apart) → Telophase (two nuclei form).",
+"options":{"a":"Incorrect — in prophase, chromosomes condense but do not yet separate.","b":"Correct — anaphase is specifically the stage where sister chromatids are pulled apart.","c":"Incorrect — in metaphase, chromosomes align at the equator but haven't separated yet.","d":"Incorrect — interphase precedes mitosis entirely; no chromosome movement of this kind occurs then."}},
+
+{"id":7967,"short":"Meiosis produces four genetically distinct haploid daughter cells, unlike mitosis's two identical diploid cells.",
+"long":"Meiosis involves two successive divisions (meiosis I and II) with crossing over and independent assortment, yielding four haploid (n) cells that are genetically distinct from each other and from the parent — essential for sexual reproduction and genetic variation.",
+"trick":"Mitosis: 2 diploid identical cells. Meiosis: 4 haploid distinct cells — a core contrast tested repeatedly.",
+"options":{"a":"Incorrect — that describes mitosis, not meiosis.","b":"Incorrect — meiosis produces four haploid cells, not a mix of diploid and haploid.","c":"Correct — meiosis yields four genetically distinct haploid gametes.","d":"Incorrect — meiosis clearly does produce new cells (gametes)."}},
+
+{"id":7968,"short":"With 2n = 24, each haploid gamete produced by meiosis contains n = 12 chromosomes.",
+"long":"Meiosis halves the chromosome number so that fertilization (gamete + gamete) restores the diploid number. If the somatic (diploid) chromosome number is 2n = 24, then each gamete carries n = 24/2 = 12 chromosomes.",
+"trick":"Always divide the diploid number by 2 to get the gamete (haploid) number — a very simple arithmetic check that's easy to rush past.",
+"options":{"a":"Incorrect — 24 is the diploid (2n) number, not the haploid gamete number.","b":"Incorrect — 6 would be n/2, an extra unwarranted halving.","c":"Incorrect — 48 would be double the diploid number, not a halving.","d":"Correct — 24 ÷ 2 = 12 chromosomes per haploid gamete."}},
+
+{"id":7969,"short":"The spindle assembly checkpoint verifies all chromosomes are properly attached to spindle fibers before anaphase can begin.",
+"long":"This checkpoint prevents the cell from proceeding to anaphase until every kinetochore is correctly attached to spindle microtubules, ensuring accurate, equal chromosome segregation and preventing aneuploidy (incorrect chromosome numbers) in daughter cells.",
+"trick":"The spindle checkpoint acts specifically before anaphase (chromosome attachment), while the G1/S checkpoint concerns DNA replication readiness — don't mix up the two checkpoints.",
+"options":{"a":"Correct — the checkpoint confirms proper spindle attachment before allowing anaphase.","b":"Incorrect — verifying DNA replication is a separate checkpoint (G2/M checks completed S phase, not this one).","c":"Incorrect — nutrient sufficiency relates to the G1 checkpoint, not the spindle assembly checkpoint.","d":"Incorrect — cytokinesis follows mitosis, not the reverse; this isn't what the spindle checkpoint controls."}},
+
+{"id":7970,"short":"Apoptosis is a programmed, regulated form of cell death, distinct from uncontrolled cell death or division.",
+"long":"Apoptosis is a tightly controlled cellular 'self-destruct' process used to eliminate damaged, unneeded, or potentially dangerous cells (e.g., during development or to prevent cancer) without triggering inflammation, unlike uncontrolled necrotic cell death.",
+"trick":"Apoptosis = death, not division. Don't confuse it with mitosis or meiosis, which are cell division processes.",
+"options":{"a":"Incorrect — apoptosis is death, and it is highly regulated, not uncontrolled division.","b":"Correct — apoptosis is a programmed, regulated pathway of cell death.","c":"Incorrect — apoptosis is not a type of mitosis; mitosis produces new cells, apoptosis eliminates them.","d":"Incorrect — apoptosis is not a form of meiosis; meiosis produces gametes, not cell death."}},
+
+{"id":7971,"short":"Tt (tall) x tt (short) is a test cross, producing offspring in a 1:1 ratio of Tt (tall) to tt (short).",
+"long":"Crossing a heterozygote (Tt) with a homozygous recessive (tt) yields gametes T and t from the Tt parent, and only t from the tt parent, giving offspring genotypes Tt and tt in equal proportion — phenotypically 1 tall : 1 short.",
+"trick":"Tt x tt is a classic 'test cross' used to determine unknown genotypes — always expect a 1:1 ratio, not the 3:1 ratio seen in Tt x Tt crosses.",
+"options":{"a":"Incorrect — 'all tall' would only occur if the short parent were also heterozygous or dominant, not tt.","b":"Incorrect — 3:1 is the ratio for a Tt x Tt (heterozygote x heterozygote) cross, not Tt x tt.","c":"Correct — Tt x tt gives a 1:1 ratio of tall to short offspring.","d":"Incorrect — 'all short' would require the tall parent to also be tt, but it's heterozygous (Tt)."}},
+
+{"id":7972,"short":"Aa x Aa produces offspring in a 1 AA : 2 Aa : 1 aa genotype ratio (the classic monohybrid cross).",
+"long":"Using a Punnett square for Aa x Aa: gametes A and a from each parent combine to give AA, Aa, Aa, aa — a 1:2:1 genotype ratio, which corresponds to a 3:1 phenotype ratio if A is dominant.",
+"trick":"Don't confuse genotype ratio (1:2:1) with phenotype ratio (3:1) for the same Aa x Aa cross — this question specifically asks for genotype.",
+"options":{"a":"Incorrect — 3 AA : 1 aa is not the outcome of an Aa x Aa cross.","b":"Incorrect — 'All Aa' would only occur in an AA x aa cross, not Aa x Aa.","c":"Incorrect — 1 AA : 1 aa omits the heterozygotes, which make up half the offspring.","d":"Correct — the classic monohybrid cross gives 1 AA : 2 Aa : 1 aa."}},
+
+{"id":7973,"short":"Males (XY) need only one copy of an X-linked recessive allele to express the trait, since they lack a second X to mask it.",
+"long":"Females (XX) require two recessive alleles (one on each X) to express an X-linked recessive trait, since a single dominant allele on the other X would mask it. Males, having only one X, express any recessive allele present on it — making these disorders more common in males.",
+"trick":"'Carrier' females (heterozygous, one normal + one recessive X allele) exist precisely because females have a second X that can mask the trait — males cannot be silent carriers this way.",
+"options":{"a":"Correct — a single X means males cannot mask a recessive allele with a second, normal X.","b":"Incorrect — males have only ONE X chromosome (XY), not two.","c":"Incorrect — females CAN carry the allele (as heterozygous carriers); they just don't usually express it.","d":"Incorrect — the disorder CAN and does affect males, in fact more commonly than females."}},
+
+{"id":7974,"short":"In a dihybrid cross AaBb x AaBb, the fraction expected to be homozygous recessive for both traits (aabb) is 1/16.",
+"long":"Using the product rule: the probability of aa alone is 1/4, and bb alone is also 1/4 (each from independent monohybrid Aa x Aa crosses). Combined: 1/4 x 1/4 = 1/16 for aabb, matching the classic 9:3:3:1 dihybrid ratio (1/16 corresponds to the smallest class).",
+"trick":"For independent genes, multiply individual trait probabilities rather than trying to memorize the full 16-box grid from scratch.",
+"options":{"a":"Incorrect — 9/16 is the fraction showing both dominant phenotypes (A_B_), not aabb.","b":"Correct — 1/4 x 1/4 = 1/16 for the doubly homozygous recessive genotype.","c":"Incorrect — 3/16 is the fraction of one dominant + one recessive combination, not aabb.","d":"Incorrect — 1/4 would be the fraction for a single trait alone (e.g., aa), not both traits together."}},
+
+{"id":7975,"short":"AB x O parents can only produce A or B offspring — never AB or O.",
+"long":"Type AB parent has alleles I^A and I^B; type O parent has alleles i and i. Combining gametes gives I^A i (blood type A) or I^B i (blood type B) — the AB parent always contributes either I^A or I^B, and the O parent always contributes i, so AB and OO combinations are impossible.",
+"trick":"An AB parent can never have an O child (they always pass on I^A or I^B, never just i), and an O parent can never contribute an I^A or I^B allele.",
+"options":{"a":"Incorrect — 'only AB' would require both parents to contribute I^A and I^B together, but the O parent only has i alleles to give.","b":"Incorrect — 'only O' is impossible because the AB parent always contributes I^A or I^B, never just i.","c":"Correct — offspring must be I^A i (type A) or I^B i (type B), never AB or O.","d":"Incorrect — AB and O offspring are genetically impossible from this specific cross."}},
+
+{"id":7976,"short":"A trait skipping generations, appearing only when both unaffected (carrier) parents pass on the allele, is classic autosomal recessive inheritance.",
+"long":"In autosomal recessive inheritance, heterozygous carriers (Aa) are phenotypically unaffected but can each pass the recessive allele to offspring; when two carriers have children, roughly 1/4 of offspring are homozygous recessive (aa) and show the trait — explaining why it appears to 'skip' generations.",
+"trick":"'Two unaffected parents having an affected child' is the classic giveaway for a recessive (not dominant) trait — dominant traits can't skip a generation this way (an affected child requires at least one affected parent, barring new mutation).",
+"options":{"a":"Incorrect — dominant traits appear in every generation where the allele is present; they don't 'skip' via unaffected parents.","b":"Incorrect — codominant traits show both phenotypes simultaneously; they don't involve unaffected carrier parents 'skipping' a generation like this.","c":"Incorrect — Y-linked traits pass father-to-son directly and can't come from two unaffected carriers this way.","d":"Correct — recessive traits from two unaffected carrier parents is the hallmark of autosomal recessive inheritance."}},
+
+{"id":7977,"short":"RR (red) x WW (white) giving all pink (RW) offspring is a classic example of incomplete dominance, where the heterozygote shows a blended intermediate phenotype.",
+"long":"In incomplete dominance, neither allele is fully dominant; the heterozygote (RW) displays an intermediate phenotype (pink) blending both parental colors, rather than resembling one parent exactly (complete dominance) or showing both colors distinctly and separately (codominance, e.g., roan cattle or AB blood type).",
+"trick":"Incomplete dominance = blended intermediate look (pink). Codominance = both traits show separately and fully (e.g., red AND white spots) — don't mix these two up.",
+"options":{"a":"Correct — a blended intermediate phenotype (pink) is the signature of incomplete dominance.","b":"Incorrect — codominance would show both red and white simultaneously (e.g., spotted), not a blended pink.","c":"Incorrect — epistasis involves one gene masking another gene's expression, unrelated to this single-gene flower-color scenario.","d":"Incorrect — complete dominance would produce all-red offspring (like the dominant parent), not pink."}},
+
+{"id":7978,"short":"Phenotype is the observable physical expression of an organism's genotype.",
+"long":"Genotype is the genetic makeup (allele combination) an organism carries, while phenotype is how that genotype is physically expressed and observed — such as eye color, height, or blood type — often also influenced by environmental factors.",
+"trick":"Genotype = the genes (invisible, e.g., 'Bb'). Phenotype = what you can see/measure (e.g., 'brown eyes'). This exact pairing is heavily tested.",
+"options":{"a":"Incorrect — genotype is the underlying allele combination, not the observable trait itself.","b":"Correct — phenotype is the physical, observable expression of the genotype.","c":"Incorrect — an allele is one version of a gene, not the observable trait as a whole.","d":"Incorrect — a locus is the physical location of a gene on a chromosome, not an observable trait."}},
+
+{"id":7979,"short":"In DNA, adenine (A) always pairs with thymine (T) via two hydrogen bonds.",
+"long":"DNA base pairing follows strict complementary rules: A pairs with T (2 hydrogen bonds), and G pairs with C (3 hydrogen bonds). In RNA, adenine instead pairs with uracil (U), since RNA lacks thymine.",
+"trick":"A-T and G-C in DNA; A-U (not A-T) in RNA — remember uracil replaces thymine only in RNA.",
+"options":{"a":"Incorrect — guanine pairs with cytosine, not adenine.","b":"Incorrect — cytosine pairs with guanine, not adenine.","c":"Correct — adenine pairs with thymine in DNA.","d":"Incorrect — uracil pairs with adenine only in RNA, not in DNA (which lacks uracil)."}},
+
+{"id":7980,"short":"RNA contains the sugar ribose, while DNA contains deoxyribose.",
+"long":"The 'deoxy' in deoxyribonucleic acid (DNA) refers to its sugar lacking one oxygen atom compared to ribose (found in RNA/ribonucleic acid). This structural difference is one of several distinguishing DNA from RNA, alongside RNA's use of uracil instead of thymine and its typically single-stranded structure.",
+"trick":"Remember: 'Ribonucleic acid' contains ribose; 'Deoxyribonucleic acid' contains deoxyribose (ribose minus one oxygen) — the names directly hint at the sugar difference.",
+"options":{"a":"Incorrect — deoxyribose is the sugar found in DNA, not RNA.","b":"Incorrect — galactose is unrelated to nucleic acid backbones; it's a monosaccharide used in other contexts (e.g., lactose).","c":"Incorrect — glucose is not the nucleic acid backbone sugar in either DNA or RNA.","d":"Correct — ribose is the sugar in RNA's nucleotide backbone."}},
+
+{"id":7981,"short":"Semi-conservative replication means each new DNA double helix contains one original (parental) strand and one newly synthesized strand.",
+"long":"During DNA replication, the two original strands separate and each serves as a template for building a new complementary strand. The result is two daughter DNA molecules, each a hybrid of one old strand and one new strand — hence 'semi-conservative.'",
+"trick":"'Semi' means half-old, half-new in EACH resulting molecule — not one molecule fully old and one fully new (that would be 'conservative' replication, which is not what actually happens).",
+"options":{"a":"Correct — each daughter molecule is a hybrid of one old and one new strand.","b":"Incorrect — that would describe a fully 'dispersive' or non-conservative model, not the actual semi-conservative mechanism.","c":"Incorrect — new strands ARE synthesized during replication; they don't stay unchanged.","d":"Incorrect — new strands are definitely formed; that's the entire point of DNA replication."}},
+
+{"id":7982,"short":"Translation is the process of building a polypeptide chain from mRNA codons at the ribosome.",
+"long":"During translation, ribosomes read mRNA codons (three-nucleotide sequences) and tRNA molecules bring in the corresponding amino acids, which are linked together by peptide bonds to build the growing polypeptide chain.",
+"trick":"Transcription makes mRNA FROM DNA (in the nucleus); translation makes protein FROM mRNA (at the ribosome) — keep the 'T' words but different processes straight.",
+"options":{"a":"Incorrect — transcription is copying DNA into mRNA, which happens before translation.","b":"Correct — translation converts mRNA codons into an amino acid chain at the ribosome.","c":"Incorrect — replication is copying DNA into more DNA, unrelated to protein assembly.","d":"Incorrect — splicing removes introns from pre-mRNA, occurring before translation, not the amino-acid-linking step itself."}},
+
+{"id":7983,"short":"A missense mutation changes one codon so it codes for a different amino acid, altering the protein.",
+"long":"Missense mutations are point mutations that result in a codon specifying a different amino acid than originally intended. This can alter protein structure/function, unlike a silent mutation (no amino acid change) or nonsense mutation (creates a premature stop codon).",
+"trick":"Silent = same amino acid (no change). Missense = different amino acid (one change). Nonsense = stop codon (truncated protein). Learn all three by their names' literal meanings.",
+"options":{"a":"Incorrect — a silent mutation does NOT change the resulting amino acid at all.","b":"Incorrect — a nonsense mutation creates a premature stop codon, truncating the protein, rather than substituting one amino acid.","c":"Correct — missense mutations swap in a different amino acid at that position.","d":"Incorrect — a frameshift mutation (from insertion/deletion) shifts the entire reading frame, affecting many codons, not just one."}},
+
+{"id":7984,"short":"Inserting a single nucleotide shifts the reading frame, altering every codon downstream of the insertion point — a frameshift mutation.",
+"long":"Because codons are read in fixed groups of three, adding (or removing) a number of nucleotides not divisible by three shifts how all subsequent codons are grouped and read, typically scrambling the entire downstream amino acid sequence and often introducing a premature stop codon.",
+"trick":"Insertions/deletions of 1 or 2 nucleotides cause frameshifts; insertions/deletions of exactly 3 nucleotides (or multiples of 3) preserve the reading frame and just add/remove a whole codon.",
+"options":{"a":"Incorrect — a single-nucleotide insertion almost always DOES change the protein, via a frameshift.","b":"Incorrect — frameshifts typically destroy protein function/stability rather than improve it.","c":"Incorrect — a silent mutation involves no amino acid change at all, unlike the drastic effect of a frameshift.","d":"Correct — a single-nucleotide insertion shifts the reading frame, scrambling every downstream codon."}},
+
+{"id":7985,"short":"Retroviruses like HIV use reverse transcriptase to convert their RNA genome into DNA inside a host cell.",
+"long":"Reverse transcriptase is a unique viral enzyme that synthesizes complementary DNA (cDNA) from an RNA template — the reverse of the normal DNA-to-RNA transcription flow. This viral DNA can then integrate into the host genome, a hallmark feature of retroviruses.",
+"trick":"'Reverse' transcriptase runs transcription backwards (RNA → DNA) compared to normal transcription (DNA → RNA) — the name directly describes the reversed direction.",
+"options":{"a":"Correct — reverse transcriptase converts the viral RNA genome into DNA.","b":"Incorrect — DNA polymerase synthesizes DNA from a DNA template, not from RNA.","c":"Incorrect — RNA polymerase synthesizes RNA from DNA (normal transcription), the opposite direction needed here.","d":"Incorrect — ligase joins DNA fragments together; it doesn't convert RNA into DNA."}}
+]

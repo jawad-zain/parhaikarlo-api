@@ -1,0 +1,27 @@
+[
+  {
+    "question_id": 7956,
+    "filename": "q_mitochondrion_crosssection_diagram.png",
+    "note": "Q12"
+  },
+  {
+    "question_id": 8016,
+    "filename": "q_nephron_glomerulus_diagram.png",
+    "note": "Q72"
+  },
+  {
+    "question_id": 8055,
+    "filename": "q_titration_curve_equivalence_point.png",
+    "note": "Q111"
+  },
+  {
+    "question_id": 8098,
+    "filename": "q_circuit_series_then_parallel_v2.png",
+    "note": "Q154"
+  },
+  {
+    "question_id": 8106,
+    "filename": "q_convex_lens_object_beyond_2f.png",
+    "note": "Q162"
+  }
+]

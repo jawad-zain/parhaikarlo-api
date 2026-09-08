@@ -1,0 +1,181 @@
+[
+{"id":8071,"short":"Speed = distance/time = 30 km / 3 h = 10 km/h.",
+"long":"For constant speed motion, speed is simply total distance divided by total time: 30 km / 3 h = 10 km/h.",
+"trick":"Always divide distance by time (not the reverse) — a simple but occasionally rushed unit-rate calculation.",
+"options":{"a":"Incorrect — 90 km/h would result from multiplying instead of dividing.","b":"Incorrect — 15 km/h would result from an incorrect division (e.g., using 2 hours instead of 3).","c":"Correct — 30 km ÷ 3 h = 10 km/h.","d":"Incorrect — 3.3 km/h would result from inverting the division (3/30 instead of 30/3)."}},
+
+{"id":8072,"short":"Acceleration = (change in velocity)/time = (25-10)/5 = 15/5 = 3 m/s^2.",
+"long":"Acceleration is the rate of change of velocity: a = (v_f - v_i)/t = (25 m/s - 10 m/s)/5 s = 15/5 = 3 m/s^2.",
+"trick":"Subtract initial velocity from final velocity FIRST, then divide by time — don't divide each velocity separately.",
+"options":{"a":"Incorrect — 2 m/s^2 would result from an incorrect velocity difference or division error.","b":"Incorrect — 5 m/s^2 would result from dividing only the final velocity by time (25/5), ignoring the initial velocity.","c":"Incorrect — 7.5 m/s^2 doesn't match the correct subtraction/division of the given values.","d":"Correct — (25-10)/5 = 3 m/s^2."}},
+
+{"id":8073,"short":"Velocity just before impact: v = gt = 10 m/s^2 x 4 s = 40 m/s.",
+"long":"For an object dropped from rest, velocity after time t under constant gravitational acceleration is v = u + gt = 0 + (10)(4) = 40 m/s.",
+"trick":"Starting from rest means initial velocity u = 0, so v = gt directly — a simplified case of the general kinematic equation v = u + at.",
+"options":{"a":"Correct — v = gt = 10 x 4 = 40 m/s.","b":"Incorrect — 20 m/s would result from using only 2 seconds of fall time instead of 4.","c":"Incorrect — 80 m/s would result from doubling the correct answer, perhaps from a squaring error.","d":"Incorrect — 10 m/s is just the value of g itself, not the velocity after 4 seconds of acceleration."}},
+
+{"id":8074,"short":"By Newton's first law, an object with zero net force remains at rest (or in uniform motion) — inertia.",
+"long":"Newton's first law (the law of inertia) states that an object remains at rest, or continues moving at constant velocity, unless acted upon by an unbalanced (net) external force. A stationary object with zero net force simply stays at rest.",
+"trick":"'Zero net force' does NOT mean 'no forces at all' — it means all forces are balanced, and the object's state of motion (rest or constant velocity) doesn't change.",
+"options":{"a":"Incorrect — an object cannot spontaneously start moving with zero net force acting on it; that would violate Newton's first law.","b":"Correct — inertia keeps a stationary object at rest when net force is zero.","c":"Incorrect — 'random acceleration' would require an unbalanced force, contradicting the zero-net-force condition.","d":"Incorrect — Newton's laws don't describe mass changing due to force balance; mass is generally treated as constant in this context."}},
+
+{"id":8075,"short":"Using F = ma: mass = F/a = 20 N / 4 m/s^2 = 5 kg.",
+"long":"Newton's second law states F = ma. Rearranging to solve for mass: m = F/a = 20/4 = 5 kg.",
+"trick":"Rearrange F=ma into m=F/a when force and acceleration are given but mass is the unknown — a direct algebraic rearrangement.",
+"options":{"a":"Incorrect — 16 kg doesn't match F/a for these given values.","b":"Incorrect — 80 kg would result from multiplying F and a instead of dividing.","c":"Correct — 20 N ÷ 4 m/s^2 = 5 kg.","d":"Incorrect — 24 kg doesn't correspond to the correct division of the given force and acceleration."}},
+
+{"id":8076,"short":"Newton's second law states that force equals mass multiplied by acceleration: F = ma.",
+"long":"Newton's second law quantitatively relates force, mass, and acceleration: the net force on an object equals its mass times its resulting acceleration (F = ma). This is distinct from the first law (inertia) and third law (action-reaction pairs).",
+"trick":"First law = inertia (objects resist changes in motion). Second law = F=ma (quantitative force-mass-acceleration relationship). Third law = action-reaction pairs — match each law to its exact statement.",
+"options":{"a":"Incorrect — this describes Newton's FIRST law (inertia), not the second law.","b":"Incorrect — conservation of momentum, while related to Newton's laws, is not itself the direct statement of the second law.","c":"Incorrect — 'equal and opposite reaction' describes Newton's THIRD law, not the second.","d":"Correct — F = ma is the precise mathematical statement of Newton's second law."}},
+
+{"id":8077,"short":"Friction force = μmg = 0.25 x 4 x 10 = 10 N; net force = 22 - 10 = 12 N; acceleration = 12/4 = 3 m/s^2.",
+"long":"First calculate the friction force opposing motion: f = μN = μmg = 0.25 x 4 x 10 = 10 N. The net force is the applied force minus friction: 22 - 10 = 12 N. Then acceleration = net force / mass = 12/4 = 3 m/s^2.",
+"trick":"Always calculate friction FIRST and subtract it from the applied force to get the NET force before dividing by mass — skipping the friction subtraction is the most common error here.",
+"options":{"a":"Correct — net force (22 - 10 = 12 N) divided by mass (4 kg) gives 3 m/s^2.","b":"Incorrect — 5.5 m/s^2 would result from dividing the raw applied force (22 N) by mass without subtracting friction.","c":"Incorrect — 2 m/s^2 doesn't match the correct net-force calculation using the given friction coefficient.","d":"Incorrect — 4 m/s^2 would ignore friction's reduction of the net force entirely."}},
+
+{"id":8078,"short":"When force acts parallel to displacement, work done is maximum for that magnitude of force and displacement (W = Fd, since cos(0°)=1).",
+"long":"Work is defined as W = Fd cos(θ), where θ is the angle between force and displacement. When force is parallel to motion (θ=0°), cos(0°)=1, giving the maximum possible work for that force and displacement magnitude — no component of force is 'wasted' in a perpendicular direction.",
+"trick":"Work is MAXIMIZED when force and displacement are parallel (0°) and ZERO when perpendicular (90°) — remember the cos(θ) factor governs this relationship.",
+"options":{"a":"Incorrect — zero work occurs when force is PERPENDICULAR to displacement (90°), not parallel.","b":"Correct — parallel force and displacement give maximum work (cos 0° = 1).","c":"Incorrect — work would be negative if force opposed displacement (180°), not when parallel to it.","d":"Incorrect — work is a well-defined, calculable quantity in this parallel-force scenario, not undefined."}},
+
+{"id":8079,"short":"Gravitational PE = mgh = 4 kg x 10 m/s^2 x 5 m = 200 J.",
+"long":"Gravitational potential energy is calculated as PE = mgh, where m is mass, g is gravitational acceleration, and h is height: 4 x 10 x 5 = 200 J.",
+"trick":"Multiply all three quantities together (mass x gravity x height) — a straightforward but easy-to-miscalculate formula if any value is mishandled.",
+"options":{"a":"Incorrect — 20 J would result from omitting one of the three factors (e.g., forgetting g or height).","b":"Incorrect — 50 J doesn't match the full mgh product for these values.","c":"Correct — 4 x 10 x 5 = 200 J.","d":"Incorrect — 9 J is far too small and doesn't correspond to any correct partial calculation."}},
+
+{"id":8080,"short":"Kinetic energy = (1/2)mv^2 = 0.5 x 4 x 5^2 = 0.5 x 4 x 25 = 50 J.",
+"long":"Kinetic energy formula: KE = (1/2)mv^2 = 0.5 x 4 kg x (5 m/s)^2 = 0.5 x 4 x 25 = 50 J.",
+"trick":"Remember to SQUARE the velocity before multiplying by mass and the 1/2 factor — forgetting to square v is the most common kinetic energy mistake.",
+"options":{"a":"Incorrect — 20 J would result from using v (not v^2) in the calculation.","b":"Incorrect — 10 J is too small and doesn't match the correct formula application.","c":"Incorrect — 100 J would result from forgetting the 1/2 factor (0.5 x 4 x 25 x 2, effectively doubling the correct answer).","d":"Correct — 0.5 x 4 x 25 = 50 J."}},
+
+{"id":8081,"short":"Power = energy/time = 24000 J / 40 s = 600 W.",
+"long":"Power is the rate of energy transfer: P = W/t = 24000/40 = 600 W.",
+"trick":"Divide energy by time to get power (watts = joules/second) — a direct application of the power definition.",
+"options":{"a":"Correct — 24000 ÷ 40 = 600 W.","b":"Incorrect — 960000 W would result from multiplying instead of dividing (24000 x 40).","c":"Incorrect — 60 W is off by a factor of 10 from the correct division.","d":"Incorrect — 6000 W is off by a factor of 10 in the other direction from the correct answer."}},
+
+{"id":8082,"short":"Centripetal force in uniform circular motion always points toward the center of the circle.",
+"long":"Centripetal ('center-seeking') force continuously redirects an object's velocity inward, keeping it on a curved circular path rather than flying off in a straight line (per inertia). Without this inward force, the object would move tangent to the circle in a straight line.",
+"trick":"'Centripetal' literally means 'center-seeking' in Latin — the name itself tells you the direction: toward the center.",
+"options":{"a":"Incorrect — the object's INSTANTANEOUS VELOCITY is tangent to the path, but the centripetal FORCE points inward, not tangentially.","b":"Correct — centripetal force always points toward the center of the circular path.","c":"Incorrect — a force pointing away from the center would cause the object to move outward, not maintain circular motion.","d":"Incorrect — velocity direction is tangential, but centripetal force is perpendicular to velocity, pointing inward, not in the velocity's direction."}},
+
+{"id":8083,"short":"By the inverse-square law, tripling the distance reduces gravitational force to 1/3^2 = 1/9 of the original.",
+"long":"Newton's law of universal gravitation states F ∝ 1/r^2. If distance r is tripled (3r), the new force is F' = F/(3)^2 = F/9, so the force becomes 1/9 of its original value.",
+"trick":"Always SQUARE the distance multiplier for inverse-square relationships (gravity, Coulomb's law) — tripling distance means dividing force by 3^2=9, not just by 3.",
+"options":{"a":"Incorrect — 3 times the original would apply if force were directly (not inversely) proportional to distance.","b":"Incorrect — 1/3 would result from forgetting to square the distance factor in the inverse-square law.","c":"Correct — force becomes 1/(3^2) = 1/9 of the original when distance triples.","d":"Incorrect — 9 times the original reverses the correct inverse relationship (force should decrease, not increase, with greater distance)."}},
+
+{"id":8084,"short":"Since g ∝ 1/r^2, doubling Earth's radius while keeping mass constant reduces surface gravity to 1/4 of its original value.",
+"long":"Surface gravitational acceleration is g = GM/r^2. With mass M unchanged and radius doubled (2r), the new g' = GM/(2r)^2 = GM/(4r^2) = g/4 — a quarter of the original value.",
+"trick":"Same inverse-square logic as gravitational force between masses: doubling distance/radius means dividing by 2^2=4, not just by 2.",
+"options":{"a":"Incorrect — gravity would only 'stay the same' if radius stayed constant, but it doubled here, so g must change.","b":"Incorrect — doubling g would require radius to DECREASE (not increase) by a specific factor, the opposite direction.","c":"Incorrect — quadrupling g would require radius to be halved, not doubled — again the opposite trend.","d":"Correct — g'=GM/(2r)^2=g/4, so gravity is reduced to 1/4 of its original value."}},
+
+{"id":8085,"short":"An object sinks when the buoyant force acting on it is less than its weight.",
+"long":"By Archimedes' principle, an object floats, sinks, or remains suspended depending on the relationship between buoyant force (weight of displaced fluid) and the object's actual weight. If buoyant force is less than weight, the net force is downward and the object sinks.",
+"trick":"Buoyant force < weight → sinks. Buoyant force = weight → floats/suspended. Buoyant force > weight → object rises/floats to surface — memorize this three-way comparison.",
+"options":{"a":"Correct — insufficient buoyant force (less than weight) causes an object to sink.","b":"Incorrect — buoyant force greater than weight would cause the object to rise/float, not sink.","c":"Incorrect — equal buoyant force and weight would mean the object is neutrally buoyant (suspended), not actively sinking.","d":"Incorrect — buoyant force being twice the weight would strongly push the object upward, not cause sinking."}},
+
+{"id":8086,"short":"Pascal's principle states that pressure applied to an enclosed fluid is transmitted undiminished throughout the fluid in all directions.",
+"long":"This principle underlies hydraulic systems: a pressure change at any point in an enclosed, incompressible fluid is transmitted equally to all points in the fluid and to the walls of its container, without loss — allowing force multiplication in hydraulic lifts/brakes.",
+"trick":"'Undiminished' and 'in all directions' are the key phrases of Pascal's principle — pressure doesn't weaken or become directional as it spreads through an enclosed fluid.",
+"options":{"a":"Incorrect — pressure is NOT absorbed only at the application point; it spreads throughout the entire enclosed fluid.","b":"Correct — pressure transmits undiminished throughout an enclosed fluid, in every direction.","c":"Incorrect — pressure is not lost as it travels through the fluid; it remains equal throughout (that's the whole point of the principle).","d":"Incorrect — pressure transmits in ALL directions, not just the direction it was originally applied."}},
+
+{"id":8087,"short":"By Bernoulli's principle, as fluid speed increases, its pressure decreases.",
+"long":"Bernoulli's equation reflects energy conservation in flowing fluid: as kinetic energy (associated with speed) increases, pressure energy must decrease to keep total energy constant along a streamline — explaining phenomena like lift on an airplane wing or the Venturi effect.",
+"trick":"Faster fluid flow = lower pressure. This inverse relationship (Bernoulli's principle) is the basis for airplane lift, atomizers, and carburetors.",
+"options":{"a":"Incorrect — pressure decreases (not increases) as fluid speed increases, per Bernoulli's principle.","b":"Incorrect — pressure changes noticeably with speed; it does not stay constant under Bernoulli's principle.","c":"Correct — increased fluid speed corresponds to decreased pressure (Bernoulli's principle).","d":"Incorrect — pressure decreasing does not mean it drops all the way to zero; it simply becomes lower relative to the slower-flow condition."}},
+
+{"id":8088,"short":"The lowest point of a transverse wave is called the trough.",
+"long":"A transverse wave alternates between crests (highest points) and troughs (lowest points) as it propagates. Amplitude is the distance from the equilibrium (rest) position to either a crest or trough, not a point on the wave itself.",
+"trick":"Crest = highest point, Trough = lowest point, Amplitude = height/depth measurement (not a location), Node = a point of zero displacement in a standing wave.",
+"options":{"a":"Incorrect — a crest is the HIGHEST point of a wave, the opposite of the trough.","b":"Incorrect — amplitude is a MEASUREMENT (maximum displacement from equilibrium), not a specific point like a trough.","c":"Incorrect — a node is a point of zero displacement in a standing wave, distinct from the lowest point of a traveling transverse wave.","d":"Correct — the trough is specifically the lowest point of a transverse wave."}},
+
+{"id":8089,"short":"A shorter pendulum has a shorter period (and thus a higher frequency) than a longer pendulum.",
+"long":"The period of a simple pendulum is T = 2π√(L/g), showing period increases with the square root of length. A shorter length L directly gives a smaller T (shorter period), meaning the pendulum swings back and forth more quickly (higher frequency).",
+"trick":"Period T ∝ √L: shorter pendulum → shorter period → higher frequency (swings faster) — an inverse relationship between length and frequency, direct relationship between length and period.",
+"options":{"a":"Correct — a shorter pendulum length gives a shorter period (T ∝ √L), meaning higher frequency.","b":"Incorrect — a longer period would result from a LONGER pendulum, not a shorter one.","c":"Incorrect — pendulum period clearly does depend on length, per the formula T = 2π√(L/g); it is not independent of length.","d":"Incorrect — a pendulum always has a well-defined period, given by the standard pendulum formula."}},
+
+{"id":8090,"short":"Wave speed = frequency x wavelength = 20 Hz x 15 m = 300 m/s.",
+"long":"The wave speed equation is v = fλ, where f is frequency and λ is wavelength: v = 20 x 15 = 300 m/s.",
+"trick":"Multiply frequency by wavelength directly (v = fλ) — don't divide, which would give an incorrect, much smaller result.",
+"options":{"a":"Incorrect — 0.75 m/s would result from dividing frequency by wavelength instead of multiplying.","b":"Correct — 20 x 15 = 300 m/s.","c":"Incorrect — 35 m/s incorrectly adds frequency and wavelength instead of multiplying them.","d":"Incorrect — 1.33 m/s would result from dividing wavelength by frequency, the inverse of the correct operation."}},
+
+{"id":8091,"short":"Destructive interference occurs when two waves meet completely out of phase (crest meeting trough), reducing or canceling amplitude.",
+"long":"When two waves are exactly out of phase (180° phase difference), the crest of one wave aligns with the trough of the other, and their displacements subtract — partially or fully canceling the resulting wave amplitude (fully canceling if amplitudes are equal).",
+"trick":"In-phase waves (crest meets crest) → constructive interference (amplifies). Out-of-phase waves (crest meets trough) → destructive interference (cancels/reduces) — a fundamental wave superposition contrast.",
+"options":{"a":"Incorrect — waves meeting in phase and amplifying each other describes CONSTRUCTIVE interference, the opposite of destructive.","b":"Incorrect — interference type depends on phase relationship, not a specific fixed geometric angle like 45 degrees.","c":"Correct — completely out-of-phase waves (crest meeting trough) produce destructive interference.","d":"Incorrect — identical frequencies and phases (in-phase) would actually produce constructive, not destructive, interference."}},
+
+{"id":8092,"short":"Conduction is heat transfer through direct contact between particles, especially effective in solids.",
+"long":"In conduction, kinetic energy is transferred through direct particle-to-particle collisions as vibrating/moving particles pass energy to neighboring particles, without the particles themselves undergoing large-scale movement. Solids (with closely packed particles) conduct heat especially well.",
+"trick":"Conduction = direct contact, mainly solids. Convection = bulk fluid movement, mainly liquids/gases. Radiation = electromagnetic waves, works even through a vacuum — three distinct heat-transfer mechanisms.",
+"options":{"a":"Incorrect — conduction occurs in solids, liquids, and gases (though most effectively in solids), not only in gases.","b":"Incorrect — bulk fluid movement describes convection, not conduction.","c":"Incorrect — electromagnetic waves through a vacuum describe radiation, not conduction (which requires a medium with particle contact).","d":"Correct — conduction transfers heat via direct particle contact, most efficiently in solids."}},
+
+{"id":8093,"short":"An isothermal process, by definition, occurs at constant temperature throughout.",
+"long":"'Iso-' means 'same/equal' and 'thermal' relates to temperature — an isothermal process maintains constant temperature throughout, typically requiring heat exchange with surroundings to offset any work done (so internal energy of an ideal gas remains unchanged).",
+"trick":"Iso-thermal = constant TEMPERATURE. Adiabatic = NO heat exchange. Isochoric/isovolumetric = constant VOLUME. Isobaric = constant PRESSURE — don't confuse the four thermodynamic process types.",
+"options":{"a":"Correct — 'isothermal' specifically means constant temperature by definition.","b":"Incorrect — 'no heat exchange with surroundings' describes an ADIABATIC process, a different concept from isothermal.","c":"Incorrect — constant volume describes an ISOCHORIC (isovolumetric) process, not isothermal.","d":"Incorrect — constant pressure describes an ISOBARIC process, not isothermal."}},
+
+{"id":8094,"short":"By the first law of thermodynamics: ΔU = Q - W = 600 J - 200 J = 400 J.",
+"long":"The first law of thermodynamics states that change in internal energy equals heat added to the system minus work done BY the system: ΔU = Q - W = 600 - 200 = 400 J.",
+"trick":"Heat ADDED to the system is positive Q; work done BY the system (on surroundings) is positive W and gets SUBTRACTED — sign conventions matter here.",
+"options":{"a":"Incorrect — 800 J would result from adding Q and W instead of subtracting.","b":"Correct — 600 - 200 = 400 J.","c":"Incorrect — -400 J would result from reversing the sign convention (subtracting Q from W instead of W from Q).","d":"Incorrect — 200 J only reflects the work done, ignoring the heat absorbed entirely."}},
+
+{"id":8095,"short":"Two objects with like (same-sign) electric charges repel each other.",
+"long":"Coulomb's law dictates that like charges (both positive or both negative) exert a repulsive force on each other, while opposite charges (one positive, one negative) attract — a fundamental rule of electrostatics.",
+"trick":"Like charges REPEL (push apart), opposite charges ATTRACT (pull together) — 'like' as in 'the same,' the opposite intuition from magnets' common phrase but same underlying rule structure.",
+"options":{"a":"Incorrect — attraction occurs between OPPOSITE charges, not like (same-sign) charges.","b":"Incorrect — like charges definitely DO interact (via repulsion); they don't simply ignore each other.","c":"Correct — like (same-sign) charges repel one another.","d":"Incorrect — charges of the same sign cannot 'neutralize' each other by simply interacting; neutralization would require combining opposite charges."}},
+
+{"id":8096,"short":"Coulomb's law states that the force between two point charges is directly proportional to the product of their charge magnitudes.",
+"long":"Coulomb's law: F = k(q1q2)/r^2. The force is directly proportional to the PRODUCT of the two charge magnitudes (q1 x q2) and inversely proportional to the SQUARE of the distance between them — the distance relationship is inverse, not direct.",
+"trick":"Coulomb's law mirrors gravitational force's structure: force ∝ (product of the two quantities) / (distance)^2 — proportional to charge product, inversely proportional to squared distance.",
+"options":{"a":"Incorrect — force is INVERSELY (not directly) proportional to distance, and specifically to distance squared, not distance alone.","b":"Incorrect — the surrounding temperature does not appear in Coulomb's law at all.","c":"Incorrect — force is inversely proportional to distance squared, meaning force DECREASES (not directly scales with) distance squared.","d":"Correct — force is directly proportional to the product of the two charge magnitudes (q1 x q2)."}},
+
+{"id":8097,"short":"Ohm's law states current equals voltage divided by resistance: I = V/R.",
+"long":"Ohm's law defines the relationship between current (I), voltage (V), and resistance (R) in a circuit: I = V/R. This can be rearranged to V = IR or R = V/I depending on which quantity is unknown.",
+"trick":"Memorize the Ohm's law triangle: V (top), I and R (bottom) — covering V gives I x R; covering I gives V/R; covering R gives V/I.",
+"options":{"a":"Correct — I = V/R is the precise statement of Ohm's law.","b":"Incorrect — power (P = IV or I^2R) is a different, related but distinct electrical quantity, not part of Ohm's law itself.","c":"Incorrect — time does not appear in Ohm's law's basic V=IR relationship.","d":"Incorrect — energy is not part of the basic Ohm's law formula (I=V/R); it's a separate concept (energy = power x time)."}},
+
+{"id":8098,"short":"R1 (3Ω) + R2 (3Ω) in series = 6Ω; that combination in parallel with R3 (6Ω) gives (6x6)/(6+6) = 36/12 = 3 ohm total.",
+"long":"First combine the series resistors: R1 + R2 = 3 + 3 = 6Ω. This series combination is then in parallel with R3 (6Ω): R_total = (R_series x R3)/(R_series + R3) = (6 x 6)/(6+6) = 36/12 = 3Ω.",
+"trick":"Always simplify series sections FIRST (simple addition), then combine the resulting equivalent resistance with any parallel branches using the parallel-resistance formula — solve step by step, not all at once.",
+"options":{"a":"Incorrect — 6 ohm is just the series combination (R1+R2) before accounting for the parallel combination with R3.","b":"Correct — the full circuit reduces to (6x6)/(6+6) = 3 ohm.","c":"Incorrect — 12 ohm would result from simply adding all three resistors in series, ignoring the actual parallel connection.","d":"Incorrect — 1.5 ohm would result from an incorrect parallel-formula application (e.g., dividing rather than using the product-over-sum formula correctly)."}},
+
+{"id":8099,"short":"For 20Ω and 5Ω in parallel: R_eq = (20x5)/(20+5) = 100/25 = 4 ohm.",
+"long":"For two resistors in parallel, the equivalent resistance formula is R_eq = (R1 x R2)/(R1 + R2) = (20 x 5)/(20 + 5) = 100/25 = 4 ohm — always less than the smallest individual resistor.",
+"trick":"Parallel resistance is always LESS than the smallest individual resistor value — use this as a sanity check (4Ω is less than both 20Ω and 5Ω here).",
+"options":{"a":"Incorrect — 25 ohm is simply the SUM of the resistors (as if in series), not the parallel combination.","b":"Incorrect — 15 ohm doesn't match the product-over-sum parallel formula for these values.","c":"Correct — (20x5)/(20+5) = 100/25 = 4 ohm.","d":"Incorrect — 100 ohm is just the numerator of the parallel formula without dividing by the sum."}},
+
+{"id":8100,"short":"Current = Power/Voltage = 500 W / 250 V = 2 A.",
+"long":"Using P = IV, rearranged to solve for current: I = P/V = 500/250 = 2 A.",
+"trick":"Rearrange P=IV into I=P/V when power and voltage are given but current is unknown — a direct algebraic step.",
+"options":{"a":"Incorrect — 5 A doesn't match the correct division of 500 by 250.","b":"Incorrect — 0.5 A would result from inverting the division (250/500 instead of 500/250).","c":"Incorrect — 125000 A would result from multiplying instead of dividing (500 x 250).","d":"Correct — 500 ÷ 250 = 2 A."}},
+
+{"id":8101,"short":"The magnetic field strength around a straight current-carrying wire decreases with increasing distance from the wire.",
+"long":"The magnetic field around a long straight wire follows B = (μ0 I)/(2πr), showing field strength is inversely proportional to distance r from the wire — closer to the wire, the field is stronger; farther away, it weakens.",
+"trick":"Like many field quantities (gravitational, electric), magnetic field strength weakens with distance — though this one follows a 1/r relationship rather than 1/r^2 (unlike point-charge/point-mass fields).",
+"options":{"a":"Correct — magnetic field strength decreases as distance from the wire increases (B ∝ 1/r).","b":"Incorrect — field strength decreases, not increases, with greater distance from the wire.","c":"Incorrect — field strength is clearly distance-dependent (B ∝ 1/r), not unaffected by distance.","d":"Incorrect — the field is not zero at all points; it simply weakens (approaches, but never quite reaches, zero) with distance."}},
+
+{"id":8102,"short":"By Lenz's law, induced current always flows in a direction that opposes the change in magnetic flux that caused it.",
+"long":"Lenz's law is a consequence of energy conservation: the induced EMF/current creates its own magnetic field that opposes the original change in flux (whether increasing or decreasing), preventing the system from spontaneously generating unlimited energy.",
+"trick":"Lenz's law = 'opposition,' consistent with conservation of energy — remember it as nature's way of resisting change, similar in spirit to Newton's first law (inertia) but for magnetic flux.",
+"options":{"a":"Incorrect — 'reinforcing' the flux change would violate energy conservation, producing runaway energy generation.","b":"Correct — induced current opposes the change in magnetic flux that caused it (Lenz's law).","c":"Incorrect — induced current direction is directly and predictably related to the flux change, not unrelated to it.","d":"Incorrect — induced current direction depends on (and can reverse with) the direction of flux change; it is not fixed regardless of that change."}},
+
+{"id":8103,"short":"A neutron's overall electric charge is neutral (zero).",
+"long":"Neutrons, along with protons and electrons, are one of the three fundamental subatomic particles making up atoms. As their name suggests, neutrons carry no net electric charge, unlike protons (positive) and electrons (negative).",
+"trick":"The name 'neutron' directly reflects its 'neutral' charge — a straightforward naming-based memory aid.",
+"options":{"a":"Incorrect — protons, not neutrons, carry a positive charge.","b":"Incorrect — electrons, not neutrons, carry a negative charge.","c":"Correct — neutrons are electrically neutral, carrying zero net charge.","d":"Incorrect — a neutron's charge is always zero; it does not vary depending on which atom it's part of."}},
+
+{"id":8104,"short":"In alpha decay, an unstable nucleus emits a helium nucleus (an alpha particle: 2 protons and 2 neutrons).",
+"long":"Alpha decay reduces a nucleus's mass number by 4 and atomic number by 2, as it ejects an alpha particle (equivalent to a helium-4 nucleus, containing 2 protons and 2 neutrons) to move toward a more stable configuration.",
+"trick":"Alpha particle = helium nucleus (2p + 2n). Beta decay emits an electron (or positron); gamma decay emits a photon — three distinct types of radioactive decay with different emitted particles.",
+"options":{"a":"Incorrect — an electron and antineutrino are emitted during BETA-MINUS decay, not alpha decay.","b":"Incorrect — a positron is emitted during BETA-PLUS decay, not alpha decay.","c":"Incorrect — gamma decay involves emission of a photon alone, typically following alpha or beta decay, not as alpha decay itself.","d":"Correct — alpha decay specifically emits a helium nucleus (2 protons + 2 neutrons)."}},
+
+{"id":8105,"short":"With a 3-hour half-life, 12 hours represents 4 half-lives: 400 x (1/2)^4 = 400/16 = 25 g remains.",
+"long":"Number of half-lives elapsed = total time / half-life = 12/3 = 4. Remaining amount = initial amount x (1/2)^n = 400 x (1/2)^4 = 400 x 1/16 = 25 g.",
+"trick":"Divide total elapsed time by the half-life to find the NUMBER of half-lives first, then apply (1/2) raised to that count — don't skip directly to a rough estimate.",
+"options":{"a":"Correct — after 4 half-lives, 400 x (1/2)^4 = 25 g remains.","b":"Incorrect — 50 g would correspond to only 3 half-lives (400/8=50), one short of the actual 4 half-lives elapsed.","c":"Incorrect — 12.5 g would correspond to 5 half-lives (400/32), one more than the actual 4 half-lives elapsed.","d":"Incorrect — 100 g would correspond to only 2 half-lives (400/4=100), two short of the actual 4 half-lives elapsed."}},
+
+{"id":8106,"short":"With the object beyond 2F, a convex lens forms a real, inverted, diminished image between F and 2F on the far side.",
+"long":"Using the thin-lens equation 1/v = 1/f - 1/u: for an object placed beyond 2F (u > 2f), the resulting image distance v satisfies f < v < 2f — meaning the image forms between F and 2F on the opposite side of the lens, and is always real, inverted, and smaller than the object (diminished) in this configuration.",
+"trick":"For a converging (convex) lens: object beyond 2F -> image between F and 2F (diminished). Object at 2F -> image at 2F (same size). Object between F and 2F -> image beyond 2F (magnified). Object inside F -> virtual, upright, magnified image. Memorize this full progression.",
+"options":{"a":"Incorrect — a virtual, upright, magnified image forms only when the object is placed WITHIN the focal length (inside F), not beyond 2F.","b":"Correct — an object beyond 2F produces a real, inverted, diminished image located between F and 2F on the far side.","c":"Incorrect — a real, upright, magnified image is not a physically possible combination for a simple single converging lens (real images from a single convex lens are always inverted).","d":"Incorrect — a virtual, inverted, diminished image is not a standard convex-lens outcome; virtual images from a single convex lens are always upright, not inverted."}}
+]

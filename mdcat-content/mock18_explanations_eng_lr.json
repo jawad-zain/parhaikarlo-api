@@ -1,0 +1,91 @@
+[
+{"id":8107,"short":"'Benevolent' means kind and well-meaning; 'Kind' is its closest synonym here.",
+"long":"Benevolent describes someone who is generous, kind, and well-disposed toward others, doing good out of genuine goodwill. Among the options, 'Kind' most directly captures this positive, caring quality.",
+"trick":"Break down the word: 'bene-' (Latin for 'good/well') + 'vol-' (wanting/wishing) = 'wishing good' — matching Latin roots can help decode unfamiliar vocabulary.",
+"options":{"a":"Incorrect — 'Indifferent' (not caring) is nearly the opposite of the warm, caring quality of benevolent.","b":"Incorrect — 'Cruel' is essentially the opposite of benevolent.","c":"Correct — 'Kind' is the closest synonym to 'benevolent.'","d":"Incorrect — 'Selfish' directly contradicts the generous, other-focused nature of benevolent."}},
+
+{"id":8108,"short":"'Transparent' means see-through/clear; its opposite is 'Opaque' (not allowing light through).",
+"long":"Transparent describes materials that light passes through clearly, allowing objects behind them to be seen. Opaque describes materials that block light entirely, preventing anything from being seen through them — the direct antonym.",
+"trick":"Physics vocabulary overlap: transparent (light passes through), translucent (light partially passes, blurred view), opaque (no light passes) — a spectrum worth knowing for both English and Physics/Chemistry contexts.",
+"options":{"a":"Incorrect — 'Obvious' is a synonym-adjacent meaning (something transparent in the figurative sense, i.e., easy to see/understand), not an antonym.","b":"Incorrect — 'Clear' is essentially a synonym of transparent, not its opposite.","c":"Incorrect — 'Visible' is related to being seen, similar in spirit to transparent, not opposite to it.","d":"Correct — 'Opaque' is the direct antonym, describing something light cannot pass through."}},
+
+{"id":8109,"short":"'He doesn't know the answer' correctly uses the third-person singular auxiliary 'doesn't' with the base verb 'know.'",
+"long":"For third-person singular subjects (he/she/it) in the negative present tense, the correct structure is 'doesn't' + base form of the verb (not the -s form). 'He doesn't know' is grammatically correct; 'don't' is used with I/you/we/they, and doubling the -s ending (as in 'doesn't knows') is a common ESL error.",
+"trick":"'Doesn't' already carries the third-person -s; the following verb must return to its BASE form (doesn't know, not doesn't knows) — a frequently tested double-marking error.",
+"options":{"a":"Correct — 'doesn't' + base verb 'know' is the correct third-person singular negative construction.","b":"Incorrect — 'don't' is used with plural subjects or I/you, not with the singular 'he.'","c":"Incorrect — 'not knows' is an incorrect negative construction; English requires an auxiliary verb (does/doesn't) for this negation.","d":"Incorrect — 'doesn't knows' incorrectly double-marks the verb for third person (both 'doesn't' and '-s' on 'know')."}},
+
+{"id":8110,"short":"'It is essential that he attend the meeting' uses the correct subjunctive mood (base verb form) after expressions like 'It is essential that.'",
+"long":"Certain expressions (essential, important, necessary, demand, suggest, recommend) trigger the subjunctive mood in the following clause, which uses the base form of the verb regardless of subject — 'that he attend' (not 'attends'), even though 'he' is third-person singular.",
+"trick":"Subjunctive triggers: 'It is essential/important/necessary that...' or verbs like 'suggest/recommend/demand that...' all require the bare base verb form afterward, dropping the usual third-person -s.",
+"options":{"a":"Incorrect — 'attends' incorrectly uses the standard third-person -s form instead of the required subjunctive base form.","b":"Correct — 'attend' (base form) is the correct subjunctive mood after 'It is essential that.'","c":"Incorrect — 'attends to' changes the meaning (attend to = deal with/handle) and still uses the wrong verb form for the subjunctive.","d":"Incorrect — 'he will attend' uses future tense, not the required subjunctive construction triggered by 'essential that.'"}},
+
+{"id":8111,"short":"'Neither of the answers is correct' is grammatically correct because 'neither' takes a singular verb.",
+"long":"'Neither' (like 'either,' 'each,' 'every') is grammatically singular and takes a singular verb, even when followed by a plural noun phrase like 'of the answers.' So 'is,' not 'are' or 'were,' is correct.",
+"trick":"'Neither/Either + of + plural noun' still takes a SINGULAR verb — a very commonly tested subject-verb agreement trap, since the plural noun right before the verb can mislead the ear.",
+"options":{"a":"Incorrect — 'the answer' should be plural ('the answers') to match the intended meaning, and the sentence also has other structural issues.","b":"Incorrect — 'are' incorrectly treats 'neither' as plural; it should take the singular 'is.'","c":"Correct — 'neither...is' correctly uses a singular verb with the singular subject 'neither.'","d":"Incorrect — 'were' is both plural (wrong) and past tense (mismatched with the intended present-tense meaning)."}},
+
+{"id":8112,"short":"'Compromise' best completes the sentence, describing an outcome that satisfies both parties in a negotiation.",
+"long":"A compromise is a settlement reached through mutual concessions, where each side gives up something to reach an agreement that both find acceptable — exactly matching 'satisfied both parties.' Impasse and deadlock both describe a STALLED negotiation, the opposite outcome.",
+"trick":"'Satisfied both parties' is the key phrase — it signals a positive resolution (compromise), ruling out impasse/deadlock/conflict, which all describe unresolved tension.",
+"options":{"a":"Incorrect — an 'impasse' is a situation where no agreement can be reached, the opposite of a satisfying resolution.","b":"Incorrect — 'conflict' describes ongoing disagreement, not a resolution satisfying both sides.","c":"Incorrect — a 'deadlock' (like an impasse) describes a stalled, unresolved negotiation, not a successful outcome.","d":"Correct — a 'compromise' is a mutually satisfying resolution reached through concessions from both sides."}},
+
+{"id":8113,"short":"'To bite the bullet' means to face a difficult or unpleasant situation with courage and resolve.",
+"long":"This idiom originates from historical practice of having patients bite on a bullet to endure pain during surgery without anesthesia. Today it figuratively means to brace yourself and confront something unpleasant or challenging head-on, rather than avoiding it.",
+"trick":"Idioms should never be interpreted literally — always think about the figurative, commonly understood meaning as used in everyday conversation.",
+"options":{"a":"Incorrect — this describes the OPPOSITE of 'biting the bullet,' which is about facing (not avoiding) difficulty.","b":"Correct — 'to bite the bullet' means to bravely face a difficult or unpleasant situation.","c":"Incorrect — the idiom is about self-endurance and courage, not about causing harm to others.","d":"Incorrect — 'biting the bullet' relates to enduring hardship, not celebrating success."}},
+
+{"id":8114,"short":"'Neither the teacher nor the students were aware' is correct because with 'neither...nor,' the verb agrees with the closer subject ('students,' plural).",
+"long":"With correlative conjunctions like 'neither...nor' (and 'either...or'), subject-verb agreement follows the noun CLOSEST to the verb. Since 'students' (plural) is closer to the verb than 'teacher' (singular), the verb must be plural: 'were,' not 'was.'",
+"trick":"For 'neither...nor' and 'either...or' constructions, always check the noun IMMEDIATELY BEFORE the verb to decide singular vs. plural agreement — ignore the first-listed noun.",
+"options":{"a":"Incorrect — this keeps the original error ('was' with the closer plural noun 'students') and adds an unnecessary 'about.'","b":"Correct — 'were' correctly agrees with the closer plural subject 'students.'","c":"Incorrect — this incorrectly changes 'teacher' to plural and 'students' to singular, reversing the actual sentence structure, and still uses 'were' with a now-singular closest noun.","d":"Incorrect — the original sentence does contain a subject-verb agreement error ('was' should be 'were'), so correction IS needed."}},
+
+{"id":8115,"short":"The correct preposition is 'in': 'She has been interested in astronomy since childhood.'",
+"long":"'Interested in' is the standard, fixed prepositional collocation in English for expressing a topic of interest. Other prepositions like 'on,' 'at,' or 'for' don't correctly pair with 'interested' in this context.",
+"trick":"Many English adjectives pair with specific, fixed prepositions (interested IN, good AT, afraid OF) that must simply be memorized as set phrases rather than derived logically.",
+"options":{"a":"Incorrect — 'interested on' is not a standard English collocation.","b":"Incorrect — 'interested at' is not a standard English collocation.","c":"Correct — 'interested in' is the correct, standard prepositional phrase.","d":"Incorrect — 'interested for' is not a standard English collocation."}},
+
+{"id":8116,"short":"The series 5, 10, 15, 20 increases by 5 each time, so the next term is 20 + 5 = 25.",
+"long":"This is a simple arithmetic sequence with a constant common difference of +5 between consecutive terms: 5, 10, 15, 20, 25.",
+"trick":"Always check the difference between consecutive terms first — a constant difference signals a simple arithmetic series, the most common and quickest pattern to spot.",
+"options":{"a":"Incorrect — 22 doesn't follow the constant +5 pattern established by the earlier terms.","b":"Incorrect — 24 doesn't match the consistent +5 increment.","c":"Incorrect — 30 would represent a +10 jump, breaking the established +5 pattern.","d":"Correct — 20 + 5 = 25, continuing the constant +5 pattern."}},
+
+{"id":8117,"short":"The series 2, 5, 10, 17 has increasing differences of +3, +5, +7, so the next difference is +9, giving 17+9=26.",
+"long":"Checking consecutive differences: 5-2=3, 10-5=5, 17-10=7 — each difference itself increases by 2 (an arithmetic pattern of differences). Following this pattern, the next difference should be 7+2=9, giving 17+9=26.",
+"trick":"When a simple constant difference doesn't work, check the DIFFERENCES OF DIFFERENCES (second-order pattern) — a very common trick in number series problems.",
+"options":{"a":"Correct — following the +3,+5,+7,+9 difference pattern, 17+9=26.","b":"Incorrect — 24 would require a difference of only +7 again, breaking the increasing-difference pattern.","c":"Incorrect — 28 would require a difference of +11, skipping ahead in the established +2 difference-of-differences pattern.","d":"Incorrect — 30 would require a difference of +13, far exceeding the expected next difference of +9."}},
+
+{"id":8118,"short":"Bird : Nest :: Bee : Hive — both describe an animal's characteristic dwelling/home.",
+"long":"This is a 'function/habitat' analogy: just as a bird lives in and builds a nest, a bee lives in and builds a hive. The relationship being tested is 'home of the animal,' not other bee-related concepts like flowers or honey.",
+"trick":"Identify the EXACT relationship in the first pair (bird → its home) before checking which option matches that same relationship for the second item (bee → its home), not just any bee-related word.",
+"options":{"a":"Incorrect — a flower is a food source for bees, not their home/dwelling (which would parallel the bird-nest relationship).","b":"Correct — a hive is a bee's home, paralleling a nest as a bird's home.","c":"Incorrect — honey is a product made by bees, not their dwelling place.","d":"Incorrect — a wing is a body part of a bee, unrelated to the 'home/dwelling' relationship being tested."}},
+
+{"id":8119,"short":"Doctor : Hospital :: Teacher : School — both describe the primary workplace of that profession.",
+"long":"This is a 'person to workplace' analogy: a doctor's typical workplace is a hospital, and analogously, a teacher's typical workplace is a school.",
+"trick":"Confirm the relationship type first ('workplace of the professional'), then find the option that fits that SAME relationship, not simply any word associated with teaching.",
+"options":{"a":"Incorrect — a student is a person a teacher interacts with, not the teacher's workplace.","b":"Incorrect — a book is a teaching tool/resource, not the teacher's workplace.","c":"Correct — a school is a teacher's primary workplace, paralleling a hospital for a doctor.","d":"Incorrect — 'classroom exam' is an activity/event, not the teacher's overall workplace."}},
+
+{"id":8120,"short":"The grandfather's only son is the man's father; the father's daughter (other than the man himself, if male) is the man's sister.",
+"long":"'My grandfather's only son' refers to the man's own father (since the man has no siblings other than possibly the woman in question, this only son must be the man's father). 'The daughter of my father' is the man's sister.",
+"trick":"Work through blood-relation puzzles one generation-link at a time: identify the grandfather's son first (the father), then find that person's daughter (the sister) — solving step by step avoids getting lost in the wording.",
+"options":{"a":"Incorrect — a niece would be the daughter of the man's sibling, not the daughter of his own father.","b":"Incorrect — a cousin would result from a different family branch (e.g., an aunt/uncle's child), not the direct father-daughter relationship described.","c":"Incorrect — an aunt would be the man's parent's sister, an older-generation relationship, not matching this same-generation relationship.","d":"Correct — the daughter of the man's own father (his grandfather's only son) is his sister."}},
+
+{"id":8121,"short":"The code shifts each letter forward by 1 (A→B, P→Q, etc.), so MANGO becomes NBOHP.",
+"long":"Checking APPLE → BQQMF: A+1=B, P+1=Q, P+1=Q, L+1=M, E+1=F — every letter is shifted forward by exactly one position in the alphabet. Applying the same rule to MANGO: M+1=N, A+1=B, N+1=O, G+1=H, O+1=P, giving NBOHP.",
+"trick":"For letter-coding puzzles, first determine the SHIFT AMOUNT using the given example (here, +1 for each letter), then apply that exact same shift consistently to every letter of the new word.",
+"options":{"a":"Correct — shifting each letter of MANGO forward by 1 gives NBOHP.","b":"Incorrect — NBOHQ incorrectly shifts the last letter by +2 (O to Q) instead of the consistent +1 shift.","c":"Incorrect — MBOHP incorrectly leaves the first letter unshifted (M instead of N).","d":"Incorrect — NBPHP incorrectly shifts the third letter by +2 (N to P) instead of +1."}},
+
+{"id":8122,"short":"From 'All doctors are educated' and 'No educated people are illiterate,' it logically follows that 'No doctors are illiterate.'",
+"long":"This is a syllogism chain: All doctors ⊆ educated people, and educated people ⊆ NOT illiterate people. Combining these, all doctors must also be NOT illiterate — i.e., no doctors are illiterate.",
+"trick":"Chain the two premises together like a transitive relationship: doctors → educated → not illiterate, therefore doctors → not illiterate — visualize with Venn diagrams or nested circles if the wording feels confusing.",
+"options":{"a":"Incorrect — this directly contradicts the valid conclusion drawn from the two premises (doctors are, in fact, guaranteed to be non-illiterate).","b":"Correct — chaining the premises logically shows that no doctors can be illiterate.","c":"Incorrect — this reverses the logical direction incorrectly; the premises don't establish that ALL illiterate people are doctors.","d":"Incorrect — while true that some educated people are doctors, this doesn't capture the STRONGEST valid conclusion available (which is the universal 'no doctors are illiterate')."}},
+
+{"id":8123,"short":"The series 3, 6, 11, 18, 27 has increasing differences of +3, +5, +7, +9, so the next difference is +11, giving 27+11=38.",
+"long":"Checking consecutive differences: 6-3=3, 11-6=5, 18-11=7, 27-18=9 — each difference increases by 2 (an arithmetic pattern in the differences themselves). Continuing this pattern, the next difference is 9+2=11, giving 27+11=38.",
+"trick":"Same second-order difference technique as other number-series questions: when the first-level differences aren't constant, check if THEY form their own arithmetic pattern.",
+"options":{"a":"Incorrect — 40 would require a difference of +13, two more than the expected next difference of +11.","b":"Incorrect — 36 would require a difference of only +9 again, breaking the increasing-by-2 difference pattern.","c":"Correct — following the +3,+5,+7,+9,+11 pattern, 27+11=38.","d":"Incorrect — 34 would require a difference of only +7, breaking the established increasing pattern."}},
+
+{"id":8124,"short":"Using the Pythagorean theorem on the 6 km east and 8 km north legs: distance = sqrt(6^2+8^2) = sqrt(36+64) = sqrt(100) = 10 km.",
+"long":"Since east and north are perpendicular directions, the man's path forms a right triangle with legs of 6 km and 8 km. The straight-line distance from the starting point (the hypotenuse) is found via the Pythagorean theorem: sqrt(6^2 + 8^2) = sqrt(100) = 10 km.",
+"trick":"Recognize the classic 6-8-10 (a multiple of the 3-4-5) Pythagorean triple — perpendicular direction-sense problems in logical reasoning almost always resolve to the Pythagorean theorem.",
+"options":{"a":"Incorrect — 14 km would result from simply ADDING the two legs (6+8), ignoring that they're perpendicular, not along the same line.","b":"Incorrect — 48 km would result from multiplying the two legs (6x8) instead of applying the Pythagorean theorem.","c":"Incorrect — 2 km would result from subtracting the two legs (8-6), which doesn't represent the actual straight-line distance for perpendicular paths.","d":"Correct — sqrt(6^2+8^2) = sqrt(100) = 10 km, the straight-line distance via the Pythagorean theorem."}}
+]

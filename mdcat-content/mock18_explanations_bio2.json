@@ -1,0 +1,201 @@
+[
+{"id":7986,"short":"DNA ligase joins Okazaki fragments together on the lagging strand during replication.",
+"long":"On the lagging strand, DNA is synthesized discontinuously in short segments (Okazaki fragments) because replication proceeds away from the replication fork. DNA ligase seals the gaps between these fragments, forming one continuous strand.",
+"trick":"Primase lays RNA primers to START synthesis; ligase JOINS the fragments AFTER synthesis — don't mix up the start-enzyme with the finish-enzyme.",
+"options":{"a":"Incorrect — primase synthesizes RNA primers to initiate each Okazaki fragment, not join them.","b":"Correct — DNA ligase seals the gaps between Okazaki fragments into one continuous strand.","c":"Incorrect — helicase unwinds the DNA double helix, it doesn't join fragments.","d":"Incorrect — topoisomerase relieves supercoiling tension ahead of the replication fork, not fragment joining."}},
+
+{"id":7987,"short":"An enhancer is a regulatory DNA sequence that boosts transcription even from a distance.",
+"long":"Enhancers can be located far upstream, downstream, or even within introns of the gene they regulate. DNA looping brings the enhancer, along with bound transcription factors, into contact with the promoter to increase transcription rate.",
+"trick":"Promoters must be right next to the gene (where RNA polymerase binds); enhancers are the elements known for working effectively at a distance.",
+"options":{"a":"Incorrect — a promoter is located immediately upstream, right where RNA polymerase binds, not far away.","b":"Incorrect — a terminator signals the END of transcription, it doesn't increase transcription from a distance.","c":"Correct — enhancers can boost transcription even when located far from the gene.","d":"Incorrect — an exon is a coding region of the gene itself, not a distant regulatory sequence."}},
+
+{"id":7988,"short":"A codon consists of exactly 3 nucleotide bases (a triplet).",
+"long":"The genetic code is read in non-overlapping triplets: each group of 3 mRNA nucleotides (a codon) specifies one amino acid (or a stop signal) during translation.",
+"trick":"Memorize: codon = 3 bases (triplet code) — this number underlies frameshift mutation logic as well.",
+"options":{"a":"Incorrect — a single base cannot specify one of 20 amino acids (only 4^1 = 4 combinations, too few).","b":"Incorrect — two bases would give only 4^2 = 16 combinations, still insufficient for all amino acids.","c":"Incorrect — four bases is more than needed; the actual code uses triplets, not quartets.","d":"Correct — codons are triplets of 3 nucleotide bases (4^3 = 64 possible codons, enough to code all amino acids plus stop signals)."}},
+
+{"id":7989,"short":"Natural selection acts on heritable variation that affects an organism's survival and reproductive success.",
+"long":"For natural selection to operate, variation must be heritable (passable to offspring) and must influence fitness (survival/reproduction). Traits acquired during a lifetime (e.g., an injury) are not heritable and are not acted upon by selection.",
+"trick":"'Heritable' is the key word — natural selection can only act on variation that can be passed to the next generation, not acquired characteristics.",
+"options":{"a":"Correct — natural selection acts specifically on heritable variation affecting fitness.","b":"Incorrect — acquired traits (like a bodybuilder's muscles) are not passed on genetically, so selection cannot act on them.","c":"Incorrect — mutations with no effect on fitness (neutral mutations) are not directly acted upon by natural selection.","d":"Incorrect — selection acts on any heritable trait affecting fitness, not just visible physical appearance."}},
+
+{"id":7990,"short":"Stabilizing selection favors the average/intermediate phenotype, reducing variation at both extremes.",
+"long":"Stabilizing selection removes individuals at both phenotypic extremes (e.g., very small or very large birth weight in humans), keeping the population clustered around the optimal intermediate value and decreasing overall trait variance.",
+"trick":"Contrast the 3 selection types: directional (shifts toward one extreme), disruptive (favors both extremes, splits population), stabilizing (favors the middle, reduces variance).",
+"options":{"a":"Incorrect — favoring extremes over the average describes disruptive selection, not stabilizing.","b":"Correct — stabilizing selection favors the average phenotype and reduces variation at both extremes.","c":"Incorrect — stabilizing selection clearly does affect phenotype distribution by narrowing it.","d":"Incorrect — creating two distinct phenotype groups describes disruptive selection, not stabilizing."}},
+
+{"id":7991,"short":"Convergent evolution is when unrelated species independently evolve similar traits due to similar environmental pressures.",
+"long":"Classic examples include the wings of bats, birds, and insects, or the streamlined body shapes of sharks (fish) and dolphins (mammals) — unrelated lineages evolving analogous structures in response to similar selective pressures, not shared ancestry.",
+"trick":"Convergent evolution = similar traits, DIFFERENT ancestry. Homologous structures (shared ancestry, e.g., vertebrate forelimbs) is the opposite concept — don't confuse the two.",
+"options":{"a":"Incorrect — closely related species evolving different traits describes divergent evolution, the opposite pattern.","b":"Incorrect — one species splitting into many describes speciation/adaptive radiation, not convergent evolution.","c":"Correct — unrelated species independently evolving similar traits under similar pressures defines convergent evolution.","d":"Incorrect — a species going extinct is unrelated to the concept of convergent evolution."}},
+
+{"id":7992,"short":"With 16% showing the recessive phenotype, q^2 = 0.16, so q (the recessive allele frequency) = sqrt(0.16) = 0.4.",
+"long":"Under the Hardy-Weinberg model, the recessive phenotype frequency equals q^2 (the frequency of the homozygous recessive genotype, aa). Given q^2 = 0.16, taking the square root gives q = 0.4, the frequency of the recessive allele in the population.",
+"trick":"Always take the SQUARE ROOT of the recessive phenotype frequency to get q — a very common Hardy-Weinberg calculation step that's easy to skip by mistake.",
+"options":{"a":"Incorrect — 0.16 is q^2 (the phenotype frequency), not q itself.","b":"Incorrect — 0.6 does not equal sqrt(0.16); this appears to invert p and q incorrectly.","c":"Incorrect — 0.84 is p (1 - q^2's square root complement, i.e., 1 - 0.16 gives genotype frequencies not allele frequency), not q.","d":"Correct — sqrt(0.16) = 0.4 is the recessive allele frequency q."}},
+
+{"id":7993,"short":"Binomial nomenclature is the two-part (genus + species) naming system for organisms.",
+"long":"Developed by Carl Linnaeus, binomial nomenclature gives every species a unique two-part Latin name — genus (capitalized) followed by species (lowercase), e.g., Homo sapiens — standardizing scientific communication worldwide.",
+"trick":"'Bi-nomial' literally means 'two names' — genus + species, always written in italics with the genus capitalized.",
+"options":{"a":"Correct — binomial nomenclature is the standardized two-part genus + species naming system.","b":"Incorrect — cladistics is a method of classifying organisms based on shared derived characteristics/evolutionary relationships, not a naming system.","c":"Incorrect — taxonomy alone refers to the broader science of classification, not specifically the two-part naming convention.","d":"Incorrect — phylogeny refers to evolutionary relationships/family trees, not the naming system itself."}},
+
+{"id":7994,"short":"Fungi feed via absorptive heterotrophy: they secrete digestive enzymes externally and then absorb the resulting nutrients.",
+"long":"Unlike animals that ingest food internally, fungi grow into or over their food source and release extracellular enzymes to break down complex organic matter, then absorb the simpler digested molecules through their cell walls/membranes.",
+"trick":"Fungi are heterotrophs like animals, but they digest EXTERNALLY (absorptive) rather than internally (ingestive) — a key distinguishing feature from the animal kingdom.",
+"options":{"a":"Incorrect — fungi are heterotrophic and cannot photosynthesize (they lack chlorophyll).","b":"Correct — fungi digest food externally via secreted enzymes, then absorb the nutrients.","c":"Incorrect — ingesting prey internally describes animal-style heterotrophy, not the fungal (absorptive) method.","d":"Incorrect — chemosynthesis (using inorganic chemical energy) is characteristic of certain bacteria/archaea, not fungi."}},
+
+{"id":7995,"short":"Domains Bacteria and Archaea both consist of prokaryotic, unicellular organisms.",
+"long":"Both domains lack a membrane-bound nucleus and other complex organelles, distinguishing them from Domain Eukarya. While Archaea are famous for often thriving in extreme environments, this is not a universal defining trait of the domain; the shared prokaryotic, unicellular nature is the fundamental commonality.",
+"trick":"'Extreme environments' describes SOME archaea (extremophiles) but is not true of all archaea or of bacteria — the truly universal shared trait across both domains is prokaryotic + unicellular.",
+"options":{"a":"Incorrect — both domains are prokaryotic and (typically) unicellular, not eukaryotic/multicellular.","b":"Incorrect — while some archaea are extremophiles, this is not universally true of all bacteria and archaea.","c":"Correct — both Bacteria and Archaea are prokaryotic, unicellular organisms.","d":"Incorrect — many bacteria and archaea are not photosynthetic at all (e.g., many are heterotrophic or chemosynthetic)."}},
+
+{"id":7996,"short":"A segmented body, jointed appendages, and a chitin exoskeleton are hallmark features of phylum Arthropoda.",
+"long":"Arthropods (insects, arachnids, crustaceans, myriapods) are defined by a hard chitinous exoskeleton, jointed limbs, and a segmented body plan — the most species-rich animal phylum on Earth.",
+"trick":"'Jointed appendages' is the literal meaning of 'Arthropoda' (Greek: arthron = joint, poda = foot) — a useful memory hook.",
+"options":{"a":"Incorrect — Echinodermata (starfish, sea urchins) have a calcareous endoskeleton and radial symmetry, not a chitin exoskeleton with jointed limbs.","b":"Incorrect — Annelida (segmented worms) have segmented bodies but lack jointed appendages and a hard exoskeleton.","c":"Incorrect — Mollusca typically have a soft body, sometimes with a calcium carbonate shell, not a chitin exoskeleton with jointed limbs.","d":"Correct — segmentation, jointed appendages, and a chitin exoskeleton define Arthropoda."}},
+
+{"id":7997,"short":"Genus is the taxonomic rank more specific than Family but less specific than Species.",
+"long":"The standard taxonomic hierarchy, from broadest to most specific, is: Kingdom, Phylum, Class, Order, Family, Genus, Species. Genus sits directly between Family and Species.",
+"trick":"Memorize the hierarchy with a mnemonic like 'King Phillip Came Over For Good Soup' (Kingdom, Phylum, Class, Order, Family, Genus, Species).",
+"options":{"a":"Correct — Genus falls directly between Family and Species in the taxonomic hierarchy.","b":"Incorrect — Order is broader than Family, not more specific than it.","c":"Incorrect — Class is even broader than Order, far less specific than Family.","d":"Incorrect — Phylum is the broadest of these options, much less specific than Family."}},
+
+{"id":7998,"short":"Class Aves (birds) is characterized by feathers, endothermy (warm-bloodedness), and typically the ability to fly.",
+"long":"Birds are endothermic vertebrates with feathers used for flight, insulation, and display. While not all birds fly (e.g., ostriches, penguins), the ability to fly is a typical and defining trait for most members of the class.",
+"trick":"'Feathers' is the single most unique, unambiguous defining trait of birds among vertebrate classes — no other class has them.",
+"options":{"a":"Incorrect — gills and cold-bloodedness describe fish, not birds (birds have lungs and are warm-blooded).","b":"Correct — feathers, endothermy, and (typically) flight define Class Aves.","c":"Incorrect — mammary glands are the defining feature of mammals, not birds.","d":"Incorrect — moist, permeable skin for respiration describes amphibians, not birds."}},
+
+{"id":7999,"short":"Xylem transports water and dissolved minerals from roots up to leaves.",
+"long":"Xylem consists of dead, hollow, lignified cells that form continuous tubes allowing unidirectional upward transport of water and minerals, driven largely by transpiration pull. Phloem, by contrast, transports sugars (products of photosynthesis) bidirectionally.",
+"trick":"Xylem = water/minerals, one-way (up). Phloem = sugars, both directions (source to sink) — a fundamental plant transport distinction.",
+"options":{"a":"Incorrect — phloem transports sugars (organic nutrients), not water and minerals.","b":"Incorrect — the epidermis is the outer protective cell layer, not a transport tissue.","c":"Correct — xylem carries water and dissolved minerals from roots to leaves.","d":"Incorrect — cork cambium produces protective bark tissue, unrelated to water transport."}},
+
+{"id":8000,"short":"The light-dependent reactions of photosynthesis occur in the thylakoid membrane of the chloroplast.",
+"long":"Thylakoid membranes house the photosystems, electron transport chain, and ATP synthase needed to capture light energy and produce ATP and NADPH. The light-independent reactions (Calvin cycle) then occur in the stroma, the fluid surrounding the thylakoids.",
+"trick":"Thylakoid = light reactions (like a solar panel). Stroma = Calvin cycle/carbon fixation (dark/light-independent reactions) — don't swap the two compartments.",
+"options":{"a":"Incorrect — the cytoplasm is outside the chloroplast entirely; photosynthesis occurs within the chloroplast.","b":"Incorrect — the stroma is where the light-INDEPENDENT reactions (Calvin cycle) occur, not the light-dependent ones.","c":"Incorrect — the mitochondrial matrix is part of a different organelle (mitochondria) used for the Krebs cycle in respiration, unrelated to photosynthesis.","d":"Correct — the thylakoid membrane houses the light-dependent reaction machinery."}},
+
+{"id":8001,"short":"Phototropism is the growth of a plant shoot toward a light source.",
+"long":"Auxin, a plant growth hormone, accumulates on the shaded side of a shoot, promoting greater cell elongation there and causing the shoot to bend toward the light — this directional growth response to light is phototropism.",
+"trick":"Photo- = light, Gravi- = gravity, Thigmo- = touch, Hydro- = water — matching Greek roots to tropism types makes these easy to recall instantly.",
+"options":{"a":"Correct — phototropism is growth toward (or away from) a light stimulus.","b":"Incorrect — gravitropism is growth in response to gravity, not light.","c":"Incorrect — thigmotropism is growth in response to touch/contact (e.g., a vine curling around a support).","d":"Incorrect — hydrotropism is growth in response to water, not light."}},
+
+{"id":8002,"short":"Mycorrhizal fungi mutualistically increase a plant root's effective surface area for water/mineral uptake, in exchange for sugars from the plant.",
+"long":"Fungal hyphae extend the effective absorptive surface of plant roots far beyond what roots alone could achieve, enhancing water and mineral (especially phosphorus) uptake. In return, the plant supplies the fungus with photosynthetically produced sugars — a classic mutualistic symbiosis.",
+"trick":"'Mutualistic' means BOTH partners benefit — rule out any answer describing harm to only one side.",
+"options":{"a":"Incorrect — a mutualistic relationship benefits the plant; it does not only harm the root system.","b":"Correct — the fungus boosts nutrient/water absorption for the plant while receiving sugars in return.","c":"Incorrect — fungi cannot photosynthesize; they lack chlorophyll and instead receive sugars from the plant.","d":"Incorrect — mycorrhizae ENHANCE, not prevent, water and mineral uptake."}},
+
+{"id":8003,"short":"Auxin primarily promotes cell elongation and drives tropic responses like phototropism and gravitropism.",
+"long":"Auxin is synthesized in shoot tips and redistributed asymmetrically in response to light or gravity, stimulating cell elongation on one side of a shoot or root, which produces bending growth toward or away from the stimulus.",
+"trick":"Auxin = elongation + tropisms. Other hormones handle other roles: ethylene (fruit ripening), abscisic acid (dormancy/abscission), gibberellins (stem elongation/germination) — match hormone to its primary job.",
+"options":{"a":"Incorrect — ethylene, not auxin, is the primary hormone responsible for fruit ripening.","b":"Incorrect — abscisic acid, not auxin, is more associated with promoting leaf abscission and dormancy.","c":"Correct — auxin drives cell elongation, underlying phototropic and gravitropic bending responses.","d":"Incorrect — abscisic acid, not auxin, is the hormone most associated with maintaining seed dormancy."}},
+
+{"id":8004,"short":"The stamen is the male reproductive structure of a flower, producing pollen.",
+"long":"Each stamen consists of a filament (stalk) topped by an anther, where pollen grains (containing male gametes) are produced. The pistil (carpel), by contrast, is the female reproductive structure containing the ovary, style, and stigma.",
+"trick":"Stamen = male (produces pollen). Pistil = female (contains the ovary/ovules) — a core flower-anatomy pairing.",
+"options":{"a":"Incorrect — the pistil is the FEMALE reproductive structure, containing the ovary.","b":"Incorrect — petals are non-reproductive structures that attract pollinators.","c":"Incorrect — sepals are protective, leaf-like structures that enclose the flower bud, not reproductive organs.","d":"Correct — the stamen (anther + filament) is the male structure that produces pollen."}},
+
+{"id":8005,"short":"Salivary amylase begins the chemical digestion of starch in the mouth.",
+"long":"Saliva contains salivary amylase, which starts breaking down starch (a polysaccharide) into shorter sugar chains even before food reaches the stomach. Its action is halted by the stomach's acidic pH.",
+"trick":"Amylase = starch-digesting enzyme (starts in mouth, continues in small intestine via pancreatic amylase); pepsin/trypsin digest proteins; lipase digests fats.",
+"options":{"a":"Incorrect — pepsin digests proteins in the stomach, not starch in the mouth.","b":"Correct — salivary amylase begins starch digestion in the mouth.","c":"Incorrect — lipase digests fats, mainly in the small intestine, not starch in the mouth.","d":"Incorrect — trypsin digests proteins in the small intestine, unrelated to starch digestion in the mouth."}},
+
+{"id":8006,"short":"Pepsin, active in the acidic stomach environment, digests proteins into smaller polypeptides.",
+"long":"Pepsin is secreted as inactive pepsinogen by stomach chief cells and activated by the stomach's acidic (low pH) environment. It cleaves proteins into shorter polypeptide fragments, continuing protein digestion that finishes later in the small intestine.",
+"trick":"Pepsin works specifically on PROTEINS, and specifically in the STOMACH's acidic conditions — most other digestive enzymes require a more neutral/alkaline environment.",
+"options":{"a":"Incorrect — carbohydrate digestion is handled by amylase, not pepsin.","b":"Correct — pepsin breaks down proteins in the stomach.","c":"Incorrect — lipid digestion is handled by lipase, not pepsin.","d":"Incorrect — nucleic acid digestion involves nucleases, not pepsin."}},
+
+{"id":8007,"short":"Bile emulsifies large fat globules into smaller droplets, increasing surface area for lipase to act on.",
+"long":"Bile salts, produced by the liver and stored in the gallbladder, act like a detergent — physically breaking large fat globules into many smaller droplets (emulsification). This dramatically increases the surface area available for lipase enzymes to chemically digest the fats.",
+"trick":"Bile is NOT an enzyme itself — it physically emulsifies fat (mechanical digestion), while lipase (a separate enzyme from the pancreas) does the actual chemical breakdown.",
+"options":{"a":"Incorrect — bile physically emulsifies fat; it does not chemically break fat molecules into fatty acids itself (that's lipase's job).","b":"Incorrect — lipase is produced by the pancreas, not manufactured by bile itself.","c":"Correct — bile emulsifies fats into smaller droplets, increasing surface area for lipase action.","d":"Incorrect — bile does not directly absorb fats into the bloodstream; that occurs later via intestinal absorption mechanisms."}},
+
+{"id":8008,"short":"Removing the gallbladder most directly affects the storage and timed release of bile needed for efficient fat digestion.",
+"long":"The gallbladder stores and concentrates bile produced by the liver, releasing it into the small intestine when fatty food is present. Without a gallbladder, bile still flows from the liver, but in a continuous rather than a concentrated, meal-timed manner, which can reduce fat digestion efficiency, especially with fatty meals.",
+"trick":"The liver still MAKES bile even without a gallbladder — the gallbladder's specific role is storage and controlled, timed release, not production.",
+"options":{"a":"Incorrect — protein digestion in the stomach relies on pepsin, unrelated to the gallbladder.","b":"Incorrect — water absorption in the large intestine is unrelated to gallbladder/bile storage function.","c":"Incorrect — starch digestion in the mouth relies on salivary amylase, unrelated to the gallbladder.","d":"Correct — the gallbladder's specific role is storing and timing the release of liver-produced bile for fat digestion."}},
+
+{"id":8009,"short":"The left ventricle pumps oxygenated blood out to the entire body through the aorta.",
+"long":"Oxygenated blood returns from the lungs to the left atrium, passes into the left ventricle, and is then pumped with high pressure through the aorta to systemic circulation, reaching all body tissues. Its thick muscular wall reflects the high pressure needed for this long-distance pumping.",
+"trick":"Left side of the heart = oxygenated blood, high pressure, thick muscular walls (systemic circulation). Right side = deoxygenated blood, lower pressure (pulmonary circulation).",
+"options":{"a":"Correct — the left ventricle pumps oxygenated blood to the entire body via the aorta.","b":"Incorrect — the right atrium receives deoxygenated blood returning from the body, it does not pump blood out to the body.","c":"Incorrect — the right ventricle pumps deoxygenated blood to the lungs, not oxygenated blood to the body.","d":"Incorrect — the left atrium receives oxygenated blood from the lungs but passes it to the left ventricle rather than pumping it to the body itself."}},
+
+{"id":8010,"short":"Pulmonary circulation carries blood between the heart and the lungs for gas exchange.",
+"long":"Deoxygenated blood is pumped from the right ventricle to the lungs via the pulmonary artery, where it releases CO2 and picks up O2, then returns as oxygenated blood to the left atrium via the pulmonary veins — completing the pulmonary circuit.",
+"trick":"Pulmonary = lungs. Systemic = rest of the body. These two circulatory loops are frequently tested as a pair — know both directions.",
+"options":{"a":"Incorrect — carrying blood to the rest of the body describes systemic circulation, not pulmonary.","b":"Correct — pulmonary circulation moves blood between the heart and lungs for gas exchange.","c":"Incorrect — blood flow to the kidneys is part of systemic circulation, not the pulmonary loop specifically.","d":"Incorrect — blood flow to the liver is also part of systemic circulation, not pulmonary."}},
+
+{"id":8011,"short":"Platelets, together with clotting factors, are the primary blood component driving blood coagulation.",
+"long":"When a blood vessel is injured, platelets aggregate at the site and activate a clotting factor cascade, ultimately converting fibrinogen into fibrin, which forms a mesh trapping cells to seal the wound.",
+"trick":"Platelets are cell fragments (not full cells) specifically specialized for clotting — distinct from red blood cells (oxygen transport) and white blood cells (immunity).",
+"options":{"a":"Incorrect — red blood cells transport oxygen; they are not the primary clotting agent.","b":"Incorrect — clotting requires cellular platelets in addition to plasma proteins, not plasma proteins alone.","c":"Correct — platelets, working with clotting factors, are central to coagulation.","d":"Incorrect — white blood cells are primarily involved in immune defense, not clotting."}},
+
+{"id":8012,"short":"Heart rate rises during intense exercise mainly to increase cardiac output, delivering more oxygen and nutrients to active muscles.",
+"long":"Working muscles demand more oxygen and glucose and produce more CO2/waste. The heart responds by beating faster (and often more forcefully), increasing cardiac output (heart rate x stroke volume) to meet this heightened metabolic demand.",
+"trick":"'Increased demand → increased supply' is the physiological logic behind virtually every exercise-response question in this topic area.",
+"options":{"a":"Incorrect — exercise increases, not decreases, oxygen delivery to active tissues.","b":"Incorrect — exercise increases blood flow to working muscles, it does not stop it.","c":"Incorrect — exercise typically raises blood pressure somewhat, not reduces it to zero.","d":"Correct — increased heart rate boosts cardiac output to supply active tissues with more oxygen and nutrients."}},
+
+{"id":8013,"short":"Gas exchange in the lungs occurs across the thin walls of the alveoli.",
+"long":"Alveoli are tiny, thin-walled, balloon-like air sacs surrounded by capillaries. Their enormous combined surface area and thin walls (one cell thick) allow efficient diffusion of O2 into the blood and CO2 out of the blood.",
+"trick":"Alveoli = the actual gas-exchange site (thin-walled sacs). Bronchi, trachea, and larynx are simply airways that conduct air but do not perform gas exchange themselves.",
+"options":{"a":"Correct — gas exchange occurs across the thin walls of the alveoli.","b":"Incorrect — bronchi are air-conducting tubes; they don't have the thin, capillary-lined structure needed for gas exchange.","c":"Incorrect — the trachea is the windpipe, a conducting airway, not a gas-exchange surface.","d":"Incorrect — the larynx (voice box) is involved in airflow and sound, not gas exchange."}},
+
+{"id":8014,"short":"During inhalation, the diaphragm contracts and moves downward, increasing thoracic volume and drawing air in.",
+"long":"Diaphragm contraction flattens and lowers the dome-shaped muscle, expanding the chest cavity. This increased volume lowers internal air pressure below atmospheric pressure, so air flows into the lungs to equalize pressure (Boyle's law in action).",
+"trick":"Diaphragm CONTRACTS to inhale (volume up, pressure down, air in) and RELAXES to exhale (volume down, pressure up, air out) — opposite of what intuition might suggest about 'contracting' meaning smaller.",
+"options":{"a":"Incorrect — relaxing and moving upward actually describes exhalation, decreasing thoracic volume, the opposite of inhalation.","b":"Correct — diaphragm contraction during inhalation increases thoracic volume, drawing air in.","c":"Incorrect — the diaphragm plays a central, essential role in breathing, not no role at all.","d":"Incorrect — the diaphragm contracting to force air out describes exhalation mechanics inaccurately; contraction actually draws air IN during inhalation."}},
+
+{"id":8015,"short":"Asthma's airway inflammation and constriction cause difficulty breathing due to narrowed airways.",
+"long":"In asthma, chronic inflammation causes the bronchial airway linings to swell and the surrounding smooth muscle to constrict (bronchospasm), narrowing the passageways and increasing airway resistance, making it harder to move air in and out.",
+"trick":"Inflammation + constriction = narrower tube = higher resistance = harder to breathe — straightforward physics of airflow through a narrowed passage.",
+"options":{"a":"Incorrect — narrowed airways worsen, not improve, airflow.","b":"Incorrect — asthma clearly does impair breathing; it is not without effect.","c":"Correct — narrowed, inflamed airways directly cause difficulty breathing in asthma.","d":"Incorrect — asthma typically reduces, not increases, effective lung capacity/airflow during attacks."}},
+
+{"id":8016,"short":"Structure 1, the glomerulus, is the tuft of capillaries inside Bowman's capsule where blood filtration begins.",
+"long":"Blood enters the glomerulus (a ball of capillaries) under high pressure, forcing water, ions, glucose, and small molecules out of the blood and into the surrounding Bowman's capsule — this filtrate then flows into the proximal convoluted tubule (structure 3) and eventually the loop of Henle (structure 4).",
+"trick":"Don't confuse the glomerulus (the capillary tuft that filters) with Bowman's capsule (the cup-shaped structure that COLLECTS the filtrate) — they work together but are distinct structures.",
+"options":{"a":"Incorrect — the loop of Henle (structure 4) is involved in concentrating urine, not initial filtration.","b":"Incorrect — Bowman's capsule (structure 2) collects the filtrate but is not itself the tuft of capillaries.","c":"Incorrect — the proximal convoluted tubule (structure 3) reabsorbs substances after filtration, it is not where filtration begins.","d":"Correct — the glomerulus (structure 1) is the capillary tuft where blood filtration begins."}},
+
+{"id":8017,"short":"Beyond the proximal convoluted tubule, most remaining water reabsorption occurs at the loop of Henle and collecting duct.",
+"long":"While the PCT reabsorbs the bulk of filtered water and solutes, the loop of Henle (via its countercurrent multiplier mechanism) and the collecting duct (under ADH regulation) fine-tune water reabsorption, allowing the kidney to concentrate urine as needed.",
+"trick":"The nephron's water-reabsorption 'stations' in order: PCT (bulk reabsorption) → loop of Henle (concentration gradient) → collecting duct (final, ADH-regulated fine-tuning).",
+"options":{"a":"Correct — the loop of Henle and collecting duct handle most of the remaining water reabsorption after the PCT.","b":"Incorrect — the renal artery simply delivers blood to the kidney; it is not a site of water reabsorption.","c":"Incorrect — the ureter simply transports urine to the bladder; no significant reabsorption occurs there.","d":"Incorrect — the bladder wall stores urine; it is not a major site of water reabsorption in normal nephron function."}},
+
+{"id":8018,"short":"ADH increases water reabsorption mainly by increasing the permeability of the collecting duct to water.",
+"long":"ADH (vasopressin) causes aquaporin water channels to be inserted into the collecting duct's cell membranes, making the duct more permeable to water. This allows more water to be reabsorbed from the filtrate back into the blood, producing more concentrated urine and conserving body water.",
+"trick":"ADH targets the COLLECTING DUCT specifically (and to a lesser extent the distal tubule) — it doesn't act on the glomerulus or directly 'decrease blood volume' (its function is actually to help conserve/increase blood volume).",
+"options":{"a":"Incorrect — ADH acts to INCREASE (conserve) blood volume by promoting water retention, not decrease it intentionally.","b":"Correct — ADH increases collecting duct permeability to water, boosting reabsorption.","c":"Incorrect — ADH does not block glomerular filtration; it acts downstream at the collecting duct.","d":"Incorrect — ADH decreases, not increases, urine volume by promoting water reabsorption."}},
+
+{"id":8019,"short":"Dendrites are the parts of a neuron that receive signals from other neurons.",
+"long":"Dendrites are branched extensions that receive neurotransmitter signals at synapses and convey electrical impulses toward the cell body. The axon, by contrast, conducts signals AWAY from the cell body toward the next neuron or target cell.",
+"trick":"Dendrites RECEIVE (signal comes IN); axons SEND (signal goes OUT) — a fundamental neuron-anatomy pairing.",
+"options":{"a":"Incorrect — the cell body integrates signals and houses the nucleus, but dendrites specifically are the primary signal-receiving structures.","b":"Incorrect — the axon conducts signals away from the cell body, the opposite direction of dendrites.","c":"Correct — dendrites receive incoming signals from other neurons.","d":"Incorrect — the myelin sheath insulates the axon to speed signal conduction; it doesn't receive signals."}},
+
+{"id":8020,"short":"Neurotransmitters are stored in synaptic vesicles within the presynaptic neuron's axon terminal before release.",
+"long":"When an action potential reaches the axon terminal, synaptic vesicles containing neurotransmitters fuse with the presynaptic membrane, releasing their contents into the synaptic cleft to bind receptors on the postsynaptic neuron.",
+"trick":"Neurotransmitters are stored and released from the PREsynaptic (sending) side, not the POSTsynaptic (receiving) side — a very commonly reversed detail.",
+"options":{"a":"Incorrect — mitochondria supply ATP energy but do not store neurotransmitters, and the correct location is presynaptic, not postsynaptic.","b":"Incorrect — the nucleus contains genetic material; it is not involved in neurotransmitter storage.","c":"Incorrect — the myelin sheath insulates axons for faster conduction; it does not store neurotransmitters.","d":"Correct — synaptic vesicles in the presynaptic neuron store neurotransmitters before release."}},
+
+{"id":8021,"short":"The thyroid gland secretes hormones (T3/T4) that primarily regulate the body's metabolic rate.",
+"long":"Thyroid hormones (thyroxine/T4 and triiodothyronine/T3) influence how quickly cells convert nutrients into energy, affecting heart rate, body temperature, and overall metabolism. Too much or too little thyroid hormone causes hyperthyroidism or hypothyroidism respectively.",
+"trick":"Thyroid = metabolism. Pancreas (insulin/glucagon) = blood glucose. Parathyroid = blood calcium. Adrenal medulla = fight-or-flight — match each gland to its main regulated variable.",
+"options":{"a":"Correct — thyroid hormones primarily regulate the body's overall metabolic rate.","b":"Incorrect — blood glucose is primarily regulated by the pancreas (insulin/glucagon), not the thyroid.","c":"Incorrect — blood calcium is primarily regulated by the parathyroid glands, not the thyroid exclusively.","d":"Incorrect — the fight-or-flight response is primarily driven by the adrenal medulla (adrenaline), not the thyroid."}},
+
+{"id":8022,"short":"Negative feedback maintains hormone levels within a stable range by inhibiting further release once levels are sufficient.",
+"long":"In negative feedback loops, rising hormone levels trigger signals (often to the hypothalamus/pituitary) that suppress further hormone release, preventing overproduction and keeping levels within a healthy homeostatic range — this is the dominant regulatory mechanism throughout the endocrine system.",
+"trick":"'Negative' feedback doesn't mean 'bad' — it means the response counteracts (opposes) the original change, keeping the system stable, unlike positive feedback which amplifies change.",
+"options":{"a":"Incorrect — negative feedback specifically PREVENTS unlimited increase; it doesn't continuously raise hormone levels.","b":"Correct — negative feedback keeps hormone levels stable by shutting off further release once sufficient.","c":"Incorrect — negative feedback is a powerful and essential regulatory mechanism, not one with no effect.","d":"Incorrect — negative feedback applies broadly across many hormone systems (thyroid, cortisol, etc.), not just insulin."}},
+
+{"id":8023,"short":"Fertilization in humans typically occurs in the fallopian tube (oviduct).",
+"long":"After ovulation, the egg travels into the fallopian tube, where sperm — having traveled up through the uterus — typically meet and fertilize it. The resulting zygote then continues moving toward the uterus for implantation.",
+"trick":"Fertilization happens in the fallopian tube; implantation happens in the uterus — two different locations, often confused.",
+"options":{"a":"Incorrect — the uterus is where implantation of the already-fertilized embryo occurs, not fertilization itself.","b":"Incorrect — the ovary releases the egg (ovulation) but fertilization occurs after the egg has entered the fallopian tube.","c":"Correct — fertilization typically occurs in the fallopian tube (oviduct).","d":"Incorrect — the vagina is where sperm are deposited during intercourse, not where fertilization occurs."}},
+
+{"id":8024,"short":"Progesterone maintains the uterine lining (endometrium) in preparation for and during pregnancy.",
+"long":"Secreted primarily by the corpus luteum (and later the placenta during pregnancy), progesterone thickens and maintains the endometrium, supporting implantation and sustaining early pregnancy; its withdrawal (if no pregnancy occurs) triggers menstruation.",
+"trick":"Progesterone MAINTAINS the lining (supports pregnancy); its DROP causes menstruation — the opposite of 'causing menstruation' listed as a wrong option.",
+"options":{"a":"Incorrect — a surge in luteinizing hormone (LH), not progesterone, triggers ovulation.","b":"Incorrect — a DROP in progesterone (not progesterone itself) triggers menstruation — the opposite effect.","c":"Incorrect — testosterone, not progesterone, stimulates sperm production.","d":"Correct — progesterone maintains the uterine lining for implantation and ongoing pregnancy."}},
+
+{"id":8025,"short":"Roughly only about 10% of energy transfers from one trophic level to the next in an ecosystem (the '10% rule').",
+"long":"Most energy at each trophic level is lost as heat through metabolism, movement, and other life processes, with only about 10% typically being converted into biomass available to the next consumer level — this explains why food chains rarely exceed 4-5 trophic levels and why top predators are relatively rare.",
+"trick":"The '10% rule' is a very frequently tested ecology fact — energy pyramids get dramatically smaller at each higher trophic level because of this loss.",
+"options":{"a":"Correct — approximately 10% of energy is transferred to the next trophic level (the 10% rule).","b":"Incorrect — 50% is far too high; the vast majority of energy is lost as metabolic heat, not retained at this rate.","c":"Incorrect — 90% would mean almost all energy transfers, which contradicts the substantial energy loss at each level.","d":"Incorrect — 100% transfer would mean no energy loss at all, which is biologically impossible given metabolic heat loss."}}
+]
