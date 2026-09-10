@@ -1,11 +1,12 @@
 
 from django.shortcuts import get_object_or_404
+from rest_framework import status
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from content.models import Question
-from .services import generate_explanation
+from .services import ExplanationUnavailable, generate_explanation
 
 
 class QuestionExplainView(APIView):
@@ -19,7 +20,19 @@ class QuestionExplainView(APIView):
             is_verified=True,
         )
 
-        explanation = generate_explanation(question)
+        try:
+            explanation = generate_explanation(question)
+        except ExplanationUnavailable:
+            # Groq is down, slow, or talking nonsense. The explanation is a
+            # bonus on top of an answer key the student can already see, so
+            # this degrades to a retry prompt rather than an error page.
+            return Response(
+                {
+                    "detail": "Explanation unavailable — please try again.",
+                    "error": "explanation_unavailable",
+                },
+                status=status.HTTP_503_SERVICE_UNAVAILABLE,
+            )
 
         return Response({
             "question_id": question.id,
