@@ -214,6 +214,13 @@ class AttemptDetailSerializer(serializers.ModelSerializer):
             'mode',
             'total_questions',
             'started_at',
+            # The hard deadline for timed modes (mock/sectional); null for
+            # untimed practice and past-paper attempts. It is set on start
+            # and already enforced server-side on answer/submit, but was
+            # never sent to the client — so the web app could only show a
+            # count-up stopwatch and a student taking a 180-minute mock had
+            # no way to see how much time was left before it expired.
+            'expires_at',
             'is_completed',
             'items',
         ]
