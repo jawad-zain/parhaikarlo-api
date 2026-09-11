@@ -1,0 +1,591 @@
+[
+ {
+  "year": 2024,
+  "question_number": 6,
+  "match_question_text": "In Calvin cycle CO2 reacts with RuBP to produce __________",
+  "match_option_a": "3-PGA",
+  "set": {
+   "question_text": "In Calvin cycle CO₂ reacts with RuBP to produce __________"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 7,
+  "match_question_text": "Which option is correct about a chlorophyll molecule?",
+  "match_option_a": "Chemical formula C55H70O6N4Mg",
+  "set": {
+   "option_a": "Chemical formula C₅₅H₇₀O₆N₄Mg"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 8,
+  "match_question_text": "In the journey of electrons from photosystem II to photosystem I plastocyanine is reduced by",
+  "match_option_a": "Plastoquinone",
+  "set": {
+   "option_c": "P₇₀₀"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 9,
+  "match_question_text": "Enzyme NADP reductase is responsible for:",
+  "match_option_a": "Reducing NADP+",
+  "set": {
+   "option_a": "Reducing NADP⁺",
+   "option_b": "Oxidizing NADP⁺",
+   "option_d": "Reducing P₇₀₀"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 11,
+  "match_question_text": "Mono-saccharides have a general formula represented by",
+  "match_option_a": "Cn(H2O)n",
+  "set": {
+   "option_a": "Cₙ(H₂O)ₙ",
+   "option_b": "C(H₂O)ₙ",
+   "option_c": "C₂(H₂O)ₙ",
+   "option_d": "Cₙ(H₂O)ₙ",
+   "correct_answer": "A"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 12,
+  "match_question_text": "What is the percentage of H2O in bone cells?",
+  "match_option_a": "70%",
+  "set": {
+   "question_text": "What is the percentage of H₂O in bone cells?"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 25,
+  "match_question_text": "During non-conducting state, the neuron membrane is permeable to efflux of",
+  "match_option_a": "K+",
+  "set": {
+   "option_a": "K⁺",
+   "option_b": "Na⁺",
+   "option_c": "Ca⁺",
+   "option_d": "Cl⁻"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 27,
+  "match_question_text": "Depolarization during conduction of nerve impulse is due to",
+  "match_option_a": "Inward movement of Na+",
+  "set": {
+   "option_a": "Inward movement of Na⁺",
+   "option_b": "Inward movement of K⁺",
+   "option_c": "Outward movement of K⁺",
+   "option_d": "Outward movement of Na⁺"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 31,
+  "match_question_text": "Which of the following statement is incorrect regarding rate of enzymatic action",
+  "match_option_a": "Increase in enzyme concentration increases",
+  "set": {
+   "option_a": "Increase in enzyme concentration increases the rate",
+   "option_b": "Increase in enzyme concentration reduces the rate",
+   "option_c": "All enzymes work at their maximum rate at optimum temperature",
+   "option_d": "All enzymes work at their maximum rate at optimum pH"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 71,
+  "match_question_text": "The atomic masses of element depend upon:",
+  "match_option_a": "Atomic number",
+  "set": {
+   "correct_answer": "C"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 74,
+  "match_question_text": "Which of the following electronic configuration is correct for carbon?",
+  "match_option_a": "1s2 2s2 2p3",
+  "set": {
+   "option_a": "1s² 2s² 2p³",
+   "option_b": "1s² 2s² 2p⁴",
+   "option_c": "1s² 2s² 2p²",
+   "option_d": "1s² 2s² 2p¹"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 80,
+  "match_question_text": "Boiling point of a liquid is a temperature at which:",
+  "match_option_a": "Surface tension is greater than the atmospheric",
+  "set": {
+   "option_a": "Surface tension is greater than the atmospheric pressure",
+   "option_b": "Viscosity is less than the atmospheric pressure",
+   "option_c": "Vapour pressure equals the atmospheric pressure",
+   "option_d": "Viscosity equals the atmospheric pressure"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 85,
+  "match_question_text": "Identify the CORRECT option required for the maximum yield of ammonia by Haber's process:",
+  "match_option_a": "High pressure low temperature continual",
+  "set": {
+   "option_a": "High pressure low temperature continual removal of ammonia",
+   "option_b": "Low pressure low temperature continual removal of ammonia",
+   "option_c": "High pressure high temperature continual removal of ammonia",
+   "option_d": "High pressure low temperature continual addition of ammonia"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 86,
+  "match_question_text": "Consider the following reaction in equilibrium and tell addition of which chemical will turn the cloudy solution into clear solution? BiCl3 + H2O <=> BiOCl + 2HCl",
+  "match_option_a": "BiCl3",
+  "set": {
+   "question_text": "Consider the following reaction in equilibrium and tell addition of which chemical will turn the cloudy solution into clear solution? BiCl₃ + H₂O ⇌ BiOCl + 2HCl",
+   "option_a": "BiCl₃",
+   "option_b": "H₂O"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 87,
+  "match_question_text": "Identify the correct formula to calculate rate of reaction:",
+  "match_option_a": "Change in concentration of substance / Time",
+  "set": {
+   "option_a": "Change in concentration of substance / Time taken for the change",
+   "option_b": "Time taken for the change / Change in concentration of substance",
+   "option_c": "Time taken for the change / Change in concentration x 100",
+   "option_d": "Time taken for the change x Change in concentration of substance"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 88,
+  "match_question_text": "Consider the hypothetical equation aA + bB -> cC+Dd: Which of the following represents correct rate equation?",
+  "match_option_a": "Rate = k[A][B]",
+  "set": {
+   "question_text": "Consider the hypothetical equation aA + bB → cC + dD: Which of the following represents correct rate equation?",
+   "option_b": "Rate = k[A]ᵃ[B]ᵇ",
+   "option_c": "Rate = k[A]ᵃ",
+   "option_d": "Rate = k[B]²"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 90,
+  "match_question_text": "Which of the following is CORRECT Arrhenius equation?",
+  "match_option_a": "K=Ae^(-Ea/QT)",
+  "set": {
+   "option_a": "K = Ae^(−Ea/QT)",
+   "option_b": "K = Ae^(−Ea/RT)",
+   "option_c": "K = Ae^(−Ea/ST)",
+   "option_d": "K = Ae^(−Ea/UT)"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 94,
+  "match_question_text": "Oxidation number of 'Mn' in KMnO4 is",
+  "match_option_a": "0",
+  "set": {
+   "question_text": "Oxidation number of 'Mn' in KMnO₄ is"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 95,
+  "match_question_text": "Which step is irrelevant with respect to balancing of redox equations by oxidation number method?",
+  "match_option_a": "Split the reaction into two half reactions",
+  "set": {
+   "option_c": "Identify the element undergoing a change in oxidation number",
+   "option_d": "Equalize the number of electrons lost and gained"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 96,
+  "match_question_text": "Which of the following is NOT a correct feature of electrolytic cells?",
+  "match_option_a": "Reduction occurs at cathode",
+  "set": {
+   "option_c": "Alternating current source is connected to electrodes",
+   "option_d": "Electrochemical reaction takes place"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 97,
+  "match_question_text": "Which of the following has a coordinate bond?",
+  "match_option_a": "NaCl",
+  "set": {
+   "option_c": "NH₃BF₃",
+   "option_d": "H₂O"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 98,
+  "match_question_text": "Which of the following is NOT a feature of Valence Shell Electron Pair Repulsion theory?",
+  "match_option_a": "It determines the shape of molecule",
+  "set": {
+   "option_c": "It helps in understanding interaction of medicinal drug molecules",
+   "option_d": "Only lone pairs participate in determining geometry of molecules"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 104,
+  "match_question_text": "Electronic configuration of chromium (Proton number 24) is:",
+  "match_option_a": "[Ar]3d4 4s2",
+  "set": {
+   "option_a": "[Ar]3d⁴ 4s²",
+   "option_b": "[Ar]3d⁵ 4s²",
+   "option_c": "[Ar]3d⁵ 4s¹",
+   "option_d": "[Ar]3d⁶ 4s²"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 109,
+  "match_question_text": "Which of the following is an example of substituent group which release electrons to benzene ring:",
+  "match_option_a": "-CN",
+  "set": {
+   "option_a": "−CN",
+   "option_b": "−NR₃⁺",
+   "option_c": "−NH₂",
+   "option_d": "−NO₂"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 111,
+  "match_question_text": "In Friedel Craft acylation an acyl group is introduced in benzene ring in the presence of catalyst:",
+  "match_option_a": "AlCl3",
+  "set": {
+   "option_a": "AlCl₃",
+   "option_b": "H₂SO₄",
+   "option_d": "V₂O₅"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 113,
+  "match_question_text": "Identify the correct statement related to substitution and elimination of alkyl halides:",
+  "match_option_a": "Strong bases causes substitution in preference",
+  "set": {
+   "option_a": "Strong bases causes substitution in preference to elimination",
+   "option_b": "Role of leaving groups in elimination is similar to substitution",
+   "option_c": "Substitution is favored more than elimination by decreasing solvent polarity",
+   "option_d": "Decrease in temperature will favor elimination more than substitution"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 114,
+  "match_question_text": "Alkyl Halides involving -C-X bond breakage and -C-Nu bond formation simultaneously would follow which one of the following mechanisms",
+  "match_option_a": "SN1",
+  "set": {
+   "option_a": "Sₙ1",
+   "option_b": "Sₙ2"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 115,
+  "match_question_text": "CnH2nO is the general formula of:",
+  "match_option_a": "Ether",
+  "set": {
+   "question_text": "CₙH₂ₙO is the general formula of:"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 116,
+  "match_question_text": "The blue color of Fehling solution is changed to red when warmed with an aldehyde due to formation of which of the following?",
+  "match_option_a": "NO2",
+  "set": {
+   "option_a": "NO₂",
+   "option_b": "Cu₂O",
+   "option_d": "SO₂"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 125,
+  "match_question_text": "The range of projectile will be maximum if the factor sin2q becomes",
+  "match_option_a": "Zero",
+  "set": {
+   "question_text": "The range of projectile will be maximum if the factor sin2θ becomes"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 134,
+  "match_question_text": "The centripetal acceleration of an object moving along a circle of radius 'r' with an angular speed 'w' is given by the formula:",
+  "match_option_a": "a = rw^2",
+  "set": {
+   "question_text": "The centripetal acceleration of an object moving along a circle of radius 'r' with an angular speed 'ω' is given by the formula:",
+   "option_a": "a = rω²",
+   "option_b": "a = rω",
+   "option_c": "a = r²ω",
+   "option_d": "A = r²ω²"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 137,
+  "match_question_text": "A roller coaster is moving with 30 ms-1 on a circular track of radius 30m. the net mass of coaster + passengers is 'm' the centripetal force acting on it is;",
+  "match_option_a": "900m",
+  "set": {
+   "question_text": "A roller coaster is moving with 30 m s⁻¹ on a circular track of radius 30m. the net mass of coaster + passengers is 'm' the centripetal force acting on it is;"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 144,
+  "match_question_text": "During the isothermal process, the temperature",
+  "match_option_a": "remains constant during the initial phase of the",
+  "set": {
+   "option_a": "remains constant during the initial phase of the process",
+   "option_b": "remains constant throughout the process"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 146,
+  "match_question_text": "The Coulomb's law states",
+  "match_option_a": "Force between two point charges is inversely",
+  "set": {
+   "option_a": "Force between two point charges is inversely proportional to the product of the charges and directly proportional to the square of the distance between them",
+   "option_b": "Force between two point charges is directly proportional to the product of the charges and inversely proportional to the square of the distance between them",
+   "option_c": "Force between two point charges is directly proportional to the sum of the charges and inversely proportional to the square of the distance between them",
+   "option_d": "Force between two point charges is directly proportional to the product of the charges and the square of the distance between them"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 147,
+  "match_question_text": "The formula V = W / qo represents",
+  "match_option_a": "Electric intensity",
+  "set": {
+   "question_text": "The formula V = W / q₀ represents"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 157,
+  "match_question_text": "The formula f = B.A represents",
+  "match_option_a": "Electric flux",
+  "set": {
+   "question_text": "The formula φ = B.A represents"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 159,
+  "match_question_text": "The unit of magnetic flux density is;",
+  "match_option_a": "Wbm-1",
+  "set": {
+   "option_a": "Wb m⁻¹",
+   "option_b": "Wb m",
+   "option_c": "Wb m⁻²"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 161,
+  "match_question_text": "In an AC generator the emf will be maximum when factor sinwt is equal to",
+  "match_option_a": "Zero",
+  "set": {
+   "question_text": "In an AC generator the emf will be maximum when factor sinωt is equal to"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 165,
+  "match_question_text": "Full wave rectification is given by:",
+  "match_option_a": "One diode connected in bridge type",
+  "set": {
+   "option_a": "One diode connected in bridge type arrangements",
+   "option_b": "Two diodes connected in bridge type arrangements",
+   "option_c": "Three diodes connected in bridge type arrangement",
+   "option_d": "Four diodes connected in bridge type arrangements"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 167,
+  "match_question_text": "The value of Planck constant is",
+  "match_option_a": "6.63x10^-34 Js",
+  "set": {
+   "option_a": "6.63×10⁻³⁴ J s",
+   "option_b": "6.63×10³⁴ J s",
+   "option_c": "6.63×10⁻³⁴ J s⁻¹",
+   "option_d": "6.63×10³⁴ J s⁻¹"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 168,
+  "match_question_text": "The de-Broglie wavelength associated with a particle moving at 10^6 m/s and having mass 10^-30 kg",
+  "match_option_a": "6.6x10^-10 m",
+  "set": {
+   "question_text": "The de-Broglie wavelength associated with a particle moving at 10⁶ m/s and having mass 10⁻³⁰ kg",
+   "option_a": "6.6×10⁻¹⁰ m",
+   "option_b": "1.5×10⁹ m",
+   "option_c": "1.9×10⁻⁵ m",
+   "option_d": "7.2×10⁻⁸ m"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 173,
+  "match_question_text": "The unit of decay constant is;",
+  "match_option_a": "m",
+  "set": {
+   "option_c": "s⁻¹",
+   "option_d": "m⁻¹"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 174,
+  "match_question_text": "If we have 'No' number of any radioactive element then after a period of 'n' half-lives the number of atoms left behind is",
+  "match_option_a": "2^n No",
+  "set": {
+   "question_text": "If we have 'N₀' number of any radioactive element then after a period of 'n' half-lives the number of atoms left behind is",
+   "option_a": "2ⁿ N₀",
+   "option_b": "(1/2)ⁿ N₀",
+   "option_c": "(1/2 N₀)ⁿ",
+   "option_d": "(2N₀)ⁿ"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 180,
+  "match_question_text": "Pick the CORRECT option:",
+  "match_option_a": "The supervisor has nor will ever compromise.",
+  "set": {
+   "option_c": "The supervisor has not compromised nor will ever compromise.",
+   "option_d": "The supervisor has nor will ever compromised."
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 185,
+  "match_question_text": "Choose the CORRECT sentence",
+  "match_option_a": "She has beauty, brains and wealth-a rare",
+  "set": {
+   "option_a": "She has beauty, brains and wealth-a rare combination.",
+   "option_b": "She has beauty, brains, and wealth-a rare combination.",
+   "option_c": "She has beauty, brains, and wealth; a rare combination.",
+   "option_d": "She has beauty, brains, and wealth: a rare combination."
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 186,
+  "match_question_text": "Choose the correct sentence",
+  "match_option_a": "In 1838 Schleiden suggested that all plants",
+  "set": {
+   "option_a": "In 1838 Schleiden suggested that all plants were made of cells",
+   "option_b": "In 1838 Schleiden suggest that all plants were made of cells",
+   "option_c": "In 1838 Schleiden suggested that all plant were made of cells",
+   "option_d": "In 1838 Schleiden suggested to all plants were made of cells"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 189,
+  "match_question_text": "Choose the CORRECT sentence",
+  "match_option_a": "There's mr. hashim whome they say is the best",
+  "set": {
+   "option_a": "There's mr. hashim whome they say is the best portrait painter in the town.",
+   "option_b": "There's Mr. Hashim, who they say is the best portrait painter in the town.",
+   "option_c": "Theres' Mr. Hashim which they say is the portrait painter in the town.",
+   "option_d": "There's Mr. Hashim who they say is best portrait painter in the town."
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 190,
+  "match_question_text": "Choose the CORRECT sentence",
+  "match_option_a": "Gulliver travels was writen to Swift.",
+  "set": {
+   "option_d": "Gullivers' travel was written by Swift."
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 191,
+  "match_question_text": "Choose the CORRECT sentence",
+  "match_option_a": "\"The unexamined life\", said Socrates, \"is unfit",
+  "set": {
+   "option_a": "\"The unexamined life\", said Socrates, \"is unfit to be lived by man.\"",
+   "option_b": "The inexamined life, said Socrates, \"is unfit to be lived by man\"",
+   "option_c": "\"The unexamined life said Socrates\", is disfit to be lived by man.",
+   "option_d": "\"The disexamined life\" said Socrates is unfit to be lived by man."
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 192,
+  "match_question_text": "Choose the CORRECT sentence",
+  "match_option_a": "You have often heard of me speeking of my",
+  "set": {
+   "option_a": "You have often heard of me speeking of my friend Wahaj waheed a barrister here",
+   "option_b": "You have often heard me speak of my friend, Wahaj Waheed, who is a barrister here.",
+   "option_c": "You have often heard me. Speak off my friend, wahaj waheed who is a Barrister here",
+   "option_d": "you have often heard me speak about my friend; wahaj waheed-a barrister hear"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 193,
+  "match_question_text": "Choose the CORRECT sentence",
+  "match_option_a": "The first space traveller was Dennis Tito from",
+  "set": {
+   "option_a": "The first space traveller was Dennis Tito from the United States.",
+   "option_b": "The First Space Traveller was Dennis Tito, from, the United states",
+   "option_c": "The first space traveller was Dennis Tito-from united State",
+   "option_d": "The first space travaler was Dennis Tito, from the United States"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 194,
+  "match_question_text": "Choose the CORRECT sentence",
+  "match_option_a": "It was greatly good by you to proposd day's",
+  "set": {
+   "option_a": "It was greatly good by you to proposd day's picnic at murree",
+   "option_b": "It was awfully good by you to proposed a day's picnic in Murree.",
+   "option_c": "It was awfully good of you to propose a day's picnic at Murree.",
+   "option_d": "It was very good off you too propose days picnic in Murree"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 195,
+  "match_question_text": "The government has increased the taxes on all businesses in Pakistan. II. Many small businesses will have to close their operations in Pakistan.",
+  "match_option_a": "Statement I is the cause and statement II is its",
+  "set": {
+   "option_a": "Statement I is the cause and statement II is its effect",
+   "option_b": "Statement II is the cause and statement I is its effect",
+   "option_c": "Both the statements I and II are independent causes",
+   "option_d": "Both the statements I and II are effects of independent causes"
+  }
+ },
+ {
+  "year": 2024,
+  "question_number": 200,
+  "match_question_text": "All hammers are tools. Some tools are useless things. All useless things are trash. Which of the following conclusions is NECESSARILY TRUE given only the information above? CONCLUSIONS: I. Some hammers are trash II. Some tools are trash III. All useless things are tools.",
+  "match_option_a": "I",
+  "set": {
+   "option_d": "I & III"
+  }
+ }
+]

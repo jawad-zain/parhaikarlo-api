@@ -1,0 +1,403 @@
+[
+ {
+  "year": 2025,
+  "question_number": 3,
+  "match_question_text": "Which part of the brain contains central chemoreceptors that monitor CO levels in blood? 2",
+  "match_option_a": "Pons",
+  "set": {
+   "question_text": "Which part of the brain contains central chemoreceptors that monitor CO₂ levels in blood?"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 18,
+  "match_question_text": "A mature duplicated chromosome consists of:",
+  "match_option_a": "Two identical double helical DNA molecules",
+  "set": {
+   "option_c": "A double helical DNA molecule distributed in both chromatids",
+   "option_d": "Histone chains wrapped around DNA core"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 32,
+  "match_question_text": "The process of osmoregulation refers to:",
+  "match_option_a": "The filtration of blood to remove metabolic",
+  "set": {
+   "option_a": "The filtration of blood to remove metabolic waste",
+   "option_b": "The regulation of solute and water movement between an organism and its environment",
+   "option_c": "The creation of an osmotic gradient in the kidney medulla",
+   "option_d": "The secretion of hormones that control blood plasma"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 33,
+  "match_question_text": "A baby girl is born with hemophilia, an X-linked recessive disorder. What are the most likely genotypes of her parents?",
+  "match_option_a": "The mother is a carrier and the father is",
+  "set": {
+   "option_a": "The mother is a carrier and the father is normal",
+   "option_b": "The mother is hemophiliac and the father is normal",
+   "option_c": "The mother is carrier and the father is hemophiliac",
+   "option_d": "Both are normal"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 40,
+  "match_question_text": "Once an action potential reaches the membrane of a skeletal muscle fiber, what is the first event that occurs in the contraction process?",
+  "match_option_a": "Actin and myosin form a cross-bridge",
+  "set": {
+   "option_c": "Calcium is released from the sarcoplasmic reticulum",
+   "option_d": "ATP is hydrolyzed by troponin"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 43,
+  "match_question_text": "Mendel crossed a plant with round yellow seeds (RRYY) and a plant with wrinkled green seeds (rryy). What was the phenotype of all F offspring? 1",
+  "match_option_a": "All round green",
+  "set": {
+   "question_text": "Mendel crossed a plant with round yellow seeds (RRYY) and a plant with wrinkled green seeds (rryy). What was the phenotype of all F₁ offspring?"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 48,
+  "match_question_text": "Which statement best explains the difference between humoral and cell mediated immune response?",
+  "match_option_a": "Humoral immunity involves B-Lymphocytes",
+  "set": {
+   "option_a": "Humoral immunity involves B-Lymphocytes and cell mediated immunity involves T-Lymphocytes",
+   "option_b": "Humoral immunity destroys viruses and cell mediated immunity destroys bacteria",
+   "option_c": "Humoral immunity is specific and cell mediated immunity is nonspecific",
+   "option_d": "Humoral immunity uses antibodies and cell mediated immunity does not involve immune cells"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 64,
+  "match_question_text": "Which statement best compares cell division in prokaryotic and eukaryotic cells?",
+  "match_option_a": "Eukaryotes divide by budding; prokaryotes by",
+  "set": {
+   "option_a": "Eukaryotes divide by budding; prokaryotes by mitosis",
+   "option_b": "Eukaryotes use binary fission; prokaryotes by meiosis",
+   "option_c": "Eukaryotes divide by mitosis; prokaryotes by binary fission",
+   "option_d": "Both use mitosis for cell division"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 75,
+  "match_question_text": "The main role of mRNA during protein synthesis is to:",
+  "match_option_a": "Carry genetic information for protein",
+  "set": {
+   "option_a": "Carry genetic information for protein synthesis",
+   "option_b": "Stabilize ribosome"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 82,
+  "match_question_text": "Value of R (gas constant) in J mol-1 K-1 is",
+  "match_option_a": "8.314",
+  "set": {
+   "question_text": "Value of R (gas constant) in J mol⁻¹ K⁻¹ is"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 83,
+  "match_question_text": "Which of the following best explains why phenol reacts with aqueous NaOH, but alcohols do not?",
+  "match_option_a": "Phenol has a lower boiling point than alcohol",
+  "set": {
+   "option_c": "Phenol forms hydrogen bonding that facilitates ionization",
+   "option_d": "Phenol is weakly acidic due to resonance stabilization of the phenoxide ion"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 84,
+  "match_question_text": "In propene, the pi-bond is formed by sideway overlap of:",
+  "match_option_a": "s-orbitals",
+  "set": {
+   "option_c": "sp³ hybrid orbitals",
+   "option_d": "sp² hybrid orbitals"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 88,
+  "match_question_text": "The majority of reactions taking place at ordinary temperatures (with DH) are:",
+  "match_option_a": "Endothermic",
+  "set": {
+   "question_text": "The majority of reactions taking place at ordinary temperatures (with ΔH) are:"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 90,
+  "match_question_text": "Given: 2H + O fi 2H O. If 4 g of H reacts with 32 g of O to produce 28 g of H O, what is the 2 2 2 2 2 2 percentage yield? (Molar mass: H = 2 g/mol, O = 32 g/mol, H O = 18 g/mol) 2 2 2",
+  "match_option_a": "63.6%",
+  "set": {
+   "question_text": "Given: 2H₂ + O₂ → 2H₂O. If 4 g of H₂ reacts with 32 g of O₂ to produce 28 g of H₂O, what is the percentage yield? (Molar mass: H₂ = 2 g/mol, O₂ = 32 g/mol, H₂O = 18 g/mol)"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 92,
+  "match_question_text": "Oxidation numbers of X, Y, Z are +6, -2 and -1 respectively. Which is a possible molecular formula when the atoms combine?",
+  "match_option_a": "X YZ",
+  "set": {
+   "option_a": "X₂YZ",
+   "option_b": "XY₂Z",
+   "option_c": "XYZ₂",
+   "option_d": "XY₂Z₂",
+   "correct_answer": "D"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 94,
+  "match_question_text": "2A + B fi 3C + D. Which of the following does NOT express the reaction rate?",
+  "match_option_a": "-d[B]/dt",
+  "set": {
+   "question_text": "2A + B → 3C + D. Which of the following does NOT express the reaction rate?"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 95,
+  "match_question_text": "The order of ease of reduction of H+, Cu2+ and Ag+ is:",
+  "match_option_a": "H+ > Cu2+ > Ag+",
+  "set": {
+   "question_text": "The order of ease of reduction of H⁺, Cu²⁺ and Ag⁺ is:",
+   "option_a": "H⁺ > Cu²⁺ > Ag⁺",
+   "option_b": "H⁺ > Ag⁺ > Cu²⁺",
+   "option_c": "Ag⁺ > Cu²⁺ > H⁺",
+   "option_d": "Cu²⁺ > H⁺ > Ag⁺"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 96,
+  "match_question_text": "Acetaldehyde undergoes oxidation to produce acetic acid. In this reaction, the oxidizing agent used is:",
+  "match_option_a": "HI",
+  "set": {
+   "option_b": "LiAlH₄",
+   "option_c": "K₂Cr₂O₇",
+   "option_d": "NaBH₄"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 98,
+  "match_question_text": "Terminal alkynes show acidic character due to:",
+  "match_option_a": "Terminal carbon atoms are sp hybridized",
+  "set": {
+   "option_b": "Terminal carbon atoms are sp² hybridized",
+   "option_c": "Terminal carbon atoms are sp³ hybridized"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 102,
+  "match_question_text": "The value of Planck's constant is:",
+  "match_option_a": "6.6262×10-30 J.sec",
+  "set": {
+   "option_a": "6.6262×10⁻³⁰ J.sec",
+   "option_b": "6.6262×10⁻³² J.sec",
+   "option_c": "6.6262×10⁻³⁴ J.sec",
+   "option_d": "6.6262×10⁺³⁴ J.sec",
+   "correct_answer": "C"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 106,
+  "match_question_text": "Which of the following is a basic buffer?",
+  "match_option_a": "NH OH/NH Cl",
+  "set": {
+   "option_a": "NH₄OH/NH₄Cl",
+   "option_b": "NaOH/NaCl",
+   "option_d": "H₂CO₃/NaHCO₃"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 107,
+  "match_question_text": "What happens when H+ is added to an ammonium hydroxide and ammonium chloride buffer?",
+  "match_option_a": "More ammonium hydroxide is formed",
+  "set": {
+   "question_text": "What happens when H⁺ is added to an ammonium hydroxide and ammonium chloride buffer?"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 110,
+  "match_question_text": "Correct arrangement of hybridized orbitals according to size:",
+  "match_option_a": "sp2 > sp3 > sp",
+  "set": {
+   "option_a": "sp² > sp³ > sp",
+   "option_b": "sp > sp³ > sp²",
+   "option_c": "sp³ > sp > sp²",
+   "option_d": "sp³ > sp² > sp"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 111,
+  "match_question_text": "Consider H + O fi H O. What volume of hydrogen gas is required to produce 1 mol of water at 2 2 2 STP?",
+  "match_option_a": "11.2 dm3",
+  "set": {
+   "question_text": "Consider H₂ + O₂ → H₂O. What volume of hydrogen gas is required to produce 1 mol of water at STP?",
+   "option_a": "11.2 dm³",
+   "option_b": "22.4 dm³",
+   "option_c": "10 dm³",
+   "option_d": "58 dm³"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 115,
+  "match_question_text": "Number of unpaired electrons present in the ground state of Fe3+ (atomic number of Fe = 26):",
+  "match_option_a": "Three",
+  "set": {
+   "question_text": "Number of unpaired electrons present in the ground state of Fe³⁺ (atomic number of Fe = 26):"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 119,
+  "match_question_text": "IUPAC name of (CH ) CCH Br is: 3 3 2",
+  "match_option_a": "1-bromopentane",
+  "set": {
+   "question_text": "IUPAC name of (CH₃)₃CCH₂Br is:"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 121,
+  "match_question_text": "In a unit cell of a crystal lattice, the angle a is between the faces:",
+  "match_option_a": "a and b",
+  "set": {
+   "question_text": "In a unit cell of a crystal lattice, the angle α is between the faces:",
+   "correct_answer": "B"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 127,
+  "match_question_text": "If P is the momentum of an object and m is its mass, then its kinetic energy is:",
+  "match_option_a": "P/2m",
+  "set": {
+   "option_b": "P²/2m"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 128,
+  "match_question_text": "The electric field at a point due to two equal and opposite charges is 100 N/C. If the magnitude of each charge is doubled, the electric field at that point becomes:",
+  "match_option_a": "50 N/C",
+  "set": {
+   "correct_answer": "C"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 136,
+  "match_question_text": "A phase difference of 90° is equal to:",
+  "match_option_a": "p radians",
+  "set": {
+   "option_a": "π radians",
+   "option_b": "π/2 radians",
+   "option_c": "2π radians",
+   "option_d": "π/4 radians"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 139,
+  "match_question_text": "A ball is thrown into the air with velocity v at angle q with the horizontal. Neglecting air resistance, its velocity at maximum height is:",
+  "match_option_a": "Equal to initial velocity",
+  "set": {
+   "question_text": "A ball is thrown into the air with velocity v at angle θ with the horizontal. Neglecting air resistance, its velocity at maximum height is:"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 153,
+  "match_question_text": "The unit of the temperature coefficient of resistivity is:",
+  "match_option_a": "1/°C",
+  "set": {
+   "option_d": "1/Ω"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 155,
+  "match_question_text": "If two speakers emit sound at the same frequency and phase, maximum loudness occurs when:",
+  "match_option_a": "Path difference = l/2",
+  "set": {
+   "option_a": "Path difference = λ/2",
+   "option_b": "Path difference = λ",
+   "option_c": "Path difference = λ/4",
+   "option_d": "Path difference = 3λ/4"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 156,
+  "match_question_text": "When an object attains terminal velocity, its acceleration is:",
+  "match_option_a": "9.8 m/s2",
+  "set": {
+   "option_a": "9.8 m/s²",
+   "option_c": "1 m/s²"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 162,
+  "match_question_text": "A body of mass m (2 kg) moving at 5 m/s approaches mass m (3 kg) moving at 1 m/s in the 1 2 same direction (relative speed of approach = 4 m/s). The relative speed of separation after collision will be:",
+  "match_option_a": "4 m/s",
+  "set": {
+   "question_text": "A body of mass m₁ (2 kg) moving at 5 m/s approaches mass m₂ (3 kg) moving at 1 m/s in the same direction (relative speed of approach = 4 m/s). The relative speed of separation after collision will be:"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 165,
+  "match_question_text": "Identify the sentence that is punctuated correctly:",
+  "match_option_a": "The teaching staff asked the principal what",
+  "set": {
+   "option_a": "The teaching staff asked the principal what time the meeting would start.",
+   "option_b": "The teaching staff asked the principal: “What time would the meeting start”?",
+   "option_c": "The teaching staff asked the principal, “What time would the meeting start?”",
+   "option_d": "The teaching staff asked the principal; “What time would the meeting start?”"
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 171,
+  "match_question_text": "Identify the sentence with no spelling error:",
+  "match_option_a": "Imtiaz invited me on a dinner party at",
+  "set": {
+   "option_a": "Imtiaz invited me on a dinner party at restaurant.",
+   "option_b": "Imtiaz invited me on a diner party at restaurant.",
+   "option_c": "Imtiaz invited me on a dinner party at resturant.",
+   "option_d": "Imtiaz invited me on a dinnar party at restaurent."
+  }
+ },
+ {
+  "year": 2025,
+  "question_number": 177,
+  "match_question_text": "Asad bought 50 packets of biscuits for Rs. 500, while Anum bought 25 packets of chips for Rs.",
+  "match_option_a": "",
+  "set": {
+   "question_text": "Asad bought 50 packets of biscuits for Rs. 500, while Anum bought 25 packets of chips for Rs. 1000. Which statement correctly compares the prices?",
+   "option_a": "Price of 4 packets of biscuits is equal to the price of 1 packet of chips",
+   "option_b": "Price of 1 packet of biscuits is equal to the price of 4 packets of chips",
+   "option_c": "Price of 2 packets of biscuits is equal to the price of 1 packet of chips",
+   "option_d": "Price of 1 packet of biscuits is equal to the price of 2 packets of chips"
+  }
+ }
+]
