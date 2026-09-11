@@ -111,7 +111,7 @@
   "subject": "Biology",
   "topic": "Bioenergetics",
   "difficulty": null,
-  "question_text": "In Calvin cycle CO2 reacts with RuBP to produce __________",
+  "question_text": "In Calvin cycle CO₂ reacts with RuBP to produce __________",
   "options": {
    "a": "3-PGA",
    "b": "G3P",
@@ -134,7 +134,7 @@
   "difficulty": null,
   "question_text": "Which option is correct about a chlorophyll molecule?",
   "options": {
-   "a": "Chemical formula C55H70O6N4Mg",
+   "a": "Chemical formula C₅₅H₇₀O₆N₄Mg",
    "b": "Porphyrin ring with nitrogen in centre",
    "c": "Methyl group on second pyrrole ring",
    "d": "Aldehyde group on second pyrrole ring"
@@ -157,7 +157,7 @@
   "options": {
    "a": "Plastoquinone",
    "b": "Cytochrome complex",
-   "c": "P700",
+   "c": "P₇₀₀",
    "d": "Primary electron acceptor of PSI"
   },
   "correct_answer": "b",
@@ -176,10 +176,10 @@
   "difficulty": null,
   "question_text": "Enzyme NADP reductase is responsible for:",
   "options": {
-   "a": "Reducing NADP+",
-   "b": "Oxidizing NADP+",
+   "a": "Reducing NADP⁺",
+   "b": "Oxidizing NADP⁺",
    "c": "Reducing Ferredoxin",
-   "d": "Reducing P700"
+   "d": "Reducing P₇₀₀"
   },
   "correct_answer": "a",
   "explanation": null,
@@ -218,12 +218,12 @@
   "difficulty": null,
   "question_text": "Mono-saccharides have a general formula represented by",
   "options": {
-   "a": "Cn(H2O)n",
-   "b": "C(H2O)n",
-   "c": "C2(H2O)n",
-   "d": "Cn(H2O)n"
+   "a": "Cₙ(H₂O)ₙ",
+   "b": "C(H₂O)ₙ",
+   "c": "C₂(H₂O)ₙ",
+   "d": "Cₙ(H₂O)ₙ"
   },
-  "correct_answer": "b",
+  "correct_answer": "a",
   "explanation": null,
   "needs_review": false,
   "source_file": "MDCAT_2024.PDF",
@@ -237,7 +237,7 @@
   "subject": "Biology",
   "topic": "Biological Molecules",
   "difficulty": null,
-  "question_text": "What is the percentage of H2O in bone cells?",
+  "question_text": "What is the percentage of H₂O in bone cells?",
   "options": {
    "a": "70%",
    "b": "20%",
@@ -512,10 +512,10 @@
   "difficulty": null,
   "question_text": "During non-conducting state, the neuron membrane is permeable to efflux of",
   "options": {
-   "a": "K+",
-   "b": "Na+",
-   "c": "Ca+",
-   "d": "Cl-"
+   "a": "K⁺",
+   "b": "Na⁺",
+   "c": "Ca⁺",
+   "d": "Cl⁻"
   },
   "correct_answer": "a",
   "explanation": null,
@@ -554,10 +554,10 @@
   "difficulty": null,
   "question_text": "Depolarization during conduction of nerve impulse is due to",
   "options": {
-   "a": "Inward movement of Na+",
-   "b": "Inward movement of K+",
-   "c": "Outward movement of K+",
-   "d": "Outward movement of Na+"
+   "a": "Inward movement of Na⁺",
+   "b": "Inward movement of K⁺",
+   "c": "Outward movement of K⁺",
+   "d": "Outward movement of Na⁺"
   },
   "correct_answer": "a",
   "explanation": null,
@@ -638,10 +638,10 @@
   "difficulty": null,
   "question_text": "Which of the following statement is incorrect regarding rate of enzymatic action",
   "options": {
-   "a": "Increase in enzyme concentration increases",
-   "b": "Increase in enzyme concentration reduces the the rate rate",
-   "c": "All enzymes work at their maximum rate at",
-   "d": "All enzymes work at their maximum rate at optimum temperature optimum pH"
+   "a": "Increase in enzyme concentration increases the rate",
+   "b": "Increase in enzyme concentration reduces the rate",
+   "c": "All enzymes work at their maximum rate at optimum temperature",
+   "d": "All enzymes work at their maximum rate at optimum pH"
   },
   "correct_answer": "b",
   "explanation": null,
@@ -1483,7 +1483,7 @@
    "c": "Number of isotopes & their abundance",
    "d": "None of the above"
   },
-  "correct_answer": "d",
+  "correct_answer": "c",
   "explanation": null,
   "needs_review": false,
   "source_file": "MDCAT_2024.PDF",
@@ -1541,10 +1541,10 @@
   "difficulty": null,
   "question_text": "Which of the following electronic configuration is correct for carbon?",
   "options": {
-   "a": "1s2 2s2 2p3",
-   "b": "1s2 2s2 2p4",
-   "c": "1s2 2s2 2p2",
-   "d": "1s2 2s2 2p1"
+   "a": "1s² 2s² 2p³",
+   "b": "1s² 2s² 2p⁴",
+   "c": "1s² 2s² 2p²",
+   "d": "1s² 2s² 2p¹"
   },
   "correct_answer": "c",
   "explanation": null,
@@ -1667,10 +1667,10 @@
   "difficulty": null,
   "question_text": "Boiling point of a liquid is a temperature at which:",
   "options": {
-   "a": "Surface tension is greater than the atmospheric",
-   "b": "Viscosity is less than the atmospheric pressure pressure",
-   "c": "Vapour pressure equals the atmospheric",
-   "d": "Viscosity equals the atmospheric pressure pressure"
+   "a": "Surface tension is greater than the atmospheric pressure",
+   "b": "Viscosity is less than the atmospheric pressure",
+   "c": "Vapour pressure equals the atmospheric pressure",
+   "d": "Viscosity equals the atmospheric pressure"
   },
   "correct_answer": "c",
   "explanation": null,
@@ -1772,10 +1772,10 @@
   "difficulty": null,
   "question_text": "Identify the CORRECT option required for the maximum yield of ammonia by Haber's process:",
   "options": {
-   "a": "High pressure low temperature continual",
-   "b": "Low pressure low temperature continual removal of ammonia removal of ammonia",
-   "c": "High pressure high temperature continual",
-   "d": "High pressure low temperature continual removal of ammonia addition of ammonia"
+   "a": "High pressure low temperature continual removal of ammonia",
+   "b": "Low pressure low temperature continual removal of ammonia",
+   "c": "High pressure high temperature continual removal of ammonia",
+   "d": "High pressure low temperature continual addition of ammonia"
   },
   "correct_answer": "a",
   "explanation": null,
@@ -1791,10 +1791,10 @@
   "subject": "Chemistry",
   "topic": "Chemical Equilibrium",
   "difficulty": null,
-  "question_text": "Consider the following reaction in equilibrium and tell addition of which chemical will turn the cloudy solution into clear solution? BiCl3 + H2O <=> BiOCl + 2HCl",
+  "question_text": "Consider the following reaction in equilibrium and tell addition of which chemical will turn the cloudy solution into clear solution? BiCl₃ + H₂O ⇌ BiOCl + 2HCl",
   "options": {
-   "a": "BiCl3",
-   "b": "H2O",
+   "a": "BiCl₃",
+   "b": "H₂O",
    "c": "BiOCl",
    "d": "HCl"
   },
@@ -1814,10 +1814,10 @@
   "difficulty": null,
   "question_text": "Identify the correct formula to calculate rate of reaction:",
   "options": {
-   "a": "Change in concentration of substance / Time",
-   "b": "Time taken for the change / Change in taken for the change concentration of substance",
-   "c": "Time taken for the change / Change in",
-   "d": "Time taken for the change x Change in concentration x 100 concentration of substance"
+   "a": "Change in concentration of substance / Time taken for the change",
+   "b": "Time taken for the change / Change in concentration of substance",
+   "c": "Time taken for the change / Change in concentration x 100",
+   "d": "Time taken for the change x Change in concentration of substance"
   },
   "correct_answer": "a",
   "explanation": null,
@@ -1833,12 +1833,12 @@
   "subject": "Chemistry",
   "topic": "Reaction Kinetics",
   "difficulty": null,
-  "question_text": "Consider the hypothetical equation aA + bB -> cC+Dd: Which of the following represents correct rate equation?",
+  "question_text": "Consider the hypothetical equation aA + bB → cC + dD: Which of the following represents correct rate equation?",
   "options": {
    "a": "Rate = k[A][B]",
-   "b": "Rate = k[A]^a[B]^b",
-   "c": "Rate = k[A]^a",
-   "d": "Rate = k[B]^2"
+   "b": "Rate = k[A]ᵃ[B]ᵇ",
+   "c": "Rate = k[A]ᵃ",
+   "d": "Rate = k[B]²"
   },
   "correct_answer": "b",
   "explanation": null,
@@ -1877,10 +1877,10 @@
   "difficulty": null,
   "question_text": "Which of the following is CORRECT Arrhenius equation?",
   "options": {
-   "a": "K=Ae^(-Ea/QT)",
-   "b": "K=Ae^(-Ea/RT)",
-   "c": "K=Ae^(-Ea/ST)",
-   "d": "K=Ae^(-Ea/UT)"
+   "a": "K = Ae^(−Ea/QT)",
+   "b": "K = Ae^(−Ea/RT)",
+   "c": "K = Ae^(−Ea/ST)",
+   "d": "K = Ae^(−Ea/UT)"
   },
   "correct_answer": "b",
   "explanation": null,
@@ -1959,7 +1959,7 @@
   "subject": "Chemistry",
   "topic": "Electrochemistry",
   "difficulty": null,
-  "question_text": "Oxidation number of 'Mn' in KMnO4 is",
+  "question_text": "Oxidation number of 'Mn' in KMnO₄ is",
   "options": {
    "a": "0",
    "b": "+1",
@@ -1984,8 +1984,8 @@
   "options": {
    "a": "Split the reaction into two half reactions",
    "b": "Assign oxidation number to all the atoms involved in the equation",
-   "c": "Identify the element undergoing a change in",
-   "d": "Equalize the number of electrons lost and oxidation number gained"
+   "c": "Identify the element undergoing a change in oxidation number",
+   "d": "Equalize the number of electrons lost and gained"
   },
   "correct_answer": "a",
   "explanation": null,
@@ -2005,8 +2005,8 @@
   "options": {
    "a": "Reduction occurs at cathode",
    "b": "Oxidation occurs at anode",
-   "c": "Alternating current source is connected to",
-   "d": "Electrochemical reaction takes place electrodes"
+   "c": "Alternating current source is connected to electrodes",
+   "d": "Electrochemical reaction takes place"
   },
   "correct_answer": "c",
   "explanation": null,
@@ -2026,8 +2026,8 @@
   "options": {
    "a": "NaCl",
    "b": "CaO",
-   "c": "NH3BF3",
-   "d": "H2O"
+   "c": "NH₃BF₃",
+   "d": "H₂O"
   },
   "correct_answer": "c",
   "explanation": null,
@@ -2047,8 +2047,8 @@
   "options": {
    "a": "It determines the shape of molecule",
    "b": "Pairs of electrons repel each other",
-   "c": "It helps in understanding interaction of",
-   "d": "Only lone pairs participate in determining medicinal drug molecules geometry of molecules"
+   "c": "It helps in understanding interaction of medicinal drug molecules",
+   "d": "Only lone pairs participate in determining geometry of molecules"
   },
   "correct_answer": "d",
   "explanation": null,
@@ -2171,10 +2171,10 @@
   "difficulty": null,
   "question_text": "Electronic configuration of chromium (Proton number 24) is:",
   "options": {
-   "a": "[Ar]3d4 4s2",
-   "b": "[Ar]3d5 4s2",
-   "c": "[Ar]3d5 4s1",
-   "d": "[Ar]3d6 4s2"
+   "a": "[Ar]3d⁴ 4s²",
+   "b": "[Ar]3d⁵ 4s²",
+   "c": "[Ar]3d⁵ 4s¹",
+   "d": "[Ar]3d⁶ 4s²"
   },
   "correct_answer": "c",
   "explanation": null,
@@ -2276,10 +2276,10 @@
   "difficulty": null,
   "question_text": "Which of the following is an example of substituent group which release electrons to benzene ring:",
   "options": {
-   "a": "-CN",
-   "b": "-NR3+",
-   "c": "-NH2",
-   "d": "-NO2"
+   "a": "−CN",
+   "b": "−NR₃⁺",
+   "c": "−NH₂",
+   "d": "−NO₂"
   },
   "correct_answer": "c",
   "explanation": null,
@@ -2318,10 +2318,10 @@
   "difficulty": null,
   "question_text": "In Friedel Craft acylation an acyl group is introduced in benzene ring in the presence of catalyst:",
   "options": {
-   "a": "AlCl3",
-   "b": "H2SO4",
+   "a": "AlCl₃",
+   "b": "H₂SO₄",
    "c": "Sunlight",
-   "d": "V2O5"
+   "d": "V₂O₅"
   },
   "correct_answer": "a",
   "explanation": null,
@@ -2360,10 +2360,10 @@
   "difficulty": null,
   "question_text": "Identify the correct statement related to substitution and elimination of alkyl halides:",
   "options": {
-   "a": "Strong bases causes substitution in preference",
-   "b": "Role of leaving groups in elimination is similar to elimination to substitution",
-   "c": "Substitution is favored more than elimination by",
-   "d": "Decrease in temperature will favor elimination decreasing solvent polarity more than substitution"
+   "a": "Strong bases causes substitution in preference to elimination",
+   "b": "Role of leaving groups in elimination is similar to substitution",
+   "c": "Substitution is favored more than elimination by decreasing solvent polarity",
+   "d": "Decrease in temperature will favor elimination more than substitution"
   },
   "correct_answer": "b",
   "explanation": null,
@@ -2381,8 +2381,8 @@
   "difficulty": null,
   "question_text": "Alkyl Halides involving -C-X bond breakage and -C-Nu bond formation simultaneously would follow which one of the following mechanisms",
   "options": {
-   "a": "SN1",
-   "b": "SN2",
+   "a": "Sₙ1",
+   "b": "Sₙ2",
    "c": "E1",
    "d": "E2"
   },
@@ -2400,7 +2400,7 @@
   "subject": "Chemistry",
   "topic": "Chemistry of Hydrocarbons",
   "difficulty": null,
-  "question_text": "CnH2nO is the general formula of:",
+  "question_text": "CₙH₂ₙO is the general formula of:",
   "options": {
    "a": "Ether",
    "b": "Carboxylic acid",
@@ -2423,10 +2423,10 @@
   "difficulty": null,
   "question_text": "The blue color of Fehling solution is changed to red when warmed with an aldehyde due to formation of which of the following?",
   "options": {
-   "a": "NO2",
-   "b": "Cu2O",
+   "a": "NO₂",
+   "b": "Cu₂O",
    "c": "AgO",
-   "d": "SO2"
+   "d": "SO₂"
   },
   "correct_answer": "b",
   "explanation": null,
@@ -2610,7 +2610,7 @@
   "subject": "Physics",
   "topic": "Force and Motion",
   "difficulty": null,
-  "question_text": "The range of projectile will be maximum if the factor sin2q becomes",
+  "question_text": "The range of projectile will be maximum if the factor sin2θ becomes",
   "options": {
    "a": "Zero",
    "b": "1",
@@ -2799,12 +2799,12 @@
   "subject": "Physics",
   "topic": "Rotational and Circular Motion",
   "difficulty": null,
-  "question_text": "The centripetal acceleration of an object moving along a circle of radius 'r' with an angular speed 'w' is given by the formula:",
+  "question_text": "The centripetal acceleration of an object moving along a circle of radius 'r' with an angular speed 'ω' is given by the formula:",
   "options": {
-   "a": "a = rw^2",
-   "b": "a = rw",
-   "c": "a = r^2 w",
-   "d": "A = r^2 w^2"
+   "a": "a = rω²",
+   "b": "a = rω",
+   "c": "a = r²ω",
+   "d": "A = r²ω²"
   },
   "correct_answer": "a",
   "explanation": null,
@@ -2862,7 +2862,7 @@
   "subject": "Physics",
   "topic": "Rotational and Circular Motion",
   "difficulty": null,
-  "question_text": "A roller coaster is moving with 30 ms-1 on a circular track of radius 30m. the net mass of coaster + passengers is 'm' the centripetal force acting on it is;",
+  "question_text": "A roller coaster is moving with 30 m s⁻¹ on a circular track of radius 30m. the net mass of coaster + passengers is 'm' the centripetal force acting on it is;",
   "options": {
    "a": "900m",
    "b": "m",
@@ -3011,8 +3011,8 @@
   "difficulty": null,
   "question_text": "During the isothermal process, the temperature",
   "options": {
-   "a": "remains constant during the initial phase of the",
-   "b": "remains constant throughout the process process",
+   "a": "remains constant during the initial phase of the process",
+   "b": "remains constant throughout the process",
    "c": "alters throughout the process",
    "d": "increases throughout the process"
   },
@@ -3053,10 +3053,10 @@
   "difficulty": null,
   "question_text": "The Coulomb's law states",
   "options": {
-   "a": "Force between two point charges is inversely",
-   "b": "Force between two point charges is directly proportional to the product of the charges and proportional to the product of the charges and directly proportional to the square of the distance inversely proportional to the square of the between them distance between them",
-   "c": "Force between two point charges is directly",
-   "d": "Force between two point charges is directly proportional to the sum of the charges and proportional to the product of the charges and the inversely proportional to the square of the square of the distance between them distance between them"
+   "a": "Force between two point charges is inversely proportional to the product of the charges and directly proportional to the square of the distance between them",
+   "b": "Force between two point charges is directly proportional to the product of the charges and inversely proportional to the square of the distance between them",
+   "c": "Force between two point charges is directly proportional to the sum of the charges and inversely proportional to the square of the distance between them",
+   "d": "Force between two point charges is directly proportional to the product of the charges and the square of the distance between them"
   },
   "correct_answer": "b",
   "explanation": null,
@@ -3072,7 +3072,7 @@
   "subject": "Physics",
   "topic": "Electrostatics",
   "difficulty": null,
-  "question_text": "The formula V = W / qo represents",
+  "question_text": "The formula V = W / q₀ represents",
   "options": {
    "a": "Electric intensity",
    "b": "Electric power",
@@ -3282,7 +3282,7 @@
   "subject": "Physics",
   "topic": "Electromagnetism",
   "difficulty": null,
-  "question_text": "The formula f = B.A represents",
+  "question_text": "The formula φ = B.A represents",
   "options": {
    "a": "Electric flux",
    "b": "Magnetic flux",
@@ -3326,9 +3326,9 @@
   "difficulty": null,
   "question_text": "The unit of magnetic flux density is;",
   "options": {
-   "a": "Wbm-1",
-   "b": "Wbm",
-   "c": "Wbm-2",
+   "a": "Wb m⁻¹",
+   "b": "Wb m",
+   "c": "Wb m⁻²",
    "d": "Wb"
   },
   "correct_answer": "c",
@@ -3366,7 +3366,7 @@
   "subject": "Physics",
   "topic": "Alternating Current",
   "difficulty": null,
-  "question_text": "In an AC generator the emf will be maximum when factor sinwt is equal to",
+  "question_text": "In an AC generator the emf will be maximum when factor sinωt is equal to",
   "options": {
    "a": "Zero",
    "b": "1",
@@ -3452,10 +3452,10 @@
   "difficulty": null,
   "question_text": "Full wave rectification is given by:",
   "options": {
-   "a": "One diode connected in bridge type",
-   "b": "Two diodes connected in bridge type arrangements arrangements",
-   "c": "Three diodes connected in bridge type",
-   "d": "Four diodes connected in bridge type arrangement arrangements"
+   "a": "One diode connected in bridge type arrangements",
+   "b": "Two diodes connected in bridge type arrangements",
+   "c": "Three diodes connected in bridge type arrangement",
+   "d": "Four diodes connected in bridge type arrangements"
   },
   "correct_answer": "d",
   "explanation": null,
@@ -3494,10 +3494,10 @@
   "difficulty": null,
   "question_text": "The value of Planck constant is",
   "options": {
-   "a": "6.63x10^-34 Js",
-   "b": "6.63x10^34 Js",
-   "c": "6.63x10^-34 Js^-1",
-   "d": "6.63x10^34 Js^-1"
+   "a": "6.63×10⁻³⁴ J s",
+   "b": "6.63×10³⁴ J s",
+   "c": "6.63×10⁻³⁴ J s⁻¹",
+   "d": "6.63×10³⁴ J s⁻¹"
   },
   "correct_answer": "a",
   "explanation": null,
@@ -3513,12 +3513,12 @@
   "subject": "Physics",
   "topic": "Electromagnetism",
   "difficulty": null,
-  "question_text": "The de-Broglie wavelength associated with a particle moving at 10^6 m/s and having mass 10^-30 kg",
+  "question_text": "The de-Broglie wavelength associated with a particle moving at 10⁶ m/s and having mass 10⁻³⁰ kg",
   "options": {
-   "a": "6.6x10^-10 m",
-   "b": "1.5x10^9 m",
-   "c": "1.9x10^-5 m",
-   "d": "7.2x10^-8 m"
+   "a": "6.6×10⁻¹⁰ m",
+   "b": "1.5×10⁹ m",
+   "c": "1.9×10⁻⁵ m",
+   "d": "7.2×10⁻⁸ m"
   },
   "correct_answer": "a",
   "explanation": null,
@@ -3622,8 +3622,8 @@
   "options": {
    "a": "m",
    "b": "s",
-   "c": "s^-1",
-   "d": "m^-1"
+   "c": "s⁻¹",
+   "d": "m⁻¹"
   },
   "correct_answer": "c",
   "explanation": null,
@@ -3639,12 +3639,12 @@
   "subject": "Physics",
   "topic": "Nuclear Physics",
   "difficulty": null,
-  "question_text": "If we have 'No' number of any radioactive element then after a period of 'n' half-lives the number of atoms left behind is",
+  "question_text": "If we have 'N₀' number of any radioactive element then after a period of 'n' half-lives the number of atoms left behind is",
   "options": {
-   "a": "2^n No",
-   "b": "(1/2)^n No",
-   "c": "(1/2 No)^n",
-   "d": "(2No)^n"
+   "a": "2ⁿ N₀",
+   "b": "(1/2)ⁿ N₀",
+   "c": "(1/2 N₀)ⁿ",
+   "d": "(2N₀)ⁿ"
   },
   "correct_answer": "b",
   "explanation": null,
@@ -3769,8 +3769,8 @@
   "options": {
    "a": "The supervisor has nor will ever compromise.",
    "b": "The supervisor have nor will ever compromise.",
-   "c": "The supervisor has not compromised nor will",
-   "d": "The supervisor has nor will ever compromised. ever compromise."
+   "c": "The supervisor has not compromised nor will ever compromise.",
+   "d": "The supervisor has nor will ever compromised."
   },
   "correct_answer": "c",
   "explanation": null,
@@ -3872,10 +3872,10 @@
   "difficulty": null,
   "question_text": "Choose the CORRECT sentence",
   "options": {
-   "a": "She has beauty, brains and wealth-a rare",
-   "b": "She has beauty, brains, and wealth-a rare combination. combination.",
-   "c": "She has beauty, brains, and wealth; a rare",
-   "d": "She has beauty, brains, and wealth: a rare combination. combination."
+   "a": "She has beauty, brains and wealth-a rare combination.",
+   "b": "She has beauty, brains, and wealth-a rare combination.",
+   "c": "She has beauty, brains, and wealth; a rare combination.",
+   "d": "She has beauty, brains, and wealth: a rare combination."
   },
   "correct_answer": "a",
   "explanation": null,
@@ -3893,10 +3893,10 @@
   "difficulty": null,
   "question_text": "Choose the correct sentence",
   "options": {
-   "a": "In 1838 Schleiden suggested that all plants",
-   "b": "In 1838 Schleiden suggest that all plants were were made of cells made of cells",
-   "c": "In 1838 Schleiden suggested that all plant were",
-   "d": "In 1838 Schleiden suggested to all plants were made of cells made of cells"
+   "a": "In 1838 Schleiden suggested that all plants were made of cells",
+   "b": "In 1838 Schleiden suggest that all plants were made of cells",
+   "c": "In 1838 Schleiden suggested that all plant were made of cells",
+   "d": "In 1838 Schleiden suggested to all plants were made of cells"
   },
   "correct_answer": "a",
   "explanation": null,
@@ -3956,10 +3956,10 @@
   "difficulty": null,
   "question_text": "Choose the CORRECT sentence",
   "options": {
-   "a": "There's mr. hashim whome they say is the best",
-   "b": "There's Mr. Hashim, who they say is the best portrait painter in the town. portrait painter in the town.",
-   "c": "Theres' Mr. Hashim which they say is the",
-   "d": "There's Mr. Hashim who they say is best portrait painter in the town. portrait painter in the town."
+   "a": "There's mr. hashim whome they say is the best portrait painter in the town.",
+   "b": "There's Mr. Hashim, who they say is the best portrait painter in the town.",
+   "c": "Theres' Mr. Hashim which they say is the portrait painter in the town.",
+   "d": "There's Mr. Hashim who they say is best portrait painter in the town."
   },
   "correct_answer": "b",
   "explanation": null,
@@ -3980,7 +3980,7 @@
    "a": "Gulliver travels was writen to Swift.",
    "b": "Gulliver travels was writen at Swift.",
    "c": "Gulliver's Travels was written by Swift.",
-   "d": "Gullivers' travel was written by Swift"
+   "d": "Gullivers' travel was written by Swift."
   },
   "correct_answer": "c",
   "explanation": null,
@@ -3998,10 +3998,10 @@
   "difficulty": null,
   "question_text": "Choose the CORRECT sentence",
   "options": {
-   "a": "\"The unexamined life\", said Socrates, \"is unfit",
-   "b": "The inexamined life, said Socrates, \"is unfit to to be lived by man.\" be lived by man\"",
-   "c": "\"The unexamined life said Socrates\", is disfit to",
-   "d": "\"The disexamined life\" said Socrates is unfit to be lived by man. be lived by man."
+   "a": "\"The unexamined life\", said Socrates, \"is unfit to be lived by man.\"",
+   "b": "The inexamined life, said Socrates, \"is unfit to be lived by man\"",
+   "c": "\"The unexamined life said Socrates\", is disfit to be lived by man.",
+   "d": "\"The disexamined life\" said Socrates is unfit to be lived by man."
   },
   "correct_answer": "a",
   "explanation": null,
@@ -4019,10 +4019,10 @@
   "difficulty": null,
   "question_text": "Choose the CORRECT sentence",
   "options": {
-   "a": "You have often heard of me speeking of my",
-   "b": "You have often heard me speak of my friend, friend Wahaj waheed a barrister here Wahaj Waheed, who is a barrister here.",
-   "c": "You have often heard me. Speak off my friend,",
-   "d": "you have often heard me speak about my wahaj waheed who is a Barrister here friend; wahaj waheed-a barrister hear"
+   "a": "You have often heard of me speeking of my friend Wahaj waheed a barrister here",
+   "b": "You have often heard me speak of my friend, Wahaj Waheed, who is a barrister here.",
+   "c": "You have often heard me. Speak off my friend, wahaj waheed who is a Barrister here",
+   "d": "you have often heard me speak about my friend; wahaj waheed-a barrister hear"
   },
   "correct_answer": "b",
   "explanation": null,
@@ -4040,10 +4040,10 @@
   "difficulty": null,
   "question_text": "Choose the CORRECT sentence",
   "options": {
-   "a": "The first space traveller was Dennis Tito from",
-   "b": "The First Space Traveller was Dennis Tito, the United States. from, the United states",
-   "c": "The first space traveller was Dennis Tito-from",
-   "d": "The first space travaler was Dennis Tito, from united State the United States"
+   "a": "The first space traveller was Dennis Tito from the United States.",
+   "b": "The First Space Traveller was Dennis Tito, from, the United states",
+   "c": "The first space traveller was Dennis Tito-from united State",
+   "d": "The first space travaler was Dennis Tito, from the United States"
   },
   "correct_answer": "a",
   "explanation": null,
@@ -4061,10 +4061,10 @@
   "difficulty": null,
   "question_text": "Choose the CORRECT sentence",
   "options": {
-   "a": "It was greatly good by you to proposd day's",
-   "b": "It was awfully good by you to proposed a day's picnic at murree picnic in Murree.",
-   "c": "It was awfully good of you to propose a day's",
-   "d": "It was very good off you too propose days picnic at Murree. picnic in Murree"
+   "a": "It was greatly good by you to proposd day's picnic at murree",
+   "b": "It was awfully good by you to proposed a day's picnic in Murree.",
+   "c": "It was awfully good of you to propose a day's picnic at Murree.",
+   "d": "It was very good off you too propose days picnic in Murree"
   },
   "correct_answer": "c",
   "explanation": null,
@@ -4082,10 +4082,10 @@
   "difficulty": null,
   "question_text": "The government has increased the taxes on all businesses in Pakistan. II. Many small businesses will have to close their operations in Pakistan.",
   "options": {
-   "a": "Statement I is the cause and statement II is its",
-   "b": "Statement II is the cause and statement I is its effect effect",
-   "c": "Both the statements I and II are independent",
-   "d": "Both the statements I and II are effects of causes independent causes"
+   "a": "Statement I is the cause and statement II is its effect",
+   "b": "Statement II is the cause and statement I is its effect",
+   "c": "Both the statements I and II are independent causes",
+   "d": "Both the statements I and II are effects of independent causes"
   },
   "correct_answer": "a",
   "explanation": null,
@@ -4190,7 +4190,7 @@
    "a": "I",
    "b": "II",
    "c": "III",
-   "d": "I & III Answer Key As issued by the University of Health Sciences, Lahore (Paper ID-D)."
+   "d": "I & III"
   },
   "correct_answer": "b",
   "explanation": null,
