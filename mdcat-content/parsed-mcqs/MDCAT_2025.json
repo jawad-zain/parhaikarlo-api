@@ -48,7 +48,7 @@
     "subject": "Biology",
     "topic": "Coordination and Control",
     "difficulty": null,
-    "question_text": "Which part of the brain contains central chemoreceptors that monitor CO levels in blood? 2",
+    "question_text": "Which part of the brain contains central chemoreceptors that monitor CO₂ levels in blood?",
     "options": {
       "a": "Pons",
       "b": "Midbrain",
@@ -367,8 +367,8 @@
     "options": {
       "a": "Two identical double helical DNA molecules",
       "b": "Two different double helical DNA molecules",
-      "c": "A double helical DNA molecule distributed in",
-      "d": "Histone chains wrapped around DNA core both chromatids"
+      "c": "A double helical DNA molecule distributed in both chromatids",
+      "d": "Histone chains wrapped around DNA core"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -659,10 +659,10 @@
     "difficulty": null,
     "question_text": "The process of osmoregulation refers to:",
     "options": {
-      "a": "The filtration of blood to remove metabolic",
-      "b": "The regulation of solute and water movement waste between an organism and its environment",
-      "c": "The creation of an osmotic gradient in the",
-      "d": "The secretion of hormones that control blood kidney medulla plasma"
+      "a": "The filtration of blood to remove metabolic waste",
+      "b": "The regulation of solute and water movement between an organism and its environment",
+      "c": "The creation of an osmotic gradient in the kidney medulla",
+      "d": "The secretion of hormones that control blood plasma"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -680,10 +680,10 @@
     "difficulty": null,
     "question_text": "A baby girl is born with hemophilia, an X-linked recessive disorder. What are the most likely genotypes of her parents?",
     "options": {
-      "a": "The mother is a carrier and the father is",
-      "b": "The mother is hemophiliac and the father is normal normal",
-      "c": "The mother is carrier and the father is",
-      "d": "Both are normal hemophiliac"
+      "a": "The mother is a carrier and the father is normal",
+      "b": "The mother is hemophiliac and the father is normal",
+      "c": "The mother is carrier and the father is hemophiliac",
+      "d": "Both are normal"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -829,8 +829,8 @@
     "options": {
       "a": "Actin and myosin form a cross-bridge",
       "b": "Calcium is pumped back into the sarcoplasmic reticulum",
-      "c": "Calcium is released from the sarcoplasmic",
-      "d": "ATP is hydrolyzed by troponin reticulum"
+      "c": "Calcium is released from the sarcoplasmic reticulum",
+      "d": "ATP is hydrolyzed by troponin"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -888,7 +888,7 @@
     "subject": "Biology",
     "topic": "Inheritance",
     "difficulty": null,
-    "question_text": "Mendel crossed a plant with round yellow seeds (RRYY) and a plant with wrinkled green seeds (rryy). What was the phenotype of all F offspring? 1",
+    "question_text": "Mendel crossed a plant with round yellow seeds (RRYY) and a plant with wrinkled green seeds (rryy). What was the phenotype of all F₁ offspring?",
     "options": {
       "a": "All round green",
       "b": "All round yellow",
@@ -995,10 +995,10 @@
     "difficulty": null,
     "question_text": "Which statement best explains the difference between humoral and cell mediated immune response?",
     "options": {
-      "a": "Humoral immunity involves B-Lymphocytes",
-      "b": "Humoral immunity destroys viruses and cell and cell mediated immunity involves mediated immunity destroys bacteria T-Lymphocytes",
-      "c": "Humoral immunity is specific and cell",
-      "d": "Humoral immunity uses antibodies and cell mediated immunity is nonspecific mediated immunity does not involve immune cells"
+      "a": "Humoral immunity involves B-Lymphocytes and cell mediated immunity involves T-Lymphocytes",
+      "b": "Humoral immunity destroys viruses and cell mediated immunity destroys bacteria",
+      "c": "Humoral immunity is specific and cell mediated immunity is nonspecific",
+      "d": "Humoral immunity uses antibodies and cell mediated immunity does not involve immune cells"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -1331,10 +1331,10 @@
     "difficulty": null,
     "question_text": "Which statement best compares cell division in prokaryotic and eukaryotic cells?",
     "options": {
-      "a": "Eukaryotes divide by budding; prokaryotes by",
-      "b": "Eukaryotes use binary fission; prokaryotes by mitosis meiosis",
-      "c": "Eukaryotes divide by mitosis; prokaryotes by",
-      "d": "Both use mitosis for cell division binary fission"
+      "a": "Eukaryotes divide by budding; prokaryotes by mitosis",
+      "b": "Eukaryotes use binary fission; prokaryotes by meiosis",
+      "c": "Eukaryotes divide by mitosis; prokaryotes by binary fission",
+      "d": "Both use mitosis for cell division"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -1562,8 +1562,8 @@
     "difficulty": null,
     "question_text": "The main role of mRNA during protein synthesis is to:",
     "options": {
-      "a": "Carry genetic information for protein",
-      "b": "Stabilize ribosome synthesis",
+      "a": "Carry genetic information for protein synthesis",
+      "b": "Stabilize ribosome",
       "c": "Deliver amino acids",
       "d": "Provide platform for protein synthesis"
     },
@@ -1707,7 +1707,7 @@
     "subject": "Chemistry",
     "topic": "Gases",
     "difficulty": null,
-    "question_text": "Value of R (gas constant) in J mol-1 K-1 is",
+    "question_text": "Value of R (gas constant) in J mol⁻¹ K⁻¹ is",
     "options": {
       "a": "8.314",
       "b": "62.4",
@@ -1732,8 +1732,8 @@
     "options": {
       "a": "Phenol has a lower boiling point than alcohol",
       "b": "Alcohols contain a strong O-H bond that cannot be broken by weak bases",
-      "c": "Phenol forms hydrogen bonding that",
-      "d": "Phenol is weakly acidic due to resonance facilitates ionization stabilization of the phenoxide ion"
+      "c": "Phenol forms hydrogen bonding that facilitates ionization",
+      "d": "Phenol is weakly acidic due to resonance stabilization of the phenoxide ion"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -1753,8 +1753,8 @@
     "options": {
       "a": "s-orbitals",
       "b": "p-orbitals",
-      "c": "sp3 hybrid orbitals",
-      "d": "sp2 hybrid orbitals"
+      "c": "sp³ hybrid orbitals",
+      "d": "sp² hybrid orbitals"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -1833,7 +1833,7 @@
     "subject": "Chemistry",
     "topic": "Thermochemistry and Energetics",
     "difficulty": null,
-    "question_text": "The majority of reactions taking place at ordinary temperatures (with DH) are:",
+    "question_text": "The majority of reactions taking place at ordinary temperatures (with ΔH) are:",
     "options": {
       "a": "Endothermic",
       "b": "Exothermic",
@@ -1875,7 +1875,7 @@
     "subject": "Chemistry",
     "topic": "Fundamental Concepts of Chemistry",
     "difficulty": null,
-    "question_text": "Given: 2H + O fi 2H O. If 4 g of H reacts with 32 g of O to produce 28 g of H O, what is the 2 2 2 2 2 2 percentage yield? (Molar mass: H = 2 g/mol, O = 32 g/mol, H O = 18 g/mol) 2 2 2",
+    "question_text": "Given: 2H₂ + O₂ → 2H₂O. If 4 g of H₂ reacts with 32 g of O₂ to produce 28 g of H₂O, what is the percentage yield? (Molar mass: H₂ = 2 g/mol, O₂ = 32 g/mol, H₂O = 18 g/mol)",
     "options": {
       "a": "63.6%",
       "b": "77.8%",
@@ -1919,12 +1919,12 @@
     "difficulty": null,
     "question_text": "Oxidation numbers of X, Y, Z are +6, -2 and -1 respectively. Which is a possible molecular formula when the atoms combine?",
     "options": {
-      "a": "X YZ",
-      "b": "XY Z 2 2",
-      "c": "XYZ",
-      "d": "XY Z 2 2 2"
+      "a": "X₂YZ",
+      "b": "XY₂Z",
+      "c": "XYZ₂",
+      "d": "XY₂Z₂"
     },
-    "correct_answer": "b",
+    "correct_answer": "d",
     "explanation": null,
     "needs_review": false,
     "source_file": "MDCAT_2025.pdf",
@@ -1959,7 +1959,7 @@
     "subject": "Chemistry",
     "topic": "Reaction Kinetics",
     "difficulty": null,
-    "question_text": "2A + B fi 3C + D. Which of the following does NOT express the reaction rate?",
+    "question_text": "2A + B → 3C + D. Which of the following does NOT express the reaction rate?",
     "options": {
       "a": "-d[B]/dt",
       "b": "d[D]/dt",
@@ -1980,12 +1980,12 @@
     "subject": "Chemistry",
     "topic": "Electrochemistry",
     "difficulty": null,
-    "question_text": "The order of ease of reduction of H+, Cu2+ and Ag+ is:",
+    "question_text": "The order of ease of reduction of H⁺, Cu²⁺ and Ag⁺ is:",
     "options": {
-      "a": "H+ > Cu2+ > Ag+",
-      "b": "H+ > Ag+ > Cu2+",
-      "c": "Ag+ > Cu2+ > H+",
-      "d": "Cu2+ > H+ > Ag+"
+      "a": "H⁺ > Cu²⁺ > Ag⁺",
+      "b": "H⁺ > Ag⁺ > Cu²⁺",
+      "c": "Ag⁺ > Cu²⁺ > H⁺",
+      "d": "Cu²⁺ > H⁺ > Ag⁺"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -2004,9 +2004,9 @@
     "question_text": "Acetaldehyde undergoes oxidation to produce acetic acid. In this reaction, the oxidizing agent used is:",
     "options": {
       "a": "HI",
-      "b": "LiAlH 4",
-      "c": "K Cr O",
-      "d": "NaBH 2 2 7 4"
+      "b": "LiAlH₄",
+      "c": "K₂Cr₂O₇",
+      "d": "NaBH₄"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -2046,8 +2046,8 @@
     "question_text": "Terminal alkynes show acidic character due to:",
     "options": {
       "a": "Terminal carbon atoms are sp hybridized",
-      "b": "Terminal carbon atoms are sp2 hybridized",
-      "c": "Terminal carbon atoms are sp3 hybridized",
+      "b": "Terminal carbon atoms are sp² hybridized",
+      "c": "Terminal carbon atoms are sp³ hybridized",
       "d": "Terminal carbon atoms show hydrogen bonding"
     },
     "correct_answer": "a",
@@ -2129,12 +2129,12 @@
     "difficulty": null,
     "question_text": "The value of Planck's constant is:",
     "options": {
-      "a": "6.6262×10-30 J.sec",
-      "b": "6.6262×10-32 J.sec",
-      "c": "6.6262×10-34 J.sec",
-      "d": "6.6262×10+34 J.sec"
+      "a": "6.6262×10⁻³⁰ J.sec",
+      "b": "6.6262×10⁻³² J.sec",
+      "c": "6.6262×10⁻³⁴ J.sec",
+      "d": "6.6262×10⁺³⁴ J.sec"
     },
-    "correct_answer": "d",
+    "correct_answer": "c",
     "explanation": null,
     "needs_review": false,
     "source_file": "MDCAT_2025.pdf",
@@ -2213,10 +2213,10 @@
     "difficulty": null,
     "question_text": "Which of the following is a basic buffer?",
     "options": {
-      "a": "NH OH/NH Cl",
-      "b": "NaOH/NaCl 4 4",
+      "a": "NH₄OH/NH₄Cl",
+      "b": "NaOH/NaCl",
       "c": "NaOH/HCl",
-      "d": "H CO /NaHCO 2 3 3"
+      "d": "H₂CO₃/NaHCO₃"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -2232,7 +2232,7 @@
     "subject": "Chemistry",
     "topic": "Chemical Equilibrium",
     "difficulty": null,
-    "question_text": "What happens when H+ is added to an ammonium hydroxide and ammonium chloride buffer?",
+    "question_text": "What happens when H⁺ is added to an ammonium hydroxide and ammonium chloride buffer?",
     "options": {
       "a": "More ammonium hydroxide is formed",
       "b": "Reaction will move in reverse",
@@ -2297,10 +2297,10 @@
     "difficulty": null,
     "question_text": "Correct arrangement of hybridized orbitals according to size:",
     "options": {
-      "a": "sp2 > sp3 > sp",
-      "b": "sp > sp3 > sp2",
-      "c": "sp3 > sp > sp2",
-      "d": "sp3 > sp2 > sp"
+      "a": "sp² > sp³ > sp",
+      "b": "sp > sp³ > sp²",
+      "c": "sp³ > sp > sp²",
+      "d": "sp³ > sp² > sp"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -2316,12 +2316,12 @@
     "subject": "Chemistry",
     "topic": "Gases",
     "difficulty": null,
-    "question_text": "Consider H + O fi H O. What volume of hydrogen gas is required to produce 1 mol of water at 2 2 2 STP?",
+    "question_text": "Consider H₂ + O₂ → H₂O. What volume of hydrogen gas is required to produce 1 mol of water at STP?",
     "options": {
-      "a": "11.2 dm3",
-      "b": "22.4 dm3",
-      "c": "10 dm3",
-      "d": "58 dm3"
+      "a": "11.2 dm³",
+      "b": "22.4 dm³",
+      "c": "10 dm³",
+      "d": "58 dm³"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -2400,7 +2400,7 @@
     "subject": "Chemistry",
     "topic": "Atomic Structure",
     "difficulty": null,
-    "question_text": "Number of unpaired electrons present in the ground state of Fe3+ (atomic number of Fe = 26):",
+    "question_text": "Number of unpaired electrons present in the ground state of Fe³⁺ (atomic number of Fe = 26):",
     "options": {
       "a": "Three",
       "b": "Four",
@@ -2484,7 +2484,7 @@
     "subject": "Chemistry",
     "topic": "Alkyl Halides",
     "difficulty": null,
-    "question_text": "IUPAC name of (CH ) CCH Br is: 3 3 2",
+    "question_text": "IUPAC name of (CH₃)₃CCH₂Br is:",
     "options": {
       "a": "1-bromopentane",
       "b": "1-bromo-2,2,2-trimethylethane",
@@ -2526,14 +2526,14 @@
     "subject": "Chemistry",
     "topic": "Solids",
     "difficulty": null,
-    "question_text": "In a unit cell of a crystal lattice, the angle a is between the faces:",
+    "question_text": "In a unit cell of a crystal lattice, the angle α is between the faces:",
     "options": {
       "a": "a and b",
       "b": "b and c",
       "c": "c and a",
       "d": "Not specified"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "needs_review": false,
     "source_file": "MDCAT_2025.pdf",
@@ -2655,7 +2655,7 @@
     "question_text": "If P is the momentum of an object and m is its mass, then its kinetic energy is:",
     "options": {
       "a": "P/2m",
-      "b": "P2/2m",
+      "b": "P²/2m",
       "c": "1/2 Pm",
       "d": "1/2 P2m"
     },
@@ -2680,7 +2680,7 @@
       "c": "200 N/C",
       "d": "400 N/C"
     },
-    "correct_answer": "d",
+    "correct_answer": "c",
     "explanation": null,
     "needs_review": false,
     "source_file": "MDCAT_2025.pdf",
@@ -2843,10 +2843,10 @@
     "difficulty": null,
     "question_text": "A phase difference of 90° is equal to:",
     "options": {
-      "a": "p radians",
-      "b": "p/2 radians",
-      "c": "2p radians",
-      "d": "p/4 radians"
+      "a": "π radians",
+      "b": "π/2 radians",
+      "c": "2π radians",
+      "d": "π/4 radians"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -2904,7 +2904,7 @@
     "subject": "Physics",
     "topic": "Force and Motion",
     "difficulty": null,
-    "question_text": "A ball is thrown into the air with velocity v at angle q with the horizontal. Neglecting air resistance, its velocity at maximum height is:",
+    "question_text": "A ball is thrown into the air with velocity v at angle θ with the horizontal. Neglecting air resistance, its velocity at maximum height is:",
     "options": {
       "a": "Equal to initial velocity",
       "b": "Half of initial velocity",
@@ -3203,7 +3203,7 @@
       "a": "1/°C",
       "b": "1/K",
       "c": "1/A",
-      "d": "1/W"
+      "d": "1/Ω"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -3242,10 +3242,10 @@
     "difficulty": null,
     "question_text": "If two speakers emit sound at the same frequency and phase, maximum loudness occurs when:",
     "options": {
-      "a": "Path difference = l/2",
-      "b": "Path difference = l",
-      "c": "Path difference = l/4",
-      "d": "Path difference = 3l/4"
+      "a": "Path difference = λ/2",
+      "b": "Path difference = λ",
+      "c": "Path difference = λ/4",
+      "d": "Path difference = 3λ/4"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -3263,9 +3263,9 @@
     "difficulty": null,
     "question_text": "When an object attains terminal velocity, its acceleration is:",
     "options": {
-      "a": "9.8 m/s2",
+      "a": "9.8 m/s²",
       "b": "Zero",
-      "c": "1 m/s2",
+      "c": "1 m/s²",
       "d": "Increasing"
     },
     "correct_answer": "b",
@@ -3387,7 +3387,7 @@
     "subject": "Physics",
     "topic": "Force and Motion",
     "difficulty": null,
-    "question_text": "A body of mass m (2 kg) moving at 5 m/s approaches mass m (3 kg) moving at 1 m/s in the 1 2 same direction (relative speed of approach = 4 m/s). The relative speed of separation after collision will be:",
+    "question_text": "A body of mass m₁ (2 kg) moving at 5 m/s approaches mass m₂ (3 kg) moving at 1 m/s in the same direction (relative speed of approach = 4 m/s). The relative speed of separation after collision will be:",
     "options": {
       "a": "4 m/s",
       "b": "2 m/s",
@@ -3452,10 +3452,10 @@
     "difficulty": null,
     "question_text": "Identify the sentence that is punctuated correctly:",
     "options": {
-      "a": "The teaching staff asked the principal what",
-      "b": "The teaching staff asked the principal: “What time the meeting would start. time would the meeting start”?",
-      "c": "The teaching staff asked the principal, “What",
-      "d": "The teaching staff asked the principal; “What time would the meeting start?” time would the meeting start?”"
+      "a": "The teaching staff asked the principal what time the meeting would start.",
+      "b": "The teaching staff asked the principal: “What time would the meeting start”?",
+      "c": "The teaching staff asked the principal, “What time would the meeting start?”",
+      "d": "The teaching staff asked the principal; “What time would the meeting start?”"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -3578,10 +3578,10 @@
     "difficulty": null,
     "question_text": "Identify the sentence with no spelling error:",
     "options": {
-      "a": "Imtiaz invited me on a dinner party at",
-      "b": "Imtiaz invited me on a diner party at restaurant. restaurant.",
-      "c": "Imtiaz invited me on a dinner party at",
-      "d": "Imtiaz invited me on a dinnar party at resturant. restaurent."
+      "a": "Imtiaz invited me on a dinner party at restaurant.",
+      "b": "Imtiaz invited me on a diner party at restaurant.",
+      "c": "Imtiaz invited me on a dinner party at resturant.",
+      "d": "Imtiaz invited me on a dinnar party at restaurent."
     },
     "correct_answer": "a",
     "explanation": null,
@@ -3702,8 +3702,13 @@
     "subject": "Logical Reasoning",
     "topic": "Cause and Effect",
     "difficulty": null,
-    "question_text": "Asad bought 50 packets of biscuits for Rs. 500, while Anum bought 25 packets of chips for Rs.",
-    "options": {},
+    "question_text": "Asad bought 50 packets of biscuits for Rs. 500, while Anum bought 25 packets of chips for Rs. 1000. Which statement correctly compares the prices?",
+    "options": {
+      "a": "Price of 4 packets of biscuits is equal to the price of 1 packet of chips",
+      "b": "Price of 1 packet of biscuits is equal to the price of 4 packets of chips",
+      "c": "Price of 2 packets of biscuits is equal to the price of 1 packet of chips",
+      "d": "Price of 1 packet of biscuits is equal to the price of 2 packets of chips"
+    },
     "correct_answer": "a",
     "explanation": null,
     "needs_review": true,
