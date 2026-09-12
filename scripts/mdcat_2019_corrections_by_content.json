@@ -1,0 +1,320 @@
+[
+ {
+  "year": 2019,
+  "question_number": 134,
+  "match_question_text": "Solution contains 85.5 g of sucrose (C12H22O11) in 250 cm3. What is its molarity?",
+  "match_option_a": "0.5 M",
+  "set": {
+   "question_text": "Solution contains 85.5 g of sucrose (C₁₂H₂₂O₁₁) in 250 cm³. What is its molarity?"
+  }
+ },
+ {
+  "year": 2019,
+  "question_number": 138,
+  "match_question_text": "Carboxylic acids can be reduced into corresponding alcohols. Which of the following reagent can be used for this purpose?",
+  "match_option_a": "LiAlH4",
+  "set": {
+   "option_a": "LiAlH₄",
+   "option_b": "K₂Cr₂O₄",
+   "option_c": "KMnO₄",
+   "option_d": "H₂SO₄"
+  }
+ },
+ {
+  "year": 2019,
+  "question_number": 150,
+  "match_question_text": "A wire has a spring constant of 5 × 10^4 N m^-1. It is stretched by a force to extension of 1.4 mm. Calculate the strain energy stored in the wire.",
+  "match_option_a": "4.9 × 10^-5 J",
+  "set": {
+   "question_text": "A wire has a spring constant of 5 × 10⁴ N m⁻¹. It is stretched by a force to extension of 1.4 mm. Calculate the strain energy stored in the wire.",
+   "option_a": "4.9 × 10⁻⁵ J",
+   "option_c": "4.9 × 10⁻⁵ J",
+   "option_d": "4.9 × 10⁻² J"
+  }
+ },
+ {
+  "year": 2019,
+  "question_number": 171,
+  "match_question_text": "In relation λ T1/2 = 0.693, which quantity is represented by λ?",
+  "match_option_a": "half life",
+  "set": {
+   "question_text": "In relation λ T₁/₂ = 0.693, which quantity is represented by λ?"
+  }
+ },
+ {
+  "year": 2019,
+  "question_number": 130,
+  "match_question_text": "Given standard reduction potentials for Mg2+/Mg (-2.37V), Zn2+/Zn (-0.76V), 2H+/H2 (0.000V), Cu2+/Cu (+0.34V), Cl2/2Cl- (+1.36V), Au3+/Au (+1.50V). Keeping in view the values of standard reduction potential given above, which one of the following would you select as a feasible redox chemical reaction?",
+  "match_option_a": "Mg + 2H+ → Mg2+ + H2",
+  "set": {
+   "question_text": "Given standard reduction potentials for Mg²⁺/Mg (-2.37V), Zn²⁺/Zn (-0.76V), 2H⁺/H₂ (0.000V), Cu²⁺/Cu (+0.34V), Cl₂/2Cl⁻ (+1.36V), Au³⁺/Au (+1.50V). Keeping in view the values of standard reduction potential given above, which one of the following would you select as a feasible redox chemical reaction?",
+   "option_a": "Mg + 2H⁺ → Mg²⁺ + H₂",
+   "option_b": "Cu + Zn²⁺ → Cu²⁺ + Zn",
+   "option_c": "2Cl⁻ + I₂ → Cl₂ + 2I⁻",
+   "option_d": "2Au + 6H⁺ → 2Au³⁺ + 3H₂"
+  }
+ },
+ {
+  "year": 2019,
+  "question_number": 163,
+  "match_question_text": "The value and units of the Plank constant 'h' can be expressed as:",
+  "match_option_a": "6.63 x 10^-34 Js^-1",
+  "set": {
+   "option_a": "6.63 × 10⁻³⁴ Js⁻¹",
+   "option_b": "6.63 × 10⁻⁴³ Js",
+   "option_c": "6.63 × 10⁻³⁴ Js",
+   "option_d": "3.63 × 10⁻³⁴ Js"
+  }
+ },
+ {
+  "year": 2019,
+  "question_number": 2,
+  "match_question_text": "Microtubule subunits (for spindle fibers) are synthesized in _______ phase.",
+  "match_option_a": "G2",
+  "set": {
+   "option_a": "G₂",
+   "option_d": "G₁"
+  }
+ },
+ {
+  "year": 2019,
+  "question_number": 52,
+  "match_question_text": "During the G2 phase:",
+  "match_option_a": "Specific enzymes are synthesized and DNA base units are accumulated",
+  "set": {
+   "question_text": "During the G₂ phase:"
+  }
+ },
+ {
+  "year": 2019,
+  "question_number": 84,
+  "match_question_text": "In contact process, to which substance adequate quantities of water is added to convert it to sulphuric acid?",
+  "match_option_a": "SO3",
+  "set": {
+   "option_a": "SO₃",
+   "option_b": "H₂S₂O₇",
+   "option_c": "SO₂",
+   "option_d": "HSO₄⁻"
+  }
+ },
+ {
+  "year": 2019,
+  "question_number": 85,
+  "match_question_text": "Which of the equations shows the same \"twice\" the enthaply change of neutralization as the following equation: HCl + NaOH → NaCl + H2O",
+  "match_option_a": "NH4Cl +NaOH → NaCl + H2O + NH3",
+  "set": {
+   "question_text": "Which of the equations shows the same \"twice\" the enthaply change of neutralization as the following equation: HCl + NaOH → NaCl + H₂O",
+   "option_a": "NH₄Cl +NaOH → NaCl + H₂O + NH₃",
+   "option_b": "MgCO₃ + 2HCl → MgCl₂ + CO₂ + H₂O",
+   "option_c": "KOH + HCl → KCl + H₂O",
+   "option_d": "H₂SO₄ + Mg(OH)₂ → MgSO₄ + 2H₂O"
+  }
+ },
+ {
+  "year": 2019,
+  "question_number": 86,
+  "match_question_text": "The decomposition of phosphorus pentachloride in the presence of moisture takes place by the following mechanism: PCl5 (s) + H2O (l) → POCl3 (l) + 2HCl (aq) (Slow Step); POCl3 (l) + 3H2O (l) → H3PO4 (l) + 3HCl (aq) (Fast Step). Overall: PCl5 (s) + 4H2O (l) → H3PO4 (l) + 5HCl (aq). The rate equation for this reaction will be:",
+  "match_option_a": "Rate = k [PCl5][H2O]",
+  "set": {
+   "question_text": "The decomposition of phosphorus pentachloride in the presence of moisture takes place by the following mechanism: PCl₅ (s) + H₂O (l) → POCl₃ (l) + 2HCl (aq) (Slow Step); POCl₃ (l) + 3H₂O (l) → H₃PO₄ (l) + 3HCl (aq) (Fast Step). Overall: PCl₅ (s) + 4H₂O (l) → H₃PO₄ (l) + 5HCl (aq). The rate equation for this reaction will be:",
+   "option_a": "Rate = k [PCl₅][H₂O]",
+   "option_b": "Rate = [PCl₅][H₂O]",
+   "option_c": "Rate = k [POCl₃][H₂O]³",
+   "option_d": "Rate = k [PCl₅][H₂O]⁴"
+  }
+ },
+ {
+  "year": 2019,
+  "question_number": 90,
+  "match_question_text": "Copper is a typical transition metal. Its atomic number is 29. In which oxidation state does it have partially filled orbital in d-subshell?",
+  "match_option_a": "Cu2+",
+  "set": {
+   "option_a": "Cu²⁺",
+   "option_b": "Cu⁻",
+   "option_d": "Cu⁺"
+  }
+ },
+ {
+  "year": 2019,
+  "question_number": 97,
+  "match_question_text": "The pH of 10^-2 M aqueous solution of sodium hydroxide is",
+  "match_option_a": "12",
+  "set": {
+   "question_text": "The pH of 10⁻² M aqueous solution of sodium hydroxide is"
+  }
+ },
+ {
+  "year": 2019,
+  "question_number": 98,
+  "match_question_text": "In the reaction sequence: H3C—CH2—CH2—Br + Alc KOH → C, then C --H2SO4/H2O--> D. Product D will be",
+  "match_option_a": "2-propanol",
+  "set": {
+   "question_text": "In the reaction sequence: H₃C—CH₂—CH₂—Br + Alc KOH → C, then C —H₂SO₄/H₂O→ D. Product D will be"
+  }
+ },
+ {
+  "year": 2019,
+  "question_number": 100,
+  "match_question_text": "Maleic acid and Fumaric acid, both have chemical formula C4H4O4. The structure of these acids is shown below (cis and trans configurations around the C=C double bond). Maleic acid and Fumaric acid are:",
+  "match_option_a": "Position isomers",
+  "set": {
+   "question_text": "Maleic acid and Fumaric acid, both have chemical formula C₄H₄O₄. The structure of these acids is shown below (cis and trans configurations around the C=C double bond). Maleic acid and Fumaric acid are:"
+  }
+ },
+ {
+  "year": 2019,
+  "question_number": 103,
+  "match_question_text": "The Ka values of HCl, CH3COOH, HF and H2SO4 are 10^+7, 1.85 x 10^-5, 6.7 x 10^-5 and 10^+2 respectively. The decreasing order of acidic strength is:",
+  "match_option_a": "HCl > HF > H2SO4 > CH3COOH",
+  "set": {
+   "question_text": "The Ka values of HCl, CH₃COOH, HF and H₂SO₄ are 10⁺⁷, 1.85 × 10⁻⁵, 6.7 × 10⁻⁵ and 10⁺² respectively. The decreasing order of acidic strength is:",
+   "option_a": "HCl > HF > H₂SO₄ > CH₃COOH",
+   "option_b": "HCl > CH₃COOH > HF > H₂SO₄",
+   "option_c": "HCl > H₂SO₄ > HF > CH₃COOH",
+   "option_d": "CH₃COOH > HF > H₂SO₄ > HCl"
+  }
+ },
+ {
+  "year": 2019,
+  "question_number": 115,
+  "match_question_text": "Which one of the following molecules has SP3 hybridization?",
+  "match_option_a": "CH4",
+  "set": {
+   "question_text": "Which one of the following molecules has sp³ hybridization?",
+   "option_a": "CH₄",
+   "option_b": "C₂H₂",
+   "option_c": "CO₂",
+   "option_d": "C₂H₄"
+  }
+ },
+ {
+  "year": 2019,
+  "question_number": 117,
+  "match_question_text": "Which of the following sets constitutes of all the molecules and ions of non-planar geometry?",
+  "match_option_a": "PH4+, NH3, SO3, Benzene",
+  "set": {
+   "option_a": "PH₄⁺, NH₃, SO₃, Benzene",
+   "option_b": "CH ≡ CH, H₂O, BeCl₂, H₂S",
+   "option_c": "SO₂, C₂H₄, BF₃, NO₃⁻",
+   "option_d": "CH₄, NH₄⁺, MnO₄⁻, NF₃"
+  }
+ },
+ {
+  "year": 2019,
+  "question_number": 118,
+  "match_question_text": "Nitrogen has the atomic mass of 7. Which of the following electronic configurations is of a Nitrogen atom in ground state?",
+  "match_option_a": "1s2,2s2,2px2,2py1",
+  "set": {
+   "option_a": "1s²,2s²,2px²,2py¹",
+   "option_b": "1s²,2s²,2px²,2pz¹",
+   "option_c": "1s²,2s²,2px¹,2py¹,2pz¹",
+   "option_d": "1s²,2s²,2py²,2pz¹"
+  }
+ },
+ {
+  "year": 2019,
+  "question_number": 126,
+  "match_question_text": "Which of the following substances exhibits hydrogen bonding?",
+  "match_option_a": "HI",
+  "set": {
+   "option_b": "H₂S",
+   "option_c": "SiH₄",
+   "option_d": "NH₃"
+  }
+ },
+ {
+  "year": 2019,
+  "question_number": 129,
+  "match_question_text": "For an equilibrium reaction; 2SO2(g) + O2(g) ⇌ 2SO3(g), the forward reaction is exothermic, increase in temperature shifts the equilibrium position towards left because,",
+  "match_option_a": "the concentrations of SO2 and O2 decrease and concentration of SO3 increases as the temperature increases",
+  "set": {
+   "question_text": "For an equilibrium reaction; 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), the forward reaction is exothermic, increase in temperature shifts the equilibrium position towards left because,",
+   "option_a": "the concentrations of SO₂ and O₂ decrease and concentration of SO₃ increases as the temperature increases",
+   "option_b": "the concentrations of SO₂ and O₂ increase and concentration of SO₃ decreases as the temperature increases",
+   "option_c": "the concentrations of SO₂ and O₂ increase and concentration of SO₃ stays same as the temperature increases",
+   "option_d": "the concentrations of SO₃, SO₂ and O₂ increase as the temperature increases"
+  }
+ },
+ {
+  "year": 2019,
+  "question_number": 135,
+  "match_question_text": "Which of the following is the electronic configuration of Cr?",
+  "match_option_a": "[Ar] 3d6 4s0",
+  "set": {
+   "option_a": "[Ar] 3d⁶ 4s⁰",
+   "option_b": "[Ar] 3d⁴ 4s²",
+   "option_c": "[Ar] 3d⁵ 4s²",
+   "option_d": "[Ar] 3d⁵ 4s¹"
+  }
+ },
+ {
+  "year": 2019,
+  "question_number": 137,
+  "match_question_text": "Aqueous solutions of Iodine and Sodium hydroxide were mixed in a round bottom flask at 70°C. Following chemical reaction was carried out: 3I2 + 6NaOH → NaIO3 + NaI + H2O. This reaction is termed as",
+  "match_option_a": "Redox reaction",
+  "set": {
+   "question_text": "Aqueous solutions of Iodine and Sodium hydroxide were mixed in a round bottom flask at 70°C. Following chemical reaction was carried out: 3I₂ + 6NaOH → NaIO₃ + NaI + H₂O. This reaction is termed as"
+  }
+ },
+ {
+  "year": 2019,
+  "question_number": 140,
+  "match_question_text": "Which of the following molecule shows cis- trans isomers ?",
+  "match_option_a": "C2HCl3",
+  "set": {
+   "option_a": "C₂HCl₃",
+   "option_b": "C₂H₂Cl₄",
+   "option_c": "C₂H₄",
+   "option_d": "C₂H₂Br₂"
+  }
+ },
+ {
+  "year": 2019,
+  "question_number": 157,
+  "match_question_text": "The unit of magnetic flux density is the tesla, 'T', it can also be expressed as",
+  "match_option_a": "1 N^-1 A^-1 m",
+  "set": {
+   "option_a": "1 N⁻¹ A⁻¹ m",
+   "option_b": "1 N⁻¹ A⁻¹ m⁻¹",
+   "option_c": "1 N A⁻¹ m",
+   "option_d": "1 N A⁻¹ m⁻¹"
+  }
+ },
+ {
+  "year": 2019,
+  "question_number": 166,
+  "match_question_text": "The horizontal component of Earth magnetic flux density is 1.8×10^-6 T. The current in a horizontal cable is 160A. Calculate the maximum force per unit length?",
+  "match_option_a": "2.88× 10^-4 N/m",
+  "set": {
+   "question_text": "The horizontal component of Earth magnetic flux density is 1.8×10⁻⁶ T. The current in a horizontal cable is 160A. Calculate the maximum force per unit length?",
+   "option_a": "2.88× 10⁻⁴ N/m",
+   "option_b": "2.88× 10⁻⁸ N/m",
+   "option_c": "2.88× 10⁻² N/m",
+   "option_d": "2.88× 10⁻⁶ N/m"
+  }
+ },
+ {
+  "year": 2019,
+  "question_number": 170,
+  "match_question_text": "Calculate the energy of a photon of frequency 3.0 × 10^18 Hz. (h = 6.63 × 10^-34)",
+  "match_option_a": "19.89 × 10^-18 J",
+  "set": {
+   "question_text": "Calculate the energy of a photon of frequency 3.0 × 10¹⁸ Hz. (h = 6.63 × 10⁻³⁴)",
+   "option_a": "19.89 × 10⁻¹⁸ J",
+   "option_b": "1.89 × 10⁻¹⁶ J",
+   "option_c": "11.89 × 10⁻¹⁶ J",
+   "option_d": "19.89 × 10⁻¹⁶ J"
+  }
+ },
+ {
+  "year": 2019,
+  "question_number": 176,
+  "match_question_text": "A particle carrying a charge of 5e falls through a potential difference of 25V. What would be energy acquired by the particle in 'J'.",
+  "match_option_a": "125 x 10^-19 J",
+  "set": {
+   "option_a": "125 × 10⁻¹⁹ J",
+   "option_b": "1.6 × 10⁻¹⁹ J",
+   "option_c": "125 × 1.6 × 10⁻¹⁹ J"
+  }
+ }
+]

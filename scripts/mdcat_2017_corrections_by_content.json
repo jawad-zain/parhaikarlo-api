@@ -1,0 +1,457 @@
+[
+ {
+  "year": 2017,
+  "question_number": 102,
+  "match_question_text": "A wave travelling with speed of 130 m/s having wavelength of 5m. What is its frequency:",
+  "match_option_a": "650 Hz",
+  "set": {
+   "option_d": "3.8 × 10² Hz"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 105,
+  "match_question_text": "The wavelength of light which produces second order spectrum on diffraction grating on which 5000 lines/cm are ruled at an angle of 30° will be:",
+  "match_option_a": "6 x 10^-7 m",
+  "set": {
+   "option_a": "6 × 10⁻⁷ m",
+   "option_b": "4 × 10⁻⁶ m",
+   "option_c": "5 × 10⁻⁷ m",
+   "option_d": "3 × 10⁻⁶ m"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 106,
+  "match_question_text": "Estimate pressure of air molecules at 273K, if mean square speed is 500 m²/s² and density of air is 6 kg/m³:",
+  "match_option_a": "1 x 10^3 Pa",
+  "set": {
+   "option_a": "1 × 10³ Pa",
+   "option_b": "2.5 × 10² Pa",
+   "option_c": "1 × 10² Pa",
+   "option_d": "2.7 × 10³ Pa"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 107,
+  "match_question_text": "1 mole of a gas occupies volume 1.00 x 10^-2 m³ in a gas cylinder whose pressure is equal to 2.50 x 10^5 Pa. The temperature of cylinder is:",
+  "match_option_a": "227K",
+  "set": {
+   "question_text": "1 mole of a gas occupies volume 1.00 × 10⁻² m³ in a gas cylinder whose pressure is equal to 2.50 × 10⁵ Pa. The temperature of cylinder is:"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 108,
+  "match_question_text": "The value of pressure and volume of fixed mass of gas in thermometer at triple point of water Pf= 1.00 x 10^5 Pa and Vf= 1 x 10^-3 m³. When P= 1.1 x 10^5 Pa and V= 1.2 x 10^-3 m³. Then temperature of gas is:",
+  "match_option_a": "361K",
+  "set": {
+   "question_text": "The value of pressure and volume of fixed mass of gas in thermometer at triple point of water Pf= 1.00 × 10⁵ Pa and Vf= 1 × 10⁻³ m³. When P= 1.1 × 10⁵ Pa and V= 1.2 × 10⁻³ m³. Then temperature of gas is:"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 110,
+  "match_question_text": "The Coulumbs force between two point charges q1=1C and q2 is 2N. Where distance between them is 3m, The charge q2 is:",
+  "match_option_a": "1 x 10^-9 C",
+  "set": {
+   "question_text": "The Coulumbs force between two point charges q₁=1C and q₂ is 2N. Where distance between them is 3m, The charge q₂ is:",
+   "option_a": "1 × 10⁻⁹ C",
+   "option_b": "1 × 10⁹ C",
+   "option_c": "2 × 10⁹ C",
+   "option_d": "4 × 10⁻⁹ C"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 112,
+  "match_question_text": "2.00 x 10^6 e passing through a coductor in 1millisecond. Electric current through conductor is:",
+  "match_option_a": "3.2 x 10^-10 A",
+  "set": {
+   "question_text": "2.00 × 10⁶ e passing through a coductor in 1millisecond. Electric current through conductor is:",
+   "option_a": "3.2 × 10⁻¹⁰ A",
+   "option_b": "32.0 × 10⁻⁹ A",
+   "option_c": "320 × 10⁻¹⁰ A",
+   "option_d": "0.320 × 10⁻¹⁰ A"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 117,
+  "match_question_text": "A charge projected with velocity of 10m/s in a magnetic fiels of 10T at an angle of 60°, if force exerted on charge is 2.78 x 10^-17 N, then value of charge is:",
+  "match_option_a": "1.6 x 10^-19 C",
+  "set": {
+   "question_text": "A charge projected with velocity of 10m/s in a magnetic fiels of 10T at an angle of 60°, if force exerted on charge is 2.78 × 10⁻¹⁷ N, then value of charge is:",
+   "option_a": "1.6 × 10⁻¹⁹ C",
+   "option_b": "2.7 × 10⁻¹⁹ C",
+   "option_c": "3.2 × 10⁻¹⁹ C",
+   "option_d": "4.8 × 10⁻¹⁹ C"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 121,
+  "match_question_text": "A 1.25cm diameter cylinder is subjected to load of 2500kg, stress on bar is:",
+  "match_option_a": "200 Pa",
+  "set": {
+   "option_b": "2 × 10⁵ Pa",
+   "option_c": "2 × 10⁶ Pa",
+   "option_d": "2 × 10⁹ Pa"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 123,
+  "match_question_text": "A wire of length 2m is attached with mass of 5kg vertically, tensile strain of wire is 0.3 x 10^-3, the extension in wire is:",
+  "match_option_a": "1.5mm",
+  "set": {
+   "question_text": "A wire of length 2m is attached with mass of 5kg vertically, tensile strain of wire is 0.3 × 10⁻³, the extension in wire is:"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 126,
+  "match_question_text": "The frequency of photon having momentum 4.42 x 10^-26 Ns is:",
+  "match_option_a": "2.00 x 10^16 Hz",
+  "set": {
+   "question_text": "The frequency of photon having momentum 4.42 × 10⁻²⁶ Ns is:",
+   "option_a": "2.00 × 10¹⁶ Hz",
+   "option_b": "2.00 × 10¹⁴ Hz",
+   "option_c": "5.00 × 10¹⁶ Hz",
+   "option_d": "2.00 × 10¹⁸ Hz"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 98,
+  "match_question_text": "A moon rotates about its axis. In future scientists may wish to put a satellite into an orbit around the moon such that the satellite remains stationary above one point on moon surface, the period of rotation of moon abou its axis is 27.4 days, what is the radius of required orbit? Mm= 7.35 x 10^22 kg",
+  "match_option_a": "3.59 x 10^7 m",
+  "set": {
+   "question_text": "A moon rotates about its axis. In future scientists may wish to put a satellite into an orbit around the moon such that the satellite remains stationary above one point on moon surface, the period of rotation of moon abou its axis is 27.4 days, what is the radius of required orbit? Mm= 7.35 × 10²² kg",
+   "option_a": "3.59 × 10⁷ m",
+   "option_b": "4.23 × 10⁷ m",
+   "option_c": "8.86 × 10⁷ m",
+   "option_d": "6.96 × 10⁶ m"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 99,
+  "match_question_text": "In mass spring system mass 'm' is attached with spring of spring constant 'k' with time period 'T1'.. Then the mass is replaced by '2m' with same spring, what is the time period 'T2'",
+  "match_option_a": "T2 = T1",
+  "set": {
+   "question_text": "In mass spring system mass 'm' is attached with spring of spring constant 'k' with time period 'T₁'.. Then the mass is replaced by '2m' with same spring, what is the time period 'T₂'",
+   "option_a": "T₂ = T₁",
+   "option_b": "T₂ = 2T₁",
+   "option_c": "T₂ = √2 T₁",
+   "option_d": "T₂ = T₁/ √2"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 1512,
+  "match_question_text": "What happens in positive cycle of AC input?",
+  "match_option_a": "D1 and D3 conducts",
+  "set": {
+   "option_a": "D₁ and D₃ conducts",
+   "option_b": "D₁ and D₂ conducts",
+   "option_c": "D₃ and D₄ conducts",
+   "option_d": "D₂ and D₄ conducts"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 130,
+  "match_question_text": "Complete the equation: ?_?Z ------> a_bY + y",
+  "match_option_a": "a_(b+1)Z",
+  "set": {
+   "question_text": "Complete the equation: ?_?Z → a_bY + γ"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 164,
+  "match_question_text": "The E° value of the standard copper half cell is +0.34, measured when it is connected with SHE i.e Standard Hydrogen Electrode. In this case the half cell reaction taking place at SHE is:",
+  "match_option_a": "2H+(aq) + 2e- ----> H2(g)",
+  "set": {
+   "option_a": "2H⁺(aq) + 2e⁻ → H₂(g)",
+   "option_b": "H₂ → 2H⁺(aq) + 2e⁻",
+   "option_c": "2H⁺ + 2e⁻ → 2H(g)",
+   "option_d": "H₂ → 2H(g) + 2e⁻"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 165,
+  "match_question_text": "Consider the following reversible reaction: CH3-CH2-OH + CH3-COOH <====H+====> CH3-CH2-O-CO-CH3 + H2O. Initial: (CH3-CH2-OH)=1mol, (CH3-COOH)=1mol, (ester)=0mol, (H2O)=0mol. Equilibrium: (CH3-CH2-OH)=0.33mol, (CH3-COOH)=0.33mol, (ester)=0.66mol, (H2O)=0.66mol. Kc=4 at 100C. What are new equilibrium concentrations of all species if 1 mole of CH3CH2OH and CH3COOH are added to this equilibrium mixture? (Apply Le-Chatelier's principle) (Temperature remains same) (Kc remains constant)",
+  "match_option_a": "(CH3COOH)=0.333mol, (CH3CH2OH)=1.333mol, (ester)=1.666mol, (H2O)=1.666mol",
+  "set": {
+   "question_text": "Consider the following reversible reaction: CH₃-CH₂-OH + CH₃-COOH ⇌ (H⁺) CH₃-CH₂-O-CO-CH₃ + H₂O. Initial: (CH₃-CH₂-OH)=1mol, (CH₃-COOH)=1mol, (ester)=0mol, (H₂O)=0mol. Equilibrium: (CH₃-CH₂-OH)=0.33mol, (CH₃-COOH)=0.33mol, (ester)=0.66mol, (H₂O)=0.66mol. Kc=4 at 100°C. What are new equilibrium concentrations of all species if 1 mole of CH₃CH₂OH and CH₃COOH are added to this equilibrium mixture? (Apply Le-Chatelier's principle) (Temperature remains same) (Kc remains constant)",
+   "option_a": "(CH₃COOH)=0.333mol, (CH₃CH₂OH)=1.333mol, (ester)=1.666mol, (H₂O)=1.666mol",
+   "option_b": "(CH₃COOH)=1.333mol, (CH₃CH₂OH)=0.333mol, (ester)=?mol, (H₂O)=?mol",
+   "option_c": "(CH₃COOH)=0.666mol, (CH₃CH₂OH)=0.666mol, (ester)=1.333mol, (H₂O)=1.333mol",
+   "option_d": "(CH₃COOH)=0.333mol, (CH₃CH₂OH)=0.333mol, (ester)=1.333mol, (H₂O)=1.333mol"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 166,
+  "match_question_text": "For which of the following equilibrium reaction, Kc has no units:",
+  "match_option_a": "N2 + 3H2 ----> 2NH3",
+  "set": {
+   "option_a": "N₂ + 3H₂ → 2NH₃",
+   "option_b": "SO₂ + 2O₂ → 2SO₃",
+   "option_c": "CO + H₂O → CO₂ + H₂",
+   "option_d": "2NO₂ + O₂ → 2NO₃"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 171,
+  "match_question_text": "6NaOH + 3Cl2 ----> 5NaCl + NaClO3 + 3H2O. In above disproportionation reaction the oxidation state of chlorine is changed from zero to __________ and __________.",
+  "match_option_a": "-1, +1",
+  "set": {
+   "question_text": "6NaOH + 3Cl₂ → 5NaCl + NaClO₃ + 3H₂O. In above disproportionation reaction the oxidation state of chlorine is changed from zero to __________ and __________."
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 173,
+  "match_question_text": "Scandium has atomic number 21, which one will be its electronic configuration:",
+  "match_option_a": "1s2, 2s2, 2p6, 3s2, 3p6, 3d3",
+  "set": {
+   "option_a": "1s², 2s², 2p⁶, 3s², 3p⁶, 3d³",
+   "option_b": "1s², 2s², 2p⁶, 3s², 3p⁶, 4s², 3d¹",
+   "option_c": "1s², 2s², 2p⁶, 3s², 3p⁶, 4s², 4p¹",
+   "option_d": "1s², 2s², 2p⁶, 3s², 3p⁶, 4s¹, 4p²"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 174,
+  "match_question_text": "Violet colour of [Ti(H2O)4]+ ion is due to:",
+  "match_option_a": "Central metal ion",
+  "set": {
+   "question_text": "Violet colour of [Ti(H₂O)₄]⁺ ion is due to:"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 178,
+  "match_question_text": "The balanced chemical equation to manufacture ammonia by Haber's process is:",
+  "match_option_a": "N2(g) + 3H2(g) <====> 2NH3(g)",
+  "set": {
+   "option_a": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g)",
+   "option_b": "N₂(g) + H₂(g) ⇌ NH₃(g)",
+   "option_c": "3N₂(g) + H₂(g) ⇌ 2NH₃(g)",
+   "option_d": "N₂(g) + 3H₂(g) → 2NH₃(g)"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 179,
+  "match_question_text": "Which one of the following is used as a typical catalyst for catalytic cracking:",
+  "match_option_a": "Mixture of SiO2 and Ni",
+  "set": {
+   "option_a": "Mixture of SiO₂ and Ni",
+   "option_d": "Mixture of SiO₂ and Al₂O₃"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 184,
+  "match_question_text": "When benzene reacts with acetyl chloride (CH3COCl) in the presence of AlCl3, acetophenone is formed. The electrophile in this reaction will be:",
+  "match_option_a": "CH3C+O",
+  "set": {
+   "question_text": "When benzene reacts with acetyl chloride (CH₃COCl) in the presence of AlCl₃, acetophenone is formed. The electrophile in this reaction will be:",
+   "option_a": "CH₃C⁺O",
+   "option_b": "AlCl₃",
+   "option_c": "C⁺H₃",
+   "option_d": "CH₃COCl"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 190,
+  "match_question_text": "Alcohol reacts slowly with Na-metal as compared to water because it has low concentration of H+ ion which suggests that it is:",
+  "match_option_a": "Less acidic than water",
+  "set": {
+   "question_text": "Alcohol reacts slowly with Na-metal as compared to water because it has low concentration of H⁺ ion which suggests that it is:"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 191,
+  "match_question_text": "CH3-CH2-OH + PCl5 ----> CH3-CH2-Cl + POCl3 + HCl.... Formation of HCl is the test for the presence of ____________ in a compound:",
+  "match_option_a": "Alkyl group",
+  "set": {
+   "question_text": "CH₃-CH₂-OH + PCl₅ → CH₃-CH₂-Cl + POCl₃ + HCl.... Formation of HCl is the test for the presence of ____________ in a compound:",
+   "option_d": "Acidic H⁺ ion"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 193,
+  "match_question_text": "C2H5-SO3H --H2O--> C2H5-OH + H2SO4, choose the correct type for this reaction from the following:",
+  "match_option_a": "Reduction",
+  "set": {
+   "question_text": "C₂H₅-SO₃H —H₂O→ C₂H₅-OH + H₂SO₄, choose the correct type for this reaction from the following:"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 1583,
+  "match_question_text": "What will be the product of reaction given below: CH3-C(=O)-C2H5 + HCN --NaCN/HCl--> Y",
+  "match_option_a": "Structure A",
+  "set": {
+   "question_text": "What will be the product of reaction given below: CH₃-C(=O)-C₂H₅ + HCN —NaCN/HCl→ Y"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 198,
+  "match_question_text": "In the reaction \"?\" represents which one of the following products: Primary alcohol + [O] --K2Cr2O7/H2SO4--> ? --[O]--> Carboxylic acid",
+  "match_option_a": "Ketone",
+  "set": {
+   "question_text": "In the reaction \"?\" represents which one of the following products: Primary alcohol + [O] —K₂Cr₂O₇/H₂SO₄→ ? —[O]→ Carboxylic acid"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 202,
+  "match_question_text": "Acidic character of amino acid is due to:",
+  "match_option_a": "-NH2",
+  "set": {
+   "option_b": "-N⁺H₃",
+   "option_d": "-COO⁻"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 204,
+  "match_question_text": "The amide linkage in Nylon-6,6 has the structure:",
+  "match_option_a": "-NH2-CO-",
+  "set": {
+   "option_a": "-NH₂-CO-"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 207,
+  "match_question_text": "_____________ is the major source of acid deposition in atmosphere:",
+  "match_option_a": "SiO2",
+  "set": {
+   "option_a": "SiO₂",
+   "option_b": "CO₂",
+   "option_c": "SO₃",
+   "option_d": "Al₂O₃"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 211,
+  "match_question_text": "Which one of the following has same number of molecules as present in 11g of CO2:",
+  "match_option_a": "4g of O2",
+  "set": {
+   "question_text": "Which one of the following has same number of molecules as present in 11g of CO₂:",
+   "option_a": "4g of O₂",
+   "option_b": "4.5g of H₂O"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 212,
+  "match_question_text": "An organic sample consisting of carbon, hydrogen and oxygen was subjected to combustion analysis. 0.543g of this compound gave 1.039g of Carbon dioxide, 0.636g of water vapours. The empirical formula of this compound is:",
+  "match_option_a": "CH2O",
+  "set": {
+   "option_a": "CH₂O",
+   "option_b": "C₄H₁₂O₂",
+   "option_c": "C₃H₆O",
+   "option_d": "CH₄O"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 213,
+  "match_question_text": "28g of N2 will at STP occupy the volume of:",
+  "match_option_a": "22.41 dm3",
+  "set": {
+   "question_text": "28g of N₂ will at STP occupy the volume of:",
+   "option_a": "22.41 dm³",
+   "option_b": "44.82 dm³",
+   "option_c": "44.82 cm³",
+   "option_d": "2.241 dm³"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 215,
+  "match_question_text": "No of electrons in 31^69 Ga3+ will be:",
+  "match_option_a": "28",
+  "set": {
+   "question_text": "No of electrons in ⁶⁹₃₁Ga³⁺ will be:"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 216,
+  "match_question_text": "Isotopic symbol of ion of sulphur-33 is 16^33 S-2. How many no of protons and neutrons are present if the number of electrons are 18:",
+  "match_option_a": "P = 18, n =15",
+  "set": {
+   "question_text": "Isotopic symbol of ion of sulphur-33 is ³³₁₆S²⁻. How many no of protons and neutrons are present if the number of electrons are 18:"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 33,
+  "match_question_text": "Chlorophyll molecule contains:",
+  "match_option_a": "Mg++",
+  "set": {
+   "option_a": "Mg²⁺",
+   "option_b": "Ca²⁺",
+   "option_c": "K⁺",
+   "option_d": "Na⁺"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 43,
+  "match_question_text": "Patients of cystic fibrosis (CF) produse thick mucus because of faulty:",
+  "match_option_a": "Trans-membrane carrier",
+  "set": {
+   "option_b": "Cl⁻ ions",
+   "option_c": "Na⁺ ions"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 45,
+  "match_question_text": "How denitrification does occur in soils:",
+  "match_option_a": "Bacterial reduction of NO3- ions to N2 gas",
+  "set": {
+   "option_a": "Bacterial reduction of NO₃⁻ ions to N₂ gas"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 54,
+  "match_question_text": "Self fertilization of F-1 dihybrids, following independent assortment of alleles result in:",
+  "match_option_a": "3/16 Tall-round ; 3/16 dwarf-wrinkled",
+  "set": {
+   "question_text": "Self fertilization of F₁ dihybrids, following independent assortment of alleles result in:"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": 85,
+  "match_question_text": "Enzyme pepsin acts on: (table: Options / Substrate / Products - A: Protein/Polypeptides, B: Polypeptide/Dipeptides, C: Fats/Fatty acids-glycerol, D: Protein/Amino Acids)",
+  "match_option_a": "Protein -> Polypeptides",
+  "set": {
+   "option_a": "Protein → Polypeptides",
+   "option_b": "Polypeptide → Dipeptides",
+   "option_c": "Fats → Fatty acids/glycerol",
+   "option_d": "Protein → Amino Acids"
+  }
+ }
+]

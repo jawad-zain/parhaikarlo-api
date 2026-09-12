@@ -1,0 +1,172 @@
+[
+ {
+  "year": 2022,
+  "question_number": 70,
+  "match_question_text": "A compound of sodium oxide has 74.2 % sodium and 25.8% of Oxygen. The empirical formula of the compound is?",
+  "match_option_a": "NaO",
+  "set": {
+   "option_b": "NaO₂",
+   "option_c": "Na₂O",
+   "option_d": "Na₂O₂"
+  }
+ },
+ {
+  "year": 2022,
+  "question_number": 71,
+  "match_question_text": "30 grams of 2-propanol were mixed with excess acidified K2Cr2O7 and boiled under reflux for 20 minutes. The organic product was then collected by distillation. The yield of product was 75.0%. What is the mass of product produced?",
+  "match_option_a": "1.74g",
+  "set": {
+   "question_text": "30 grams of 2-propanol were mixed with excess acidified K₂Cr₂O₇ and boiled under reflux for 20 minutes. The organic product was then collected by distillation. The yield of product was 75.0%. What is the mass of product produced?"
+  }
+ },
+ {
+  "year": 2022,
+  "question_number": 73,
+  "match_question_text": "Which gas in the discharge tube produces lightest canal ray particles?",
+  "match_option_a": "Ar",
+  "set": {
+   "option_c": "H₂"
+  }
+ },
+ {
+  "year": 2022,
+  "question_number": 74,
+  "match_question_text": "Which element has the ground state electronic configuration of 1s2, 2s2, 2p6, 3s2, 3p6?",
+  "match_option_a": "Ar",
+  "set": {
+   "question_text": "Which element has the ground state electronic configuration of 1s², 2s², 2p⁶, 3s², 3p⁶?"
+  }
+ },
+ {
+  "year": 2022,
+  "question_number": 76,
+  "match_question_text": "A gaseous mixture contains 9.6% NH3, 22.6% N2 and 67.8% H2 gases. If the total pressure is 50 atm, then the partial pressure of H2 is",
+  "match_option_a": "67.8 x100 / 50",
+  "set": {
+   "question_text": "A gaseous mixture contains 9.6% NH₃, 22.6% N₂ and 67.8% H₂ gases. If the total pressure is 50 atm, then the partial pressure of H₂ is",
+   "option_a": "67.8 × 100 / 50",
+   "option_b": "50 × 100 / 100",
+   "option_c": "67.8 × 50 / 100"
+  }
+ },
+ {
+  "year": 2022,
+  "question_number": 86,
+  "match_question_text": "What is the overall order of this rate equation? Rate =k[H2][NO2]^2",
+  "match_option_a": "1",
+  "set": {
+   "question_text": "What is the overall order of this rate equation? Rate = k[H₂][NO₂]²"
+  }
+ },
+ {
+  "year": 2022,
+  "question_number": 91,
+  "match_question_text": "In which of the following, oxygen shows fractional oxidation number?",
+  "match_option_a": "OF2",
+  "set": {
+   "option_a": "OF₂",
+   "option_b": "Na₂O₂",
+   "option_c": "KO₂",
+   "option_d": "Cl₂O₇"
+  }
+ },
+ {
+  "year": 2022,
+  "question_number": 103,
+  "match_question_text": "What is the number of isomers of a hydrocarbon having a molecular formula, C4H8?",
+  "match_option_a": "2",
+  "set": {
+   "question_text": "What is the number of isomers of a hydrocarbon having a molecular formula, C₄H₈?"
+  }
+ },
+ {
+  "year": 2022,
+  "question_number": 116,
+  "match_question_text": "Which is the most suitable reagent for the conversion of R-CH2OH -> RCHO?",
+  "match_option_a": "KMnO4/NaOH",
+  "set": {
+   "question_text": "Which is the most suitable reagent for the conversion of R-CH₂OH → RCHO?",
+   "option_a": "KMnO₄/NaOH",
+   "option_b": "K₂Cr₂O₇/H₂SO₄ (Conc.)",
+   "option_c": "CrO₃",
+   "option_d": "Cr₂O₄/H₂SO₄ (Conc.)"
+  }
+ },
+ {
+  "year": 2022,
+  "question_number": 130,
+  "match_question_text": "A long spring, when stretched by a distance x, has potential energy V. On increasing the stretching to nx, the potential energy of the spring will be:",
+  "match_option_a": "nV",
+  "set": {
+   "option_c": "n² V",
+   "option_d": "V/n²"
+  }
+ },
+ {
+  "year": 2022,
+  "question_number": 132,
+  "match_question_text": "A particle of mass m at rest is acted upon by a force P for time t. Its kinetic energy after time t is:",
+  "match_option_a": "(P^2 t^2)/m",
+  "set": {
+   "option_a": "(P² t²)/m",
+   "option_b": "(P² t²)/2m",
+   "option_c": "(P² t²)/3m",
+   "option_d": "(P² t²)/4m"
+  }
+ },
+ {
+  "year": 2022,
+  "question_number": 133,
+  "match_question_text": "The number of revolutions in 3(pi) radians is:",
+  "match_option_a": "1/60",
+  "set": {
+   "question_text": "The number of revolutions in 3π radians is:"
+  }
+ },
+ {
+  "year": 2022,
+  "question_number": 143,
+  "match_question_text": "A distant star is receding from the Earth with a speed of 1.40 x 10^7 m/s. It emits light of frequency 4.57 x 10^14 Hz. The speed of light is 3.0 x 10^8 m/s. The Doppler effect formula can be used with light waves. What will be the frequency of this light when detected on Earth?",
+  "match_option_a": "2.04 x 10^13 Hz",
+  "set": {
+   "question_text": "A distant star is receding from the Earth with a speed of 1.40 × 10⁷ m/s. It emits light of frequency 4.57 × 10¹⁴ Hz. The speed of light is 3.0 × 10⁸ m/s. The Doppler effect formula can be used with light waves. What will be the frequency of this light when detected on Earth?",
+   "option_a": "2.04 × 10¹³ Hz",
+   "option_b": "4.37 × 10¹⁴ Hz",
+   "option_c": "4.57 × 10¹⁴ Hz",
+   "option_d": "4.79 × 10¹⁴ Hz"
+  }
+ },
+ {
+  "year": 2022,
+  "question_number": 161,
+  "match_question_text": "Which surface has greater magnetic flux in same magnetic field, each has an area 1 m^2.",
+  "match_option_a": "Circular",
+  "set": {
+   "question_text": "Which surface has greater magnetic flux in same magnetic field, each has an area 1 m²."
+  }
+ },
+ {
+  "year": 2022,
+  "question_number": 164,
+  "match_question_text": "The unit of change in flux / change in time can be written as ?",
+  "match_option_a": "NmA-2s-1",
+  "set": {
+   "option_a": "NmA⁻²s⁻¹",
+   "option_b": "NmAs⁻¹",
+   "option_c": "NmA⁻¹s⁻¹",
+   "option_d": "NmA⁻²s¹"
+  }
+ },
+ {
+  "year": 2022,
+  "question_number": 173,
+  "match_question_text": "The speed of electron in the first Bohr orbit is:",
+  "match_option_a": "2.19 x 10^6 m/s",
+  "set": {
+   "option_a": "2.19 × 10⁶ m/s",
+   "option_b": "2.19 × 10⁻⁶ m/s",
+   "option_c": "2.19 × 10⁴ m/s",
+   "option_d": "2.19 × 10⁻⁴ m/s"
+  }
+ }
+]

@@ -1,0 +1,477 @@
+[
+ {
+  "year": 2023,
+  "question_number": 8,
+  "match_question_text": "What is true about Oxytocin?",
+  "match_option_a": "Acts on kidney tubules",
+  "set": {
+   "option_d": "Dilates milk ducts of mammary glands"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 17,
+  "match_question_text": "Which of the following is the main point of Darwinism?",
+  "match_option_a": "Over production",
+  "set": {
+   "option_d": "Perceived unity of life"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 21,
+  "match_question_text": "According to Mendel's Law of Segregation, the one individual out of four in F generation had a phenotype that failed to express in _____ generation.",
+  "match_option_a": "F 1",
+  "set": {
+   "question_text": "According to Mendel's Law of Segregation, the one individual out of four in F₂ generation had a phenotype that failed to express in _____ generation.",
+   "option_a": "F₁",
+   "option_b": "F₂",
+   "option_c": "F₃",
+   "option_d": "P₁"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 26,
+  "match_question_text": "Cartilage is a type of which tissue?",
+  "match_option_a": "Connective tissues",
+  "set": {
+   "option_d": "Nervous tissues"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 35,
+  "match_question_text": "The ______ describes how water and dissolved chemicals are carried through the cell wall and intercellular gaps of plants.",
+  "match_option_a": "Apoplast Theory",
+  "set": {
+   "option_d": "Cytoplasmic Theory"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 45,
+  "match_question_text": "Which of the following is an example of spiral shaped bacteria?",
+  "match_option_a": "Diplococcus pneumoniae",
+  "set": {
+   "option_d": "Pseudomonas"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 55,
+  "match_question_text": "Out of 36 ATPs, how many are produced in electron transport chain?",
+  "match_option_a": "28",
+  "set": {
+   "option_d": "34"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 69,
+  "match_question_text": "Which of the following transition metals shows 3d configuration in its +2 oxidation state?",
+  "match_option_a": "Cu+2",
+  "set": {
+   "question_text": "Which of the following transition metals shows 3d⁵ configuration in its +2 oxidation state?",
+   "option_a": "Cu²⁺",
+   "option_b": "Fe²⁺",
+   "option_c": "Mn²⁺",
+   "option_d": "Zn²⁺"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 70,
+  "match_question_text": "Which of the following reagents can be used to distinguish between 1-Pentyne and 2-Pentyne?",
+  "match_option_a": "AgNOn + NHnOH",
+  "set": {
+   "option_a": "AgNO₃ + NH₄OH",
+   "option_b": "1% alkaline dilute KMnO₄",
+   "option_c": "Br₂/CCl₄",
+   "option_d": "K₂Cr₂O₇ + H₂SO₄"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 71,
+  "match_question_text": "In SN reactions the correct order of reactivity of alkyl halide is:",
+  "match_option_a": "Primary > secondary > tertiary",
+  "set": {
+   "question_text": "In SN₁ reactions the correct order of reactivity of alkyl halide is:"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 73,
+  "match_question_text": "The appearance of a silver mirror in Tollens' test indicates the presence of which of the following?",
+  "match_option_a": "A ketone",
+  "set": {
+   "option_d": "An alcohol"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 75,
+  "match_question_text": "If phenol is treated with 3 moles of conc. HNOn in the presence of HnSOn, what will be the product?",
+  "match_option_a": "o-nitrophenol",
+  "set": {
+   "question_text": "If phenol is treated with 3 moles of conc. HNO₃ in the presence of H₂SO₄, what will be the product?"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 77,
+  "match_question_text": "Which element has the ground state electronic configuration of 1s², 2s², 2pn, 3s², 3pn?",
+  "match_option_a": "Ar",
+  "set": {
+   "question_text": "Which element has the ground state electronic configuration of 1s², 2s², 2p⁶, 3s², 3p⁶?"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 83,
+  "match_question_text": "The rate of reaction between two specific time intervals is called:",
+  "match_option_a": "Instantaneous rate of reaction",
+  "set": {
+   "option_d": "Initial rate"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 86,
+  "match_question_text": "What is the unit of heat capacity?",
+  "match_option_a": "JKn¹",
+  "set": {
+   "option_a": "JK⁻¹",
+   "option_b": "kJmol⁻¹"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 89,
+  "match_question_text": "A compound of phosphorus oxide has 43.6% of Oxygen. Its empirical formula is:",
+  "match_option_a": "PnOn",
+  "set": {
+   "option_a": "P₂O₅",
+   "option_b": "P₂O₃",
+   "option_c": "P₄O₆",
+   "option_d": "PO₂"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 92,
+  "match_question_text": "Which of the following electronic configuration is correct for ²nCr?",
+  "match_option_a": "1s², 2s², 2pn, 3s², 3pn, 4s¹, 3dn",
+  "set": {
+   "question_text": "Which of the following electronic configuration is correct for ²⁴Cr?",
+   "option_a": "1s², 2s², 2p⁶, 3s², 3p⁶, 4s¹, 3d⁵",
+   "option_b": "1s², 2s², 2p⁶, 3s², 3p⁶, 4s², 3d⁴",
+   "option_c": "1s², 2s², 2p⁶, 3s², 3p⁶, 3d⁶",
+   "option_d": "1s², 2s², 2p⁶, 3s², 3p⁶, 4f⁶"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 93,
+  "match_question_text": "The same moles of Hn, Nn and On are present in 0.1 cc volume at STP. Which one has greatest number of molecules?",
+  "match_option_a": "Nn",
+  "set": {
+   "question_text": "The same moles of H₂, N₂ and O₂ are present in 0.1 cc volume at STP. Which one has greatest number of molecules?",
+   "option_a": "N₂",
+   "option_b": "H₂",
+   "option_c": "O₂"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 99,
+  "match_question_text": "Which oxyacid of halogen is strong oxidizing agent?",
+  "match_option_a": "HClOn",
+  "set": {
+   "option_a": "HClO₄",
+   "option_b": "HClO₃",
+   "option_d": "HClO₂"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 101,
+  "match_question_text": "The increasing stability order of the following compounds (1) CHnCHnCHnn (2) (CHn)nCn (3) CHnCHnCHnCHn are:",
+  "match_option_a": "1 > 2 > 3",
+  "set": {
+   "question_text": "The increasing stability order of the following compounds (1) CH₃CH₂CH₂⁺ (2) (CH₃)₃C⁺ (3) CH₃CH₂CH⁺CH₃ are:",
+   "option_d": "3 > 1 > 2"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 103,
+  "match_question_text": "Propanone can be prepared from propyne by:",
+  "match_option_a": "Passing a mixture of propyne and steam over a catalyst, magnesium at 420°C",
+  "set": {
+   "option_c": "Boiling propyne with water in the presence of HgSO₄ and H₂SO₄"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 106,
+  "match_question_text": "Mr. Khan mix acetic acid with thionyl chloride. Which product is obtained?",
+  "match_option_a": "CHnCOCl + SOn + HCl",
+  "set": {
+   "option_a": "CH₃COCl + SO₂ + HCl",
+   "option_b": "CH₃Cl + CH₃COCl",
+   "option_c": "CH₃COOCH₃ + SO₂",
+   "option_d": "CH₃Cl + SO₂ + HCl"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 108,
+  "match_question_text": "Dehydration of alcohol gives which of the following product in the presence of HnSOn at 140°?",
+  "match_option_a": "Acetaldehyde",
+  "set": {
+   "question_text": "Dehydration of alcohol gives which of the following product in the presence of H₂SO₄ at 140°?"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 111,
+  "match_question_text": "The bond energy of hydrogen in Hn molecule is:",
+  "match_option_a": "242 KJ/mol",
+  "set": {
+   "question_text": "The bond energy of hydrogen in H₂ molecule is:",
+   "option_d": "346 KJ/mol"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 116,
+  "match_question_text": "The electronic configurations of some elements are given below. Recognize the element that belongs to group IIIA:",
+  "match_option_a": "1s² 2s² 2p³",
+  "set": {
+   "option_b": "1s² 2s² 2p⁴"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 117,
+  "match_question_text": "All alkali metals react with chlorine gas to form white metal chlorides salt. The metal chlorides salt formed",
+  "match_option_a": "Insoluble",
+  "set": {
+   "question_text": "All alkali metals react with chlorine gas to form white metal chlorides salt. The metal chlorides salt formed is:"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 119,
+  "match_question_text": "Which of the following is correct electronic configuration of iron (II) ion (atomic no. of Fe is 26)?",
+  "match_option_a": "[Ar] 4sn, 3dn",
+  "set": {
+   "option_a": "[Ar] 4s⁰, 3d⁶",
+   "option_b": "[Ar] 4s², 3d⁴",
+   "option_c": "[Ar] 4s², 3d⁵",
+   "option_d": "[Ar] 4s², 3d⁶"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 120,
+  "match_question_text": "Which of the functional group are present in ethyl acetate?",
+  "match_option_a": "Aldehyde group",
+  "set": {
+   "option_d": "Ether group"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 121,
+  "match_question_text": "What is the molecular formula of pyridine molecule?",
+  "match_option_a": "CnHnN",
+  "set": {
+   "option_a": "C₆H₆N",
+   "option_b": "C₅H₅N",
+   "option_c": "C₄H₄NH",
+   "option_d": "C₆H₅N"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 122,
+  "match_question_text": "Identify which method is used to prepare Alkynes?",
+  "match_option_a": "Dehalogenation of Vicinal Dihalides in the presence of methanol",
+  "set": {
+   "option_b": "Dehydration of Alcohols in the presence of Al₂O₃ at 340-450°C"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 123,
+  "match_question_text": "The following formula can be used to determine the resistance of a length of conductor. R = rl/A. In the formula, the symbol r stands for the:",
+  "match_option_a": "Cross-sectional area of the conductor in m²",
+  "set": {
+   "question_text": "The following formula can be used to determine the resistance of a length of conductor. R = ρl/A. In the formula, the symbol ρ stands for the:"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 128,
+  "match_question_text": "A charged particle moves in a uniform electric field between two oppositely charged parallel metal plates. To calculate the force acting on the particle due to the electric field, which quantity is not required?",
+  "match_option_a": "Particle charge",
+  "set": {
+   "option_d": "Potential difference between the plates"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 132,
+  "match_question_text": "For an ideal gas equation PV = nRT, the dimensions of Real Gas Constant R are:",
+  "match_option_a": "[M¹ L² Tn² Kn¹]",
+  "set": {
+   "option_a": "[M¹ L² T⁻² K⁻¹]",
+   "option_b": "[M¹ L⁻³ T⁻¹ K⁻¹]",
+   "option_c": "[M¹ L⁻² T⁻¹ K⁻¹]",
+   "option_d": "[M¹ L⁻³ T⁻² K⁻¹]"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 133,
+  "match_question_text": "A distant star is receding from the Earth with a speed of 1.40 × 10n m/s. It emits light of frequency 4.57 × 10¹n Hz. The speed of light is 3.0 × 10n m/s. The Doppler effect formula can be used with light waves. What will be the frequency of this light when detected on Earth?",
+  "match_option_a": "2.04 × 10¹³ Hz",
+  "set": {
+   "question_text": "A distant star is receding from the Earth with a speed of 1.40 × 10⁷ m/s. It emits light of frequency 4.57 × 10¹⁴ Hz. The speed of light is 3.0 × 10⁸ m/s. The Doppler effect formula can be used with light waves. What will be the frequency of this light when detected on Earth?",
+   "option_b": "4.37 × 10¹⁴ Hz",
+   "option_c": "4.57 × 10¹⁴ Hz",
+   "option_d": "4.79 × 10¹⁴ Hz"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 137,
+  "match_question_text": "Wave trough refers to the:",
+  "match_option_a": "Wave length",
+  "set": {
+   "option_d": "Lowest point of the wave"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 139,
+  "match_question_text": "An ideal gas has molar specific heat Cp at constant pressure. When the temperature of n moles is increased by DT the increase in the internal energy is:",
+  "match_option_a": "nCp DT",
+  "set": {
+   "question_text": "An ideal gas has molar specific heat Cp at constant pressure. When the temperature of n moles is increased by ∆T the increase in the internal energy is:",
+   "option_a": "nCp ∆T",
+   "option_b": "n(Cp + R) ∆T",
+   "option_c": "n(Cp − R) ∆T",
+   "option_d": "n(2Cp + R) ∆T"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 146,
+  "match_question_text": "Which of the following is the longest wavelength of radiation for the Paschen series?",
+  "match_option_a": "1870000000 m",
+  "set": {
+   "option_d": "0.00000187 / m"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 152,
+  "match_question_text": "The quantity Df/Dt has the same units as that of:",
+  "match_option_a": "Current",
+  "set": {
+   "question_text": "The quantity ∆φ/∆t has the same units as that of:"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 154,
+  "match_question_text": "The expression for the emf produced by A. C. generator is?",
+  "match_option_a": "NwAB Sinq",
+  "set": {
+   "option_a": "NωAB Sinθ",
+   "option_b": "NωAB Cosθ",
+   "option_c": "NωAB",
+   "option_d": "ILB Cosθ"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 155,
+  "match_question_text": "For the positive half cycle i.e., 0 fi T/2, the diode D:",
+  "match_option_a": "Is reverse biased",
+  "set": {
+   "question_text": "For the positive half cycle i.e., 0 → T/2, the diode D:",
+   "option_d": "Shows maximum resistance"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 164,
+  "match_question_text": "On which car there is resultant force?",
+  "match_option_a": "Car moving on a straight horizontal road",
+  "set": {
+   "option_d": "Car that is stationary"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 173,
+  "match_question_text": "If a particle is moving with uniform circular motion, then:",
+  "match_option_a": "Velocity and acceleration are antiparallel",
+  "set": {
+   "option_d": "Zero acceleration"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 174,
+  "match_question_text": "One degree is equal to:",
+  "match_option_a": "p/90 radians",
+  "set": {
+   "option_a": "π/90 radians",
+   "option_b": "π/180 radians",
+   "option_c": "π/270 radians",
+   "option_d": "π/360 radians"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 182,
+  "match_question_text": "Choose the similar meaning of the bracketed word. (Providentially), his mind was not injured.",
+  "match_option_a": "Slowly",
+  "set": {
+   "option_d": "Luckily"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 191,
+  "match_question_text": "Right after the Civil War, many distraught soldiers made their way West to find fame and fortune. Some could not go home because there were no homes to go to. The war had devastated them. One young man, Will Goodlad, made his fortune in the hills of Colorado. He found gold in a little river near Grand Junction. His fortune was short lived, however. In 1875, he declared bankruptcy and returned to the land of his birth — the Piedmont of South Carolina. For which side did Will fight during the War?",
+  "match_option_a": "East",
+  "set": {
+   "option_d": "South"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 198,
+  "match_question_text": "Read the following statement, assuming everything in it to be true. Then decide which of the given suggested courses of action logically follow and are worth pursuing. Statement: Your toddler drops and breaks a glass by genuine accident. Courses of Action: I. Yell at them to be more careful with things made out of glass. II. Punish them to make sure they remember to be extra careful next time.",
+  "match_option_a": "I",
+  "set": {
+   "option_d": "Neither I nor II"
+  }
+ },
+ {
+  "year": 2023,
+  "question_number": 200,
+  "match_question_text": "Read the passage and the following statements below. Then choose the correct option, basing your answer only on the information provided. *Pakistan is rich in wildlife and culture. It is home to many sorts of wildlife, from the Ibex to the Indus River Dolphin; and people from most countries in the world have made their home here.* STATEMENTS: I. Pakistan is a rich country. II. People from all nationalities of the world live in Pakistan. III. Pakistan is home to at least one dolphin species.",
+  "match_option_a": "Only III is correct",
+  "set": {
+   "option_d": "Only II and III are correct"
+  }
+ }
+]
