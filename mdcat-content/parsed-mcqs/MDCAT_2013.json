@@ -9,10 +9,10 @@
     "difficulty": null,
     "question_text": "The wavelength 'λ' of a wave depends on the speed 'v' of the wave and its frequency 'f'. Decide which of the following is correct?",
     "options": {
-      "a": "f = v λ",
+      "a": "f = vλ",
       "b": "f = λ/v",
       "c": "f = v/λ",
-      "d": "f = v λ-2"
+      "d": "f = vλ⁻²"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -29,14 +29,14 @@
     "topic": "Work and Energy",
     "subtopic": "Power",
     "difficulty": null,
-    "question_text": "Name the quantity which can be measured by using base unit 'kgm2s-3'",
+    "question_text": "Name the quantity which can be measured by using base unit 'kg m² s⁻³'",
     "options": {
       "a": "Weight",
       "b": "Pressure",
       "c": "Power",
       "d": "Work"
     },
-    "correct_answer": "d",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -73,7 +73,7 @@
     "topic": "Force and Motion",
     "subtopic": "Newton''s Second Law and Linear Momentum",
     "difficulty": null,
-    "question_text": "Due to some mechanical fault, a lift falls freely from the top of a multistory building. Which of the followings is the apparent weight of a man inside the lift, if mass of man is 80 kg while value of 'g' is 10 ms-2?",
+    "question_text": "Due to some mechanical fault, a lift falls freely from the top of a multistory building. Which of the followings is the apparent weight of a man inside the lift, if mass of man is 80 kg while value of 'g' is 10 m s⁻²?",
     "options": {
       "a": "900 N",
       "b": "Zero",
@@ -97,10 +97,10 @@
     "difficulty": null,
     "question_text": "Stokes' Law is given as:",
     "options": {
-      "a": "F = 6πηr2v",
+      "a": "F = 6πηr²v",
       "b": "F = 6πηrv",
-      "c": "F = 6πηrv-1",
-      "d": "F = 6π2ηr3v"
+      "c": "F = 6πηrv⁻¹",
+      "d": "F = 6π²ηr³v"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -227,12 +227,12 @@
     "topic": "Waves",
     "subtopic": "Characteristics of Waves",
     "difficulty": null,
-    "question_text": "What is the formula for critical angle in case of light through two mediums having refractive indexes n1 and n2 such that n1 > n2?",
+    "question_text": "What is the formula for critical angle in case of light through two mediums having refractive indexes n₁ and n₂ such that n₁ > n₂?",
     "options": {
-      "a": "sin-1(n1/n2)",
-      "b": "cos-1(n1/n2)",
-      "c": "cos-1(n2/n1)",
-      "d": "sin-1(n2/n1)"
+      "a": "sin⁻¹(n₁/n₂)",
+      "b": "cos⁻¹(n₁/n₂)",
+      "c": "cos⁻¹(n₂/n₁)",
+      "d": "sin⁻¹(n₂/n₁)"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -251,12 +251,12 @@
     "difficulty": null,
     "question_text": "For vibrating mass-spring system, the expression of kinetic energy at any displacement 'x' is given by:",
     "options": {
-      "a": "(1/2)kxo2 (1 - x2/xo2)",
-      "b": "(1/2)kxo2",
-      "c": "(1/2)mω (1 - x2/xo2)",
-      "d": "(1/2)mω2xo"
+      "a": "½kx₀²(1 − x²/x₀²)",
+      "b": "½kx₀²",
+      "c": "½mω(1 − x²/x₀²)",
+      "d": "½mω²x₀"
     },
-    "correct_answer": "d",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -271,14 +271,14 @@
     "topic": "Waves",
     "subtopic": "Speed of Sound (Newton''s Formula)",
     "difficulty": null,
-    "question_text": "Speed of sound through a gas is measured as 340 m/s at pressure P1 and temperature T1. What will be the speed of sound if pressure of gas is doubled but temperature is kept constant?",
+    "question_text": "Speed of sound through a gas is measured as 340 m/s at pressure P₁ and temperature T₁. What will be the speed of sound if pressure of gas is doubled but temperature is kept constant?",
     "options": {
       "a": "342 m/s",
       "b": "340 m/s",
       "c": "170 m/s",
       "d": "680 m/s"
     },
-    "correct_answer": "a",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -315,7 +315,7 @@
     "topic": "Waves",
     "subtopic": "Simple Harmonic Motion (SHM)",
     "difficulty": null,
-    "question_text": "Variation of amplitude with respect to time for an oscillation object is shown in figure. Identify the oscillation: (The amplitude-vs-time graph shows the oscillation staying within fixed limits +Yo and -Yo, i.e. it does NOT decay over time.)",
+    "question_text": "Variation of amplitude with respect to time for an oscillation object is shown in figure. Identify the oscillation:",
     "options": {
       "a": "Damped",
       "b": "Critical",
@@ -361,12 +361,12 @@
     "difficulty": null,
     "question_text": "What is the value of universal gas constant?",
     "options": {
-      "a": "8314 Jmol-1K-1",
-      "b": "83.14 Jmol-1K-2",
-      "c": "831.4 Jmol-1K-1",
-      "d": "8.314 Jmol-1K-2"
+      "a": "8314 J mol⁻¹ K⁻¹",
+      "b": "83.14 J mol⁻¹ K⁻²",
+      "c": "831.4 J mol⁻¹ K⁻¹",
+      "d": "8.314 J mol⁻¹ K⁻¹"
     },
-    "correct_answer": "b",
+    "correct_answer": "d",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -381,7 +381,7 @@
     "topic": "Thermodynamics",
     "subtopic": "Thermal Equilibrium and Heat",
     "difficulty": null,
-    "question_text": "A gas sample contains three molecules each having speed 1 ms-1, 2 ms-1, 3 ms-1. What is the mean square speed?",
+    "question_text": "A gas sample contains three molecules each having speed 1 m s⁻¹, 2 m s⁻¹, 3 m s⁻¹. What is the mean square speed?",
     "options": {
       "a": "14/3 m/s",
       "b": "6 m/s",
@@ -425,7 +425,7 @@
     "topic": "Thermodynamics",
     "subtopic": "Isothermal Process",
     "difficulty": null,
-    "question_text": "What will be the mathematical form of first law of thermodynamics for a system whose variation of volume by pressure is shown? (The P-V graph shown is labelled 'Isothermal', i.e. temperature is constant, curving from (P1,V1) down to (P2,V2).)",
+    "question_text": "What will be the mathematical form of first law of thermodynamics for a system whose variation of volume by pressure is shown?",
     "options": {
       "a": "Q = U",
       "b": "U = W",
@@ -447,7 +447,7 @@
     "topic": "Thermodynamics",
     "subtopic": "First Law of Thermodynamics",
     "difficulty": null,
-    "question_text": "For a heat engine 'A' ratio of Q1 to Q2 is 2/3 while that of heat engine 'B', ratio of Q2 to Q1 is 1/3. What is the value ηA : ηB?",
+    "question_text": "For a heat engine 'A' ratio of Q₁ to Q₂ is 2/3 while that of heat engine 'B', ratio of Q₂ to Q₁ is 1/3. What is the value ηA : ηB?",
     "options": {
       "a": "1:3",
       "b": "1:2",
@@ -579,12 +579,12 @@
     "topic": "Electronics",
     "subtopic": "PN Junction (Forward and Reverse Bias)",
     "difficulty": null,
-    "question_text": "What is the output Boolean expression of logic diagram shown in figure below (two NAND gates, each fed by inputs A and B, both feeding into an OR gate whose output is X):",
+    "question_text": "What is the output Boolean expression of logic diagram shown in figure below:",
     "options": {
-      "a": "(A' + B').(A' + B')",
-      "b": "(A' + B')(A' + B')",
-      "c": "A'.B' + A'.B'",
-      "d": "(AB)' + (AB)'"
+      "a": "(A + B)′·(A + B)′",
+      "b": "(A′ + B′)(A′ + B′)",
+      "c": "A′·B′ + A′·B′",
+      "d": "(AB)′ + (AB)′"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -603,10 +603,10 @@
     "difficulty": null,
     "question_text": "Three resistors each having value 'R' are connected as shown in figure. What is the equivalence resistance between 'X' and 'Y'?",
     "options": {
-      "a": "Structure/arrangement A (see figure)",
-      "b": "Structure/arrangement B (see figure)",
-      "c": "Structure/arrangement C (see figure)",
-      "d": "Structure/arrangement D (see figure)"
+      "a": "R",
+      "b": "R/3",
+      "c": "3R",
+      "d": "R³"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -711,7 +711,7 @@
     "topic": "Dawn of Modern Physics",
     "subtopic": "Quantum Theory and Radiation (Photons)",
     "difficulty": null,
-    "question_text": "Kinetic energy of electrons by applying potential difference V1 across the x-ray tube is KE1 while V2 potential difference produce kinetic energy equal to KE2. What will be the value of KE1:KE2 if ratio of potential difference V1:V2 = 2:3?",
+    "question_text": "Kinetic energy of electrons by applying potential difference V₁ across the x-ray tube is KE₁ while V₂ potential difference produce kinetic energy equal to KE₂. What will be the value of KE₁:KE₂ if ratio of potential difference V₁:V₂ = 2:3?",
     "options": {
       "a": "3:2",
       "b": "4:9",
@@ -777,7 +777,7 @@
     "topic": "Dawn of Modern Physics",
     "subtopic": "Quantum Theory and Radiation (Photons)",
     "difficulty": null,
-    "question_text": "During the production of LASER, when the excited state E2 contains more number of atoms than the ground state E1, the state is known as:",
+    "question_text": "During the production of LASER, when the excited state E₂ contains more number of atoms than the ground state E₁, the state is known as:",
     "options": {
       "a": "Population inversion",
       "b": "Ground State",
@@ -909,7 +909,7 @@
     "topic": "Nuclear Physics",
     "subtopic": "Spontaneous and Random Nuclear Decay",
     "difficulty": null,
-    "question_text": "Which one of the following emission takes place in a nuclear reaction? 90Th234 -> 91Pa232 + ___",
+    "question_text": "Which one of the following emission takes place in a nuclear reaction? ²³⁴₉₀Th → ²³⁴₉₁Pa + ___",
     "options": {
       "a": "Alpha",
       "b": "Gamma",
@@ -953,14 +953,14 @@
     "topic": "Waves",
     "subtopic": "Simple Harmonic Motion (SHM)",
     "difficulty": null,
-    "question_text": "In a simple harmonic motion with a radius 'xo', the velocity of the particle at any point is:",
+    "question_text": "In a simple harmonic motion with a radius 'x₀', the velocity of the particle at any point is:",
     "options": {
-      "a": "v = ω√(xo2 - x2)",
-      "b": "v = ω(x2 - xo2)",
-      "c": "v = ω√(xo - x)",
-      "d": "v = ω√(x - xo)"
+      "a": "v = ω√(x₀² − x²)",
+      "b": "v = ω(x² − x₀²)",
+      "c": "v = ω√(x₀ − x)",
+      "d": "v = ω√(x − x₀)"
     },
-    "correct_answer": "b",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -975,7 +975,7 @@
     "topic": "Fundamental Concepts of Chemistry",
     "subtopic": "Moles and Avogadro''s Number",
     "difficulty": null,
-    "question_text": "Hydrogen burns in chlorine to produce hydrogen chloride. The ratio of masses of reactants in chemical reaction is: H2 + Cl2 -> 2HCl",
+    "question_text": "Hydrogen burns in chlorine to produce hydrogen chloride. The ratio of masses of reactants in chemical reaction is: H₂ + Cl₂ → 2HCl",
     "options": {
       "a": "1:35.5",
       "b": "2:35.5",
@@ -997,14 +997,14 @@
     "topic": "Fundamental Concepts of Chemistry",
     "subtopic": "Moles and Avogadro''s Number",
     "difficulty": null,
-    "question_text": "A sample of Neon is found to exist as 20Ne, 21Ne, 22Ne. Mass spectrum of 'Ne' is as follow: What is the relative atomic mass (A, value) of Neon? (Mass spectrum: relative abundance 90.92% at mass number 20, 0.26% at mass number 21, 8.82% at mass number 22.)",
+    "question_text": "A sample of Neon is found to exist as ²⁰Ne, ²¹Ne, ²²Ne. Its mass spectrum shows relative abundances of 90.92% at mass number 20, 0.26% at mass number 21 and 8.82% at mass number 22. What is the relative atomic mass (Ar value) of Neon?",
     "options": {
       "a": "20.18",
       "b": "20.28",
       "c": "20.10",
       "d": "20.22"
     },
-    "correct_answer": "b",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1019,7 +1019,7 @@
     "topic": "Solids",
     "subtopic": "Crystal Lattice",
     "difficulty": null,
-    "question_text": "The coordination number of Na+ in NaCl crystal is:",
+    "question_text": "The coordination number of Na⁺ in NaCl crystal is:",
     "options": {
       "a": "6",
       "b": "2",
@@ -1041,12 +1041,12 @@
     "topic": "Gases",
     "subtopic": "Real and Ideal Gases",
     "difficulty": null,
-    "question_text": "There are four gases H2, He, N2 and CO2 at 0 °C. Which gas shows greater non-ideal behavior?",
+    "question_text": "There are four gases H₂, He, N₂ and CO₂ at 0 °C. Which gas shows greater non-ideal behavior?",
     "options": {
       "a": "He",
-      "b": "CO2",
-      "c": "H2",
-      "d": "N2"
+      "b": "CO₂",
+      "c": "H₂",
+      "d": "N₂"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -1085,7 +1085,7 @@
     "topic": "Atomic Structure",
     "subtopic": "Electronic Configuration",
     "difficulty": null,
-    "question_text": "Number of electrons in the outermost shell of chloride ion (Cl―) is:",
+    "question_text": "Number of electrons in the outermost shell of chloride ion (Cl⁻) is:",
     "options": {
       "a": "17",
       "b": "3",
@@ -1151,7 +1151,7 @@
     "topic": "Thermochemistry and Energetics",
     "subtopic": "Enthalpy of Reaction",
     "difficulty": null,
-    "question_text": "Heat of formation (∆Hf°) for CO2 is:",
+    "question_text": "Heat of formation (∆Hf°) for CO₂ is:",
     "options": {
       "a": "-394 kJ/mole",
       "b": "+394 kJ/mole",
@@ -1261,12 +1261,12 @@
     "topic": "Reaction Kinetics",
     "subtopic": "Activation Energy and Activated Complex",
     "difficulty": null,
-    "question_text": "By considering Arrhenius equation, the graph between '1/T' and 'log K' given a curve of the type:",
+    "question_text": "By considering Arrhenius equation, the graph between '1/T' and 'log K' gives a curve of the type:",
     "options": {
-      "a": "Graph A",
-      "b": "Graph B",
-      "c": "Graph C",
-      "d": "Graph D"
+      "a": "Straight line rising from the origin",
+      "b": "Straight line falling with a negative slope",
+      "c": "Curve rising to a maximum and then falling",
+      "d": "Curve falling and then rising"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -1285,10 +1285,10 @@
     "difficulty": null,
     "question_text": "Which one of the following is a redox reaction?",
     "options": {
-      "a": "NaCl + AgNO3 -> NaNO3 + AgCl",
-      "b": "2Cl- -> Cl2 + 2e-",
-      "c": "2Na + Cl2 -> 2NaCl",
-      "d": "Na+ + 1e- -> Na"
+      "a": "NaCl + AgNO₃ → NaNO₃ + AgCl",
+      "b": "2Cl⁻ → Cl₂ + 2e⁻",
+      "c": "2Na + Cl₂ → 2NaCl",
+      "d": "Na⁺ + e⁻ → Na"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -1305,7 +1305,7 @@
     "topic": "Chemical Equilibrium",
     "subtopic": "Buffer Solutions",
     "difficulty": null,
-    "question_text": "The chemical substance, when dissolved in water, gives \"H+\" is called:",
+    "question_text": "The chemical substance, when dissolved in water, gives \"H⁺\" is called:",
     "options": {
       "a": "Acid",
       "b": "Base",
@@ -1400,7 +1400,7 @@
       "c": "Decrease in number of shells",
       "d": "Increase in number of shells"
     },
-    "correct_answer": "d",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1439,10 +1439,10 @@
     "difficulty": null,
     "question_text": "The electronic structure of carbon monoxide is represented as:",
     "options": {
-      "a": "Structure A",
-      "b": "Structure B",
-      "c": "Structure C",
-      "d": "Structure D"
+      "a": ":C≡O: (one of the three bonds is a coordinate bond from O to C)",
+      "b": ":C=Ö: (double bond)",
+      "c": "C≡Ö: (one bond a coordinate bond from C to O; no lone pair on C)",
+      "d": "Ċ≡Ö (unpaired electron on C)"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -1461,10 +1461,10 @@
     "difficulty": null,
     "question_text": "Which one pair has the same oxidation state of 'Fe'?",
     "options": {
-      "a": "FeSO4 and FeCl3",
-      "b": "FeCl2 and FeCl3",
-      "c": "FeSO4 and FeCl2",
-      "d": "Fe2(SO4)3 and FeSO4"
+      "a": "FeSO₄ and FeCl₃",
+      "b": "FeCl₂ and FeCl₃",
+      "c": "FeSO₄ and FeCl₂",
+      "d": "Fe₂(SO₄)₃ and FeSO₄"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -1481,14 +1481,14 @@
     "topic": "Transition Elements",
     "subtopic": "Electronic Structure of d-block",
     "difficulty": null,
-    "question_text": "Oxidation state of 'Fe' in K3[Fe(CN)6] is:",
+    "question_text": "Oxidation state of 'Fe' in K₃[Fe(CN)₆] is:",
     "options": {
       "a": "+2",
       "b": "+3",
       "c": "-6",
       "d": "-3"
     },
-    "correct_answer": "a",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1503,14 +1503,14 @@
     "topic": "Chemical Equilibrium",
     "subtopic": "Buffer Solutions",
     "difficulty": null,
-    "question_text": "The nature of an aqueous solution of ammonia (NH3) is:",
+    "question_text": "The nature of an aqueous solution of ammonia (NH₃) is:",
     "options": {
       "a": "Amphoteric",
       "b": "Neutral",
       "c": "Acidic",
       "d": "Basic"
     },
-    "correct_answer": "a",
+    "correct_answer": "d",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1593,10 +1593,10 @@
     "difficulty": null,
     "question_text": "The cis-isomerism is shown by:",
     "options": {
-      "a": "Structure A",
-      "b": "Structure B",
-      "c": "Structure C",
-      "d": "Structure D"
+      "a": "H₃C(H)C=C(H)CH₃ with the two CH₃ groups on opposite sides",
+      "b": "(CH₃)₂C=CH–CH₃",
+      "c": "H₃C(H)C=C(H)CH₃ with the two CH₃ groups on the same side",
+      "d": "H₂C=CH–CH₃"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -1615,10 +1615,10 @@
     "difficulty": null,
     "question_text": "Select the nucleophile from the following examples:",
     "options": {
-      "a": "NO2",
-      "b": "NH3",
-      "c": "NO2+",
-      "d": "N+H4"
+      "a": "NO₂",
+      "b": "NH₃",
+      "c": "NO₂⁺",
+      "d": "NH₄⁺"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -1635,12 +1635,12 @@
     "topic": "Chemistry of Hydrocarbons",
     "subtopic": "Friedel-Crafts alkylation reaction",
     "difficulty": null,
-    "question_text": "The introduction of an alkyl group in benzene takes place in the presence of AlCl3 and:",
+    "question_text": "The introduction of an alkyl group in benzene takes place in the presence of AlCl₃ and:",
     "options": {
-      "a": "R-COOH",
-      "b": "R-Cl",
-      "c": "R-COCl",
-      "d": "R-COO-"
+      "a": "R–COOH",
+      "b": "R–Cl",
+      "c": "R–COCl",
+      "d": "R–COO⁻"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -1659,10 +1659,10 @@
     "difficulty": null,
     "question_text": "What is the product formed when propene reacts with HBr?",
     "options": {
-      "a": "Structure A",
-      "b": "Structure B",
-      "c": "Structure C",
-      "d": "Structure D"
+      "a": "CH₃–CH₂–CH₂Br",
+      "b": "BrH₂C–CH=CH₂Br",
+      "c": "BrCH₂–CHBr–CH₃",
+      "d": "CH₃–CHBr–CH₃"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -1701,7 +1701,7 @@
     "topic": "Alkyl Halides",
     "subtopic": "Elimination Mechanisms",
     "difficulty": null,
-    "question_text": "Consider the reaction given below: CH3-CH2-CH2-CH2-Br reacts two different ways -- (I) to give CH3-CH2-CH2-CH2-OH, and (II) to give CH3-CH2-CH=CH2. Which statement is true?",
+    "question_text": "Consider the reaction given below: CH₃–CH₂–CH₂–CH₂Br gives (I) CH₃–CH₂–CH₂–CH₂OH and (II) CH₃–CH₂–CH=CH₂. Which statement is true?",
     "options": {
       "a": "Reagent for I is KOH in alcohol",
       "b": "Reagent for II is KOH in aqueous medium",
@@ -1723,14 +1723,14 @@
     "topic": "Alcohols and Phenols",
     "subtopic": "Chemistry of Alcohols (Ethers, Esters)",
     "difficulty": null,
-    "question_text": "Consider the following reaction: C2H5OH + PCl5 ? What product(s) may be formed?",
+    "question_text": "Consider the following reaction: C₂H₅OH + PCl₅ → ? What product(s) may be formed?",
     "options": {
-      "a": "C2H5Cl only",
-      "b": "C2H5Cl and HCl",
-      "c": "C2H5Cl, POCl3 and HCl",
-      "d": "C2H5Cl and POCl3"
+      "a": "C₂H₅Cl only",
+      "b": "C₂H₅Cl and HCl",
+      "c": "C₂H₅Cl, POCl₃ and HCl",
+      "d": "C₂H₅Cl and POCl₃"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1745,7 +1745,7 @@
     "topic": "Alcohols and Phenols",
     "subtopic": "Nomenclature, Structure, Reactivity of Phenols",
     "difficulty": null,
-    "question_text": "The compound shown (a phenol ring with OH and three NO2 substituents) is named as:",
+    "question_text": "The compound shown in the figure is named as:",
     "options": {
       "a": "Picric acid",
       "b": "Nitro phenol",
@@ -1769,10 +1769,10 @@
     "difficulty": null,
     "question_text": "Which group gives a yellow precipitate of triiodo methane when warmed with alkaline aqueous iodine?",
     "options": {
-      "a": "An amide group (CH3-C(=O)-NH2)",
-      "b": "Ethyl Ketone group (C2H5-C(=O)-R)",
-      "c": "A primary Alcohol group as in Propanol (CH3-CH2-CH2-OH)",
-      "d": "Methyl Ketone group (CH3-C(=O)-R)"
+      "a": "An amide group, CH₃–CO–NH₂",
+      "b": "Ethyl ketone group, C₂H₅–CO–R",
+      "c": "A primary alcohol group as in propanol, CH₃–CH₂–CH₂–OH",
+      "d": "Methyl ketone group, CH₃–CO–R"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -1791,10 +1791,10 @@
     "difficulty": null,
     "question_text": "Aqueous phenol decolorizes bromine water to form a white precipitate. What is the structure of the white precipitate formed?",
     "options": {
-      "a": "Structure A",
-      "b": "Structure B",
-      "c": "Structure C",
-      "d": "Structure D"
+      "a": "2,4,6-tribromophenol (Br at both ortho positions and the para position to –OH)",
+      "b": "2-bromophenol",
+      "c": "4-bromophenol",
+      "d": "1,3,5-tribromobenzene (no –OH)"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -1833,12 +1833,12 @@
     "topic": "Aldehydes and Ketones",
     "subtopic": "Oxidation Reactions",
     "difficulty": null,
-    "question_text": "What is the structure of alcohol which on oxidation with acidified Na2Cr2O7 gives phenyl methyl ketone (acetophenone, C6H5-C(=O)-CH3)?",
+    "question_text": "What is the structure of alcohol which on oxidation with acidified Na₂Cr₂O₇ gives C₆H₅–CO–CH₃?",
     "options": {
-      "a": "Structure A",
-      "b": "Structure B",
-      "c": "Structure C",
-      "d": "Structure D"
+      "a": "C₆H₅–CH(OH)–CH₃",
+      "b": "(CH₃)₂C₆H₃–OH (a dimethylphenol)",
+      "c": "C₆H₅–CH₂–CH₂–OH",
+      "d": "C₆H₅–C(CH₃)₂–OH"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -1857,10 +1857,10 @@
     "difficulty": null,
     "question_text": "Which of the following is the structure of ketone?",
     "options": {
-      "a": "Structure A",
-      "b": "Structure B",
-      "c": "Structure C",
-      "d": "Structure D"
+      "a": "CH₃–CO–OH",
+      "b": "CH₃–CO–CH₃",
+      "c": "CH₃–CO–NH₂",
+      "d": "CH₃–CO–Cl"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -1906,7 +1906,7 @@
       "c": "Propanoic acid",
       "d": "Butanoic acid"
     },
-    "correct_answer": "b",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1943,12 +1943,12 @@
     "topic": "Carboxylic Acids",
     "subtopic": "Conversion to Derivatives (Acyl Halides, Anhydrides, Esters)",
     "difficulty": null,
-    "question_text": "CH3-C(=O)-OH + NH3 --heat--> ? The final products formed are:",
+    "question_text": "CH₃–CO–OH + NH₃ —heat→ ? The final products formed are:",
     "options": {
-      "a": "CH3-C(=O)-NH2 + CO2",
-      "b": "CH3-C(=O)-NH2 + H2O",
-      "c": "CH3-C(=O)-NH2 + H2",
-      "d": "CH3-C(=O)-NH2 + HCl"
+      "a": "CH₃–CO–NH₂ + CO₂",
+      "b": "CH₃–CO–NH₂ + H₂O",
+      "c": "CH₃–CO–NH₂ + H₂",
+      "d": "CH₃–CO–NH₂ + HCl"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -1965,14 +1965,14 @@
     "topic": "Macromolecules",
     "subtopic": "Classification and Structure of Proteins",
     "difficulty": null,
-    "question_text": "The reaction of two amino acid molecules (glycine + glycine) shown in the figure gives a product called a dipeptide molecule. Which structure correctly represents that dipeptide?",
+    "question_text": "The reaction H₂N–CH₂–COOH + H₂N–CH₂–COOH → ? gives a product called dipeptide molecule represented by:",
     "options": {
-      "a": "Dipeptide structure A",
-      "b": "Dipeptide structure B",
-      "c": "Dipeptide structure C",
-      "d": "Dipeptide structure D"
+      "a": "H₂N–CH₂–CO–O–NH–CH₂–COOH",
+      "b": "⁻HN–CH₂–CH₂–O–NH–CH₂–COOH",
+      "c": "H₂N–CH₂–CH₂–O–NH–CH₂–COOH",
+      "d": "H₂N–CH₂–CO–NH–CH₂–COOH"
     },
-    "correct_answer": "a",
+    "correct_answer": "d",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2031,14 +2031,14 @@
     "topic": "Macromolecules",
     "subtopic": "Classification and Structure of Proteins",
     "difficulty": null,
-    "question_text": "The formula of 'Zwitter ion' is represented by (R = side chain):",
+    "question_text": "The formula of 'Zwitter ion' is represented by:",
     "options": {
-      "a": "H3N+-CH(R)-CO-",
-      "b": "N+H4-CH(R)-CO2-",
-      "c": "H3N+-CH(R)-CO2-",
-      "d": "N+H2-CH(R)-COO-"
+      "a": "H₃N⁺–CH(R)–CO⁻",
+      "b": "NH₄⁺–CH(R)–CO₂⁻",
+      "c": "H₃N⁺–CH(R)–CO₂⁻",
+      "d": "NH₂⁺–CH(R)–COO⁻"
     },
-    "correct_answer": "a",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2053,7 +2053,7 @@
     "topic": "Macromolecules",
     "subtopic": "Classification and Structure of Proteins",
     "difficulty": null,
-    "question_text": "What is the name of amino acid H2N-CH(R)-COOH, where 'R' is CH3 group?",
+    "question_text": "What is the name of amino acid H₂N–CH(R)–COOH, where 'R' is CH₃ group?",
     "options": {
       "a": "Glycine",
       "b": "Lysine",
@@ -2282,8 +2282,8 @@
     },
     "correct_answer": "c",
     "explanation": null,
-    "is_active": true,
-    "needs_review": false,
+    "is_active": false,
+    "needs_review": true,
     "notes": null,
     "source_file": "mdcat_2013.py"
   },
@@ -2361,7 +2361,7 @@
     "topic": "Writing Skills",
     "subtopic": "Errors of Function and Spelling",
     "difficulty": null,
-    "question_text": "Late Agha Shahi was an outstanding genius in the international affairs. He was gifted of the acumen to judge the future events, judge the future events in advance. (Spot the error: identify which underlined part is wrong.)",
+    "question_text": "Late Agha Shahi was an outstanding genius in the international affairs. He was gifted of the acumen to judge the future events in advance. (Spot the error: identify which underlined part is wrong.)",
     "options": {
       "a": "in",
       "b": "of",
@@ -2458,8 +2458,8 @@
     },
     "correct_answer": "a",
     "explanation": null,
-    "is_active": true,
-    "needs_review": false,
+    "is_active": false,
+    "needs_review": true,
     "notes": null,
     "source_file": "mdcat_2013.py"
   },
@@ -2544,7 +2544,7 @@
       "c": "Pakistan cricket team forged against impregnable lead.",
       "d": "Pakistan cricket team forged on impregnable lead."
     },
-    "correct_answer": "d",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2720,7 +2720,7 @@
       "c": "Illegal",
       "d": "Limited"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3837,10 +3837,10 @@
     "difficulty": null,
     "question_text": "Active uptake of ______ in the ascending limb or thick loop of Henle is promoted by the action of aldosterone:",
     "options": {
-      "a": "K+",
-      "b": "Cl-",
-      "c": "Ca++",
-      "d": "Na+"
+      "a": "K⁺",
+      "b": "Cl⁻",
+      "c": "Ca²⁺",
+      "d": "Na⁺"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -3879,7 +3879,7 @@
     "topic": "Homeostasis",
     "subtopic": "Glomerular Filtration and Reabsorption",
     "difficulty": null,
-    "question_text": "Active pumping out of Na+ occurs at which part of nephron:",
+    "question_text": "Active pumping out of Na⁺ occurs at which part of nephron:",
     "options": {
       "a": "Proximal tubule",
       "b": "Descending loop of Henle",
@@ -4121,7 +4121,7 @@
     "topic": "Support and Movement",
     "subtopic": "Muscle Contraction",
     "difficulty": null,
-    "question_text": "The Ca++ ions released during a muscle fiber contraction attach with:",
+    "question_text": "The Ca²⁺ ions released during a muscle fiber contraction attach with:",
     "options": {
       "a": "Myosin",
       "b": "Actin",
@@ -4433,7 +4433,7 @@
     "options": {
       "a": "Cytochrome a",
       "b": "Oxygen",
-      "c": "Cytochrome a3",
+      "c": "Cytochrome a₃",
       "d": "Cytochrome c"
     },
     "correct_answer": "b",
@@ -4480,7 +4480,7 @@
       "c": "Oxidation reduction",
       "d": "Photophosphorylation"
     },
-    "correct_answer": "c",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4546,7 +4546,7 @@
       "c": "Heat",
       "d": "Helicase"
     },
-    "correct_answer": "a",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4563,10 +4563,10 @@
     "difficulty": null,
     "question_text": "Cystic fibrosis patient lack a gene that codes for trans-membrane carrier of??",
     "options": {
-      "a": "Na+ ions",
-      "b": "Cl- ions",
-      "c": "Ca++ ions",
-      "d": "K+ ions"
+      "a": "Na⁺ ions",
+      "b": "Cl⁻ ions",
+      "c": "Ca²⁺ ions",
+      "d": "K⁺ ions"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -4700,7 +4700,7 @@
       "c": "Community",
       "d": "Biosphere"
     },
-    "correct_answer": "d",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,

@@ -1,4 +1,10 @@
 """
+DO NOT RE-RUN (2026-09-13): MDCAT_2012.json and the DB carry a content re-check that this
+converter and mdcat_2012.py do not reproduce: 192 rows' options were still stored A,C,B,D (the QUESTIONS lists in
+mdcat_2012.py still are) and are now in paper order with paper key letters; Q36/Q97 science over key; Q54/Q63
+keyed-option misprints repaired; structure options Q46/51/93/100-102 rebuilt; stems cleaned. KEY_RAW is correct (matches the printed key).
+Source of truth: parsed-mcqs/MDCAT_2012.json + scripts/mdcat_2012_corrections_by_content.json.
+
 Adapter: mdcat_2012.py -> parsed-mcqs/MDCAT_2012.json
 
 Same shape as convert_2013_to_json.py, with one addition: mdcat_2012.py has

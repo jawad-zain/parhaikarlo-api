@@ -1,0 +1,844 @@
+[
+ {
+  "year": 2014,
+  "question_number": 1,
+  "match_question_text": "The formula for electric field strength is 'E = F/Q', where E is electric field strength and F is force and Q is charge. Which one of the following options gives the correct base units for electric field strength?",
+  "match_option_a": "kgms-3A-1",
+  "set": {
+   "option_a": "kgms⁻³A⁻¹",
+   "option_b": "kgs⁻²A⁻³",
+   "option_c": "kg²m⁻²s⁻³A",
+   "option_d": "ms⁻¹A⁻³"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 5,
+  "match_question_text": "Which of the following is the best graphical representation between drag force 'F' on a spherical object of radius 'r' and its speed 'v' through a fluid of viscosity 'η'?",
+  "match_option_a": "Graph A",
+  "set": {
+   "option_a": "Straight line rising from the origin",
+   "option_b": "Curve falling as v increases",
+   "option_c": "Horizontal line (F constant)",
+   "option_d": "Vertical line (v constant)"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 6,
+  "match_question_text": "What is the speed of an incompressible non-viscous liquid flowing out from 'B' contained in a container as shown in the figure? Where AB = 5 m and g = 10 m/s2.",
+  "match_option_a": "5 m/s",
+  "set": {
+   "question_text": "What is the speed of an incompressible non-viscous liquid flowing out from 'B' contained in a container as shown in the figure? Where AB = 5 m and g = 10 m/s²."
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 9,
+  "match_question_text": "In a compound microscope, the magnification by objective = 20, magnification by eyepiece = 11, then the total magnification is",
+  "match_option_a": "M = -220",
+  "set": {
+   "correct_answer": "D",
+   "explanation_short": "Total magnification = objective magnification × eyepiece magnification = 20 × 11 = 220.",
+   "explanation_long": "In a compound microscope the objective forms a magnified image which the eyepiece magnifies again, so the total magnification is the product of the two: M = Mₒ × Mₑ = 20 × 11 = 220. Both magnifications are given as positive numbers, so the product is +220. The other values come from dividing instead of multiplying.",
+   "explanation_trick": "Compound microscope: multiply the two magnifications.",
+   "explanation_options": {
+    "a": "Wrong — the given magnifications are positive, so their product is +220.",
+    "b": "Wrong — 0.19 is not the product of 20 and 11.",
+    "c": "Wrong — 0.05 is 1/20, not a product.",
+    "d": "Correct — 20 × 11 = 220."
+   }
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 11,
+  "match_question_text": "A 100 kg man is standing in an elevator, which accidently falls freely. What will be the weight of the person in the freely falling elevator (take g=10 m/s2)",
+  "match_option_a": "1000 N",
+  "set": {
+   "question_text": "A 100 kg man is standing in an elevator, which accidently falls freely. What will be the weight of the person in the freely falling elevator (take g=10 m/s²)"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 13,
+  "match_question_text": "A body performs simple harmonic motion with a period of 0.063 s. The maximum speed is 3.0 ms-1. What are the values of the amplitude 'xo (m)' and angular frequency 'ω (rads-1)'?",
+  "match_option_a": "xo = 0.03, ω = 100",
+  "set": {
+   "question_text": "A body performs simple harmonic motion with a period of 0.063 s. The maximum speed is 3.0 ms⁻¹. What are the values of the amplitude 'xo (m)' and angular frequency 'ω (rads⁻¹)'?"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 15,
+  "match_question_text": "Potential energy of a mass spring system with respect to displacement during simple harmonic motion (SHM) is shown in the figure. Which of the following represents the total energy of mass spring system during SHM?",
+  "match_option_a": "Graph A",
+  "set": {
+   "option_a": "U-shaped curve, zero at x = 0",
+   "option_b": "Arch-shaped curve, maximum at x = 0",
+   "option_c": "Peak at x = 0 falling to zero at ±x₀",
+   "option_d": "Horizontal straight line"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 16,
+  "match_question_text": "Three graphs for three types of materials are shown in the figure (Stress vs Strain, labelled X, Y, Z). Which row describes the correct materials?",
+  "match_option_a": "X: Brittle, Y: Ductile, Z: Polymer",
+  "set": {
+   "question_text": "Three graphs for three types of materials (stress against strain, labelled X, Y and Z) are shown in the figure. Which row describes the correct materials?"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 24,
+  "match_question_text": "What is the output of the truth table for x = AB' + A'B?",
+  "match_option_a": "Output column A",
+  "set": {
+   "question_text": "What is the output x = AB̄ + AB of the truth table for inputs (A, B) = (0, 0), (0, 1), (1, 0), (1, 1)?",
+   "option_a": "0, 0, 1, 1",
+   "option_b": "1, 1, 1, 0",
+   "option_c": "1, 0, 0, 1",
+   "option_d": "0, 1, 1, 1",
+   "explanation_short": "x = AB̄ + AB = A(B̄ + B) = A, so the output copies A: 0, 0, 1, 1.",
+   "explanation_long": "Factor out A: x = AB̄ + AB = A(B̄ + B). Since B̄ + B = 1, x = A. For the rows (A, B) = (0,0), (0,1), (1,0), (1,1), the output is therefore 0, 0, 1, 1. (Some copies of this paper lose the bar over the first B; with it, only option A fits.)",
+   "explanation_trick": "B̄ + B = 1, so AB̄ + AB reduces to A.",
+   "explanation_options": {
+    "a": "Correct — the output equals A.",
+    "b": "Wrong — 1, 1, 1, 0 is the NAND output.",
+    "c": "Wrong — 1, 0, 0, 1 is the XNOR output.",
+    "d": "Wrong — 0, 1, 1, 1 is the OR output."
+   }
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 25,
+  "match_question_text": "What is the reading of Ammeter as shown in the circuit diagram? (two 6V cells and a 3Ω resistor)",
+  "match_option_a": "1 A",
+  "set": {
+   "question_text": "What is the reading of Ammeter as shown in the circuit diagram?",
+   "is_active": false,
+   "is_verified": false
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 27,
+  "match_question_text": "The distance between the plates of a parallel plate capacitor is 2.0 mm and area of each plate is 2.0 m². The plates are in a vacuum. A potential difference of 1.0 x 10^4 V is applied across the plates. Find the capacitance.",
+  "match_option_a": "4 x 10^-3 F",
+  "set": {
+   "question_text": "The distance between the plates of a parallel plate capacitor is 2.0 mm and area of each plate is 2.0 m². The plates are in a vacuum. A potential difference of 1.0 × 10⁴ V is applied across the plates. Find the capacitance.",
+   "option_a": "4 × 10⁻³ F",
+   "option_b": "3.54 × 10⁻⁹ F",
+   "option_c": "8.85 × 10⁻⁹ F",
+   "option_d": "9.0 × 10⁻⁹ F"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 28,
+  "match_question_text": "A solenoid 15 cm long has 300 turns of wire. A current of 5 A flows through it. What is the magnitude of magnetic field inside the solenoid?",
+  "match_option_a": "75 x 10^7 T",
+  "set": {
+   "option_a": "75 × 10⁷ T",
+   "option_b": "60 × 10⁺³ T",
+   "option_c": "4π × 10⁻³ T",
+   "option_d": "750π × 10⁺³ T"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 29,
+  "match_question_text": "Due to current in a straight conductor, the magnetic field lines' density",
+  "match_option_a": "Increases away from conductor",
+  "set": {
+   "correct_answer": "A",
+   "question_text": "Due to current in a straight conductor, the difference (spacing) between magnetic field lines",
+   "explanation_short": "The field B = μ₀I/2πr weakens with distance, so the circular field lines spread further apart away from the conductor.",
+   "explanation_long": "A straight current-carrying conductor is surrounded by concentric circular field lines. The field strength B = μ₀I/(2πr) falls as the distance r grows, and a weaker field is drawn with lines further apart. So the difference (gap) between neighbouring field lines increases away from the conductor.",
+   "explanation_trick": "Strong field near the wire = lines crowded; far away = lines spread out.",
+   "explanation_options": {
+    "a": "Correct — the gap between field lines increases away from the conductor.",
+    "b": "Wrong — the gap grows with distance; it does not shrink.",
+    "c": "Wrong — near the conductor the lines are closest together.",
+    "d": "Wrong — the spacing changes steadily in one direction, not down and then up."
+   }
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 31,
+  "match_question_text": "Stimulated emission of two photons 'A' and 'B' during LASER action is shown in figure (an excited atom emitting photon A at energy level E2/E1, and photon B via stimulated emission). What is the relation of wavelengths of two photons?",
+  "match_option_a": "λA = λB",
+  "set": {
+   "question_text": "Stimulated emission of two photons 'A' and 'B' during LASER action is shown in figure. What is the relation of wavelengths of two photons?"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 34,
+  "match_question_text": "Which one of the following spectra is most typical of the output of an X-ray tube?",
+  "match_option_a": "Graph A",
+  "set": {
+   "option_a": "Smooth continuous curve with no peaks",
+   "option_b": "Single broad hump",
+   "option_c": "Continuous background with sharp characteristic peaks",
+   "option_d": "Several separate peaks and humps with little background"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 36,
+  "match_question_text": "What will be the energy of accelerated electron used to produce X-rays when the accelerating potential is 2 kV?",
+  "match_option_a": "2 x 10^-19 J",
+  "set": {
+   "option_a": "2 × 10⁻¹⁹ J",
+   "option_b": "1.6 × 10⁻¹⁹ J",
+   "option_c": "3.2 × 10¹⁹ J",
+   "option_d": "3.2 × 10⁻¹⁶ J"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 40,
+  "match_question_text": "A Uranium isotope 232/92 U undergoes one α-decay and one β-decay. What is the final product's atomic number?",
+  "match_option_a": "90",
+  "set": {
+   "question_text": "A Uranium isotope ²³²₉₂U undergoes one α-decay and one ⁰₋₁β-decay. What is the final product?",
+   "is_active": false,
+   "is_verified": false
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 45,
+  "match_question_text": "A polymer of empirical formula CH2 has molar mass of 28000 g mol-1. Its molecular formula will be",
+  "match_option_a": "100 times that of its empirical formula",
+  "set": {
+   "question_text": "A polymer of empirical formula CH₂ has molar mass of 28000 g mol⁻¹. Its molecular formula will be"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 46,
+  "match_question_text": "The number of molecules in 9 g of ice (H2O) is",
+  "match_option_a": "6.02 x 10^24",
+  "set": {
+   "question_text": "The number of molecules in 9 g of ice (H₂O) is",
+   "option_a": "6.02 × 10²⁴",
+   "option_b": "6.02 × 10²³",
+   "option_c": "3.01 × 10²⁴",
+   "option_d": "3.01 × 10²³"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 48,
+  "match_question_text": "At a given temperature and pressure, the one which shows marked deviation from ideal behavior is",
+  "match_option_a": "N2",
+  "set": {
+   "option_a": "N₂",
+   "option_b": "N₃",
+   "option_c": "CO₂"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 49,
+  "match_question_text": "According to the number of protons, neutrons and electrons given in the table (As: 33p/42n/30e, Ga: 31p/39n/28e, Ca: 20p/20n/20e), which one of the following options is correct?",
+  "match_option_a": "As-3, Ga+3, Ca",
+  "set": {
+   "question_text": "According to the number of protons, neutrons and electrons given in the table (As: 33 p, 42 n, 30 e; Ga: 31 p, 39 n, 28 e; Ca: 20 p, 20 n, 20 e), which one of the following options is correct?",
+   "option_a": "As³⁻, Ga³⁺, Ca",
+   "option_b": "As⁺, Ga²⁺, Ca",
+   "option_c": "As³⁺, Ga³⁺, Ca²⁺",
+   "option_d": "As⁺, Ga, Ca²⁺",
+   "is_active": false,
+   "is_verified": false
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 50,
+  "match_question_text": "If the e/m value of electron is 1.7588 x 10^11 coulombs Kg-1, then what would be the mass of electron in grams (charge on electron is 1.6022 x 10^-19 coulombs)?",
+  "match_option_a": "9.1095 x 10^-31 g",
+  "set": {
+   "question_text": "If the e/m value of electron is 1.7588 × 10¹¹ coulombs Kg⁻¹, then what would be the mass of electron in grams (charge on electron is 1.6022 × 10⁻¹⁹ coulombs)?",
+   "option_a": "9.1095 × 10⁻³¹ g",
+   "option_b": "91.095 × 10⁻³¹ g",
+   "option_c": "9.1095 × 10⁻²⁸ g",
+   "option_d": "0.919095 × 10⁻³³ g"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 51,
+  "match_question_text": "The suitable representation of dot structure of chlorine molecule is:",
+  "match_option_a": "Structure A",
+  "set": {
+   "option_a": "Each Cl with its own dots and no electron pair shared between them",
+   "option_b": "One shared electron pair, each Cl with three lone pairs",
+   "option_c": "Two bond lines between the Cl atoms, one lone pair on each",
+   "option_d": "One shared electron pair, one lone pair on each Cl"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 53,
+  "match_question_text": "2H2 + O2 → 2H2O, ΔH = +285.5 kJ mol-1 (as written the reaction should release energy on formation; treat the sign as printed). What will be the enthalpy change in the above reaction?",
+  "match_option_a": "205.5 kJ/mol",
+  "set": {
+   "question_text": "2H₂ + O₂ → 2H₂O  ΔH = +285.5 kJ mol⁻¹. What will be the enthalpy change in the above reaction?",
+   "option_c": "−205.5 kJ/mol",
+   "is_active": false,
+   "is_verified": false
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 54,
+  "match_question_text": "Combustion of graphite to form CO2 can be done by two ways: C + O2 → CO2, ΔH = -393.7 kJ mol-1; C + ½O2 → CO, ΔH = ?; CO + ½O2 → CO2, ΔH = -283 kJ mol-1. What will be the enthalpy of formation of CO?",
+  "match_option_a": "-676 kJ mol-1",
+  "set": {
+   "question_text": "Combustion of graphite to form CO₂ can be done by two ways: C + O₂ → CO₂, ΔH = -393.7 kJ mol⁻¹; C + ½O₂ → CO, ΔH = ?; CO + ½O₂ → CO₂, ΔH = -283 kJ mol⁻¹. What will be the enthalpy of formation of CO?",
+   "option_a": "-676 kJ mol⁻¹",
+   "option_b": "-110 kJ mol⁻¹",
+   "option_c": "110 kJ mol⁻¹",
+   "option_d": "676 kJ mol⁻¹"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 55,
+  "match_question_text": "The value of equilibrium constant (Kc) for the reaction 2HF(s) ⇌ H2(g) + F2(g) is 10^-13 at 2000°C. Calculate the value of Kp for this reaction:",
+  "match_option_a": "2 x 10^-13",
+  "set": {
+   "question_text": "The value of equilibrium constant (Kc) for the reaction 2HF(g) ⇌ H₂(g) + F₂(g) is 10⁻¹³ at 2000 °C. Calculate the value of Kp for this reaction:",
+   "option_a": "2 × 10⁻¹³",
+   "option_b": "10⁻¹³",
+   "option_c": "186 × 10⁻¹³",
+   "option_d": "3.48 × 10⁻⁹",
+   "explanation_short": "Kp = Kc(RT)^Δn. Two moles of gas give two moles of gas, so Δn = 0 and Kp = Kc = 10⁻¹³.",
+   "explanation_long": "Kp and Kc are related by Kp = Kc(RT)^Δn, where Δn is moles of gaseous products minus moles of gaseous reactants. For 2HF ⇌ H₂ + F₂, Δn = (1 + 1) − 2 = 0, so (RT)⁰ = 1 and Kp = Kc = 10⁻¹³. (The paper prints HF as a solid, 2HF(s), which is impossible at 2000 °C and a misprint; the key treats HF as a gas, and the equation is shown that way here. Taking the misprint literally gives Δn = 2 and option D.)",
+   "explanation_trick": "Equal moles of gas on both sides → Kp = Kc.",
+   "explanation_options": {
+    "a": "Wrong — there is no factor of 2 in Kp = Kc(RT)^Δn.",
+    "b": "Correct — Δn = 0, so Kp = Kc.",
+    "c": "Wrong — 186 × 10⁻¹³ is Kc × RT, which would need Δn = 1.",
+    "d": "Wrong — 3.48 × 10⁻⁹ is Kc(RT)², which would need Δn = 2."
+   }
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 56,
+  "match_question_text": "The vapor pressure lines for pure as well as solutions of different concentrations are shown, with T1>T2>T3>T4. Which line represents pure water?",
+  "match_option_a": "Line (i)",
+  "set": {
+   "question_text": "The vapor pressure lines for pure as well as solutions of different concentrations are shown, with T₁ > T₂ > T₃ > T₄. Which line represents pure water?"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 57,
+  "match_question_text": "In SO4^-2 the oxidation number of Sulphur is",
+  "match_option_a": "-8",
+  "set": {
+   "question_text": "In SO₄²⁻ the oxidation number of Sulphur is"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 59,
+  "match_question_text": "What will be the pH of a solution of NaOH with a concentration of 10^-3 M?",
+  "match_option_a": "3",
+  "set": {
+   "question_text": "What will be the pH of a solution of NaOH with a concentration of 10⁻³ M?"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 61,
+  "match_question_text": "For the reaction 2NO + O2 ⇌ 2NO2, the rate equation for the forward reaction is",
+  "match_option_a": "Rate = k[NO][O2]",
+  "set": {
+   "question_text": "For the reaction 2NO + O₂ ⇌ 2NO₂, the rate equation for the forward reaction is",
+   "option_a": "Rate = k[NO][O₂]",
+   "option_b": "Rate = k[NO]²[O₂]",
+   "option_c": "Rate = k[NO₂]²",
+   "option_d": "Rate = k[NO₂]"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 63,
+  "match_question_text": "One mole of glucose was dissolved in 1 kg of water, ethanol, ether and benzene separately and the molal boiling point constant of each individual solution was found to be 0.52, 1.75, 2.16 and 2.70 °C kg mol-1 respectively. Which of the following figures (I-IV) shows benzene as solvent in solution?",
+  "match_option_a": "I",
+  "set": {
+   "question_text": "One mole of glucose was dissolved in 1 kg of water, ethanol, ether and benzene separately and the molal boiling point constant of each individual solution was found to be 0.52, 1.75, 2.16 and 2.70 °C kg mol⁻¹ respectively. Which of the following figures (I–IV) shows benzene as solvent in solution?"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 65,
+  "match_question_text": "Arrange the following elements according to the trend of ionization energies. (C, N, Ne, B)",
+  "match_option_a": "Ne < N < C < B",
+  "set": {
+   "option_b": "B < N < C < Ne",
+   "option_c": "B < C < N < Ne",
+   "explanation_long": "Across period 2, effective nuclear charge increases while atomic radius shrinks, so it takes progressively more energy to remove an electron. Although N shows a slight extra stability from its half-filled 2p³ configuration, the overall increasing trend from B to C to N to the noble gas Ne holds. (The paper prints 'Na' for 'Ne' in options B and C; it is shown corrected here.)",
+   "explanation_options": {
+    "a": "This places Ne (highest IE) first, reversing the correct increasing order.",
+    "b": "Doesn't follow the correct left-to-right increasing trend.",
+    "c": "Correct — B < C < N < Ne, rising across the period.",
+    "d": "Places Ne first, which contradicts the increasing trend across the period."
+   }
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 66,
+  "match_question_text": "Which one of the following noble gases is used for providing an inert atmosphere for welding?",
+  "match_option_a": "Helium",
+  "set": {
+   "correct_answer": "A",
+   "explanation_short": "Helium, an inert noble gas, is used to give an inert atmosphere for welding (argon is used the same way); the UHS key marks helium.",
+   "explanation_long": "In arc welding the hot metal must be shielded from oxygen and nitrogen of the air, so an unreactive noble gas is blown over the weld. Helium is used for this, especially for aluminium and magnesium, and argon is the other common shielding gas. Both are correct uses, and the UHS key marks A. Neon and krypton are not used for welding.",
+   "explanation_trick": "Shielding gases for welding: He and Ar.",
+   "explanation_options": {
+    "a": "Correct (UHS key) — helium provides an inert welding atmosphere.",
+    "b": "Wrong — neon is used in advertising signs, not welding.",
+    "c": "Also used as a shielding gas, but the key marks helium.",
+    "d": "Wrong — krypton is too rare and costly; it is used in some lamps."
+   }
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 67,
+  "match_question_text": "Electronic configuration of Manganese (Mn) is shown via orbital-box diagrams for 3d and 4s subshells.",
+  "match_option_a": "Configuration A",
+  "set": {
+   "question_text": "Electronic configuration of Manganese (Mn) is",
+   "option_a": "[Ar] 3d: ↑ ↑ ↑ ↑ ↑, 4s: ↑↓",
+   "option_b": "[Ar] 3d: ↑↓ ↑↓ ↑↓ ↑↓ ↑↓, 4s: ↑",
+   "option_c": "[Ar] 3d: ↑↓ ↑↓ ↑ ↑ ↑, 4s: ↑↓",
+   "option_d": "[Ar] 3d: ↑↓ ↑↓ ↑↓ ↑ ↑, 4s: ↑"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 68,
+  "match_question_text": "The percentage of carbon in different types of iron products is in the order of",
+  "match_option_a": "Cast Iron > Wrought Iron > Steel",
+  "set": {
+   "is_active": false,
+   "is_verified": false
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 69,
+  "match_question_text": "Which one of the following is the correct equation of 1st ionization of sulphuric acid?",
+  "match_option_a": "H2SO4(aq) + H2O(l) → 2H+ + SO4^2- (single arrow)",
+  "set": {
+   "option_a": "H₂SO₄(aq) + H₂O(l) → 2H⁺ + SO₄²⁻",
+   "option_b": "H₂SO₄(aq) + H₂O(l) → H⁺(aq) + HSO₄⁻",
+   "option_c": "H₂SO₄(aq) + H₂O(l) ⇌ 2H⁺ + SO₄²⁻",
+   "option_d": "H₂SO₄(aq) + H₂O(l) ⇌ H₃O⁺ + SO₄²⁻"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 70,
+  "match_question_text": "Which one of the following is the correct chemical reaction for Ammonia formation by Haber process?",
+  "match_option_a": "N2(g) + 3H2(g) → 2NH3(g) (single arrow)",
+  "set": {
+   "option_a": "N₂(g) + 3H₂(g) → 2NH₃(g)",
+   "option_b": "2N(g) + 3H₂(g) ⇌ NH₃(g)",
+   "option_c": "2N(g) + 3H₂(g) → 2NH₃(g)",
+   "option_d": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g)"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 73,
+  "match_question_text": "Which one of the following pairs of compounds is cis and trans isomers of each other? (four pairs of substituted-alkene skeletal structures)",
+  "match_option_a": "Pair A",
+  "set": {
+   "question_text": "Which one of the following pairs of compounds is cis and trans isomers of each other?",
+   "option_a": "CH₃CH₂–CH=CH–CH₃ drawn with the two H atoms on the same side, and with them on opposite sides",
+   "option_b": "CH₃–CH=CH–CH₃ (CH₃ groups on the same side) and CH₃–CH=CH₂",
+   "option_c": "BrCH=CHCl with Br and Cl on the same side, drawn twice",
+   "option_d": "(Br)(C₂H₅)C=C(Cl)(C₂H₅) and (Br)(CH₃)C=C(Br)(C₂H₅)"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 74,
+  "match_question_text": "Which one of the following compounds is a ketone?",
+  "match_option_a": "CH3-O-CH2-CH3",
+  "set": {
+   "option_a": "CH₃-O-CH₂-CH₃",
+   "option_b": "CH₃-CO-CH₂-CH₃",
+   "option_c": "CH₃COCOOH",
+   "option_d": "CH₃-CH₂CHO"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 78,
+  "match_question_text": "If halogenoalkanes are mixed with an excess of ethanoic ammonia and heated under pressure, amines are formed. Which amine is formed in the reaction CH3CH2Br + NH3 → Amine?",
+  "match_option_a": "CH3-CH2-NH-CH2-CH3",
+  "set": {
+   "question_text": "If halogenoalkanes are mixed with an excess of ethanoic ammonia and heated under pressure, amines are formed. Which amine is formed in the reaction CH₃CH₂Br + NH₃ → Amine?",
+   "option_a": "CH₃-CH₂-NH-CH₂-CH₃",
+   "option_b": "CH₃-CH₂-NH₂",
+   "option_c": "CH₃-CH₂-CH₂-NH₂",
+   "option_d": "H₂N-CH₂-CH₂-NH₂"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 82,
+  "match_question_text": "The formula of 2,4,6-tribromophenol is (four benzene-ring structures showing Br substitution positions)",
+  "match_option_a": "Structure A",
+  "set": {
+   "question_text": "The formula of 2,4,6-tribromophenol is",
+   "option_a": "C₆H₃Br₃ — three Br at alternate ring positions, no –OH",
+   "option_b": "C₆H₂Br₃OH — Br at both ortho positions and the para position to –OH",
+   "option_c": "C₆H₂Br₃OH — Br on three adjacent carbons, meta, para and meta to –OH",
+   "option_d": "C₆H₂Br₃OH — Br at both ortho positions and one meta position to –OH"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 85,
+  "match_question_text": "The structural formula of the product of reaction of acetone with 2,4-dinitrophenylhydrazine is:",
+  "match_option_a": "Structure A",
+  "set": {
+   "option_a": "CH₃(H)C=N–NH–C₆H₄–NO₂ (one NO₂, para)",
+   "option_b": "(CH₃)₂C=N–NH–C₆H₄–NO₂ (one NO₂, para)",
+   "option_c": "CH₃(H)C=N–NH–C₆H₃(NO₂)₂ (NO₂ at 2 and 4)",
+   "option_d": "(CH₃)₂C=N–NH–C₆H₃(NO₂)₂ (NO₂ at 2 and 4)"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 86,
+  "match_question_text": "For the reaction: ? + HCN --Base--> CH3-C(OH)(CN)-C2H5.",
+  "match_option_a": "C2H5COCH3",
+  "set": {
+   "question_text": "For the reaction: ? + HCN --Base--> CH₃-C(OH)(CN)-C₂H₅.",
+   "option_a": "C₂H₅COCH₃",
+   "option_b": "C₂H₅CH(CH₃)OH",
+   "option_c": "CH₃COCH₃",
+   "option_d": "C₂H₅CH₂CHO"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 91,
+  "match_question_text": "Which one of the following is Glutamic Acid? (four amino-acid structures)",
+  "match_option_a": "Structure A",
+  "set": {
+   "question_text": "Which one of the following is Glutamic Acid?",
+   "option_a": "H₂N–CH(CH₂CH₂COOH)–COOH",
+   "option_b": "H₂N–CH(CH₂COOH)–COOH",
+   "option_c": "H₂N–CH₂–COOH",
+   "option_d": "H₂N–CH(CH₃)–COOH"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 93,
+  "match_question_text": "The structure shown below (partially recovered: CH=C-CH2-CH(NH2)-COOH with an imidazole-like N/NH ring) represents:",
+  "match_option_a": "Proline",
+  "set": {
+   "question_text": "The structure shown below (a five-membered ring –C=CH–N=CH–NH– carrying –CH₂–CH(NH₂)–COOH) represents:"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 101,
+  "match_question_text": "Polystyrene is an addition polymer. Which one of the following structures represents the monomer of polystyrene?",
+  "match_option_a": "CH2=CH2",
+  "set": {
+   "option_a": "CH₂=CH₂",
+   "option_b": "CH₂=CH-CH₃",
+   "option_c": "CH₂=CH-Cl",
+   "option_d": "CH₂=CH-C₆H₅"
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 105,
+  "match_question_text": "She ___________ about the excitement on hearing the news of her sister's wedding.",
+  "match_option_a": "Ran",
+  "set": {
+   "correct_answer": "B",
+   "explanation_short": "'Jigged about' means danced or moved about excitedly — what she did on hearing the happy news.",
+   "explanation_long": "To 'jig about' is to dance or jump up and down in a lively way, which fits someone who is excited by good news: 'She jigged about in excitement on hearing the news of her sister's wedding.' 'Ran about' and 'talked about the excitement' do not describe a reaction to excitement, and 'wept' does not suit excitement.",
+   "explanation_trick": "Jig = a lively dance → jigged about = danced with excitement.",
+   "explanation_options": {
+    "a": "Wrong — 'ran about the excitement' makes no sense.",
+    "b": "Correct — 'jigged about' means danced about with excitement.",
+    "c": "Wrong — 'talked about the excitement' changes the meaning to discussing it.",
+    "d": "Wrong — weeping does not express excitement."
+   }
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 107,
+  "match_question_text": "SPOT THE ERROR: We were ten miles up the highway (when I happened)[a] (to saw this)[b] (classified advertisement)[c] (in the newspaper.)[d]",
+  "match_option_a": "when I happened",
+  "set": {
+   "question_text": "SPOT THE ERROR: (We were)[a] ten miles (up the)[b] highway when I happened (to saw this)[c] classified advertisement (in the)[d] newspaper.",
+   "option_a": "We were",
+   "option_b": "up the",
+   "option_c": "to saw this",
+   "option_d": "in the",
+   "correct_answer": "C",
+   "explanation_short": "'To saw' is wrong: after 'to' the base form is needed — 'happened to see this'.",
+   "explanation_long": "'Happened' is followed by a to-infinitive, and an infinitive uses the base form of the verb: 'I happened to see this classified advertisement'. 'Saw' is the past tense of 'see' and cannot follow 'to'. The other underlined parts are correct.",
+   "explanation_trick": "to + base verb: to see, never to saw.",
+   "explanation_options": {
+    "a": "Wrong — 'We were' is correct.",
+    "b": "Wrong — 'up the highway' is correct.",
+    "c": "Correct — should be 'to see this'.",
+    "d": "Wrong — 'in the newspaper' is correct."
+   }
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 108,
+  "match_question_text": "SPOT THE ERROR: “(All is well)[a] (what ends well)[b],” (said the father)[c] (when he had finished the story.)[d]",
+  "match_option_a": "All is well",
+  "set": {
+   "question_text": "SPOT THE ERROR: “All (is well what)[a] ends well”, (said the)[b] father (when he had)[c] finished (the story)[d].",
+   "option_a": "is well what",
+   "option_b": "said the",
+   "option_c": "when he had",
+   "option_d": "the story",
+   "correct_answer": "A",
+   "explanation_short": "The proverb is 'All is well that ends well' — 'what' should be 'that'.",
+   "explanation_long": "The fixed proverb reads 'All's well that ends well'. The relative pronoun referring back to 'all' is 'that', not 'what', so the underlined 'is well what' contains the error. The reporting clause and the rest of the sentence are correct.",
+   "explanation_trick": "All … that: 'all that glitters', 'all's well that ends well'.",
+   "explanation_options": {
+    "a": "Correct — should be 'is well that'.",
+    "b": "Wrong — 'said the father' is correct.",
+    "c": "Wrong — 'when he had finished' is correct past perfect.",
+    "d": "Wrong — 'the story' is correct."
+   }
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 109,
+  "match_question_text": "SPOT THE ERROR: (Rubber tubes upon which children had swing in backyards)[a] (hung suspended)[b] (like stopped clock)[c] pendulums in the blazing air.[d]",
+  "match_option_a": "Rubber tubes upon which children had swing in backyards",
+  "set": {
+   "question_text": "SPOT THE ERROR: Rubber tubes (upon which)[a] children (had swing in backyards)[b] hung (suspended like)[c] stopped clock pendulums (in the)[d] blazing air.",
+   "option_a": "upon which",
+   "option_b": "had swing in backyards",
+   "option_c": "suspended like",
+   "option_d": "in the",
+   "correct_answer": "B",
+   "explanation_short": "'Had swing' is wrong: the past perfect needs the past participle — 'had swung'.",
+   "explanation_long": "The past perfect is formed with 'had' + past participle. The past participle of 'swing' is 'swung', so the sentence should read 'children had swung in backyards'. The other underlined parts are correct.",
+   "explanation_trick": "swing – swung – swung.",
+   "explanation_options": {
+    "a": "Wrong — 'upon which' correctly refers to the rubber tubes.",
+    "b": "Correct — should be 'had swung'.",
+    "c": "Wrong — 'hung suspended like' is correct.",
+    "d": "Wrong — 'in the blazing air' is correct."
+   }
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 110,
+  "match_question_text": "SPOT THE ERROR: (The child was fully dressed)[a] (and sitting)[b] (in her father's lap)[c] (near the kitchen table.)[d]",
+  "match_option_a": "The child was fully dressed",
+  "set": {
+   "question_text": "SPOT THE ERROR: The child was (fully)[a] dressed and (sitting)[b] (in)[c] her father's lap near the (kitchen table)[d].",
+   "option_a": "fully",
+   "option_b": "sitting",
+   "option_c": "in",
+   "option_d": "kitchen table",
+   "correct_answer": "C",
+   "explanation_short": "The key marks 'in': the expected phrase is 'sitting on her father's lap'.",
+   "explanation_long": "A child sits on someone's lap — the lap is a surface — so the expected preposition is 'on': 'sitting on her father's lap'. ('In her lap' is heard too, especially for objects held in the lap, but the key treats 'in' as the error.) 'Fully dressed', 'sitting' and 'kitchen table' are correct.",
+   "explanation_trick": "Sit on a lap, a chair, a bench; sit in an armchair, a car.",
+   "explanation_options": {
+    "a": "Wrong — 'fully dressed' is correct.",
+    "b": "Wrong — 'sitting' correctly continues 'was … dressed and sitting'.",
+    "c": "Correct (UHS key) — should be 'on her father's lap'.",
+    "d": "Wrong — 'kitchen table' is correct."
+   }
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 111,
+  "match_question_text": "SPOT THE ERROR: (The three Abdal Rahman,)[a] (like his illustrious predecessor,)[b] (was a young man of twenty-three)[c] when he took office.[d]",
+  "match_option_a": "The three Abdal Rahman,",
+  "set": {
+   "question_text": "SPOT THE ERROR: (The three)[a] Abdal Rahman, (like his)[b] illustrious predecessor, (was a)[c] young man of twenty-three (when he)[d] took office.",
+   "option_a": "The three",
+   "option_b": "like his",
+   "option_c": "was a",
+   "option_d": "when he",
+   "explanation_short": "A ruler's number in a name uses an ordinal: 'The third Abdal Rahman' (Abd al-Rahman III).",
+   "explanation_long": "When several rulers share a name, they are distinguished by ordinal numbers — first, second, third. 'The three Abdal Rahman' should be 'The third Abdal Rahman'; the singular verb 'was' and 'his' confirm one person is meant. The other underlined parts are correct.",
+   "explanation_trick": "Rulers take ordinals: Henry the Eighth, Abd al-Rahman the Third.",
+   "explanation_options": {
+    "a": "Correct — should be 'The third'.",
+    "b": "Wrong — 'like his illustrious predecessor' is correct.",
+    "c": "Wrong — 'was a young man' agrees with one person.",
+    "d": "Wrong — 'when he took office' is correct."
+   }
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 112,
+  "match_question_text": "SPOT THE ERROR: Enlarged and beautified by later Caliphs, (Al-Zahra become the)[a] (nucleus of a royal suburb)[b] (whose remain partly evacuated)[c] (in and after 1910, can still be seen.)[d]",
+  "match_option_a": "Al-Zahra become the",
+  "set": {
+   "question_text": "SPOT THE ERROR: Enlarged and beautified (by later)[a] Caliphs, Al-Zahra (become the)[b] nucleus of a royal suburb (whose remain)[c] partly evacuated (in and after)[d] 1910, can still be seen.",
+   "option_a": "by later",
+   "option_b": "become the",
+   "option_c": "whose remain",
+   "option_d": "in and after",
+   "correct_answer": "C",
+   "explanation_short": "Withheld: both 'become' (→ became) and 'whose remain' (→ whose remains) are errors.",
+   "explanation_long": "This item has two underlined errors: 'Al-Zahra become' should be 'became' (past tense), and 'whose remain' should be 'whose remains' ('remains' = ruins). The key marks C, but B is equally wrong, so the question is withheld.",
+   "explanation_trick": "Only one underlined part should contain an error.",
+   "explanation_options": {
+    "a": "Wrong — 'by later Caliphs' is correct.",
+    "b": "Also an error — should be 'became'.",
+    "c": "UHS key — should be 'whose remains'.",
+    "d": "Wrong — 'in and after 1910' is correct."
+   },
+   "is_active": false,
+   "is_verified": false
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 154,
+  "match_question_text": "Which one of the following is the optimum pH of pancreatic lipase enzyme?",
+  "match_option_a": "7.60",
+  "set": {
+   "correct_answer": "C",
+   "explanation_short": "Pancreatic lipase works best at pH 9.00 (textbook value).",
+   "explanation_long": "Each enzyme has an optimum pH at which its active site works best. Pepsin in the stomach works at about pH 2.00, sucrase at 4.50, salivary amylase at 6.80, while pancreatic lipase, acting in the alkaline contents of the small intestine, has an optimum pH of 9.00 in the textbook table.",
+   "explanation_trick": "Pepsin 2.00, pancreatic lipase 9.00.",
+   "explanation_options": {
+    "a": "Wrong — 7.60 is not the optimum for pancreatic lipase.",
+    "b": "Wrong — 8.00 is not the textbook value.",
+    "c": "Correct — 9.00.",
+    "d": "Wrong — 9.70 is higher than its optimum."
+   }
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 167,
+  "match_question_text": "Gastric glands are composed of ___________ types of cells",
+  "match_option_a": "Two",
+  "set": {
+   "correct_answer": "B",
+   "explanation_short": "Gastric glands have three types of cells: mucous cells, chief (peptic) cells and oxyntic (parietal) cells.",
+   "explanation_long": "The gastric glands in the stomach wall contain three kinds of secretory cells: mucous cells secrete mucus, chief or peptic cells secrete pepsinogen, and oxyntic or parietal cells secrete hydrochloric acid. (Hormone-secreting G cells also occur in the stomach lining, but the textbook describes the glands as made of these three cell types.)",
+   "explanation_trick": "Gastric glands: mucus (mucous cells), pepsinogen (chief cells), HCl (oxyntic cells) — three.",
+   "explanation_options": {
+    "a": "Wrong — there are more than two.",
+    "b": "Correct — mucous, chief and oxyntic cells.",
+    "c": "Wrong — the textbook count is three.",
+    "d": "Wrong — the textbook count is three."
+   }
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 209,
+  "match_question_text": "Which of the following is the correct sequence of PCR?",
+  "match_option_a": "Heating → Cooling → Add Primer → Copying of strand",
+  "set": {
+   "correct_answer": "A",
+   "explanation_short": "PCR: heat to separate the DNA strands, cool so the primers can attach, then DNA polymerase copies each strand.",
+   "explanation_long": "Each PCR cycle starts by heating the DNA to about 94 °C so the two strands separate. The mixture is then cooled so that the short primers bind (anneal) to their complementary sites on the single strands, and finally DNA polymerase extends the primers, copying each strand. The textbook sequence is therefore heating → cooling with primers → copying. (In a laboratory the primers are already in the tube before heating, but they can only attach after the strands have been separated and cooled.)",
+   "explanation_trick": "Denature (hot) → anneal primers (cool) → extend (copy).",
+   "explanation_options": {
+    "a": "Correct — heating, cooling, primer attachment, copying.",
+    "b": "Wrong — primers attach only once the mixture has cooled.",
+    "c": "Wrong — primers cannot attach before the strands are separated by heating.",
+    "d": "Wrong — the cycle starts with heating, not cooling."
+   }
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 212,
+  "match_question_text": "Which one of the following is the ultimate distributional unit within which a species is restrained by the limitations of its physical structure and physiology?",
+  "match_option_a": "Niche",
+  "set": {
+   "correct_answer": "A",
+   "explanation_short": "Grinnell defined the niche as the ultimate distributional unit within which a species is held by its structural and physiological limits.",
+   "explanation_long": "The phrase in the question is Joseph Grinnell's classic definition of the ecological niche: the ultimate distributional unit within which each species is held by its structural and instinctive limitations. A habitat is simply the place where an organism lives; an ecosystem and a biome are much larger units that contain many species.",
+   "explanation_trick": "'Ultimate distributional unit' = niche (Grinnell).",
+   "explanation_options": {
+    "a": "Correct — this is the definition of a niche.",
+    "b": "Wrong — a biome is a large regional community.",
+    "c": "Wrong — an ecosystem includes many species and their environment.",
+    "d": "Wrong — a habitat is only the place where a species lives."
+   }
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 216,
+  "match_question_text": "A gene that has more than one phenotypic effect is called",
+  "match_option_a": "Pleiotropic",
+  "set": {
+   "question_text": "When a gene suppresses the effects of a gene at another locus, this is known as",
+   "option_a": "Epistasis",
+   "option_b": "Co-dominance",
+   "option_c": "Complete dominance",
+   "option_d": "Mutation",
+   "explanation_short": "A gene masking the effect of a non-allelic gene at another locus is epistasis.",
+   "explanation_long": "In epistasis one gene masks or suppresses the phenotypic expression of a different gene at another locus. Co-dominance and complete dominance are relationships between alleles of the same gene, and a mutation is a change in the DNA. (The paper prints 'expresses the effects of a gene at another focus', a misprint for suppresses … locus.)",
+   "explanation_trick": "Epistasis = between different genes; dominance = between alleles of one gene.",
+   "explanation_options": {
+    "a": "Correct — one gene masks another non-allelic gene.",
+    "b": "Wrong — co-dominance is between two alleles of the same gene.",
+    "c": "Wrong — complete dominance is between alleles of the same gene.",
+    "d": "Wrong — a mutation is a change in DNA, not an interaction between genes."
+   }
+  }
+ },
+ {
+  "year": 2014,
+  "question_number": 218,
+  "match_question_text": "A gene which masks the expression of another non-allelic gene is called",
+  "match_option_a": "Pleiotropic",
+  "set": {
+   "correct_answer": "A",
+   "question_text": "A gene which affects two or more unrelated characteristics is called",
+   "explanation_short": "A single gene affecting two or more unrelated characters is pleiotropic.",
+   "explanation_long": "Pleiotropy is when one gene influences several apparently unrelated traits; for example, the sickle-cell allele affects red cell shape, resistance to malaria and damage to many organs. An epistatic gene masks another gene; dominant describes an allele that hides its partner; a mutant gene is simply altered.",
+   "explanation_trick": "Pleio = many: one gene, many effects.",
+   "explanation_options": {
+    "a": "Correct — one gene, several unrelated effects.",
+    "b": "Wrong — an epistatic gene masks the effect of another gene.",
+    "c": "Wrong — dominance is about one allele hiding another.",
+    "d": "Wrong — mutant only means the gene is altered."
+   }
+  }
+ }
+]

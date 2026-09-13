@@ -7,7 +7,7 @@
   "topic": "Electromagnetism",
   "subtopic": "Magnetic Flux Density",
   "difficulty": null,
-  "question_text": "Which of the following graph represents the output of an X-ray? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
+  "question_text": "Which of the following graph represents the output of an X-ray?",
   "options": {
    "a": "Graph A",
    "b": "Graph B",
@@ -16,8 +16,8 @@
   },
   "correct_answer": "a",
   "explanation": null,
-  "is_active": false,
-  "needs_review": true,
+  "is_active": true,
+  "needs_review": false,
   "notes": "All four options (A-D) are Intensity-vs-Wavelength graphs for X-ray output shown only as images, with no text distinguishing them. Needs figure to confirm answer (a).",
   "source_file": "mdcat_2016.py",
   "tag_confidence": "low"
@@ -720,7 +720,7 @@
   "topic": "Current Electricity",
   "subtopic": "Ohm''s Law",
   "difficulty": null,
-  "question_text": "Total resistance between 'A' and 'B' in the given circuit is: [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] (four 5Ω resistors arranged between points A and B)",
+  "question_text": "Total resistance between 'A' and 'B' in the given circuit is:",
   "options": {
    "a": "5.6 Ω",
    "b": "3.33 Ω",
@@ -729,8 +729,8 @@
   },
   "correct_answer": "d",
   "explanation": null,
-  "is_active": false,
-  "needs_review": true,
+  "is_active": true,
+  "needs_review": false,
   "notes": "Circuit diagram of four 5-ohm resistors between points A and B. Needs figure to confirm answer (d, 6.6 Ohms).",
   "source_file": "mdcat_2016.py",
   "tag_confidence": "high"
@@ -1203,7 +1203,7 @@
   "topic": "Chemical Bonding",
   "subtopic": "Sigma and Pi Bonds",
   "difficulty": null,
-  "question_text": "Choose the right molecule. [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
+  "question_text": "Choose the right molecule.",
   "options": {
    "a": "CH₃",
    "b": "CO",
@@ -1212,8 +1212,8 @@
   },
   "correct_answer": "d",
   "explanation": null,
-  "is_active": false,
-  "needs_review": true,
+  "is_active": true,
+  "needs_review": false,
   "notes": "Question stem is entirely a molecule structure image (\"Choose the right molecule\") with no text description at all. Needs figure to confirm answer (d, NH3).",
   "source_file": "mdcat_2016.py",
   "tag_confidence": "high"
@@ -1226,17 +1226,17 @@
   "topic": "Chemistry of Hydrocarbons",
   "subtopic": "Nomenclature of Alkynes",
   "difficulty": null,
-  "question_text": "Structure shown is: [-C(=O)-C₆H₄-C(=O)-O-CH₂-CH₂-O-]ₙ [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]. Indicate the name of above given structure.",
+  "question_text": "Indicate the name of above given structure.",
   "options": {
    "a": "Nylon 6,6",
    "b": "Adipic Acid",
    "c": "PVA",
    "d": "Polyester"
   },
-  "correct_answer": "c",
+  "correct_answer": "d",
   "explanation": null,
-  "is_active": false,
-  "needs_review": true,
+  "is_active": true,
+  "needs_review": false,
   "notes": "Structural formula of a polyester repeat unit shown as an image; partially reconstructable from OCR (two C=O groups linked via O-CH2-CH2-O, repeating unit 'n'). Needs figure to confirm answer (d, Polyester).",
   "source_file": "mdcat_2016.py",
   "tag_confidence": "high"
@@ -1456,7 +1456,7 @@
   "topic": "Chemical Bonding",
   "subtopic": "Sigma and Pi Bonds",
   "difficulty": null,
-  "question_text": "Structure shown (ethylene, H₂C=CH₂). [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] Calculate the number of σ bonds and π bonds in the molecule.",
+  "question_text": "Calculate the number of σ bonds and π bonds in the molecule.",
   "options": {
    "a": "1π and 5σ bonds",
    "b": "2π and 4σ bonds",
@@ -1465,8 +1465,8 @@
   },
   "correct_answer": "a",
   "explanation": null,
-  "is_active": false,
-  "needs_review": true,
+  "is_active": true,
+  "needs_review": false,
   "notes": "Structure of a small hydrocarbon (appears to be ethylene, H2C=CH2) shown as an image for counting sigma/pi bonds. Needs figure to confirm answer (a, 1π and 5σ bonds).",
   "source_file": "mdcat_2016.py",
   "tag_confidence": "high"
@@ -1571,17 +1571,17 @@
   "topic": "Electrochemistry",
   "subtopic": "Redox Reactions",
   "difficulty": null,
-  "question_text": "The diagram shows a galvanic cell (Cu electrode in 1M CuSO₄ solution, H₂ electrode in 1M HCl solution, joined by a porous partition). [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] The current will flow from:",
+  "question_text": "The diagram shows a galvanic cell. The current will flow from:",
   "options": {
    "a": "Hydrogen electrode to copper electrode",
    "b": "Copper electrode to hydrogen electrode",
    "c": "Hydrogen electrode to HCl solution",
    "d": "CuSO₄ solution to hydrogen electrode"
   },
-  "correct_answer": "a",
+  "correct_answer": "b",
   "explanation": null,
-  "is_active": false,
-  "needs_review": true,
+  "is_active": true,
+  "needs_review": false,
   "notes": "Diagram of a galvanic cell (Cu electrode in 1M CuSO4, H2 electrode in 1M HCl, joined by a porous partition). Text labels were partially recovered but the full circuit layout is image-only. Needs figure to confirm answer (a).",
   "source_file": "mdcat_2016.py",
   "tag_confidence": "high"
@@ -1962,7 +1962,7 @@
   "topic": "Chemistry of Hydrocarbons",
   "subtopic": "Nomenclature of Alkenes",
   "difficulty": null,
-  "question_text": "Skeletal formula of an organic compound is given below (hydrocarbon). [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] IUPAC name of the compound is:",
+  "question_text": "Skeletal formula of an organic compound is given below: It is a hydrocarbon. IUPAC name of the compound is:",
   "options": {
    "a": "3,3-dimethyl-3-hexene",
    "b": "3,4-dimethyl-3-hexene",
@@ -1971,8 +1971,8 @@
   },
   "correct_answer": "b",
   "explanation": null,
-  "is_active": false,
-  "needs_review": true,
+  "is_active": true,
+  "needs_review": false,
   "notes": "Skeletal (line-angle) formula of a hydrocarbon shown only as an image, to be IUPAC-named. Needs figure to confirm answer (b, 3,4-dimethyl-3-hexene).",
   "source_file": "mdcat_2016.py",
   "tag_confidence": "high"
@@ -2100,7 +2100,7 @@
   "topic": "Fundamental Principles of Organic Chemistry",
   "subtopic": "Isomerism (Stereoisomerism)",
   "difficulty": null,
-  "question_text": "Structure of an alcohol (branched carbon skeleton ending in -OH). [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] Which one of the following is the proper classification of above formula:",
+  "question_text": "Which one of the following is the proper classification of above formula:",
   "options": {
    "a": "Primary",
    "b": "Secondary",
@@ -2109,8 +2109,8 @@
   },
   "correct_answer": "c",
   "explanation": null,
-  "is_active": false,
-  "needs_review": true,
+  "is_active": true,
+  "needs_review": false,
   "notes": "Structure of an alcohol (partially recovered as a branched carbon skeleton ending in -OH) shown as an image, to classify as primary/secondary/tertiary. Needs figure to confirm answer (c, Tertiary).",
   "source_file": "mdcat_2016.py",
   "tag_confidence": "high"
@@ -2123,7 +2123,7 @@
   "topic": "Chemistry of Hydrocarbons",
   "subtopic": "Shapes of Alkenes (Sigma/Pi Bonds)",
   "difficulty": null,
-  "question_text": "Which one of the following is an appropriate structure of product of bromination? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
+  "question_text": "Which one of the following is an appropriate structure of product of bromination?",
   "options": {
    "a": "Structure A",
    "b": "Structure B",
@@ -2132,8 +2132,8 @@
   },
   "correct_answer": "c",
   "explanation": null,
-  "is_active": false,
-  "needs_review": true,
+  "is_active": true,
+  "needs_review": false,
   "notes": "Four brominated-phenol product structures (options A-D) shown as images. Needs figure to confirm answer (c).",
   "source_file": "mdcat_2016.py",
   "tag_confidence": "high"
@@ -2146,7 +2146,7 @@
   "topic": "Fundamental Principles of Organic Chemistry",
   "subtopic": "Functional Groups",
   "difficulty": null,
-  "question_text": "Structure of a nitro-substituted phenol (three -NO2 groups). [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] Which one of the following is an appropriate name of above compound?",
+  "question_text": "Which one of the following is an appropriate name of above compound?",
   "options": {
    "a": "1,3,6-Trinitrophenol",
    "b": "m-Nitrophenol",
@@ -2155,8 +2155,8 @@
   },
   "correct_answer": "d",
   "explanation": null,
-  "is_active": false,
-  "needs_review": true,
+  "is_active": true,
+  "needs_review": false,
   "notes": "Structure of a nitro-substituted phenol (positions of three -NO2 groups shown only as an image) to be named. Needs figure to confirm answer (d, Picric acid).",
   "source_file": "mdcat_2016.py",
   "tag_confidence": "high"
@@ -2169,7 +2169,7 @@
   "topic": "Chemistry of Hydrocarbons",
   "subtopic": "MOT of Benzene, Resonance, Resonance Energy",
   "difficulty": null,
-  "question_text": "Structure: (CH₃)₂C=N-NH-C₆H₃(NO₂)₂. [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] It is the general formula of:",
+  "question_text": "It is the general formula of:",
   "options": {
    "a": "2,4-Dinitrophenyl hydrazine",
    "b": "1,3-Dinitrophenyl hydrazone",
@@ -2178,8 +2178,8 @@
   },
   "correct_answer": "d",
   "explanation": null,
-  "is_active": false,
-  "needs_review": true,
+  "is_active": true,
+  "needs_review": false,
   "notes": "Structure of a hydrazone/hydrazine derivative (partially recovered: a C=N-NH- linkage to a dinitro-substituted ring) shown as an image. Needs figure to confirm answer (d, 2,4-Dinitrophenyl hydrazone).",
   "source_file": "mdcat_2016.py",
   "tag_confidence": "high"

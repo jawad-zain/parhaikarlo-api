@@ -7,7 +7,7 @@
     "topic": "Electronics",
     "subtopic": "Operational Amplifiers (OP-AMP)",
     "difficulty": null,
-    "question_text": "If R1 = 10 kΩ and R2 = 100 kΩ then the gain of op-amplifier as inverting amplifier is:",
+    "question_text": "If R₁ = 10 kΩ and R₂ = 100 kΩ then the gain of op-amplifier as inverting amplifier is:",
     "options": {
       "a": "–1",
       "b": "10",
@@ -57,10 +57,10 @@
     "difficulty": null,
     "question_text": "The value of Stefan’s Boltzmann Constant is:",
     "options": {
-      "a": "4.28 x 10-7 Wm-2K-4",
-      "b": "4.28 x 10-4 Wm-2K-4",
-      "c": "3.62 x 10-4 Wm-2K-4",
-      "d": "5.67 x 10-5 Wm-2K-4"
+      "a": "4.28 × 10⁻⁷ Wm⁻²K⁻⁴",
+      "b": "4.28 × 10⁻⁴ Wm⁻²K⁻⁴",
+      "c": "3.62 × 10⁻⁴ Wm⁻²K⁻⁴",
+      "d": "5.67 × 10⁻⁸ Wm⁻²K⁻⁴"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -103,12 +103,12 @@
     "topic": "Waves",
     "subtopic": "Compton effect",
     "difficulty": null,
-    "question_text": "In Compton Effect, the value of h moc is given by:",
+    "question_text": "In Compton Effect, the value of h/m₀c is given by:",
     "options": {
-      "a": "1.43 x 10-11 m",
-      "b": "2.56 x 10-12 m",
-      "c": "2.43 x 10-12 m",
-      "d": "3.46 x 10-6 m"
+      "a": "1.43 × 10⁻¹¹ m",
+      "b": "2.56 × 10⁻¹² m",
+      "c": "2.43 × 10⁻¹² m",
+      "d": "3.46 × 10⁻⁶ m"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -129,10 +129,10 @@
     "difficulty": null,
     "question_text": "If a particle of mass 5.0 mg moves with the speed of 8.0 m/sec, then the de-Broglie’s wavelength will be:",
     "options": {
-      "a": "1.68 x 10-27 m",
-      "b": "1.70 x 10-25 m",
-      "c": "1.65 x 10-29 m",
-      "d": "1.66 x 10-29 m"
+      "a": "1.68 × 10⁻²⁷ m",
+      "b": "1.70 × 10⁻²⁵ m",
+      "c": "1.65 × 10⁻²⁹ m",
+      "d": "1.66 × 10⁻²⁹ m"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -249,10 +249,10 @@
     "difficulty": null,
     "question_text": "The dimensions of gravitational constant “G” are:",
     "options": {
-      "a": "[ML-2T-1]",
-      "b": "[M2L-2T-1]",
-      "c": "[ML-2T-2]",
-      "d": "[M-1L3T-1]"
+      "a": "[ML⁻²T⁻¹]",
+      "b": "[M²L⁻²T⁻¹]",
+      "c": "[ML⁻²T⁻²]",
+      "d": "[M⁻¹L³T⁻²]"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -295,12 +295,12 @@
     "topic": "Vectors and Equilibrium",
     "subtopic": "Addition of Vectors (Rectangular Components)",
     "difficulty": null,
-    "question_text": "Unit vector in the direction of vector 2i − 4j will be:",
+    "question_text": "Unit vector in the direction of vector 2î − 4ĵ will be:",
     "options": {
-      "a": "2i − 4j √6",
-      "b": "4i − 2j √10",
-      "c": "i − 2j √5",
-      "d": "i − 2j √7"
+      "a": "(2î − 4ĵ)/√6",
+      "b": "(4î − 2ĵ)/√10",
+      "c": "(î − 2ĵ)/√5",
+      "d": "(î − 2ĵ)/√7"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -415,7 +415,7 @@
     "topic": "Waves",
     "subtopic": "Interference (Newton's Rings, Thin Films)",
     "difficulty": null,
-    "question_text": "In Michelson’s interferometer 792 bright fringes pass across the field of view when its movable mirror is displaced through 0.233 mm using the equation l = m λ 2 the wavelength of light used is:",
+    "question_text": "In Michelson’s interferometer 792 bright fringes pass across the field of view when its movable mirror is displaced through 0.233 mm. Using the equation l = mλ/2, the wavelength of light used is:",
     "options": {
       "a": "588 nm",
       "b": "620 nm",
@@ -441,10 +441,10 @@
     "difficulty": null,
     "question_text": "In Michelson’s Experiment, the formula to calculate the speed of light is:",
     "options": {
-      "a": "c = 2 fd",
-      "b": "c = 2π f d",
-      "c": "c = 16 f d",
-      "d": "c = 16 fd"
+      "a": "c = 2fd",
+      "b": "c = 2πf/d",
+      "c": "c = 16f/d",
+      "d": "c = 16fd"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -513,10 +513,10 @@
     "difficulty": null,
     "question_text": "The value of universal; Gas Constant ‘R’ is;",
     "options": {
-      "a": "8.314 Jmol-2K-1",
-      "b": "1.38 Jmol-1K-2",
-      "c": "1.38 Jmol-1K-1",
-      "d": "8.314 Jmol-1K-1"
+      "a": "8.314 Jmol⁻²K⁻¹",
+      "b": "1.38 Jmol⁻¹K⁻²",
+      "c": "1.38 Jmol⁻¹K⁻¹",
+      "d": "8.314 Jmol⁻¹K⁻¹"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -609,10 +609,10 @@
     "difficulty": null,
     "question_text": "In Millikan’s Method, the radius of droplet can be calculated by:",
     "options": {
-      "a": "r = qvt 2ρg",
-      "b": "r2 = 9ηvt ρg",
-      "c": "r2 = 9ηvt 2ρg",
-      "d": "r = 9ηvt 2ρg"
+      "a": "r = √(qvₜ/2ρg)",
+      "b": "r² = 9ηvₜ/ρg",
+      "c": "r² = 9ηvₜ/2ρg",
+      "d": "r = 9ηvₜ/2ρg"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -631,7 +631,7 @@
     "topic": "Vectors and Equilibrium",
     "subtopic": "Scalar Product of Vectors",
     "difficulty": null,
-    "question_text": "The scalar product of i and k is:",
+    "question_text": "The scalar product of î and k̂ is:",
     "options": {
       "a": "Zero",
       "b": "90°",
@@ -681,10 +681,10 @@
     "difficulty": null,
     "question_text": "Speed of light, radio waves and microwaves in vacuum is:",
     "options": {
-      "a": "3 x 105 ms-1",
-      "b": "3 x 103 ms-1",
-      "c": "3 x 106 ms-1",
-      "d": "3 x 108 ms-1"
+      "a": "3 × 10⁵ ms⁻¹",
+      "b": "3 × 10³ ms⁻¹",
+      "c": "3 × 10⁶ ms⁻¹",
+      "d": "3 × 10⁸ ms⁻¹"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -703,12 +703,12 @@
     "topic": "Force and Motion",
     "subtopic": "Acceleration",
     "difficulty": null,
-    "question_text": "A body is moving with an initial velocity of 2 kms-1. After a time of 50 secs its velocity becomes 1.5 kms-1. Its acceleration will be:",
+    "question_text": "A body is moving with an initial velocity of 2 kms⁻¹. After a time of 50 secs its velocity becomes 1.5 kms⁻¹. Its acceleration will be:",
     "options": {
-      "a": "30 ms-1",
-      "b": "40 ms-1",
-      "c": "20 ms-1",
-      "d": "10 ms-1"
+      "a": "30 ms⁻²",
+      "b": "40 ms⁻²",
+      "c": "20 ms⁻²",
+      "d": "10 ms⁻²"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -751,12 +751,12 @@
     "topic": "Force and Motion",
     "subtopic": "Collisions (Elastic and Inelastic)",
     "difficulty": null,
-    "question_text": "In elastic collision, when a massive body collides with light body at conditions m1 >> m2 and v2 = 0 ms-1, then the change in velocity will be written as:",
+    "question_text": "In elastic collision, when a massive body collides with light body at conditions m₁ >> m₂ and v₂ = 0 ms⁻¹, then the change in velocity will be written as:",
     "options": {
-      "a": "v1’ ≈ − v1 ; v2’ ≈ v1",
-      "b": "v1’ ≈ v1 ; v2’ ≈ 0",
-      "c": "v1’ ≈ v1 ; v2’ ≈ 2v1",
-      "d": "v1’ ≈ − v1 ; v2’ ≈ 0"
+      "a": "v₁′ ≈ −v₁ ; v₂′ ≈ v₁",
+      "b": "v₁′ ≈ v₁ ; v₂′ ≈ 0",
+      "c": "v₁′ ≈ v₁ ; v₂′ ≈ 2v₁",
+      "d": "v₁′ ≈ −v₁ ; v₂′ ≈ 0"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -801,10 +801,10 @@
     "difficulty": null,
     "question_text": "A bullet train is lifted above the rails due to magnetic effect, thus friction is reduced to minimum and speed can be enhanced up to:",
     "options": {
-      "a": "500 Km min-1",
-      "b": "500 Km sec-1",
-      "c": "1000 Km h-1",
-      "d": "500 Km h-1"
+      "a": "500 Km min⁻¹",
+      "b": "500 Km sec⁻¹",
+      "c": "1000 Km h⁻¹",
+      "d": "500 Km h⁻¹"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -873,10 +873,10 @@
     "difficulty": null,
     "question_text": "Solar energy at normal incidence outside the earth’s atmosphere is about:",
     "options": {
-      "a": "2.5 kWm-2",
-      "b": "0.6 kWm-2",
-      "c": "1.4 kWm-2",
-      "d": "2.0 kWm-2"
+      "a": "2.5 kWm⁻²",
+      "b": "0.6 kWm⁻²",
+      "c": "1.4 kWm⁻²",
+      "d": "2.0 kWm⁻²"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -895,12 +895,12 @@
     "topic": "Rotational and Circular Motion",
     "subtopic": "Relation Between Angular and Linear Quantities",
     "difficulty": null,
-    "question_text": "Linear velocity or tangential velocity of any particle moving in a circular path of radius 2 m with angular velocity 8 rads-1 will be:",
+    "question_text": "Linear velocity or tangential velocity of any particle moving in a circular path of radius 2 m with angular velocity 8 rads⁻¹ will be:",
     "options": {
-      "a": "16 ms-1",
-      "b": "4 ms-1",
-      "c": "10 ms-1",
-      "d": "6 ms-1"
+      "a": "16 ms⁻¹",
+      "b": "4 ms⁻¹",
+      "c": "10 ms⁻¹",
+      "d": "6 ms⁻¹"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -921,12 +921,12 @@
     "difficulty": null,
     "question_text": "What is torque ‘τ’ in a circular motion?",
     "options": {
-      "a": "τ = mr2π",
-      "b": "τ = mr2α",
+      "a": "τ = mr²π",
+      "b": "τ = mr²α",
       "c": "τ = mrα",
-      "d": "τ = mr2/α"
+      "d": "τ = mr²/α"
     },
-    "correct_answer": "a",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -976,8 +976,8 @@
     },
     "correct_answer": "b",
     "explanation": null,
-    "is_active": true,
-    "needs_review": false,
+    "is_active": false,
+    "needs_review": true,
     "notes": null,
     "is_visual_required": false,
     "source_file": "mdcat_2009.py",
@@ -993,10 +993,10 @@
     "difficulty": null,
     "question_text": "A tiny droplet of oil of density ‘ρ’ and radius ‘r’ falls through air under force of gravity. If viscosity of air is ‘η’, the terminal velocity acquired by the oil drop is given by:",
     "options": {
-      "a": "vt = 4gr2ρ 9η",
-      "b": "vt = 9ηr2ρ 4g",
-      "c": "vt = 2gr2ρ 9η",
-      "d": "vt = 9ηr2ρ 2g"
+      "a": "vₜ = 4gr²ρ/9η",
+      "b": "vₜ = 9ηr²ρ/4g",
+      "c": "vₜ = 2gr²ρ/9η",
+      "d": "vₜ = 9ηr²ρ/2g"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -1017,10 +1017,10 @@
     "difficulty": null,
     "question_text": "Torricelli’s theorem be written as:",
     "options": {
-      "a": "v2 = 2g (h1 - h2)",
-      "b": "v2 = g (h2 - h1)",
-      "c": "v2 = 2g (h2 - h1)",
-      "d": "v2 = g (h1 - h2)"
+      "a": "v₂ = √(2g(h₁ − h₂))",
+      "b": "v₂ = √(g(h₂ − h₁))",
+      "c": "v₂ = √(2g(h₂ − h₁))",
+      "d": "v₂ = √(g(h₁ − h₂))"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -1041,10 +1041,10 @@
     "difficulty": null,
     "question_text": "When the spaceship rotates with ________ frequency, the artificial gravity like earth is produced to inhabitants of the ship:",
     "options": {
-      "a": "2π R g",
-      "b": "2π ℓ g",
-      "c": "1 2π R g",
-      "d": "1 2π R g"
+      "a": "2π√(R/g)",
+      "b": "2π√(ℓ/g)",
+      "c": "(1/2π)√(R/g)",
+      "d": "(1/2π)√(g/R)"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -1065,10 +1065,10 @@
     "difficulty": null,
     "question_text": "In a microwave oven, the wave produced has a wavelength of 12 cm at a frequency of:",
     "options": {
-      "a": "2452 Hz",
-      "b": "2456 Hz",
-      "c": "2455 Hz",
-      "d": "2450 Hz"
+      "a": "2452 MHz",
+      "b": "2456 MHz",
+      "c": "2455 MHz",
+      "d": "2450 MHz"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -1090,7 +1090,7 @@
     "question_text": "Speed of the waves is equal to:",
     "options": {
       "a": "fλ",
-      "b": "λ T",
+      "b": "λ/T",
       "c": "Both A and B",
       "d": "λT"
     },
@@ -1113,10 +1113,10 @@
     "difficulty": null,
     "question_text": "A particle carrying charge of 2e falls through a potential difference of 3.0 V. Calculate the energy required by it:",
     "options": {
-      "a": "9.6 x 10-19 J",
-      "b": "9.1 x 10-19 J",
-      "c": "1.6 x 10-19 J",
-      "d": "6.0 x 10-19 J"
+      "a": "9.6 × 10⁻¹⁹ J",
+      "b": "9.1 × 10⁻¹⁹ J",
+      "c": "1.6 × 10⁻¹⁹ J",
+      "d": "6.0 × 10⁻¹⁹ J"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -1209,10 +1209,10 @@
     "difficulty": null,
     "question_text": "Force experienced by a moving change in a magnetic field is:",
     "options": {
-      "a": "F = BA cosϴ",
-      "b": "B) F = μo NI",
-      "c": "F = q (v x",
-      "d": "F = I (L x B)"
+      "a": "F = BA cos θ",
+      "b": "F = μ₀NI",
+      "c": "F = q(v × B)",
+      "d": "F = I(L × B)"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -1233,10 +1233,10 @@
     "difficulty": null,
     "question_text": "The value of permeability of free space μo is:",
     "options": {
-      "a": "4π x 10-7 WbA-1m-1",
-      "b": "4π x 102 WbA-2m-2",
-      "c": "4π x 10-7 WbA-2m-1",
-      "d": "4π x 102 WbA-1m-2"
+      "a": "4π × 10⁻⁷ WbA⁻¹m⁻¹",
+      "b": "4π × 10² WbA⁻²m⁻²",
+      "c": "4π × 10⁻⁷ WbA⁻²m⁻¹",
+      "d": "4π × 10² WbA⁻¹m⁻²"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -1375,12 +1375,12 @@
     "topic": "Alternating Current",
     "subtopic": "Phase of Alternating Current",
     "difficulty": null,
-    "question_text": "In R-L Series circuit, the phase difference between applied voltage and current is given by the angle ϴ which is:",
+    "question_text": "In R-L Series circuit, the phase difference between applied voltage and current is given by the angle θ which is:",
     "options": {
-      "a": "ϴ = tan-1 LR ω",
-      "b": "ϴ = tan-1 ωLR",
-      "c": "ϴ = tan-1 ω g",
-      "d": "ϴ = tan-1 ωR L"
+      "a": "θ = tan⁻¹(LR/ω)",
+      "b": "θ = tan⁻¹(ωLR)",
+      "c": "θ = tan⁻¹(ωL/R)",
+      "d": "θ = tan⁻¹(ωR/L)"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -1449,10 +1449,10 @@
     "difficulty": null,
     "question_text": "Which of the following is an exothermic reaction?",
     "options": {
-      "a": "H+(aq) + OH−(aq) H2O(l)",
-      "b": "Na(g) Na+(g) + 1e−",
-      "c": "1 2 H2(g) H(g)",
-      "d": "1 2 Cl2(g) Cl(g)"
+      "a": "H⁺(aq) + OH⁻(aq) → H₂O(l)",
+      "b": "Na(g) → Na⁺(g) + 1e⁻",
+      "c": "½H₂(g) → H(g)",
+      "d": "½Cl₂(g) → Cl(g)"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -1471,7 +1471,7 @@
     "topic": "Reaction Kinetics",
     "subtopic": "Order of Reaction",
     "difficulty": null,
-    "question_text": "The rate equation determined experimentally for this reaction: (CH3)3―C―Br + H2O (CH3)3―C―OH + HBr Is, Rate = k[(CH3)3CBr] Hence it is which of the follwing?",
+    "question_text": "The rate equation determined experimentally for the reaction (CH₃)₃C–Br + H₂O → (CH₃)₃C–OH + HBr is Rate = k[(CH₃)₃CBr]. Hence it is which of the following?",
     "options": {
       "a": "Fractional Order",
       "b": "Pseudo First Order",
@@ -1495,12 +1495,12 @@
     "topic": "Chemical Equilibrium",
     "subtopic": "Chemical Equilibrium (Reversible Reactions)",
     "difficulty": null,
-    "question_text": "Equilibrium constant Kc for H2O H+ + OH− Can be written as follows:",
+    "question_text": "Equilibrium constant Kc for H₂O → H⁺ + OH⁻ can be written as follows:",
     "options": {
-      "a": "Kc = H+ [H2O][OH-]",
-      "b": "Kc = [OH-] H+[OH-]",
-      "c": "Kc = [OH-]H+ [H2O]",
-      "d": "Kc = [H2O] H+[OH-]"
+      "a": "Kc = [H⁺]/([H₂O][OH⁻])",
+      "b": "Kc = [OH⁻]/([H⁺][OH⁻])",
+      "c": "Kc = [OH⁻][H⁺]/[H₂O]",
+      "d": "Kc = [H₂O]/([H⁺][OH⁻])"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -1528,8 +1528,8 @@
     },
     "correct_answer": "a",
     "explanation": null,
-    "is_active": true,
-    "needs_review": false,
+    "is_active": false,
+    "needs_review": true,
     "notes": null,
     "is_visual_required": false,
     "source_file": "mdcat_2009.py",
@@ -1593,10 +1593,10 @@
     "difficulty": null,
     "question_text": "During isotopic analysis, the pressure of the vapours of the ions maintained in the ionization chamber of mass spectrometer is:",
     "options": {
-      "a": "Around 10-7 torr",
-      "b": "Around 10-3 torr",
+      "a": "Around 10⁻⁷ torr",
+      "b": "Around 10⁻³ torr",
       "c": "1 torr",
-      "d": "10-7 torr"
+      "d": "10⁻⁷ torr"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -1689,10 +1689,10 @@
     "difficulty": null,
     "question_text": "The formula of acrylonitrile is:",
     "options": {
-      "a": "CH3=CH―CN",
-      "b": "CH3―CH2―CH2―CN",
-      "c": "CH3―CH2―CN",
-      "d": "CH3―CN"
+      "a": "CH₂=CH–CN",
+      "b": "CH₃–CH₂–CH₂–CN",
+      "c": "CH₃–CH₂–CN",
+      "d": "CH₃–CN"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -1762,9 +1762,9 @@
     "question_text": "Grignard reagents are prepared by the reaction of magnesium metal with alkyl halides in the presence of:",
     "options": {
       "a": "Dry Ether",
-      "b": "CS2",
+      "b": "CS₂",
       "c": "Alcohol",
-      "d": "CCl4"
+      "d": "CCl₄"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -1831,7 +1831,7 @@
     "topic": "Alcohols and Phenols",
     "subtopic": "Electrophilic Aromatic Substitution in Phenols",
     "difficulty": null,
-    "question_text": "Phenol reacts with concentrated H2SO4 to give:",
+    "question_text": "Phenol reacts with concentrated H₂SO₄ to give:",
     "options": {
       "a": "ortho hydroxy benzene sulphonic acid",
       "b": "meta hydroxy benzene sulphonic acid",
@@ -1857,10 +1857,10 @@
     "difficulty": null,
     "question_text": "Phenol can be distinguished from alcohol by adding:",
     "options": {
-      "a": "Br2/H2O",
-      "b": "Cl2/H2O",
-      "c": "FeSO4",
-      "d": "FeCl3"
+      "a": "Br₂/H₂O",
+      "b": "Cl₂/H₂O",
+      "c": "FeSO₄",
+      "d": "FeCl₃"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -1903,7 +1903,7 @@
     "topic": "Aldehydes and Ketones",
     "subtopic": "Oxidation Reactions",
     "difficulty": null,
-    "question_text": "When acetone is heated in the presence of K2Cr2O7/H2SO4, the products formed are;",
+    "question_text": "When acetone is heated in the presence of K₂Cr₂O₇/H₂SO₄, the products formed are:",
     "options": {
       "a": "Maleic Acid and Fumaric Acid",
       "b": "Acetic Acid and Formic Acid",
@@ -1934,7 +1934,7 @@
       "c": "Carbonic Acid",
       "d": "Oxalic Acid"
     },
-    "correct_answer": "c",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1958,7 +1958,7 @@
       "c": "CH₃CHO (acetaldehyde)",
       "d": "CH₃COCH₃ (acetone)"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2121,10 +2121,10 @@
     "difficulty": null,
     "question_text": "Absolute zero is unattainable. Current attempts have resulted in temperature as low as:",
     "options": {
-      "a": "10-4 K",
-      "b": "10-2 K",
-      "c": "10-1 K",
-      "d": "10-5 K"
+      "a": "10⁻⁴ K",
+      "b": "10⁻² K",
+      "c": "10⁻¹ K",
+      "d": "10⁻⁵ K"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -2337,9 +2337,9 @@
     "difficulty": null,
     "question_text": "Which of the following formation is an endothermic reaction?",
     "options": {
-      "a": "C(g) + O2(g) CO2",
-      "b": "N2(g) + 3H2(g) 2NH3(g)",
-      "c": "2H2O(l) 2H2(g) + O2(g)",
+      "a": "C(g) + O₂(g) → CO₂",
+      "b": "N₂(g) + 3H₂(g) → 2NH₃(g)",
+      "c": "2H₂O(l) → 2H₂(g) + O₂(g)",
       "d": "None of the above"
     },
     "correct_answer": "c",
@@ -2359,12 +2359,12 @@
     "topic": "Chemical Equilibrium",
     "subtopic": "Common Ion Effect",
     "difficulty": null,
-    "question_text": "Solubility of KClO3 can be decreased bin H2O by:",
+    "question_text": "Solubility of KClO₃ in H₂O can be decreased by:",
     "options": {
-      "a": "Removing K+ ions from the solution",
-      "b": "Removing ClO3-1 ions from the solution",
+      "a": "Removing K⁺ ions from the solution",
+      "b": "Removing ClO₃⁻ ions from the solution",
       "c": "Adding KCl from outside",
-      "d": "Adding NaNO3 from outside"
+      "d": "Adding NaNO₃ from outside"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -2383,7 +2383,7 @@
     "topic": "Fundamental Concepts of Chemistry",
     "subtopic": "Concentration Units (ppm, Molarity)",
     "difficulty": null,
-    "question_text": "36 g of HCl dissolves in 100 g of solution. The density of HCl is 1.19 gcm-3. The molar mass of the HCl solution will be:",
+    "question_text": "36 g of HCl dissolves in 100 g of solution. The density of HCl is 1.19 gcm⁻³. The molar mass of the HCl solution will be:",
     "options": {
       "a": "36.5 g/mol",
       "b": "100 g/mol",
@@ -2482,9 +2482,9 @@
     "question_text": "In nickel-cadmium battery, the cathode is composed of:",
     "options": {
       "a": "Cd",
-      "b": "Ni(OH)2",
+      "b": "Ni(OH)₂",
       "c": "Ni",
-      "d": "NiO2"
+      "d": "NiO₂"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -2553,10 +2553,10 @@
     "difficulty": null,
     "question_text": "Hydrogen loses an electron to form:",
     "options": {
-      "a": "H+",
-      "b": "H2−2",
+      "a": "H⁺",
+      "b": "H₂²⁻",
       "c": "H",
-      "d": "H−"
+      "d": "H⁻"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -2673,10 +2673,10 @@
     "difficulty": null,
     "question_text": "Formula of lead suboxide is:",
     "options": {
-      "a": "Pb2O3",
-      "b": "Pb2O",
+      "a": "Pb₂O₃",
+      "b": "Pb₂O",
       "c": "PbO",
-      "d": "Pb3O4"
+      "d": "Pb₃O₄"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -2793,10 +2793,10 @@
     "difficulty": null,
     "question_text": "Chromyl Chloride Test is performed to confirm:",
     "options": {
-      "a": "Cl− ions",
-      "b": "SO4−2 ions",
-      "c": "PO4−3 ions",
-      "d": "Cr+3 ions"
+      "a": "Cl⁻ ions",
+      "b": "SO₄²⁻ ions",
+      "c": "PO₄³⁻ ions",
+      "d": "Cr³⁺ ions"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -2817,9 +2817,9 @@
     "difficulty": null,
     "question_text": "Linear shape is associated with set of hybrid orbitals?",
     "options": {
-      "a": "sp2",
-      "b": "dsp2",
-      "c": "sp3",
+      "a": "sp²",
+      "b": "dsp²",
+      "c": "sp³",
       "d": "sp"
     },
     "correct_answer": "d",
@@ -2843,7 +2843,7 @@
     "options": {
       "a": "1-butene",
       "b": "1-hexene",
-      "c": "1-bromo-2-chloropropane",
+      "c": "1-bromo-2-chloropropene",
       "d": "Propene"
     },
     "correct_answer": "c",
@@ -2863,7 +2863,7 @@
     "topic": "Alkyl Halides",
     "subtopic": "Grignard Reagents",
     "difficulty": null,
-    "question_text": "CH3―CH2―MgBr + H2O + X Where ‘X’ is:",
+    "question_text": "CH₃–CH₂–MgBr + H₂O → Mg(Br)OH + X. Where ‘X’ is:",
     "options": {
       "a": "Propane",
       "b": "Butane",
@@ -3127,7 +3127,7 @@
     "topic": "Writing Skills",
     "subtopic": "Faulty Sentence Structure",
     "difficulty": null,
-    "question_text": "",
+    "question_text": "Choose the CORRECT sentence.",
     "options": {
       "a": "E-mail is a relatively new mean of communication.",
       "b": "E-mail is a relatively new mean to communication.",
@@ -3151,7 +3151,7 @@
     "topic": "Writing Skills",
     "subtopic": "Faulty Sentence Structure",
     "difficulty": null,
-    "question_text": "",
+    "question_text": "Choose the CORRECT sentence.",
     "options": {
       "a": "As she said the computer was programmed by Mona.",
       "b": "Just like she said the computer was programmed by Mona.",
@@ -3175,7 +3175,7 @@
     "topic": "Writing Skills",
     "subtopic": "Faulty Sentence Structure",
     "difficulty": null,
-    "question_text": "",
+    "question_text": "Choose the CORRECT sentence.",
     "options": {
       "a": "The remains of the body were thrown into the sea.",
       "b": "The remain of the body was thrown into the sea.",
@@ -3199,7 +3199,7 @@
     "topic": "Writing Skills",
     "subtopic": "Faulty Sentence Structure",
     "difficulty": null,
-    "question_text": "",
+    "question_text": "Choose the CORRECT sentence.",
     "options": {
       "a": "We will discuss your problem as soon as the committee will leave.",
       "b": "We will discuss your problem as soon as the committee left.",
@@ -3223,7 +3223,7 @@
     "topic": "Writing Skills",
     "subtopic": "Faulty Sentence Structure",
     "difficulty": null,
-    "question_text": "",
+    "question_text": "Choose the CORRECT sentence.",
     "options": {
       "a": "Reaching for the book, the ladder slipped out from under him.",
       "b": "Reaching for the book, the ladder slipped out from him.",
@@ -3247,7 +3247,7 @@
     "topic": "Writing Skills",
     "subtopic": "Faulty Sentence Structure",
     "difficulty": null,
-    "question_text": "",
+    "question_text": "Choose the CORRECT sentence.",
     "options": {
       "a": "After the sun has set behind the mountain, a cool breeze sprang up and brought relief from the heat.",
       "b": "After the sun had been set behind the mountain, a cool breeze sprang up and brought relief from the heat.",
@@ -3271,7 +3271,7 @@
     "topic": "Writing Skills",
     "subtopic": "Faulty Sentence Structure",
     "difficulty": null,
-    "question_text": "",
+    "question_text": "Choose the CORRECT sentence.",
     "options": {
       "a": "Masood told me that he would hire more salesman if he is in my position.",
       "b": "Masood told me that he would hire more salesman if he has been in my position.",
@@ -3295,7 +3295,7 @@
     "topic": "Writing Skills",
     "subtopic": "Faulty Sentence Structure",
     "difficulty": null,
-    "question_text": "",
+    "question_text": "Choose the CORRECT sentence.",
     "options": {
       "a": "He consumed his heart on this and washed away before the very eyes of the people.",
       "b": "He consumed his heart at this and washed away before the very eyes of the people",
@@ -3319,7 +3319,7 @@
     "topic": "Writing Skills",
     "subtopic": "Faulty Sentence Structure",
     "difficulty": null,
-    "question_text": "",
+    "question_text": "Choose the CORRECT sentence.",
     "options": {
       "a": "They felt bad while leaving their friends.",
       "b": "They felt badly about leaving their friends.",
@@ -3343,7 +3343,7 @@
     "topic": "Writing Skills",
     "subtopic": "Faulty Sentence Structure",
     "difficulty": null,
-    "question_text": "",
+    "question_text": "Choose the CORRECT sentence.",
     "options": {
       "a": "He then struck the man himself a similar bow, which felled him on the earth like a log.",
       "b": "He then struck the man himself a similar bow, which felled him over the earth like a log.",
@@ -3590,7 +3590,7 @@
       "c": "Allegory",
       "d": "Suitable"
     },
-    "correct_answer": "d",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3614,7 +3614,7 @@
       "c": "CGATACC",
       "d": "CGUTCC"
     },
-    "correct_answer": "c",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3730,7 +3730,7 @@
     "question_text": "Aldosterone plays role in:",
     "options": {
       "a": "Transport of water",
-      "b": "Transport of K+ ions into kidney",
+      "b": "Transport of K⁺ ions into kidney",
       "c": "Uptake of sodium in loop of Henle",
       "d": "Reabsorption of water"
     },
@@ -4070,7 +4070,7 @@
       "c": "Down’s Syndrome",
       "d": "Edward’s Syndrome"
     },
-    "correct_answer": "b",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4166,10 +4166,10 @@
       "c": "Rh+ antigens are present on RBCs",
       "d": "Rh+ antibodies are present in blood"
     },
-    "correct_answer": "a",
+    "correct_answer": "c",
     "explanation": null,
-    "is_active": true,
-    "needs_review": false,
+    "is_active": false,
+    "needs_review": true,
     "notes": null,
     "is_visual_required": false,
     "source_file": "mdcat_2009.py",
@@ -4792,8 +4792,8 @@
     },
     "correct_answer": "a",
     "explanation": null,
-    "is_active": true,
-    "needs_review": false,
+    "is_active": false,
+    "needs_review": true,
     "notes": null,
     "is_visual_required": false,
     "source_file": "mdcat_2009.py",
@@ -4838,7 +4838,7 @@
       "c": "Chitin",
       "d": "Cellulose"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -5219,7 +5219,7 @@
     "options": {
       "a": "Bicarbonate",
       "b": "Carboxyhemoglobin",
-      "c": "CO2",
+      "c": "CO₂",
       "d": "Blood plasma protein"
     },
     "correct_answer": "a",
@@ -5248,8 +5248,8 @@
     },
     "correct_answer": "a",
     "explanation": null,
-    "is_active": true,
-    "needs_review": false,
+    "is_active": false,
+    "needs_review": true,
     "notes": null,
     "is_visual_required": false,
     "source_file": "mdcat_2009.py",

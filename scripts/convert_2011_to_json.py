@@ -1,4 +1,9 @@
 """
+DO NOT RE-RUN (2026-09-13): MDCAT_2011.json and the DB carry a content re-check that this
+converter does not reproduce (science-over-key answers Q4/33/70/72/189/213, Q4 options restored, Q34 keyed-option
+misprint repaired, stem leaks and giveaway option labels removed, typography). Its embedded key was replaced with the verbatim printed key.
+Source of truth: parsed-mcqs/MDCAT_2011.json + scripts/mdcat_2011_corrections_by_content.json.
+
 Adapter: mdcat_2011.py -> parsed-mcqs/MDCAT_2011.json
 
 Unlike the 2012-2019/2022 adapters, mdcat_2011.py has NO built-in answer key
@@ -69,7 +74,7 @@ ANSWER_KEY_RAW = """
 41:C 42:B 43:D 44:D 45:C 46:D 47:B 48:A 49:D 50:C 51:C 52:C 53:D 54:D 55:B 56:A 57:D 58:A 59:D 60:D
 61:A 62:D 63:C 64:D 65:C 66:B 67:A 68:A 69:D 70:A 71:C 72:B 73:A 74:C 75:A 76:A 77:A 78:B 79:B 80:A
 81:A 82:B 83:D 84:A 85:C 86:A 87:D 88:B 89:D 90:A 91:A 92:A 93:D 94:A 95:B 96:B 97:D 98:A 99:A 100:C
-101:D 102:D 103:A 104:A 105:B 106:C 107:D 108:A 109:D 110:D 111:A 112:D 113:A 114:A 115:A 116:A 117:B 118:B 119:C 120:D
+101:D 102:D 103:A 104:A 105:B 106:C 107:D 108:A 109:D 110:D 111:A 112:D 113:C 114:C 115:C 116:B 117:B 118:B 119:C 120:D
 121:C 122:C 123:D 124:A 125:A 126:C 127:B 128:B 129:C 130:D 131:A 132:A 133:C 134:A 135:A 136:A 137:A 138:A 139:B 140:B
 141:A 142:C 143:B 144:C 145:C 146:B 147:A 148:A 149:A 150:C 151:B 152:C 153:D 154:B 155:B 156:A 157:A 158:C 159:A 160:D
 161:B 162:A 163:A 164:D 165:D 166:B 167:C 168:D 169:A 170:A 171:B 172:A 173:A 174:A 175:B 176:D 177:C 178:B 179:A 180:D

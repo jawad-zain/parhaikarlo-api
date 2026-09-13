@@ -1,0 +1,700 @@
+[
+ {
+  "year": 2013,
+  "question_number": 1,
+  "match_question_text": "The wavelength 'λ' of a wave depends on the speed 'v' of the wave and its frequency 'f'. Decide which of the following is correct?",
+  "match_option_a": "f = v λ",
+  "set": {
+   "option_a": "f = vλ",
+   "option_d": "f = vλ⁻²"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 2,
+  "match_question_text": "Name the quantity which can be measured by using base unit 'kgm2s-3'",
+  "match_option_a": "Weight",
+  "set": {
+   "question_text": "Name the quantity which can be measured by using base unit 'kg m² s⁻³'"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 4,
+  "match_question_text": "Due to some mechanical fault, a lift falls freely from the top of a multistory building. Which of the followings is the apparent weight of a man inside the lift, if mass of man is 80 kg while value of 'g' is 10 ms-2?",
+  "match_option_a": "900 N",
+  "set": {
+   "question_text": "Due to some mechanical fault, a lift falls freely from the top of a multistory building. Which of the followings is the apparent weight of a man inside the lift, if mass of man is 80 kg while value of 'g' is 10 m s⁻²?"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 5,
+  "match_question_text": "Stokes' Law is given as:",
+  "match_option_a": "F = 6πηr2v",
+  "set": {
+   "option_a": "F = 6πηr²v",
+   "option_c": "F = 6πηrv⁻¹",
+   "option_d": "F = 6π²ηr³v"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 11,
+  "match_question_text": "What is the formula for critical angle in case of light through two mediums having refractive indexes n1 and n2 such that n1 > n2?",
+  "match_option_a": "sin-1(n1/n2)",
+  "set": {
+   "question_text": "What is the formula for critical angle in case of light through two mediums having refractive indexes n₁ and n₂ such that n₁ > n₂?",
+   "option_a": "sin⁻¹(n₁/n₂)",
+   "option_b": "cos⁻¹(n₁/n₂)",
+   "option_c": "cos⁻¹(n₂/n₁)",
+   "option_d": "sin⁻¹(n₂/n₁)"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 12,
+  "match_question_text": "For vibrating mass-spring system, the expression of kinetic energy at any displacement 'x' is given by:",
+  "match_option_a": "(1/2)kxo2 (1 - x2/xo2)",
+  "set": {
+   "correct_answer": "A",
+   "option_a": "½kx₀²(1 − x²/x₀²)",
+   "option_b": "½kx₀²",
+   "option_c": "½mω(1 − x²/x₀²)",
+   "option_d": "½mω²x₀",
+   "explanation_long": "In SHM, total energy E = ½kx₀² is constant. Potential energy at displacement x is ½kx². Kinetic energy is the difference: KE = ½kx₀² − ½kx² = ½kx₀²(1 − x²/x₀²). (The printed UHS key marks D, ½mω²x₀, which is not an energy expression at displacement x at all, so A is used.)"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 13,
+  "match_question_text": "Speed of sound through a gas is measured as 340 m/s at pressure P1 and temperature T1. What will be the speed of sound if pressure of gas is doubled but temperature is kept constant?",
+  "match_option_a": "342 m/s",
+  "set": {
+   "question_text": "Speed of sound through a gas is measured as 340 m/s at pressure P₁ and temperature T₁. What will be the speed of sound if pressure of gas is doubled but temperature is kept constant?"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 15,
+  "match_question_text": "Variation of amplitude with respect to time for an oscillation object is shown in figure. Identify the oscillation: (The amplitude-vs-time graph shows the oscillation staying within fixed limits +Yo and -Yo, i.e. it does NOT decay over time.)",
+  "match_option_a": "Damped",
+  "set": {
+   "question_text": "Variation of amplitude with respect to time for an oscillation object is shown in figure. Identify the oscillation:"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 17,
+  "match_question_text": "What is the value of universal gas constant?",
+  "match_option_a": "8314 Jmol-1K-1",
+  "set": {
+   "option_a": "8314 J mol⁻¹ K⁻¹",
+   "option_b": "83.14 J mol⁻¹ K⁻²",
+   "option_c": "831.4 J mol⁻¹ K⁻¹",
+   "option_d": "8.314 J mol⁻¹ K⁻¹",
+   "explanation_short": "R = 8.314 J mol⁻¹ K⁻¹.",
+   "explanation_long": "The universal gas constant is R = 8.314 J mol⁻¹ K⁻¹. 8314 is its value per kilomole, and 83.14 and 831.4 are not values of R in these units. (The paper prints option D with the unit K⁻², a misprint shown corrected here. The printed UHS key marks B, 83.14, which is ten times too large, so D is used.)",
+   "explanation_trick": "R = 8.314 J mol⁻¹ K⁻¹ = 0.0821 dm³ atm mol⁻¹ K⁻¹.",
+   "explanation_options": {
+    "a": "Wrong — 8314 J is per kilomole, not per mole.",
+    "b": "Wrong — 83.14 is ten times R, and K⁻² is not its unit.",
+    "c": "Wrong — 831.4 is a hundred times R.",
+    "d": "Correct — 8.314 J mol⁻¹ K⁻¹."
+   }
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 18,
+  "match_question_text": "A gas sample contains three molecules each having speed 1 ms-1, 2 ms-1, 3 ms-1. What is the mean square speed?",
+  "match_option_a": "14/3 m/s",
+  "set": {
+   "question_text": "A gas sample contains three molecules each having speed 1 m s⁻¹, 2 m s⁻¹, 3 m s⁻¹. What is the mean square speed?"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 20,
+  "match_question_text": "What will be the mathematical form of first law of thermodynamics for a system whose variation of volume by pressure is shown? (The P-V graph shown is labelled 'Isothermal', i.e. temperature is constant, curving from (P1,V1) down to (P2,V2).)",
+  "match_option_a": "Q = U",
+  "set": {
+   "question_text": "What will be the mathematical form of first law of thermodynamics for a system whose variation of volume by pressure is shown?"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 21,
+  "match_question_text": "For a heat engine 'A' ratio of Q1 to Q2 is 2/3 while that of heat engine 'B', ratio of Q2 to Q1 is 1/3. What is the value ηA : ηB?",
+  "match_option_a": "1:3",
+  "set": {
+   "question_text": "For a heat engine 'A' ratio of Q₁ to Q₂ is 2/3 while that of heat engine 'B', ratio of Q₂ to Q₁ is 1/3. What is the value ηA : ηB?"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 27,
+  "match_question_text": "What is the output Boolean expression of logic diagram shown in figure below (two NAND gates, each fed by inputs A and B, both feeding into an OR gate whose output is X):",
+  "match_option_a": "(A' + B').(A' + B')",
+  "set": {
+   "question_text": "What is the output Boolean expression of logic diagram shown in figure below:",
+   "option_a": "(A + B)′·(A + B)′",
+   "option_b": "(A′ + B′)(A′ + B′)",
+   "option_c": "A′·B′ + A′·B′",
+   "option_d": "(AB)′ + (AB)′"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 28,
+  "match_question_text": "Three resistors each having value 'R' are connected as shown in figure. What is the equivalence resistance between 'X' and 'Y'?",
+  "match_option_a": "Structure/arrangement A (see figure)",
+  "set": {
+   "option_a": "R",
+   "option_b": "R/3",
+   "option_c": "3R",
+   "option_d": "R³",
+   "explanation_short": "The three resistors are joined end to end in one path from X to Y, so they are in series: R + R + R = 3R.",
+   "explanation_long": "Follow the wire from X: it passes through the first R, then a connecting wire leads to the second R, then to the third R and on to Y. There is only one path for the current, so the resistors are in series and their resistances add: R_eq = R + R + R = 3R. R/3 would be three in parallel; R³ is not dimensionally a resistance.",
+   "explanation_trick": "One path for current = series = add the resistances.",
+   "explanation_options": {
+    "a": "Wrong — that is a single resistor.",
+    "b": "Wrong — R/3 is for three equal resistors in parallel.",
+    "c": "Correct — three R in series give 3R.",
+    "d": "Wrong — resistances add; they are never multiplied."
+   }
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 29,
+  "match_question_text": "The diagram shows a wire, carrying a current 'I', placed between the poles of magnet: In which direction does the force on the wire act?",
+  "match_option_a": "Towards the 'N' pole of the magnet",
+  "set": {
+   "explanation_short": "F = IL × B: current up the page and field from N to S give a force into the page — 'downwards' when the diagram is viewed from above.",
+   "explanation_long": "The field between the poles runs from N to S (left to right) and the current flows up the page. By Fleming's left-hand rule (or F = IL × B), the force is perpendicular to both, pointing into the page. The figure is a top view of the magnet, so into the page is downwards. The force is never along the field, so it is not towards either pole.",
+   "explanation_trick": "Force ⊥ both I and B; a force pointing into the page of a top view is 'downwards'.",
+   "explanation_options": {
+    "a": "Wrong — the force is perpendicular to the field, not along it towards N.",
+    "b": "Correct — the force points into the page, i.e. downwards.",
+    "c": "Wrong — this is the reverse of the force direction.",
+    "d": "Wrong — the force is perpendicular to the field, not towards S."
+   }
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 33,
+  "match_question_text": "Kinetic energy of electrons by applying potential difference V1 across the x-ray tube is KE1 while V2 potential difference produce kinetic energy equal to KE2. What will be the value of KE1:KE2 if ratio of potential difference V1:V2 = 2:3?",
+  "match_option_a": "3:2",
+  "set": {
+   "question_text": "Kinetic energy of electrons by applying potential difference V₁ across the x-ray tube is KE₁ while V₂ potential difference produce kinetic energy equal to KE₂. What will be the value of KE₁:KE₂ if ratio of potential difference V₁:V₂ = 2:3?"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 36,
+  "match_question_text": "During the production of LASER, when the excited state E2 contains more number of atoms than the ground state E1, the state is known as:",
+  "match_option_a": "Population inversion",
+  "set": {
+   "question_text": "During the production of LASER, when the excited state E₂ contains more number of atoms than the ground state E₁, the state is known as:"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 42,
+  "match_question_text": "Which one of the following emission takes place in a nuclear reaction? 90Th234 -> 91Pa232 + ___",
+  "match_option_a": "Alpha",
+  "set": {
+   "question_text": "Which one of the following emission takes place in a nuclear reaction? ²³⁴₉₀Th → ²³⁴₉₁Pa + ___",
+   "explanation_short": "Z rises by 1 and A stays 234: a neutron has turned into a proton, emitting a beta particle.",
+   "explanation_long": "In ²³⁴₉₀Th → ²³⁴₉₁Pa the atomic number goes up by one while the mass number is unchanged. This happens when a neutron changes into a proton and an electron (β-particle) is emitted. Alpha emission would lower Z by 2 and A by 4; gamma rays and photons change neither. (The paper prints the product as ²³²Pa, a misprint — a mass number of 232 cannot be reached by any single one of these emissions; the equation is shown with 234.)"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 44,
+  "match_question_text": "In a simple harmonic motion with a radius 'xo', the velocity of the particle at any point is:",
+  "match_option_a": "v = ω√(xo2 - x2)",
+  "set": {
+   "question_text": "In a simple harmonic motion with a radius 'x₀', the velocity of the particle at any point is:",
+   "option_a": "v = ω√(x₀² − x²)",
+   "option_b": "v = ω(x² − x₀²)",
+   "option_c": "v = ω√(x₀ − x)",
+   "option_d": "v = ω√(x − x₀)"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 45,
+  "match_question_text": "Hydrogen burns in chlorine to produce hydrogen chloride. The ratio of masses of reactants in chemical reaction is: H2 + Cl2 -> 2HCl",
+  "match_option_a": "1:35.5",
+  "set": {
+   "question_text": "Hydrogen burns in chlorine to produce hydrogen chloride. The ratio of masses of reactants in chemical reaction is: H₂ + Cl₂ → 2HCl"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 46,
+  "match_question_text": "A sample of Neon is found to exist as 20Ne, 21Ne, 22Ne. Mass spectrum of 'Ne' is as follow: What is the relative atomic mass (A, value) of Neon? (Mass spectrum: relative abundance 90.92% at mass number 20, 0.26% at mass number 21, 8.82% at mass number 22.)",
+  "match_option_a": "20.18",
+  "set": {
+   "question_text": "A sample of Neon is found to exist as ²⁰Ne, ²¹Ne, ²²Ne. Its mass spectrum shows relative abundances of 90.92% at mass number 20, 0.26% at mass number 21 and 8.82% at mass number 22. What is the relative atomic mass (Ar value) of Neon?"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 47,
+  "match_question_text": "The coordination number of Na+ in NaCl crystal is:",
+  "match_option_a": "6",
+  "set": {
+   "question_text": "The coordination number of Na⁺ in NaCl crystal is:"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 48,
+  "match_question_text": "There are four gases H2, He, N2 and CO2 at 0 °C. Which gas shows greater non-ideal behavior?",
+  "match_option_a": "He",
+  "set": {
+   "question_text": "There are four gases H₂, He, N₂ and CO₂ at 0 °C. Which gas shows greater non-ideal behavior?",
+   "option_b": "CO₂",
+   "option_c": "H₂",
+   "option_d": "N₂"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 50,
+  "match_question_text": "Number of electrons in the outermost shell of chloride ion (Cl―) is:",
+  "match_option_a": "17",
+  "set": {
+   "question_text": "Number of electrons in the outermost shell of chloride ion (Cl⁻) is:"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 53,
+  "match_question_text": "Heat of formation (∆Hf°) for CO2 is:",
+  "match_option_a": "-394 kJ/mole",
+  "set": {
+   "question_text": "Heat of formation (∆Hf°) for CO₂ is:"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 58,
+  "match_question_text": "By considering Arrhenius equation, the graph between '1/T' and 'log K' given a curve of the type:",
+  "match_option_a": "Graph A",
+  "set": {
+   "option_a": "Straight line rising from the origin",
+   "option_b": "Straight line falling with a negative slope",
+   "option_c": "Curve rising to a maximum and then falling",
+   "option_d": "Curve falling and then rising",
+   "question_text": "By considering Arrhenius equation, the graph between '1/T' and 'log K' gives a curve of the type:"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 59,
+  "match_question_text": "Which one of the following is a redox reaction?",
+  "match_option_a": "NaCl + AgNO3 -> NaNO3 + AgCl",
+  "set": {
+   "option_a": "NaCl + AgNO₃ → NaNO₃ + AgCl",
+   "option_b": "2Cl⁻ → Cl₂ + 2e⁻",
+   "option_c": "2Na + Cl₂ → 2NaCl",
+   "option_d": "Na⁺ + e⁻ → Na"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 60,
+  "match_question_text": "The chemical substance, when dissolved in water, gives \"H+\" is called:",
+  "match_option_a": "Acid",
+  "set": {
+   "question_text": "The chemical substance, when dissolved in water, gives \"H⁺\" is called:"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 66,
+  "match_question_text": "The electronic structure of carbon monoxide is represented as:",
+  "match_option_a": "Structure A",
+  "set": {
+   "option_a": ":C≡O: (one of the three bonds is a coordinate bond from O to C)",
+   "option_b": ":C=Ö: (double bond)",
+   "option_c": "C≡Ö: (one bond a coordinate bond from C to O; no lone pair on C)",
+   "option_d": "Ċ≡Ö (unpaired electron on C)"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 67,
+  "match_question_text": "Which one pair has the same oxidation state of 'Fe'?",
+  "match_option_a": "FeSO4 and FeCl3",
+  "set": {
+   "option_a": "FeSO₄ and FeCl₃",
+   "option_b": "FeCl₂ and FeCl₃",
+   "option_c": "FeSO₄ and FeCl₂",
+   "option_d": "Fe₂(SO₄)₃ and FeSO₄"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 68,
+  "match_question_text": "Oxidation state of 'Fe' in K3[Fe(CN)6] is:",
+  "match_option_a": "+2",
+  "set": {
+   "question_text": "Oxidation state of 'Fe' in K₃[Fe(CN)₆] is:"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 69,
+  "match_question_text": "The nature of an aqueous solution of ammonia (NH3) is:",
+  "match_option_a": "Amphoteric",
+  "set": {
+   "correct_answer": "D",
+   "explanation_short": "Aqueous ammonia is basic: NH₃ + H₂O ⇌ NH₄⁺ + OH⁻.",
+   "explanation_long": "Ammonia dissolves in water and takes a proton from it: NH₃ + H₂O ⇌ NH₄⁺ + OH⁻. The hydroxide ions make the solution basic (a weak base, pH about 11 for a dilute solution); it turns red litmus blue and neutralises acids to give ammonium salts. It does not react with bases, so it is not amphoteric. (The printed UHS key marks A, amphoteric, but the solution is basic, so D is used.)",
+   "explanation_trick": "NH₃ in water → NH₄⁺ + OH⁻ → basic.",
+   "explanation_options": {
+    "a": "Wrong — an amphoteric substance (e.g. Al(OH)₃, ZnO) reacts with both acids and bases; aqueous ammonia only behaves as a base.",
+    "b": "Wrong — the OH⁻ formed raises the pH above 7.",
+    "c": "Wrong — ammonia accepts a proton; it does not release H⁺ in water.",
+    "d": "Correct — aqueous ammonia is a weak base."
+   },
+   "question_text": "The nature of an aqueous solution of ammonia (NH₃) is:"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 73,
+  "match_question_text": "The cis-isomerism is shown by:",
+  "match_option_a": "Structure A",
+  "set": {
+   "option_a": "H₃C(H)C=C(H)CH₃ with the two CH₃ groups on opposite sides",
+   "option_b": "(CH₃)₂C=CH–CH₃",
+   "option_c": "H₃C(H)C=C(H)CH₃ with the two CH₃ groups on the same side",
+   "option_d": "H₂C=CH–CH₃"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 74,
+  "match_question_text": "Select the nucleophile from the following examples:",
+  "match_option_a": "NO2",
+  "set": {
+   "option_a": "NO₂",
+   "option_b": "NH₃",
+   "option_c": "NO₂⁺",
+   "option_d": "NH₄⁺"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 75,
+  "match_question_text": "The introduction of an alkyl group in benzene takes place in the presence of AlCl3 and:",
+  "match_option_a": "R-COOH",
+  "set": {
+   "question_text": "The introduction of an alkyl group in benzene takes place in the presence of AlCl₃ and:",
+   "option_a": "R–COOH",
+   "option_b": "R–Cl",
+   "option_c": "R–COCl",
+   "option_d": "R–COO⁻"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 76,
+  "match_question_text": "What is the product formed when propene reacts with HBr?",
+  "match_option_a": "Structure A",
+  "set": {
+   "option_a": "CH₃–CH₂–CH₂Br",
+   "option_b": "BrH₂C–CH=CH₂Br",
+   "option_c": "BrCH₂–CHBr–CH₃",
+   "option_d": "CH₃–CHBr–CH₃"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 78,
+  "match_question_text": "Consider the reaction given below: CH3-CH2-CH2-CH2-Br reacts two different ways -- (I) to give CH3-CH2-CH2-CH2-OH, and (II) to give CH3-CH2-CH=CH2. Which statement is true?",
+  "match_option_a": "Reagent for I is KOH in alcohol",
+  "set": {
+   "question_text": "Consider the reaction given below: CH₃–CH₂–CH₂–CH₂Br gives (I) CH₃–CH₂–CH₂–CH₂OH and (II) CH₃–CH₂–CH=CH₂. Which statement is true?"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 79,
+  "match_question_text": "Consider the following reaction: C2H5OH + PCl5 ? What product(s) may be formed?",
+  "match_option_a": "C2H5Cl only",
+  "set": {
+   "question_text": "Consider the following reaction: C₂H₅OH + PCl₅ → ? What product(s) may be formed?",
+   "option_a": "C₂H₅Cl only",
+   "option_b": "C₂H₅Cl and HCl",
+   "option_c": "C₂H₅Cl, POCl₃ and HCl",
+   "option_d": "C₂H₅Cl and POCl₃"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 80,
+  "match_question_text": "The compound shown (a phenol ring with OH and three NO2 substituents) is named as:",
+  "match_option_a": "Picric acid",
+  "set": {
+   "question_text": "The compound shown in the figure is named as:"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 81,
+  "match_question_text": "Which group gives a yellow precipitate of triiodo methane when warmed with alkaline aqueous iodine?",
+  "match_option_a": "An amide group (CH3-C(=O)-NH2)",
+  "set": {
+   "option_a": "An amide group, CH₃–CO–NH₂",
+   "option_b": "Ethyl ketone group, C₂H₅–CO–R",
+   "option_c": "A primary alcohol group as in propanol, CH₃–CH₂–CH₂–OH",
+   "option_d": "Methyl ketone group, CH₃–CO–R"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 82,
+  "match_question_text": "Aqueous phenol decolorizes bromine water to form a white precipitate. What is the structure of the white precipitate formed?",
+  "match_option_a": "Structure A",
+  "set": {
+   "option_a": "2,4,6-tribromophenol (Br at both ortho positions and the para position to –OH)",
+   "option_b": "2-bromophenol",
+   "option_c": "4-bromophenol",
+   "option_d": "1,3,5-tribromobenzene (no –OH)"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 84,
+  "match_question_text": "What is the structure of alcohol which on oxidation with acidified Na2Cr2O7 gives phenyl methyl ketone (acetophenone, C6H5-C(=O)-CH3)?",
+  "match_option_a": "Structure A",
+  "set": {
+   "question_text": "What is the structure of alcohol which on oxidation with acidified Na₂Cr₂O₇ gives C₆H₅–CO–CH₃?",
+   "option_a": "C₆H₅–CH(OH)–CH₃",
+   "option_b": "(CH₃)₂C₆H₃–OH (a dimethylphenol)",
+   "option_c": "C₆H₅–CH₂–CH₂–OH",
+   "option_d": "C₆H₅–C(CH₃)₂–OH"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 85,
+  "match_question_text": "Which of the following is the structure of ketone?",
+  "match_option_a": "Structure A",
+  "set": {
+   "option_a": "CH₃–CO–OH",
+   "option_b": "CH₃–CO–CH₃",
+   "option_c": "CH₃–CO–NH₂",
+   "option_d": "CH₃–CO–Cl"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 89,
+  "match_question_text": "CH3-C(=O)-OH + NH3 --heat--> ? The final products formed are:",
+  "match_option_a": "CH3-C(=O)-NH2 + CO2",
+  "set": {
+   "question_text": "CH₃–CO–OH + NH₃ —heat→ ? The final products formed are:",
+   "option_a": "CH₃–CO–NH₂ + CO₂",
+   "option_b": "CH₃–CO–NH₂ + H₂O",
+   "option_c": "CH₃–CO–NH₂ + H₂",
+   "option_d": "CH₃–CO–NH₂ + HCl"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 90,
+  "match_question_text": "The reaction of two amino acid molecules (glycine + glycine) shown in the figure gives a product called a dipeptide molecule. Which structure correctly represents that dipeptide?",
+  "match_option_a": "Dipeptide structure A",
+  "set": {
+   "correct_answer": "D",
+   "question_text": "The reaction H₂N–CH₂–COOH + H₂N–CH₂–COOH → ? gives a product called dipeptide molecule represented by:",
+   "option_a": "H₂N–CH₂–CO–O–NH–CH₂–COOH",
+   "option_b": "⁻HN–CH₂–CH₂–O–NH–CH₂–COOH",
+   "option_c": "H₂N–CH₂–CH₂–O–NH–CH₂–COOH",
+   "option_d": "H₂N–CH₂–CO–NH–CH₂–COOH",
+   "explanation_short": "Two glycine molecules join by a peptide bond, –CO–NH–, giving H₂N–CH₂–CO–NH–CH₂–COOH (glycylglycine).",
+   "explanation_long": "A peptide bond forms when the –COOH of one amino acid condenses with the –NH₂ of the other and a molecule of water is lost. The carbonyl carbon is bonded directly to the nitrogen: H₂N–CH₂–CO–NH–CH₂–COOH. Options A, B and C all put an oxygen between carbon and nitrogen (a C–O–N link), which is not a peptide bond. (The printed UHS key marks A, but A has a C–O–N link, so D is used.)",
+   "explanation_trick": "Peptide bond = C(=O) bonded straight to N–H; no oxygen between C and N.",
+   "explanation_options": {
+    "a": "Wrong — the –CO–O–NH– link has an extra oxygen between the carbonyl carbon and nitrogen.",
+    "b": "Wrong — no C=O on the first unit, a C–O–N link and a charged nitrogen.",
+    "c": "Wrong — the first unit has lost its C=O and is joined through oxygen.",
+    "d": "Correct — –CO–NH– joins the two glycine units."
+   }
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 93,
+  "match_question_text": "The formula of 'Zwitter ion' is represented by (R = side chain):",
+  "match_option_a": "H3N+-CH(R)-CO-",
+  "set": {
+   "correct_answer": "C",
+   "question_text": "The formula of 'Zwitter ion' is represented by:",
+   "option_a": "H₃N⁺–CH(R)–CO⁻",
+   "option_b": "NH₄⁺–CH(R)–CO₂⁻",
+   "option_c": "H₃N⁺–CH(R)–CO₂⁻",
+   "option_d": "NH₂⁺–CH(R)–COO⁻",
+   "explanation_short": "A zwitterion carries –NH₃⁺ and –COO⁻ (= –CO₂⁻) on the same molecule: H₃N⁺–CH(R)–CO₂⁻.",
+   "explanation_long": "In an amino acid the basic –NH₂ group takes the proton released by the acidic –COOH group, so the molecule carries both a positive and a negative charge: H₃N⁺–CH(R)–CO₂⁻. The carboxylate keeps both oxygens. Option A prints the carboxylate as CO⁻ with one oxygen missing, which is not a real group. (The printed UHS key marks A, but C is the complete, correct formula, so C is used.)",
+   "explanation_trick": "Zwitterion = NH₃⁺ + COO⁻, both on the α-carbon.",
+   "explanation_options": {
+    "a": "Wrong — 'CO⁻' has lost an oxygen; the carboxylate is CO₂⁻.",
+    "b": "Wrong — nitrogen bonded to carbon cannot also carry four hydrogens.",
+    "c": "Correct — protonated amino group and complete carboxylate.",
+    "d": "Wrong — NH₂⁺ bonded to one carbon has too few hydrogens for a positive nitrogen."
+   }
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 94,
+  "match_question_text": "What is the name of amino acid H2N-CH(R)-COOH, where 'R' is CH3 group?",
+  "match_option_a": "Glycine",
+  "set": {
+   "question_text": "What is the name of amino acid H₂N–CH(R)–COOH, where 'R' is CH₃ group?"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 104,
+  "match_question_text": "The Quaid's ____ enthusiasm led the Muslims Indo-Pak to independence.",
+  "match_option_a": "Simplified",
+  "set": {
+   "is_active": false,
+   "is_verified": false
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 108,
+  "match_question_text": "Late Agha Shahi was an outstanding genius in the international affairs. He was gifted of the acumen to judge the future events, judge the future events in advance. (Spot the error: identify which underlined part is wrong.)",
+  "match_option_a": "in",
+  "set": {
+   "question_text": "Late Agha Shahi was an outstanding genius in the international affairs. He was gifted of the acumen to judge the future events in advance. (Spot the error: identify which underlined part is wrong.)"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 112,
+  "match_question_text": "The police report exonerated Anwar of all charges of corruption and job was also restored. (Spot the error: identify which underlined part is wrong.)",
+  "match_option_a": "of (charges)",
+  "set": {
+   "is_active": false,
+   "is_verified": false
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 124,
+  "match_question_text": "ILLICIT — choose the nearest correct meaning.",
+  "match_option_a": "Intimate",
+  "set": {
+   "correct_answer": "C",
+   "explanation_short": "ILLICIT means forbidden by law — illegal.",
+   "explanation_long": "'Illicit' means not permitted by law or by accepted rules: illicit drugs, illicit trade. Its nearest meaning among the options is 'illegal'. 'Licentious' means sexually unrestrained; it only overlaps with 'illicit' in a phrase like 'illicit affair' and is not a synonym. (The printed UHS key marks B, licentious, but the dictionary meaning is illegal, so C is used.)",
+   "explanation_trick": "il-LICIT = not licit = not lawful.",
+   "explanation_options": {
+    "a": "Wrong — 'intimate' means close or personal.",
+    "b": "Wrong — 'licentious' means morally or sexually unrestrained, not unlawful.",
+    "c": "Correct — 'illicit' means illegal.",
+    "d": "Wrong — 'limited' means restricted in amount."
+   }
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 175,
+  "match_question_text": "Active uptake of ______ in the ascending limb or thick loop of Henle is promoted by the action of aldosterone:",
+  "match_option_a": "K+",
+  "set": {
+   "option_a": "K⁺",
+   "option_b": "Cl⁻",
+   "option_c": "Ca²⁺",
+   "option_d": "Na⁺"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 177,
+  "match_question_text": "Active pumping out of Na+ occurs at which part of nephron:",
+  "match_option_a": "Proximal tubule",
+  "set": {
+   "question_text": "Active pumping out of Na⁺ occurs at which part of nephron:"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 188,
+  "match_question_text": "The Ca++ ions released during a muscle fiber contraction attach with:",
+  "match_option_a": "Myosin",
+  "set": {
+   "question_text": "The Ca²⁺ ions released during a muscle fiber contraction attach with:"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 202,
+  "match_question_text": "Final acceptor of electrons in respiratory chain is:",
+  "match_option_a": "Cytochrome a",
+  "set": {
+   "option_c": "Cytochrome a₃"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 204,
+  "match_question_text": "A biochemical process which occurs within a cell to breakdown complex compounds to produce energy is called:",
+  "match_option_a": "Respiration",
+  "set": {
+   "correct_answer": "A",
+   "explanation_short": "Respiration is the process in a cell that breaks down complex food compounds to release energy.",
+   "explanation_long": "Cellular respiration is the name of the biochemical process in which glucose and other complex compounds are broken down inside the cell and the energy released is stored as ATP. It proceeds through oxidation-reduction reactions, but 'oxidation reduction' is a type of chemical reaction, not the name of this cellular process. Photosynthesis builds compounds, and photophosphorylation is ATP synthesis driven by light. (The printed UHS key marks C, but the process defined here is respiration, so A is used.)",
+   "explanation_trick": "Breakdown for energy = respiration; build-up using light = photosynthesis.",
+   "explanation_options": {
+    "a": "Correct — respiration breaks down complex compounds to release energy.",
+    "b": "Wrong — photosynthesis makes complex compounds and stores energy.",
+    "c": "Wrong — redox reactions occur in respiration, but that is a reaction type, not the name of the process.",
+    "d": "Wrong — photophosphorylation is ATP formation in the light reactions of photosynthesis."
+   }
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 208,
+  "match_question_text": "Cystic fibrosis patient lack a gene that codes for trans-membrane carrier of??",
+  "match_option_a": "Na+ ions",
+  "set": {
+   "option_a": "Na⁺ ions",
+   "option_b": "Cl⁻ ions",
+   "option_c": "Ca²⁺ ions",
+   "option_d": "K⁺ ions"
+  }
+ },
+ {
+  "year": 2013,
+  "question_number": 211,
+  "match_question_text": "In an ecosystem mycorrhizae are an example of:",
+  "match_option_a": "Predation",
+  "set": {
+   "explanation_short": "Mycorrhiza is a symbiotic association of a fungus with plant roots; the UHS key marks symbiosis.",
+   "explanation_long": "A mycorrhiza is a close, long-term association between a fungus and the roots of a plant: the fungus takes up water and minerals for the plant, and the plant supplies sugars to the fungus. In the textbook it is given as an example of symbiosis. Because both partners benefit, the association is also correctly described as mutualism, which is one kind of symbiosis, so option C is also scientifically sound. The UHS key marks B.",
+   "explanation_trick": "Symbiosis is the umbrella term; mutualism (both benefit), commensalism and parasitism are its kinds.",
+   "explanation_options": {
+    "a": "Wrong — in predation one organism kills and eats the other.",
+    "b": "Correct (UHS key) — mycorrhiza is a symbiotic association.",
+    "c": "Also accurate — it is a mutualistic kind of symbiosis, but the key marks B.",
+    "d": "Wrong — in parasitism one partner is harmed."
+   }
+  }
+ }
+]

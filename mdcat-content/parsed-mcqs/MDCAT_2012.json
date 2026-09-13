@@ -7,7 +7,7 @@
     "topic": "Electromagnetism",
     "subtopic": "Magnetic Flux Density",
     "difficulty": null,
-    "question_text": "The diagram shows a small magnet hanging on a thread near the end of a solenoid carrying a steady current ‘I’: IRON CORE N S What happens to the magnet as the iron core is inserted into the solenoid?",
+    "question_text": "The diagram shows a small magnet hanging on a thread near the end of a solenoid carrying a steady current ‘I’. What happens to the magnet as the iron core is inserted into the solenoid?",
     "options": {
       "a": "It moves towards solenoid and rotates through 180o",
       "b": "It moves towards the solenoid",
@@ -32,12 +32,12 @@
     "difficulty": null,
     "question_text": "A 10 cm long solenoid has 100 turns. What will be the magnetic field inside it along its axis if one micro ampere current is passed through it?",
     "options": {
-      "a": "4π x 10-13 tesla",
-      "b": "4π x 10-10 tesla",
-      "c": "4π x 10-7 tesla",
-      "d": "4π x 10-16 tesla"
+      "a": "4π × 10⁻¹³ tesla",
+      "b": "4π × 10⁻⁷ tesla",
+      "c": "4π × 10⁻¹⁰ tesla",
+      "d": "4π × 10⁻¹⁶ tesla"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -53,7 +53,7 @@
     "topic": "Electromagnetism",
     "subtopic": "Magnetic Flux Density",
     "difficulty": null,
-    "question_text": "Two long straight parallel wires held vertically have equal but opposite currents as shown in the figure. I I X Y Z Which of the following effect will be observed?",
+    "question_text": "Two long straight parallel wires held vertically have equal but opposite currents as shown in the figure. Which of the following effect will be observed?",
     "options": {
       "a": "Magnetic field at ‘X’ is stronger than that at ‘Y’ and ‘Z’",
       "b": "Magnetic field at ‘X’ is weaker than that at ‘Y’ and ‘Z’",
@@ -78,9 +78,9 @@
     "difficulty": null,
     "question_text": "The kinetic energy K.E. with which the electron strikes the target is given by:",
     "options": {
-      "a": "K.E. = e2V",
-      "b": "K.E. = hf2",
-      "c": "K.E. = hc/λ",
+      "a": "K.E. = e²V",
+      "b": "K.E. = hc/λ",
+      "c": "K.E. = hf²",
       "d": "K.E. = eV"
     },
     "correct_answer": "d",
@@ -125,11 +125,11 @@
     "question_text": "X-rays can be produced by bombardment of ____________ on target metal:",
     "options": {
       "a": "Protons",
-      "b": "Neutrons",
-      "c": "Electrons",
+      "b": "Electrons",
+      "c": "Neutrons",
       "d": "Alpha particles"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -148,11 +148,11 @@
     "question_text": "Laser light is monochromatic which means",
     "options": {
       "a": "It consists of one ray of light",
-      "b": "It consists of carbon monoxide gas",
-      "c": "It consists of one wavelength",
+      "b": "It consists of one wavelength",
+      "c": "It consists of carbon monoxide gas",
       "d": "It consists of photons having 1 eV energy"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -170,10 +170,10 @@
     "difficulty": null,
     "question_text": "If an electron in the ‘K’ shell is removed and an electron from ‘L’ shell jumps to occupy the hole in the ‘K’ shell, it emits a photon of energy:",
     "options": {
-      "a": "hfKα = EL – EK",
-      "b": "h/λKα = EL – EK",
-      "c": "hc = EL – EK",
-      "d": "hfKα = EK – EL"
+      "a": "hf_Kα = E_L – E_K",
+      "b": "hc = E_L – E_K",
+      "c": "h/λ_Kα = E_L – E_K",
+      "d": "hf_Kα = E_K – E_L"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -194,8 +194,8 @@
     "question_text": "Which of the following property must be there in a substance so that it can be used as target in X-ray tube?",
     "options": {
       "a": "It must have low melting point",
-      "b": "It must have high reflecting ability",
-      "c": "It must have low atomic number",
+      "b": "It must have low atomic number",
+      "c": "It must have high reflecting ability",
       "d": "It must have high atomic number"
     },
     "correct_answer": "d",
@@ -217,8 +217,8 @@
     "question_text": "Which of the following can be used to produce population inversion for the emission of Laser?",
     "options": {
       "a": "Optical pumping",
-      "b": "Optical instrument",
-      "c": "Optical fibre",
+      "b": "Optical fibre",
+      "c": "Optical instrument",
       "d": "Optical polarization"
     },
     "correct_answer": "a",
@@ -240,8 +240,8 @@
     "question_text": "What is the charge on alpha particles emitted during the phenomenon of radioactivity?",
     "options": {
       "a": "+e",
-      "b": "–2e",
-      "c": "–e",
+      "b": "–e",
+      "c": "–2e",
       "d": "+2e"
     },
     "correct_answer": "d",
@@ -263,8 +263,8 @@
     "question_text": "A radioactive nuclide decays by emitting an alpha particle, a beta particle and a gamma ray photon, the change in the nucleon number will be:",
     "options": {
       "a": "-4",
-      "b": "-2",
-      "c": "-1",
+      "b": "-1",
+      "c": "-2",
       "d": "-3"
     },
     "correct_answer": "a",
@@ -286,11 +286,11 @@
     "question_text": "A half-life of sodium-24 is _______ which is used to estimate the volume of blood in a patient:",
     "options": {
       "a": "6 hours",
-      "b": "8 hours",
-      "c": "15 hours",
+      "b": "15 hours",
+      "c": "8 hours",
       "d": "15 days"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -309,11 +309,11 @@
     "question_text": "Which of the following is unit of absorbed dose?",
     "options": {
       "a": "Sievert",
-      "b": "Roentgen",
-      "c": "Gray",
+      "b": "Gray",
+      "c": "Roentgen",
       "d": "Curie"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -332,11 +332,11 @@
     "question_text": "In a radioactive phenomenon observation shown in figure where α deviates lesser than β in some electric or magnetic field (not shown in figure). What is the reason of less deviation of α? β γ α",
     "options": {
       "a": "α is charged particle",
-      "b": "α is heavier particle",
-      "c": "α is neutral particle",
+      "b": "α is neutral particle",
+      "c": "α is heavier particle",
       "d": "α is lighter particle"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -355,8 +355,8 @@
     "question_text": "The isotope of Iodine-131 is used in the treatment of",
     "options": {
       "a": "Blood cancer",
-      "b": "Lung tumor",
-      "c": "Bone cancer",
+      "b": "Bone cancer",
+      "c": "Lung tumor",
       "d": "Thyroid cancer"
     },
     "correct_answer": "d",
@@ -378,11 +378,11 @@
     "question_text": "Which of the following effect is observed due to emission of β ― during the phenomenon of radioactivity?",
     "options": {
       "a": "A increases by 1 and Z remains same",
-      "b": "Z decreases by 1 and A remains same",
-      "c": "Z increases by 1 and A remains same",
+      "b": "Z increases by 1 and A remains same",
+      "c": "Z decreases by 1 and A remains same",
       "d": "A decreases by 1 and Z remains same"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -400,12 +400,12 @@
     "difficulty": null,
     "question_text": "Electric charge on an object is measured as 5 micro coulombs. How the value of this charge can be expressed in terms of base units:",
     "options": {
-      "a": "5 x 100 ampere second",
-      "b": "5 x 10+6 coulomb second -6",
-      "c": "5 x 10 ampere second",
-      "d": "5 x 100 coulomb second"
+      "a": "5 × 10⁰ ampere second",
+      "b": "5 × 10⁻⁶ ampere second",
+      "c": "5 × 10⁶ coulomb second",
+      "d": "5 × 10⁰ coulomb second"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -421,17 +421,17 @@
     "topic": "Work and Energy",
     "subtopic": "Energy",
     "difficulty": null,
-    "question_text": "If ‘m’ is the mass, ‘c’ is the velocity of light and x = mc2, then dimensions of ‘x’ will be: [Diagram/graph/structure required — see original PDF page.]",
+    "question_text": "If ‘m’ is the mass, ‘c’ is the velocity of light and x = mc², then dimensions of ‘x’ will be:",
     "options": {
-      "a": "[LT-1]",
-      "b": "[MLT-1] 2 -2",
-      "c": "[ML T ]",
-      "d": "[MLT-2]"
+      "a": "[LT⁻¹]",
+      "b": "[ML²T⁻²]",
+      "c": "[MLT⁻¹]",
+      "d": "[MLT⁻²]"
     },
     "correct_answer": "b",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "OCR-corrupted dimensional-formula options (stray \"2 -2\" digits, missing exponents) — needs retranscription from source.",
     "source_file": "mdcat_2012.py",
     "tag_confidence": "low"
@@ -444,11 +444,11 @@
     "topic": "Rotational and Circular Motion",
     "subtopic": "Relation Between Angular and Linear Quantities",
     "difficulty": null,
-    "question_text": "A force ‘F’ is acting at point ‘P’ of a uniform rod capable to rotate about ‘O’. What is the torque about ‘O’? F ϴ O P",
+    "question_text": "A force ‘F’ is acting at point ‘P’ of a uniform rod capable to rotate about ‘O’; the force makes an angle θ with the line perpendicular to the rod at P. What is the torque about ‘O’?",
     "options": {
       "a": "(OP)(F tanϴ)",
-      "b": "(OP)(F sinϴ)",
-      "c": "(OP)(F)",
+      "b": "(OP)(F)",
+      "c": "(OP)(F sinϴ)",
       "d": "(OP)(F cosϴ)"
     },
     "correct_answer": "d",
@@ -470,8 +470,8 @@
     "question_text": "An object of mass ‘m’ is suspended in an elevator moving downward with acceleration equal to acceleration due to gravity. What is the apparent weight of object?",
     "options": {
       "a": "Zero",
-      "b": "mg",
-      "c": "2mg",
+      "b": "2mg",
+      "c": "mg",
       "d": "mg/2"
     },
     "correct_answer": "a",
@@ -493,8 +493,8 @@
     "question_text": "Stokes’ Law for steady motion in a fluid of infinite extent is given by",
     "options": {
       "a": "F = 6πηrv",
-      "b": "F = 6πηr2ρ",
-      "c": "F = (4/3)πr ρg 3",
+      "b": "F = (4/3)πr³ρg",
+      "c": "F = 6πηr²ρ",
       "d": "F = 2gr2ρ/9η"
     },
     "correct_answer": "a",
@@ -516,11 +516,11 @@
     "question_text": "If speed of efflux through a small hole in a large tank is 9.8 m/s. Find the height at the fluid above the hole",
     "options": {
       "a": "1 m",
-      "b": "4.9 m",
-      "c": "9.8 m",
+      "b": "9.8 m",
+      "c": "4.9 m",
       "d": "19.6 m"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -538,10 +538,10 @@
     "difficulty": null,
     "question_text": "Flow speed of the fluid through a non-uniform pipe increases from 1 m/sec to 3 m/sec. If change in P.E. is zero, then pressure difference between two points will be: (density of the fluid = 1000 kg/m3)",
     "options": {
-      "a": "1000 N/m2",
-      "b": "8000 N/m2",
-      "c": "9000 N/m 2",
-      "d": "4000 N/m2"
+      "a": "1000 N/m²",
+      "b": "9000 N/m²",
+      "c": "8000 N/m²",
+      "d": "4000 N/m²"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -562,11 +562,11 @@
     "question_text": "Polarization of light exhibited the nature of light as",
     "options": {
       "a": "Longitudinal wave",
-      "b": "Transverse wave",
-      "c": "Compressional wave",
+      "b": "Compressional wave",
+      "c": "Transverse wave",
       "d": "Electromagnetic wave"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -585,11 +585,11 @@
     "question_text": "The concentration of a sugar solution can be determined by",
     "options": {
       "a": "Un-polarized light",
-      "b": "Interference of light",
-      "c": "Plane polarized light",
+      "b": "Plane polarized light",
+      "c": "Interference of light",
       "d": "Diffraction of light"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -608,8 +608,8 @@
     "question_text": "The information from one place to another can be transmitted very safely and easily by:",
     "options": {
       "a": "Copper wire",
-      "b": "Photodiode",
-      "c": "Aluminium wire",
+      "b": "Aluminium wire",
+      "c": "Photodiode",
       "d": "Optical fibre"
     },
     "correct_answer": "d",
@@ -631,11 +631,11 @@
     "question_text": "The image of an object placed inside the focal length of a convex lens will be largest and clearest when it is at the",
     "options": {
       "a": "Less than 25 cm",
-      "b": "Greater than 25 cm",
-      "c": "Near point",
+      "b": "Near point",
+      "c": "Greater than 25 cm",
       "d": "Infinity"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -651,17 +651,17 @@
     "topic": "Waves",
     "subtopic": "Simple Harmonic Motion (SHM)",
     "difficulty": null,
-    "question_text": "A simple harmonic oscillator has a time period of 10 seconds. Which equation rotates its acceleration ‘a’ and displacement ‘x’? 2π 2 [Diagram/graph/structure required — see original PDF page.]",
+    "question_text": "A simple harmonic oscillator has a time period of 10 seconds. Which equation relates its acceleration ‘a’ and displacement ‘x’?",
     "options": {
-      "a": "a = -2 x",
-      "b": "a = -( ) x 10",
-      "c": "a = -(20π)x",
-      "d": "a = -(20π)2x"
+      "a": "a = -2x",
+      "b": "a = -(20π)x",
+      "c": "a = -(2π/10)²x",
+      "d": "a = -(20π)²x"
     },
     "correct_answer": "c",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "OCR-corrupted SHM equation options (empty \"( )\" pair in option b) — needs retranscription from source.",
     "source_file": "mdcat_2012.py",
     "tag_confidence": "medium"
@@ -677,8 +677,8 @@
     "question_text": "When the length of a simple pendulum is doubled, find the ratio of the new frequency to the old frequency?",
     "options": {
       "a": "1/4",
-      "b": "√2",
-      "c": "1/2",
+      "b": "1/2",
+      "c": "√2",
       "d": "1/√2"
     },
     "correct_answer": "d",
@@ -697,17 +697,17 @@
     "topic": "Waves",
     "subtopic": "Simple Harmonic Motion (SHM)",
     "difficulty": null,
-    "question_text": "In the diagram below, the displacement of an oscillating particle is plotted against time. What does the length ‘PR’ on the time axis represents? Displacement Time [Diagram/graph/structure required — see original PDF page.]",
+    "question_text": "In the diagram below, the displacement of an oscillating particle is plotted against time. What does the length ‘PR’ on the time axis represent?",
     "options": {
-      "a": "Option A (see original source figure/marked segment)",
-      "b": "Option B (see original source figure/marked segment)",
-      "c": "Option C (see original source figure/marked segment)",
-      "d": "Option D (see original source figure/marked segment)"
+      "a": "Twice the frequency",
+      "b": "Half the period",
+      "c": "Half the frequency",
+      "d": "Twice the period"
     },
     "correct_answer": "b",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "Displacement-vs-time SHM graph; PR is a marked interval on the time axis. All four options are figure-only placeholders.",
     "source_file": "mdcat_2012.py",
     "tag_confidence": "medium"
@@ -720,17 +720,17 @@
     "topic": "Waves",
     "subtopic": "Characteristics of Waves",
     "difficulty": null,
-    "question_text": "When the source of sound moves towards the stationary observer, the value of apparent frequency ‘fo’ is: v+ui v [Diagram/graph/structure required — see original PDF page.]",
+    "question_text": "When the source of sound moves towards the stationary observer, the value of apparent frequency ‘fₒ’ is:",
     "options": {
-      "a": "fo = ( ) f",
-      "b": "fo = ( )f v v+ui v v-ui",
-      "c": "fo = ( ) f",
-      "d": "fo = ( )f v-ui v"
+      "a": "fₒ = ((v + uᵢ)/v) f",
+      "b": "fₒ = (v/(v − uᵢ)) f",
+      "c": "fₒ = (v/(v + uᵢ)) f",
+      "d": "fₒ = ((v − uᵢ)/v) f"
     },
     "correct_answer": "b",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "OCR-corrupted Doppler-effect fraction options (all four garbled) — needs retranscription from source.",
     "source_file": "mdcat_2012.py",
     "tag_confidence": "low"
@@ -746,11 +746,11 @@
     "question_text": "The ratio of tensile strength to tensile strain is called",
     "options": {
       "a": "Modulus of elasticity",
-      "b": "Young’s Modulus",
-      "c": "Bulk Modulus",
+      "b": "Bulk Modulus",
+      "c": "Young’s Modulus",
       "d": "Shear Modulus"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -769,8 +769,8 @@
     "question_text": "A wire is stretched by a force ‘F’ which causes an extension ∆l, the energy stored in the wire is:",
     "options": {
       "a": "F∆l",
-      "b": "½ F∆l2",
-      "c": "2F∆l",
+      "b": "2F∆l",
+      "c": "½ F∆l²",
       "d": "½ F∆l"
     },
     "correct_answer": "d",
@@ -792,8 +792,8 @@
     "question_text": "H2 and O2 both are at thermal equilibrium at temperature 300 K. Oxygen molecule is 16 times massive than hydrogen. Root mean square speed of hydrogen is",
     "options": {
       "a": "4 root mean square of oxygen",
-      "b": "1/16 root mean square of oxygen",
-      "c": "¼ root mean square of oxygen",
+      "b": "¼ root mean square of oxygen",
+      "c": "1/16 root mean square of oxygen",
       "d": "1/6 root mean square of oxygen"
     },
     "correct_answer": "a",
@@ -812,17 +812,17 @@
     "topic": "Thermodynamics",
     "subtopic": "Thermal Equilibrium and Heat",
     "difficulty": null,
-    "question_text": "Which of the following is expression of mean square speed of ‘N’ gas molecules contained in a cylinder? v1 + v2 +…+ vx v1 + v2 +…+ vx [Diagram/graph/structure required — see original PDF page.]",
+    "question_text": "Which of the following is expression of mean square speed of ‘N’ gas molecules contained in a cylinder?",
     "options": {
-      "a": "Option A (see original source figure)",
-      "b": "√ N N v1 2 + v2 2 +…+ vx 2 v1 2 + v2 2 +…+ vx 2",
-      "c": "Option C (see original source figure)",
-      "d": "√ N N"
+      "a": "(v₁ + v₂ + … + vₓ)/N",
+      "b": "(v₁² + v₂² + … + vₓ²)/N",
+      "c": "√[(v₁ + v₂ + … + vₓ)/N]",
+      "d": "√[(v₁² + v₂² + … + vₓ²)/N]"
     },
-    "correct_answer": "a",
+    "correct_answer": "b",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "Mean-square-speed formula options: two are figure-only placeholders, two are OCR-corrupted fraction/exponent text.",
     "source_file": "mdcat_2012.py",
     "tag_confidence": "low"
@@ -838,11 +838,11 @@
     "question_text": "If ‘Q’ is the amount of heat supplied to a system and ‘W’ is the work done, then change in internal energy can be defined as",
     "options": {
       "a": "Q/W",
-      "b": "W/Q",
-      "c": "Q – W",
+      "b": "Q – W",
+      "c": "W/Q",
       "d": "1 + Q/W"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -861,8 +861,8 @@
     "question_text": "A heat engine operating according to second law of thermodynamics rejects one fourth of the heat taken from high temperature reservoir. What is the percentage efficiency of heat engine?",
     "options": {
       "a": "100%",
-      "b": "50%",
-      "c": "25%",
+      "b": "25%",
+      "c": "50%",
       "d": "75%"
     },
     "correct_answer": "d",
@@ -884,9 +884,9 @@
     "question_text": "First law of thermodynamics under adiabatic conditions can be mathematically written as:",
     "options": {
       "a": "Q = W",
-      "b": "Q = U + W",
-      "c": "Q = ∆U",
-      "d": "W = ̶ ∆U"
+      "b": "Q = ∆U",
+      "c": "Q = U + W",
+      "d": "W = −∆U"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -904,7 +904,7 @@
     "topic": "Electronics",
     "subtopic": "PN Junction (Forward and Reverse Bias)",
     "difficulty": null,
-    "question_text": "What is the logic symbol for a NOT Gate? [Diagram/graph/structure required — see original PDF page.]",
+    "question_text": "What is the logic symbol for a NOT Gate?",
     "options": {
       "a": "Option A (see original source figure/marked segment)",
       "b": "Option B (see original source figure/marked segment)",
@@ -930,11 +930,11 @@
     "question_text": "The voltage that is applied across X-plates is provided by a circuit called",
     "options": {
       "a": "Audio generator",
-      "b": "Signal generator",
-      "c": "Time base generator",
+      "b": "Time base generator",
+      "c": "Signal generator",
       "d": "Linear generator"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -953,11 +953,11 @@
     "question_text": "What will be the effect on the capacitance of a capacitor if area of each plate is doubled while separation between the plates is halved?",
     "options": {
       "a": "Capacitance remains same",
-      "b": "Capacitance becomes four times",
-      "c": "Capacitance becomes double",
+      "b": "Capacitance becomes double",
+      "c": "Capacitance becomes four times",
       "d": "Capacitance reduces to half"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -976,11 +976,11 @@
     "question_text": "10 V potential difference is applied across the plate of 1 µF capacitor. What is the energy storied in capacitor?",
     "options": {
       "a": "0.5 mJ",
-      "b": "5 mJ",
-      "c": "0.05 mJ",
+      "b": "0.05 mJ",
+      "c": "5 mJ",
       "d": "50 mJ"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -996,7 +996,7 @@
     "topic": "Electronics",
     "subtopic": "PN Junction (Forward and Reverse Bias)",
     "difficulty": null,
-    "question_text": "Which one of the following is I-V curve of a junction diode? I I I I V V V V [Diagram/graph/structure required — see original PDF page.]",
+    "question_text": "Which one of the following is I-V curve of a junction diode?",
     "options": {
       "a": "Option A (see original source figure/marked segment)",
       "b": "Option B (see original source figure/marked segment)",
@@ -1019,14 +1019,14 @@
     "topic": "Carboxylic Acids",
     "subtopic": "Conversion to Derivatives (Acyl Halides, Anhydrides, Esters)",
     "difficulty": null,
-    "question_text": "In the below reaction the nucleophile which attacks on the carbon atom of acid is: O CH3COOH + PCl5 H C C Cl + POCl3 + HCl 3",
+    "question_text": "In the reaction CH₃COOH + PCl₅ → CH₃COCl + POCl₃ + HCl, the nucleophile which attacks on the carbon atom of acid is:",
     "options": {
-      "a": "OH–",
-      "b": "Cl–",
-      "c": "P",
-      "d": "H–"
+      "a": "OH⁻",
+      "b": "P",
+      "c": "Cl⁻",
+      "d": "H⁻"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1042,12 +1042,12 @@
     "topic": "Carboxylic Acids",
     "subtopic": "Conversion to Derivatives (Acyl Halides, Anhydrides, Esters)",
     "difficulty": null,
-    "question_text": "When ethanol chloride reacts with methylamine, an amide is formed. What is the structure of the amide formed? O O",
+    "question_text": "When ethanoyl chloride reacts with methylamine, an amide is formed. What is the structure of the amide formed?",
     "options": {
-      "a": "H3C CH2 C NH2",
-      "b": "H3C C NH2 O O",
-      "c": "H3C CH2 C NHCH3",
-      "d": "H3C C NHCH3"
+      "a": "CH₃–CH₂–CO–NH₂",
+      "b": "CH₃–CH₂–CO–NHCH₃",
+      "c": "CH₃–CO–NH₂",
+      "d": "CH₃–CO–NHCH₃"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -1068,8 +1068,8 @@
     "question_text": "Organic compound containing both amine and carboxyl group is known as",
     "options": {
       "a": "Amino acid",
-      "b": "Saccharide",
-      "c": "Fatty acid",
+      "b": "Fatty acid",
+      "c": "Saccharide",
       "d": "Amide"
     },
     "correct_answer": "a",
@@ -1088,12 +1088,12 @@
     "topic": "Macromolecules",
     "subtopic": "Classification and Structure of Proteins",
     "difficulty": null,
-    "question_text": "Alanine is an amino acid which shows neutral effect on litmus paper, the formula of alanine may be H H2N C COOH HOOC CH2 CH COOH [Diagram/graph/structure required — see original PDF page.]",
+    "question_text": "Alanine is an amino acid which shows neutral effect on litmus paper, the formula of alanine may be",
     "options": {
-      "a": "CH3",
-      "b": "NH2 H H2N C CH COOH H2C (CH2)3 CH COOH H NH2 NH2 NH2",
-      "c": "Option C (see original source figure)",
-      "d": "Option D (see original source figure)"
+      "a": "H₂N–CH(CH₃)–COOH",
+      "b": "H₂N–CH₂–CH(NH₂)–COOH",
+      "c": "HOOC–CH₂–CH(NH₂)–COOH",
+      "d": "H₂N–CH₂–(CH₂)₃–CH(NH₂)–COOH"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -1113,10 +1113,10 @@
     "difficulty": null,
     "question_text": "Which of the following structures is not an alpha amino acid? H2N CH COOH CH2 H3C CH COOH",
     "options": {
-      "a": "NH2",
-      "b": "H2N CH COOH",
-      "c": "H2N CH2 CH2 CH2 CH2 COOH",
-      "d": "CH2OH"
+      "a": "CH₃–CH(NH₂)–COOH",
+      "b": "H₂N–CH₂–CH₂–CH₂–CH₂–COOH",
+      "c": "C₆H₅–CH₂–CH(NH₂)–COOH",
+      "d": "HOCH₂–CH(NH₂)–COOH"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -1134,14 +1134,14 @@
     "topic": "Macromolecules",
     "subtopic": "Classification and Structure of Proteins",
     "difficulty": null,
-    "question_text": "The skeletal formula of dipeptide formed between aspartic acid and phenylalanine is given below: O NH2 NH HO O O OCH3 How many functional groups are present in its formula?",
+    "question_text": "The skeletal formula of the dipeptide formed between aspartic acid and phenylalanine (aspartame) is HOOC–CH₂–CH(NH₂)–CO–NH–CH(CH₂C₆H₅)–COOCH₃. How many functional groups are present in its formula?",
     "options": {
       "a": "1",
-      "b": "4",
-      "c": "2",
+      "b": "2",
+      "c": "4",
       "d": "3"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1157,12 +1157,12 @@
     "topic": "Macromolecules",
     "subtopic": "Classification and Structure of Proteins",
     "difficulty": null,
-    "question_text": "In basic conditions, amino acid exists in which of the following forms? + + -",
+    "question_text": "In basic conditions, amino acid exists in which of the following forms?",
     "options": {
-      "a": "H3N CH2 COOH",
-      "b": "H3N CH2 COO -",
-      "c": "H2N CH2 COOH",
-      "d": "H2N CH2 COO"
+      "a": "H₃N⁺–CH₂–COOH",
+      "b": "H₂N–CH₂–COOH",
+      "c": "H₃N⁺–CH₂–COO⁻",
+      "d": "H₂N–CH₂–COO⁻"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -1180,14 +1180,14 @@
     "topic": "Macromolecules",
     "subtopic": "Classification and Structure of Proteins",
     "difficulty": null,
-    "question_text": "Structure of dipeptide is O H2N CH2 C NH HC COOH CH3 This is called:",
+    "question_text": "Structure of dipeptide is H₂N–CH₂–CO–NH–CH(CH₃)–COOH. This is called:",
     "options": {
       "a": "Glycyl glycine",
-      "b": "Alaninyl alanine",
-      "c": "Glycyl alanine",
+      "b": "Glycyl alanine",
+      "c": "Alaninyl alanine",
       "d": "Alaninyl glycine"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1206,8 +1206,8 @@
     "question_text": "The principle energy storage carbohydrate in animal’s is",
     "options": {
       "a": "Glucose",
-      "b": "Protein",
-      "c": "Starch",
+      "b": "Starch",
+      "c": "Protein",
       "d": "Glycogen"
     },
     "correct_answer": "d",
@@ -1229,8 +1229,8 @@
     "question_text": "Starch is a polymer of",
     "options": {
       "a": "β–D–glucose",
-      "b": "γ–D–glucose",
-      "c": "α– –glucose",
+      "b": "α–D–glucose",
+      "c": "γ–D–glucose",
       "d": "α–L–glucose"
     },
     "correct_answer": "b",
@@ -1252,8 +1252,8 @@
     "question_text": "The reaction between fats and caustic soda is called",
     "options": {
       "a": "Hydrogenolysis",
-      "b": "Esterification",
-      "c": "Fermentation",
+      "b": "Fermentation",
+      "c": "Esterification",
       "d": "Saponification"
     },
     "correct_answer": "d",
@@ -1275,11 +1275,11 @@
     "question_text": "Adipic acid and hexamethylene diamine both of which have _________ carbon atoms:",
     "options": {
       "a": "Seven",
-      "b": "Six",
-      "c": "Eight",
+      "b": "Eight",
+      "c": "Six",
       "d": "Four"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1298,8 +1298,8 @@
     "question_text": "Lactose is a sugar present in milk. It is an example of",
     "options": {
       "a": "Disaccharides",
-      "b": "Polysaccharides",
-      "c": "Monosaccharides",
+      "b": "Monosaccharides",
+      "c": "Polysaccharides",
       "d": "Starch"
     },
     "correct_answer": "a",
@@ -1321,8 +1321,8 @@
     "question_text": "Macromolecules are described as large molecules built up from small repeating units called:",
     "options": {
       "a": "Monomers",
-      "b": "Metamers",
-      "c": "Isomers",
+      "b": "Isomers",
+      "c": "Metamers",
       "d": "Tautomers"
     },
     "correct_answer": "a",
@@ -1341,14 +1341,14 @@
     "topic": "Reaction Kinetics",
     "subtopic": "Factors Affecting Rate of Reaction",
     "difficulty": null,
-    "question_text": "The increase in concentration of oxidizing agents in smog like H 2O2, HNO3, PAN and ozone in the air is called",
+    "question_text": "The increase in concentration of oxidizing agents in smog like H₂O₂, HNO₃, PAN and ozone in the air is called",
     "options": {
       "a": "Carbonated smog",
-      "b": "Photochemical smog",
-      "c": "Nitrated smog",
+      "b": "Nitrated smog",
+      "c": "Photochemical smog",
       "d": "Sulphonated smog"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1367,8 +1367,8 @@
     "question_text": "Which is the metal, whose elevated concentration is harmful for fish as it clogs the gills thus causing suffocation?",
     "options": {
       "a": "Sodium",
-      "b": "Zinc",
-      "c": "Lead",
+      "b": "Lead",
+      "c": "Zinc",
       "d": "Aluminium"
     },
     "correct_answer": "d",
@@ -1387,12 +1387,12 @@
     "topic": "Fundamental Concepts of Chemistry",
     "subtopic": "Moles and Avogadro''s Number",
     "difficulty": null,
-    "question_text": "An organic compound has empirical formula C3H3O, if molar mass of compound is 110.15 gmol-1. The molecular formula of this organic compound is (A, of C=12, H=1.008 and O=16)",
+    "question_text": "An organic compound has empirical formula C₃H₃O, if molar mass of compound is 110.15 g mol⁻¹. The molecular formula of this organic compound is (A, of C=12, H=1.008 and O=16)",
     "options": {
-      "a": "C6H6O2",
-      "b": "C9H9O3",
-      "c": "C3H3O",
-      "d": "C6H6O3"
+      "a": "C₆H₆O₂",
+      "b": "C₃H₃O",
+      "c": "C₉H₉O₃",
+      "d": "C₆H₆O₃"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -1410,14 +1410,14 @@
     "topic": "Fundamental Concepts of Chemistry",
     "subtopic": "Limiting and Excess Reactants",
     "difficulty": null,
-    "question_text": "When 8 grams (4 moles) of H2 react with 2 moles of O2, how many moles of water will be formed?",
+    "question_text": "When 8 grams (4 moles) of H₂ react with 2 moles of O₂, how many moles of water will be formed?",
     "options": {
       "a": "Five",
-      "b": "Six",
-      "c": "Four",
+      "b": "Four",
+      "c": "Six",
       "d": "Three"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1433,12 +1433,12 @@
     "topic": "Fundamental Concepts of Chemistry",
     "subtopic": "Moles and Avogadro''s Number",
     "difficulty": null,
-    "question_text": "The number of molecules in 22.4 dm3 of H2 gas at 0 °C and 1 atm are",
+    "question_text": "The number of molecules in 22.4 dm³ of H₂ gas at 0 °C and 1 atm are",
     "options": {
-      "a": "60.2 x 1023",
-      "b": "6.02 x 1025",
-      "c": "6.02 x 10 22",
-      "d": "6.02 x 1022"
+      "a": "60.2 × 10²³",
+      "b": "6.02 × 10²²",
+      "c": "6.02 × 10²⁵",
+      "d": "6.02 × 10²³"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -1458,12 +1458,12 @@
     "difficulty": null,
     "question_text": "Correct order of boiling points of the given liquid is",
     "options": {
-      "a": "H2O > HF > HCl > NH3",
-      "b": "H2O > HF > NH3 > HCl",
-      "c": "HF > H2O > HCl > NH3",
-      "d": "HF > H2O > NH3 > HCl"
+      "a": "H₂O > HF > HCl > NH₃",
+      "b": "HF > H₂O > HCl > NH₃",
+      "c": "H₂O > HF > NH₃ > HCl",
+      "d": "HF > H₂O > NH₃ > HCl"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1482,11 +1482,11 @@
     "question_text": "The relative energies of 4s, 4p and 3d orbitals are in the order",
     "options": {
       "a": "3d < 4p <4s",
-      "b": "4p < 4s < 3d",
-      "c": "4s < 3d < 4p",
+      "b": "4s < 3d < 4p",
+      "c": "4p < 4s < 3d",
       "d": "4p < 3d < 4s"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1505,11 +1505,11 @@
     "question_text": "With increase in the value of Principal Quantum Number ‘n’, the shape of the s-orbitals remains the same although their sizes",
     "options": {
       "a": "Decrease",
-      "b": "Remain the same",
-      "c": "Increase",
+      "b": "Increase",
+      "c": "Remain the same",
       "d": "May or may not remain the same"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1528,11 +1528,11 @@
     "question_text": "The angle between unhybridized p-orbital and three sp2 hybrid orbitals of each carbon atom in ether is:",
     "options": {
       "a": "120°",
-      "b": "109.5°",
-      "c": "90°",
+      "b": "90°",
+      "c": "109.5°",
       "d": "180°"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1551,8 +1551,8 @@
     "question_text": "In ‘H-F’ bond electronegativity difference is ‘1.9’. What is the type of this bond?",
     "options": {
       "a": "Polar covalent bond",
-      "b": "Pi (π) bond",
-      "c": "Non-polar covalent bond",
+      "b": "Non-polar covalent bond",
+      "c": "Pi (π) bond",
       "d": "Co-ordinate covalent bond"
     },
     "correct_answer": "a",
@@ -1574,8 +1574,8 @@
     "question_text": "‘∆H’ will be given a negative sign in",
     "options": {
       "a": "Exothermic reactions",
-      "b": "Dissociation reaction",
-      "c": "Decomposition reactions",
+      "b": "Decomposition reactions",
+      "c": "Dissociation reaction",
       "d": "Endothermic reactions"
     },
     "correct_answer": "a",
@@ -1597,8 +1597,8 @@
     "question_text": "Lattice energy of an ionic crystal is the enthalpy of",
     "options": {
       "a": "Combustion",
-      "b": "Dissolution",
-      "c": "Dissociation",
+      "b": "Dissociation",
+      "c": "Dissolution",
       "d": "Formation"
     },
     "correct_answer": "d",
@@ -1620,8 +1620,8 @@
     "question_text": "As number of solute particles increases, freezing point of the solution:",
     "options": {
       "a": "Remains the same",
-      "b": "First increases, then decreases",
-      "c": "Increases",
+      "b": "Increases",
+      "c": "First increases, then decreases",
       "d": "Decreases"
     },
     "correct_answer": "d",
@@ -1643,8 +1643,8 @@
     "question_text": "Boiling point constants help us to determine",
     "options": {
       "a": "Molar masses",
-      "b": "Pressures",
-      "c": "Volumes",
+      "b": "Volumes",
+      "c": "Pressures",
       "d": "Masses"
     },
     "correct_answer": "a",
@@ -1663,11 +1663,11 @@
     "topic": "Electrochemistry",
     "subtopic": "Redox Reactions",
     "difficulty": null,
-    "question_text": "In electrolysis of aqueous CuCl2, the metal deposited at cathode is",
+    "question_text": "In electrolysis of aqueous CuCl₂, the metal deposited at cathode is",
     "options": {
       "a": "Sodium",
-      "b": "Lead",
-      "c": "Aluminium",
+      "b": "Aluminium",
+      "c": "Lead",
       "d": "Copper"
     },
     "correct_answer": "d",
@@ -1686,11 +1686,11 @@
     "topic": "Electrochemistry",
     "subtopic": "Oxidation and Reduction",
     "difficulty": null,
-    "question_text": "In MgCl2, the oxidation state of ‘Cl’ is",
+    "question_text": "In MgCl₂, the oxidation state of ‘Cl’ is",
     "options": {
       "a": "Zero",
-      "b": "-2",
-      "c": "+2",
+      "b": "+2",
+      "c": "-2",
       "d": "-1"
     },
     "correct_answer": "d",
@@ -1712,8 +1712,8 @@
     "question_text": "Formation of NH3 is reversible and exothermic process, what will happen on cooling?",
     "options": {
       "a": "More reactant will form",
-      "b": "More H2 will be formed",
-      "c": "More N2 will be formed",
+      "b": "More N2 will be formed",
+      "c": "More H2 will be formed",
       "d": "More product (NH3) will be formed"
     },
     "correct_answer": "d",
@@ -1735,8 +1735,8 @@
     "question_text": "A buffer solution is that which resists/minimizes the change in",
     "options": {
       "a": "pOH",
-      "b": "pKa",
-      "c": "pH",
+      "b": "pH",
+      "c": "pKa",
       "d": "pKb"
     },
     "correct_answer": "b",
@@ -1758,8 +1758,8 @@
     "question_text": "In some reactions, a product formed acts as a catalyst. The phenomenon is called",
     "options": {
       "a": "Negative Catalysis",
-      "b": "Hetergeneous catalysis",
-      "c": "Activation of Catalyst",
+      "b": "Activation of Catalyst",
+      "c": "Hetergeneous catalysis",
       "d": "Autocatalysis"
     },
     "correct_answer": "d",
@@ -1781,8 +1781,8 @@
     "question_text": "The reaction rate in forward direction decreases with the passage of time because",
     "options": {
       "a": "Concentration of reactants decrease",
-      "b": "The order of reaction changes",
-      "c": "Concentration of product decreases",
+      "b": "Concentration of product decreases",
+      "c": "The order of reaction changes",
       "d": "Temperature of the system changes"
     },
     "correct_answer": "a",
@@ -1804,11 +1804,11 @@
     "question_text": "Which one remains same along a period?",
     "options": {
       "a": "Atomic radius",
-      "b": "Number of shells (orbits)",
-      "c": "Melting point",
+      "b": "Melting point",
+      "c": "Number of shells (orbits)",
       "d": "Electrical conductivity"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1827,8 +1827,8 @@
     "question_text": "More the ionization energy of an element:",
     "options": {
       "a": "More the electropositivity",
-      "b": "Less the metallic character",
-      "c": "More the reducing power",
+      "b": "More the reducing power",
+      "c": "Less the metallic character",
       "d": "Bigger the atomic radius"
     },
     "correct_answer": "c",
@@ -1849,10 +1849,10 @@
     "difficulty": null,
     "question_text": "Alkaline earth metal hydroxides decompose on heating. Which of the following reactions is a correct representation of this decomposition?",
     "options": {
-      "a": "M(OH)2(s) MO(s) + H2O(l)",
-      "b": "2MOH2(s) 2MO(s) + H2(l)",
-      "c": "MOH(s) M2O(s) + H2O(l)",
-      "d": "4MOH(s) 4M(s) + 2H2O(l) + O2"
+      "a": "M(OH)₂(s) → MO(s) + H₂O(l)",
+      "b": "MOH(s) → M₂O(s) + H₂O(l)",
+      "c": "2MOH₂(s) → 2MO(s) + H₂(l)",
+      "d": "4MOH(s) → 4M(s) + 2H₂O(l) + O₂"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -1873,8 +1873,8 @@
     "question_text": "Carbon has the unique ability to form long chains by bonding with other carbon atoms. This property of self-linking in carbon is known as:",
     "options": {
       "a": "Condensation",
-      "b": "Cyclization",
-      "c": "Polymerization",
+      "b": "Polymerization",
+      "c": "Cyclization",
       "d": "Catenation"
     },
     "correct_answer": "d",
@@ -1893,14 +1893,14 @@
     "topic": "Transition Elements",
     "subtopic": "Electronic Structure of d-block",
     "difficulty": null,
-    "question_text": "Oxidation state of ‘Mn’ in KMnO4, K2MnO4, MnO2 and MnSO4 is in the order:",
+    "question_text": "Oxidation state of ‘Mn’ in KMnO₄, K₂MnO₄, MnO₂ and MnSO₄ is in the order:",
     "options": {
       "a": "+7, +6, +2, +4",
-      "b": "+7, +6, +4, +2",
-      "c": "+6, +7, +2, +4",
+      "b": "+6, +7, +2, +4",
+      "c": "+7, +6, +4, +2",
       "d": "+4, +6, +7, +2"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1919,8 +1919,8 @@
     "question_text": "Which pair of transition elements shows abnormal electronic configuration?",
     "options": {
       "a": "Sc and Zn",
-      "b": "Zn and Cu",
-      "c": "Cu and Sc",
+      "b": "Cu and Sc",
+      "c": "Zn and Cu",
       "d": "Cu and Cr"
     },
     "correct_answer": "d",
@@ -1942,8 +1942,8 @@
     "question_text": "The acid rain water has pH:",
     "options": {
       "a": "Below 5",
-      "b": "Between 5 and 7",
-      "c": "7",
+      "b": "7",
+      "c": "Between 5 and 7",
       "d": "Between 7 and 14"
     },
     "correct_answer": "a",
@@ -1962,14 +1962,14 @@
     "topic": "Chemical Equilibrium",
     "subtopic": "Haber''s Process",
     "difficulty": null,
-    "question_text": "In Contact Process for manufacturing sulphuric acid, Sulphur trioxide (SO 3) is not absorbed in water because",
+    "question_text": "In Contact Process for manufacturing sulphuric acid, sulphur trioxide (SO₃) is not absorbed in water because",
     "options": {
       "a": "The reaction does not go to completion",
-      "b": "The reaction is quite slow",
-      "c": "The reaction is highly exothermic",
-      "d": "SO3 is insoluble in water"
+      "b": "The reaction is highly exothermic",
+      "c": "The reaction is quite slow",
+      "d": "SO₃ is insoluble in water"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1988,8 +1988,8 @@
     "question_text": "In modern Haber Process Plants, the temperature maintained during the process is",
     "options": {
       "a": "670 – 770 K (400 °C – 500 °C)",
-      "b": "370 – 470 K (100 °C – 200 °C)",
-      "c": "270 – 370 K (0 °C – 100 °C)",
+      "b": "270 – 370 K (0 °C – 100 °C)",
+      "c": "370 – 470 K (100 °C – 200 °C)",
       "d": "570 – 600 K (300 °C – 380 °C)"
     },
     "correct_answer": "a",
@@ -2011,11 +2011,11 @@
     "question_text": "In the Haber process for manufacturing of ammonia, Nitrogen is taken from",
     "options": {
       "a": "Proteins occurring in living bodies",
-      "b": "Air",
-      "c": "Ammonium salts obtained industrially",
+      "b": "Ammonium salts obtained industrially",
+      "c": "Air",
       "d": "Minerals containing nitrates"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2034,8 +2034,8 @@
     "question_text": "Ethene on polymerization, gives the product polyethene. This reaction may be called as",
     "options": {
       "a": "Addition",
-      "b": "Substitution",
-      "c": "Condensation",
+      "b": "Condensation",
+      "c": "Substitution",
       "d": "Pyrolysis"
     },
     "correct_answer": "a",
@@ -2056,10 +2056,10 @@
     "difficulty": null,
     "question_text": "In the following, which one is free radical?",
     "options": {
-      "a": "Cl―",
-      "b": "Cl2",
-      "c": "Cl+",
-      "d": "Clo O +"
+      "a": "Cl⁻",
+      "b": "Cl⁺",
+      "c": "Cl₂",
+      "d": "Cl•"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -2077,11 +2077,11 @@
     "topic": "Chemistry of Hydrocarbons",
     "subtopic": "Reactivity of Benzene",
     "difficulty": null,
-    "question_text": "The introduction of R C group in benzene is called",
+    "question_text": "The introduction of R–C⁺=O (acyl) group in benzene is called",
     "options": {
       "a": "Acylation",
-      "b": "Alkylation",
-      "c": "Carbonyl reduction",
+      "b": "Carbonyl reduction",
+      "c": "Alkylation",
       "d": "Formylation"
     },
     "correct_answer": "a",
@@ -2100,11 +2100,11 @@
     "topic": "Alkyl Halides",
     "subtopic": "Nucleophilic Substitution Mechanisms",
     "difficulty": null,
-    "question_text": "The alkaline hydrolysis of bromoethane shown below gives alcohol as the product: H3C―CH2―Br H3C―CH2―OH The reagent and the condition used in this reaction may be:",
+    "question_text": "The alkaline hydrolysis of bromoethane, CH₃–CH₂–Br → CH₃–CH₂–OH, gives alcohol as the product. The reagent and the condition used in this reaction are:",
     "options": {
-      "a": "H2O at room temperature",
-      "b": "KOH in alcohol",
-      "c": "Ethanol, heat",
+      "a": "H₂O at room temperature",
+      "b": "Ethanol, heat",
+      "c": "KOH in alcohol",
       "d": "Dilute NaOH(aq) warm"
     },
     "correct_answer": "d",
@@ -2123,12 +2123,12 @@
     "topic": "Chemistry of Hydrocarbons",
     "subtopic": "Structure and Reactivity of Alkenes",
     "difficulty": null,
-    "question_text": "In the reaction of ethane with bromine the intermediate formed is + H C CH H2 C CH2 2 2 +",
+    "question_text": "In the reaction of ethene with bromine the intermediate formed is",
     "options": {
-      "a": "Br",
-      "b": "Br - H2 C CH2",
-      "c": "Br",
-      "d": "H2C CHBr"
+      "a": "Cyclic bromonium ion (H₂C–CH₂ bridged by Br⁺)",
+      "b": "BrCH₂–CH₂⁻",
+      "c": "BrCH₂–CH₂⁺",
+      "d": "H₂C=CHBr"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -2149,8 +2149,8 @@
     "question_text": "In substitution reactions, dihaloalkane or secondary halogenoalkane give / show:",
     "options": {
       "a": "SN1 Mechanism",
-      "b": "Both E1 and E2",
-      "c": "SN2 Mechanism",
+      "b": "SN2 Mechanism",
+      "c": "Both E1 and E2",
       "d": "Both SN1 and SN2"
     },
     "correct_answer": "d",
@@ -2172,11 +2172,11 @@
     "question_text": "The dehydration of ethyl alcohol with concentrated H2SO4 at 140°C gives:",
     "options": {
       "a": "Ethene",
-      "b": "Alcohol",
-      "c": "Diethyl ether",
+      "b": "Diethyl ether",
+      "c": "Alcohol",
       "d": "Carboxylic acid"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2195,8 +2195,8 @@
     "question_text": "Ethanol can be converted in to ethanoic acid by:",
     "options": {
       "a": "Oxidation",
-      "b": "Hydration",
-      "c": "Fermentation",
+      "b": "Fermentation",
+      "c": "Hydration",
       "d": "Hydrogenation"
     },
     "correct_answer": "a",
@@ -2215,14 +2215,14 @@
     "topic": "Alcohols and Phenols",
     "subtopic": "Nomenclature, Structure, Reactivity of Alcohols",
     "difficulty": null,
-    "question_text": "The following structure is of: R R C OH R",
+    "question_text": "The following structure is of: R₃C–OH (a carbon bearing –OH and three R groups)",
     "options": {
       "a": "Secondary alcohol",
-      "b": "Tertiary alcohol",
-      "c": "Primary alcohol",
+      "b": "Primary alcohol",
+      "c": "Tertiary alcohol",
       "d": "Carboxylic acid"
     },
-    "correct_answer": "a",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2238,14 +2238,14 @@
     "topic": "Carboxylic Acids",
     "subtopic": "Conversion to Derivatives (Acyl Halides, Anhydrides, Esters)",
     "difficulty": null,
-    "question_text": "When ethanol is warmed with ethanoic acid in the presence of strong acid catalyst, an ester ethyl ethanoate is formed. CH3CH2OH + CH3CO2H CH3CO2CH2CH3 During this reaction:",
+    "question_text": "When ethanol is warmed with ethanoic acid in the presence of strong acid catalyst, an ester ethyl ethanoate is formed: CH₃CH₂OH + CH₃CO₂H → CH₃CO₂CH₂CH₃ + H₂O. Which statement is correct?",
     "options": {
       "a": "Alcohol is reduced",
-      "b": "O ̶ H bond in ethanol is broken",
-      "c": "O ̶ H bond in ethanoic acid is broken",
+      "b": "O–H bond in ethanoic acid is broken",
+      "c": "O–H bond in ethanol is broken",
       "d": "Acid is oxidized"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2264,8 +2264,8 @@
     "question_text": "Primary alcohols normally give us aldehydes when oxidized in the presence of Na 2Cr3O7, what the product will be, when the secondary alcohols are oxidized in same conditions?",
     "options": {
       "a": "Alkenes",
-      "b": "Alkyl halides",
-      "c": "Alkynes",
+      "b": "Alkynes",
+      "c": "Alkyl halides",
       "d": "Ketones"
     },
     "correct_answer": "d",
@@ -2284,12 +2284,12 @@
     "topic": "Aldehydes and Ketones",
     "subtopic": "Nucleophilic Addition Reactions",
     "difficulty": null,
-    "question_text": "Formaldehyde reacts with HCN (NaCN + HCl) to give a compound: H C 3 OH H3 C OH C C CN",
+    "question_text": "Formaldehyde reacts with HCN (NaCN + HCl) to give a compound:",
     "options": {
-      "a": "H CN",
-      "b": "H3C H OH O C",
-      "c": "H CN",
-      "d": "H3C C CN"
+      "a": "CH₃–CH(OH)–CN",
+      "b": "H₂C(OH)–CN",
+      "c": "(CH₃)₂C(OH)–CN",
+      "d": "CH₃–CO–CN"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -2307,12 +2307,12 @@
     "topic": "Aldehydes and Ketones",
     "subtopic": "Reactivity of Aldehydes and Ketones",
     "difficulty": null,
-    "question_text": "Iodoform test will not be positive with: O",
+    "question_text": "Iodoform test will not be positive with:",
     "options": {
-      "a": "H3C CH2 C CH2 CH3",
-      "b": "C2H5 OH O O",
-      "c": "H3C CH2 C CH3",
-      "d": "H3C C H"
+      "a": "CH₃–CH₂–CO–CH₂–CH₃",
+      "b": "CH₃–CH₂–CO–CH₃",
+      "c": "C₂H₅OH",
+      "d": "CH₃–CHO"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -2330,12 +2330,12 @@
     "topic": "Aldehydes and Ketones",
     "subtopic": "Oxidation Reactions",
     "difficulty": null,
-    "question_text": "When CH3―CH2―OH is oxidized in the presence of K2Cr2O7 and H2SO4, the product formed is O O",
+    "question_text": "When CH₃–CH₂–OH is oxidized in the presence of K₂Cr₂O₇ and H₂SO₄, the product formed is",
     "options": {
-      "a": "H3C C OH",
-      "b": "H3C C CH3 O O",
-      "c": "H C OH",
-      "d": "H3C C OCH3"
+      "a": "CH₃–COOH",
+      "b": "H–COOH",
+      "c": "CH₃–CO–CH₃",
+      "d": "CH₃–COOCH₃"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -2356,11 +2356,11 @@
     "question_text": "He had a heart attack and all attempts to _________ him failed.",
     "options": {
       "a": "Renew",
-      "b": "Revise",
-      "c": "Resuscitate",
+      "b": "Resuscitate",
+      "c": "Revise",
       "d": "Refurnish"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2379,8 +2379,8 @@
     "question_text": "The _________ stench of dead animals and plants made Mumtaz ill.",
     "options": {
       "a": "Putrid",
-      "b": "Perturbed",
-      "c": "Purified",
+      "b": "Purified",
+      "c": "Perturbed",
       "d": "Purchased"
     },
     "correct_answer": "a",
@@ -2402,11 +2402,11 @@
     "question_text": "While going up the hills, by bus, she felt __________ inside.",
     "options": {
       "a": "Fishy",
-      "b": "Queasy",
-      "c": "Itchy",
+      "b": "Itchy",
+      "c": "Queasy",
       "d": "Squeezy"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2425,11 +2425,11 @@
     "question_text": "The craft statesman manipulated the situation by making false promises and declaring sport festivities as a __________ to fool the public.",
     "options": {
       "a": "Red-Hearing",
-      "b": "Red-Herring",
-      "c": "Red-Feather",
+      "b": "Red-Feather",
+      "c": "Red-Herring",
       "d": "Red-Haring"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2445,17 +2445,17 @@
     "topic": "Writing Skills",
     "subtopic": "Proofreading and Editing",
     "difficulty": null,
-    "question_text": "SPOT THE ERROR: The theory was discarded as there was no corroborating evidence for its favour. [Diagram/graph/structure required — see original PDF page.]",
+    "question_text": "SPOT THE ERROR: The theory was discarded as there was no corroborating evidence for its favour.",
     "options": {
-      "a": "Option A (see original source figure/marked segment)",
-      "b": "Option B (see original source figure/marked segment)",
-      "c": "Option C (see original source figure/marked segment)",
-      "d": "Option D (see original source figure/marked segment)"
+      "a": "discarded",
+      "b": "as",
+      "c": "there",
+      "d": "for"
     },
     "correct_answer": "d",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "SPOT THE ERROR item: underlined-segment options lost to OCR, not recoverable from this source. Needs the original 2012 PDF page.",
     "source_file": "mdcat_2012.py",
     "tag_confidence": "low"
@@ -2468,17 +2468,17 @@
     "topic": "Writing Skills",
     "subtopic": "Proofreading and Editing",
     "difficulty": null,
-    "question_text": "SPOT THE ERROR: The workers were raising much hue and cry when their demands were turned away. [Diagram/graph/structure required — see original PDF page.]",
+    "question_text": "SPOT THE ERROR: The workers were raising much hue and cry when their demands were turned away.",
     "options": {
-      "a": "Option A (see original source figure/marked segment)",
-      "b": "Option B (see original source figure/marked segment)",
-      "c": "Option C (see original source figure/marked segment)",
-      "d": "Option D (see original source figure/marked segment)"
+      "a": "raising",
+      "b": "much",
+      "c": "demands",
+      "d": "away"
     },
     "correct_answer": "d",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "SPOT THE ERROR item: underlined-segment options lost to OCR, not recoverable from this source. Needs the original 2012 PDF page.",
     "source_file": "mdcat_2012.py",
     "tag_confidence": "low"
@@ -2491,17 +2491,17 @@
     "topic": "Writing Skills",
     "subtopic": "Proofreading and Editing",
     "difficulty": null,
-    "question_text": "SPOT THE ERROR: Aslam was badly cudgeled from his step-brother. He received many bruises and contusions. Thank God! No [Diagram/graph/structure required — see original PDF page.]",
+    "question_text": "SPOT THE ERROR: Aslam was badly cudgeled from his step-brother. He received many bruises and contusions. Thank God! No injury was serious.",
     "options": {
-      "a": "Option A (see original source figure/marked segment)",
-      "b": "Option B (see original source figure/marked segment)",
-      "c": "Option C (see original source figure/marked segment)",
-      "d": "Option D (see original source figure/marked segment)"
+      "a": "from",
+      "b": "bruises",
+      "c": "Thank",
+      "d": "was"
     },
     "correct_answer": "a",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "SPOT THE ERROR item: underlined-segment options lost to OCR, not recoverable from this source. Needs the original 2012 PDF page.",
     "source_file": "mdcat_2012.py",
     "tag_confidence": "low"
@@ -2514,17 +2514,17 @@
     "topic": "Writing Skills",
     "subtopic": "Proofreading and Editing",
     "difficulty": null,
-    "question_text": "SPOT THE ERROR: I extend a cordial invitation for you to visit our farm house. We have grown vegetables without chemical [Diagram/graph/structure required — see original PDF page.]",
+    "question_text": "SPOT THE ERROR: I extend a cordial invitation for you to visit our farm house. We have grown vegetables without chemical fertilizers over there.",
     "options": {
-      "a": "Option A (see original source figure/marked segment)",
-      "b": "Option B (see original source figure/marked segment)",
-      "c": "Option C (see original source figure/marked segment)",
-      "d": "Option D (see original source figure/marked segment)"
+      "a": "for",
+      "b": "to",
+      "c": "grown",
+      "d": "over"
     },
     "correct_answer": "a",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "SPOT THE ERROR item: underlined-segment options lost to OCR, not recoverable from this source. Needs the original 2012 PDF page.",
     "source_file": "mdcat_2012.py",
     "tag_confidence": "low"
@@ -2537,17 +2537,17 @@
     "topic": "Writing Skills",
     "subtopic": "Proofreading and Editing",
     "difficulty": null,
-    "question_text": "SPOT THE ERROR: Although he is not a close relative of me, yet I was greeted with a show of deep cordiality. [Diagram/graph/structure required — see original PDF page.]",
+    "question_text": "SPOT THE ERROR: Although he is not a close relative of me, yet I was greeted with a show of deep cordiality.",
     "options": {
-      "a": "Option A (see original source figure/marked segment)",
-      "b": "Option B (see original source figure/marked segment)",
-      "c": "Option C (see original source figure/marked segment)",
-      "d": "Option D (see original source figure/marked segment)"
+      "a": "me",
+      "b": "greeted",
+      "c": "a",
+      "d": "of"
     },
     "correct_answer": "a",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "SPOT THE ERROR item: underlined-segment options lost to OCR, not recoverable from this source. Needs the original 2012 PDF page.",
     "source_file": "mdcat_2012.py",
     "tag_confidence": "low"
@@ -2560,17 +2560,17 @@
     "topic": "Writing Skills",
     "subtopic": "Proofreading and Editing",
     "difficulty": null,
-    "question_text": "SPOT THE ERROR: This antibiotic destroys red corpuscles in the blood and cause pernicious anaemia. [Diagram/graph/structure required — see original PDF page.]",
+    "question_text": "SPOT THE ERROR: This antibiotic destroys red corpuscles in the blood and cause pernicious anaemia.",
     "options": {
-      "a": "Option A (see original source figure/marked segment)",
-      "b": "Option B (see original source figure/marked segment)",
-      "c": "Option C (see original source figure/marked segment)",
-      "d": "Option D (see original source figure/marked segment)"
+      "a": "destroys",
+      "b": "in",
+      "c": "the",
+      "d": "cause"
     },
     "correct_answer": "d",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "SPOT THE ERROR item: underlined-segment options lost to OCR, not recoverable from this source. Needs the original 2012 PDF page.",
     "source_file": "mdcat_2012.py",
     "tag_confidence": "low"
@@ -2678,11 +2678,11 @@
     "question_text": "Choose the CORRECT sentence:",
     "options": {
       "a": "Her father is a SP in the Punjab Police.",
-      "b": "Her father is an SP in the Punjab Police.",
-      "c": "Her father was a SP in the Punjab Police.",
+      "b": "Her father was a SP in the Punjab Police.",
+      "c": "Her father is an SP in the Punjab Police.",
       "d": "Her father are a SP in the Punjab Police."
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2701,8 +2701,8 @@
     "question_text": "Choose the CORRECT sentence:",
     "options": {
       "a": "There were musical instruments in the shop.",
-      "b": "There has musical instruments in the shop.",
-      "c": "There was musical instruments in the shop.",
+      "b": "There was musical instruments in the shop.",
+      "c": "There has musical instruments in the shop.",
       "d": "There is musical instruments in the shop."
     },
     "correct_answer": "a",
@@ -2724,8 +2724,8 @@
     "question_text": "Choose the CORRECT sentence:",
     "options": {
       "a": "He died for heart attack in 1982.",
-      "b": "He died in heart attack in 1982.",
-      "c": "He died with heart attack in 1982.",
+      "b": "He died with heart attack in 1982.",
+      "c": "He died in heart attack in 1982.",
       "d": "He died of heart attack in 1982."
     },
     "correct_answer": "d",
@@ -2747,11 +2747,11 @@
     "question_text": "Choose the CORRECT sentence:",
     "options": {
       "a": "Always speak in the truth.",
-      "b": "Always tell the truth.",
-      "c": "Always tell for the truth.",
+      "b": "Always tell for the truth.",
+      "c": "Always tell the truth.",
       "d": "Always telling truth."
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2770,11 +2770,11 @@
     "question_text": "Choose the CORRECT sentence:",
     "options": {
       "a": "Hand up the answer sheet to me.",
-      "b": "Hand down the answer sheet to me.",
-      "c": "Hand over the answer sheet to me.",
+      "b": "Hand over the answer sheet to me.",
+      "c": "Hand down the answer sheet to me.",
       "d": "Hand for the answer sheet to me."
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2793,11 +2793,11 @@
     "question_text": "Choose the CORRECT sentence:",
     "options": {
       "a": "Are you noticed the peach blossoms?",
-      "b": "Will you noticed the peach blossoms?",
-      "c": "Have you noticed the peach blossoms?",
+      "b": "Have you noticed the peach blossoms?",
+      "c": "Will you noticed the peach blossoms?",
       "d": "Were you noticed the peach blossoms?"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2816,8 +2816,8 @@
     "question_text": "DISSONANCE",
     "options": {
       "a": "Inconsistency",
-      "b": "Perceptible",
-      "c": "Expansion",
+      "b": "Expansion",
+      "c": "Perceptible",
       "d": "Warp"
     },
     "correct_answer": "a",
@@ -2839,11 +2839,11 @@
     "question_text": "TRIFLE",
     "options": {
       "a": "Pudding",
-      "b": "Deluge",
-      "c": "Minor",
+      "b": "Minor",
+      "c": "Deluge",
       "d": "Treble"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2862,8 +2862,8 @@
     "question_text": "MURKY",
     "options": {
       "a": "Dusty",
-      "b": "Clear",
-      "c": "Squeamy",
+      "b": "Squeamy",
+      "c": "Clear",
       "d": "Unclear"
     },
     "correct_answer": "d",
@@ -2885,8 +2885,8 @@
     "question_text": "FAUX",
     "options": {
       "a": "Blunder",
-      "b": "Indiscretion",
-      "c": "Mistake",
+      "b": "Mistake",
+      "c": "Indiscretion",
       "d": "False"
     },
     "correct_answer": "d",
@@ -2908,11 +2908,11 @@
     "question_text": "MYRIAD",
     "options": {
       "a": "Countable",
-      "b": "Measured",
-      "c": "Multitude",
+      "b": "Multitude",
+      "c": "Measured",
       "d": "Blurred"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2931,8 +2931,8 @@
     "question_text": "FACILE",
     "options": {
       "a": "Fallacy",
-      "b": "Delicate",
-      "c": "Depict",
+      "b": "Depict",
+      "c": "Delicate",
       "d": "Superficial"
     },
     "correct_answer": "d",
@@ -2954,8 +2954,8 @@
     "question_text": "MAGNUM",
     "options": {
       "a": "Masterpiece",
-      "b": "Modest",
-      "c": "Magnanimity",
+      "b": "Magnanimity",
+      "c": "Modest",
       "d": "Magnetic"
     },
     "correct_answer": "a",
@@ -2977,8 +2977,8 @@
     "question_text": "SIDLE",
     "options": {
       "a": "Sneak",
-      "b": "Siege",
-      "c": "Sift",
+      "b": "Sift",
+      "c": "Siege",
       "d": "Sieve"
     },
     "correct_answer": "a",
@@ -3000,11 +3000,11 @@
     "question_text": "PLETHORA",
     "options": {
       "a": "Plastic",
-      "b": "Measure",
-      "c": "Super-fluidity",
+      "b": "Super-fluidity",
+      "c": "Measure",
       "d": "Malleable"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3023,11 +3023,11 @@
     "question_text": "VERTEX",
     "options": {
       "a": "Poetry",
-      "b": "Zenith",
-      "c": "Depth",
+      "b": "Depth",
+      "c": "Zenith",
       "d": "Diminish"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3046,11 +3046,11 @@
     "question_text": "The part of neuron fibre which conducts nerve impulses from the cell body is",
     "options": {
       "a": "Dendron",
-      "b": "Axon",
-      "c": "Dendrites",
+      "b": "Dendrites",
+      "c": "Axon",
       "d": "Peripheral branch"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3069,11 +3069,11 @@
     "question_text": "The number of cranial nerves in human is",
     "options": {
       "a": "31 pairs",
-      "b": "24 pairs",
-      "c": "12 pairs",
+      "b": "12 pairs",
+      "c": "24 pairs",
       "d": "62 pairs"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3092,11 +3092,11 @@
     "question_text": "The part of brain which controls breathing, heart rate and swallowing is",
     "options": {
       "a": "Cerebrum",
-      "b": "Medulla",
-      "c": "Cerebellum",
+      "b": "Cerebellum",
+      "c": "Medulla",
       "d": "Hypothalamus"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3115,11 +3115,11 @@
     "question_text": "Syphilis is a sexually transmitted disease which is caused by",
     "options": {
       "a": "Neisseria gonorrhoeae",
-      "b": "Treponema pallidum",
-      "c": "E. coli",
+      "b": "E. coli",
+      "c": "Treponema pallidum",
       "d": "Mycobacterium avium"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3138,8 +3138,8 @@
     "question_text": "Discharge of ovum or secondary oocyte from ovary or from Graafian follicle is called",
     "options": {
       "a": "Fertilization",
-      "b": "Follicle formation",
-      "c": "Pollination",
+      "b": "Pollination",
+      "c": "Follicle formation",
       "d": "Ovulation"
     },
     "correct_answer": "d",
@@ -3161,8 +3161,8 @@
     "question_text": "Second meiotic division in the secondary oocyte proceeds as far as",
     "options": {
       "a": "Metaphase",
-      "b": "Anaphase",
-      "c": "Prophase",
+      "b": "Prophase",
+      "c": "Anaphase",
       "d": "Telophase"
     },
     "correct_answer": "a",
@@ -3184,8 +3184,8 @@
     "question_text": "Which one of the following differentiates directly into mature sperm?",
     "options": {
       "a": "Primary spermatocyte",
-      "b": "Spermatogonia",
-      "c": "Secondary spermatocyte",
+      "b": "Secondary spermatocyte",
+      "c": "Spermatogonia",
       "d": "Spermatid"
     },
     "correct_answer": "d",
@@ -3207,8 +3207,8 @@
     "question_text": "Uterus opens into the vagina through",
     "options": {
       "a": "Cervix",
-      "b": "External genitalia",
-      "c": "Fallopian tube",
+      "b": "Fallopian tube",
+      "c": "External genitalia",
       "d": "Vulva"
     },
     "correct_answer": "a",
@@ -3230,11 +3230,11 @@
     "question_text": "Each muscle fibre is surrounded by membrane which is called",
     "options": {
       "a": "Sarcomere",
-      "b": "Twitch fibre",
-      "c": "Sarcolemma",
+      "b": "Sarcolemma",
+      "c": "Twitch fibre",
       "d": "Capsule"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3253,8 +3253,8 @@
     "question_text": "When calcium ions are released from the sarcoplasmic reticulum they bind with ________ during muscle contraction",
     "options": {
       "a": "Tropomyosin",
-      "b": "Cytosol’s ions",
-      "c": "Sarcolemma",
+      "b": "Sarcolemma",
+      "c": "Cytosol’s ions",
       "d": "Troponin"
     },
     "correct_answer": "d",
@@ -3276,8 +3276,8 @@
     "question_text": "Human and mammalian skeleton can be divided into two parts, axial skeleton and",
     "options": {
       "a": "Appendicular skeleton",
-      "b": "Endoskeleton",
-      "c": "Exoskeleton",
+      "b": "Exoskeleton",
+      "c": "Endoskeleton",
       "d": "Hydrostatic skeleton"
     },
     "correct_answer": "a",
@@ -3299,8 +3299,8 @@
     "question_text": "Last four vertebrae in humans are fused to form a structure called",
     "options": {
       "a": "Sacrum",
-      "b": "Pubis",
-      "c": "Cervical vertebrae",
+      "b": "Cervical vertebrae",
+      "c": "Pubis",
       "d": "Coccyx"
     },
     "correct_answer": "d",
@@ -3322,8 +3322,8 @@
     "question_text": "How many bones are involved in the formation of each half of pelvic girdle?",
     "options": {
       "a": "3 bones",
-      "b": "2 bones",
-      "c": "4 bones",
+      "b": "4 bones",
+      "c": "2 bones",
       "d": "1 bone"
     },
     "correct_answer": "a",
@@ -3345,8 +3345,8 @@
     "question_text": "Ductless glands are known as",
     "options": {
       "a": "Endocrine gland",
-      "b": "Salivary glands",
-      "c": "Exocrine gland",
+      "b": "Exocrine gland",
+      "c": "Salivary glands",
       "d": "Bile glands"
     },
     "correct_answer": "a",
@@ -3368,11 +3368,11 @@
     "question_text": "Gastrin is the hormone which is produced by the",
     "options": {
       "a": "Liver",
-      "b": "Pyloric region of stomach",
-      "c": "Adrenal gland",
+      "b": "Adrenal gland",
+      "c": "Pyloric region of stomach",
       "d": "Mucosal lining of intestine"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3414,8 +3414,8 @@
     "question_text": "Vasopressin and Oxytocin are released from the",
     "options": {
       "a": "Placenta",
-      "b": "Anterior pituitary",
-      "c": "Ovary",
+      "b": "Ovary",
+      "c": "Anterior pituitary",
       "d": "Posterior pituitary"
     },
     "correct_answer": "d",
@@ -3437,8 +3437,8 @@
     "question_text": "Antigen is a foreign protein or any other molecule which stimulates the formation of",
     "options": {
       "a": "MHC complex",
-      "b": "Mucus",
-      "c": "Immunogen",
+      "b": "Immunogen",
+      "c": "Mucus",
       "d": "Antibodies"
     },
     "correct_answer": "d",
@@ -3460,8 +3460,8 @@
     "question_text": "Antibodies are produced by which of the following lymphocytes?",
     "options": {
       "a": "B lymphocytes",
-      "b": "T lymphocytes",
-      "c": "A lymphocytes",
+      "b": "A lymphocytes",
+      "c": "T lymphocytes",
       "d": "B and T lymphocytes"
     },
     "correct_answer": "a",
@@ -3483,11 +3483,11 @@
     "question_text": "T-lymphocytes become mature and competent under the influence of",
     "options": {
       "a": "Liver",
-      "b": "Thymus gland",
-      "c": "Bursa of fabricius",
+      "b": "Bursa of fabricius",
+      "c": "Thymus gland",
       "d": "Spleen"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3506,8 +3506,8 @@
     "question_text": "Skin and mucous membranes are part of the body defense system and they form the",
     "options": {
       "a": "Physical barrier",
-      "b": "Chemical barriers",
-      "c": "Mechanical barriers",
+      "b": "Mechanical barriers",
+      "c": "Chemical barriers",
       "d": "Biological barriers"
     },
     "correct_answer": "a",
@@ -3529,11 +3529,11 @@
     "question_text": "Snake bite is treated with which type of immunization?",
     "options": {
       "a": "Active",
-      "b": "Humoral",
-      "c": "Passive",
+      "b": "Passive",
+      "c": "Humoral",
       "d": "Specific"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3552,8 +3552,8 @@
     "question_text": "The product(s) of cyclic photophosphorylation is / are:",
     "options": {
       "a": "ATP",
-      "b": "NADP and ATP",
-      "c": "NADP",
+      "b": "NADP",
+      "c": "NADP and ATP",
       "d": "NADP, ATP, and O2"
     },
     "correct_answer": "a",
@@ -3575,8 +3575,8 @@
     "question_text": "Total NADH formed by one glucose molecule during Krebs’s Cycle are",
     "options": {
       "a": "6",
-      "b": "8",
-      "c": "3",
+      "b": "3",
+      "c": "8",
       "d": "18"
     },
     "correct_answer": "a",
@@ -3598,8 +3598,8 @@
     "question_text": "The terminal electron acceptor in electron transport chain is",
     "options": {
       "a": "Hydrogen",
-      "b": "Cytochrome",
-      "c": "Iron",
+      "b": "Iron",
+      "c": "Cytochrome",
       "d": "Oxygen"
     },
     "correct_answer": "d",
@@ -3621,8 +3621,8 @@
     "question_text": "The end product of glycolysis is",
     "options": {
       "a": "ADP",
-      "b": "Citric acid",
-      "c": "Reduced FAD",
+      "b": "Reduced FAD",
+      "c": "Citric acid",
       "d": "Pyruvate"
     },
     "correct_answer": "d",
@@ -3643,12 +3643,12 @@
     "difficulty": null,
     "question_text": "One molecule of FADH2 is produced in Krebs’s cycle during conversion of",
     "options": {
-      "a": "Fumarate Malate",
-      "b": "Malate Oxaloacetate",
-      "c": "Succinate Fumarate",
-      "d": "α-Ketoglutarate Succinate"
+      "a": "Fumarate → Malate",
+      "b": "Succinate → Fumarate",
+      "c": "Malate → Oxaloacetate",
+      "d": "α-Ketoglutarate → Succinate"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3667,11 +3667,11 @@
     "question_text": "In recombinant DNA technology _________ are tools for manipulating DNA",
     "options": {
       "a": "Viruses",
-      "b": "Enzymes",
-      "c": "Chromosomes",
+      "b": "Chromosomes",
+      "c": "Enzymes",
       "d": "Genes"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3690,8 +3690,8 @@
     "question_text": "In DNA finger printing process, the use of __________ produces distinctive pattern on autoradiography or X-ray film",
     "options": {
       "a": "Restriction enzyme",
-      "b": "Macrosatellites",
-      "c": "Microsatellites",
+      "b": "Microsatellites",
+      "c": "Macrosatellites",
       "d": "Probes for genetic markers"
     },
     "correct_answer": "d",
@@ -3713,11 +3713,11 @@
     "question_text": "In the recombinant DNA technology plasmids are used as",
     "options": {
       "a": "Genetic material",
-      "b": "Vectors",
-      "c": "Enzymes",
+      "b": "Enzymes",
+      "c": "Vectors",
       "d": "Probes"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3736,8 +3736,8 @@
     "question_text": "In which process, multiple copies of the desired genes are produced?",
     "options": {
       "a": "Polymerase chain reaction",
-      "b": "Analyzing DNA",
-      "c": "Gene sequencing",
+      "b": "Gene sequencing",
+      "c": "Analyzing DNA",
       "d": "DNA finger printing"
     },
     "correct_answer": "a",
@@ -3759,11 +3759,11 @@
     "question_text": "The enzyme adenosine deaminase is missing in person suffering from:",
     "options": {
       "a": "Cystic fibrosis",
-      "b": "Severe combined immunodeficiency syndrome",
-      "c": "Hypercholesterolemia",
+      "b": "Hypercholesterolemia",
+      "c": "Severe combined immunodeficiency syndrome",
       "d": "Parkinson’s disease"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3782,8 +3782,8 @@
     "question_text": "What is the niche of an organism in an ecosystem?",
     "options": {
       "a": "Role played by many organisms in an ecosystem",
-      "b": "Role played by community of microorganisms in their ecosystem",
-      "c": "Role played by a dead organism in an ecosystem",
+      "b": "Role played by a dead organism in an ecosystem",
+      "c": "Role played by community of microorganisms in their ecosystem",
       "d": "Role played by an organism in its ecosystem."
     },
     "correct_answer": "d",
@@ -3805,8 +3805,8 @@
     "question_text": "The distinct levels or links of food chain are called",
     "options": {
       "a": "Trophic level",
-      "b": "Energy pyramid",
-      "c": "Food web",
+      "b": "Food web",
+      "c": "Energy pyramid",
       "d": "Food chain"
     },
     "correct_answer": "a",
@@ -3828,8 +3828,8 @@
     "question_text": "A relationship between two or more organisms of different species in which all partners get benefit is called",
     "options": {
       "a": "Symbiosis",
-      "b": "Commensalism",
-      "c": "Parasitism",
+      "b": "Parasitism",
+      "c": "Commensalism",
       "d": "Predation"
     },
     "correct_answer": "a",
@@ -3851,11 +3851,11 @@
     "question_text": "Bacteria and fungi are examples of",
     "options": {
       "a": "Producers",
-      "b": "Consumers",
-      "c": "Decomposers",
+      "b": "Decomposers",
+      "c": "Consumers",
       "d": "Denvers"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3874,11 +3874,11 @@
     "question_text": "The cause of acid rain is",
     "options": {
       "a": "Oxides of carbon",
-      "b": "Oxides of Sulphur",
-      "c": "Oxides of nitrogen and Sulphur",
+      "b": "Oxides of nitrogen and Sulphur",
+      "c": "Oxides of Sulphur",
       "d": "Oxides of nitrogen"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3897,11 +3897,11 @@
     "question_text": "When the presence of a gene at one locus suppresses the effect of a gene at another locus, the phenomenon is called",
     "options": {
       "a": "Hypostasis",
-      "b": "Epistasis",
-      "c": "Pleiotropy",
+      "b": "Pleiotropy",
+      "c": "Epistasis",
       "d": "Epitropy"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3920,11 +3920,11 @@
     "question_text": "The gene for ABO-blood group systems in humans is represented by symbol:",
     "options": {
       "a": "X",
-      "b": "Y",
-      "c": "I",
+      "b": "I",
+      "c": "Y",
       "d": "O"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3943,11 +3943,11 @@
     "question_text": "When a single gene affects two or more traits, the phenomenon is called",
     "options": {
       "a": "Epistasis",
-      "b": "Dominance",
-      "c": "Pleiotropy",
+      "b": "Pleiotropy",
+      "c": "Dominance",
       "d": "Over dominance"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3966,11 +3966,11 @@
     "question_text": "The comparative embryology of all vertebrates shows development of",
     "options": {
       "a": "Hairs",
-      "b": "Scales",
-      "c": "Gill pouches",
+      "b": "Gill pouches",
+      "c": "Scales",
       "d": "Fins"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3989,8 +3989,8 @@
     "question_text": "In men, sex-determination depends upon the nature of",
     "options": {
       "a": "Heterogametic male",
-      "b": "Heterogametic female",
-      "c": "Homogametic female",
+      "b": "Homogametic female",
+      "c": "Heterogametic female",
       "d": "Homogametic male"
     },
     "correct_answer": "a",
@@ -4012,8 +4012,8 @@
     "question_text": "Population of different species (plants and animals) living in the same habitat form a",
     "options": {
       "a": "Community",
-      "b": "Biosphere",
-      "c": "Ecosystem",
+      "b": "Ecosystem",
+      "c": "Biosphere",
       "d": "Microhabitat"
     },
     "correct_answer": "a",
@@ -4035,8 +4035,8 @@
     "question_text": "The part of the body which forms a structural and functional unit and is composed of more than one tissue is called",
     "options": {
       "a": "Organ",
-      "b": "Organ system",
-      "c": "Organelle",
+      "b": "Organelle",
+      "c": "Organ system",
       "d": "Whole organism"
     },
     "correct_answer": "a",
@@ -4058,11 +4058,11 @@
     "question_text": "A method in which pests are destroyed by using same living organisms or natural enemies is called",
     "options": {
       "a": "Pasteurization",
-      "b": "Biological control",
-      "c": "Integrated disease management",
+      "b": "Integrated disease management",
+      "c": "Biological control",
       "d": "Genetic engineering"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4081,8 +4081,8 @@
     "question_text": "Chemicals produced by microorganisms which are capable of destroying the growth of microbes are called",
     "options": {
       "a": "Antigen",
-      "b": "Antiseptics",
-      "c": "Biocidal",
+      "b": "Biocidal",
+      "c": "Antiseptics",
       "d": "Antibiotics"
     },
     "correct_answer": "d",
@@ -4104,11 +4104,11 @@
     "question_text": "Plastids are only found in the",
     "options": {
       "a": "Animals and Plants",
-      "b": "Plants",
-      "c": "Animals",
+      "b": "Animals",
+      "c": "Plants",
       "d": "Viruses"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4127,11 +4127,11 @@
     "question_text": "Plasma membrane is chemically composed of",
     "options": {
       "a": "Phospholipids only",
-      "b": "Lipids and carbohydrates",
-      "c": "Lipids and proteins",
+      "b": "Lipids and proteins",
+      "c": "Lipids and carbohydrates",
       "d": "Glycoproteins"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4150,11 +4150,11 @@
     "question_text": "Endoplasmic reticulum contains a system of flattened membrane-bounded sacs which are named as",
     "options": {
       "a": "Cristae",
-      "b": "Cisternae",
-      "c": "Marks",
+      "b": "Marks",
+      "c": "Cisternae",
       "d": "Tubules"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4173,8 +4173,8 @@
     "question_text": "Lipids synthesis / metabolism takes place in which of the following organelle?",
     "options": {
       "a": "Mitochondria",
-      "b": "Rough endoplasmic reticulum",
-      "c": "Vacuoles",
+      "b": "Vacuoles",
+      "c": "Rough endoplasmic reticulum",
       "d": "Smooth endoplasmic reticulum"
     },
     "correct_answer": "d",
@@ -4196,11 +4196,11 @@
     "question_text": "Ribosomes exist in two forms, either attached with RER or freely dispersed in the",
     "options": {
       "a": "Tonoplast",
-      "b": "Cytoplasm",
-      "c": "Golgi bodies",
+      "b": "Golgi bodies",
+      "c": "Cytoplasm",
       "d": "SER"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4219,11 +4219,11 @@
     "question_text": "Exchange of segments between homologous chromosomes is called",
     "options": {
       "a": "Segregation",
-      "b": "Crossing over",
-      "c": "Independent assortment",
+      "b": "Independent assortment",
+      "c": "Crossing over",
       "d": "Mutation"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4242,8 +4242,8 @@
     "question_text": "If a person has 44 autosomes + XXY, he will suffer from",
     "options": {
       "a": "Klinefelter’s syndrome",
-      "b": "Turner’s syndrome",
-      "c": "Down’s syndrome",
+      "b": "Down’s syndrome",
+      "c": "Turner’s syndrome",
       "d": "Edward’s syndrome"
     },
     "correct_answer": "a",
@@ -4265,11 +4265,11 @@
     "question_text": "The ribosomal RNA is synthesized and stored in",
     "options": {
       "a": "Endoplasmic reticulum",
-      "b": "Golgi complex",
-      "c": "Nucleolus",
+      "b": "Nucleolus",
+      "c": "Golgi complex",
       "d": "Chromosomes"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4288,11 +4288,11 @@
     "question_text": "In which stage of Interphase, there is increase in cell size and many biochemical are formed?",
     "options": {
       "a": "G2 phase",
-      "b": "S phase",
-      "c": "G1 phase",
+      "b": "G1 phase",
+      "c": "S phase",
       "d": "C phase"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4311,11 +4311,11 @@
     "question_text": "In Down’s syndrome, which one of the following pair of chromosome fails to segregate?",
     "options": {
       "a": "7",
-      "b": "21",
-      "c": "18",
+      "b": "18",
+      "c": "21",
       "d": "19"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4334,8 +4334,8 @@
     "question_text": "Carbohydrates are organic molecules and contain three elements",
     "options": {
       "a": "Carbon, water and oxygen",
-      "b": "Carbon, calcium and hydrogen",
-      "c": "Carbon, Sulphur and hydrogen",
+      "b": "Carbon, Sulphur and hydrogen",
+      "c": "Carbon, calcium and hydrogen",
       "d": "Carbon, hydrogen and oxygen"
     },
     "correct_answer": "d",
@@ -4357,11 +4357,11 @@
     "question_text": "Which one are intermediates in respiration and photosynthesis both?",
     "options": {
       "a": "Ribose and heptolose",
-      "b": "Glucose and galactose",
-      "c": "Glyceraldehydes and dihydroxyacetone",
+      "b": "Glyceraldehydes and dihydroxyacetone",
+      "c": "Glucose and galactose",
       "d": "Fructose and ribulose"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4380,8 +4380,8 @@
     "question_text": "Which of the following is a peptide bond?",
     "options": {
       "a": "–C–N",
-      "b": "–C–P",
-      "c": "–C–O",
+      "b": "–C–O",
+      "c": "–C–P",
       "d": "–C–S"
     },
     "correct_answer": "a",
@@ -4403,11 +4403,11 @@
     "question_text": "Which of the following is an unsaturated fatty acid?",
     "options": {
       "a": "Acetic Acid",
-      "b": "Oleic acid",
-      "c": "Butyric acid",
+      "b": "Butyric acid",
+      "c": "Oleic acid",
       "d": "Palmitic acid"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4426,11 +4426,11 @@
     "question_text": "Which of the following combination of base pair is absent in DNA?",
     "options": {
       "a": "A–T",
-      "b": "A–U",
-      "c": "C–G",
+      "b": "C–G",
+      "c": "A–U",
       "d": "T–A"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4449,11 +4449,11 @@
     "question_text": "The type of inhibition in which inhibitor has no structural similarity to substrate and combines with enzyme at other than the active site is called",
     "options": {
       "a": "Irreversible inhibition",
-      "b": "Non-competitive and reversible inhibition",
-      "c": "Competitive inhibition",
+      "b": "Competitive inhibition",
+      "c": "Non-competitive and reversible inhibition",
       "d": "Reversible inhibition"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4472,11 +4472,11 @@
     "question_text": "The inhibitors that bind tightly and permanently to enzymes and destroy their globular structure and catalytic activity are",
     "options": {
       "a": "Reversible inhibitors",
-      "b": "Competitive inhibitors",
-      "c": "Irreversible inhibitors",
+      "b": "Irreversible inhibitors",
+      "c": "Competitive inhibitors",
       "d": "Non-competitive inhibitors"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4495,8 +4495,8 @@
     "question_text": "Enzyme succinate dehydrogenase converts succinate into",
     "options": {
       "a": "Malate",
-      "b": "Citrate",
-      "c": "Malonic acid",
+      "b": "Malonic acid",
+      "c": "Citrate",
       "d": "Fumarate"
     },
     "correct_answer": "d",
@@ -4518,8 +4518,8 @@
     "question_text": "If the detachable co-factor is an inorganic ion then it is designated as",
     "options": {
       "a": "Coenzyme",
-      "b": "Holoenzyme",
-      "c": "Prosthetic group",
+      "b": "Prosthetic group",
+      "c": "Holoenzyme",
       "d": "Activator"
     },
     "correct_answer": "d",
@@ -4541,8 +4541,8 @@
     "question_text": "In HIV viruses, reverse transcriptase converts single-stranded RNA into double stranded viral DNA. This process is called",
     "options": {
       "a": "Translation",
-      "b": "Replication",
-      "c": "Duplication",
+      "b": "Duplication",
+      "c": "Replication",
       "d": "Reverse Transcriptase"
     },
     "correct_answer": "d",
@@ -4564,8 +4564,8 @@
     "question_text": "Mesosomes are infoldings of the cell membrane and are involved in",
     "options": {
       "a": "DNA replication",
-      "b": "Protein synthesis",
-      "c": "RNA synthesis",
+      "b": "RNA synthesis",
+      "c": "Protein synthesis",
       "d": "Metabolism"
     },
     "correct_answer": "a",
@@ -4587,11 +4587,11 @@
     "question_text": "Most widespread problem of the antibiotics misuse is the",
     "options": {
       "a": "Rapid cure",
-      "b": "Disturbance of metabolism",
-      "c": "Increased resistance in pathogen",
+      "b": "Increased resistance in pathogen",
+      "c": "Disturbance of metabolism",
       "d": "Immunity"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4610,11 +4610,11 @@
     "question_text": "Which of the following component is found in the cell wall of fungi?",
     "options": {
       "a": "Cellulose",
-      "b": "Proteins",
-      "c": "Chitin",
+      "b": "Chitin",
+      "c": "Proteins",
       "d": "Glycerol"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4633,11 +4633,11 @@
     "question_text": "The male reproductive parts of the flower are called",
     "options": {
       "a": "Gynoecium",
-      "b": "Androecium",
-      "c": "Calyx",
+      "b": "Calyx",
+      "c": "Androecium",
       "d": "Corolla"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4656,11 +4656,11 @@
     "question_text": "Fasciola is the name given to",
     "options": {
       "a": "Tapeworm",
-      "b": "Liver fluke",
-      "c": "Planaria",
+      "b": "Planaria",
+      "c": "Liver fluke",
       "d": "Earthworm"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4679,11 +4679,11 @@
     "question_text": "Ascaris is",
     "options": {
       "a": "Diploblastic",
-      "b": "Haploid",
-      "c": "Triploblastic",
+      "b": "Triploblastic",
+      "c": "Haploid",
       "d": "Acoelomate"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4702,11 +4702,11 @@
     "question_text": "During development, in an animal, mesoderm layer gives rise to",
     "options": {
       "a": "Nervous System",
-      "b": "Muscular and skeletal system",
-      "c": "Alimentary canal lining",
+      "b": "Alimentary canal lining",
+      "c": "Muscular and skeletal system",
       "d": "Mouth"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4725,11 +4725,11 @@
     "question_text": "Polymorphism is characteristic feature of",
     "options": {
       "a": "Porifera",
-      "b": "Annelida",
-      "c": "Cnidaria",
+      "b": "Cnidaria",
+      "c": "Annelida",
       "d": "Nematodes"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4748,8 +4748,8 @@
     "question_text": "The muscles of the stomach walls thoroughly mix up the food with gastric juices and the resulting semi-solid / semi-liquid material is called",
     "options": {
       "a": "Bolus",
-      "b": "Mucus",
-      "c": "Bolus or chime",
+      "b": "Bolus or chime",
+      "c": "Mucus",
       "d": "Chyme"
     },
     "correct_answer": "d",
@@ -4771,11 +4771,11 @@
     "question_text": "Trypsinogen is converted into trypsin by the activity of",
     "options": {
       "a": "Goblet cells",
-      "b": "Enterokinase",
-      "c": "Absorptive cells",
+      "b": "Absorptive cells",
+      "c": "Enterokinase",
       "d": "Peptidase"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4794,8 +4794,8 @@
     "question_text": "In large intestines, vitamin K is formed by the activity of",
     "options": {
       "a": "Symbiotic bacteria",
-      "b": "Parasitic bacteria",
-      "c": "Obligate parasite",
+      "b": "Obligate parasite",
+      "c": "Parasitic bacteria",
       "d": "Facultative bacteria"
     },
     "correct_answer": "a",
@@ -4817,11 +4817,11 @@
     "question_text": "Goblet cells secrete",
     "options": {
       "a": "HCl",
-      "b": "Enzymes",
-      "c": "Mucus",
+      "b": "Mucus",
+      "c": "Enzymes",
       "d": "Amylase"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4840,8 +4840,8 @@
     "question_text": "Mature mammalian red blood cells do not have",
     "options": {
       "a": "Nucleus",
-      "b": "Fluids",
-      "c": "Red color",
+      "b": "Red color",
+      "c": "Fluids",
       "d": "Haemoglobin"
     },
     "correct_answer": "a",
@@ -4863,8 +4863,8 @@
     "question_text": "In a normal person plasma constitutes about ___________ by volume of blood",
     "options": {
       "a": "50%",
-      "b": "45%",
-      "c": "60%",
+      "b": "60%",
+      "c": "45%",
       "d": "55%"
     },
     "correct_answer": "d",
@@ -4886,11 +4886,11 @@
     "question_text": "Which vein has oxygenated blood?",
     "options": {
       "a": "Renal vein",
-      "b": "Pulmonary vein",
-      "c": "Subclavian vein",
+      "b": "Subclavian vein",
+      "c": "Pulmonary vein",
       "d": "Jugular vein"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4909,8 +4909,8 @@
     "question_text": "What is the residual volume of air which always remains inside the lungs of human?",
     "options": {
       "a": "3.5 Liters",
-      "b": "5.0 Liters",
-      "c": "0.5 Liters",
+      "b": "0.5 Liters",
+      "c": "5.0 Liters",
       "d": "1.5 Liters"
     },
     "correct_answer": "d",
@@ -4932,11 +4932,11 @@
     "question_text": "In nephron, most of the reabsorption takes place in the",
     "options": {
       "a": "Distal tubule",
-      "b": "Ascending limb",
-      "c": "Proximal tubule",
+      "b": "Proximal tubule",
+      "c": "Ascending limb",
       "d": "Descending limb"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4955,8 +4955,8 @@
     "question_text": "Detection of change and signaling for effector’s response to the control system is a",
     "options": {
       "a": "Negative feedback",
-      "b": "Inter-coordination",
-      "c": "Positive feedback",
+      "b": "Positive feedback",
+      "c": "Inter-coordination",
       "d": "Feedback mechanism"
     },
     "correct_answer": "d",
@@ -4978,8 +4978,8 @@
     "question_text": "What are three components of mechanism of homeostatic regulations?",
     "options": {
       "a": "Receptors, control centre and effectors",
-      "b": "CNS, PNS and diffused nervous system",
-      "c": "Sensory, motor and associative neurons",
+      "b": "Sensory, motor and associative neurons",
+      "c": "CNS, PNS and diffused nervous system",
       "d": "Cerebrum, cerebellum and pons"
     },
     "correct_answer": "a",
@@ -5001,11 +5001,11 @@
     "question_text": "Blood enters the glomerulus through",
     "options": {
       "a": "Efferent arteriole",
-      "b": "Renal artery",
-      "c": "Afferent arteriole",
+      "b": "Afferent arteriole",
+      "c": "Renal artery",
       "d": "Renal vein"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -5024,11 +5024,11 @@
     "question_text": "Which portion of nephron is under the control of ADH?",
     "options": {
       "a": "Bowman’s capsule",
-      "b": "Distal and collecting ducts",
-      "c": "Ascending arm",
+      "b": "Ascending arm",
+      "c": "Distal and collecting ducts",
       "d": "Descending arm"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -5047,8 +5047,8 @@
     "question_text": "Cause of Parkinson’s disease is death of brain cells that produce",
     "options": {
       "a": "Dopamine",
-      "b": "ADH hormone",
-      "c": "Acetylcholine",
+      "b": "Acetylcholine",
+      "c": "ADH hormone",
       "d": "Oxytocin"
     },
     "correct_answer": "a",

@@ -1,4 +1,10 @@
 """
+DO NOT RE-RUN (2026-09-13): MDCAT_2008.json and the DB now carry a content re-check
+(science-over-key answer overrides, 2 deactivations, typography, leaked-header removal) that this
+converter does not reproduce. Source of truth: parsed-mcqs/MDCAT_2008.json +
+scripts/mdcat_2008_corrections_by_content.json. Also: the ARK solved PDF DOES have the 2008
+key (page 17); the paragraph below saying otherwise is wrong.
+
 Adapter: mdcat_2008.py -> parsed-mcqs/MDCAT_2008.json
 
 Unlike 2009/2010 (same compiled "MDCAT Past Papers 2008-2016 Solved" PDF,
@@ -94,30 +100,34 @@ spec.loader.exec_module(mod)
 
 QUESTIONS = mod.QUESTIONS  # list of {'number','subject','question','options':{'A'..'D'},'diagram_text'}
 
-# --- answer key, extracted verbatim from topstudyworld_bundle.pdf page index 17's text layer ---
+# --- answer key: the printed UHS key (ARK solved PDF page 17 = topstudyworld_bundle.pdf page 17),
+# re-transcribed 2026-09-13. The earlier KEY_RAW here was NOT verbatim (36 letters differed).
+# The DB/JSON deliberately depart from this key on ~30 questions (science overrides, see
+# scripts/mdcat_2008_corrections_by_content.json) - do not re-run this converter. ---
 KEY_RAW = """
-ID:D 1:C 2:B 3:C 4:C 5:C 6:B 7:D 8:C 9:D 10:C
-11:C 12:D 13:C 14:D 15:A 16:A 17:C 18:B 19:B 20:C
-21:A 22:A 23:D 24:A 25:D 26:D 27:D 28:B 29:D 30:A
-31:C 32:B 33:A 34:C 35:B 36:C 37:C 38:D 39:D 40:D
-41:D 42:D 43:A 44:C 45:D 46:C 47:B 48:C 49:D 50:C
-51:D 52:B 53:B 54:B 55:C 56:B 57:A 58:A 59:B 60:B
-61:C 62:A 63:A 64:A 65:D 66:C 67:A 68:A 69:A 70:A
-71:B 72:C 73:D 74:A 75:B 76:C 77:C 78:C 79:B 80:B
-81:C 82:C 83:A 84:C 85:A 86:B 87:C 88:A 89:C 90:B
-91:A 92:C 93:A 94:C 95:X 96:A 97:C 98:B 99:B 100:A
-101:A 102:B 103:C 104:D 105:D 106:B 107:C 108:B 109:C 110:C
-111:C 112:C 113:D 114:C 115:B 116:D 117:D 118:D 119:D 120:B
-121:A 122:D 123:A 124:A 125:D 126:C 127:C 128:B 129:D 130:D
-131:D 132:D 133:D 134:A 135:A 136:B 137:D 138:B 139:A 140:C
-141:A 142:B 143:D 144:B 145:A 146:D 147:C 148:A 149:B 150:C
-151:B 152:B 153:B 154:B 155:B 156:B 157:B 158:C 159:D 160:B
-161:C 162:B 163:B 164:B 165:B 166:C 167:B 168:D 169:D 170:B
-171:D 172:B 173:C 174:A 175:D 176:D 177:B 178:C 179:A 180:C
-181:D 182:B 183:D 184:C 185:C 186:B 187:A 188:C 189:B 190:D
-191:A 192:A 193:A 194:A 195:X 196:B 197:D 198:B 199:D 200:B
-201:D 202:B 203:D 204:B 205:C 206:B 207:A 208:A 209:B 210:A
-211:C 212:B 213:B 214:D 215:C 216:D 217:B 218:A 219:D 220:C
+ID:D 1:C 2:B 3:C 4:C 5:C 6:B 7:D 8:C 9:D
+10:C 11:C 12:D 13:C 14:D 15:A 16:A 17:C 18:B 19:B
+20:C 21:A 22:A 23:D 24:A 25:D 26:D 27:D 28:B 29:D
+30:A 31:C 32:B 33:A 34:C 35:B 36:A 37:C 38:B 39:D
+40:D 41:D 42:D 43:A 44:C 45:D 46:D 47:C 48:A 49:B
+50:C 51:D 52:B 53:B 54:B 55:C 56:B 57:A 58:A 59:B
+60:B 61:C 62:A 63:A 64:C 65:D 66:C 67:A 68:A 69:A
+70:A 71:D 72:C 73:D 74:A 75:B 76:C 77:C 78:C 79:B
+80:B 81:C 82:C 83:D 84:C 85:A 86:A 87:B 88:A 89:C
+90:B 91:A 92:A 93:A 94:C 95:X 96:A 97:C 98:B 99:B
+100:A 101:A 102:B 103:D 104:B 105:B 106:C 107:C 108:B 109:C
+110:C 111:C 112:C 113:D 114:C 115:B 116:B 117:D 118:D 119:B
+120:B 121:A 122:D 123:A 124:A 125:D 126:A 127:A 128:B 129:D
+130:D 131:D 132:D 133:D 134:B 135:A 136:B 137:D 138:B 139:A
+140:C 141:A 142:B 143:D 144:B 145:A 146:D 147:C 148:A 149:B
+150:C 151:B 152:B 153:B 154:B 155:B 156:A 157:B 158:C 159:A
+160:A 161:C 162:C 163:B 164:B 165:C 166:C 167:B 168:A 169:D
+170:B 171:A 172:B 173:C 174:A 175:D 176:D 177:B 178:C 179:A
+180:C 181:D 182:B 183:D 184:C 185:C 186:B 187:A 188:C 189:B
+190:A 191:A 192:B 193:C 194:A 195:X 196:A 197:D 198:B 199:D
+200:D 201:D 202:B 203:D 204:B 205:A 206:B 207:A 208:A 209:D
+210:A 211:C 212:A 213:B 214:D 215:C 216:D 217:B 218:A 219:D
+220:C
 """
 
 

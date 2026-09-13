@@ -1,4 +1,10 @@
 """
+DO NOT RE-RUN (2026-09-13): MDCAT_2009.json and the DB carry a content re-check (science-over-key
+answers Q39/81/82/150/151/170/202, repaired keyed-option misprints Q3/11/44/45/58/71/119, 6 deactivations,
+rebuilt fractions/roots/sub- and superscripts) that this converter and mdcat_2009.py do not reproduce.
+KEY_RAW below is the verbatim printed key. Source of truth: parsed-mcqs/MDCAT_2009.json +
+scripts/mdcat_2009_corrections_by_content.json.
+
 Adapter: mdcat_2009.py -> parsed-mcqs/MDCAT_2009.json
 
 Same source PDF as 2010 (mdcat-content/tmp_2010/mdcat_2008_2016_solved.pdf,

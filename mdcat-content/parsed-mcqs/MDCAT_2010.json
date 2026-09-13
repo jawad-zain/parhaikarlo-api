@@ -37,7 +37,7 @@
       "c": "Coulomb",
       "d": "Calorie"
     },
-    "correct_answer": "a",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -60,7 +60,7 @@
       "c": "Charge",
       "d": "Resistance"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -78,9 +78,9 @@
     "difficulty": null,
     "question_text": "Which one of the following relations is correct?",
     "options": {
-      "a": "1 wb m-2 = N m-1 A-1",
+      "a": "1 Wb m⁻² = N m⁻¹ A⁻¹",
       "b": "1 Tesla = 10⁴ Gausses",
-      "c": "1 wb m-2 = 1 Tesla",
+      "c": "1 Wb m⁻² = 1 Tesla",
       "d": "All of these"
     },
     "correct_answer": "d",
@@ -106,7 +106,7 @@
       "c": "10⁻⁸ sec",
       "d": "10⁻² sec"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -292,8 +292,8 @@
     },
     "correct_answer": "a",
     "explanation": null,
-    "is_active": true,
-    "needs_review": false,
+    "is_active": false,
+    "needs_review": true,
     "notes": null,
     "source_file": "mdcat_2010.py",
     "tag_confidence": "medium"
@@ -308,10 +308,10 @@
     "difficulty": null,
     "question_text": "The value of Wien’s constant is",
     "options": {
-      "a": "2.90 x 10⁻³ mK",
-      "b": "3.34 x 10⁻⁴ mK",
-      "c": "4.22 x 10⁻⁷ mK",
-      "d": "3.42 x 10⁻⁸ mK"
+      "a": "2.90 × 10⁻³ mK",
+      "b": "3.34 × 10⁻⁴ mK",
+      "c": "4.22 × 10⁻⁷ mK",
+      "d": "3.42 × 10⁻⁸ mK"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -377,10 +377,10 @@
     "difficulty": null,
     "question_text": "The life time of an electron in an excited state is about 10⁻⁸ s. What is its uncertainty in energy during this time?",
     "options": {
-      "a": "1.05 x 10⁻⁴¹ J",
-      "b": "1.05 x 10⁻²6 J",
-      "c": "1.15 x 10¹⁰ J",
-      "d": "2.19 x 10⁻⁴⁰ J"
+      "a": "1.05 × 10⁻⁴¹ J",
+      "b": "1.05 × 10⁻²⁶ J",
+      "c": "1.15 × 10¹⁰ J",
+      "d": "2.19 × 10⁻⁴⁰ J"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -400,10 +400,10 @@
     "difficulty": null,
     "question_text": "Velocity of electron moving in first orbit of hydrogen is",
     "options": {
-      "a": "2.19 x 10⁷ m/sec",
-      "b": "2.18 x 10⁷ m/sec",
-      "c": "2.2 x 10⁸ m/sec",
-      "d": "2.19 x 106 m/sec"
+      "a": "2.19 × 10⁷ m/sec",
+      "b": "2.18 × 10⁷ m/sec",
+      "c": "2.2 × 10⁸ m/sec",
+      "d": "2.19 × 10⁶ m/sec"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -605,12 +605,12 @@
     "topic": "Vectors and Equilibrium",
     "subtopic": "Vector Subtraction",
     "difficulty": null,
-    "question_text": "The difference of a vector B\u0004\u0004⃗ and its negative vector – \u0007\u0004⃗ is",
+    "question_text": "The difference of a vector B⃗ and its negative vector −B⃗ is",
     "options": {
       "a": "A null vector",
-      "b": "Equal to magnitude of vector B\u0004⃗",
-      "c": "Twice the magnitude of vector B\u0004⃗",
-      "d": "Smaller than magnitude of vector B\u0004⃗"
+      "b": "Equal to magnitude of vector B⃗",
+      "c": "Twice the magnitude of vector B⃗",
+      "d": "Smaller than magnitude of vector B⃗"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -630,10 +630,10 @@
     "difficulty": null,
     "question_text": "Time of projectile’s flight is",
     "options": {
-      "a": "(vi² sin²θ)/g",
-      "b": "(2vi sinθ)/g",
-      "c": "(vi² sinθ)/g",
-      "d": "(vi²/g) sin2θ"
+      "a": "(vᵢ² sin²θ)/g",
+      "b": "(2vᵢ sin θ)/g",
+      "c": "(vᵢ² sin θ)/g",
+      "d": "(vᵢ²/g) sin 2θ"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -676,10 +676,10 @@
     "difficulty": null,
     "question_text": "In order to determine the maximum height of the projectile, the equation of motion used is",
     "options": {
-      "a": "aS = vf 2 - vi²",
-      "b": "2aS = vf 2 - vi²",
-      "c": "2S = a vf 2 - vi²",
-      "d": "aS = 2 vf 2 - vi²"
+      "a": "aS = v_f² − vᵢ²",
+      "b": "2aS = v_f² − vᵢ²",
+      "c": "2S = a(v_f² − vᵢ²)",
+      "d": "aS = 2(v_f² − vᵢ²)"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -768,12 +768,12 @@
     "difficulty": null,
     "question_text": "On a clear day at noon, the intensity of solar energy reaching the earth’s surface is about",
     "options": {
-      "a": "1.0 kWm-2",
-      "b": "1.4 kWm-2",
-      "c": "1.0 Wm-2",
-      "d": "1.4 Wm-2"
+      "a": "1.0 kWm⁻²",
+      "b": "1.4 kWm⁻²",
+      "c": "1.0 Wm⁻²",
+      "d": "1.4 Wm⁻²"
     },
-    "correct_answer": "b",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -980,7 +980,7 @@
       "c": "248 Hz",
       "d": "246 Hz"
     },
-    "correct_answer": "d",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1003,7 +1003,7 @@
       "c": "100 cm",
       "d": "75 cm"
     },
-    "correct_answer": "d",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1049,7 +1049,7 @@
       "c": "d sin θ",
       "d": "3λ"
     },
-    "correct_answer": "d",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1113,10 +1113,10 @@
     "difficulty": null,
     "question_text": "The value of universal gas constant is",
     "options": {
-      "a": "8.314 Jmol-1K-1",
-      "b": "8.324 Jmol-1K-1",
-      "c": "7.23 Jmol-1K-1",
-      "d": "1.00 Jmol-1K-1"
+      "a": "8.314 Jmol⁻¹K⁻¹",
+      "b": "8.324 Jmol⁻¹K⁻¹",
+      "c": "7.23 Jmol⁻¹K⁻¹",
+      "d": "1.00 Jmol⁻¹K⁻¹"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -1230,7 +1230,7 @@
     "options": {
       "a": "ΔV = Ed",
       "b": "ΔV = E/d",
-      "c": "ΔV = E/qo",
+      "c": "ΔV = E/q₀",
       "d": "E = d/ΔV"
     },
     "correct_answer": "a",
@@ -1251,10 +1251,10 @@
     "difficulty": null,
     "question_text": "SI unit of electric flux is",
     "options": {
-      "a": "NmC-1",
-      "b": "Nm-2C-2",
-      "c": "Nm2C-2",
-      "d": "Nm2C-2"
+      "a": "NmC⁻¹",
+      "b": "Nm⁻²C⁻²",
+      "c": "Nm²C⁻¹",
+      "d": "Nm²C⁻²"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -1298,8 +1298,8 @@
     "question_text": "If ‘V’ is applied potential difference across a resistance ‘R’, then loss in potential energy per unit time is",
     "options": {
       "a": "VI",
-      "b": "I2R",
-      "c": "V2/R",
+      "b": "I²R",
+      "c": "V²/R",
       "d": "All of the above"
     },
     "correct_answer": "d",
@@ -1481,10 +1481,10 @@
     "difficulty": null,
     "question_text": "When one mole of gaseous hydrogen ions are dissolved in water to form an infinitely dilute solution, the amount of heat liberated is",
     "options": {
-      "a": "-1891 kJmol-1",
-      "b": "-10⁷5 kJmol-1",
-      "c": "-499 kJmol-1",
-      "d": "-1562 kJmol-1"
+      "a": "−1891 kJmol⁻¹",
+      "b": "−1075 kJmol⁻¹",
+      "c": "−499 kJmol⁻¹",
+      "d": "−1562 kJmol⁻¹"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -1525,14 +1525,14 @@
     "topic": "s and p Block Elements",
     "subtopic": "Group I Reactions",
     "difficulty": null,
-    "question_text": "Which of the following carbonates of alkali metals is not stable towards heat and is decomposed on heating to its oxide along with liberation of CO2?",
+    "question_text": "Which of the following carbonates of alkali metals is not stable towards heat and is decomposed on heating to its oxide along with liberation of CO₂?",
     "options": {
-      "a": "Li2CO3",
-      "b": "Mg2CO3",
-      "c": "K2CO3",
-      "d": "Na2CO3"
+      "a": "Li₂CO₃",
+      "b": "Mg₂CO₃",
+      "c": "K₂CO₃",
+      "d": "Na₂CO₃"
     },
-    "correct_answer": "b",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1624,7 +1624,7 @@
       "c": "Amorphous",
       "d": "Neutral"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1732,7 +1732,7 @@
     "topic": "Electrochemistry",
     "subtopic": "Oxidation and Reduction",
     "difficulty": null,
-    "question_text": "KMnO4 acts as a",
+    "question_text": "KMnO₄ acts as a",
     "options": {
       "a": "Reducing agent",
       "b": "Excellent precipitating reagent",
@@ -1780,10 +1780,10 @@
     "difficulty": null,
     "question_text": "Ethyne molecule is formed when two carbon atoms joined together to form a sigma bond by",
     "options": {
-      "a": "sp-s overlap",
-      "b": "sp3-sp3 overlap",
-      "c": "2py-2py overlap",
-      "d": "sp-sp overlap"
+      "a": "sp–s overlap",
+      "b": "sp³–sp³ overlap",
+      "c": "2p_y–2p_y overlap",
+      "d": "sp–sp overlap"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -1826,10 +1826,10 @@
     "difficulty": null,
     "question_text": "The catalyst used for the preparation of acrylonitrile is",
     "options": {
-      "a": "Cu2Cl2 and NH4Cl",
-      "b": "Al2O3 and NH4Cl",
-      "c": "Cu2Cl2 and NH4OH",
-      "d": "Cu2Cl2 and Al2O3"
+      "a": "Cu₂Cl₂ and NH₄Cl",
+      "b": "Al₂O₃ and NH₄Cl",
+      "c": "Cu₂Cl₂ and NH₄OH",
+      "d": "Cu₂Cl₂ and Al₂O₃"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -1870,12 +1870,12 @@
     "topic": "Chemistry of Hydrocarbons",
     "subtopic": "Chemical Reactions of Benzene",
     "difficulty": null,
-    "question_text": "The introduction of NO2 group in benzene ring is called ‘Nitration’. The nitration of benzene takes place when it is heated with a 1:1 mixture of _________ at 50 oC-55 oC.",
+    "question_text": "The introduction of NO₂ group in benzene ring is called ‘Nitration’. The nitration of benzene takes place when it is heated with a 1:1 mixture of _________ at 50 °C–55 °C.",
     "options": {
-      "a": "Conc. HNO3 and conc. HCl",
-      "b": "Conc. HNO3 and conc. Acetic acid",
-      "c": "Conc. HNO3 and H3PO4",
-      "d": "Conc. HNO3 and conc. H2SO4"
+      "a": "Conc. HNO₃ and conc. HCl",
+      "b": "Conc. HNO₃ and conc. Acetic acid",
+      "c": "Conc. HNO₃ and H₃PO₄",
+      "d": "Conc. HNO₃ and conc. H₂SO₄"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -1893,7 +1893,7 @@
     "topic": "Alkyl Halides",
     "subtopic": "Nucleophilic Substitution Mechanisms",
     "difficulty": null,
-    "question_text": "During SN2 reactions, configuration of the alkyl halide molecule:",
+    "question_text": "During S_N2 reactions, configuration of the alkyl halide molecule:",
     "options": {
       "a": "Gets inverted",
       "b": "Remains same",
@@ -1941,10 +1941,10 @@
     "difficulty": null,
     "question_text": "Methanol is prepared from carbon monoxide and hydrogen. The catalyst used for this reaction is",
     "options": {
-      "a": "ZnO + CoO2",
+      "a": "ZnO + CoO₂",
       "b": "ZnO + CuO",
-      "c": "ZnO + Ag2O",
-      "d": "Cr2O3 + ZnO"
+      "c": "ZnO + Ag₂O",
+      "d": "Cr₂O₃ + ZnO"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -1964,10 +1964,10 @@
     "difficulty": null,
     "question_text": "Ethanol reacts with Ammonia to produce ethyl amine, the catalyst is",
     "options": {
-      "a": "ZnCl2",
-      "b": "ThO2",
-      "c": "C6H5N",
-      "d": "Cr2O3"
+      "a": "ZnCl₂",
+      "b": "ThO₂",
+      "c": "C₆H₅N",
+      "d": "Cr₂O₃"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -1987,10 +1987,10 @@
     "difficulty": null,
     "question_text": "Dissociation constant of phenol is",
     "options": {
-      "a": "1.2 x 10-10",
-      "b": "1.2 x 10¹⁰",
-      "c": "1.3 x 10¹⁰",
-      "d": "1.3 x 10-10"
+      "a": "1.2 × 10⁻¹⁰",
+      "b": "1.2 × 10¹⁰",
+      "c": "1.3 × 10¹⁰",
+      "d": "1.3 × 10⁻¹⁰"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -2102,10 +2102,10 @@
     "difficulty": null,
     "question_text": "Which of the following compounds, in the form of aqueous solution, on reaction with sodium carbonate will produce carbon dioxide gas?",
     "options": {
-      "a": "H3C-COO-C2H5",
-      "b": "H3C2-COO-CH3",
-      "c": "H3C2-CO-OH",
-      "d": "H3C2-COO-C2H5"
+      "a": "H₃C–COO–C₂H₅",
+      "b": "H₅C₂–COO–CH₃",
+      "c": "H₅C₂–CO–OH",
+      "d": "H₅C₂–COO–C₂H₅"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -2148,7 +2148,7 @@
     "difficulty": null,
     "question_text": "Urea is produced by the reaction of liquid ammonia with",
     "options": {
-      "a": "CO2",
+      "a": "CO₂",
       "b": "CO",
       "c": "CaO",
       "d": "C"
@@ -2171,12 +2171,12 @@
     "difficulty": null,
     "question_text": "The calcium sulpho-aluminate is",
     "options": {
-      "a": "Co.Al2O3.3CaSO4.6H2O",
-      "b": "3Ca.Al2O3.CaSO4.2H2O",
-      "c": "3Ca.Al2O3.3CaSO4.2H2O",
-      "d": "3Ca.Al2O3.3CaSO4.6H2O"
+      "a": "Co·Al₂O₃·3CaSO₄·6H₂O",
+      "b": "3Ca·Al₂O₃·CaSO₄·2H₂O",
+      "c": "3Ca·Al₂O₃·3CaSO₄·2H₂O",
+      "d": "3Ca·Al₂O₃·3CaSO₄·6H₂O"
     },
-    "correct_answer": "d",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2240,10 +2240,10 @@
     "difficulty": null,
     "question_text": "One mole of any gas at standard temperature and pressure (STP) occupies a volume of",
     "options": {
-      "a": "20.414 dm3",
-      "b": "22.414 dm3",
-      "c": "22.414 cm3",
-      "d": "23.414 dm3"
+      "a": "20.414 dm³",
+      "b": "22.414 dm³",
+      "c": "22.414 cm³",
+      "d": "23.414 dm³"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -2445,7 +2445,7 @@
     "topic": "Solids",
     "subtopic": "Crystal Lattice",
     "difficulty": null,
-    "question_text": "In the structure of NaCl, each Na+ is surrounded by _____ Cl- ions.",
+    "question_text": "In the structure of NaCl, each Na⁺ is surrounded by _____ Cl⁻ ions.",
     "options": {
       "a": "Four",
       "b": "Eight",
@@ -2470,10 +2470,10 @@
     "difficulty": null,
     "question_text": "The charge of one gram of electron is",
     "options": {
-      "a": "1.7588 x 10-11",
-      "b": "1.7588 x 10¹¹",
-      "c": "1.602 x 10⁻¹⁹",
-      "d": "1.7588 x 10⁸"
+      "a": "1.7588 × 10⁻¹¹",
+      "b": "1.7588 × 10¹¹",
+      "c": "1.602 × 10⁻¹⁹",
+      "d": "1.7588 × 10⁸"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -2494,9 +2494,9 @@
     "question_text": "The ionization energy of hydrogen atom is",
     "options": {
       "a": "Zero",
-      "b": "13.13 kJmol-1",
-      "c": "1313.31 kJmol-1",
-      "d": "1313.31 k2Jmol"
+      "b": "13.13 kJmol⁻¹",
+      "c": "1313.31 kJmol⁻¹",
+      "d": "1313.31 k²Jmol"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -2567,7 +2567,7 @@
       "c": "Three σ only",
       "d": "Two σ and one π"
     },
-    "correct_answer": "c",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2585,10 +2585,10 @@
     "difficulty": null,
     "question_text": "Which one of the following molecules has zero dipole moment?",
     "options": {
-      "a": "NH3",
-      "b": "CHCl3",
-      "c": "BF3",
-      "d": "H2O"
+      "a": "NH₃",
+      "b": "CHCl₃",
+      "c": "BF₃",
+      "d": "H₂O"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -2629,7 +2629,7 @@
     "topic": "Thermochemistry and Energetics",
     "subtopic": "Enthalpy of Reaction",
     "difficulty": null,
-    "question_text": "The standard enthalpy of solution of NH4Cl is ____________ kJmol-1.",
+    "question_text": "The standard enthalpy of solution of NH₄Cl is ____________ kJmol⁻¹.",
     "options": {
       "a": "+16.2",
       "b": "-25.0",
@@ -2652,14 +2652,14 @@
     "topic": "Chemical Equilibrium",
     "subtopic": "Chemical Equilibrium (Reversible Reactions)",
     "difficulty": null,
-    "question_text": "The Kc has following units for the reaction H2(g) + I2(g) ⇋ 2HI (g)",
+    "question_text": "The Kc has following units for the reaction H₂(g) + I₂(g) ⇌ 2HI(g)",
     "options": {
-      "a": "mol3dm-6",
-      "b": "moldm-3",
-      "c": "mol-3dm6",
+      "a": "mol³dm⁻⁶",
+      "b": "moldm⁻³",
+      "c": "mol⁻³dm⁶",
       "d": "No unit"
     },
-    "correct_answer": "b",
+    "correct_answer": "d",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2675,14 +2675,14 @@
     "topic": "Chemical Equilibrium",
     "subtopic": "Ka, pKa and Acid Strength",
     "difficulty": null,
-    "question_text": "0.1 mole of acetic acid has been dissolved per dm3 of the solution, the percentage ionization of acetic acid will be",
+    "question_text": "0.1 mole of acetic acid has been dissolved per dm³ of the solution, the percentage ionization of acetic acid will be",
     "options": {
       "a": "13",
       "b": "15",
       "c": "1.3",
       "d": "0.1"
     },
-    "correct_answer": "d",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2698,7 +2698,7 @@
     "topic": "Chemical Equilibrium",
     "subtopic": "Solubility Products",
     "difficulty": null,
-    "question_text": "Solubility of Ce2(SO4)3",
+    "question_text": "Solubility of Ce₂(SO₄)₃",
     "options": {
       "a": "Increases with temperature",
       "b": "Decreases with temperature",
@@ -2721,14 +2721,14 @@
     "topic": "Fundamental Concepts of Chemistry",
     "subtopic": "Concentration Units (ppm, Molarity)",
     "difficulty": null,
-    "question_text": "Seawater has 5.65 x 10⁻³ g of dissolved oxygen in one kilogram of water. Concentration of O2 in parts per million is",
+    "question_text": "Seawater has 5.65 × 10⁻³ g of dissolved oxygen in one kilogram of water. Concentration of O₂ in parts per million is",
     "options": {
       "a": "5.65",
       "b": "7.69",
       "c": "5.20",
       "d": "4.11"
     },
-    "correct_answer": "b",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2863,7 +2863,7 @@
     "options": {
       "a": "Suddenly he stopped",
       "b": "taking his pocket knife",
-      "c": "cut",
+      "c": "his pocket",
       "d": "a wisp of alfalfa"
     },
     "correct_answer": "b",
@@ -3165,7 +3165,7 @@
       "c": "He walked as though he were lame.",
       "d": "He walked as though he may have been lame."
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3602,7 +3602,7 @@
       "c": "At the junction of ileum and large intestine",
       "d": "At the junction of small intestine and large intestine"
     },
-    "correct_answer": "d",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3786,7 +3786,7 @@
       "c": "Breathing movements, activity of skeletal muscles and valves",
       "d": "Exercise, breathing movements and heart"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3970,7 +3970,7 @@
       "c": "Aggression, mating and altruism",
       "d": "The responses that are predetermined like differentiation."
     },
-    "correct_answer": "d",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3993,7 +3993,7 @@
       "c": "Has no charge on either side",
       "d": "has an equal charge on either side"
     },
-    "correct_answer": "b",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4936,7 +4936,7 @@
       "c": "Starch",
       "d": "Both B and C"
     },
-    "correct_answer": "d",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,

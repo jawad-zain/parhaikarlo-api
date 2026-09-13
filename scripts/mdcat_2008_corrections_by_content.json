@@ -1,0 +1,1022 @@
+[
+ {
+  "year": 2008,
+  "question_number": 2,
+  "match_question_text": "Beta ray emitted by a radioactive substance is:",
+  "match_option_a": "An electron which was existing outside the nucleus.",
+  "set": {
+   "correct_answer": "C",
+   "explanation_short": "A beta particle is an electron created in the nucleus when a neutron decays into a proton, an electron and an antineutrino.",
+   "explanation_long": "The nucleus contains no electrons. In β⁻ decay a neutron changes into a proton: n → p + e⁻ + ν̄. The electron is created at that moment and ejected at high speed as the beta ray, while the proton stays behind, so Z rises by 1 and A is unchanged. (The printed UHS key marks B, but electrons do not exist inside the nucleus, so C is the correct statement.)",
+   "explanation_trick": "No electrons live in the nucleus — a beta electron is manufactured there from a neutron.",
+   "explanation_options": {
+    "a": "Wrong — orbital electrons are not involved in beta decay; removing them is ionisation.",
+    "b": "Wrong — there are no electrons inside the nucleus to be emitted.",
+    "c": "Correct — a neutron decays (n → p + e⁻ + ν̄) and the newly created electron leaves as the beta ray.",
+    "d": "Wrong — a pulse of electromagnetic radiation is a gamma ray, not a beta ray."
+   }
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 8,
+  "match_question_text": "Resistance in RC circuit of time constant 2 seconds is 1000 Ohms. What is value of C in the circuit?",
+  "match_option_a": "2 μ farad.",
+  "set": {
+   "explanation_long": "For an RC circuit, the time constant is tau = RC. Given tau = 2 s and R = 1000 Ohm, C = tau/R = 2/1000 = 0.002 F = 2000 uF. The printed UHS key marks C (200 μF), but that gives τ = RC = 0.2 s, not 2 s, so D is kept."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 13,
+  "match_question_text": "The vertical velocity of ball thrown upward __________ with time.",
+  "match_option_a": "Decreases linearly.",
+  "set": {
+   "explanation_long": "Under constant gravitational deceleration, v(t) = v0 - gt is a straight-line (linear) relationship between velocity and time. Velocity decreases steadily until it hits zero at maximum height, then becomes negative (falling) -- this is linear decay, not doubling or parabolic decay. The printed UHS key marks C ('Doubles'), which contradicts v = u − gt, so A is kept."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 15,
+  "match_question_text": "A disc at rest without slipping, rolls down a hill of height (3 x 9.8) m. What is its speed in m/sec when it reaches at the bottom?",
+  "match_option_a": "11.4.",
+  "set": {
+   "explanation_long": "Energy conservation for a rolling disc: mgh = (1/2)mv^2 + (1/2)Iw^2, with I=(1/2)mr^2 and w=v/r, gives mgh = (3/4)mv^2, so v = sqrt(4gh/3). With h = 3x9.8 = 29.4 m and g=9.8: v = sqrt(4x9.8x29.4/3) = sqrt(384.16) ~ 19.6 m/s. The printed UHS key marks A (11.4 m/s), which does not satisfy energy conservation, so B is kept."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 24,
+  "match_question_text": "Two cylinders of equal mass are made from same material. The one with the larger diameter accelerates __________ the other under the action of same torque.",
+  "match_option_a": "Faster than.",
+  "set": {
+   "explanation_long": "For a solid cylinder, I = (1/2)mr^2. Two cylinders of equal mass but different diameters have different r, so the larger-diameter one has a larger I. Under the same applied torque, angular acceleration alpha = torque/I is therefore smaller for the larger cylinder -- it accelerates more slowly than the smaller one. The printed UHS key marks A ('Faster than'), which contradicts α = τ/I, so B is kept."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 25,
+  "match_question_text": "The angular frequency of simple pendulum is directly proportional to __________",
+  "match_option_a": "l.",
+  "set": {
+   "option_c": "√l.",
+   "option_d": "√(1/l)."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 29,
+  "match_question_text": "Practically __________ current flows in a reverse biased p-n junction.",
+  "match_option_a": "No.",
+  "set": {
+   "correct_answer": "A",
+   "explanation_short": "In reverse bias the depletion region widens, so practically no current flows (only a tiny leakage current of microamperes).",
+   "explanation_long": "Reverse biasing a p-n junction pulls majority carriers away from the junction and widens the depletion region, so the junction blocks conduction. Only a very small leakage current carried by minority carriers flows — typically microamperes or less — which is why it is described as practically no current. (The printed UHS key marks D, but 'No current' and 'a few milliamperes' contradict each other and milliamperes is far too large for reverse leakage.)",
+   "explanation_trick": "Forward bias conducts, reverse bias blocks: 'practically no current' is the standard phrase for reverse bias.",
+   "explanation_options": {
+    "a": "Correct — apart from a negligible minority-carrier leakage, no current flows.",
+    "b": "Wrong — a very large current flows only in forward bias or at breakdown.",
+    "c": "Wrong — reverse leakage is of the order of microamperes, not milliamperes.",
+    "d": "Wrong — the two statements contradict each other, so they cannot both be right."
+   }
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 33,
+  "match_question_text": "Force in terms of base units is expressed as",
+  "match_option_a": "kg ms-2.",
+  "set": {
+   "option_a": "kg m s⁻².",
+   "option_b": "kg m² s⁻².",
+   "option_c": "kg m² s⁻³."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 38,
+  "match_question_text": "A 2m long pipe is open at both ends. What is its harmonic frequency?",
+  "match_option_a": "42.5 Hz.",
+  "set": {
+   "correct_answer": "B",
+   "explanation_short": "For a pipe open at both ends the fundamental frequency is f₁ = v/2L = 340/(2 × 2) = 85 Hz.",
+   "explanation_long": "An open-open pipe has antinodes at both ends, so the fundamental mode fits half a wavelength into the pipe: λ = 2L = 4 m. With the speed of sound v ≈ 340 m/s, f₁ = v/λ = 340/4 = 85 Hz. Higher harmonics are whole-number multiples (170 Hz, 255 Hz, …).",
+   "explanation_trick": "Open-open pipe: f₁ = v/2L. Closed at one end: f₁ = v/4L.",
+   "explanation_options": {
+    "a": "Wrong — 42.5 Hz is v/4L, the fundamental of a pipe closed at one end.",
+    "b": "Correct — f₁ = v/2L = 340/4 = 85 Hz.",
+    "c": "Wrong — 220 Hz is not a harmonic of 85 Hz for this pipe.",
+    "d": "Wrong — 85 Hz is listed, so 'None of these' does not apply."
+   }
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 39,
+  "match_question_text": "A wire has resistance 100 Ohm at 0 oC and 200 Ohm at 100 oC. What is its temperature coefficient in K-1?",
+  "match_option_a": "-0.01.",
+  "set": {
+   "correct_answer": "C",
+   "explanation_short": "α = (R_T − R₀)/(R₀ × ΔT) = (200 − 100)/(100 × 100) = 0.01 K⁻¹.",
+   "explanation_long": "The temperature coefficient of resistance is defined by R_T = R₀(1 + αΔT), so α = (R_T − R₀)/(R₀ΔT). Here R₀ = 100 Ω at 0 °C, R_T = 200 Ω at 100 °C, ΔT = 100 K: α = 100/(100 × 100) = 0.01 K⁻¹. The resistance rises, so α is positive. (The printed UHS key marks D, 1/273, which is the expansion coefficient of an ideal gas, not this wire's coefficient.)",
+   "explanation_trick": "Always divide the change in resistance by the resistance at 0 °C and by the temperature change.",
+   "explanation_options": {
+    "a": "Wrong — the resistance increases, so α must be positive.",
+    "b": "Wrong — negative, and 1/273 belongs to gas expansion, not this wire.",
+    "c": "Correct — α = 100/(100 × 100) = 0.01 K⁻¹.",
+    "d": "Wrong — 1/273 K⁻¹ is the ideal-gas expansion coefficient; the data give 0.01 K⁻¹."
+   },
+   "question_text": "A wire has resistance 100 Ohm at 0 °C and 200 Ohm at 100 °C. What is its temperature coefficient in K⁻¹?",
+   "option_a": "−0.01.",
+   "option_b": "−1/273."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 40,
+  "match_question_text": "The net magnetic field created by the electrons within an atom is due to the field created by their __________ motion.",
+  "match_option_a": "Orbital.",
+  "set": {
+   "correct_answer": "C",
+   "explanation_short": "An atom's magnetic field is the combined effect of its electrons' orbital motion and their spin.",
+   "explanation_long": "Each electron behaves as a tiny current loop because it orbits the nucleus (orbital magnetic moment) and also has an intrinsic spin magnetic moment. The net field of the atom is the vector sum of these orbital and spin contributions; when they cancel the substance is diamagnetic, when they do not it is para- or ferromagnetic. (The printed UHS key marks D, 'Orbital × spin', but the contributions add — they are not multiplied.)",
+   "explanation_trick": "Magnetism of atoms = orbital + spin, added together.",
+   "explanation_options": {
+    "a": "Wrong — orbital motion is only one of the two sources.",
+    "b": "Wrong — spin is only one of the two sources.",
+    "c": "Correct — both orbital motion and spin produce the atom's net magnetic field.",
+    "d": "Wrong — the two contributions add; a product of them has no physical meaning."
+   }
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 41,
+  "match_question_text": "At high temperature, the proportion of __________ wavelength radiation increase.",
+  "match_option_a": "AM radio.",
+  "set": {
+   "correct_answer": "C",
+   "explanation_short": "As a body gets hotter, the peak of its radiation shifts to shorter wavelengths (Wien's law), so the proportion of short-wavelength radiation increases.",
+   "explanation_long": "Wien's displacement law, λ_max T = constant, says that raising the temperature moves the peak of black-body radiation to shorter wavelengths — a heated iron bar glows red, then orange, then white. The share of short-wavelength radiation therefore grows. AM and long-wave radio are long wavelengths, whose share falls. (The printed UHS key marks D, 'Both A and C', which wrongly includes AM radio.)",
+   "explanation_trick": "Hotter = bluer: temperature up, peak wavelength down.",
+   "explanation_options": {
+    "a": "Wrong — AM radio waves are long wavelengths; their share decreases with temperature.",
+    "b": "Wrong — long radio waves are the longest wavelengths of all.",
+    "c": "Correct — by Wien's law, higher temperature favours shorter wavelengths.",
+    "d": "Wrong — it includes AM radio, whose proportion does not increase."
+   }
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 42,
+  "match_question_text": "In photoelectric effect removal of photons is observed at _________ energies.",
+  "match_option_a": "Low.",
+  "set": {
+   "explanation_short": "The photoelectric effect is the main way photons interact with matter at low energies and remains important at intermediate energies; at higher energies Compton scattering and then pair production take over.",
+   "explanation_long": "Photons lose energy to matter in three main ways. At low photon energies (visible, ultraviolet, soft X-rays) photoelectric absorption dominates, and it still contributes at intermediate energies, especially in heavy elements. Compton scattering becomes the dominant process at intermediate energies, and pair production needs more than 1.02 MeV, so it occurs only at high energies. The UHS key therefore marks low and intermediate energies. ('Removal of photons' in the paper means removal of photoelectrons.)",
+   "explanation_trick": "Low: photoelectric. Intermediate: Compton. High (> 1.02 MeV): pair production.",
+   "explanation_options": {
+    "a": "True, but incomplete — photoelectric absorption also occurs at intermediate energies.",
+    "b": "Wrong — at high energies pair production dominates.",
+    "c": "True, but incomplete — the photoelectric effect is most important at low energies.",
+    "d": "Correct (UHS key) — the photoelectric effect is observed at low and intermediate photon energies."
+   }
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 43,
+  "match_question_text": "Which device is the most efficient?",
+  "match_option_a": "Nuclear reactor.",
+  "set": {
+   "correct_answer": "D",
+   "explanation_short": "A dry cell converts chemical energy to electrical energy with about 90% efficiency — far higher than a storage battery (≈72%), a nuclear reactor (≈30–35%) or a silicon solar cell (≈10–20%).",
+   "explanation_long": "Typical conversion efficiencies quoted in physics texts: dry cell battery ≈ 90%, storage battery ≈ 72%, nuclear power reactor ≈ 30–35% (most of the heat is rejected, as in any heat engine), silicon solar cell ≈ 10–20%. The dry cell is therefore the most efficient of the four. (The printed UHS key marks A, but a nuclear reactor is limited by heat-engine efficiency and is the second least efficient device listed.)",
+   "explanation_trick": "Anything that turns heat into work (nuclear, coal, petrol) is stuck near 30–40%; direct chemical-to-electrical cells do much better.",
+   "explanation_options": {
+    "a": "Wrong — a nuclear power reactor converts only about 30–35% of its heat into electricity.",
+    "b": "Wrong — a storage battery is about 72% efficient, below a dry cell.",
+    "c": "Wrong — a silicon solar cell converts only about 10–20% of sunlight.",
+    "d": "Correct — a dry cell is about 90% efficient, the highest of these."
+   }
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 44,
+  "match_question_text": "The units of E in E=mc2 are",
+  "match_option_a": "kg m s-2.",
+  "set": {
+   "question_text": "The units of E in E = mc² are",
+   "option_a": "kg m s⁻².",
+   "option_b": "N m s⁻².",
+   "option_c": "kg m² s⁻²."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 45,
+  "match_question_text": "Work done on a body equals change in its __________ energy.",
+  "match_option_a": "Total.",
+  "set": {
+   "explanation_short": "Work done on a body changes its energy: net work changes kinetic energy, work against gravity or a spring changes potential energy, and either way the total energy changes. The UHS key marks 'All of these'.",
+   "explanation_long": "By the work-energy theorem, the net work done on a body equals the change in its kinetic energy (W = ΔK). If the work is done against a conservative force — lifting a body or stretching a spring — it is stored as potential energy instead, and in general the work done by an outside agent equals the change in the body's total mechanical energy. Since the question does not specify the situation, the key accepts all three.",
+   "explanation_trick": "W_net = ΔK is the strict theorem; work by an outside agent = change in total energy.",
+   "explanation_options": {
+    "a": "True — work done by an outside agent changes the body's total energy.",
+    "b": "True — work done against gravity is stored as potential energy.",
+    "c": "True — net work equals the change in kinetic energy (work-energy theorem).",
+    "d": "Correct (UHS key) — depending on the situation, work can change any of these energies."
+   }
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 47,
+  "match_question_text": "Transverse waves cannot be setup in __________",
+  "match_option_a": "Metals.",
+  "set": {
+   "correct_answer": "C",
+   "explanation_short": "Transverse waves need a medium that resists shear; fluids (liquids and gases) cannot, so transverse waves cannot be set up in them.",
+   "explanation_long": "In a transverse wave the particles move perpendicular to the direction of travel, which requires the medium to pull neighbouring layers back sideways — a shear restoring force. Solids (including metals and soil) have rigidity and carry both transverse and longitudinal waves. Fluids have no shear rigidity, so only longitudinal (compression) waves travel through their bulk — which is also why S-waves from earthquakes do not cross the liquid outer core.",
+   "explanation_trick": "Shear needs rigidity: solids carry S (transverse) waves, fluids carry only P (longitudinal) waves.",
+   "explanation_options": {
+    "a": "Wrong — metals are solids with rigidity and carry transverse waves.",
+    "b": "Wrong — solids carry transverse waves (e.g. seismic S-waves).",
+    "c": "Correct — fluids have no shear rigidity, so transverse waves cannot travel through them.",
+    "d": "Wrong — soil is a solid medium and carries transverse seismic waves."
+   }
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 49,
+  "match_question_text": "Which of the following has the highest resistivity?",
+  "match_option_a": "Germanium.",
+  "set": {
+   "correct_answer": "A",
+   "explanation_short": "Germanium is a semiconductor with a resistivity of about 0.5 Ω·m, millions of times higher than silver, copper or platinum.",
+   "explanation_long": "Approximate resistivities at room temperature: silver 1.6 × 10⁻⁸ Ω·m, copper 1.7 × 10⁻⁸ Ω·m, platinum 1.06 × 10⁻⁷ Ω·m, germanium ≈ 0.46 Ω·m. Platinum is the most resistive of the three metals, but the semiconductor germanium is higher than all of them by more than a million times. (The printed UHS key marks B, but silver has the lowest resistivity of any metal.)",
+   "explanation_trick": "Order of resistivity: insulators > semiconductors > metals — a semiconductor beats every metal.",
+   "explanation_options": {
+    "a": "Correct — germanium (≈0.46 Ω·m) has by far the highest resistivity here.",
+    "b": "Wrong — silver has the lowest resistivity of all metals.",
+    "c": "Wrong — copper is an excellent conductor with very low resistivity.",
+    "d": "Wrong — platinum is the most resistive of the metals, but still about a million times below germanium."
+   }
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 58,
+  "match_question_text": "A yellow light of wavelength 500 mm emitted by a single source passes through two narrow slits 1 mm apart. How far apart are two adjacent bright fringes when interference is observed on a screen 10 m away?",
+  "match_option_a": "5 mm.",
+  "set": {
+   "question_text": "A yellow light of wavelength 500 nm emitted by a single source passes through two narrow slits 1 mm apart. How far apart are two adjacent bright fringes when interference is observed on a screen 10 m away?"
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 59,
+  "match_question_text": "The heat produced by a current I in the wire of resistance R during time interval t is",
+  "match_option_a": "I2/Rt.",
+  "set": {
+   "option_a": "I²/Rt.",
+   "option_b": "I²Rt.",
+   "option_c": "I²/R/t.",
+   "option_d": "IR²t."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 60,
+  "match_question_text": "Which of the following is the most ductile?",
+  "match_option_a": "Glass.",
+  "set": {
+   "option_d": "High carbon steel."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 61,
+  "match_question_text": "Which type of bonding is present in NH4Cl?",
+  "match_option_a": "Ionic.",
+  "set": {
+   "correct_answer": "D",
+   "explanation_short": "NH₄Cl contains all three: covalent N–H bonds, a coordinate covalent N→H⁺ bond, and ionic attraction between NH₄⁺ and Cl⁻.",
+   "explanation_long": "Ammonia's nitrogen forms three ordinary covalent bonds to hydrogen. Its lone pair is donated to H⁺ to make the fourth N–H bond, a coordinate covalent (dative) bond, giving the ammonium ion NH₄⁺. The ammonium ion and the chloride ion are then held together by ionic bonding in the crystal. (The printed UHS key marks C, but coordinate covalent is only one of the three bond types present.)",
+   "explanation_trick": "Ammonium salts are the classic example of all three bond types in one compound.",
+   "explanation_options": {
+    "a": "Incomplete — the NH₄⁺–Cl⁻ attraction is ionic, but it is not the only bond type.",
+    "b": "Incomplete — the three N–H bonds of ammonia are covalent, but other bond types are present too.",
+    "c": "Incomplete — one N→H bond is coordinate covalent, but ionic and covalent bonds are also present.",
+    "d": "Correct — ionic, covalent and coordinate covalent bonds are all present."
+   },
+   "question_text": "Which type of bonding is present in NH₄Cl?"
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 62,
+  "match_question_text": "When CuSO4 is electrolyzed in aqueous solution using copper electrodes, then the substance which deposits at the cathode is:",
+  "match_option_a": "Copper metal.",
+  "set": {
+   "question_text": "When CuSO₄ is electrolyzed in aqueous solution using copper electrodes, then the substance which deposits at the cathode is:"
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 64,
+  "match_question_text": "The products of the fermentation of a sugar are ethanol and",
+  "match_option_a": "Water.",
+  "set": {
+   "correct_answer": "C",
+   "explanation_short": "Yeast ferments glucose into ethanol and carbon dioxide: C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂.",
+   "explanation_long": "Alcoholic fermentation is anaerobic: the enzyme zymase in yeast breaks each glucose molecule into two molecules of ethanol and two molecules of carbon dioxide. The CO₂ is the gas that makes dough rise and bubbles out of fermenting liquids. No oxygen is produced, water is not a product, and sulphur dioxide has nothing to do with the reaction.",
+   "explanation_trick": "Bread rises and beer fizzes for the same reason: CO₂ from fermentation.",
+   "explanation_options": {
+    "a": "Wrong — water is not a product of alcoholic fermentation.",
+    "b": "Wrong — fermentation is anaerobic and releases no oxygen.",
+    "c": "Correct — C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂.",
+    "d": "Wrong — sulphur dioxide is not formed; sugars contain no sulphur."
+   }
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 68,
+  "match_question_text": "__________ has dipole moment.",
+  "match_option_a": "CO.",
+  "set": {
+   "option_b": "CO₂."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 69,
+  "match_question_text": "__________ is used as catalyst in Haber’s process for NH3 gas manufacture.",
+  "match_option_a": "Iron.",
+  "set": {
+   "question_text": "__________ is used as catalyst in Haber’s process for NH₃ gas manufacture."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 71,
+  "match_question_text": "Which element forms long chains alternating with oxygen?",
+  "match_option_a": "Carbon.",
+  "set": {
+   "explanation_long": "Silicon's chemistry favours forming extended Si-O-Si-O chain, sheet, and network structures (as in silicates and silicone polymers), analogous to how carbon forms C-C chains, but silicon specifically alternates with oxygen due to strong Si-O bond stability. The printed UHS key marks D ('All of these'), but carbon and nitrogen do not form such Si–O-type alternating chains, so B is kept."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 78,
+  "match_question_text": "Which of the following formation is endothermic reaction?",
+  "match_option_a": "2H2(g) + O2(g) 2H2O(l).",
+  "set": {
+   "option_a": "2H₂(g) + O₂(g) → 2H₂O(l).",
+   "option_b": "C(s) + O₂(g) → CO₂(g).",
+   "option_c": "N₂(g) + O₂(g) → N₂O₂(g)."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 80,
+  "match_question_text": "AlI3 (Aluminium Iodide) is electrically a __________",
+  "match_option_a": "Conductor.",
+  "set": {
+   "question_text": "AlI₃ (Aluminium Iodide) is electrically a __________"
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 82,
+  "match_question_text": "Concentrated nitric acid gives __________ when it reacts with tin.",
+  "match_option_a": "Nitric oxide.",
+  "set": {
+   "correct_answer": "B",
+   "explanation_short": "Concentrated nitric acid oxidises tin to metastannic acid (H₂SnO₃); dilute nitric acid gives tin nitrate and ammonium nitrate instead.",
+   "explanation_long": "Concentrated HNO₃ is a strong oxidising agent and converts tin to insoluble metastannic acid: Sn + 4HNO₃ → H₂SnO₃ + 4NO₂ + H₂O. With cold dilute nitric acid tin dissolves as tin(II) nitrate and the acid is reduced as far as ammonium nitrate. Ammonium nitrite is not formed in either case. (The printed UHS key marks C, but the textbook product with concentrated acid is metastannic acid.)",
+   "explanation_trick": "Tin + concentrated HNO₃ → metastannic acid; tin + dilute HNO₃ → ammonium nitrate.",
+   "explanation_options": {
+    "a": "Wrong — concentrated nitric acid is reduced mainly to NO₂, and the tin product is metastannic acid.",
+    "b": "Correct — Sn + 4HNO₃(conc) → H₂SnO₃ + 4NO₂ + H₂O.",
+    "c": "Wrong — ammonium nitrite is not a product; dilute acid gives ammonium nitrate, not nitrite.",
+    "d": "Wrong — metastannic acid is listed, so 'None of these' does not apply."
+   }
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 83,
+  "match_question_text": "Sulphuric acid is used to manufacture",
+  "match_option_a": "HCl and HNO3.",
+  "set": {
+   "correct_answer": "D",
+   "explanation_short": "Being a strong, non-volatile acid, sulphuric acid is used to liberate other acids from their salts — HCl from NaCl, HNO₃ from nitrates, H₃PO₄ from phosphate rock, and oxalic acid from oxalates. The UHS key marks D.",
+   "explanation_long": "Concentrated H₂SO₄ displaces more volatile or weaker acids from their salts: NaCl + H₂SO₄ → NaHSO₄ + HCl; NaNO₃ + H₂SO₄ → NaHSO₄ + HNO₃; Ca₃(PO₄)₂ + 3H₂SO₄ → 2H₃PO₄ + 3CaSO₄; and calcium oxalate + H₂SO₄ → (COOH)₂ + CaSO₄. Option D, printed in the paper as 'Both HCl and 2COOH', is taken to mean HCl and oxalic acid (COOH)₂, and it is the answer in the UHS key. Because all of these acids are made this way, the options overlap and option C is also chemically defensible; the key's letter is followed here.",
+   "explanation_trick": "Sulphuric acid is the 'acid that makes other acids' — it pushes volatile acids out of their salts.",
+   "explanation_options": {
+    "a": "True statement — H₂SO₄ is used to make HCl and HNO₃, but the key does not choose this option.",
+    "b": "True statement — H₂SO₄ is used to make H₃PO₄ from phosphate rock, but the key does not choose this option.",
+    "c": "Defensible, since A and B are both true, but the UHS key marks D.",
+    "d": "Keyed answer — H₂SO₄ liberates HCl from chlorides and oxalic acid, (COOH)₂, from oxalates."
+   },
+   "option_a": "HCl and HNO₃.",
+   "option_b": "H₃PO₄."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 88,
+  "match_question_text": "__________ hybridization leads to a regular tetrahedral structure.",
+  "match_option_a": "sp3.",
+  "set": {
+   "option_a": "sp³.",
+   "option_b": "sp²."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 90,
+  "match_question_text": "Magnesium reacts with hydrogen at high pressure in the presence of catalyst __________ forming magnesium hydride.",
+  "match_option_a": "Dolomite.",
+  "set": {
+   "option_b": "MgI₂.",
+   "option_c": "Mg₃N₂."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 91,
+  "match_question_text": "Which element has the largest number of allotropic forms?",
+  "match_option_a": "Phosphorous.",
+  "set": {
+   "correct_answer": "B",
+   "explanation_short": "Sulphur has more allotropes than any other element — over 30, including rhombic, monoclinic and plastic sulphur and rings such as S₆, S₇ and S₈.",
+   "explanation_long": "Sulphur atoms link into rings and chains of many sizes (S₆, S₇, S₈, S₁₂, polymeric chains), and each can pack in several crystal forms, giving more than 30 known allotropes; the familiar ones are rhombic (α), monoclinic (β) and plastic sulphur. Phosphorus has only a few main allotropes (white, red, violet, black) and oxygen has two (O₂ and O₃). (The printed UHS key marks A, phosphorus, but sulphur has the larger number.)",
+   "explanation_trick": "Sulphur's ability to form rings of almost any size makes it the champion of allotropy.",
+   "explanation_options": {
+    "a": "Wrong — phosphorus has several allotropes (white, red, violet, black), but far fewer than sulphur.",
+    "b": "Correct — sulphur has the largest number of allotropic forms (30+).",
+    "c": "Wrong — oxygen has only two allotropes, O₂ and O₃.",
+    "d": "Wrong — neither phosphorus nor oxygen has the largest number."
+   }
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 96,
+  "match_question_text": "Al2O3(SiO2).2H2O is called",
+  "match_option_a": "Clay.",
+  "set": {
+   "question_text": "Al₂O₃(SiO₂)·2H₂O is called"
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 97,
+  "match_question_text": "CaO forms fertilize slag by reacting with",
+  "match_option_a": "P2O5.",
+  "set": {
+   "correct_answer": "A",
+   "explanation_short": "In basic steelmaking, lime (CaO) combines with P₂O₅ from the phosphorus impurities to form calcium phosphate slag (basic or Thomas slag), which is sold as fertilizer.",
+   "explanation_long": "Phosphorus in pig iron is oxidised to P₂O₅ during steelmaking. Lime added to the furnace lining or charge reacts with it: 3CaO + P₂O₅ → Ca₃(PO₄)₂. This basic slag is rich in phosphate and is ground up and used as a phosphatic fertilizer. Lime also reacts with silica (CaO + SiO₂ → CaSiO₃), but that calcium silicate slag has no value as a fertilizer. (The printed UHS key marks C, silica, but the fertilizer slag comes from P₂O₅.)",
+   "explanation_trick": "Fertilizer needs phosphorus — so the fertilizer slag must come from P₂O₅.",
+   "explanation_options": {
+    "a": "Correct — 3CaO + P₂O₅ → Ca₃(PO₄)₂, the phosphate-rich basic slag used as fertilizer.",
+    "b": "Wrong — Fe₂O₃ is the iron ore being reduced, not the slag-forming partner here.",
+    "c": "Wrong — CaO + SiO₂ gives calcium silicate slag, which is not a fertilizer.",
+    "d": "Wrong — 'FO' (as printed) is not what forms the fertilizer slag."
+   },
+   "option_a": "P₂O₅.",
+   "option_b": "Fe₂O₃."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 103,
+  "match_question_text": "In synthetic fibres __________ bonding is responsible for tensile strength.",
+  "match_option_a": "Nitrogen.",
+  "set": {
+   "explanation_long": "Synthetic fibres like nylon rely heavily on hydrogen bonds forming between adjacent polymer chains (via amide -C(=O)-NH- groups), which align and strongly interlink the chains, giving the fibre its characteristic tensile strength and structural integrity. The printed UHS key marks D ('None of these'), but hydrogen bonding is the textbook source of nylon's strength, so B is kept."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 104,
+  "match_question_text": "Boiling point of HF is __________ H2O.",
+  "match_option_a": "Lower than.",
+  "set": {
+   "explanation_long": "Both HF and H2O show anomalously high boiling points among their respective hydride series (compared to HCl/H2S etc.) due to strong hydrogen bonding, but numerically water boils at 100C while HF boils at about 19.5C -- a large gap, so HF is properly described as having a lower boiling point than water, not almost the same. The printed UHS key marks B ('Higher than'), but HF boils at 19.5 °C and water at 100 °C, so A is kept.",
+   "question_text": "Boiling point of HF is __________ H₂O."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 105,
+  "match_question_text": "__________ is necessary for development of leaves and it tends to accumulate in leaves and bark.",
+  "match_option_a": "NO2.",
+  "set": {
+   "correct_answer": "B",
+   "explanation_short": "Calcium is needed for developing leaves (it builds calcium pectate in new cell walls) and, being immobile in plants, accumulates in older leaves and bark.",
+   "explanation_long": "Plants use calcium to form calcium pectate in the middle lamella of new cell walls, so it is essential for the development of leaves and growing tips. Once deposited, calcium cannot be moved in the phloem, so it builds up in older leaves and in bark as the plant ages. Nitrogen, by contrast, is highly mobile and is withdrawn from old leaves, and NO₂ and gypsum are not plant nutrients in this sense.",
+   "explanation_trick": "Immobile nutrients (like calcium) pile up in old tissues; mobile ones (like nitrogen) are recycled to new growth.",
+   "explanation_options": {
+    "a": "Wrong — NO₂ is an atmospheric pollutant gas, not a nutrient that accumulates in bark.",
+    "b": "Correct — calcium is needed for leaf development and accumulates in leaves and bark.",
+    "c": "Wrong — gypsum (CaSO₄·2H₂O) is a soil conditioner, not the element that accumulates.",
+    "d": "Wrong — nitrogen is mobile and is moved out of old leaves, so it does not accumulate in bark."
+   },
+   "option_a": "NO₂."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 106,
+  "match_question_text": "Which of the following is pale yellow to reddish yellow in color?",
+  "match_option_a": "Pb2O.",
+  "set": {
+   "option_a": "Pb₂O.",
+   "option_b": "PbO₂.",
+   "option_d": "2PbCO₃·Pb(OH)₂."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 110,
+  "match_question_text": "Na may be denoted by __________ electron configuration notation",
+  "match_option_a": "1s2 2s1.",
+  "set": {
+   "option_a": "1s² 2s¹.",
+   "option_b": "[Ar] 4s¹.",
+   "option_c": "[Ne] 3s¹."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 111,
+  "match_question_text": "Which is the best drying agent in desiccators?",
+  "match_option_a": "KOH.",
+  "set": {
+   "option_c": "CaCl₂."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 112,
+  "match_question_text": "100 m3 of a gas at 3 atm pressure and 27 oC is transferred to a chamber of 300 m3 volume maintained at a temperature of 327 oC. What will be the pressure in chamber?",
+  "match_option_a": "6 atm.",
+  "set": {
+   "question_text": "100 m³ of a gas at 3 atm pressure and 27 °C is transferred to a chamber of 300 m³ volume maintained at a temperature of 327 °C. What will be the pressure in chamber?"
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 116,
+  "match_question_text": "Al2F2SiO4 is named as",
+  "match_option_a": "Gibbsite.",
+  "set": {
+   "question_text": "Al₂F₂SiO₄ is named as",
+   "is_active": false,
+   "is_verified": false
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 117,
+  "match_question_text": "Name the oxide in which N has the highest oxidation number.",
+  "match_option_a": "Nitrous oxide.",
+  "set": {
+   "correct_answer": "C",
+   "explanation_short": "Nitrogen peroxide (NO₂) has nitrogen in the +4 state, the highest among these: N₂O is +1, NO is +2 and N₂O₃ is +3.",
+   "explanation_long": "Take oxygen as −2 in each oxide: nitrous oxide N₂O → 2x = +2, x = +1; nitric oxide NO → x = +2; nitrous anhydride N₂O₃ → 2x = +6, x = +3; nitrogen peroxide NO₂ (dimer N₂O₄) → x = +4. So nitrogen peroxide has the highest oxidation number. (The printed UHS key marks D, but nitrous anhydride is only +3.)",
+   "explanation_trick": "Count oxygens per nitrogen: more O per N means a higher oxidation number.",
+   "explanation_options": {
+    "a": "Wrong — N₂O has nitrogen in the +1 state.",
+    "b": "Wrong — NO has nitrogen in the +2 state.",
+    "c": "Correct — NO₂ has nitrogen in the +4 state, the highest here.",
+    "d": "Wrong — N₂O₃ has nitrogen in the +3 state, lower than NO₂."
+   }
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 119,
+  "match_question_text": "CH3-O-CH3 is example of __________ isomerism.",
+  "match_option_a": "Metamerism.",
+  "set": {
+   "question_text": "CH₃–O–CH₃ is example of __________ isomerism."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 120,
+  "match_question_text": "__________ are product of reaction of an alcohol and aromatic bi-functional acids.",
+  "match_option_a": "Acrylic resins.",
+  "set": {
+   "option_d": "Polyamide resins."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 124,
+  "match_question_text": "I am __________ forward to our picnic scheduled in next month.",
+  "match_option_a": "Looking.",
+  "set": {
+   "option_d": "Going."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 126,
+  "match_question_text": "He proved that if only germs were excluded of wounds, inflammation was averted.",
+  "match_option_a": "that if",
+  "set": {
+   "option_c": "of wounds",
+   "explanation_short": "The error is in C: 'excluded of wounds' should be 'excluded from wounds' — 'exclude' takes the preposition 'from'.",
+   "explanation_options": {
+    "a": "Not the error — 'that if' correctly introduces the conditional clause.",
+    "b": "Not the error — 'germs were' is a correct subject and verb.",
+    "c": "Correct — 'excluded of wounds' uses the wrong preposition; it should be 'from wounds'. (The printed UHS key marks A, but 'that if' contains no error.)",
+    "d": "Not the error — 'inflammation was' is grammatically correct."
+   }
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 127,
+  "match_question_text": "The man felt his hair flutter and the tissues of his body drew tight as if he were standing at the centre",
+  "match_option_a": "his hair flutter",
+  "set": {
+   "is_active": false,
+   "is_verified": false
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 130,
+  "match_question_text": "She had left him with a calmness and a poise that accord well with his own inward emotions.",
+  "match_option_a": "had left",
+  "set": {
+   "correct_answer": "C",
+   "explanation_short": "The error is in C: the narrative is in the past ('had left'), so 'that accord' should be 'that accorded'.",
+   "explanation_long": "The sentence reports a past event — 'She had left him with a calmness and a poise' — and the relative clause describes that past calmness, so its verb must also be past: 'that accorded well with his own inward emotions'. 'Had left' (A) is correct past perfect, 'calmness and a poise' (B) is a correct pair of nouns, and 'own inward' (D) is acceptable emphasis. (The printed UHS key marks D, but D contains no grammatical error, while C breaks the sequence of tenses.)",
+   "explanation_trick": "In spot-the-error questions, check that every verb agrees in tense with the main narrative.",
+   "explanation_options": {
+    "a": "Not the error — 'had left' is a correct past perfect.",
+    "b": "Not the error — 'calmness and a poise' is a correct pair of nouns.",
+    "c": "Correct — 'that accord' should be 'that accorded' to match the past-tense narrative.",
+    "d": "Not the error — 'his own inward emotions' is acceptable emphatic phrasing."
+   }
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 131,
+  "match_question_text": "",
+  "match_option_a": "He lacked both the training and the equipment needed in the job.",
+  "set": {
+   "question_text": "Choose the CORRECT sentence."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 132,
+  "match_question_text": "",
+  "match_option_a": "They tried to pacify him for kindness and affection.",
+  "set": {
+   "question_text": "Choose the CORRECT sentence."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 133,
+  "match_question_text": "",
+  "match_option_a": "Then he sat down in corner and remained queit.",
+  "set": {
+   "question_text": "Choose the CORRECT sentence."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 134,
+  "match_question_text": "",
+  "match_option_a": "He was drenched with the hotness of his fear.",
+  "set": {
+   "correct_answer": "B",
+   "explanation_short": "'Drenched in' is the usual collocation for being soaked through with something — drenched in sweat, drenched in fear. The UHS key marks B.",
+   "explanation_long": "The verb 'drench' means to soak completely, and English normally says a person is drenched in a liquid or feeling: 'drenched in sweat', 'drenched in the hotness of his fear'. 'Drenched with' also occurs, especially for the liquid used ('drenched with water'), so the choice between A and B is a matter of idiom rather than a hard rule; the UHS key's 'in' is followed here. 'Drenched by' needs an agent (drenched by the rain) and 'drenched off' is not English.",
+   "explanation_trick": "Soaked or drenched IN something; drenched BY an agent such as rain.",
+   "explanation_options": {
+    "a": "Less idiomatic — 'drenched with' is used for the liquid applied, but the key prefers 'in' here.",
+    "b": "Correct (UHS key) — 'drenched in' is the standard collocation for being soaked in a feeling.",
+    "c": "Wrong — 'drenched by' needs an agent that does the drenching, like rain.",
+    "d": "Wrong — 'drenched off' is not a valid English expression."
+   },
+   "question_text": "Choose the CORRECT sentence."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 135,
+  "match_question_text": "",
+  "match_option_a": "Why did you disagree with me?",
+  "set": {
+   "question_text": "Choose the CORRECT sentence."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 136,
+  "match_question_text": "",
+  "match_option_a": "Do not stuff your head by things you do not understand.",
+  "set": {
+   "question_text": "Choose the CORRECT sentence."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 137,
+  "match_question_text": "",
+  "match_option_a": "A day later he reached his first glimpse of Lahore.",
+  "set": {
+   "question_text": "Choose the CORRECT sentence."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 138,
+  "match_question_text": "",
+  "match_option_a": "This will have a bad impact to the economy.",
+  "set": {
+   "question_text": "Choose the CORRECT sentence."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 139,
+  "match_question_text": "",
+  "match_option_a": "It would save him from dying of thirst.",
+  "set": {
+   "question_text": "Choose the CORRECT sentence."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 140,
+  "match_question_text": "",
+  "match_option_a": "All this flashed by his mind in an instant of protest.",
+  "set": {
+   "option_d": "All this flashed by off mind in an instant of protest.",
+   "question_text": "Choose the CORRECT sentence."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 150,
+  "match_question_text": "DOZE",
+  "match_option_a": "Dogged.",
+  "set": {
+   "option_d": "Medicine to be taken."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 155,
+  "match_question_text": "In what direction, can a DNA polymerase work when catalyzing the addition of nucleotide monomers to build a strand of DNA?",
+  "match_option_a": "From the 5' toward the 3' end of the new strand being assembled.",
+  "set": {
+   "explanation_long": "DNA polymerase can only add nucleotides to the free 3'-OH group of an existing strand, meaning synthesis always proceeds 5' to 3' on the newly made strand -- this is a fundamental, universal enzymatic constraint intrinsic to the polymerase itself. The printed UHS key marks B, which describes the replication forks, not the enzyme's direction, so A is kept."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 156,
+  "match_question_text": "Which bond is the potential source of chemical energy for cellular activities?",
+  "match_option_a": "C-N.",
+  "set": {
+   "correct_answer": "C",
+   "explanation_short": "C–H bonds are the potential source of chemical energy for cells: oxidising the many C–H bonds in glucose and fats releases the energy used to make ATP.",
+   "explanation_long": "Food molecules store energy in reduced carbon — carbon bonded to hydrogen. During respiration the hydrogen (with its electrons) is removed from C–H bonds and passed along the electron transport chain to oxygen, and the energy released is captured as ATP. This is why fats, with more C–H bonds per gram, yield more energy than carbohydrates. C–O and H–O bonds are already oxidised, and C–N bonds are not the cell's energy store. (The printed UHS key marks A, but the textbook answer is C–H.)",
+   "explanation_trick": "More C–H bonds = more stored energy (fat > carbohydrate > protein per gram).",
+   "explanation_options": {
+    "a": "Wrong — C–N bonds occur in proteins but are not the cell's energy source.",
+    "b": "Wrong — C–O bonds are partly oxidised and store less energy.",
+    "c": "Correct — oxidation of C–H bonds releases the energy used for cellular work.",
+    "d": "Wrong — H–O bonds are fully oxidised (as in water) and hold no usable energy."
+   }
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 159,
+  "match_question_text": "Which of the following does not have specialized respiratory organs?",
+  "match_option_a": "Hydra.",
+  "set": {
+   "correct_answer": "A",
+   "explanation_short": "Hydra has no specialised respiratory organs; gases diffuse directly through its body surface.",
+   "explanation_long": "Hydra is a small cnidarian whose body wall is only two cell layers thick, so every cell is close to the surrounding water and oxygen and carbon dioxide simply diffuse in and out across the body surface. Birds breathe with lungs connected to air sacs, and cockroaches use a tracheal system with spiracles — both specialised respiratory organs.",
+   "explanation_trick": "Thin, two-layered animals (Hydra, sponges, flatworms) breathe by diffusion through the body surface.",
+   "explanation_options": {
+    "a": "Correct — Hydra exchanges gases by diffusion across its body surface.",
+    "b": "Wrong — birds have lungs with air sacs, a highly specialised respiratory system.",
+    "c": "Wrong — cockroaches breathe through tracheae and spiracles.",
+    "d": "Wrong — birds do have specialised respiratory organs, so 'Both A and B' is incorrect."
+   }
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 160,
+  "match_question_text": "Humming birds belong to the category",
+  "match_option_a": "Heterotherms.",
+  "set": {
+   "correct_answer": "A",
+   "explanation_short": "Hummingbirds are heterotherms: warm and endothermic while active, but they let their body temperature fall sharply (torpor) at night to save energy.",
+   "explanation_long": "Heterotherms are animals that regulate body temperature at some times but not others. A hummingbird has a very high metabolic rate when feeding, yet at night it enters torpor and its body temperature drops by many degrees, close to that of its surroundings. Bats show the same pattern. That is why textbooks place hummingbirds among heterotherms rather than strict endotherms.",
+   "explanation_trick": "Torpor at night = heterotherm (hummingbirds and bats are the standard examples).",
+   "explanation_options": {
+    "a": "Correct — hummingbirds alternate between regulated and unregulated body temperature, the definition of heterotherms.",
+    "b": "Tempting but wrong here — they are endothermic when active, but their nightly torpor makes them heterotherms.",
+    "c": "Wrong — ectotherms depend entirely on outside heat; hummingbirds generate their own heat when active.",
+    "d": "Wrong — heterotherms is listed, so 'None of these' does not apply."
+   }
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 165,
+  "match_question_text": "Name the enveloped RNA virus that causes infusion hepatitis.",
+  "match_option_a": "HBV.",
+  "set": {
+   "correct_answer": "C",
+   "explanation_short": "Hepatitis C virus is an enveloped RNA virus spread mainly through blood — transfusions, infusions and shared needles.",
+   "explanation_long": "HCV is an enveloped, single-stranded RNA virus (family Flaviviridae) transmitted through infected blood, which is why hepatitis linked to transfusions and infusions is caused by it. Hepatitis A virus is also an RNA virus but has no envelope and spreads by the faecal–oral route; hepatitis B virus is a DNA virus, although it too spreads through blood.",
+   "explanation_trick": "Hepatitis A and E: food and water. Hepatitis B and C: blood. Of the blood-borne pair, only C is an RNA virus.",
+   "explanation_options": {
+    "a": "Wrong — HBV spreads through blood but is a DNA virus.",
+    "b": "Wrong — HAV is a non-enveloped RNA virus spread by contaminated food and water.",
+    "c": "Correct — HCV is an enveloped RNA virus transmitted through blood and infusions.",
+    "d": "Wrong — HCV fits the description, so 'None of these' does not apply."
+   }
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 168,
+  "match_question_text": "The total inside capacity of lungs of adult human beings when fully inflated is",
+  "match_option_a": "5 ml.",
+  "set": {
+   "explanation_long": "Total lung capacity in adults is typically around 5000-6000 mL (about 5-6 litres), comprising tidal volume, inspiratory and expiratory reserve volumes, and residual volume combined — the given options make 5000 mL the reasonable order-of-magnitude answer. The printed UHS key marks A (5 ml), which is a thousand times too small, so D is kept."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 171,
+  "match_question_text": "Name the external factor of growth in plants",
+  "match_option_a": "Carbon dioxide.",
+  "set": {
+   "correct_answer": "A",
+   "explanation_short": "Carbon dioxide is an external (environmental) factor of plant growth — it is the raw material of photosynthesis. The UHS key marks A.",
+   "explanation_long": "Plant growth is controlled by internal factors (hormones, genes, nutrition status inside the plant) and external factors taken from the environment, such as light, temperature, water, oxygen and carbon dioxide. CO₂ is the external raw material that photosynthesis turns into sugars, so its supply directly limits growth. Water and the nutrients available in the soil are also external factors, so the options overlap; the key's answer, carbon dioxide, is followed here. Hormones are clearly internal.",
+   "explanation_trick": "Hormones are always internal; gases, light, water and temperature come from outside.",
+   "explanation_options": {
+    "a": "Correct (UHS key) — carbon dioxide from the air is an external factor for growth.",
+    "b": "Also an external factor, but not the answer chosen by the key.",
+    "c": "Wrong — hormones are produced inside the plant and are internal factors.",
+    "d": "Also external in the sense of soil nutrients, but not the answer chosen by the key."
+   }
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 183,
+  "match_question_text": "Which one of the following is most slender in structure?",
+  "match_option_a": "Microtubules.",
+  "set": {
+   "correct_answer": "B",
+   "explanation_short": "Microfilaments (actin filaments, about 7 nm thick) are the most slender part of the cytoskeleton; intermediate filaments are about 10 nm and microtubules about 25 nm.",
+   "explanation_long": "The three cytoskeletal fibres differ in diameter: microfilaments made of actin are about 7 nm, intermediate filaments about 8–12 nm, and hollow microtubules made of tubulin about 25 nm. Microfilaments are therefore the thinnest. Microtubules are the thickest of the three, so they cannot share the title. (The printed UHS key marks D, but microtubules are the widest cytoskeletal fibres.)",
+   "explanation_trick": "Thin to thick: microfilaments (7 nm) < intermediate filaments (10 nm) < microtubules (25 nm).",
+   "explanation_options": {
+    "a": "Wrong — microtubules (≈25 nm) are the thickest cytoskeletal fibres.",
+    "b": "Correct — microfilaments (≈7 nm) are the most slender.",
+    "c": "Wrong — intermediate filaments (≈10 nm) are thicker than microfilaments.",
+    "d": "Wrong — microtubules are the thickest, so they cannot be 'most slender' along with microfilaments."
+   }
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 184,
+  "match_question_text": "Name the human tissues that contain about 85% water",
+  "match_option_a": "Nerve cells.",
+  "set": {
+   "option_d": "None of these."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 190,
+  "match_question_text": "Which of the following is made up of bones and cartilage?",
+  "match_option_a": "Endoskeleton.",
+  "set": {
+   "correct_answer": "A",
+   "explanation_short": "The endoskeleton of vertebrates is made of bone and cartilage.",
+   "explanation_long": "Vertebrates have an internal skeleton (endoskeleton) of living tissue: cartilage, which forms the embryonic skeleton and remains at joints, ribs and the nose, and bone, which replaces most cartilage as the body grows. Exoskeletons, such as those of arthropods, are made of chitin, and hydrostatic skeletons (earthworm) are fluid under pressure.",
+   "explanation_trick": "Bone and cartilage = endoskeleton; chitin = exoskeleton; fluid = hydrostatic skeleton.",
+   "explanation_options": {
+    "a": "Correct — the vertebrate endoskeleton consists of bone and cartilage.",
+    "b": "Wrong — exoskeletons are made of chitin (with calcium salts in crustaceans), not bone.",
+    "c": "Wrong — a hydrostatic skeleton is fluid held under pressure.",
+    "d": "Wrong — exoskeletons contain no bone or cartilage, so 'Both A and B' is incorrect."
+   }
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 192,
+  "match_question_text": "Prophase, metaphase and telophase are subdivisions of",
+  "match_option_a": "Mitosis.",
+  "set": {
+   "correct_answer": "B",
+   "explanation_short": "Cell division has two parts: karyokinesis (division of the nucleus, with prophase, metaphase, anaphase and telophase) and cytokinesis (division of the cytoplasm). The phases belong to karyokinesis.",
+   "explanation_long": "Textbooks divide mitotic cell division into karyokinesis and cytokinesis. Karyokinesis is the division of the nucleus and is subdivided into prophase, metaphase, anaphase and telophase; cytokinesis, the splitting of the cytoplasm, follows. Because the word 'mitosis' is often used for the whole process, including cytokinesis, the more precise answer for the nuclear phases is karyokinesis — the answer in the UHS key.",
+   "explanation_trick": "Karyo = nucleus, cyto = cytoplasm: the four phases describe the nucleus dividing.",
+   "explanation_options": {
+    "a": "Close but less precise — in the textbook scheme mitosis covers both karyokinesis and cytokinesis.",
+    "b": "Correct — prophase, metaphase and telophase are the phases of karyokinesis (nuclear division).",
+    "c": "Wrong — cytokinesis is the division of the cytoplasm and has no such phases.",
+    "d": "Wrong — karyokinesis fits, so 'None of these' does not apply."
+   }
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 196,
+  "match_question_text": "Name the cyanobacteria which are helpful in fixing atmospheric nitrogen.",
+  "match_option_a": "Heterocysts.",
+  "set": {
+   "explanation_long": "Nostoc, a genus of cyanobacteria, forms filaments containing specialized nitrogen-fixing cells (heterocysts) that convert atmospheric N2 into usable ammonia, contributing to nitrogen fixation in soil and aquatic ecosystems. Heterocysts, akinetes, and hormogonia are all structures/cell types within cyanobacteria (like Nostoc), not organism names themselves. The printed UHS key marks A, but heterocysts are the nitrogen-fixing cells, not the cyanobacterium itself, so B is kept."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 200,
+  "match_question_text": "Which disease causes immobility and fusion of vertebral joint?",
+  "match_option_a": "Sciatica.",
+  "set": {
+   "explanation_long": "Spondylosis refers to degenerative changes in the spine, including disc degeneration and osteophyte (bone spur) formation, which can lead to stiffness, reduced mobility, and in some cases fusion-like rigidity of vertebral joints — distinct from sciatica (nerve pain radiating down the leg), disc slip (herniation), and rickets (a bone-softening disease from vitamin D deficiency). The printed UHS key marks D, but rickets is a vitamin-D bone-softening disease, not vertebral fusion, so B is kept."
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 209,
+  "match_question_text": "How many grams of nitrogen can be eliminated in form of uric acid by 50 ml of water?",
+  "match_option_a": "20.",
+  "set": {
+   "correct_answer": "D",
+   "explanation_short": "Uric acid needs only about 1 ml of water to eliminate 1 g of nitrogen, so 50 ml of water can eliminate about 50 g of nitrogen.",
+   "explanation_long": "The water cost of nitrogenous excretion is a standard textbook comparison: ammonia needs about 500 ml of water per gram of nitrogen, urea about 50 ml, and uric acid only about 1 ml. With uric acid, 50 ml of water therefore removes about 50 g of nitrogen — which is why birds, reptiles and insects that must save water excrete uric acid.",
+   "explanation_trick": "Water per gram of N: ammonia 500 ml, urea 50 ml, uric acid 1 ml.",
+   "explanation_options": {
+    "a": "Wrong — at about 1 ml per gram, 50 ml removes about 50 g, not 20 g.",
+    "b": "Wrong — 25 g would imply 2 ml per gram, twice the true requirement.",
+    "c": "Wrong — 30 g does not match the 1 ml per gram figure.",
+    "d": "Correct — 50 ml × (1 g N per ml) ≈ 50 g of nitrogen."
+   }
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 212,
+  "match_question_text": "The colour phenotype of the grain is the sum of individual effects of _____ alleles.",
+  "match_option_a": "Six.",
+  "set": {
+   "correct_answer": "A",
+   "explanation_short": "Wheat grain colour is a polygenic trait controlled by three genes, i.e. six alleles, whose effects add up to give the colour phenotype.",
+   "explanation_long": "In the classic Nilsson-Ehle wheat experiment, kernel colour depends on three independent gene pairs. Each dominant (colour-producing) allele adds a fixed amount of red pigment, so the phenotype is the sum of the individual effects of the six alleles, giving seven colour classes from white to dark red in a 1:6:15:20:15:6:1 ratio.",
+   "explanation_trick": "Three gene pairs = six alleles = seven phenotype classes in wheat grain colour.",
+   "explanation_options": {
+    "a": "Correct — three gene pairs contribute six alleles whose effects add up.",
+    "b": "Wrong — alleles come in pairs, so an odd number such as five is not possible here.",
+    "c": "Wrong — four alleles (two genes) give only five classes, not the wheat pattern.",
+    "d": "Wrong — the wheat grain model uses six alleles."
+   }
+  }
+ },
+ {
+  "year": 2008,
+  "question_number": 214,
+  "match_question_text": "The optimum temperature for enzymes of human body is",
+  "match_option_a": "32 oF.",
+  "set": {
+   "option_a": "32 °F.",
+   "option_b": "46 °C.",
+   "option_d": "37 °C."
+  }
+ }
+]

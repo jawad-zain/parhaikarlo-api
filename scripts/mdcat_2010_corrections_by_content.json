@@ -1,0 +1,669 @@
+[
+ {
+  "year": 2010,
+  "question_number": 2,
+  "match_question_text": "SI unit of charge is _______.",
+  "match_option_a": "Ampere",
+  "set": {
+   "explanation_long": "Electric charge is measured in Coulombs (C), defined as the charge transported by a current of one Ampere flowing for one second (1 C = 1 A*s). Ampere is the SI base unit of electric current, not charge -- charge is a derived unit. The printed UHS key marks A (ampere), but the ampere is the unit of current; charge is measured in coulombs, so C is kept."
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 3,
+  "match_question_text": "The electrical analog of mass is electricity is _________.",
+  "match_option_a": "Capacitance",
+  "set": {
+   "explanation_long": "In the standard force-voltage analogy between mechanical oscillators and electrical circuits, mass maps to inductance (both resist a change in the equivalent 'velocity'/current), displacement maps to charge, and spring constant maps to inverse capacitance. The printed UHS key marks C (charge), but inductance plays the role of mass (inertia) in electrical circuits, so B is kept."
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 4,
+  "match_question_text": "Which one of the following relations is correct?",
+  "match_option_a": "1 wb m-2 = N m-1 A-1",
+  "set": {
+   "option_a": "1 Wb m⁻² = N m⁻¹ A⁻¹",
+   "option_c": "1 Wb m⁻² = 1 Tesla"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 5,
+  "match_question_text": "Life time of electron in metastable state is about _________.",
+  "match_option_a": "10⁻⁵ sec",
+  "set": {
+   "correct_answer": "B",
+   "explanation_short": "An electron stays in a metastable state for about 10⁻³ s — roughly 100 000 times longer than the 10⁻⁸ s of an ordinary excited state.",
+   "explanation_long": "An ordinary excited state decays by spontaneous emission in about 10⁻⁸ s. A metastable state is an excited state from which the downward transition is 'forbidden', so electrons linger there for about 10⁻³ s. This long lifetime lets electrons pile up in the metastable level, producing the population inversion that a laser needs. (The printed UHS key marks C, 10⁻⁸ s, but that is the lifetime of an ordinary excited state, not a metastable one.)",
+   "explanation_trick": "Ordinary excited state ≈ 10⁻⁸ s; metastable state ≈ 10⁻³ s — the long life is what makes lasers possible.",
+   "explanation_options": {
+    "a": "Wrong — 10⁻⁵ s is not the textbook metastable lifetime.",
+    "b": "Correct — electrons remain in a metastable state for about 10⁻³ s.",
+    "c": "Wrong — 10⁻⁸ s is the lifetime of an ordinary excited state.",
+    "d": "Wrong — 10⁻² s is longer than the textbook value."
+   }
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 13,
+  "match_question_text": "The net charge on an N-type substance is",
+  "match_option_a": "0.7 volts",
+  "set": {
+   "is_active": false,
+   "is_verified": false
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 14,
+  "match_question_text": "The value of Wien’s constant is",
+  "match_option_a": "2.90 x 10⁻³ mK",
+  "set": {
+   "option_a": "2.90 × 10⁻³ mK",
+   "option_b": "3.34 × 10⁻⁴ mK",
+   "option_c": "4.22 × 10⁻⁷ mK",
+   "option_d": "3.42 × 10⁻⁸ mK"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 17,
+  "match_question_text": "The life time of an electron in an excited state is about 10⁻⁸ s. What is its uncertainty in energy during this time?",
+  "match_option_a": "1.05 x 10⁻⁴¹ J",
+  "set": {
+   "option_a": "1.05 × 10⁻⁴¹ J",
+   "option_b": "1.05 × 10⁻²⁶ J",
+   "option_c": "1.15 × 10¹⁰ J",
+   "option_d": "2.19 × 10⁻⁴⁰ J"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 18,
+  "match_question_text": "Velocity of electron moving in first orbit of hydrogen is",
+  "match_option_a": "2.19 x 10⁷ m/sec",
+  "set": {
+   "option_a": "2.19 × 10⁷ m/sec",
+   "option_b": "2.18 × 10⁷ m/sec",
+   "option_c": "2.2 × 10⁸ m/sec",
+   "option_d": "2.19 × 10⁶ m/sec"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 27,
+  "match_question_text": "The difference of a vector B\u0004\u0004⃗ and its negative vector – \u0007\u0004⃗ is",
+  "match_option_a": "A null vector",
+  "set": {
+   "question_text": "The difference of a vector B⃗ and its negative vector −B⃗ is",
+   "option_b": "Equal to magnitude of vector B⃗",
+   "option_c": "Twice the magnitude of vector B⃗",
+   "option_d": "Smaller than magnitude of vector B⃗"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 28,
+  "match_question_text": "Time of projectile’s flight is",
+  "match_option_a": "(vi² sin²θ)/g",
+  "set": {
+   "option_a": "(vᵢ² sin²θ)/g",
+   "option_b": "(2vᵢ sin θ)/g",
+   "option_c": "(vᵢ² sin θ)/g",
+   "option_d": "(vᵢ²/g) sin 2θ"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 30,
+  "match_question_text": "In order to determine the maximum height of the projectile, the equation of motion used is",
+  "match_option_a": "aS = vf 2 - vi²",
+  "set": {
+   "option_a": "aS = v_f² − vᵢ²",
+   "option_b": "2aS = v_f² − vᵢ²",
+   "option_c": "2S = a(v_f² − vᵢ²)",
+   "option_d": "aS = 2(v_f² − vᵢ²)"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 34,
+  "match_question_text": "On a clear day at noon, the intensity of solar energy reaching the earth’s surface is about",
+  "match_option_a": "1.0 kWm-2",
+  "set": {
+   "correct_answer": "A",
+   "explanation_short": "At the earth's surface on a clear day at noon, solar intensity is about 1.0 kW m⁻²; the 1.4 kW m⁻² figure is the value above the atmosphere.",
+   "explanation_long": "Just outside the atmosphere, sunlight falling at right angles delivers about 1.4 kW m⁻² (the solar constant). Part of this is absorbed and scattered by the atmosphere, so on a clear day at noon about 1.0 kW m⁻² reaches the surface. That is the figure textbooks quote for solar panels and collectors at ground level.",
+   "explanation_trick": "Top of atmosphere 1.4 kW m⁻²; ground level at noon about 1.0 kW m⁻².",
+   "explanation_options": {
+    "a": "Correct — about 1.0 kW m⁻² reaches the surface on a clear day at noon.",
+    "b": "Wrong — 1.4 kW m⁻² is the intensity outside the atmosphere, before absorption and scattering.",
+    "c": "Wrong — 1.0 W m⁻² is a thousand times too small.",
+    "d": "Wrong — 1.4 W m⁻² is a thousand times too small."
+   },
+   "option_a": "1.0 kWm⁻²",
+   "option_b": "1.4 kWm⁻²",
+   "option_c": "1.0 Wm⁻²",
+   "option_d": "1.4 Wm⁻²"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 46,
+  "match_question_text": "The path difference ‘BD’ for destructive interference is",
+  "match_option_a": "(m + ½) λ",
+  "set": {
+   "correct_answer": "A",
+   "explanation_short": "Waves cancel (destructive interference) when the path difference is an odd number of half wavelengths: (m + ½)λ.",
+   "explanation_long": "When the path difference BD between two coherent waves is a whole number of wavelengths (mλ), crests meet crests and a bright fringe forms. When it is (m + ½)λ — λ/2, 3λ/2, 5λ/2, … — a crest meets a trough and the waves cancel, giving a dark fringe. In Young's experiment the path difference itself equals d sin θ, which is only the general expression, not the condition for darkness.",
+   "explanation_trick": "Bright: mλ. Dark: (m + ½)λ.",
+   "explanation_options": {
+    "a": "Correct — destructive interference needs a path difference of (m + ½)λ.",
+    "b": "Wrong — mλ is the condition for constructive interference.",
+    "c": "Wrong — d sin θ is the path difference itself, not the condition for destructive interference.",
+    "d": "Wrong — 3λ is a whole number of wavelengths, which gives constructive interference."
+   }
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 49,
+  "match_question_text": "The value of universal gas constant is",
+  "match_option_a": "8.314 Jmol-1K-1",
+  "set": {
+   "option_a": "8.314 Jmol⁻¹K⁻¹",
+   "option_b": "8.324 Jmol⁻¹K⁻¹",
+   "option_c": "7.23 Jmol⁻¹K⁻¹",
+   "option_d": "1.00 Jmol⁻¹K⁻¹"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 54,
+  "match_question_text": "The magnitude of an electric field between two separated plates can be calculated by the relation",
+  "match_option_a": "ΔV = Ed",
+  "set": {
+   "option_c": "ΔV = E/q₀"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 55,
+  "match_question_text": "SI unit of electric flux is",
+  "match_option_a": "NmC-1",
+  "set": {
+   "option_a": "NmC⁻¹",
+   "option_b": "Nm⁻²C⁻²",
+   "option_c": "Nm²C⁻¹",
+   "option_d": "Nm²C⁻²",
+   "explanation_trick": "Φ = EA: (N C⁻¹)(m²) = N m² C⁻¹. (The paper prints options C and D identically as Nm²C⁻²; C is the keyed option and is shown with the correct unit.)",
+   "explanation_options": {
+    "a": "This omits the square on the metre unit, which should be m², not m alone.",
+    "b": "This uses C⁻² instead of the correct C⁻¹.",
+    "c": "Correct — N m² C⁻¹ is the SI unit of electric flux.",
+    "d": "Wrong — C⁻² is the wrong power of the coulomb."
+   }
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 57,
+  "match_question_text": "If ‘V’ is applied potential difference across a resistance ‘R’, then loss in potential energy per unit time is",
+  "match_option_a": "VI",
+  "set": {
+   "option_b": "I²R",
+   "option_c": "V²/R"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 65,
+  "match_question_text": "When one mole of gaseous hydrogen ions are dissolved in water to form an infinitely dilute solution, the amount of heat liberated is",
+  "match_option_a": "-1891 kJmol-1",
+  "set": {
+   "option_a": "−1891 kJmol⁻¹",
+   "option_b": "−1075 kJmol⁻¹",
+   "option_c": "−499 kJmol⁻¹",
+   "option_d": "−1562 kJmol⁻¹"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 67,
+  "match_question_text": "Which of the following carbonates of alkali metals is not stable towards heat and is decomposed on heating to its oxide along with liberation of CO2?",
+  "match_option_a": "Li2CO3",
+  "set": {
+   "question_text": "Which of the following carbonates of alkali metals is not stable towards heat and is decomposed on heating to its oxide along with liberation of CO₂?",
+   "option_a": "Li₂CO₃",
+   "option_b": "Mg₂CO₃",
+   "option_c": "K₂CO₃",
+   "option_d": "Na₂CO₃"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 71,
+  "match_question_text": "White lead has one of the following properties",
+  "match_option_a": "Acidic",
+  "set": {
+   "correct_answer": "C",
+   "explanation_short": "White lead, basic lead carbonate 2PbCO₃·Pb(OH)₂, is a heavy white amorphous powder — the property given in the UHS key.",
+   "explanation_long": "White lead is basic lead carbonate, 2PbCO₃·Pb(OH)₂, prepared by the action of carbon dioxide and acetic acid vapour on lead. It is obtained as a heavy, white, amorphous powder with excellent covering power, which is why it was used as a white paint pigment. It is a basic salt, so it is neither acidic nor strictly neutral. The UHS key marks C.",
+   "explanation_trick": "White lead = basic lead carbonate = amorphous white pigment powder.",
+   "explanation_options": {
+    "a": "Wrong — white lead is a basic carbonate, not an acidic substance.",
+    "b": "Wrong — white lead is described in textbooks as an amorphous powder.",
+    "c": "Correct — white lead is a white amorphous powder.",
+    "d": "Wrong — it is a basic salt (it contains Pb(OH)₂), not neutral."
+   }
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 76,
+  "match_question_text": "KMnO4 acts as a",
+  "match_option_a": "Reducing agent",
+  "set": {
+   "question_text": "KMnO₄ acts as a"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 78,
+  "match_question_text": "Ethyne molecule is formed when two carbon atoms joined together to form a sigma bond by",
+  "match_option_a": "sp-s overlap",
+  "set": {
+   "option_b": "sp³–sp³ overlap",
+   "option_c": "2p_y–2p_y overlap",
+   "option_a": "sp–s overlap",
+   "option_d": "sp–sp overlap"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 80,
+  "match_question_text": "The catalyst used for the preparation of acrylonitrile is",
+  "match_option_a": "Cu2Cl2 and NH4Cl",
+  "set": {
+   "option_a": "Cu₂Cl₂ and NH₄Cl",
+   "option_b": "Al₂O₃ and NH₄Cl",
+   "option_c": "Cu₂Cl₂ and NH₄OH",
+   "option_d": "Cu₂Cl₂ and Al₂O₃"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 82,
+  "match_question_text": "The introduction of NO2 group in benzene ring is called ‘Nitration’. The nitration of benzene takes place when it is heated with a 1:1 mixture of _________ at 50 oC-55 oC.",
+  "match_option_a": "Conc. HNO3 and conc. HCl",
+  "set": {
+   "question_text": "The introduction of NO₂ group in benzene ring is called ‘Nitration’. The nitration of benzene takes place when it is heated with a 1:1 mixture of _________ at 50 °C–55 °C.",
+   "option_a": "Conc. HNO₃ and conc. HCl",
+   "option_b": "Conc. HNO₃ and conc. Acetic acid",
+   "option_c": "Conc. HNO₃ and H₃PO₄",
+   "option_d": "Conc. HNO₃ and conc. H₂SO₄"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 83,
+  "match_question_text": "During SN2 reactions, configuration of the alkyl halide molecule:",
+  "match_option_a": "Gets inverted",
+  "set": {
+   "question_text": "During S_N2 reactions, configuration of the alkyl halide molecule:"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 85,
+  "match_question_text": "Methanol is prepared from carbon monoxide and hydrogen. The catalyst used for this reaction is",
+  "match_option_a": "ZnO + CoO2",
+  "set": {
+   "option_a": "ZnO + CoO₂",
+   "option_c": "ZnO + Ag₂O",
+   "option_d": "Cr₂O₃ + ZnO"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 86,
+  "match_question_text": "Ethanol reacts with Ammonia to produce ethyl amine, the catalyst is",
+  "match_option_a": "ZnCl2",
+  "set": {
+   "option_a": "ZnCl₂",
+   "option_b": "ThO₂",
+   "option_c": "C₆H₅N",
+   "option_d": "Cr₂O₃"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 87,
+  "match_question_text": "Dissociation constant of phenol is",
+  "match_option_a": "1.2 x 10-10",
+  "set": {
+   "option_a": "1.2 × 10⁻¹⁰",
+   "option_b": "1.2 × 10¹⁰",
+   "option_c": "1.3 × 10¹⁰",
+   "option_d": "1.3 × 10⁻¹⁰"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 92,
+  "match_question_text": "Which of the following compounds, in the form of aqueous solution, on reaction with sodium carbonate will produce carbon dioxide gas?",
+  "match_option_a": "H3C-COO-C2H5",
+  "set": {
+   "option_a": "H₃C–COO–C₂H₅",
+   "option_b": "H₅C₂–COO–CH₃",
+   "option_c": "H₅C₂–CO–OH",
+   "option_d": "H₅C₂–COO–C₂H₅"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 94,
+  "match_question_text": "Urea is produced by the reaction of liquid ammonia with",
+  "match_option_a": "CO2",
+  "set": {
+   "option_a": "CO₂"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 95,
+  "match_question_text": "The calcium sulpho-aluminate is",
+  "match_option_a": "Co.Al2O3.3CaSO4.6H2O",
+  "set": {
+   "correct_answer": "C",
+   "explanation_short": "Calcium sulpho-aluminate, formed when gypsum reacts with tricalcium aluminate in setting cement, is written in textbooks as 3CaO·Al₂O₃·3CaSO₄·2H₂O — option C in the UHS key.",
+   "explanation_long": "Gypsum is added to cement clinker to slow its setting. It reacts with tricalcium aluminate (3CaO·Al₂O₃) to form calcium sulpho-aluminate, which the chemistry textbook writes as 3CaO·Al₂O₃·3CaSO₄·2H₂O. (The mineral ettringite actually holds many more water molecules, but the textbook formula is the one tested.) The paper prints 'CaO' as 'Ca' in the options; the UHS key marks C.",
+   "explanation_trick": "Setting of cement: 3CaO·Al₂O₃ + gypsum → calcium sulpho-aluminate, 3CaO·Al₂O₃·3CaSO₄·2H₂O.",
+   "explanation_options": {
+    "a": "Wrong — the first unit is misprinted and it carries 6H₂O instead of the textbook 2H₂O.",
+    "b": "Wrong — it has only one CaSO₄ unit instead of three.",
+    "c": "Correct (UHS key) — 3CaO·Al₂O₃·3CaSO₄·2H₂O is the textbook formula.",
+    "d": "Wrong — the textbook formula has 2H₂O, not 6H₂O."
+   },
+   "option_a": "Co·Al₂O₃·3CaSO₄·6H₂O",
+   "option_b": "3Ca·Al₂O₃·CaSO₄·2H₂O",
+   "option_c": "3Ca·Al₂O₃·3CaSO₄·2H₂O",
+   "option_d": "3Ca·Al₂O₃·3CaSO₄·6H₂O"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 98,
+  "match_question_text": "One mole of any gas at standard temperature and pressure (STP) occupies a volume of",
+  "match_option_a": "20.414 dm3",
+  "set": {
+   "option_a": "20.414 dm³",
+   "option_b": "22.414 dm³",
+   "option_c": "22.414 cm³",
+   "option_d": "23.414 dm³"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 107,
+  "match_question_text": "In the structure of NaCl, each Na+ is surrounded by _____ Cl- ions.",
+  "match_option_a": "Four",
+  "set": {
+   "question_text": "In the structure of NaCl, each Na⁺ is surrounded by _____ Cl⁻ ions."
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 108,
+  "match_question_text": "The charge of one gram of electron is",
+  "match_option_a": "1.7588 x 10-11",
+  "set": {
+   "option_a": "1.7588 × 10⁻¹¹",
+   "option_b": "1.7588 × 10¹¹",
+   "option_c": "1.602 × 10⁻¹⁹",
+   "option_d": "1.7588 × 10⁸"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 109,
+  "match_question_text": "The ionization energy of hydrogen atom is",
+  "match_option_a": "Zero",
+  "set": {
+   "option_b": "13.13 kJmol⁻¹",
+   "option_c": "1313.31 kJmol⁻¹",
+   "option_d": "1313.31 k²Jmol"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 112,
+  "match_question_text": "The number of bonds in nitrogen molecule is",
+  "match_option_a": "One σ and two π",
+  "set": {
+   "correct_answer": "A",
+   "explanation_short": "N₂ has a triple bond, N≡N, made of one σ bond and two π bonds.",
+   "explanation_long": "Each nitrogen atom has three unpaired 2p electrons. End-on overlap of one pair of p orbitals forms a σ bond, and sideways overlap of the other two perpendicular pairs forms two π bonds, giving the triple bond N≡N. This is why N₂ has a very high bond energy (946 kJ mol⁻¹) and is so unreactive.",
+   "explanation_trick": "Single bond = 1σ; double = 1σ + 1π; triple = 1σ + 2π.",
+   "explanation_options": {
+    "a": "Correct — the N≡N triple bond is one σ and two π bonds.",
+    "b": "Wrong — one σ and one π is a double bond, as in O₂.",
+    "c": "Wrong — only one σ bond can form between the same two atoms.",
+    "d": "Wrong — two σ bonds cannot exist between the same pair of atoms."
+   }
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 113,
+  "match_question_text": "Which one of the following molecules has zero dipole moment?",
+  "match_option_a": "NH3",
+  "set": {
+   "option_a": "NH₃",
+   "option_b": "CHCl₃",
+   "option_c": "BF₃",
+   "option_d": "H₂O"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 115,
+  "match_question_text": "The standard enthalpy of solution of NH4Cl is ____________ kJmol-1.",
+  "match_option_a": "+16.2",
+  "set": {
+   "question_text": "The standard enthalpy of solution of NH₄Cl is ____________ kJmol⁻¹."
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 116,
+  "match_question_text": "The Kc has following units for the reaction H2(g) + I2(g) ⇋ 2HI (g)",
+  "match_option_a": "mol3dm-6",
+  "set": {
+   "correct_answer": "D",
+   "explanation_short": "For H₂(g) + I₂(g) ⇌ 2HI(g), Kc = [HI]²/([H₂][I₂]); the concentration units cancel (mol² dm⁻⁶ over mol² dm⁻⁶), so Kc has no unit.",
+   "explanation_long": "Kc = [HI]²/([H₂][I₂]). The numerator has units (mol dm⁻³)² and the denominator (mol dm⁻³)(mol dm⁻³), so the units cancel completely. In general Kc has units of (mol dm⁻³)^Δn, where Δn is moles of gaseous products minus moles of gaseous reactants; here Δn = 2 − 2 = 0, so Kc is unitless.",
+   "explanation_trick": "Count moles: if both sides of the equation have the same total, Kc has no units.",
+   "explanation_options": {
+    "a": "Wrong — mol³ dm⁻⁶ does not arise from this reaction's expression.",
+    "b": "Wrong — mol dm⁻³ would need one more mole of gas on the product side.",
+    "c": "Wrong — the units cancel, so no negative powers remain.",
+    "d": "Correct — Δn = 0, so Kc has no unit."
+   },
+   "question_text": "The Kc has following units for the reaction H₂(g) + I₂(g) ⇌ 2HI(g)",
+   "option_a": "mol³dm⁻⁶",
+   "option_b": "moldm⁻³",
+   "option_c": "mol⁻³dm⁶"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 117,
+  "match_question_text": "0.1 mole of acetic acid has been dissolved per dm3 of the solution, the percentage ionization of acetic acid will be",
+  "match_option_a": "13",
+  "set": {
+   "question_text": "0.1 mole of acetic acid has been dissolved per dm³ of the solution, the percentage ionization of acetic acid will be"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 118,
+  "match_question_text": "Solubility of Ce2(SO4)3",
+  "match_option_a": "Increases with temperature",
+  "set": {
+   "question_text": "Solubility of Ce₂(SO₄)₃"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 119,
+  "match_question_text": "Seawater has 5.65 x 10⁻³ g of dissolved oxygen in one kilogram of water. Concentration of O2 in parts per million is",
+  "match_option_a": "5.65",
+  "set": {
+   "question_text": "Seawater has 5.65 × 10⁻³ g of dissolved oxygen in one kilogram of water. Concentration of O₂ in parts per million is"
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 125,
+  "match_question_text": "Identify the underlined segment containing the error: Suddenly he stopped at the edge of the meadow, taking his pocket knife from his pocket, and cut a wisp of alfalfa.",
+  "match_option_a": "Suddenly he stopped",
+  "set": {
+   "option_c": "his pocket",
+   "explanation_options": {
+    "a": "'Suddenly he stopped' is a grammatically sound opening main clause.",
+    "b": "Correct — this participial phrase breaks the parallel finite-verb structure of the sentence.",
+    "c": "Not the error — 'his pocket' is a correct object of 'from'.",
+    "d": "'a wisp of alfalfa' is a grammatically fine object phrase."
+   }
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 138,
+  "match_question_text": "Choose the CORRECT sentence.",
+  "match_option_a": "He walked as though he is lame.",
+  "set": {
+   "correct_answer": "C",
+   "explanation_short": "'As though' introduces an unreal situation, which takes the subjunctive 'were': 'He walked as though he were lame.'",
+   "explanation_long": "After 'as if' and 'as though', when the clause describes something that is not true (he was not really lame), standard grammar uses the subjunctive 'were' for every person — 'as though he were lame', just as in 'if I were you'. 'Was' is common in informal speech but is not the correct form a grammar test expects. 'Is' breaks the past-tense sequence, and 'may have been' changes the meaning. (The printed UHS key marks B, 'was', but the subjunctive 'were' is the grammatically correct choice.)",
+   "explanation_trick": "Unreal 'as if / as though' → were, whatever the subject.",
+   "explanation_options": {
+    "a": "Wrong — 'is' breaks the sequence of tenses after the past-tense 'walked'.",
+    "b": "Informal — 'was' is heard in speech, but the unreal comparison needs the subjunctive 'were'.",
+    "c": "Correct — 'as though he were lame' uses the subjunctive for an unreal comparison.",
+    "d": "Wrong — 'may have been' changes the meaning to a real possibility."
+   }
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 153,
+  "match_question_text": "Type of respiration which involves step by step breakdown of carbon chain molecules in the cell is called:",
+  "match_option_a": "External respiration",
+  "set": {
+   "explanation_long": "Cellular respiration involves a series of enzymatic reactions (glycolysis, Krebs cycle, electron transport chain) that gradually break down carbon-based fuel molecules like glucose, releasing energy in controlled, stepwise fashion (rather than all at once) and ultimately producing ATP. The printed UHS key marks D (cutaneous respiration), which is gas exchange through the skin, not the breakdown of molecules in cells, so B is kept."
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 154,
+  "match_question_text": "Instrument which is used to measure relative abilities of different pigments to absorb different wavelengths of light is called:",
+  "match_option_a": "Spectrometer",
+  "set": {
+   "explanation_long": "A spectrophotometer combines a spectrometer (which isolates specific wavelengths) with a photometer (which measures light intensity), allowing precise measurement of the relative light absorption of pigments (like chlorophyll) at different wavelengths — essential for studying absorption spectra. The printed UHS key marks B (photometer), but a photometer measures only light intensity; comparing absorption across wavelengths needs a spectrophotometer, so D is kept."
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 157,
+  "match_question_text": "Where is the ileocolic sphincter located in your body?",
+  "match_option_a": "At the junction of esophagus and stomach",
+  "set": {
+   "correct_answer": "C",
+   "explanation_short": "The ileocolic (ileocaecal) sphincter guards the junction of the ileum and the large intestine.",
+   "explanation_long": "The ileum, the last part of the small intestine, opens into the caecum of the large intestine through the ileocolic sphincter (ileocaecal valve), which lets chyme pass into the colon and prevents backflow. Option D is also broadly true, since the ileum is part of the small intestine, but C names the exact junction and is the answer in the UHS key. The cardiac sphincter guards the oesophagus–stomach junction and the pyloric sphincter the stomach–small intestine junction.",
+   "explanation_trick": "The name tells you the place: ileo-colic = ileum + colon.",
+   "explanation_options": {
+    "a": "Wrong — the oesophagus–stomach junction is guarded by the cardiac sphincter.",
+    "b": "Wrong — the stomach–small intestine junction is guarded by the pyloric sphincter.",
+    "c": "Correct — the ileocolic sphincter lies where the ileum joins the large intestine.",
+    "d": "Broadly true but less precise — the sphincter is specifically at the end of the ileum; the key marks C."
+   }
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 165,
+  "match_question_text": "The flow of lymph in lymphatic vessels is maintained by:",
+  "match_option_a": "Heart, activity of smooth muscles and valves",
+  "set": {
+   "correct_answer": "C",
+   "explanation_short": "Lymph has no pump of its own: it is pushed along by contracting skeletal muscles and breathing movements, while valves stop it flowing backwards.",
+   "explanation_long": "Lymphatic vessels are not connected to the heart's pumping action. Lymph moves because nearby skeletal muscles squeeze the vessels when they contract, and because pressure changes during breathing draw lymph towards the thorax. Numerous one-way valves inside the vessels make sure this squeezing moves lymph only towards the heart.",
+   "explanation_trick": "Lymph flow = muscle squeeze + breathing + valves (no heart).",
+   "explanation_options": {
+    "a": "Wrong — the heart does not pump lymph, and skeletal (not smooth) muscle is the main driver.",
+    "b": "Wrong — the heart does not pump lymph, and valves are left out.",
+    "c": "Correct — breathing movements, skeletal muscle activity and valves keep lymph flowing.",
+    "d": "Wrong — the heart does not drive lymph flow, and valves are left out."
+   }
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 173,
+  "match_question_text": "Reflexes and instincts type of behaviours respond to which combination /s?",
+  "match_option_a": "Biological rhythms, territorial, courtship and development",
+  "set": {
+   "correct_answer": "C",
+   "explanation_short": "Aggression, mating and altruism are standard examples of instinctive (innate) behaviour — the combination chosen in the UHS key.",
+   "explanation_long": "Innate behaviour, which includes reflexes and instincts, is inherited rather than learned, and appears in its complete form the first time it is needed. Textbooks list aggression (defending territory or young), mating behaviour and altruism among such instinctive behaviour patterns. The question wording is unclear, and option D's idea of 'predetermined' responses is related, but it compares behaviour with cell differentiation, which is not behaviour at all; the UHS key marks C.",
+   "explanation_trick": "Instincts are inherited behaviour patterns — think fighting, courting and helping relatives.",
+   "explanation_options": {
+    "a": "Wrong — biological rhythms and development are not the combination given for reflexes and instincts.",
+    "b": "Wrong — this describes a property of responses, not the behaviours in question.",
+    "c": "Correct (UHS key) — aggression, mating and altruism are instinctive behaviours.",
+    "d": "Wrong — cell differentiation is a developmental process, not a behaviour."
+   }
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 174,
+  "match_question_text": "A typical neuron at rest",
+  "match_option_a": "Is more positive outside than inside",
+  "set": {
+   "correct_answer": "A",
+   "explanation_short": "A resting neuron is more positive outside than inside; the inside is about −70 mV relative to the outside.",
+   "explanation_long": "The sodium–potassium pump moves 3 Na⁺ out for every 2 K⁺ in, and the membrane leaks K⁺ out more easily than Na⁺ in. Large negative proteins also stay inside. As a result the outside of the resting membrane is positive and the inside negative, a resting potential of about −70 mV. The polarity reverses briefly during an action potential.",
+   "explanation_trick": "Resting neuron: positive outside, negative inside (−70 mV).",
+   "explanation_options": {
+    "a": "Correct — at rest the outside is positive relative to the inside.",
+    "b": "Wrong — this is reversed; the inside, not the outside, is negative.",
+    "c": "Wrong — there is a charge difference of about 70 mV across the membrane.",
+    "d": "Wrong — the charges on the two sides are unequal."
+   }
+  }
+ },
+ {
+  "year": 2010,
+  "question_number": 215,
+  "match_question_text": "Fungi store surplus food in the form of",
+  "match_option_a": "Cellulose",
+  "set": {
+   "correct_answer": "B",
+   "explanation_short": "Fungi store surplus food as glycogen (and oil), like animals — not as starch.",
+   "explanation_long": "Fungi are heterotrophs whose cell walls are made of chitin, and they store excess carbohydrate as glycogen, the same storage polysaccharide animals use, along with lipid droplets. Starch is the storage form of plants and green algae, and cellulose is a structural material, not a food store.",
+   "explanation_trick": "Glycogen storage is one of the ways fungi resemble animals more than plants.",
+   "explanation_options": {
+    "a": "Wrong — cellulose is a structural polysaccharide, not a food reserve.",
+    "b": "Correct — fungi store surplus food as glycogen.",
+    "c": "Wrong — starch is the food reserve of plants, not fungi.",
+    "d": "Wrong — fungi do not store starch, so 'Both B and C' is incorrect."
+   }
+  }
+ }
+]

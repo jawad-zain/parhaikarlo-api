@@ -1,0 +1,3477 @@
+[
+ {
+  "year": 2012,
+  "question_number": 1,
+  "match_question_text": "The diagram shows a small magnet hanging on a thread near the end of a solenoid carrying a steady current ‘I’: IRON CORE N S What happens to the magnet as the iron core is inserted into the solenoid?",
+  "match_option_a": "It moves towards solenoid and rotates through 180o",
+  "set": {
+   "question_text": "The diagram shows a small magnet hanging on a thread near the end of a solenoid carrying a steady current ‘I’. What happens to the magnet as the iron core is inserted into the solenoid?"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 2,
+  "match_question_text": "A 10 cm long solenoid has 100 turns. What will be the magnetic field inside it along its axis if one micro ampere current is passed through it?",
+  "match_option_a": "4π x 10-13 tesla",
+  "set": {
+   "option_b": "4π × 10⁻⁷ tesla",
+   "option_c": "4π × 10⁻¹⁰ tesla",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — off by a few orders of magnitude from the correct calculation.",
+    "b": "Wrong — 4π×10⁻⁷ is just μ₀ itself, missing the n×I multiplication.",
+    "c": "Correct — 4π×10⁻¹⁰ T matches the calculation exactly.",
+    "d": "Wrong — off by orders of magnitude from the correct value."
+   },
+   "option_a": "4π × 10⁻¹³ tesla",
+   "option_d": "4π × 10⁻¹⁶ tesla"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 3,
+  "match_question_text": "Two long straight parallel wires held vertically have equal but opposite currents as shown in the figure. I I X Y Z Which of the following effect will be observed?",
+  "match_option_a": "Magnetic field at ‘X’ is stronger than that at ‘Y’ and ‘Z’",
+  "set": {
+   "question_text": "Two long straight parallel wires held vertically have equal but opposite currents as shown in the figure. Which of the following effect will be observed?"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 4,
+  "match_question_text": "The kinetic energy K.E. with which the electron strikes the target is given by:",
+  "match_option_a": "K.E. = e2V",
+  "set": {
+   "option_b": "K.E. = hc/λ",
+   "option_c": "K.E. = hf²",
+   "explanation_options": {
+    "a": "Wrong — squaring the charge doesn't appear in this formula.",
+    "b": "Wrong — hc/λ is a photon's energy formula, not an accelerated electron's kinetic energy from voltage.",
+    "c": "Wrong — hf² isn't dimensionally consistent with kinetic energy from an accelerating voltage.",
+    "d": "Correct — KE = eV is the standard formula."
+   },
+   "option_a": "K.E. = e²V"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 6,
+  "match_question_text": "X-rays can be produced by bombardment of ____________ on target metal:",
+  "match_option_a": "Protons",
+  "set": {
+   "option_b": "Electrons",
+   "option_c": "Neutrons",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — protons aren't used in standard X-ray tube production.",
+    "b": "Correct — electrons are the bombarding particles in X-ray tubes.",
+    "c": "Wrong — neutrons aren't used here either.",
+    "d": "Wrong — alpha particles are associated with radioactive decay, not standard X-ray tube production."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 7,
+  "match_question_text": "Laser light is monochromatic which means",
+  "match_option_a": "It consists of one ray of light",
+  "set": {
+   "option_b": "It consists of one wavelength",
+   "option_c": "It consists of carbon monoxide gas",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — 'one ray' describes directionality/collimation, a different laser property from monochromaticity.",
+    "b": "Correct — monochromatic means single-wavelength.",
+    "c": "Wrong — carbon monoxide is an unrelated distractor (a chemical compound, not related to 'monochromatic').",
+    "d": "Wrong — a specific '1 eV' energy value isn't what 'monochromatic' means generally."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 8,
+  "match_question_text": "If an electron in the ‘K’ shell is removed and an electron from ‘L’ shell jumps to occupy the hole in the ‘K’ shell, it emits a photon of energy:",
+  "match_option_a": "hfKα = EL – EK",
+  "set": {
+   "option_b": "hc = E_L – E_K",
+   "option_c": "h/λ_Kα = E_L – E_K",
+   "explanation_options": {
+    "a": "Correct — hfKα = EL − EK, energy conservation for this electron transition.",
+    "b": "Wrong — hc alone (without wavelength/frequency) isn't a valid energy expression.",
+    "c": "Wrong — mixes up wavelength (h/λ isn't the standard photon energy form; hc/λ is) with the correct energy expression.",
+    "d": "Wrong — reverses the subtraction order, which would give a negative (unphysical) photon energy."
+   },
+   "option_a": "hf_Kα = E_L – E_K",
+   "option_d": "hf_Kα = E_K – E_L"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 9,
+  "match_question_text": "Which of the following property must be there in a substance so that it can be used as target in X-ray tube?",
+  "match_option_a": "It must have low melting point",
+  "set": {
+   "option_b": "It must have low atomic number",
+   "option_c": "It must have high reflecting ability",
+   "explanation_options": {
+    "a": "Wrong — a low melting point target would melt/fail under the intense heat generated.",
+    "b": "Wrong — a low atomic number target would produce X-rays far less efficiently.",
+    "c": "Wrong — reflecting ability isn't the relevant property for X-ray target selection.",
+    "d": "Correct — high atomic number is the key property for an effective X-ray target."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 10,
+  "match_question_text": "Which of the following can be used to produce population inversion for the emission of Laser?",
+  "match_option_a": "Optical pumping",
+  "set": {
+   "option_b": "Optical fibre",
+   "option_c": "Optical instrument",
+   "explanation_options": {
+    "a": "Correct — optical pumping is a standard method to produce population inversion.",
+    "b": "Wrong — optical fibre is used for guiding light (e.g. in communications), not for creating population inversion.",
+    "c": "Wrong — 'optical instrument' is too vague/generic, not a specific mechanism.",
+    "d": "Wrong — optical polarization describes light's orientation, unrelated to population inversion."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 11,
+  "match_question_text": "What is the charge on alpha particles emitted during the phenomenon of radioactivity?",
+  "match_option_a": "+e",
+  "set": {
+   "option_b": "–e",
+   "option_c": "–2e",
+   "explanation_options": {
+    "a": "Wrong — +e is only a single elementary charge, not the alpha particle's actual +2e.",
+    "b": "Wrong — same sign error, plus wrong magnitude.",
+    "c": "Wrong — the sign is wrong; alpha particles are positively charged, not negative.",
+    "d": "Correct — +2e is the alpha particle's actual charge."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 12,
+  "match_question_text": "A radioactive nuclide decays by emitting an alpha particle, a beta particle and a gamma ray photon, the change in the nucleon number will be:",
+  "match_option_a": "-4",
+  "set": {
+   "option_b": "-1",
+   "option_c": "-2"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 13,
+  "match_question_text": "A half-life of sodium-24 is _______ which is used to estimate the volume of blood in a patient:",
+  "match_option_a": "6 hours",
+  "set": {
+   "option_b": "15 hours",
+   "option_c": "8 hours",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — too short compared to the actual value.",
+    "b": "Correct — 15 hours is Na-24's actual half-life.",
+    "c": "Wrong — too short compared to the actual value.",
+    "d": "Wrong — 15 days would be a much longer half-life than Na-24 actually has."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 14,
+  "match_question_text": "Which of the following is unit of absorbed dose?",
+  "match_option_a": "Sievert",
+  "set": {
+   "option_b": "Gray",
+   "option_c": "Roentgen",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — Sievert measures equivalent dose (biological effect), not raw absorbed dose.",
+    "b": "Correct — Gray is specifically the unit of absorbed dose.",
+    "c": "Wrong — Roentgen measures ionization exposure in air, a different quantity.",
+    "d": "Wrong — Curie measures a source's activity (decay rate), not absorbed dose."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 15,
+  "match_question_text": "In a radioactive phenomenon observation shown in figure where α deviates lesser than β in some electric or magnetic field (not shown in figure). What is the reason of less deviation of α? β γ α",
+  "match_option_a": "α is charged particle",
+  "set": {
+   "option_b": "α is neutral particle",
+   "option_c": "α is heavier particle",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — both alpha and beta are charged; being charged alone doesn't explain the difference in deflection between them.",
+    "b": "Wrong — alpha particles are charged (+2e), not neutral.",
+    "c": "Correct — alpha's much greater mass is why it deviates less than the lighter beta particle.",
+    "d": "Wrong — alpha is actually the heavier (not lighter) of the two particles."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 16,
+  "match_question_text": "The isotope of Iodine-131 is used in the treatment of",
+  "match_option_a": "Blood cancer",
+  "set": {
+   "option_b": "Bone cancer",
+   "option_c": "Lung tumor",
+   "explanation_options": {
+    "a": "Wrong — blood cancer treatments use different approaches (like other radioisotopes or chemotherapy).",
+    "b": "Wrong — bone cancer treatments use different bone-seeking radioisotopes (like strontium-89).",
+    "c": "Wrong — lung tumors aren't specifically targeted by iodine's natural biological accumulation.",
+    "d": "Correct — Iodine-131 specifically targets thyroid tissue."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 17,
+  "match_question_text": "Which of the following effect is observed due to emission of β ― during the phenomenon of radioactivity?",
+  "match_option_a": "A increases by 1 and Z remains same",
+  "set": {
+   "option_b": "Z increases by 1 and A remains same",
+   "option_c": "Z decreases by 1 and A remains same",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — A doesn't increase in beta decay; it stays the same.",
+    "b": "Correct — Z increases by 1, A remains unchanged.",
+    "c": "Wrong — Z increases (doesn't decrease) in beta-minus decay.",
+    "d": "Wrong — A doesn't decrease in beta decay; that describes a different type of nuclear change."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 18,
+  "match_question_text": "Electric charge on an object is measured as 5 micro coulombs. How the value of this charge can be expressed in terms of base units:",
+  "match_option_a": "5 x 100 ampere second",
+  "set": {
+   "option_b": "5 × 10⁻⁶ ampere second",
+   "option_c": "5 × 10⁶ coulomb second",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — doesn't carry the correct 10⁻⁶ (micro) magnitude.",
+    "b": "Correct — expresses 5 μC as 5×10⁻⁶ ampere-seconds, using the C = A·s base-unit definition.",
+    "c": "Wrong — expresses the value in coulomb-seconds rather than the requested base units (ampere-seconds).",
+    "d": "Wrong — coulomb-seconds isn't the base-unit form requested; coulomb itself is a derived unit here."
+   },
+   "option_a": "5 × 10⁰ ampere second",
+   "option_d": "5 × 10⁰ coulomb second"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 19,
+  "match_question_text": "If ‘m’ is the mass, ‘c’ is the velocity of light and x = mc2, then dimensions of ‘x’ will be: [Diagram/graph/structure required — see original PDF page.]",
+  "match_option_a": "[LT⁻¹]",
+  "set": {
+   "question_text": "If ‘m’ is the mass, ‘c’ is the velocity of light and x = mc², then dimensions of ‘x’ will be:"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 20,
+  "match_question_text": "A force ‘F’ is acting at point ‘P’ of a uniform rod capable to rotate about ‘O’. What is the torque about ‘O’? F ϴ O P",
+  "match_option_a": "(OP)(F tanϴ)",
+  "set": {
+   "option_b": "(OP)(F)",
+   "option_c": "(OP)(F sinϴ)",
+   "explanation_options": {
+    "a": "Wrong — doesn't match the standard torque formula (tangent isn't the correct trig relationship here).",
+    "b": "Wrong — this ignores the angle entirely, valid only if the force were exactly perpendicular to the rod.",
+    "c": "Wrong — this would apply if θ were measured from the rod itself, a different angle convention than this diagram's.",
+    "d": "Correct — matches the torque expression for this diagram's specific angle convention."
+   },
+   "question_text": "A force ‘F’ is acting at point ‘P’ of a uniform rod capable to rotate about ‘O’; the force makes an angle θ with the line perpendicular to the rod at P. What is the torque about ‘O’?"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 21,
+  "match_question_text": "An object of mass ‘m’ is suspended in an elevator moving downward with acceleration equal to acceleration due to gravity. What is the apparent weight of object?",
+  "match_option_a": "Zero",
+  "set": {
+   "option_b": "2mg",
+   "option_c": "mg",
+   "explanation_options": {
+    "a": "Correct — free-fall acceleration gives zero apparent weight.",
+    "b": "Wrong — this would require the elevator to accelerate upward, not fall freely.",
+    "c": "Wrong — mg would be the actual weight in a stationary/constant-velocity elevator, not one in free fall.",
+    "d": "Wrong — doesn't correspond to the free-fall scenario described."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 22,
+  "match_question_text": "Stokes’ Law for steady motion in a fluid of infinite extent is given by",
+  "match_option_a": "F = 6πηrv",
+  "set": {
+   "option_b": "F = (4/3)πr³ρg",
+   "option_c": "F = 6πηr²ρ",
+   "explanation_options": {
+    "a": "Correct — the standard Stokes' Law expression.",
+    "b": "Wrong — this resembles a volume/buoyancy-related expression, not Stokes' Law.",
+    "c": "Wrong — introduces ρ (density) and r², not part of Stokes' Law's force formula.",
+    "d": "Wrong — this resembles the terminal velocity formula (derived using Stokes' Law), not Stokes' Law itself."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 23,
+  "match_question_text": "If speed of efflux through a small hole in a large tank is 9.8 m/s. Find the height at the fluid above the hole",
+  "match_option_a": "1 m",
+  "set": {
+   "option_b": "9.8 m",
+   "option_c": "4.9 m",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — too small to satisfy v=√(2gh) with v=9.8.",
+    "b": "Wrong — this would give v=√(2×9.8×9.8)=√192.08≈13.9 m/s, not 9.8 m/s.",
+    "c": "Correct — h = v²/(2g) = 4.9 m.",
+    "d": "Wrong — too large, would give a much higher exit speed than 9.8 m/s."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 24,
+  "match_question_text": "Flow speed of the fluid through a non-uniform pipe increases from 1 m/sec to 3 m/sec. If change in P.E. is zero, then pressure difference between two points will be: (density of the fluid = 1000 kg/m3)",
+  "match_option_a": "1000 N/m2",
+  "set": {
+   "option_b": "9000 N/m²",
+   "option_c": "8000 N/m²",
+   "option_a": "1000 N/m²",
+   "option_d": "4000 N/m²"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 25,
+  "match_question_text": "Polarization of light exhibited the nature of light as",
+  "match_option_a": "Longitudinal wave",
+  "set": {
+   "option_b": "Compressional wave",
+   "option_c": "Transverse wave",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — longitudinal waves can't be polarized at all.",
+    "b": "Wrong — 'compressional wave' is another name for longitudinal wave, which can't be polarized.",
+    "c": "Correct — polarization is possible only for transverse waves, confirming light's transverse nature.",
+    "d": "Wrong — while light IS an electromagnetic wave, this option doesn't answer what polarization specifically reveals about its wave *nature* (transverse vs longitudinal), which is what the question is asking."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 26,
+  "match_question_text": "The concentration of a sugar solution can be determined by",
+  "match_option_a": "Un-polarized light",
+  "set": {
+   "option_b": "Plane polarized light",
+   "option_c": "Interference of light",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — unpolarized light doesn't have a defined plane to rotate, so it can't be used this way.",
+    "b": "Correct — plane polarized light is the basis of polarimetry, used for concentration measurement.",
+    "c": "Wrong — interference relates to wave superposition, not the specific optical-rotation technique used for concentration measurement.",
+    "d": "Wrong — diffraction relates to wave bending around obstacles, not this specific measurement technique."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 27,
+  "match_question_text": "The information from one place to another can be transmitted very safely and easily by:",
+  "match_option_a": "Copper wire",
+  "set": {
+   "option_b": "Aluminium wire",
+   "option_c": "Photodiode",
+   "explanation_options": {
+    "a": "Wrong — copper wire is more susceptible to interference and signal loss over distance compared to optical fibre.",
+    "b": "Wrong — aluminium wire has similar limitations to copper wire for long-distance transmission.",
+    "c": "Wrong — a photodiode is a light-detecting component, not itself a transmission medium.",
+    "d": "Correct — optical fibre is the standard modern choice for safe, efficient information transmission."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 28,
+  "match_question_text": "The image of an object placed inside the focal length of a convex lens will be largest and clearest when it is at the",
+  "match_option_a": "Less than 25 cm",
+  "set": {
+   "option_b": "Near point",
+   "option_c": "Greater than 25 cm",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — 'less than 25 cm' isn't itself a defined reference point/answer for this optics question.",
+    "b": "Correct — the near point (conventionally ~25 cm) is where the image should form for maximum clear magnification.",
+    "c": "Wrong — 'greater than 25 cm' isn't the specific point being asked about.",
+    "d": "Wrong — an image at infinity corresponds to relaxed-eye viewing, giving less magnification than the near-point case."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 29,
+  "match_question_text": "A simple harmonic oscillator has a time period of 10 seconds. Which equation rotates its acceleration ‘a’ and displacement ‘x’? 2π 2 [Diagram/graph/structure required — see original PDF page.]",
+  "match_option_a": "a = -2x",
+  "set": {
+   "question_text": "A simple harmonic oscillator has a time period of 10 seconds. Which equation relates its acceleration ‘a’ and displacement ‘x’?"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 30,
+  "match_question_text": "When the length of a simple pendulum is doubled, find the ratio of the new frequency to the old frequency?",
+  "match_option_a": "1/4",
+  "set": {
+   "option_b": "1/2",
+   "option_c": "√2",
+   "explanation_options": {
+    "a": "Wrong — 1/4 would result from L increasing by a factor of 16, not 2.",
+    "b": "Wrong — 1/2 doesn't match the square-root relationship between frequency and length.",
+    "c": "Wrong — √2 would be the ratio if length had been *halved*, not doubled (inverse relationship).",
+    "d": "Correct — 1/√2 matches doubling the length's effect on frequency."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 31,
+  "match_question_text": "In the diagram below, the displacement of an oscillating particle is plotted against time. What does the length ‘PR’ on the time axis represents? Displacement Time [Diagram/graph/structure required — see original PDF page.]",
+  "match_option_a": "Twice the frequency",
+  "set": {
+   "question_text": "In the diagram below, the displacement of an oscillating particle is plotted against time. What does the length ‘PR’ on the time axis represent?"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 32,
+  "match_question_text": "When the source of sound moves towards the stationary observer, the value of apparent frequency ‘fo’ is: v+ui v [Diagram/graph/structure required — see original PDF page.]",
+  "match_option_a": "fo = ((v+ui)/v) f",
+  "set": {
+   "question_text": "When the source of sound moves towards the stationary observer, the value of apparent frequency ‘fₒ’ is:",
+   "option_a": "fₒ = ((v + uᵢ)/v) f",
+   "option_b": "fₒ = (v/(v − uᵢ)) f",
+   "option_c": "fₒ = (v/(v + uᵢ)) f",
+   "option_d": "fₒ = ((v − uᵢ)/v) f"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 33,
+  "match_question_text": "The ratio of tensile strength to tensile strain is called",
+  "match_option_a": "Modulus of elasticity",
+  "set": {
+   "option_b": "Bulk Modulus",
+   "option_c": "Young’s Modulus",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — 'modulus of elasticity' is a general umbrella term; the specific tensile-strain modulus is named Young's Modulus.",
+    "b": "Wrong — Bulk Modulus relates to volume changes under uniform pressure, a different deformation type.",
+    "c": "Correct — Young's Modulus is precisely the tensile stress/strain ratio.",
+    "d": "Wrong — Shear Modulus relates to shape-distorting (sliding) stress, a different deformation type."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 34,
+  "match_question_text": "A wire is stretched by a force ‘F’ which causes an extension ∆l, the energy stored in the wire is:",
+  "match_option_a": "F∆l",
+  "set": {
+   "option_b": "2F∆l",
+   "option_c": "½ F∆l²",
+   "explanation_options": {
+    "a": "Wrong — missing the ½ factor that accounts for the force building up gradually, not applied all at once.",
+    "b": "Wrong — factor of 2 in the wrong direction (too large).",
+    "c": "Wrong — squares the extension unnecessarily; the correct formula only has Δl to the first power.",
+    "d": "Correct — ½FΔl matches the area-under-the-graph energy calculation."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 35,
+  "match_question_text": "H2 and O2 both are at thermal equilibrium at temperature 300 K. Oxygen molecule is 16 times massive than hydrogen. Root mean square speed of hydrogen is",
+  "match_option_a": "4 root mean square of oxygen",
+  "set": {
+   "option_b": "¼ root mean square of oxygen",
+   "option_c": "1/16 root mean square of oxygen",
+   "explanation_options": {
+    "a": "Correct — v_H(rms) = 4 × v_O(rms), from √(16).",
+    "b": "Wrong — same inversion issue, wrong direction.",
+    "c": "Wrong — inverts the actual relationship (lighter H2 moves faster, not slower, than heavier O2).",
+    "d": "Wrong — doesn't match the √16=4 calculation."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 36,
+  "match_question_text": "Which of the following is expression of mean square speed of ‘N’ gas molecules contained in a cylinder? v1 + v2 +…+ vx v1 + v2 +…+ vx [Diagram/graph/structure required — see original PDF page.]",
+  "match_option_a": "(v1 + v2 + ... + vx) / N",
+  "set": {
+   "explanation_long": "'Mean square speed' specifically means averaging the squares of the individual speeds: (v1² + v2² + ... + vN²)/N. This differs from both the plain average speed (no squaring at all) and the root-mean-square speed (which additionally takes a square root of this average). (The printed UHS key marks A, the plain mean speed, but the question asks for the mean square speed, so B is used.)",
+   "question_text": "Which of the following is expression of mean square speed of ‘N’ gas molecules contained in a cylinder?",
+   "option_a": "(v₁ + v₂ + … + vₓ)/N",
+   "option_b": "(v₁² + v₂² + … + vₓ²)/N",
+   "option_c": "√[(v₁ + v₂ + … + vₓ)/N]",
+   "option_d": "√[(v₁² + v₂² + … + vₓ²)/N]"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 37,
+  "match_question_text": "If ‘Q’ is the amount of heat supplied to a system and ‘W’ is the work done, then change in internal energy can be defined as",
+  "match_option_a": "Q/W",
+  "set": {
+   "option_b": "Q – W",
+   "option_c": "W/Q",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — dividing heat by work isn't a meaningful physical relationship for internal energy change.",
+    "b": "Correct — ΔU = Q − W is the first law of thermodynamics.",
+    "c": "Wrong — same issue, inverted division.",
+    "d": "Wrong — not a standard form of the first law."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 38,
+  "match_question_text": "A heat engine operating according to second law of thermodynamics rejects one fourth of the heat taken from high temperature reservoir. What is the percentage efficiency of heat engine?",
+  "match_option_a": "100%",
+  "set": {
+   "option_b": "25%",
+   "option_c": "50%",
+   "explanation_options": {
+    "a": "Wrong — 100% efficiency is impossible per the second law (some heat must always be rejected).",
+    "b": "Wrong — would require rejecting three-quarters of the heat, not a quarter.",
+    "c": "Wrong — would require rejecting half the heat, not a quarter.",
+    "d": "Correct — rejecting 1/4 of the heat gives 75% efficiency."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 39,
+  "match_question_text": "First law of thermodynamics under adiabatic conditions can be mathematically written as:",
+  "match_option_a": "Q = W",
+  "set": {
+   "option_b": "Q = ∆U",
+   "option_c": "Q = U + W",
+   "explanation_options": {
+    "a": "Wrong — Q=W would apply to an isothermal process, not an adiabatic one.",
+    "b": "Wrong — Q=ΔU would require W=0, not the general adiabatic case.",
+    "c": "Wrong — this doesn't reflect Q=0 being substituted into the first law correctly.",
+    "d": "Correct — W=−ΔU follows directly from setting Q=0 in the first law."
+   },
+   "option_d": "W = −∆U"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 40,
+  "match_question_text": "What is the logic symbol for a NOT Gate? [Diagram/graph/structure required — see original PDF page.]",
+  "match_option_a": "NOT gate symbol (triangle with a bubble at the output)",
+  "set": {
+   "question_text": "What is the logic symbol for a NOT Gate?"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 41,
+  "match_question_text": "The voltage that is applied across X-plates is provided by a circuit called",
+  "match_option_a": "Audio generator",
+  "set": {
+   "option_b": "Time base generator",
+   "option_c": "Signal generator",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — an audio generator produces sound-frequency signals, not the CRO's time-sweep voltage.",
+    "b": "Correct — the time base generator specifically drives the X-plates.",
+    "c": "Wrong — a signal generator produces the input waveform being studied (typically fed to the Y-plates), not the X-plate sweep.",
+    "d": "Wrong — 'linear generator' isn't the standard named component for this function."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 42,
+  "match_question_text": "What will be the effect on the capacitance of a capacitor if area of each plate is doubled while separation between the plates is halved?",
+  "match_option_a": "Capacitance remains same",
+  "set": {
+   "option_b": "Capacitance becomes double",
+   "option_c": "Capacitance becomes four times",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — both changes affect capacitance; it doesn't stay the same.",
+    "b": "Wrong — underestimates the combined effect of both changes together.",
+    "c": "Correct — doubling A and halving d together give a factor of 4 increase.",
+    "d": "Wrong — this would happen only if d were doubled (not halved) while A stayed fixed — the opposite of what's described."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 43,
+  "match_question_text": "10 V potential difference is applied across the plate of 1 µF capacitor. What is the energy storied in capacitor?",
+  "match_option_a": "0.5 mJ",
+  "set": {
+   "option_b": "0.05 mJ",
+   "option_c": "5 mJ",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — off by a factor of 10 from the correct value.",
+    "b": "Correct — 0.05 mJ matches the ½CV² calculation.",
+    "c": "Wrong — off by a factor of 100 from the correct value.",
+    "d": "Wrong — off by a factor of 1000 from the correct value."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 44,
+  "match_question_text": "Which one of the following is I-V curve of a junction diode? I I I I V V V V [Diagram/graph/structure required — see original PDF page.]",
+  "match_option_a": "Steep S-shaped curve: near-zero current for negative V, rising sharply for positive V",
+  "set": {
+   "question_text": "Which one of the following is I-V curve of a junction diode?",
+   "explanation_short": "A junction diode passes almost no current in reverse bias and a current that rises more and more steeply in forward bias — the shape shown in graph B, the answer in the UHS key.",
+   "explanation_long": "A p-n junction is non-ohmic. In reverse bias only a tiny leakage current flows, so the curve stays close to the V-axis on the negative side; in forward bias the current grows faster and faster as the voltage rises. Graph B shows this asymmetric, curved behaviour passing through the origin. Graph A levels off at a constant current, which a diode does not do; graph C is a straight line through the origin, the graph of an ohmic resistor; graph D is not a single characteristic curve at all. The drawings in this paper are rough, and the UHS key marks B.",
+   "explanation_trick": "Diode curve: flat for reverse bias, bending upward for forward bias — never a straight line.",
+   "explanation_options": {
+    "a": "Wrong — the current levels off (saturates), which is not diode behaviour.",
+    "b": "Correct (UHS key) — small reverse current and a steepening forward current.",
+    "c": "Wrong — a straight line through the origin is an ohmic conductor.",
+    "d": "Wrong — two separate segments are not the characteristic of a single device."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 45,
+  "match_question_text": "In the below reaction the nucleophile which attacks on the carbon atom of acid is: O CH3COOH + PCl5 H C C Cl + POCl3 + HCl 3",
+  "match_option_a": "OH–",
+  "set": {
+   "option_b": "P",
+   "option_c": "Cl⁻",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — hydroxide isn't generated/available as a nucleophile in this reaction; if anything it's what's being replaced.",
+    "b": "Wrong — phosphorus is the electrophilic center being attacked, not the nucleophile itself.",
+    "c": "Correct — chloride ion is the nucleophile attacking the carbonyl carbon.",
+    "d": "Wrong — hydride isn't involved as a nucleophile in this reaction."
+   },
+   "question_text": "In the reaction CH₃COOH + PCl₅ → CH₃COCl + POCl₃ + HCl, the nucleophile which attacks on the carbon atom of acid is:",
+   "option_a": "OH⁻",
+   "option_d": "H⁻"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 46,
+  "match_question_text": "When ethanol chloride reacts with methylamine, an amide is formed. What is the structure of the amide formed? O O",
+  "match_option_a": "H3C CH2 C NH2",
+  "set": {
+   "option_b": "CH₃–CH₂–CO–NHCH₃",
+   "option_c": "CH₃–CO–NH₂",
+   "explanation_options": {
+    "a": "Wrong — this would be an unsubstituted propanamide, not matching the methylamine reactant.",
+    "b": "Wrong — has an extra CH2 that doesn't match the expected acetyl-based product.",
+    "c": "Wrong — doesn't correctly reflect the substitution pattern.",
+    "d": "Correct — N-methylacetamide (CH3-CO-NHCH3) matches acetyl chloride + methylamine."
+   },
+   "question_text": "When ethanoyl chloride reacts with methylamine, an amide is formed. What is the structure of the amide formed?",
+   "option_a": "CH₃–CH₂–CO–NH₂",
+   "option_d": "CH₃–CO–NHCH₃"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 47,
+  "match_question_text": "Organic compound containing both amine and carboxyl group is known as",
+  "match_option_a": "Amino acid",
+  "set": {
+   "option_b": "Fatty acid",
+   "option_c": "Saccharide",
+   "explanation_options": {
+    "a": "Correct — this is the defining feature of an amino acid.",
+    "b": "Wrong — fatty acids have only a carboxyl group (long hydrocarbon chain), no amine group.",
+    "c": "Wrong — saccharides (sugars) are carbohydrates, unrelated to amine/carboxyl groups.",
+    "d": "Wrong — amides have a C(=O)-N linkage (already bonded), not separate free amine and carboxyl groups."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 48,
+  "match_question_text": "Alanine is an amino acid which shows neutral effect on litmus paper, the formula of alanine may be H H2N C COOH HOOC CH2 CH COOH [Diagram/graph/structure required — see original PDF page.]",
+  "match_option_a": "H2N-CH(CH3)-COOH",
+  "set": {
+   "question_text": "Alanine is an amino acid which shows neutral effect on litmus paper, the formula of alanine may be",
+   "option_a": "H₂N–CH(CH₃)–COOH",
+   "option_b": "H₂N–CH₂–CH(NH₂)–COOH",
+   "option_c": "HOOC–CH₂–CH(NH₂)–COOH",
+   "option_d": "H₂N–CH₂–(CH₂)₃–CH(NH₂)–COOH"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 49,
+  "match_question_text": "Which of the following structures is not an alpha amino acid? H2N CH COOH CH2 H3C CH COOH",
+  "match_option_a": "H3C-CH(NH2)-COOH",
+  "set": {
+   "option_a": "CH₃–CH(NH₂)–COOH",
+   "option_b": "H₂N–CH₂–CH₂–CH₂–CH₂–COOH",
+   "option_c": "C₆H₅–CH₂–CH(NH₂)–COOH",
+   "option_d": "HOCH₂–CH(NH₂)–COOH"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 50,
+  "match_question_text": "The skeletal formula of dipeptide formed between aspartic acid and phenylalanine is given below: O NH2 NH HO O O OCH3 How many functional groups are present in its formula?",
+  "match_option_a": "1",
+  "set": {
+   "option_b": "2",
+   "option_c": "4",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — undercounts the functional groups present.",
+    "b": "Wrong — undercounts the functional groups present.",
+    "c": "Correct — four distinct functional groups: acid, amine, amide, and ester.",
+    "d": "Wrong — undercounts the functional groups present."
+   },
+   "question_text": "The skeletal formula of the dipeptide formed between aspartic acid and phenylalanine (aspartame) is HOOC–CH₂–CH(NH₂)–CO–NH–CH(CH₂C₆H₅)–COOCH₃. How many functional groups are present in its formula?"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 51,
+  "match_question_text": "In basic conditions, amino acid exists in which of the following forms? + + -",
+  "match_option_a": "H3N CH2 COOH",
+  "set": {
+   "option_b": "H₂N–CH₂–COOH",
+   "option_c": "H₃N⁺–CH₂–COO⁻",
+   "explanation_options": {
+    "a": "Wrong — this fully protonated form (both groups still holding their H) is the acidic-condition form, not basic.",
+    "b": "Wrong — this form has both groups still protonated/neutral, incorrect for basic conditions.",
+    "c": "Wrong — this is the neutral zwitterion form (amine protonated, carboxyl deprotonated), the intermediate pH form.",
+    "d": "Correct — fully deprotonated anion, matching basic conditions."
+   },
+   "question_text": "In basic conditions, amino acid exists in which of the following forms?",
+   "option_a": "H₃N⁺–CH₂–COOH",
+   "option_d": "H₂N–CH₂–COO⁻"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 52,
+  "match_question_text": "Structure of dipeptide is O H2N CH2 C NH HC COOH CH3 This is called:",
+  "match_option_a": "Glycyl glycine",
+  "set": {
+   "option_b": "Glycyl alanine",
+   "option_c": "Alaninyl alanine",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — glycyl-glycine would require both residues to be glycine (R=H on both), but one residue here has a methyl group (alanine).",
+    "b": "Correct — glycine (N-terminal) + alanine (C-terminal) = Glycyl-Alanine.",
+    "c": "Wrong — alaninyl-alanine would require both residues to be alanine, but one residue here is glycine (R=H).",
+    "d": "Wrong — this reverses the order; the structure shown has glycine at the N-terminal end, not alanine."
+   },
+   "question_text": "Structure of dipeptide is H₂N–CH₂–CO–NH–CH(CH₃)–COOH. This is called:"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 53,
+  "match_question_text": "The principle energy storage carbohydrate in animal’s is",
+  "match_option_a": "Glucose",
+  "set": {
+   "option_b": "Starch",
+   "option_c": "Protein",
+   "explanation_options": {
+    "a": "Wrong — glucose is the transported/used sugar, not the stored form.",
+    "b": "Wrong — starch is the plant storage carbohydrate, not the animal one.",
+    "c": "Wrong — protein isn't a carbohydrate at all.",
+    "d": "Correct — glycogen is specifically the animal energy-storage carbohydrate."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 54,
+  "match_question_text": "Starch is a polymer of",
+  "match_option_a": "β–D–glucose",
+  "set": {
+   "option_b": "α–D–glucose",
+   "option_c": "γ–D–glucose",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Incorrect – β‑D‑glucose forms cellulose, not starch.",
+    "b": "Correct – starch is a polymer of α‑D‑glucose. (The paper prints this keyed option as 'α– –glucose'.)",
+    "c": "Incorrect – γ‑D‑glucose is not a real glucose anomer used in biology.",
+    "d": "Incorrect – α‑L‑glucose is the mirror image of the natural D‑form and is not used in starch."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 55,
+  "match_question_text": "The reaction between fats and caustic soda is called",
+  "match_option_a": "Hydrogenolysis",
+  "set": {
+   "option_b": "Fermentation",
+   "option_c": "Esterification",
+   "explanation_options": {
+    "a": "Wrong — hydrogenolysis involves breaking a bond using hydrogen, a different type of reaction.",
+    "b": "Wrong — fermentation is a biological process (yeast/bacteria converting sugars), unrelated to fat + base chemistry.",
+    "c": "Wrong — esterification is the reverse process (forming an ester from acid + alcohol), not fat hydrolysis with base.",
+    "d": "Correct — saponification is precisely the fat + caustic soda reaction."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 56,
+  "match_question_text": "Adipic acid and hexamethylene diamine both of which have _________ carbon atoms:",
+  "match_option_a": "Seven",
+  "set": {
+   "option_b": "Eight",
+   "option_c": "Six",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — doesn't match either monomer's actual carbon count.",
+    "b": "Wrong — doesn't match either monomer's actual carbon count.",
+    "c": "Correct — six carbons in each monomer, matching Nylon-6,6's naming.",
+    "d": "Wrong — doesn't match either monomer's actual carbon count."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 57,
+  "match_question_text": "Lactose is a sugar present in milk. It is an example of",
+  "match_option_a": "Disaccharides",
+  "set": {
+   "option_b": "Monosaccharides",
+   "option_c": "Polysaccharides",
+   "explanation_options": {
+    "a": "Correct — lactose is a disaccharide (two sugar units joined).",
+    "b": "Wrong — monosaccharides are single sugar units; lactose is made of two.",
+    "c": "Wrong — polysaccharides are much larger polymers of many sugar units, not just two.",
+    "d": "Wrong — starch is a plant polysaccharide, an entirely different carbohydrate."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 58,
+  "match_question_text": "Macromolecules are described as large molecules built up from small repeating units called:",
+  "match_option_a": "Monomers",
+  "set": {
+   "option_b": "Isomers",
+   "option_c": "Metamers",
+   "explanation_options": {
+    "a": "Correct — monomers are the repeating building-block units of macromolecules.",
+    "b": "Wrong — isomers are molecules with the same formula but different structures, not the repeating units of a polymer.",
+    "c": "Wrong — 'metamers' describes a type of structural isomerism, unrelated to polymer building blocks.",
+    "d": "Wrong — tautomers are rapidly interconverting structural isomers, unrelated to polymer building blocks."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 59,
+  "match_question_text": "The increase in concentration of oxidizing agents in smog like H 2O2, HNO3, PAN and ozone in the air is called",
+  "match_option_a": "Carbonated smog",
+  "set": {
+   "option_b": "Nitrated smog",
+   "option_c": "Photochemical smog",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — not a standard named type of smog.",
+    "b": "Wrong — not a standard named type of smog.",
+    "c": "Correct — photochemical smog is defined by exactly this oxidizing-agent buildup.",
+    "d": "Wrong — not a standard named type of smog."
+   },
+   "question_text": "The increase in concentration of oxidizing agents in smog like H₂O₂, HNO₃, PAN and ozone in the air is called"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 60,
+  "match_question_text": "Which is the metal, whose elevated concentration is harmful for fish as it clogs the gills thus causing suffocation?",
+  "match_option_a": "Sodium",
+  "set": {
+   "option_b": "Lead",
+   "option_c": "Zinc",
+   "explanation_options": {
+    "a": "Wrong — sodium isn't associated with this specific gill-clogging mechanism.",
+    "b": "Wrong — lead has different toxicity mechanisms (nervous system effects), not primarily gill-clogging.",
+    "c": "Wrong — zinc has different toxicity mechanisms, not primarily gill-clogging via precipitation.",
+    "d": "Correct — aluminum is specifically linked to this gill-clogging toxicity in fish."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 61,
+  "match_question_text": "An organic compound has empirical formula C3H3O, if molar mass of compound is 110.15 gmol-1. The molecular formula of this organic compound is (A, of C=12, H=1.008 and O=16)",
+  "match_option_a": "C6H6O2",
+  "set": {
+   "option_b": "C₃H₃O",
+   "option_c": "C₉H₉O₃",
+   "explanation_options": {
+    "a": "Correct — C6H6O2 matches the ×2 scaling.",
+    "b": "Wrong — this is just the empirical formula itself, not yet scaled to match the given molar mass.",
+    "c": "Wrong — would require a ×3 scaling factor, not matching the given molar mass.",
+    "d": "Wrong — doesn't match the correct stoichiometric doubling of the empirical formula."
+   },
+   "question_text": "An organic compound has empirical formula C₃H₃O, if molar mass of compound is 110.15 g mol⁻¹. The molecular formula of this organic compound is (A, of C=12, H=1.008 and O=16)",
+   "option_a": "C₆H₆O₂",
+   "option_d": "C₆H₆O₃"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 62,
+  "match_question_text": "When 8 grams (4 moles) of H2 react with 2 moles of O2, how many moles of water will be formed?",
+  "match_option_a": "Five",
+  "set": {
+   "option_b": "Four",
+   "option_c": "Six",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — exceeds what either reactant can produce given the 2:1 ratio.",
+    "b": "Correct — matches the direct 2:2 mole ratio between H2 and H2O.",
+    "c": "Wrong — exceeds what either reactant can produce.",
+    "d": "Wrong — underestimates the water produced from the full stoichiometric amounts given."
+   },
+   "question_text": "When 8 grams (4 moles) of H₂ react with 2 moles of O₂, how many moles of water will be formed?"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 63,
+  "match_question_text": "The number of molecules in 22.4 dm3 of H2 gas at 0 °C and 1 atm are",
+  "match_option_a": "60.2 x 1023",
+  "set": {
+   "option_b": "6.02 × 10²²",
+   "option_c": "6.02 × 10²⁵",
+   "explanation_options": {
+    "a": "Wrong — 60.2 × 10²³ is ten times Avogadro's number.",
+    "b": "Wrong — 6.02 × 10²² is only a tenth of a mole.",
+    "c": "Wrong — 6.02 × 10²⁵ is a hundred times too many.",
+    "d": "Correct — one mole contains 6.02 × 10²³ molecules."
+   },
+   "question_text": "The number of molecules in 22.4 dm³ of H₂ gas at 0 °C and 1 atm are",
+   "option_a": "60.2 × 10²³",
+   "option_d": "6.02 × 10²³",
+   "explanation_short": "22.4 dm³ of any gas at 0 °C and 1 atm is one mole, which contains 6.02 × 10²³ molecules (Avogadro's number).",
+   "explanation_long": "At standard temperature and pressure one mole of any ideal gas occupies 22.4 dm³, and one mole contains Avogadro's number of particles, 6.02 × 10²³. So 22.4 dm³ of hydrogen holds 6.02 × 10²³ H₂ molecules. (The paper prints both B and the keyed option D as 6.02 × 10²²; D is shown here with the correct exponent.)",
+   "explanation_trick": "22.4 dm³ at STP ↔ 1 mol ↔ 6.02 × 10²³ particles."
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 64,
+  "match_question_text": "Correct order of boiling points of the given liquid is",
+  "match_option_a": "H2O > HF > HCl > NH3",
+  "set": {
+   "option_b": "HF > H₂O > HCl > NH₃",
+   "option_c": "H₂O > HF > NH₃ > HCl",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — places NH3 last, but NH3 (hydrogen-bonded) boils higher than HCl (non-hydrogen-bonded).",
+    "b": "Wrong — places HF above H2O, but water's more extensive hydrogen bonding actually gives it the highest boiling point among these four.",
+    "c": "Correct — matches the actual boiling point order exactly.",
+    "d": "Wrong — same HF/H2O ordering issue as C, plus the NH3/HCl order."
+   },
+   "option_a": "H₂O > HF > HCl > NH₃",
+   "option_d": "HF > H₂O > NH₃ > HCl"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 65,
+  "match_question_text": "The relative energies of 4s, 4p and 3d orbitals are in the order",
+  "match_option_a": "3d < 4p <4s",
+  "set": {
+   "option_b": "4s < 3d < 4p",
+   "option_c": "4p < 4s < 3d",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — places 3d below 4p but 4s too high; doesn't match the (n+l) rule calculation.",
+    "b": "Correct — 4s < 3d < 4p matches the (n+l) rule.",
+    "c": "Wrong — places 4p as lowest, but 4p actually has the highest of the three (tied n+l with 3d, but higher n).",
+    "d": "Wrong — reverses the order almost entirely."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 66,
+  "match_question_text": "With increase in the value of Principal Quantum Number ‘n’, the shape of the s-orbitals remains the same although their sizes",
+  "match_option_a": "Decrease",
+  "set": {
+   "option_b": "Increase",
+   "option_c": "Remain the same",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — size doesn't decrease with increasing n; it grows.",
+    "b": "Correct — s-orbital size increases as n increases.",
+    "c": "Wrong — size does change (increase), not stay the same, as n increases.",
+    "d": "Wrong — this is settled physics (size reliably increases with n), not an uncertain 'may or may not' relationship."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 67,
+  "match_question_text": "The angle between unhybridized p-orbital and three sp2 hybrid orbitals of each carbon atom in ether is:",
+  "match_option_a": "120°",
+  "set": {
+   "option_b": "90°",
+   "option_c": "109.5°",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — 120° is the angle between the sp2 orbitals themselves, not between a sp2 orbital and the perpendicular p-orbital.",
+    "b": "Correct — 90° is the perpendicular angle between the p-orbital and the sp2 plane.",
+    "c": "Wrong — 109.5° is the tetrahedral angle for sp3 hybridization, not relevant to this sp2/p-orbital geometry.",
+    "d": "Wrong — 180° would describe a linear (sp) arrangement, not this sp2/perpendicular-p scenario."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 68,
+  "match_question_text": "In ‘H-F’ bond electronegativity difference is ‘1.9’. What is the type of this bond?",
+  "match_option_a": "Polar covalent bond",
+  "set": {
+   "option_b": "Non-polar covalent bond",
+   "option_c": "Pi (π) bond",
+   "explanation_options": {
+    "a": "Correct — H-F is the classic example of a highly polar covalent bond.",
+    "b": "Wrong — a 1.9 electronegativity difference is far too large to be a non-polar bond.",
+    "c": "Wrong — a pi bond is a type of bond formed by orbital overlap geometry, not defined by electronegativity difference.",
+    "d": "Wrong — a coordinate covalent bond is defined by both bonding electrons coming from one atom, unrelated to this electronegativity-difference scenario."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 69,
+  "match_question_text": "‘∆H’ will be given a negative sign in",
+  "match_option_a": "Exothermic reactions",
+  "set": {
+   "option_b": "Decomposition reactions",
+   "option_c": "Dissociation reaction",
+   "explanation_options": {
+    "a": "Correct — exothermic reactions have negative ΔH.",
+    "b": "Wrong — decomposition reactions are typically endothermic as well, giving positive ΔH.",
+    "c": "Wrong — dissociation reactions are typically endothermic (bond-breaking absorbs energy), giving positive ΔH.",
+    "d": "Wrong — endothermic reactions have positive (not negative) ΔH by definition."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 70,
+  "match_question_text": "Lattice energy of an ionic crystal is the enthalpy of",
+  "match_option_a": "Combustion",
+  "set": {
+   "option_b": "Dissociation",
+   "option_c": "Dissolution",
+   "explanation_options": {
+    "a": "Wrong — combustion enthalpy relates to burning reactions, unrelated to ionic lattice formation.",
+    "b": "Wrong — dissociation enthalpy describes breaking the lattice apart (the reverse process), not forming it.",
+    "c": "Wrong — dissolution enthalpy describes dissolving the solid in a solvent, a different process from lattice formation.",
+    "d": "Correct — lattice energy is the enthalpy of formation of the crystal from its gaseous ions."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 71,
+  "match_question_text": "As number of solute particles increases, freezing point of the solution:",
+  "match_option_a": "Remains the same",
+  "set": {
+   "option_b": "Increases",
+   "option_c": "First increases, then decreases",
+   "explanation_options": {
+    "a": "Wrong — freezing point does change (decrease) as solute particles increase; it doesn't stay fixed.",
+    "b": "Wrong — freezing point decreases (not increases) as more solute particles are added.",
+    "c": "Wrong — there's no increase-then-decrease pattern; it's a steady, direct decrease with more solute.",
+    "d": "Correct — freezing point steadily decreases as solute particle count increases."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 72,
+  "match_question_text": "Boiling point constants help us to determine",
+  "match_option_a": "Molar masses",
+  "set": {
+   "option_b": "Volumes",
+   "option_c": "Pressures",
+   "explanation_options": {
+    "a": "Correct — boiling point elevation constants are used precisely for molar mass determination.",
+    "b": "Wrong — volume isn't determined this way either.",
+    "c": "Wrong — pressure isn't what's being determined via boiling point constants.",
+    "d": "Wrong — mass alone (without molar mass/moles) isn't the target quantity of this technique."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 73,
+  "match_question_text": "In electrolysis of aqueous CuCl2, the metal deposited at cathode is",
+  "match_option_a": "Sodium",
+  "set": {
+   "option_b": "Aluminium",
+   "option_c": "Lead",
+   "explanation_options": {
+    "a": "Wrong — sodium isn't present in this solution at all (CuCl2, not a sodium salt).",
+    "b": "Wrong — aluminium isn't present in this solution.",
+    "c": "Wrong — lead isn't present in this solution.",
+    "d": "Correct — copper is the metal ion actually present, and it's what deposits at the cathode."
+   },
+   "question_text": "In electrolysis of aqueous CuCl₂, the metal deposited at cathode is"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 74,
+  "match_question_text": "In MgCl2, the oxidation state of ‘Cl’ is",
+  "match_option_a": "Zero",
+  "set": {
+   "option_b": "+2",
+   "option_c": "-2",
+   "explanation_options": {
+    "a": "Wrong — chlorine in a compound (not elemental Cl2) isn't zero.",
+    "b": "Wrong — +2 would be a highly unusual, non-standard oxidation state for chlorine, and doesn't balance charge here.",
+    "c": "Wrong — -2 would require two chlorines to balance a +4 metal, not Mg's +2.",
+    "d": "Correct — each chlorine is -1, balancing Mg's +2 charge across two chlorines."
+   },
+   "question_text": "In MgCl₂, the oxidation state of ‘Cl’ is"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 75,
+  "match_question_text": "Formation of NH3 is reversible and exothermic process, what will happen on cooling?",
+  "match_option_a": "More reactant will form",
+  "set": {
+   "option_b": "More N2 will be formed",
+   "option_c": "More H2 will be formed",
+   "explanation_options": {
+    "a": "Wrong — cooling favours the exothermic (product-forming) direction, not the reverse.",
+    "b": "Wrong — same reasoning, cooling doesn't favour the reactant side.",
+    "c": "Wrong — cooling doesn't favour reactant formation for an exothermic forward reaction.",
+    "d": "Correct — cooling shifts an exothermic equilibrium towards more product."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 76,
+  "match_question_text": "A buffer solution is that which resists/minimizes the change in",
+  "match_option_a": "pOH",
+  "set": {
+   "option_b": "pH",
+   "option_c": "pKa",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — pOH is mathematically tied to pH (pH+pOH=14), so resisting pH change also stabilizes pOH, but pH is the standard term used to define a buffer's purpose.",
+    "b": "Correct — resisting pH change is the fundamental, standard definition of a buffer's function.",
+    "c": "Wrong — pKa is a fixed constant for a given acid, not something that fluctuates and needs resisting.",
+    "d": "Wrong — pKb, like pKa, is a fixed constant, not a fluctuating quantity a buffer resists."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 77,
+  "match_question_text": "In some reactions, a product formed acts as a catalyst. The phenomenon is called",
+  "match_option_a": "Negative Catalysis",
+  "set": {
+   "option_b": "Activation of Catalyst",
+   "option_c": "Hetergeneous catalysis",
+   "explanation_options": {
+    "a": "Wrong — negative catalysis (inhibition) slows a reaction down, the opposite effect.",
+    "b": "Wrong — 'activation of catalyst' isn't the standard term for this specific product-as-catalyst phenomenon.",
+    "c": "Wrong — heterogeneous catalysis refers to the catalyst being in a different physical phase from the reactants, an unrelated classification.",
+    "d": "Correct — autocatalysis precisely describes a product acting as the reaction's own catalyst."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 78,
+  "match_question_text": "The reaction rate in forward direction decreases with the passage of time because",
+  "match_option_a": "Concentration of reactants decrease",
+  "set": {
+   "option_b": "Concentration of product decreases",
+   "option_c": "The order of reaction changes",
+   "explanation_options": {
+    "a": "Correct — decreasing reactant concentration directly slows the forward rate.",
+    "b": "Wrong — decreasing product concentration would actually be irrelevant to (or could even increase) the forward rate, not explain its decrease.",
+    "c": "Wrong — the reaction order (a fixed mathematical relationship for a given reaction) doesn't spontaneously change over time.",
+    "d": "Wrong — temperature isn't assumed to be changing in this scenario; concentration change alone explains the rate decrease."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 79,
+  "match_question_text": "Which one remains same along a period?",
+  "match_option_a": "Atomic radius",
+  "set": {
+   "option_b": "Melting point",
+   "option_c": "Number of shells (orbits)",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — atomic radius generally decreases across a period, it doesn't stay the same.",
+    "b": "Wrong — melting points vary considerably (often rising then falling) across a period.",
+    "c": "Correct — number of shells is fixed within a period by definition.",
+    "d": "Wrong — electrical conductivity varies significantly (metals to non-metals) across a period."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 80,
+  "match_question_text": "More the ionization energy of an element:",
+  "match_option_a": "More the electropositivity",
+  "set": {
+   "option_b": "More the reducing power",
+   "option_c": "Less the metallic character",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — higher ionization energy actually correlates with LESS electropositivity (harder to lose electrons and form positive ions).",
+    "b": "Wrong — high ionization energy means a POOR (not more) reducing agent, since reducing power requires easily losing electrons.",
+    "c": "Correct — high ionization energy directly correlates with less metallic character.",
+    "d": "Wrong — higher ionization energy typically correlates with a SMALLER (not bigger) atomic radius, since valence electrons held closer to the nucleus are harder to remove."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 81,
+  "match_question_text": "Alkaline earth metal hydroxides decompose on heating. Which of the following reactions is a correct representation of this decomposition?",
+  "match_option_a": "M(OH)2(s) MO(s) + H2O(l)",
+  "set": {
+   "option_b": "MOH(s) → M₂O(s) + H₂O(l)",
+   "option_c": "2MOH₂(s) → 2MO(s) + H₂(l)",
+   "explanation_options": {
+    "a": "Correct — this equation is properly balanced and matches the expected decomposition.",
+    "b": "Wrong — 'MOH' represents a Group 1 (not Group 2) hydroxide formula, and the products don't balance correctly either.",
+    "c": "Wrong — incorrectly produces H2 gas instead of water, and the formula 'MOH2' doesn't correctly represent the hydroxide.",
+    "d": "Wrong — this describes a much more complex decomposition (producing free metal, water, and oxygen) that doesn't match simple thermal decomposition of a Group 2 hydroxide."
+   },
+   "option_a": "M(OH)₂(s) → MO(s) + H₂O(l)",
+   "option_d": "4MOH(s) → 4M(s) + 2H₂O(l) + O₂"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 82,
+  "match_question_text": "Carbon has the unique ability to form long chains by bonding with other carbon atoms. This property of self-linking in carbon is known as:",
+  "match_option_a": "Condensation",
+  "set": {
+   "option_b": "Polymerization",
+   "option_c": "Cyclization",
+   "explanation_options": {
+    "a": "Wrong — condensation is a reaction type (losing a small molecule like water), not the property of self-bonding.",
+    "b": "Wrong — polymerization describes joining monomer units together, a related but distinct concept from the general self-linking property.",
+    "c": "Wrong — cyclization describes forming a ring specifically, a subset of what catenation makes possible, not the general term itself.",
+    "d": "Correct — catenation is the precise term for this self-linking ability."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 83,
+  "match_question_text": "Oxidation state of ‘Mn’ in KMnO4, K2MnO4, MnO2 and MnSO4 is in the order:",
+  "match_option_a": "+7, +6, +2, +4",
+  "set": {
+   "option_b": "+6, +7, +2, +4",
+   "option_c": "+7, +6, +4, +2",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — swaps the last two values (should be +4 then +2, not +2 then +4).",
+    "b": "Wrong — swaps the first two values.",
+    "c": "Correct — +7, +6, +4, +2 matches the charge-balance calculation for each compound in order.",
+    "d": "Wrong — reverses the entire sequence."
+   },
+   "question_text": "Oxidation state of ‘Mn’ in KMnO₄, K₂MnO₄, MnO₂ and MnSO₄ is in the order:"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 84,
+  "match_question_text": "Which pair of transition elements shows abnormal electronic configuration?",
+  "match_option_a": "Sc and Zn",
+  "set": {
+   "option_b": "Cu and Sc",
+   "option_c": "Zn and Cu",
+   "explanation_options": {
+    "a": "Wrong — Sc and Zn follow the standard, expected electron filling pattern (no anomaly).",
+    "b": "Wrong — Sc follows the standard pattern; only Cu is anomalous in this pair.",
+    "c": "Wrong — Zn follows the standard pattern; only Cu is anomalous in this pair.",
+    "d": "Correct — both Cu and Cr are the well-known anomalous-configuration pair."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 85,
+  "match_question_text": "The acid rain water has pH:",
+  "match_option_a": "Below 5",
+  "set": {
+   "option_b": "7",
+   "option_c": "Between 5 and 7",
+   "explanation_options": {
+    "a": "Correct — acid rain is characterized by pH below 5.",
+    "b": "Wrong — pH 7 is neutral, far from acidic.",
+    "c": "Wrong — this range describes natural, unpolluted rainwater, not acid rain specifically.",
+    "d": "Wrong — this range is basic (alkaline), the opposite of acidic."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 86,
+  "match_question_text": "In Contact Process for manufacturing sulphuric acid, Sulphur trioxide (SO 3) is not absorbed in water because",
+  "match_option_a": "The reaction does not go to completion",
+  "set": {
+   "option_b": "The reaction is highly exothermic",
+   "option_c": "The reaction is quite slow",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — the reaction does go to completion; the issue is safety/control, not incompleteness.",
+    "b": "Correct — the excessive exothermicity (uncontrollable heat/mist) is why direct water absorption is avoided.",
+    "c": "Wrong — the reaction is actually quite fast, not slow; that's part of why it's hard to control.",
+    "d": "Wrong — SO3 is actually quite soluble in water; solubility isn't the issue here."
+   },
+   "option_d": "SO₃ is insoluble in water",
+   "question_text": "In Contact Process for manufacturing sulphuric acid, sulphur trioxide (SO₃) is not absorbed in water because"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 87,
+  "match_question_text": "In modern Haber Process Plants, the temperature maintained during the process is",
+  "match_option_a": "670 – 770 K (400 °C – 500 °C)",
+  "set": {
+   "option_b": "270 – 370 K (0 °C – 100 °C)",
+   "option_c": "370 – 470 K (100 °C – 200 °C)",
+   "explanation_options": {
+    "a": "Correct — 400-500°C (670-770 K) is the standard modern operating range.",
+    "b": "Wrong — far too low; the reaction would be impractically slow.",
+    "c": "Wrong — too low a temperature for practical reaction rates in this process.",
+    "d": "Wrong — close, but not the standard cited range for modern plants."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 88,
+  "match_question_text": "In the Haber process for manufacturing of ammonia, Nitrogen is taken from",
+  "match_option_a": "Proteins occurring in living bodies",
+  "set": {
+   "option_b": "Ammonium salts obtained industrially",
+   "option_c": "Air",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — extracting nitrogen from living-body proteins wouldn't be a practical, large-scale industrial source.",
+    "b": "Wrong — this would be an inefficient, circular process (ammonium salts already contain fixed nitrogen).",
+    "c": "Correct — air is the actual industrial nitrogen source.",
+    "d": "Wrong — nitrate-containing minerals aren't the standard source used in the Haber process itself."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 89,
+  "match_question_text": "Ethene on polymerization, gives the product polyethene. This reaction may be called as",
+  "match_option_a": "Addition",
+  "set": {
+   "option_b": "Condensation",
+   "option_c": "Substitution",
+   "explanation_options": {
+    "a": "Correct — polyethene formation is a textbook example of addition polymerization.",
+    "b": "Wrong — condensation polymerization loses a small molecule at each step, which doesn't happen when ethene forms polyethene.",
+    "c": "Wrong — substitution describes replacing one atom/group with another, not monomer linkage.",
+    "d": "Wrong — pyrolysis is thermal decomposition (breaking down), the opposite of building up a polymer."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 90,
+  "match_question_text": "In the following, which one is free radical?",
+  "match_option_a": "Cl―",
+  "set": {
+   "option_b": "Cl⁺",
+   "option_c": "Cl₂",
+   "explanation_options": {
+    "a": "Wrong — Cl⁻ has a complete octet with all electrons paired, not a radical.",
+    "b": "Wrong — Cl+ is a cation, also without an unpaired electron in this context.",
+    "c": "Wrong — Cl2 is a stable diatomic molecule with all electrons paired in bonds/lone pairs.",
+    "d": "Correct — a lone chlorine atom with one unpaired electron is the free radical."
+   },
+   "option_a": "Cl⁻",
+   "option_d": "Cl•"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 91,
+  "match_question_text": "The introduction of R C group in benzene is called",
+  "match_option_a": "Acylation",
+  "set": {
+   "option_b": "Carbonyl reduction",
+   "option_c": "Alkylation",
+   "explanation_options": {
+    "a": "Correct — acylation is precisely this acyl-group introduction.",
+    "b": "Wrong — 'carbonyl reduction' would describe removing/reducing a carbonyl group, the opposite of introducing one.",
+    "c": "Wrong — alkylation introduces a plain alkyl group (no carbonyl), a related but different reaction.",
+    "d": "Wrong — formylation specifically introduces a -CHO group (one carbon, from formyl chloride or similar), a more specific case than the general R-CO- group described here."
+   },
+   "question_text": "The introduction of R–C⁺=O (acyl) group in benzene is called"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 92,
+  "match_question_text": "The alkaline hydrolysis of bromoethane shown below gives alcohol as the product: H3C―CH2―Br H3C―CH2―OH The reagent and the condition used in this reaction may be:",
+  "match_option_a": "H2O at room temperature",
+  "set": {
+   "option_b": "Ethanol, heat",
+   "option_c": "KOH in alcohol",
+   "explanation_options": {
+    "a": "Wrong — plain water alone at room temperature is too weak/slow a nucleophile for practical hydrolysis.",
+    "b": "Wrong — heating in ethanol alone (without a strong nucleophile like hydroxide) wouldn't cleanly give the substitution product.",
+    "c": "Wrong — KOH in alcohol favours elimination (forming ethene), not substitution to the alcohol.",
+    "d": "Correct — dilute aqueous NaOH, warmed, is the standard condition for this substitution."
+   },
+   "question_text": "The alkaline hydrolysis of bromoethane, CH₃–CH₂–Br → CH₃–CH₂–OH, gives alcohol as the product. The reagent and the condition used in this reaction are:",
+   "option_a": "H₂O at room temperature"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 93,
+  "match_question_text": "In the reaction of ethane with bromine the intermediate formed is + H C CH H2 C CH2 2 2 +",
+  "match_option_a": "Br",
+  "set": {
+   "question_text": "In the reaction of ethene with bromine the intermediate formed is",
+   "option_a": "Cyclic bromonium ion (H₂C–CH₂ bridged by Br⁺)",
+   "option_b": "BrCH₂–CH₂⁻",
+   "option_c": "BrCH₂–CH₂⁺",
+   "option_d": "H₂C=CHBr",
+   "explanation_options": {
+    "a": "Correct — Br⁺ bridges both carbons, forming the cyclic bromonium ion that Br⁻ then attacks.",
+    "b": "Wrong — a carbanion would need a nucleophile to attack the alkene, but Br₂ acts as an electrophile.",
+    "c": "Wrong — an open carbocation is not formed; the bromine lone pair bridges the carbons instead.",
+    "d": "Wrong — vinyl bromide is a substitution product, not an intermediate of addition."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 94,
+  "match_question_text": "In substitution reactions, dihaloalkane or secondary halogenoalkane give / show:",
+  "match_option_a": "SN1 Mechanism",
+  "set": {
+   "option_b": "SN2 Mechanism",
+   "option_c": "Both E1 and E2",
+   "explanation_options": {
+    "a": "Wrong — SN1 alone doesn't capture secondary substrates' full mechanistic flexibility.",
+    "b": "Wrong — SN2 alone doesn't capture secondary substrates' full mechanistic flexibility either.",
+    "c": "Wrong — E1/E2 describe elimination pathways, a different reaction type from the substitution being asked about here.",
+    "d": "Correct — secondary substrates can proceed via both SN1 and SN2, depending on conditions."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 95,
+  "match_question_text": "The dehydration of ethyl alcohol with concentrated H2SO4 at 140°C gives:",
+  "match_option_a": "Ethene",
+  "set": {
+   "option_b": "Diethyl ether",
+   "option_c": "Alcohol",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — ethene specifically forms at the higher 170°C, not 140°C as given here.",
+    "b": "Correct — diethyl ether forms at the lower 140°C dehydration condition.",
+    "c": "Wrong — the starting material is already an alcohol; this option doesn't represent any product/transformation.",
+    "d": "Wrong — a carboxylic acid wouldn't form from simple acid-catalyzed dehydration; that would require an oxidizing agent instead."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 96,
+  "match_question_text": "Ethanol can be converted in to ethanoic acid by:",
+  "match_option_a": "Oxidation",
+  "set": {
+   "option_b": "Fermentation",
+   "option_c": "Hydration",
+   "explanation_options": {
+    "a": "Correct — oxidation converts ethanol fully to ethanoic acid.",
+    "b": "Wrong — fermentation is how ethanol is originally produced from sugars, not how it's converted into acetic acid (though bacterial fermentation, not chemical oxidation, is how vinegar forms biologically — the chemistry answer intended here is direct oxidation).",
+    "c": "Wrong — hydration adds water across a double bond, not applicable to converting an alcohol into an acid.",
+    "d": "Wrong — hydrogenation adds hydrogen (a reduction), the opposite direction from forming an acid."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 97,
+  "match_question_text": "The following structure is of: R R C OH R",
+  "match_option_a": "Secondary alcohol",
+  "set": {
+   "option_b": "Primary alcohol",
+   "option_c": "Tertiary alcohol",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — secondary alcohols have only two R groups on the carbinol carbon, not three.",
+    "b": "Wrong — primary alcohols have only one R group on the carbinol carbon.",
+    "c": "Correct — three R groups on the carbinol carbon defines a tertiary alcohol.",
+    "d": "Wrong — this structure has no carbonyl/acid group; it's clearly an alcohol (C-OH), not a carboxylic acid."
+   },
+   "question_text": "The following structure is of: R₃C–OH (a carbon bearing –OH and three R groups)",
+   "explanation_long": "Alcohols are classified by how many carbon-containing groups (R) are attached to the carbinol carbon (the one bearing -OH): one R group = primary, two R groups = secondary, three R groups = tertiary. A structure with three R groups attached to the C-OH carbon is therefore a tertiary alcohol. (The printed UHS key marks A, secondary alcohol, but a carbon carrying three R groups and –OH is a tertiary alcohol, so C is used.)"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 98,
+  "match_question_text": "When ethanol is warmed with ethanoic acid in the presence of strong acid catalyst, an ester ethyl ethanoate is formed. CH3CH2OH + CH3CO2H CH3CO2CH2CH3 During this reaction:",
+  "match_option_a": "Alcohol is reduced",
+  "set": {
+   "option_b": "O–H bond in ethanoic acid is broken",
+   "option_c": "O–H bond in ethanol is broken",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — the alcohol isn't reduced in this reaction; no change in oxidation state occurs for either reactant.",
+    "b": "Wrong — it's the acid's C-OH bond (losing the whole OH group as part of water) that breaks, not specifically framed as its 'O-H bond' being the key cleavage point in the standard mnemonic.",
+    "c": "Correct — the O-H bond in ethanol breaks, with ethanol's oxygen becoming part of the ester linkage.",
+    "d": "Wrong — the acid isn't oxidized in this reaction; this is a substitution, not a redox process."
+   },
+   "question_text": "When ethanol is warmed with ethanoic acid in the presence of strong acid catalyst, an ester ethyl ethanoate is formed: CH₃CH₂OH + CH₃CO₂H → CH₃CO₂CH₂CH₃ + H₂O. Which statement is correct?"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 99,
+  "match_question_text": "Primary alcohols normally give us aldehydes when oxidized in the presence of Na 2Cr3O7, what the product will be, when the secondary alcohols are oxidized in same conditions?",
+  "match_option_a": "Alkenes",
+  "set": {
+   "option_b": "Alkynes",
+   "option_c": "Alkyl halides",
+   "explanation_options": {
+    "a": "Wrong — forming an alkene would require an elimination (dehydration) reaction, not oxidation.",
+    "b": "Wrong — forming an alkyne would require a very different, more drastic set of reactions, not simple alcohol oxidation.",
+    "c": "Wrong — alkyl halides form via halogenation reactions, not oxidation of an alcohol.",
+    "d": "Correct — secondary alcohols oxidize specifically to ketones."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 100,
+  "match_question_text": "Formaldehyde reacts with HCN (NaCN + HCl) to give a compound: H C 3 OH H3 C OH C C CN",
+  "match_option_a": "H CN",
+  "set": {
+   "question_text": "Formaldehyde reacts with HCN (NaCN + HCl) to give a compound:",
+   "option_a": "CH₃–CH(OH)–CN",
+   "option_b": "H₂C(OH)–CN",
+   "option_c": "(CH₃)₂C(OH)–CN",
+   "option_d": "CH₃–CO–CN",
+   "explanation_options": {
+    "a": "Wrong — this cyanohydrin comes from acetaldehyde (CH₃CHO), not formaldehyde.",
+    "b": "Correct — HCHO + HCN → H₂C(OH)CN, formaldehyde cyanohydrin.",
+    "c": "Wrong — this cyanohydrin comes from acetone.",
+    "d": "Wrong — this is an acyl cyanide, not an addition product of HCN."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 101,
+  "match_question_text": "Iodoform test will not be positive with: O",
+  "match_option_a": "H3C CH2 C CH2 CH3",
+  "set": {
+   "option_b": "CH₃–CH₂–CO–CH₃",
+   "option_c": "C₂H₅OH",
+   "explanation_options": {
+    "a": "Correct — 3-pentanone lacks the required methyl-adjacent-to-carbonyl pattern, so it fails the iodoform test.",
+    "b": "This option (a methyl ketone) DOES give a positive iodoform test, having the required CH3-CO- pattern.",
+    "c": "This option (representing ethanol) DOES give a positive iodoform test, since ethanol's CH3-CH2-OH structure fits the required CH3-CH(OH)- pattern.",
+    "d": "This option (acetaldehyde) DOES give a positive iodoform test, having the required CH3-CHO pattern."
+   },
+   "question_text": "Iodoform test will not be positive with:",
+   "option_a": "CH₃–CH₂–CO–CH₂–CH₃",
+   "option_d": "CH₃–CHO"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 102,
+  "match_question_text": "When CH3―CH2―OH is oxidized in the presence of K2Cr2O7 and H2SO4, the product formed is O O",
+  "match_option_a": "H3C C OH",
+  "set": {
+   "option_b": "H–COOH",
+   "option_c": "CH₃–CO–CH₃",
+   "explanation_options": {
+    "a": "Correct — ethanoic acid (acetic acid) is the fully oxidized product under these strong conditions.",
+    "b": "Wrong — this represents formic acid (from methanol), not the two-carbon product expected from ethanol.",
+    "c": "Wrong — this represents a ketone structure, which wouldn't form from oxidizing a primary alcohol like ethanol.",
+    "d": "Wrong — this represents an ester structure, not the direct oxidation product of an alcohol."
+   },
+   "question_text": "When CH₃–CH₂–OH is oxidized in the presence of K₂Cr₂O₇ and H₂SO₄, the product formed is",
+   "option_a": "CH₃–COOH",
+   "option_d": "CH₃–COOCH₃"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 103,
+  "match_question_text": "He had a heart attack and all attempts to _________ him failed.",
+  "match_option_a": "Renew",
+  "set": {
+   "option_b": "Resuscitate",
+   "option_c": "Revise",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — 'renew' means to make new again, not medically revive a person.",
+    "b": "Correct — 'resuscitate' precisely fits reviving someone after a heart attack.",
+    "c": "Wrong — 'revise' means to review/edit, unrelated to reviving a person.",
+    "d": "Wrong — 'refurnish' means to furnish again, unrelated to reviving a person."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 104,
+  "match_question_text": "The _________ stench of dead animals and plants made Mumtaz ill.",
+  "match_option_a": "Putrid",
+  "set": {
+   "option_b": "Purified",
+   "option_c": "Perturbed",
+   "explanation_options": {
+    "a": "Correct — putrid precisely describes decay-related foul smell.",
+    "b": "Wrong — 'purified' means made clean, the opposite of a foul stench.",
+    "c": "Wrong — 'perturbed' means worried/anxious, an emotional state, not a smell.",
+    "d": "Wrong — 'purchased' means bought, entirely unrelated to smell."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 105,
+  "match_question_text": "While going up the hills, by bus, she felt __________ inside.",
+  "match_option_a": "Fishy",
+  "set": {
+   "option_b": "Itchy",
+   "option_c": "Queasy",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — 'fishy' means suspicious or smelling of fish, unrelated to nausea.",
+    "b": "Wrong — 'itchy' describes a skin sensation, not stomach discomfort.",
+    "c": "Correct — queasy precisely describes this nauseated feeling.",
+    "d": "Wrong — 'squeezy' isn't a standard word for this sensation."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 106,
+  "match_question_text": "The craft statesman manipulated the situation by making false promises and declaring sport festivities as a __________ to fool the public.",
+  "match_option_a": "Red-Hearing",
+  "set": {
+   "option_b": "Red-Feather",
+   "option_c": "Red-Herring",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — misspells 'herring' as 'hearing', an entirely different word.",
+    "b": "Wrong — 'red-feather' isn't the correct idiom.",
+    "c": "Correct — the properly spelled idiom.",
+    "d": "Wrong — misspells 'herring' as 'haring'."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 107,
+  "match_question_text": "SPOT THE ERROR: The theory was discarded as there was no corroborating evidence for its favour. [Diagram/graph/structure required — see original PDF page.]",
+  "match_option_a": "discarded",
+  "set": {
+   "question_text": "SPOT THE ERROR: The theory was discarded as there was no corroborating evidence for its favour."
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 108,
+  "match_question_text": "SPOT THE ERROR: The workers were raising much hue and cry when their demands were turned away. [Diagram/graph/structure required — see original PDF page.]",
+  "match_option_a": "raising",
+  "set": {
+   "question_text": "SPOT THE ERROR: The workers were raising much hue and cry when their demands were turned away."
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 109,
+  "match_question_text": "SPOT THE ERROR: Aslam was badly cudgeled from his step-brother. He received many bruises and contusions. Thank God! No [Diagram/graph/structure required — see original PDF page.]",
+  "match_option_a": "from",
+  "set": {
+   "question_text": "SPOT THE ERROR: Aslam was badly cudgeled from his step-brother. He received many bruises and contusions. Thank God! No injury was serious."
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 110,
+  "match_question_text": "SPOT THE ERROR: I extend a cordial invitation for you to visit our farm house. We have grown vegetables without chemical [Diagram/graph/structure required — see original PDF page.]",
+  "match_option_a": "for",
+  "set": {
+   "question_text": "SPOT THE ERROR: I extend a cordial invitation for you to visit our farm house. We have grown vegetables without chemical fertilizers over there."
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 111,
+  "match_question_text": "SPOT THE ERROR: Although he is not a close relative of me, yet I was greeted with a show of deep cordiality. [Diagram/graph/structure required — see original PDF page.]",
+  "match_option_a": "me",
+  "set": {
+   "question_text": "SPOT THE ERROR: Although he is not a close relative of me, yet I was greeted with a show of deep cordiality."
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 112,
+  "match_question_text": "SPOT THE ERROR: This antibiotic destroys red corpuscles in the blood and cause pernicious anaemia. [Diagram/graph/structure required — see original PDF page.]",
+  "match_option_a": "destroys",
+  "set": {
+   "question_text": "SPOT THE ERROR: This antibiotic destroys red corpuscles in the blood and cause pernicious anaemia."
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 117,
+  "match_question_text": "Choose the CORRECT sentence:",
+  "match_option_a": "Her father is a SP in the Punjab Police.",
+  "set": {
+   "option_b": "Her father was a SP in the Punjab Police.",
+   "option_c": "Her father is an SP in the Punjab Police.",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — 'a SP' ignores that 'SP' starts with a vowel sound when spoken aloud.",
+    "b": "Wrong — while 'was' correctly indicates past tense, it wrongly pairs with 'a SP' instead of 'an SP'.",
+    "c": "Correct — 'an SP' correctly matches the vowel sound of 'ess'.",
+    "d": "Wrong — 'are' doesn't agree with the singular subject 'her father', plus the same article issue."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 118,
+  "match_question_text": "Choose the CORRECT sentence:",
+  "match_option_a": "There were musical instruments in the shop.",
+  "set": {
+   "option_b": "There was musical instruments in the shop.",
+   "option_c": "There has musical instruments in the shop.",
+   "explanation_options": {
+    "a": "Correct — 'were' correctly agrees with the plural 'instruments'.",
+    "b": "Wrong — 'was' incorrectly treats 'instruments' as singular.",
+    "c": "Wrong — 'has' doesn't fit this existential construction pattern at all.",
+    "d": "Wrong — 'is' incorrectly treats 'instruments' as singular."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 119,
+  "match_question_text": "Choose the CORRECT sentence:",
+  "match_option_a": "He died for heart attack in 1982.",
+  "set": {
+   "option_b": "He died with heart attack in 1982.",
+   "option_c": "He died in heart attack in 1982.",
+   "explanation_options": {
+    "a": "Wrong — 'died for' would suggest sacrifice for a cause, not death from an illness.",
+    "b": "Wrong — 'died with' doesn't fit this specific collocation.",
+    "c": "Wrong — 'died in' doesn't fit this specific collocation.",
+    "d": "Correct — 'died of heart attack' is the standard idiom."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 120,
+  "match_question_text": "Choose the CORRECT sentence:",
+  "match_option_a": "Always speak in the truth.",
+  "set": {
+   "option_b": "Always tell for the truth.",
+   "option_c": "Always tell the truth.",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — 'speak in the truth' isn't standard English.",
+    "b": "Wrong — 'tell for the truth' isn't standard English.",
+    "c": "Correct — 'tell the truth' is the standard idiom.",
+    "d": "Wrong — 'telling' (gerund, no subject/auxiliary) doesn't form a complete imperative sentence correctly here."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 121,
+  "match_question_text": "Choose the CORRECT sentence:",
+  "match_option_a": "Hand up the answer sheet to me.",
+  "set": {
+   "option_b": "Hand over the answer sheet to me.",
+   "option_c": "Hand down the answer sheet to me.",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — 'hand up' isn't the standard phrasal verb for surrendering an item to someone.",
+    "b": "Correct — 'hand over' is the standard phrasal verb for this action.",
+    "c": "Wrong — 'hand down' typically means passing something to a later generation/lower authority, not this context.",
+    "d": "Wrong — 'hand for' isn't a standard phrasal verb construction."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 122,
+  "match_question_text": "Choose the CORRECT sentence:",
+  "match_option_a": "Are you noticed the peach blossoms?",
+  "set": {
+   "option_b": "Have you noticed the peach blossoms?",
+   "option_c": "Will you noticed the peach blossoms?",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — 'are you noticed' isn't a valid English tense combination.",
+    "b": "Correct — 'have you noticed' is the correct present perfect question form.",
+    "c": "Wrong — 'will you noticed' incorrectly pairs future 'will' with a past participle instead of a base verb.",
+    "d": "Wrong — 'were you noticed' would imply a passive construction (being noticed by someone else), not the intended active meaning."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 123,
+  "match_question_text": "DISSONANCE",
+  "match_option_a": "Inconsistency",
+  "set": {
+   "option_b": "Expansion",
+   "option_c": "Perceptible",
+   "explanation_options": {
+    "a": "Correct — inconsistency captures dissonance's sense of disagreement/discord.",
+    "b": "Wrong — 'expansion' (growth/enlargement) is unrelated.",
+    "c": "Wrong — 'perceptible' (noticeable) is unrelated in meaning.",
+    "d": "Wrong — 'warp' (to bend/distort) is unrelated to this meaning of dissonance."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 124,
+  "match_question_text": "TRIFLE",
+  "match_option_a": "Pudding",
+  "set": {
+   "option_b": "Minor",
+   "option_c": "Deluge",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — 'pudding' refers to the dessert sense of trifle, not the vocabulary-test sense of minor importance.",
+    "b": "Correct — 'minor' matches trifle's sense of small/insignificant.",
+    "c": "Wrong — 'deluge' (a great flood/overwhelming amount) is the opposite sense — trifle means something small, not overwhelming.",
+    "d": "Wrong — 'treble' (triple, or a high musical pitch) is unrelated in meaning."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 125,
+  "match_question_text": "MURKY",
+  "match_option_a": "Dusty",
+  "set": {
+   "option_b": "Squeamy",
+   "option_c": "Clear",
+   "explanation_options": {
+    "a": "Wrong — 'dusty' (covered in dust) is a related but distinct physical description, not matching murky's core meaning.",
+    "b": "Wrong — 'squeamy' (a non-standard variant of squeamish, easily disgusted) is unrelated in meaning.",
+    "c": "Wrong — 'clear' is the direct opposite of murky.",
+    "d": "Correct — 'unclear' captures murky's sense of being difficult to see through or understand."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 126,
+  "match_question_text": "FAUX",
+  "match_option_a": "Blunder",
+  "set": {
+   "option_b": "Mistake",
+   "option_c": "Indiscretion",
+   "explanation_options": {
+    "a": "Wrong — 'blunder' (a foolish mistake) is related to the phrase 'faux pas' but isn't the direct meaning of 'faux' itself.",
+    "b": "Wrong — 'mistake' is again closer to 'faux pas' as a whole phrase, not 'faux' by itself.",
+    "c": "Wrong — 'indiscretion' (a careless mistake in judgment) is similarly related to 'faux pas' contextually, not to 'faux' alone.",
+    "d": "Correct — 'false' is the direct, literal meaning of 'faux'."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 127,
+  "match_question_text": "MYRIAD",
+  "match_option_a": "Countable",
+  "set": {
+   "option_b": "Multitude",
+   "option_c": "Measured",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — 'countable' is nearly the opposite; myriad implies too numerous to easily count.",
+    "b": "Correct — 'multitude' matches myriad's sense of a very great number.",
+    "c": "Wrong — 'measured' (precisely quantified) is nearly opposite in spirit to myriad's vastness.",
+    "d": "Wrong — 'blurred' (unclear/indistinct) is unrelated to quantity."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 128,
+  "match_question_text": "FACILE",
+  "match_option_a": "Fallacy",
+  "set": {
+   "option_b": "Depict",
+   "option_c": "Delicate",
+   "explanation_options": {
+    "a": "Wrong — 'fallacy' (a flawed argument) is related conceptually but is a noun for the error itself, not the adjective describing something oversimplified.",
+    "b": "Wrong — 'depict' (to portray/show) is unrelated, being a different part of speech (a verb) with a different meaning entirely.",
+    "c": "Wrong — 'delicate' (fragile, sensitive) is unrelated in meaning.",
+    "d": "Correct — 'superficial' captures facile's sense of deceptive, shallow simplicity."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 129,
+  "match_question_text": "MAGNUM",
+  "match_option_a": "Masterpiece",
+  "set": {
+   "option_b": "Magnanimity",
+   "option_c": "Modest",
+   "explanation_options": {
+    "a": "Correct — 'masterpiece' matches the 'great work' sense of magnum.",
+    "b": "Wrong — 'magnanimity' (generosity of spirit) is a different word sharing only a root, not a synonym.",
+    "c": "Wrong — 'modest' (humble, unassuming) is nearly the opposite in tone.",
+    "d": "Wrong — 'magnetic' (attracting attention/appeal) shares only superficial spelling similarity, not meaning."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 130,
+  "match_question_text": "SIDLE",
+  "match_option_a": "Sneak",
+  "set": {
+   "option_b": "Sift",
+   "option_c": "Siege",
+   "explanation_options": {
+    "a": "Correct — 'sneak' captures sidle's cautious, stealthy movement.",
+    "b": "Wrong — 'sift' (to separate/filter, as with flour) is unrelated in meaning.",
+    "c": "Wrong — 'siege' (a prolonged military blockade) is an unrelated sound-alike distractor.",
+    "d": "Wrong — 'sieve' (a straining tool, or to strain something) is unrelated, another sound-alike distractor."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 131,
+  "match_question_text": "PLETHORA",
+  "match_option_a": "Plastic",
+  "set": {
+   "option_b": "Super-fluidity",
+   "option_c": "Measure",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — 'plastic' is unrelated in meaning, likely included as a sound-alike distractor.",
+    "b": "Correct — intends 'superfluity' (excess), matching plethora's meaning, despite the garbled spelling in the option text.",
+    "c": "Wrong — 'measure' (a specific quantity/unit) doesn't capture the sense of excess.",
+    "d": "Wrong — 'malleable' (easily shaped/influenced) is unrelated in meaning."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 132,
+  "match_question_text": "VERTEX",
+  "match_option_a": "Poetry",
+  "set": {
+   "option_b": "Depth",
+   "option_c": "Zenith",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — 'poetry' is unrelated in meaning.",
+    "b": "Wrong — 'depth' is nearly the opposite (lowest point, not highest).",
+    "c": "Correct — 'zenith' matches vertex's sense of the highest point.",
+    "d": "Wrong — 'diminish' (to decrease) is unrelated, and a different part of speech entirely."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 133,
+  "match_question_text": "The part of neuron fibre which conducts nerve impulses from the cell body is",
+  "match_option_a": "Dendron",
+  "set": {
+   "option_b": "Dendrites",
+   "option_c": "Axon",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — a dendron carries impulses towards the cell body, the opposite direction.",
+    "b": "Wrong — dendrites also carry impulses towards the cell body.",
+    "c": "Correct — the axon carries impulses away from the cell body.",
+    "d": "Wrong — 'peripheral branch' isn't the standard term for this specific conducting fibre."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 134,
+  "match_question_text": "The number of cranial nerves in human is",
+  "match_option_a": "31 pairs",
+  "set": {
+   "option_b": "12 pairs",
+   "option_c": "24 pairs",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — 31 pairs is the number of spinal nerves, not cranial nerves.",
+    "b": "Correct — 12 pairs of cranial nerves.",
+    "c": "Wrong — not the correct count for either cranial or spinal nerves.",
+    "d": "Wrong — not a standard nerve count in human anatomy."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 135,
+  "match_question_text": "The part of brain which controls breathing, heart rate and swallowing is",
+  "match_option_a": "Cerebrum",
+  "set": {
+   "option_b": "Cerebellum",
+   "option_c": "Medulla",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — the cerebrum handles higher cognitive functions, not these vital autonomic controls.",
+    "b": "Wrong — the cerebellum coordinates balance and fine motor movement, not these vital functions.",
+    "c": "Correct — the medulla specifically controls these vital functions.",
+    "d": "Wrong — the hypothalamus regulates temperature/hunger/thirst and links to the endocrine system, not these specific vital reflexes."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 136,
+  "match_question_text": "Syphilis is a sexually transmitted disease which is caused by",
+  "match_option_a": "Neisseria gonorrhoeae",
+  "set": {
+   "option_b": "E. coli",
+   "option_c": "Treponema pallidum",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — Neisseria gonorrhoeae causes gonorrhea, a different STI.",
+    "b": "Wrong — E. coli is typically associated with digestive/urinary tract issues, not syphilis.",
+    "c": "Correct — Treponema pallidum is specifically the syphilis-causing organism.",
+    "d": "Wrong — Mycobacterium avium is associated with respiratory/opportunistic infections, not syphilis."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 137,
+  "match_question_text": "Discharge of ovum or secondary oocyte from ovary or from Graafian follicle is called",
+  "match_option_a": "Fertilization",
+  "set": {
+   "option_b": "Pollination",
+   "option_c": "Follicle formation",
+   "explanation_options": {
+    "a": "Wrong — fertilization is sperm-egg fusion, a separate later event.",
+    "b": "Wrong — pollination is a plant reproductive term, unrelated to human ovulation.",
+    "c": "Wrong — follicle formation happens earlier, before the oocyte is released.",
+    "d": "Correct — ovulation is precisely this release of the oocyte."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 138,
+  "match_question_text": "Second meiotic division in the secondary oocyte proceeds as far as",
+  "match_option_a": "Metaphase",
+  "set": {
+   "option_b": "Prophase",
+   "option_c": "Anaphase",
+   "explanation_options": {
+    "a": "Correct — metaphase II is where the secondary oocyte's division pauses.",
+    "b": "Wrong — prophase is an earlier stage than where the oocyte actually arrests.",
+    "c": "Wrong — anaphase would mean the division has already progressed past the arrest point.",
+    "d": "Wrong — telophase would mean the division has fully completed, which only happens after fertilization."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 139,
+  "match_question_text": "Which one of the following differentiates directly into mature sperm?",
+  "match_option_a": "Primary spermatocyte",
+  "set": {
+   "option_b": "Secondary spermatocyte",
+   "option_c": "Spermatogonia",
+   "explanation_options": {
+    "a": "Wrong — primary spermatocytes still need to undergo two more divisions before becoming sperm.",
+    "b": "Wrong — secondary spermatocytes still need meiosis II before differentiating into sperm.",
+    "c": "Wrong — spermatogonia are the earliest stage, several steps removed from mature sperm.",
+    "d": "Correct — spermatids differentiate directly into mature sperm."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 140,
+  "match_question_text": "Uterus opens into the vagina through",
+  "match_option_a": "Cervix",
+  "set": {
+   "option_b": "Fallopian tube",
+   "option_c": "External genitalia",
+   "explanation_options": {
+    "a": "Correct — the cervix is precisely this connecting structure.",
+    "b": "Wrong — the fallopian tube connects the ovary to the uterus, not the uterus to the vagina.",
+    "c": "Wrong — external genitalia refers to the outer visible structures, not the internal uterus-vagina connection.",
+    "d": "Wrong — the vulva refers to the external female genitalia collectively, not this internal connection."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 141,
+  "match_question_text": "Each muscle fibre is surrounded by membrane which is called",
+  "match_option_a": "Sarcomere",
+  "set": {
+   "option_b": "Sarcolemma",
+   "option_c": "Twitch fibre",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — a sarcomere is the contractile unit within the myofibril, not the surrounding membrane.",
+    "b": "Correct — sarcolemma is the muscle fibre's surrounding membrane.",
+    "c": "Wrong — 'twitch fibre' describes a type of muscle fibre based on contraction speed, not its membrane.",
+    "d": "Wrong — 'capsule' isn't the standard term for a muscle fibre's membrane."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 142,
+  "match_question_text": "When calcium ions are released from the sarcoplasmic reticulum they bind with ________ during muscle contraction",
+  "match_option_a": "Tropomyosin",
+  "set": {
+   "option_b": "Sarcolemma",
+   "option_c": "Cytosol’s ions",
+   "explanation_options": {
+    "a": "Wrong — tropomyosin moves as a downstream consequence, but doesn't directly bind the calcium itself.",
+    "b": "Wrong — sarcolemma is the muscle cell's outer membrane, unrelated to calcium binding at the contractile filaments.",
+    "c": "Wrong — 'cytosol's ions' is too vague/generic, not the specific calcium-binding protein.",
+    "d": "Correct — troponin is the direct calcium-binding protein triggering contraction."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 143,
+  "match_question_text": "Human and mammalian skeleton can be divided into two parts, axial skeleton and",
+  "match_option_a": "Appendicular skeleton",
+  "set": {
+   "option_b": "Exoskeleton",
+   "option_c": "Endoskeleton",
+   "explanation_options": {
+    "a": "Correct — appendicular skeleton is the other half of this two-part classification.",
+    "b": "Wrong — exoskeleton (external skeleton, like in insects) is a different skeletal type entirely, not found in humans.",
+    "c": "Wrong — endoskeleton is the broader category (internal skeleton) that both axial and appendicular skeletons belong to, not the specific complementary term.",
+    "d": "Wrong — hydrostatic skeleton (fluid-based support, like in earthworms) is an entirely different skeletal system, not relevant to mammals."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 144,
+  "match_question_text": "Last four vertebrae in humans are fused to form a structure called",
+  "match_option_a": "Sacrum",
+  "set": {
+   "option_b": "Cervical vertebrae",
+   "option_c": "Pubis",
+   "explanation_options": {
+    "a": "Wrong — the sacrum is formed by 5 fused vertebrae, located just above the coccyx.",
+    "b": "Wrong — cervical vertebrae are the 7 neck vertebrae, at the opposite end of the spine.",
+    "c": "Wrong — the pubis is a pelvic bone, not a vertebral structure.",
+    "d": "Correct — the coccyx is formed by the fusion of the last four vertebrae."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 145,
+  "match_question_text": "How many bones are involved in the formation of each half of pelvic girdle?",
+  "match_option_a": "3 bones",
+  "set": {
+   "option_b": "4 bones",
+   "option_c": "2 bones",
+   "explanation_options": {
+    "a": "Correct — three bones (ilium, ischium, pubis) fuse to form each half.",
+    "b": "Wrong — overcounts; only three bones are involved.",
+    "c": "Wrong — undercounts the three-bone fusion.",
+    "d": "Wrong — the hip bone is a fusion of three originally separate bones, not a single bone from the start."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 146,
+  "match_question_text": "Ductless glands are known as",
+  "match_option_a": "Endocrine gland",
+  "set": {
+   "option_b": "Exocrine gland",
+   "option_c": "Salivary glands",
+   "explanation_options": {
+    "a": "Correct — endocrine glands are precisely the ductless type.",
+    "b": "Wrong — exocrine glands are defined by having ducts, the opposite of ductless.",
+    "c": "Wrong — salivary glands are exocrine (they have ducts), the opposite type.",
+    "d": "Wrong — bile is secreted via ducts (bile ducts), making this an exocrine-type secretion, not ductless."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 147,
+  "match_question_text": "Gastrin is the hormone which is produced by the",
+  "match_option_a": "Liver",
+  "set": {
+   "option_b": "Adrenal gland",
+   "option_c": "Pyloric region of stomach",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — the liver doesn't produce gastrin.",
+    "b": "Wrong — the adrenal gland produces different hormones (like adrenaline, cortisol), not gastrin.",
+    "c": "Correct — the pyloric region of the stomach is gastrin's specific site of production.",
+    "d": "Wrong — while intestinal cells produce other digestive hormones, gastrin itself comes from the stomach's pyloric region."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 149,
+  "match_question_text": "Vasopressin and Oxytocin are released from the",
+  "match_option_a": "Placenta",
+  "set": {
+   "option_b": "Ovary",
+   "option_c": "Anterior pituitary",
+   "explanation_options": {
+    "a": "Wrong — the placenta isn't the release site for these specific hormones.",
+    "b": "Wrong — the ovary produces estrogen/progesterone, not vasopressin/oxytocin.",
+    "c": "Wrong — the anterior pituitary releases a different set of hormones it produces itself.",
+    "d": "Correct — the posterior pituitary is the release site for both vasopressin and oxytocin."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 150,
+  "match_question_text": "Antigen is a foreign protein or any other molecule which stimulates the formation of",
+  "match_option_a": "MHC complex",
+  "set": {
+   "option_b": "Immunogen",
+   "option_c": "Mucus",
+   "explanation_options": {
+    "a": "Wrong — the MHC complex is involved in antigen presentation to immune cells, not the direct product antigens stimulate.",
+    "b": "Wrong — 'immunogen' is essentially another term closely related to antigen itself, not what antigens produce.",
+    "c": "Wrong — mucus is a physical barrier secretion, unrelated to this specific antigen-triggered response.",
+    "d": "Correct — antibodies are specifically what antigens stimulate the immune system to produce."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 151,
+  "match_question_text": "Antibodies are produced by which of the following lymphocytes?",
+  "match_option_a": "B lymphocytes",
+  "set": {
+   "option_b": "A lymphocytes",
+   "option_c": "T lymphocytes",
+   "explanation_options": {
+    "a": "Correct — B lymphocytes are the antibody-producing cells.",
+    "b": "Wrong — 'A lymphocytes' isn't a real immune cell category.",
+    "c": "Wrong — T lymphocytes handle cell-mediated immunity, not direct antibody production.",
+    "d": "Wrong — while T cells assist B cells' activation in some cases, antibody production itself is specifically a B-cell function."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 152,
+  "match_question_text": "T-lymphocytes become mature and competent under the influence of",
+  "match_option_a": "Liver",
+  "set": {
+   "option_b": "Bursa of fabricius",
+   "option_c": "Thymus gland",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — the liver isn't the maturation site for T-lymphocytes.",
+    "b": "Wrong — the Bursa of Fabricius is a bird-specific organ for B-lymphocyte maturation, not relevant to human T-cells.",
+    "c": "Correct — the thymus gland is precisely where T-lymphocytes mature.",
+    "d": "Wrong — the spleen filters blood and houses immune cells, but isn't the primary T-cell maturation site."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 153,
+  "match_question_text": "Skin and mucous membranes are part of the body defense system and they form the",
+  "match_option_a": "Physical barrier",
+  "set": {
+   "option_b": "Mechanical barriers",
+   "option_c": "Chemical barriers",
+   "explanation_options": {
+    "a": "Correct — skin and mucous membranes are classified as the physical barrier.",
+    "b": "Wrong — 'mechanical barriers' isn't the standard classification term used here (physical barrier is the standard term).",
+    "c": "Wrong — chemical barriers refer to substances like stomach acid or lysozyme, a different defense category.",
+    "d": "Wrong — 'biological barriers' isn't the standard classification term for this specific defense type."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 154,
+  "match_question_text": "Snake bite is treated with which type of immunization?",
+  "match_option_a": "Active",
+  "set": {
+   "option_b": "Passive",
+   "option_c": "Humoral",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — active immunity would take too long to develop for an urgent snake bite emergency.",
+    "b": "Correct — antivenom is a classic example of passive immunization.",
+    "c": "Wrong — 'humoral' describes antibody-mediated immunity generally, not specifically the passive/active distinction being asked about here.",
+    "d": "Wrong — 'specific' describes targeting a particular antigen, not the passive/active distinction being asked about here."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 155,
+  "match_question_text": "The product(s) of cyclic photophosphorylation is / are:",
+  "match_option_a": "ATP",
+  "set": {
+   "option_b": "NADP",
+   "option_c": "NADP and ATP",
+   "explanation_options": {
+    "a": "Correct — ATP is the sole product of cyclic photophosphorylation.",
+    "b": "Wrong — NADP(H) alone isn't produced by the cyclic pathway at all.",
+    "c": "Wrong — NADP(H) is a product of non-cyclic (not cyclic) photophosphorylation.",
+    "d": "Wrong — this full product list (including O2 from water-splitting) describes non-cyclic photophosphorylation, not cyclic."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 156,
+  "match_question_text": "Total NADH formed by one glucose molecule during Krebs’s Cycle are",
+  "match_option_a": "6",
+  "set": {
+   "option_b": "3",
+   "option_c": "8",
+   "explanation_options": {
+    "a": "Correct — 6 NADH total (3 per turn × 2 turns) from the Krebs cycle.",
+    "b": "Wrong — this is the per-turn (not per-glucose) NADH yield; forgetting to double it for 2 turns.",
+    "c": "Wrong — doesn't match the 3×2 calculation.",
+    "d": "Wrong — far exceeds the actual Krebs cycle NADH yield."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 157,
+  "match_question_text": "The terminal electron acceptor in electron transport chain is",
+  "match_option_a": "Hydrogen",
+  "set": {
+   "option_b": "Iron",
+   "option_c": "Cytochrome",
+   "explanation_options": {
+    "a": "Wrong — hydrogen (as protons) combines with the final acceptor but isn't itself the acceptor.",
+    "b": "Wrong — iron is a component within cytochromes (carriers), not the final acceptor itself.",
+    "c": "Wrong — cytochromes are electron carriers along the chain, not the final destination.",
+    "d": "Correct — oxygen is the true terminal electron acceptor."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 158,
+  "match_question_text": "The end product of glycolysis is",
+  "match_option_a": "ADP",
+  "set": {
+   "option_b": "Reduced FAD",
+   "option_c": "Citric acid",
+   "explanation_options": {
+    "a": "Wrong — ADP is a reactant/byproduct in the ATP-generating steps, not the pathway's overall end product.",
+    "b": "Wrong — reduced FAD (FADH2) is produced in the Krebs cycle, not glycolysis.",
+    "c": "Wrong — citric acid is formed in the Krebs cycle, a later stage of respiration, not glycolysis.",
+    "d": "Correct — pyruvate is glycolysis's defining end product."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 159,
+  "match_question_text": "One molecule of FADH2 is produced in Krebs’s cycle during conversion of",
+  "match_option_a": "Fumarate Malate",
+  "set": {
+   "option_b": "Succinate → Fumarate",
+   "option_c": "Malate → Oxaloacetate",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — fumarate to malate is a different step (producing neither FADH2 nor NADH directly at that specific step).",
+    "b": "Correct — succinate to fumarate is specifically the FADH2-producing step.",
+    "c": "Wrong — malate to oxaloacetate produces NADH, not FADH2.",
+    "d": "Wrong — α-ketoglutarate to succinate produces NADH (and GTP/ATP), not FADH2."
+   },
+   "option_a": "Fumarate → Malate",
+   "option_d": "α-Ketoglutarate → Succinate"
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 160,
+  "match_question_text": "In recombinant DNA technology _________ are tools for manipulating DNA",
+  "match_option_a": "Viruses",
+  "set": {
+   "option_b": "Chromosomes",
+   "option_c": "Enzymes",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — viruses can serve as vectors in some techniques, but aren't the general 'tools' for DNA manipulation itself.",
+    "b": "Wrong — chromosomes are the DNA-containing structures being manipulated, not the tools doing the manipulating.",
+    "c": "Correct — enzymes (restriction enzymes, ligases) are the essential DNA-manipulating tools.",
+    "d": "Wrong — genes are the target segments of interest, not the tools used to manipulate DNA."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 161,
+  "match_question_text": "In DNA finger printing process, the use of __________ produces distinctive pattern on autoradiography or X-ray film",
+  "match_option_a": "Restriction enzyme",
+  "set": {
+   "option_b": "Microsatellites",
+   "option_c": "Macrosatellites",
+   "explanation_options": {
+    "a": "Wrong — restriction enzymes cut DNA into fragments earlier in the process, but don't themselves create the visible banding pattern.",
+    "b": "Wrong — while microsatellites are the type of repetitive sequence often targeted, it's the labeled probes that actually create the visible pattern.",
+    "c": "Wrong — 'macrosatellites' isn't the standard term used in this specific DNA fingerprinting step.",
+    "d": "Correct — labeled probes for genetic markers directly produce the visible pattern on the film."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 162,
+  "match_question_text": "In the recombinant DNA technology plasmids are used as",
+  "match_option_a": "Genetic material",
+  "set": {
+   "option_b": "Enzymes",
+   "option_c": "Vectors",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — plasmids can carry genetic material, but their specific role here is as the delivery vehicle (vector), not as the primary genetic material being studied.",
+    "b": "Wrong — plasmids aren't enzymes; they're DNA molecules.",
+    "c": "Correct — plasmids function specifically as vectors in this technology.",
+    "d": "Wrong — probes are separate tools used for detection, not the vector role plasmids play."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 163,
+  "match_question_text": "In which process, multiple copies of the desired genes are produced?",
+  "match_option_a": "Polymerase chain reaction",
+  "set": {
+   "option_b": "Gene sequencing",
+   "option_c": "Analyzing DNA",
+   "explanation_options": {
+    "a": "Correct — PCR is specifically designed to produce multiple copies of target DNA.",
+    "b": "Wrong — gene sequencing determines the order of bases, a different process from copy amplification.",
+    "c": "Wrong — 'analyzing DNA' is too vague/generic, not the specific gene-copying process described.",
+    "d": "Wrong — DNA fingerprinting compares patterns for identification, a different application from gene copying."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 164,
+  "match_question_text": "The enzyme adenosine deaminase is missing in person suffering from:",
+  "match_option_a": "Cystic fibrosis",
+  "set": {
+   "option_b": "Hypercholesterolemia",
+   "option_c": "Severe combined immunodeficiency syndrome",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — cystic fibrosis results from a defective chloride channel gene (CFTR), unrelated to adenosine deaminase.",
+    "b": "Wrong — hypercholesterolemia relates to LDL receptor defects and cholesterol metabolism, unrelated to this enzyme.",
+    "c": "Correct — SCID is specifically caused by this enzyme deficiency.",
+    "d": "Wrong — Parkinson's disease results from dopamine-producing neuron loss, unrelated to this enzyme."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 165,
+  "match_question_text": "What is the niche of an organism in an ecosystem?",
+  "match_option_a": "Role played by many organisms in an ecosystem",
+  "set": {
+   "option_b": "Role played by a dead organism in an ecosystem",
+   "option_c": "Role played by community of microorganisms in their ecosystem",
+   "explanation_options": {
+    "a": "Wrong — a niche describes one organism's/species' role, not a role 'played by many organisms' collectively.",
+    "b": "Wrong — a niche describes a living organism's functional role, not specifically a dead organism's.",
+    "c": "Wrong — this describes a microbial community's collective role, not an individual organism's niche.",
+    "d": "Correct — niche is precisely the role an organism plays in its own ecosystem."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 166,
+  "match_question_text": "The distinct levels or links of food chain are called",
+  "match_option_a": "Trophic level",
+  "set": {
+   "option_b": "Food web",
+   "option_c": "Energy pyramid",
+   "explanation_options": {
+    "a": "Correct — trophic level is precisely the term for each distinct feeding link.",
+    "b": "Wrong — a food web is the network of interconnected food chains, not a single feeding level.",
+    "c": "Wrong — an energy pyramid visually represents the trophic levels, but isn't itself the name for a single level.",
+    "d": "Wrong — 'food chain' is the whole linear sequence, not the term for one individual link within it."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 167,
+  "match_question_text": "A relationship between two or more organisms of different species in which all partners get benefit is called",
+  "match_option_a": "Symbiosis",
+  "set": {
+   "option_b": "Parasitism",
+   "option_c": "Commensalism",
+   "explanation_options": {
+    "a": "Correct — among these choices, symbiosis describes this all-partners-benefit relationship.",
+    "b": "Wrong — parasitism benefits one partner at the other's expense.",
+    "c": "Wrong — commensalism benefits only one partner while the other is unaffected, not both.",
+    "d": "Wrong — predation involves one organism consuming another, not a mutual benefit."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 168,
+  "match_question_text": "Bacteria and fungi are examples of",
+  "match_option_a": "Producers",
+  "set": {
+   "option_b": "Decomposers",
+   "option_c": "Consumers",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — producers (like plants) make their own food via photosynthesis, a different ecological role.",
+    "b": "Correct — bacteria and fungi are the classic decomposer examples.",
+    "c": "Wrong — consumers (animals) eat other organisms for energy, a different role from decomposition.",
+    "d": "Wrong — 'Denvers' isn't a real ecological classification term."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 169,
+  "match_question_text": "The cause of acid rain is",
+  "match_option_a": "Oxides of carbon",
+  "set": {
+   "option_b": "Oxides of nitrogen and Sulphur",
+   "option_c": "Oxides of Sulphur",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — carbon oxides (like CO2) contribute to the greenhouse effect, not primarily to acid rain's characteristic acidity.",
+    "b": "Correct — both nitrogen and sulphur oxides together cause acid rain.",
+    "c": "Wrong — sulphur oxides alone are only part of the cause; nitrogen oxides also contribute significantly.",
+    "d": "Wrong — nitrogen oxides alone are only part of the cause; sulphur oxides also contribute significantly."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 170,
+  "match_question_text": "When the presence of a gene at one locus suppresses the effect of a gene at another locus, the phenomenon is called",
+  "match_option_a": "Hypostasis",
+  "set": {
+   "option_b": "Pleiotropy",
+   "option_c": "Epistasis",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — 'hypostasis' describes the gene being suppressed (the masked one), not the overall phenomenon of one gene suppressing another.",
+    "b": "Wrong — pleiotropy describes one gene affecting multiple traits, a different phenomenon.",
+    "c": "Correct — epistasis is the general term for this cross-locus suppression phenomenon.",
+    "d": "Wrong — 'epitropy' isn't a standard genetics term."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 171,
+  "match_question_text": "The gene for ABO-blood group systems in humans is represented by symbol:",
+  "match_option_a": "X",
+  "set": {
+   "option_b": "I",
+   "option_c": "Y",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — 'X' typically denotes the X chromosome or X-linked traits, not the ABO gene symbol.",
+    "b": "Correct — 'I' is the standard symbol for the ABO blood group gene.",
+    "c": "Wrong — 'Y' typically denotes the Y chromosome, not the ABO gene symbol.",
+    "d": "Wrong — 'O' refers to one of the blood type phenotypes/alleles itself, not the gene symbol convention."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 172,
+  "match_question_text": "When a single gene affects two or more traits, the phenomenon is called",
+  "match_option_a": "Epistasis",
+  "set": {
+   "option_b": "Pleiotropy",
+   "option_c": "Dominance",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — epistasis describes one gene masking a different gene's effect, not a single gene producing multiple traits.",
+    "b": "Correct — pleiotropy precisely describes this single-gene, multiple-trait phenomenon.",
+    "c": "Wrong — dominance describes how alleles interact at a single locus, unrelated to multi-trait effects.",
+    "d": "Wrong — over-dominance describes a heterozygote phenotype exceeding both homozygotes, a different phenomenon."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 173,
+  "match_question_text": "The comparative embryology of all vertebrates shows development of",
+  "match_option_a": "Hairs",
+  "set": {
+   "option_b": "Gill pouches",
+   "option_c": "Scales",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — hairs are a mammal-specific feature, not seen across all vertebrate embryos.",
+    "b": "Correct — gill pouches are the universally shared embryonic feature across all vertebrates.",
+    "c": "Wrong — scales are specific to fish/reptiles, not universally seen across all vertebrate embryos.",
+    "d": "Wrong — fins are fish-specific structures, not seen across all vertebrate embryos."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 174,
+  "match_question_text": "In men, sex-determination depends upon the nature of",
+  "match_option_a": "Heterogametic male",
+  "set": {
+   "option_b": "Homogametic female",
+   "option_c": "Heterogametic female",
+   "explanation_options": {
+    "a": "Correct — the heterogametic male (producing X or Y sperm) determines offspring sex in humans.",
+    "b": "Wrong — human females are homogametic, meaning they don't determine offspring sex this way.",
+    "c": "Wrong — human females are homogametic (XX), not heterogametic.",
+    "d": "Wrong — human males are heterogametic (not homogametic), which is exactly why they determine offspring sex."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 175,
+  "match_question_text": "Population of different species (plants and animals) living in the same habitat form a",
+  "match_option_a": "Community",
+  "set": {
+   "option_b": "Ecosystem",
+   "option_c": "Biosphere",
+   "explanation_options": {
+    "a": "Correct — a community is exactly this collection of different species' populations sharing a habitat.",
+    "b": "Wrong — an ecosystem includes both the community AND its non-living (abiotic) environment, a broader concept than just the populations.",
+    "c": "Wrong — the biosphere is the global sum of all ecosystems, a much larger scale than one habitat's community.",
+    "d": "Wrong — a microhabitat is a small-scale specific location within a larger habitat, not the term for the species collection itself."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 176,
+  "match_question_text": "The part of the body which forms a structural and functional unit and is composed of more than one tissue is called",
+  "match_option_a": "Organ",
+  "set": {
+   "option_b": "Organelle",
+   "option_c": "Organ system",
+   "explanation_options": {
+    "a": "Correct — an organ is defined as this multi-tissue structural/functional unit.",
+    "b": "Wrong — an organelle is a much smaller structure within a single cell, not made of multiple tissues.",
+    "c": "Wrong — an organ system is a higher level, composed of multiple organs working together, not just multiple tissues.",
+    "d": "Wrong — a whole organism is the highest level, composed of multiple organ systems, not just tissues."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 177,
+  "match_question_text": "A method in which pests are destroyed by using same living organisms or natural enemies is called",
+  "match_option_a": "Pasteurization",
+  "set": {
+   "option_b": "Integrated disease management",
+   "option_c": "Biological control",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — pasteurization is a food-preservation heating technique, unrelated to pest control.",
+    "b": "Wrong — integrated disease management is a broader, combined-strategy approach (potentially including biological control as one tool among several), not this specific single-method term.",
+    "c": "Correct — biological control precisely describes using natural enemies against pests.",
+    "d": "Wrong — genetic engineering involves directly modifying an organism's DNA, a different approach from using natural enemies."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 178,
+  "match_question_text": "Chemicals produced by microorganisms which are capable of destroying the growth of microbes are called",
+  "match_option_a": "Antigen",
+  "set": {
+   "option_b": "Biocidal",
+   "option_c": "Antiseptics",
+   "explanation_options": {
+    "a": "Wrong — an antigen is a molecule that triggers an immune response, unrelated to this microbe-produced growth-inhibiting chemical.",
+    "b": "Wrong — 'biocidal' is a general descriptive term (killing living things), not the specific named category being asked about.",
+    "c": "Wrong — antiseptics are chemicals applied externally to prevent infection, not specifically microorganism-produced compounds.",
+    "d": "Correct — antibiotics are precisely these microorganism-produced, microbe-growth-destroying chemicals."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 179,
+  "match_question_text": "Plastids are only found in the",
+  "match_option_a": "Animals and Plants",
+  "set": {
+   "option_b": "Animals",
+   "option_c": "Plants",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — plastids aren't found in animal cells at all.",
+    "b": "Wrong — animal cells entirely lack plastids.",
+    "c": "Correct — plastids are exclusively a plant cell feature.",
+    "d": "Wrong — viruses aren't cells and don't contain organelles like plastids."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 180,
+  "match_question_text": "Plasma membrane is chemically composed of",
+  "match_option_a": "Phospholipids only",
+  "set": {
+   "option_b": "Lipids and proteins",
+   "option_c": "Lipids and carbohydrates",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — phospholipids alone omit the embedded proteins, a major structural component.",
+    "b": "Correct — lipids and proteins are the membrane's two primary chemical components.",
+    "c": "Wrong — carbohydrates are a minor additional component (as glycoproteins/glycolipids), not one of the two main components alongside lipids.",
+    "d": "Wrong — glycoproteins alone are just one specific minor component, not the overall main composition."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 181,
+  "match_question_text": "Endoplasmic reticulum contains a system of flattened membrane-bounded sacs which are named as",
+  "match_option_a": "Cristae",
+  "set": {
+   "option_b": "Marks",
+   "option_c": "Cisternae",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — cristae are the folded inner membrane structures of mitochondria, a different organelle entirely.",
+    "b": "Wrong — 'marks' isn't a standard cell biology term.",
+    "c": "Correct — cisternae is the correct term for these flattened ER sacs.",
+    "d": "Wrong — tubules describe the tube-shaped (not flattened sac-shaped) portions of the ER network."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 182,
+  "match_question_text": "Lipids synthesis / metabolism takes place in which of the following organelle?",
+  "match_option_a": "Mitochondria",
+  "set": {
+   "option_b": "Vacuoles",
+   "option_c": "Rough endoplasmic reticulum",
+   "explanation_options": {
+    "a": "Wrong — mitochondria specialize in ATP production via respiration, not lipid synthesis.",
+    "b": "Wrong — vacuoles are primarily for storage/waste disposal, not lipid synthesis.",
+    "c": "Wrong — RER specializes in protein synthesis, not lipids.",
+    "d": "Correct — SER is specifically the site of lipid synthesis/metabolism."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 183,
+  "match_question_text": "Ribosomes exist in two forms, either attached with RER or freely dispersed in the",
+  "match_option_a": "Tonoplast",
+  "set": {
+   "option_b": "Golgi bodies",
+   "option_c": "Cytoplasm",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — the tonoplast is the vacuole's membrane, not where free ribosomes are found.",
+    "b": "Wrong — Golgi bodies process/package proteins after synthesis, not where free ribosomes are located.",
+    "c": "Correct — the cytoplasm is where free (unattached) ribosomes are dispersed.",
+    "d": "Wrong — SER lacks ribosomes altogether (that's what makes it 'smooth'), so free ribosomes aren't found there."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 184,
+  "match_question_text": "Exchange of segments between homologous chromosomes is called",
+  "match_option_a": "Segregation",
+  "set": {
+   "option_b": "Independent assortment",
+   "option_c": "Crossing over",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — segregation refers to homologous chromosomes/alleles separating during meiosis, not exchanging segments.",
+    "b": "Wrong — independent assortment refers to random orientation of chromosome pairs, a different diversity mechanism.",
+    "c": "Correct — crossing over is precisely this segment-exchange process.",
+    "d": "Wrong — mutation is a change in DNA sequence itself, not a chromosome segment exchange between homologs."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 185,
+  "match_question_text": "If a person has 44 autosomes + XXY, he will suffer from",
+  "match_option_a": "Klinefelter’s syndrome",
+  "set": {
+   "option_b": "Down’s syndrome",
+   "option_c": "Turner’s syndrome",
+   "explanation_options": {
+    "a": "Correct — 44 autosomes + XXY is precisely the Klinefelter's syndrome karyotype.",
+    "b": "Wrong — Down's syndrome involves an extra chromosome 21 (autosomal trisomy), not a sex chromosome abnormality.",
+    "c": "Wrong — Turner's syndrome involves a single X chromosome (XO), not XXY.",
+    "d": "Wrong — Edward's syndrome involves an extra chromosome 18 (autosomal trisomy), not a sex chromosome abnormality."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 186,
+  "match_question_text": "The ribosomal RNA is synthesized and stored in",
+  "match_option_a": "Endoplasmic reticulum",
+  "set": {
+   "option_b": "Nucleolus",
+   "option_c": "Golgi complex",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — the endoplasmic reticulum processes proteins/lipids, not where rRNA is synthesized.",
+    "b": "Correct — the nucleolus is specifically where rRNA is synthesized and stored.",
+    "c": "Wrong — the Golgi complex packages/modifies proteins after synthesis, not where rRNA is made.",
+    "d": "Wrong — chromosomes carry the DNA genes (including rRNA genes), but the nucleolus is the specific structure where the actual rRNA synthesis/storage occurs."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 187,
+  "match_question_text": "In which stage of Interphase, there is increase in cell size and many biochemical are formed?",
+  "match_option_a": "G2 phase",
+  "set": {
+   "option_b": "G1 phase",
+   "option_c": "S phase",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — G2 phase occurs after DNA replication, preparing specifically for mitosis, not this initial growth period.",
+    "b": "Correct — G1 phase is when cell size increases and biochemical synthesis occurs.",
+    "c": "Wrong — S phase is specifically when DNA replication occurs, not general cell growth.",
+    "d": "Wrong — 'C phase' isn't a standard recognized phase of the cell cycle."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 188,
+  "match_question_text": "In Down’s syndrome, which one of the following pair of chromosome fails to segregate?",
+  "match_option_a": "7",
+  "set": {
+   "option_b": "18",
+   "option_c": "21",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — chromosome 7 isn't associated with Down's syndrome.",
+    "b": "Wrong — chromosome 18 trisomy causes Edwards syndrome, a different condition.",
+    "c": "Correct — chromosome 21 is specifically associated with Down's syndrome.",
+    "d": "Wrong — chromosome 19 isn't associated with any major well-known trisomy syndrome like this."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 189,
+  "match_question_text": "Carbohydrates are organic molecules and contain three elements",
+  "match_option_a": "Carbon, water and oxygen",
+  "set": {
+   "option_b": "Carbon, Sulphur and hydrogen",
+   "option_c": "Carbon, calcium and hydrogen",
+   "explanation_options": {
+    "a": "Wrong — 'water' isn't itself an element; carbohydrates are composed of carbon, hydrogen, and oxygen atoms.",
+    "b": "Wrong — sulphur isn't a component element of carbohydrates (though it is found in some proteins).",
+    "c": "Wrong — calcium isn't a component element of carbohydrates.",
+    "d": "Correct — carbon, hydrogen, and oxygen are precisely carbohydrates' three constituent elements."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 190,
+  "match_question_text": "Which one are intermediates in respiration and photosynthesis both?",
+  "match_option_a": "Ribose and heptolose",
+  "set": {
+   "option_b": "Glyceraldehydes and dihydroxyacetone",
+   "option_c": "Glucose and galactose",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — ribose and heptulose sugars are specific to other biochemical pathways (like the pentose phosphate pathway and Calvin cycle, respectively), not shared intermediates in both processes as described here.",
+    "b": "Correct — glyceraldehyde and dihydroxyacetone are the shared three-carbon intermediates.",
+    "c": "Wrong — glucose and galactose are end-stage/storage sugars, not intermediates shared this specific way in both processes.",
+    "d": "Wrong — fructose and ribulose are specific to particular individual pathways, not this shared dual-process role."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 191,
+  "match_question_text": "Which of the following is a peptide bond?",
+  "match_option_a": "–C–N",
+  "set": {
+   "option_b": "–C–O",
+   "option_c": "–C–P",
+   "explanation_options": {
+    "a": "Correct — the peptide (amide) bond links carbon to nitrogen.",
+    "b": "Wrong — a C-O bond alone doesn't describe the peptide linkage (though oxygen is part of the carbonyl group involved).",
+    "c": "Wrong — no phosphorus is involved in a peptide bond.",
+    "d": "Wrong — no sulfur is involved in a standard peptide bond."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 192,
+  "match_question_text": "Which of the following is an unsaturated fatty acid?",
+  "match_option_a": "Acetic Acid",
+  "set": {
+   "option_b": "Butyric acid",
+   "option_c": "Oleic acid",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — acetic acid is a short, fully saturated carboxylic acid.",
+    "b": "Wrong — butyric acid is a fully saturated fatty acid.",
+    "c": "Correct — oleic acid contains a double bond, making it unsaturated.",
+    "d": "Wrong — palmitic acid is a fully saturated fatty acid."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 193,
+  "match_question_text": "Which of the following combination of base pair is absent in DNA?",
+  "match_option_a": "A–T",
+  "set": {
+   "option_b": "C–G",
+   "option_c": "A–U",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — A-T pairing is a standard, present base pair in DNA.",
+    "b": "Wrong — C-G pairing is a standard, present base pair in DNA.",
+    "c": "Correct — A-U pairing doesn't occur in DNA since DNA doesn't contain uracil at all.",
+    "d": "Wrong — T-A is just the same A-T pair written in reverse order, still present in DNA."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 194,
+  "match_question_text": "The type of inhibition in which inhibitor has no structural similarity to substrate and combines with enzyme at other than the active site is called",
+  "match_option_a": "Irreversible inhibition",
+  "set": {
+   "option_b": "Competitive inhibition",
+   "option_c": "Non-competitive and reversible inhibition",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — irreversible inhibition describes permanent binding/damage, a separate classification from the site-of-binding distinction being described here.",
+    "b": "Wrong — competitive inhibition specifically requires structural similarity to the substrate, the opposite of what's described.",
+    "c": "Correct — non-competitive and reversible inhibition matches both clues: different binding site, no substrate resemblance.",
+    "d": "Wrong — 'reversible inhibition' alone is too general; it doesn't specify the binding-site detail that identifies this as non-competitive specifically."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 195,
+  "match_question_text": "The inhibitors that bind tightly and permanently to enzymes and destroy their globular structure and catalytic activity are",
+  "match_option_a": "Reversible inhibitors",
+  "set": {
+   "option_b": "Irreversible inhibitors",
+   "option_c": "Competitive inhibitors",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — reversible inhibitors, by definition, don't cause permanent structural damage.",
+    "b": "Correct — irreversible inhibitors are precisely those causing permanent, tight binding and structural damage.",
+    "c": "Wrong — competitive inhibitors typically bind reversibly at the active site, not causing permanent structural destruction.",
+    "d": "Wrong — non-competitive inhibitors can be either reversible or irreversible, but the specific 'tight and permanent, structure-destroying' description matches the irreversible category specifically."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 196,
+  "match_question_text": "Enzyme succinate dehydrogenase converts succinate into",
+  "match_option_a": "Malate",
+  "set": {
+   "option_b": "Malonic acid",
+   "option_c": "Citrate",
+   "explanation_options": {
+    "a": "Wrong — malate is formed later in the cycle, from fumarate (via fumarase), not directly from succinate.",
+    "b": "Wrong — malonic acid is actually a well-known competitive INHIBITOR of succinate dehydrogenase, not its product.",
+    "c": "Wrong — citrate is formed earlier in the cycle, from oxaloacetate + acetyl-CoA, unrelated to this specific enzyme step.",
+    "d": "Correct — fumarate is the direct product of succinate dehydrogenase's action on succinate."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 197,
+  "match_question_text": "If the detachable co-factor is an inorganic ion then it is designated as",
+  "match_option_a": "Coenzyme",
+  "set": {
+   "option_b": "Prosthetic group",
+   "option_c": "Holoenzyme",
+   "explanation_options": {
+    "a": "Wrong — a coenzyme specifically refers to an organic (not inorganic) loosely-bound cofactor.",
+    "b": "Wrong — a prosthetic group is tightly/permanently bound, not detachable as described here.",
+    "c": "Wrong — a holoenzyme is the complete, active enzyme (apoenzyme + cofactor combined), not the cofactor itself.",
+    "d": "Correct — activator is the specific term for a detachable inorganic ion cofactor."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 198,
+  "match_question_text": "In HIV viruses, reverse transcriptase converts single-stranded RNA into double stranded viral DNA. This process is called",
+  "match_option_a": "Translation",
+  "set": {
+   "option_b": "Duplication",
+   "option_c": "Replication",
+   "explanation_options": {
+    "a": "Wrong — translation is protein synthesis from mRNA, an entirely different process.",
+    "b": "Wrong — 'duplication' is a vague synonym for replication, not the specific named process here.",
+    "c": "Wrong — replication normally describes DNA→DNA copying, not RNA→DNA conversion.",
+    "d": "Correct (by process of elimination, naming the responsible enzyme) — matches the RNA-to-DNA conversion described."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 199,
+  "match_question_text": "Mesosomes are infoldings of the cell membrane and are involved in",
+  "match_option_a": "DNA replication",
+  "set": {
+   "option_b": "RNA synthesis",
+   "option_c": "Protein synthesis",
+   "explanation_options": {
+    "a": "Correct — DNA replication is the primary function attributed to mesosomes.",
+    "b": "Wrong — RNA synthesis occurs via RNA polymerase acting on DNA, not specifically at mesosomes.",
+    "c": "Wrong — protein synthesis is carried out by ribosomes, not mesosomes.",
+    "d": "Wrong — 'metabolism' is too vague/general a term for mesosomes' specific, well-defined cited role."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 200,
+  "match_question_text": "Most widespread problem of the antibiotics misuse is the",
+  "match_option_a": "Rapid cure",
+  "set": {
+   "option_b": "Increased resistance in pathogen",
+   "option_c": "Disturbance of metabolism",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — misuse doesn't cause 'rapid cure'; if anything, it undermines effective treatment.",
+    "b": "Correct — increased pathogen resistance is the most significant, widely recognized consequence of antibiotic misuse.",
+    "c": "Wrong — while metabolic disturbance can occur as a side effect, it isn't the most widespread, defining problem of misuse.",
+    "d": "Wrong — antibiotics don't confer immunity; immunity comes from the body's own immune response or vaccination."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 201,
+  "match_question_text": "Which of the following component is found in the cell wall of fungi?",
+  "match_option_a": "Cellulose",
+  "set": {
+   "option_b": "Chitin",
+   "option_c": "Proteins",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — cellulose is the plant cell wall component, not fungal.",
+    "b": "Correct — chitin is specifically the fungal cell wall's structural component.",
+    "c": "Wrong — proteins aren't the primary structural component of fungal cell walls.",
+    "d": "Wrong — glycerol is a lipid-related molecule, not a cell wall structural component."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 202,
+  "match_question_text": "The male reproductive parts of the flower are called",
+  "match_option_a": "Gynoecium",
+  "set": {
+   "option_b": "Calyx",
+   "option_c": "Androecium",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — gynoecium refers to the female reproductive parts, the opposite of what's asked.",
+    "b": "Wrong — calyx refers to the sepals (the outer, usually green, protective flower parts), not reproductive structures.",
+    "c": "Correct — androecium is precisely the flower's male reproductive structure collection.",
+    "d": "Wrong — corolla refers to the petals, not reproductive structures."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 203,
+  "match_question_text": "Fasciola is the name given to",
+  "match_option_a": "Tapeworm",
+  "set": {
+   "option_b": "Planaria",
+   "option_c": "Liver fluke",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — tapeworms belong to a different genus (Taenia), a different type of parasitic flatworm.",
+    "b": "Wrong — Planaria is a free-living (non-parasitic) flatworm, unrelated to Fasciola.",
+    "c": "Correct — Fasciola is specifically the liver fluke.",
+    "d": "Wrong — earthworms are annelids, an entirely different phylum from flatworms like Fasciola."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 204,
+  "match_question_text": "Ascaris is",
+  "match_option_a": "Diploblastic",
+  "set": {
+   "option_b": "Triploblastic",
+   "option_c": "Haploid",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — diploblastic animals (like jellyfish) have only two germ layers, a simpler body plan than Ascaris.",
+    "b": "Correct — Ascaris has three germ layers, making it triploblastic.",
+    "c": "Wrong — 'haploid' describes chromosome number in gametes, an unrelated concept to germ-layer classification.",
+    "d": "Wrong — Ascaris is actually pseudocoelomate (has a body cavity, just not a true coelom), not acoelomate (no body cavity at all)."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 205,
+  "match_question_text": "During development, in an animal, mesoderm layer gives rise to",
+  "match_option_a": "Nervous System",
+  "set": {
+   "option_b": "Alimentary canal lining",
+   "option_c": "Muscular and skeletal system",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — the nervous system develops from ectoderm, not mesoderm.",
+    "b": "Wrong — the alimentary canal's lining develops from endoderm, not mesoderm.",
+    "c": "Correct — muscular and skeletal systems are classic mesoderm derivatives.",
+    "d": "Wrong — the mouth's lining develops from ectoderm (at the stomodeum), not mesoderm."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 206,
+  "match_question_text": "Polymorphism is characteristic feature of",
+  "match_option_a": "Porifera",
+  "set": {
+   "option_b": "Cnidaria",
+   "option_c": "Annelida",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — Porifera (sponges) don't show this polyp/medusa-style body-form polymorphism.",
+    "b": "Correct — Cnidaria is specifically known for polyp/medusa polymorphism.",
+    "c": "Wrong — Annelida (segmented worms) aren't characterized by this type of polymorphism.",
+    "d": "Wrong — Nematodes (roundworms) aren't characterized by this type of body-form polymorphism."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 207,
+  "match_question_text": "The muscles of the stomach walls thoroughly mix up the food with gastric juices and the resulting semi-solid / semi-liquid material is called",
+  "match_option_a": "Bolus",
+  "set": {
+   "option_b": "Bolus or chime",
+   "option_c": "Mucus",
+   "explanation_options": {
+    "a": "Wrong — bolus specifically refers to the pre-stomach, mouth-formed food mass, not the stomach's processed mixture.",
+    "b": "Wrong — combining both terms imprecisely; the correct, specific term for the stomach-processed mixture is chyme alone.",
+    "c": "Wrong — mucus is a stomach lining secretion (protective), not the food-and-juice mixture itself.",
+    "d": "Correct — chyme is the precise term for this semi-liquid, gastric-juice-mixed food mass."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 208,
+  "match_question_text": "Trypsinogen is converted into trypsin by the activity of",
+  "match_option_a": "Goblet cells",
+  "set": {
+   "option_b": "Absorptive cells",
+   "option_c": "Enterokinase",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — goblet cells secrete mucus, not enzyme-activating substances.",
+    "b": "Wrong — absorptive cells handle nutrient absorption, not enzyme activation.",
+    "c": "Correct — enterokinase is specifically the enzyme responsible for this activation.",
+    "d": "Wrong — peptidases break down peptide bonds in proteins generally, but aren't the specific activator of trypsinogen."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 209,
+  "match_question_text": "In large intestines, vitamin K is formed by the activity of",
+  "match_option_a": "Symbiotic bacteria",
+  "set": {
+   "option_b": "Obligate parasite",
+   "option_c": "Parasitic bacteria",
+   "explanation_options": {
+    "a": "Correct — symbiotic (mutualistic) bacteria are responsible for this vitamin K production.",
+    "b": "Wrong — an obligate parasite similarly wouldn't provide this kind of mutual benefit.",
+    "c": "Wrong — parasitic bacteria would harm the host, not provide a beneficial vitamin.",
+    "d": "Wrong — 'facultative bacteria' describes a metabolic flexibility (can live with or without oxygen), not the specific symbiotic relationship being asked about."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 210,
+  "match_question_text": "Goblet cells secrete",
+  "match_option_a": "HCl",
+  "set": {
+   "option_b": "Mucus",
+   "option_c": "Enzymes",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — HCl (hydrochloric acid) is secreted by parietal cells in the stomach, not goblet cells.",
+    "b": "Correct — mucus is specifically what goblet cells secrete.",
+    "c": "Wrong — digestive enzymes are secreted by different specialized cells (like chief cells, pancreatic cells), not goblet cells.",
+    "d": "Wrong — amylase is secreted by salivary glands and the pancreas, not goblet cells."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 211,
+  "match_question_text": "Mature mammalian red blood cells do not have",
+  "match_option_a": "Nucleus",
+  "set": {
+   "option_b": "Red color",
+   "option_c": "Fluids",
+   "explanation_options": {
+    "a": "Correct — mature mammalian RBCs specifically lack a nucleus.",
+    "b": "Wrong — RBCs retain their characteristic red color (from hemoglobin), even without a nucleus.",
+    "c": "Wrong — RBCs do contain fluid (cytoplasm/cytosol) internally.",
+    "d": "Wrong — hemoglobin is exactly what RBCs retain and rely on for oxygen transport; it isn't absent."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 212,
+  "match_question_text": "In a normal person plasma constitutes about ___________ by volume of blood",
+  "match_option_a": "50%",
+  "set": {
+   "option_b": "60%",
+   "option_c": "45%",
+   "explanation_options": {
+    "a": "Wrong — doesn't match the standard cited plasma percentage.",
+    "b": "Wrong — exceeds the standard cited plasma percentage.",
+    "c": "Wrong — 45% is actually closer to the formed-elements percentage, not plasma's share.",
+    "d": "Correct — 55% is the standard cited plasma percentage of blood volume."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 213,
+  "match_question_text": "Which vein has oxygenated blood?",
+  "match_option_a": "Renal vein",
+  "set": {
+   "option_b": "Subclavian vein",
+   "option_c": "Pulmonary vein",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — the renal vein carries deoxygenated blood from the kidneys, like most other veins.",
+    "b": "Wrong — the subclavian vein carries deoxygenated blood from the arms/shoulders, like most other veins.",
+    "c": "Correct — the pulmonary vein is the sole oxygenated-blood-carrying vein.",
+    "d": "Wrong — the jugular vein carries deoxygenated blood from the head/neck, like most other veins."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 214,
+  "match_question_text": "What is the residual volume of air which always remains inside the lungs of human?",
+  "match_option_a": "3.5 Liters",
+  "set": {
+   "option_b": "0.5 Liters",
+   "option_c": "5.0 Liters",
+   "explanation_options": {
+    "a": "Wrong — too high compared to the standard cited residual volume figure.",
+    "b": "Wrong — 0.5 L is closer to tidal volume (normal breathing volume), not residual volume.",
+    "c": "Wrong — this figure is closer to total lung capacity, not residual volume specifically.",
+    "d": "Correct — approximately 1.5 L matches the standard cited residual volume."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 215,
+  "match_question_text": "In nephron, most of the reabsorption takes place in the",
+  "match_option_a": "Distal tubule",
+  "set": {
+   "option_b": "Proximal tubule",
+   "option_c": "Ascending limb",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — the distal tubule performs fine-tuning reabsorption/secretion, but handles a much smaller fraction than the proximal tubule.",
+    "b": "Correct — the proximal tubule handles the majority of nephron reabsorption.",
+    "c": "Wrong — the ascending limb reabsorbs specific ions (Na+/Cl-) but isn't the site of the bulk of overall reabsorption.",
+    "d": "Wrong — the descending limb is mainly permeable to water (passive reabsorption) but doesn't account for the bulk of total reabsorption compared to the proximal tubule."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 216,
+  "match_question_text": "Detection of change and signaling for effector’s response to the control system is a",
+  "match_option_a": "Negative feedback",
+  "set": {
+   "option_b": "Positive feedback",
+   "option_c": "Inter-coordination",
+   "explanation_options": {
+    "a": "Wrong — negative feedback is one specific subtype (counteracting change), not the general umbrella term being described here.",
+    "b": "Wrong — positive feedback is the other specific subtype (amplifying change), not the general term.",
+    "c": "Wrong — 'inter-coordination' isn't the standard term for this detect-and-signal process.",
+    "d": "Correct — feedback mechanism is the general term encompassing this detect-and-signal process."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 217,
+  "match_question_text": "What are three components of mechanism of homeostatic regulations?",
+  "match_option_a": "Receptors, control centre and effectors",
+  "set": {
+   "option_b": "Sensory, motor and associative neurons",
+   "option_c": "CNS, PNS and diffused nervous system",
+   "explanation_options": {
+    "a": "Correct — receptors, control centre, and effectors are precisely the three components.",
+    "b": "Wrong — sensory/motor/associative neurons describes neuron functional types, a different classification from the homeostatic-loop components.",
+    "c": "Wrong — CNS/PNS/diffused nervous system describes types of nervous system organization, not this specific three-part homeostatic loop.",
+    "d": "Wrong — cerebrum/cerebellum/pons are specific brain structures, not the general three-part homeostatic regulation model."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 218,
+  "match_question_text": "Blood enters the glomerulus through",
+  "match_option_a": "Efferent arteriole",
+  "set": {
+   "option_b": "Afferent arteriole",
+   "option_c": "Renal artery",
+   "correct_answer": "B",
+   "explanation_options": {
+    "a": "Wrong — the efferent arteriole carries blood OUT of the glomerulus, the opposite direction.",
+    "b": "Correct — the afferent arteriole is specifically the vessel bringing blood into the glomerulus.",
+    "c": "Wrong — the renal artery is the larger vessel supplying the whole kidney, not the specific vessel entering the glomerulus itself.",
+    "d": "Wrong — the renal vein carries blood away from the kidney entirely, unrelated to entering the glomerulus."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 219,
+  "match_question_text": "Which portion of nephron is under the control of ADH?",
+  "match_option_a": "Bowman’s capsule",
+  "set": {
+   "option_b": "Ascending arm",
+   "option_c": "Distal and collecting ducts",
+   "correct_answer": "C",
+   "explanation_options": {
+    "a": "Wrong — Bowman's capsule is the initial filtration site, not under ADH's control.",
+    "b": "Wrong — the ascending arm handles active ion transport but is impermeable to water regardless of ADH.",
+    "c": "Correct — the distal and collecting ducts are specifically ADH's target segments.",
+    "d": "Wrong — the descending arm is passively permeable to water but isn't specifically regulated by ADH the way the distal/collecting segments are."
+   }
+  }
+ },
+ {
+  "year": 2012,
+  "question_number": 220,
+  "match_question_text": "Cause of Parkinson’s disease is death of brain cells that produce",
+  "match_option_a": "Dopamine",
+  "set": {
+   "option_b": "Acetylcholine",
+   "option_c": "ADH hormone",
+   "explanation_options": {
+    "a": "Correct — dopamine-producing neuron death is the defining cause of Parkinson's disease.",
+    "b": "Wrong — acetylcholine deficiency/dysfunction is more associated with conditions like myasthenia gravis or Alzheimer's, not primarily Parkinson's.",
+    "c": "Wrong — ADH relates to water balance/kidney function, unrelated to Parkinson's disease.",
+    "d": "Wrong — oxytocin relates to childbirth/bonding, unrelated to Parkinson's disease."
+   }
+  }
+ }
+]

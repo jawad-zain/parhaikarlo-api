@@ -1,0 +1,418 @@
+[
+ {
+  "year": 2011,
+  "question_number": 2,
+  "match_question_text": "Radian is a unit of angular displacement which can also be measured in degrees. How many radians are equal to one degree? 180 2π",
+  "match_option_a": "180/π",
+  "set": {
+   "question_text": "Radian is a unit of angular displacement which can also be measured in degrees. How many radians are equal to one degree?"
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 3,
+  "match_question_text": "An elevator is moving upwards with constant velocity of ‘v’. What is a weight of a person of a mass ‘m’ inside the elevator during upward motion?",
+  "match_option_a": "mg + mv",
+  "set": {
+   "option_c": "mg − mv"
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 4,
+  "match_question_text": "An object having spherical shape of radius ‘r’ experiences a retarding force F from a fluid of co- efficient of viscosity ‘η’ when moving through the fluid with speed ‘v’. What is the ratio of retarding force to speed?",
+  "match_option_a": "K.E. = e²V",
+  "set": {
+   "option_a": "6πηr²",
+   "option_b": "6πη/r²",
+   "option_c": "6πηr",
+   "option_d": "6πη/r",
+   "correct_answer": "C",
+   "explanation_short": "By Stokes' law the retarding force is F = 6πηrv, so the ratio F/v = 6πηr.",
+   "explanation_long": "A small sphere of radius r moving slowly with speed v through a fluid of viscosity η experiences a drag force given by Stokes' law, F = 6πηrv. Dividing both sides by v gives F/v = 6πηr: the ratio grows in direct proportion to the radius. (The printed UHS key marks B, 6πη/r², which does not follow from Stokes' law — its units are not even those of force per speed.)",
+   "explanation_trick": "Stokes' law: F = 6πηrv — r and v both in the numerator, to the first power.",
+   "explanation_options": {
+    "a": "Wrong — the radius appears to the first power, not squared.",
+    "b": "Wrong — r is in the numerator of Stokes' law, not the denominator, and not squared.",
+    "c": "Correct — F/v = 6πηr from Stokes' law.",
+    "d": "Wrong — r multiplies, it does not divide."
+   }
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 12,
+  "match_question_text": "A source of sound wave emits waves of frequency ‘f’. If ‘v’ is speed of sound waves, then what will be the wavelength of the waves v v uo",
+  "match_option_a": "v/f",
+  "set": {
+   "question_text": "A source of sound wave emits waves of frequency ‘f’. If ‘v’ is speed of sound waves, then what will be the wavelength of the waves?"
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 18,
+  "match_question_text": "Which of the following is the expression of root mean square speed of a gas having n number of molecules contained in the container? v1 2 + v2 2 +…+ vx 2 v1 + v2 +…+ vx",
+  "match_option_a": "√[(v₁² + v₂² + … + vₙ²)/N]",
+  "set": {
+   "question_text": "Which of the following is the expression of root mean square speed of a gas having n number of molecules contained in the container?",
+   "option_c": "√[(v₁ + v₂ + … + vₙ)/N]",
+   "explanation_options": {
+    "a": "Correct — this follows the root-mean-square definition exactly.",
+    "b": "This is the mean of the squares only, missing the final square root — it would give v_rms², not v_rms.",
+    "c": "Wrong — this takes the square root of the mean speed, without squaring the individual speeds.",
+    "d": "Same issue as C — this is a simple average of speeds, not the RMS speed."
+   }
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 22,
+  "match_question_text": "In which of the following, the change in internal energy is more? B A B P(Pa) P(Pa) A C D C 3 V(m3) V(m )",
+  "match_option_a": "In system A",
+  "set": {
+   "question_text": "Two P–V graphs show systems A and B, each taken round a closed cycle. In which of the following, the change in internal energy is more?"
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 27,
+  "match_question_text": "Three resistors each having value R are connected as shown in the figure. What is the equivalent resistance between X and Y?",
+  "match_option_a": "3R",
+  "set": {
+   "option_d": "R³"
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 31,
+  "match_question_text": "Wavelength of X-rays is the order of:",
+  "match_option_a": "10-6 m",
+  "set": {
+   "option_a": "10⁻⁶ m",
+   "option_b": "10⁻¹⁰ m",
+   "option_c": "10⁻¹³ m"
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 33,
+  "match_question_text": "Which of the following is true for Lasers?",
+  "match_option_a": "Electrons are emitted",
+  "set": {
+   "correct_answer": "C",
+   "explanation_short": "A laser emits coherent, monochromatic light — that is the defining property of laser output.",
+   "explanation_long": "Laser light is produced by stimulated emission of photons from atoms held in a population inversion (more atoms in the excited state than in the lower state). The emitted photons have the same frequency, phase and direction, so laser light is coherent and monochromatic. The inversion is of atoms (or electrons in energy levels), not of photons, and the process is stimulated emission of photons, not of electrons. (The printed UHS key marks D, but 'population inversion of photons' misstates what is inverted.)",
+   "explanation_trick": "Laser = Light Amplification by Stimulated Emission of Radiation: atoms are inverted, photons are emitted.",
+   "explanation_options": {
+    "a": "Wrong — a laser emits photons, not electrons.",
+    "b": "Wrong — it is stimulated emission of photons (radiation), not of electrons.",
+    "c": "Correct — laser light is coherent and monochromatic.",
+    "d": "Wrong — the population inversion is of atoms in energy levels, not of photons."
+   }
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 34,
+  "match_question_text": "Three resistors of resistance R1, R2 and R3 are connected as shown in the figure. Equivalent resistance is:",
+  "match_option_a": "R₁ + R₂ + R₃",
+  "set": {
+   "question_text": "Three resistors of resistance R₁, R₂ and R₃ are connected as shown in the figure (R₁ in series with R₂ and R₃, which are in parallel with each other). Equivalent resistance is:",
+   "option_c": "(R₁R₂ + R₁R₃ + R₂R₃)/(R₂ + R₃)",
+   "explanation_short": "R₂ and R₃ in parallel give R₂R₃/(R₂ + R₃); adding R₁ in series gives (R₁R₂ + R₁R₃ + R₂R₃)/(R₂ + R₃).",
+   "explanation_options": {
+    "a": "This is a plain sum of all three, which would only be correct if all three were purely in series — not matching a mixed series-parallel network.",
+    "b": "This form doesn't correspond to a standard series+parallel combination of these three resistors.",
+    "c": "Correct — R₁ + R₂R₃/(R₂ + R₃) = (R₁R₂ + R₁R₃ + R₂R₃)/(R₂ + R₃). (The paper misprints this keyed option as (R₁R₂ + R₂R₃ + R₂R₃)/(R₁ + R₂); it is shown here with the correct expression.)",
+    "d": "This form (a triple product over a difference of two resistors) doesn't correspond to any standard series/parallel combination rule."
+   }
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 36,
+  "match_question_text": "When electrons lose all their kinetic energy in the first collision, the entire kinetic appears as an X-ray photon of energy: hc",
+  "match_option_a": "K.E. = eV",
+  "set": {
+   "question_text": "When electrons lose all their kinetic energy in the first collision, the entire kinetic energy appears as an X-ray photon of energy:",
+   "option_b": "K.E. = hλ_min/c",
+   "option_c": "K.E. = hc/λ_min",
+   "option_d": "K.E. = h/λ_max"
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 42,
+  "match_question_text": "Which one of the following particles is emitted as a result of the nuclear reaction Ra-226 → Rn-222?",
+  "match_option_a": "Beta",
+  "set": {
+   "question_text": "Which one of the following particles is emitted as a result of the nuclear reaction ²²⁶Ra → ²²²Rn?"
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 46,
+  "match_question_text": "How many 'Cl' (chlorine) atoms are in two moles of chlorine?",
+  "match_option_a": "2 × 6.02 × 10²³ atoms",
+  "set": {
+   "option_a": "2 × 6.02 × 10⁻²³ atoms",
+   "explanation_options": {
+    "a": "Wrong — a negative power of ten would be an absurdly tiny number of atoms.",
+    "b": "35.5 is chlorine's atomic mass in g/mol, which would be relevant to calculating grams, not directly the number of atoms.",
+    "c": "Missing Avogadro's number entirely — 10²³ alone (without the 6.02 factor) undercounts the actual number of atoms.",
+    "d": "Correct — this is 2 moles' worth of Avogadro's number of atoms, matching the marked answer."
+   }
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 56,
+  "match_question_text": "Molarity is defined as the number of moles of any substance dissolved:",
+  "match_option_a": "Per dm3 of water",
+  "set": {
+   "option_a": "Per dm³ of water",
+   "option_c": "Per m³ of water"
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 68,
+  "match_question_text": "Pick the correct statement:",
+  "match_option_a": "Chelates are usually more stable than ordinary",
+  "set": {
+   "option_a": "Chelates are usually more stable than ordinary complexes"
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 70,
+  "match_question_text": "The unpolluted natural rain water is slightly acidic due to the reaction of rain water with:",
+  "match_option_a": "Sulphur dioxide",
+  "set": {
+   "correct_answer": "C",
+   "explanation_long": "CO₂ present naturally in the atmosphere dissolves into falling raindrops, reacting as CO₂ + H₂O ⇌ H₂CO₃ (carbonic acid), a weak acid that lowers rainwater's pH to around 5.6 even without any pollution. Additional pollutants (like sulfur/nitrogen oxides) can make rain considerably MORE acidic (true 'acid rain'), but the baseline natural acidity comes from dissolved CO₂. (The printed UHS key marks A, sulphur dioxide, but SO₂ causes polluted acid rain; the natural slight acidity of clean rain (pH ≈ 5.6) comes from dissolved CO₂, so C is used.)"
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 72,
+  "match_question_text": "In comparison with oxygen gas, a strong triple bond is present between two nitrogen atoms in a molecule and therefore nitrogen gas is:",
+  "match_option_a": "Highly reactive gas",
+  "set": {
+   "correct_answer": "C",
+   "explanation_short": "The very strong N≡N triple bond makes nitrogen a very unreactive gas — but not completely inert, since it does react under suitable conditions.",
+   "explanation_long": "Breaking the N≡N triple bond needs 946 kJ mol⁻¹, so nitrogen reacts far less readily than oxygen. It is not completely inert like the noble gases, however: it combines with hydrogen in the Haber process, with oxygen during lightning, and with hot metals such as magnesium and lithium to form nitrides. 'Very less reactive' is therefore the accurate description. (The printed UHS key marks B, but nitrogen does form compounds, so it is not completely inert.)",
+   "explanation_trick": "N₂ is unreactive, not inert — think of the Haber process and nitrides of Mg and Li.",
+   "explanation_options": {
+    "a": "Wrong — the strong triple bond makes nitrogen unreactive, not highly reactive.",
+    "b": "Wrong — unlike the noble gases, nitrogen forms compounds such as NH₃, NO and Mg₃N₂.",
+    "c": "Correct — nitrogen is a very unreactive gas because of its strong triple bond.",
+    "d": "Wrong — nitrogen is much less reactive than 'moderately reactive' suggests."
+   }
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 75,
+  "match_question_text": "Benzene in the presence of AlCl3 produces acetophenone when reacts with:",
+  "match_option_a": "Acetyl chloride",
+  "set": {
+   "question_text": "Benzene in the presence of AlCl₃ produces acetophenone when reacts with:"
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 76,
+  "match_question_text": "The substitution of a '-H' by '-NO2' group in benzene is called:",
+  "match_option_a": "Nitration",
+  "set": {
+   "question_text": "The substitution of a '–H' by '–NO₂' group in benzene is called:"
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 79,
+  "match_question_text": "An alcohol is converted to an aldehyde with same number of carbon atoms as that of alcohol in the presence of K2Cr2O7/H2SO4 the alcohol is:",
+  "match_option_a": "CH₃CH(Cl)CH₂OH",
+  "set": {
+   "question_text": "An alcohol is converted to an aldehyde with same number of carbon atoms as that of alcohol in the presence of K₂Cr₂O₇/H₂SO₄. The alcohol is:"
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 80,
+  "match_question_text": "Which of the following is a secondary alcohol?",
+  "match_option_a": "H3C-CH(OH)-CH3 (isopropanol)",
+  "set": {
+   "option_a": "H₃C–CH(OH)–CH₃",
+   "option_b": "H₃C–CH₂–CH₂–OH",
+   "option_c": "H₃C–CH(CH₃)–CH₂–OH",
+   "option_d": "H₃C–CH(CH₃)–CH₂–C(CH₃)(OH)–CH₃"
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 83,
+  "match_question_text": "Consider the following reaction: R―CHO + 2[Ag(NH3)2]OH R―COONH4 + 2Ag + 2NH3 + H2O This reaction represents one of the following tests.",
+  "match_option_a": "Fehling test",
+  "set": {
+   "question_text": "Consider the following reaction: R–CHO + 2[Ag(NH₃)₂]OH → R–COONH₄ + 2Ag + 2NH₃ + H₂O. This reaction represents one of the following tests."
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 84,
+  "match_question_text": "In the reaction HCHO + HCN → cyanohydrin, the nucleophile is:",
+  "match_option_a": "CN―",
+  "set": {
+   "option_a": "CN⁻"
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 85,
+  "match_question_text": "Which one of the following compounds belongs to the homologous series of aldehydes?",
+  "match_option_a": "HCOCl (formyl chloride)",
+  "set": {
+   "option_a": "HCOCl",
+   "option_b": "HCONH₂",
+   "option_c": "HCHO",
+   "option_d": "HCOOC₂H₅"
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 86,
+  "match_question_text": "CH3COOH + PCl5 ? The products of the above reaction are:",
+  "match_option_a": "CH₃COCl + POCl₃ + HCl",
+  "set": {
+   "question_text": "CH₃COOH + PCl₅ → ? The products of the above reaction are:"
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 87,
+  "match_question_text": "CH3CN + HCl A + B (in the presence of water) In the above reaction, A and B are:",
+  "match_option_a": "Acetic acid and acid amide",
+  "set": {
+   "question_text": "CH₃CN + HCl → A + B (in the presence of water). In the above reaction, A and B are:"
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 88,
+  "match_question_text": "Consider the following reaction: CH3COOH + Mg (metal) ? What product will form?",
+  "match_option_a": "Magnesium formate",
+  "set": {
+   "question_text": "Consider the following reaction: CH₃COOH + Mg (metal) → ? What product will form?"
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 89,
+  "match_question_text": "The ―NH―CO is called:",
+  "match_option_a": "Amide group",
+  "set": {
+   "question_text": "The –NH–CO– is called:"
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 90,
+  "match_question_text": "Which one of the following is an alpha amino acid?",
+  "match_option_a": "CH3-CH(NH2)-COOH (alanine)",
+  "set": {
+   "option_a": "CH₃–CH(NH₂)–COOH",
+   "option_b": "CH₃–CH(CH₂NH₂)–COOH",
+   "option_c": "CH₃–CH(NH₂)–CH₂–COOH",
+   "option_d": "CH₃–CH(COOH)–CH(NH₂)–CH₃"
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 92,
+  "match_question_text": "At intermediate value of pH, amino acids form Zwitter ions containing:",
+  "match_option_a": "―N+H3 and COO―",
+  "set": {
+   "option_a": "–N⁺H₃ and COO⁻",
+   "option_b": "–NH₃ and COO⁻",
+   "option_c": "–N⁺H₃ and COOH",
+   "option_d": "–NH₃ and COOH"
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 95,
+  "match_question_text": "Aspartic acid is an acidic amino acid. Which of the following has its chemical formula?",
+  "match_option_a": "CH3-CH(NH2)-COOH",
+  "set": {
+   "option_b": "HOOC–CH(NH₂)–CH₂–COOH",
+   "option_d": "CH₃–CH₂–CH(NH₂)–COOH",
+   "option_a": "CH₃–CH(NH₂)–COOH",
+   "option_c": "CH₃–CH(NH₂)–CH₂–COOH",
+   "explanation_options": {
+    "a": "This structure is simply alanine (a neutral amino acid with a methyl R-group), not an acidic amino acid with an extra carboxyl side chain.",
+    "b": "Correct — this structure (HOOC-CH(NH₂)-CH₂-COOH) has the extra carboxyl side chain characteristic of aspartic acid.",
+    "c": "This structure again matches alanine's simple methyl side chain, not aspartic acid's extra-carboxyl side chain.",
+    "d": "Wrong — CH₃–CH₂–CH(NH₂)–COOH (2-aminobutanoic acid) has no second carboxyl group."
+   }
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 141,
+  "match_question_text": "Fatty acid are the organic compounds containing hydrogen, oxygen and one of the following are",
+  "match_option_a": "–COOH",
+  "set": {
+   "option_b": "–NH₂"
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 150,
+  "match_question_text": "Which of the following will be hemophilic?",
+  "match_option_a": "XHXh",
+  "set": {
+   "option_a": "XᴴXʰ",
+   "option_b": "XᴴXᴴ",
+   "option_c": "XʰY",
+   "option_d": "XᴴY"
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 189,
+  "match_question_text": "Newly produced cells/individuals which are identical in each other are known as",
+  "match_option_a": "Genetically Modified",
+  "set": {
+   "correct_answer": "D",
+   "explanation_short": "Genetically identical cells or individuals produced from a single parent are called clones.",
+   "explanation_long": "A clone is a group of cells or organisms that are genetically identical because they arise from one ancestor by asexual reproduction, cell division or cloning techniques. Genetically modified and transgenic organisms, by contrast, have had their DNA deliberately altered, often with a gene from another species; they are not defined by being identical to one another. (The printed UHS key marks A, but 'genetically modified' does not mean identical, so D is used.)",
+   "explanation_trick": "Identical copies = clones; altered DNA = genetically modified / transgenic.",
+   "explanation_options": {
+    "a": "Wrong — genetically modified organisms have altered DNA; they are not defined as identical copies.",
+    "b": "Wrong — transgenic animals carry a foreign gene; that is not the same as being identical.",
+    "c": "Wrong — transgenic bacteria carry foreign genes; that is not the same as being identical.",
+    "d": "Correct — genetically identical cells or individuals are clones."
+   }
+  }
+ },
+ {
+  "year": 2011,
+  "question_number": 213,
+  "match_question_text": "Oxidative phosphorylation, synthesis of ATP in the presence of oxygen occurs in:",
+  "match_option_a": "All Types of Cells",
+  "set": {
+   "correct_answer": "D",
+   "explanation_short": "Oxidative phosphorylation — making ATP using the electron transport chain with oxygen as the final acceptor — occurs in all aerobic cells.",
+   "explanation_long": "In oxidative phosphorylation, electrons from NADH and FADH₂ pass along the electron transport chain to oxygen, and the energy released drives ATP synthase. Because oxygen is essential, the process occurs in all aerobic cells — in the mitochondria of eukaryotes and at the cell membrane of aerobic bacteria. Anaerobic cells cannot carry it out. (The printed UHS key marks C, 'all primitive cells', which is not a meaningful category for this oxygen-dependent process.)",
+   "explanation_trick": "Oxidative phosphorylation needs oxygen, so it happens wherever respiration is aerobic.",
+   "explanation_options": {
+    "a": "Wrong — anaerobic cells cannot carry out oxidative phosphorylation.",
+    "b": "Wrong — anaerobic cells, by definition, do not use oxygen.",
+    "c": "Wrong — 'primitive cells' is not a category defined by oxidative phosphorylation; many primitive cells are anaerobic.",
+    "d": "Correct — oxidative phosphorylation occurs in all aerobic cells."
+   }
+  }
+ }
+]

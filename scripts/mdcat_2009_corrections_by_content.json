@@ -1,0 +1,848 @@
+[
+ {
+  "year": 2009,
+  "question_number": 1,
+  "match_question_text": "If R1 = 10 kΩ and R2 = 100 kΩ then the gain of op-amplifier as inverting amplifier is:",
+  "match_option_a": "–1",
+  "set": {
+   "question_text": "If R₁ = 10 kΩ and R₂ = 100 kΩ then the gain of op-amplifier as inverting amplifier is:"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 3,
+  "match_question_text": "The value of Stefan’s Boltzmann Constant is:",
+  "match_option_a": "4.28 x 10-7 Wm-2K-4",
+  "set": {
+   "option_a": "4.28 × 10⁻⁷ Wm⁻²K⁻⁴",
+   "option_b": "4.28 × 10⁻⁴ Wm⁻²K⁻⁴",
+   "option_c": "3.62 × 10⁻⁴ Wm⁻²K⁻⁴",
+   "option_d": "5.67 × 10⁻⁸ Wm⁻²K⁻⁴",
+   "explanation_short": "The Stefan–Boltzmann constant is σ = 5.67 × 10⁻⁸ Wm⁻²K⁻⁴.",
+   "explanation_long": "The Stefan–Boltzmann constant relates the power radiated per unit area of a black body to T⁴ (E = σT⁴) and has the value σ ≈ 5.67 × 10⁻⁸ Wm⁻²K⁻⁴. (The paper prints option D as 5.67 × 10⁻⁵, a misprint of the exponent; D is the keyed option and is shown here with the correct value.)",
+   "explanation_trick": "Remember 5-6-7-8: σ = 5.67 × 10⁻⁸ W m⁻² K⁻⁴.",
+   "explanation_options": {
+    "a": "4.28 × 10⁻⁷ is not σ; wrong mantissa.",
+    "b": "4.28 × 10⁻⁴ is not σ; wrong mantissa.",
+    "c": "3.62 × 10⁻⁴ is not σ; wrong mantissa.",
+    "d": "Correct — σ = 5.67 × 10⁻⁸ Wm⁻²K⁻⁴."
+   }
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 5,
+  "match_question_text": "In Compton Effect, the value of h moc is given by:",
+  "match_option_a": "1.43 x 10-11 m",
+  "set": {
+   "question_text": "In Compton Effect, the value of h/m₀c is given by:",
+   "option_a": "1.43 × 10⁻¹¹ m",
+   "option_b": "2.56 × 10⁻¹² m",
+   "option_c": "2.43 × 10⁻¹² m",
+   "option_d": "3.46 × 10⁻⁶ m"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 6,
+  "match_question_text": "If a particle of mass 5.0 mg moves with the speed of 8.0 m/sec, then the de-Broglie’s wavelength will be:",
+  "match_option_a": "1.68 x 10-27 m",
+  "set": {
+   "option_a": "1.68 × 10⁻²⁷ m",
+   "option_b": "1.70 × 10⁻²⁵ m",
+   "option_c": "1.65 × 10⁻²⁹ m",
+   "option_d": "1.66 × 10⁻²⁹ m"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 11,
+  "match_question_text": "The dimensions of gravitational constant “G” are:",
+  "match_option_a": "[ML-2T-1]",
+  "set": {
+   "option_a": "[ML⁻²T⁻¹]",
+   "option_b": "[M²L⁻²T⁻¹]",
+   "option_c": "[ML⁻²T⁻²]",
+   "option_d": "[M⁻¹L³T⁻²]",
+   "explanation_long": "Rearranging Newton's gravitation law: G = Fr²/(m₁m₂). Substituting dimensions [F]=[MLT⁻²], [r²]=[L²], [m₁m₂]=[M²] gives [G] = [MLT⁻²][L²]/[M²] = [M⁻¹L³T⁻²]. (The paper prints option D as [M⁻¹L³T⁻¹], a misprint of the time exponent; D is the keyed option and is shown with the correct dimensions.)",
+   "explanation_trick": "G = Fr²/m²: start from force [MLT⁻²], multiply by L², divide by M².",
+   "explanation_options": {
+    "a": "[ML⁻²T⁻¹] has the wrong sign on the length power.",
+    "b": "[M²L⁻²T⁻¹] has the wrong sign for mass's power.",
+    "c": "[ML⁻²T⁻²] again has the wrong sign for length.",
+    "d": "Correct — [G] = [M⁻¹L³T⁻²]."
+   }
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 13,
+  "match_question_text": "Unit vector in the direction of vector 2i − 4j will be:",
+  "match_option_a": "2i − 4j √6",
+  "set": {
+   "question_text": "Unit vector in the direction of vector 2î − 4ĵ will be:",
+   "option_a": "(2î − 4ĵ)/√6",
+   "option_b": "(4î − 2ĵ)/√10",
+   "option_c": "(î − 2ĵ)/√5",
+   "option_d": "(î − 2ĵ)/√7"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 18,
+  "match_question_text": "In Michelson’s interferometer 792 bright fringes pass across the field of view when its movable mirror is displaced through 0.233 mm using the equation l = m λ 2 the wavelength of light used is:",
+  "match_option_a": "588 nm",
+  "set": {
+   "question_text": "In Michelson’s interferometer 792 bright fringes pass across the field of view when its movable mirror is displaced through 0.233 mm. Using the equation l = mλ/2, the wavelength of light used is:"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 19,
+  "match_question_text": "In Michelson’s Experiment, the formula to calculate the speed of light is:",
+  "match_option_a": "c = 2 fd",
+  "set": {
+   "option_a": "c = 2fd",
+   "option_b": "c = 2πf/d",
+   "option_c": "c = 16f/d",
+   "option_d": "c = 16fd",
+   "explanation_options": {
+    "a": "c = 2fd omits the geometric factor specific to Michelson's setup.",
+    "b": "c = 2πf/d has the wrong form — d must multiply f, not divide it.",
+    "c": "c = 16f/d divides by the distance instead of multiplying by it.",
+    "d": "Correct: c = 16fd is the textbook Michelson rotating-mirror formula."
+   }
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 22,
+  "match_question_text": "The value of universal; Gas Constant ‘R’ is;",
+  "match_option_a": "8.314 Jmol-2K-1",
+  "set": {
+   "option_a": "8.314 Jmol⁻²K⁻¹",
+   "option_b": "1.38 Jmol⁻¹K⁻²",
+   "option_c": "1.38 Jmol⁻¹K⁻¹",
+   "option_d": "8.314 Jmol⁻¹K⁻¹"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 26,
+  "match_question_text": "In Millikan’s Method, the radius of droplet can be calculated by:",
+  "match_option_a": "r = qvt 2ρg",
+  "set": {
+   "option_a": "r = √(qvₜ/2ρg)",
+   "option_b": "r² = 9ηvₜ/ρg",
+   "option_c": "r² = 9ηvₜ/2ρg",
+   "option_d": "r = 9ηvₜ/2ρg"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 27,
+  "match_question_text": "The scalar product of i and k is:",
+  "match_option_a": "Zero",
+  "set": {
+   "question_text": "The scalar product of î and k̂ is:"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 29,
+  "match_question_text": "Speed of light, radio waves and microwaves in vacuum is:",
+  "match_option_a": "3 x 105 ms-1",
+  "set": {
+   "option_a": "3 × 10⁵ ms⁻¹",
+   "option_b": "3 × 10³ ms⁻¹",
+   "option_c": "3 × 10⁶ ms⁻¹",
+   "option_d": "3 × 10⁸ ms⁻¹"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 30,
+  "match_question_text": "A body is moving with an initial velocity of 2 kms-1. After a time of 50 secs its velocity becomes 1.5 kms-1. Its acceleration will be:",
+  "match_option_a": "30 ms-1",
+  "set": {
+   "question_text": "A body is moving with an initial velocity of 2 kms⁻¹. After a time of 50 secs its velocity becomes 1.5 kms⁻¹. Its acceleration will be:",
+   "option_a": "30 ms⁻²",
+   "option_b": "40 ms⁻²",
+   "option_c": "20 ms⁻²",
+   "option_d": "10 ms⁻²",
+   "explanation_options": {
+    "a": "30 ms⁻¹ doesn't match the computed magnitude of acceleration.",
+    "b": "40 doesn't match either.",
+    "c": "20 is double the correct magnitude — likely from a units/division slip.",
+    "d": "Correct — |a| = |1500 − 2000| / 50 = 10 ms⁻²."
+   },
+   "explanation_trick": "Convert km s⁻¹ to m s⁻¹ before dividing by time; acceleration is in m s⁻². (The paper prints the options in ms⁻¹, a unit misprint.)"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 32,
+  "match_question_text": "In elastic collision, when a massive body collides with light body at conditions m1 >> m2 and v2 = 0 ms-1, then the change in velocity will be written as:",
+  "match_option_a": "v1’ ≈ − v1 ; v2’ ≈ v1",
+  "set": {
+   "question_text": "In elastic collision, when a massive body collides with light body at conditions m₁ >> m₂ and v₂ = 0 ms⁻¹, then the change in velocity will be written as:",
+   "option_a": "v₁′ ≈ −v₁ ; v₂′ ≈ v₁",
+   "option_b": "v₁′ ≈ v₁ ; v₂′ ≈ 0",
+   "option_c": "v₁′ ≈ v₁ ; v₂′ ≈ 2v₁",
+   "option_d": "v₁′ ≈ −v₁ ; v₂′ ≈ 0"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 34,
+  "match_question_text": "A bullet train is lifted above the rails due to magnetic effect, thus friction is reduced to minimum and speed can be enhanced up to:",
+  "match_option_a": "500 Km min-1",
+  "set": {
+   "option_a": "500 Km min⁻¹",
+   "option_b": "500 Km sec⁻¹",
+   "option_c": "1000 Km h⁻¹",
+   "option_d": "500 Km h⁻¹"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 37,
+  "match_question_text": "Solar energy at normal incidence outside the earth’s atmosphere is about:",
+  "match_option_a": "2.5 kWm-2",
+  "set": {
+   "option_a": "2.5 kWm⁻²",
+   "option_b": "0.6 kWm⁻²",
+   "option_c": "1.4 kWm⁻²",
+   "option_d": "2.0 kWm⁻²"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 38,
+  "match_question_text": "Linear velocity or tangential velocity of any particle moving in a circular path of radius 2 m with angular velocity 8 rads-1 will be:",
+  "match_option_a": "16 ms-1",
+  "set": {
+   "question_text": "Linear velocity or tangential velocity of any particle moving in a circular path of radius 2 m with angular velocity 8 rads⁻¹ will be:",
+   "option_a": "16 ms⁻¹",
+   "option_b": "4 ms⁻¹",
+   "option_c": "10 ms⁻¹",
+   "option_d": "6 ms⁻¹"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 39,
+  "match_question_text": "What is torque ‘τ’ in a circular motion?",
+  "match_option_a": "τ = mr2π",
+  "set": {
+   "correct_answer": "B",
+   "explanation_long": "For a point mass m at radius r, the moment of inertia is I = mr², and torque is τ = Iα = mr²α, where α is angular acceleration. (The printed UHS key marks A, τ = mr²π, but π is a pure number, not an angular acceleration, so B is used.)",
+   "option_a": "τ = mr²π",
+   "option_b": "τ = mr²α",
+   "option_d": "τ = mr²/α"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 41,
+  "match_question_text": "A body of mass 6 g falls under action of gravity. At initial position ‘A’ its P.E. is 480 J and K.E. is 0 J. During its downward journey at point ‘B’ its energies will be (g = 10 ms-2):",
+  "match_option_a": "P.E. = 300 J and K.E. = 180 J",
+  "set": {
+   "is_active": false,
+   "is_verified": false
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 42,
+  "match_question_text": "A tiny droplet of oil of density ‘ρ’ and radius ‘r’ falls through air under force of gravity. If viscosity of air is ‘η’, the terminal velocity acquired by the oil drop is given by:",
+  "match_option_a": "vt = 4gr2ρ 9η",
+  "set": {
+   "option_a": "vₜ = 4gr²ρ/9η",
+   "option_b": "vₜ = 9ηr²ρ/4g",
+   "option_c": "vₜ = 2gr²ρ/9η",
+   "option_d": "vₜ = 9ηr²ρ/2g"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 43,
+  "match_question_text": "Torricelli’s theorem be written as:",
+  "match_option_a": "v2 = 2g (h1 - h2)",
+  "set": {
+   "option_a": "v₂ = √(2g(h₁ − h₂))",
+   "option_b": "v₂ = √(g(h₂ − h₁))",
+   "option_c": "v₂ = √(2g(h₂ − h₁))",
+   "option_d": "v₂ = √(g(h₁ − h₂))"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 44,
+  "match_question_text": "When the spaceship rotates with ________ frequency, the artificial gravity like earth is produced to inhabitants of the ship:",
+  "match_option_a": "2π R g",
+  "set": {
+   "option_a": "2π√(R/g)",
+   "option_b": "2π√(ℓ/g)",
+   "option_c": "(1/2π)√(R/g)",
+   "option_d": "(1/2π)√(g/R)",
+   "explanation_trick": "Artificial gravity: ω²R = g. Frequency has g on top, period has R on top.",
+   "explanation_options": {
+    "a": "2π√(R/g) has period-like form, not the required frequency formula.",
+    "b": "2π√(g/ℓ) uses an unrelated length variable ℓ instead of R.",
+    "c": "Wrong — (1/2π)√(R/g) is dimensionally a time divided by 2π, not a frequency; R and g are inverted.",
+    "d": "Correct — f = (1/2π)√(g/R). (The paper prints C and D identically as (1/2π)√(R/g); D is the keyed option and is shown with the correct formula.)"
+   }
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 45,
+  "match_question_text": "In a microwave oven, the wave produced has a wavelength of 12 cm at a frequency of:",
+  "match_option_a": "2452 Hz",
+  "set": {
+   "option_a": "2452 MHz",
+   "option_b": "2456 MHz",
+   "option_c": "2455 MHz",
+   "option_d": "2450 MHz",
+   "explanation_trick": "Microwave ovens run at 2450 MHz (2.45 GHz), λ ≈ 12 cm. (The paper prints the options in Hz; the unit intended is MHz.)",
+   "explanation_options": {
+    "a": "2452 doesn't match the standard rated frequency.",
+    "b": "2456 doesn't match either.",
+    "c": "2455 is close but not the standard rounded figure.",
+    "d": "Correct — 2450 MHz is the standard microwave-oven frequency, giving λ = c/f ≈ 12 cm."
+   }
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 46,
+  "match_question_text": "Speed of the waves is equal to:",
+  "match_option_a": "fλ",
+  "set": {
+   "option_b": "λ/T"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 47,
+  "match_question_text": "A particle carrying charge of 2e falls through a potential difference of 3.0 V. Calculate the energy required by it:",
+  "match_option_a": "9.6 x 10-19 J",
+  "set": {
+   "option_a": "9.6 × 10⁻¹⁹ J",
+   "option_b": "9.1 × 10⁻¹⁹ J",
+   "option_c": "1.6 × 10⁻¹⁹ J",
+   "option_d": "6.0 × 10⁻¹⁹ J"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 51,
+  "match_question_text": "Force experienced by a moving change in a magnetic field is:",
+  "match_option_a": "F = BA cosϴ",
+  "set": {
+   "option_a": "F = BA cos θ",
+   "option_b": "F = μ₀NI",
+   "option_c": "F = q(v × B)",
+   "option_d": "F = I(L × B)"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 52,
+  "match_question_text": "The value of permeability of free space μo is:",
+  "match_option_a": "4π x 10-7 WbA-1m-1",
+  "set": {
+   "option_a": "4π × 10⁻⁷ WbA⁻¹m⁻¹",
+   "option_b": "4π × 10² WbA⁻²m⁻²",
+   "option_c": "4π × 10⁻⁷ WbA⁻²m⁻¹",
+   "option_d": "4π × 10² WbA⁻¹m⁻²"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 58,
+  "match_question_text": "In R-L Series circuit, the phase difference between applied voltage and current is given by the angle ϴ which is:",
+  "match_option_a": "ϴ = tan-1 LR ω",
+  "set": {
+   "question_text": "In R-L Series circuit, the phase difference between applied voltage and current is given by the angle θ which is:",
+   "option_a": "θ = tan⁻¹(LR/ω)",
+   "option_b": "θ = tan⁻¹(ωLR)",
+   "option_c": "θ = tan⁻¹(ωL/R)",
+   "option_d": "θ = tan⁻¹(ωR/L)",
+   "explanation_options": {
+    "a": "Wrong — ω belongs in the numerator with L, and R in the denominator.",
+    "b": "tan⁻¹(ωLR) multiplies rather than divides by R, which is dimensionally inconsistent for an angle argument.",
+    "c": "Correct — θ = tan⁻¹(X_L/R) = tan⁻¹(ωL/R). (The paper misprints this keyed option as tan⁻¹(ω/g); it is shown here with the intended formula.)",
+    "d": "tan⁻¹(ωR/L) inverts L and R from their correct positions in the formula."
+   }
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 61,
+  "match_question_text": "Which of the following is an exothermic reaction?",
+  "match_option_a": "H+(aq) + OH−(aq) H2O(l)",
+  "set": {
+   "option_a": "H⁺(aq) + OH⁻(aq) → H₂O(l)",
+   "option_b": "Na(g) → Na⁺(g) + 1e⁻",
+   "option_c": "½H₂(g) → H(g)",
+   "option_d": "½Cl₂(g) → Cl(g)"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 62,
+  "match_question_text": "The rate equation determined experimentally for this reaction: (CH3)3―C―Br + H2O (CH3)3―C―OH + HBr Is, Rate = k[(CH3)3CBr] Hence it is which of the follwing?",
+  "match_option_a": "Fractional Order",
+  "set": {
+   "question_text": "The rate equation determined experimentally for the reaction (CH₃)₃C–Br + H₂O → (CH₃)₃C–OH + HBr is Rate = k[(CH₃)₃CBr]. Hence it is which of the following?"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 63,
+  "match_question_text": "Equilibrium constant Kc for H2O H+ + OH− Can be written as follows:",
+  "match_option_a": "Kc = H+ [H2O][OH-]",
+  "set": {
+   "question_text": "Equilibrium constant Kc for H₂O → H⁺ + OH⁻ can be written as follows:",
+   "option_a": "Kc = [H⁺]/([H₂O][OH⁻])",
+   "option_b": "Kc = [OH⁻]/([H⁺][OH⁻])",
+   "option_c": "Kc = [OH⁻][H⁺]/[H₂O]",
+   "option_d": "Kc = [H₂O]/([H⁺][OH⁻])",
+   "explanation_options": {
+    "a": "Wrong — it puts [H₂O] and [OH⁻] together in the denominator.",
+    "b": "Wrong — [H⁺] is in the denominator and [OH⁻] cancels, so this is not the equilibrium expression.",
+    "c": "Correct: Kc = [H⁺][OH⁻]/[H2O].",
+    "d": "Wrong — this is the reciprocal: reactant over products."
+   }
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 64,
+  "match_question_text": "The protonation of carboxylic acid is:",
+  "match_option_a": "Protonation at the carbonyl oxygen of CH3COOH.",
+  "set": {
+   "is_active": false,
+   "is_verified": false
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 67,
+  "match_question_text": "During isotopic analysis, the pressure of the vapours of the ions maintained in the ionization chamber of mass spectrometer is:",
+  "match_option_a": "Around 10-7 torr",
+  "set": {
+   "option_a": "Around 10⁻⁷ torr",
+   "option_b": "Around 10⁻³ torr",
+   "option_d": "10⁻⁷ torr"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 71,
+  "match_question_text": "The formula of acrylonitrile is:",
+  "match_option_a": "CH3=CH―CN",
+  "set": {
+   "option_a": "CH₂=CH–CN",
+   "option_b": "CH₃–CH₂–CH₂–CN",
+   "option_c": "CH₃–CH₂–CN",
+   "option_d": "CH₃–CN",
+   "explanation_short": "Acrylonitrile (vinyl cyanide) is CH₂=CH–CN.",
+   "explanation_long": "Acrylonitrile, the monomer of acrylic fibres (Orlon) and a component of ABS plastic, is CH₂=CH–C≡N: a vinyl group joined to a nitrile group. (The paper prints this keyed option as CH₃=CH–CN, a misprint — carbon cannot carry three hydrogens and a double bond; it is shown here as CH₂.)",
+   "explanation_options": {
+    "a": "Correct — CH₂=CH–CN is acrylonitrile (vinyl cyanide).",
+    "b": "A saturated 4-carbon nitrile chain, not the unsaturated (vinyl) structure of acrylonitrile.",
+    "c": "Propionitrile (CH3CH2CN) is a different, saturated 3-carbon nitrile.",
+    "d": "Acetonitrile (CH3CN) is a simpler, different nitrile with only one extra carbon."
+   }
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 74,
+  "match_question_text": "Grignard reagents are prepared by the reaction of magnesium metal with alkyl halides in the presence of:",
+  "match_option_a": "Dry Ether",
+  "set": {
+   "option_b": "CS₂",
+   "option_d": "CCl₄"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 77,
+  "match_question_text": "Phenol reacts with concentrated H2SO4 to give:",
+  "match_option_a": "ortho hydroxy benzene sulphonic acid",
+  "set": {
+   "question_text": "Phenol reacts with concentrated H₂SO₄ to give:"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 78,
+  "match_question_text": "Phenol can be distinguished from alcohol by adding:",
+  "match_option_a": "Br2/H2O",
+  "set": {
+   "option_a": "Br₂/H₂O",
+   "option_b": "Cl₂/H₂O",
+   "option_c": "FeSO₄",
+   "option_d": "FeCl₃"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 80,
+  "match_question_text": "When acetone is heated in the presence of K2Cr2O7/H2SO4, the products formed are;",
+  "match_option_a": "Maleic Acid and Fumaric Acid",
+  "set": {
+   "question_text": "When acetone is heated in the presence of K₂Cr₂O₇/H₂SO₄, the products formed are:"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 81,
+  "match_question_text": "Which acid is used in the manufacture of plastics?",
+  "match_option_a": "Carbolic Acid",
+  "set": {
+   "correct_answer": "A",
+   "explanation_long": "'Carbolic acid' is the traditional/common name for phenol, which reacts with formaldehyde to form phenol-formaldehyde resins (e.g., Bakelite), an important early industrial plastic — hence its major industrial use in plastics manufacture. (The printed UHS key marks C, carbonic acid, but H₂CO₃ is an unstable weak acid with no role in making plastics, so A is used.)"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 82,
+  "match_question_text": "Which of the following compounds will react with Tollen’s Reagent?",
+  "match_option_a": "CH₃COOH (acetic acid)",
+  "set": {
+   "explanation_long": "Tollen's reagent (ammoniacal silver nitrate) selectively oxidizes aldehydes, producing a silver mirror, but does not react with ketones (like 2-butanone or acetone) or carboxylic acids (like acetic acid). Among the four choices, only CH3CHO (acetaldehyde) is an aldehyde, so it is the only one that gives a positive Tollen's test. The printed UHS key marks B (2-butanone), but ketones do not reduce Tollens' reagent, so C is kept."
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 89,
+  "match_question_text": "Absolute zero is unattainable. Current attempts have resulted in temperature as low as:",
+  "match_option_a": "10-4 K",
+  "set": {
+   "option_a": "10⁻⁴ K",
+   "option_b": "10⁻² K",
+   "option_c": "10⁻¹ K",
+   "option_d": "10⁻⁵ K"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 98,
+  "match_question_text": "Which of the following formation is an endothermic reaction?",
+  "match_option_a": "C(g) + O2(g) CO2",
+  "set": {
+   "option_a": "C(g) + O₂(g) → CO₂",
+   "option_b": "N₂(g) + 3H₂(g) → 2NH₃(g)",
+   "option_c": "2H₂O(l) → 2H₂(g) + O₂(g)"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 99,
+  "match_question_text": "Solubility of KClO3 can be decreased bin H2O by:",
+  "match_option_a": "Removing K+ ions from the solution",
+  "set": {
+   "question_text": "Solubility of KClO₃ in H₂O can be decreased by:",
+   "option_a": "Removing K⁺ ions from the solution",
+   "option_b": "Removing ClO₃⁻ ions from the solution",
+   "option_d": "Adding NaNO₃ from outside"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 100,
+  "match_question_text": "36 g of HCl dissolves in 100 g of solution. The density of HCl is 1.19 gcm-3. The molar mass of the HCl solution will be:",
+  "match_option_a": "36.5 g/mol",
+  "set": {
+   "question_text": "36 g of HCl dissolves in 100 g of solution. The density of HCl is 1.19 gcm⁻³. The molar mass of the HCl solution will be:"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 104,
+  "match_question_text": "In nickel-cadmium battery, the cathode is composed of:",
+  "match_option_a": "Cd",
+  "set": {
+   "option_b": "Ni(OH)₂",
+   "option_d": "NiO₂"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 107,
+  "match_question_text": "Hydrogen loses an electron to form:",
+  "match_option_a": "H+",
+  "set": {
+   "option_a": "H⁺",
+   "option_b": "H₂²⁻",
+   "option_d": "H⁻"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 112,
+  "match_question_text": "Formula of lead suboxide is:",
+  "match_option_a": "Pb2O3",
+  "set": {
+   "option_a": "Pb₂O₃",
+   "option_b": "Pb₂O",
+   "option_d": "Pb₃O₄"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 117,
+  "match_question_text": "Chromyl Chloride Test is performed to confirm:",
+  "match_option_a": "Cl− ions",
+  "set": {
+   "option_a": "Cl⁻ ions",
+   "option_b": "SO₄²⁻ ions",
+   "option_c": "PO₄³⁻ ions",
+   "option_d": "Cr³⁺ ions"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 118,
+  "match_question_text": "Linear shape is associated with set of hybrid orbitals?",
+  "match_option_a": "sp2",
+  "set": {
+   "option_a": "sp²",
+   "option_b": "dsp²",
+   "option_c": "sp³"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 119,
+  "match_question_text": "Which one of the following compounds show cis-trans isomerism?",
+  "match_option_a": "1-butene",
+  "set": {
+   "option_c": "1-bromo-2-chloropropene",
+   "explanation_short": "1-Bromo-2-chloropropene (BrCH=C(Cl)CH₃) has two different groups on each carbon of its double bond, so it shows cis-trans isomerism; the other three are terminal alkenes with a =CH₂ end.",
+   "explanation_long": "Geometric (cis-trans) isomerism needs restricted rotation about a C=C bond and two different groups on each doubly bonded carbon. In 1-bromo-2-chloropropene, BrCH=C(Cl)–CH₃, carbon 1 carries H and Br and carbon 2 carries Cl and CH₃, so Br and Cl can lie on the same side (cis) or opposite sides (trans). Propene, 1-butene and 1-hexene all end in =CH₂, whose two identical hydrogens rule out cis-trans isomers. (The paper prints option C as '1-bromo-2-chloropropane', which has no double bond; C is the keyed option and is shown with the intended alkene name.)",
+   "explanation_trick": "Look at both carbons of the C=C: if either one carries two identical groups (such as =CH₂), there are no cis-trans isomers.",
+   "explanation_options": {
+    "a": "Wrong — 1-butene, CH₂=CH–CH₂CH₃, has two H atoms on carbon 1.",
+    "b": "Wrong — 1-hexene is also a terminal alkene with a =CH₂ end.",
+    "c": "Correct — BrCH=C(Cl)CH₃ has different groups on both double-bond carbons, giving cis and trans forms.",
+    "d": "Wrong — propene, CH₂=CH–CH₃, has two H atoms on carbon 1."
+   }
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 120,
+  "match_question_text": "CH3―CH2―MgBr + H2O + X Where ‘X’ is:",
+  "match_option_a": "Propane",
+  "set": {
+   "question_text": "CH₃–CH₂–MgBr + H₂O → Mg(Br)OH + X. Where ‘X’ is:"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 131,
+  "match_question_text": "",
+  "match_option_a": "E-mail is a relatively new mean of communication.",
+  "set": {
+   "question_text": "Choose the CORRECT sentence."
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 132,
+  "match_question_text": "",
+  "match_option_a": "As she said the computer was programmed by Mona.",
+  "set": {
+   "question_text": "Choose the CORRECT sentence."
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 133,
+  "match_question_text": "",
+  "match_option_a": "The remains of the body were thrown into the sea.",
+  "set": {
+   "question_text": "Choose the CORRECT sentence."
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 134,
+  "match_question_text": "",
+  "match_option_a": "We will discuss your problem as soon as the committee will leave.",
+  "set": {
+   "question_text": "Choose the CORRECT sentence."
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 135,
+  "match_question_text": "",
+  "match_option_a": "Reaching for the book, the ladder slipped out from under him.",
+  "set": {
+   "question_text": "Choose the CORRECT sentence."
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 136,
+  "match_question_text": "",
+  "match_option_a": "After the sun has set behind the mountain, a cool breeze sprang up and brought relief from the heat.",
+  "set": {
+   "question_text": "Choose the CORRECT sentence."
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 137,
+  "match_question_text": "",
+  "match_option_a": "Masood told me that he would hire more salesman if he is in my position.",
+  "set": {
+   "question_text": "Choose the CORRECT sentence."
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 138,
+  "match_question_text": "",
+  "match_option_a": "He consumed his heart on this and washed away before the very eyes of the people.",
+  "set": {
+   "question_text": "Choose the CORRECT sentence."
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 139,
+  "match_question_text": "",
+  "match_option_a": "They felt bad while leaving their friends.",
+  "set": {
+   "question_text": "Choose the CORRECT sentence."
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 140,
+  "match_question_text": "",
+  "match_option_a": "He then struck the man himself a similar bow, which felled him on the earth like a log.",
+  "set": {
+   "question_text": "Choose the CORRECT sentence."
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 150,
+  "match_question_text": "PARABLE",
+  "match_option_a": "Impossible",
+  "set": {
+   "explanation_long": "A parable is a simple narrative used to illustrate a moral or religious lesson through symbolic characters and events -- essentially a type of allegory. 'Allegory' is the definitionally correct synonym among the given choices. The printed UHS key marks D ('Suitable'), which has no connection with the meaning of parable, so C is kept."
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 151,
+  "match_question_text": "If DNA strand is GCTATGG mRNA strand synthesized from it would be:",
+  "match_option_a": "CGAUACC",
+  "set": {
+   "explanation_long": "Transcription pairs each DNA base with its RNA complement: G->C, C->G, T->A, A->U. For the DNA strand GCTATGG, this gives C-G-A-U-A-C-C, i.e. CGAUACC. The printed UHS key marks C (CGATACC), which contains thymine and so cannot be mRNA, so A is kept."
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 156,
+  "match_question_text": "Aldosterone plays role in:",
+  "match_option_a": "Transport of water",
+  "set": {
+   "option_b": "Transport of K⁺ ions into kidney"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 166,
+  "match_question_text": "In plants, the red light favours:",
+  "match_option_a": "Enhancement of cell differentiation",
+  "set": {
+   "correct_answer": "B",
+   "explanation_short": "Plants grown under red light elongate (grow taller), whereas blue light suppresses cell elongation — so red light favours elongation of cells.",
+   "explanation_long": "The quality (colour) of light changes the pattern of growth. Blue light, detected by cryptochromes, strongly inhibits the elongation of stem cells, so plants kept under blue light are short and compact. Under red light this inhibition is missing and cells elongate, so the plants grow tall. This is the textbook effect of light quality on growth and the answer in the UHS key.",
+   "explanation_trick": "Blue light keeps plants short; red light lets their cells elongate.",
+   "explanation_options": {
+    "a": "Wrong — cell differentiation is not the effect of light colour described in textbooks.",
+    "b": "Correct — red light favours elongation of cells; blue light inhibits it.",
+    "c": "Wrong — maturation of cells is not the effect attributed to red light.",
+    "d": "Wrong — enhancement of cell division is not the effect attributed to red light."
+   }
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 170,
+  "match_question_text": "Males with XXY chromosomes suffer from:",
+  "match_option_a": "Klinefelter’s Syndrome",
+  "set": {
+   "explanation_long": "Klinefelter's syndrome is defined by an XXY karyotype (an extra X chromosome in a male). Jacob's syndrome (XYY syndrome) instead involves an extra Y chromosome, not an extra X, so it doesn't match the XXY karyotype described in the question. The printed UHS key marks B, but Jacob's syndrome is XYY, so A (Klinefelter's, XXY) is kept."
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 174,
+  "match_question_text": "Which one of correct about ‘Rh+’ blood?",
+  "match_option_a": "Will produce anti-Rh antibodies if given Rh+ blood",
+  "set": {
+   "is_active": false,
+   "is_verified": false
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 200,
+  "match_question_text": "A large group of parasitic protozoa, some of which causes various diseases such as malaria to humans, are:",
+  "match_option_a": "Aschelminthes",
+  "set": {
+   "is_active": false,
+   "is_verified": false
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 202,
+  "match_question_text": "Which of the following components is less resistant to decay?",
+  "match_option_a": "Lignin",
+  "set": {
+   "correct_answer": "B",
+   "explanation_short": "Starch is the least resistant to decay — it is a storage carbohydrate that almost every microbe can digest, whereas lignin, chitin and cellulose are tough structural polymers.",
+   "explanation_long": "Decomposers break down materials at very different rates. Starch, a storage polysaccharide of α-glucose, is hydrolysed by amylases produced by a huge range of bacteria and fungi, so it decays quickly. Cellulose (β-glucose) and chitin (with nitrogen-containing sugars) are structural polymers that only specialised organisms can digest, and lignin is the most decay-resistant of all. (The printed UHS key marks C, chitin, but chitin is far more resistant to decay than starch.)",
+   "explanation_trick": "Storage molecules (starch) are built to be broken down; structural molecules (lignin, chitin, cellulose) are built to last.",
+   "explanation_options": {
+    "a": "Wrong — lignin is the most decay-resistant natural polymer listed.",
+    "b": "Correct — starch is readily digested by most decomposers, so it is the least resistant to decay.",
+    "c": "Wrong — chitin is a tough structural polymer digested only by organisms with chitinase.",
+    "d": "Wrong — cellulose resists decay and is digested only by organisms with cellulase."
+   }
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 218,
+  "match_question_text": "Most of the carbon dioxide is carried in the blood in the form of:",
+  "match_option_a": "Bicarbonate",
+  "set": {
+   "option_c": "CO₂"
+  }
+ },
+ {
+  "year": 2009,
+  "question_number": 219,
+  "match_question_text": "Antibiotics are actually:",
+  "match_option_a": "Globular proteins",
+  "set": {
+   "is_active": false,
+   "is_verified": false
+  }
+ }
+]

@@ -9,10 +9,10 @@
     "difficulty": null,
     "question_text": "The formula for electric field strength is 'E = F/Q', where E is electric field strength and F is force and Q is charge. Which one of the following options gives the correct base units for electric field strength?",
     "options": {
-      "a": "kgms-3A-1",
-      "b": "kgs-2A-3",
-      "c": "kg2m-2s-3A",
-      "d": "ms-1A-3"
+      "a": "kgms⁻³A⁻¹",
+      "b": "kgs⁻²A⁻³",
+      "c": "kg²m⁻²s⁻³A",
+      "d": "ms⁻¹A⁻³"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -53,7 +53,7 @@
     "topic": "Force and Motion",
     "subtopic": "Newton''s Laws of Motion",
     "difficulty": null,
-    "question_text": "Two forces, 5 N and 10 N are acting at 'O' and 'P' respectively on a uniform meter rod suspended at the position of centre of gravity 50 cm mark, as shown in the figure. [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] What is the position of 'P' on meter rod?",
+    "question_text": "Two forces, 5 N and 10 N are acting at 'O' and 'P' respectively on a uniform meter rod suspended at the position of centre of gravity 50 cm mark, as shown in the figure. What is the position of 'P' on meter rod?",
     "options": {
       "a": "80 cm",
       "b": "75 cm",
@@ -62,8 +62,8 @@
     },
     "correct_answer": "b",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "Diagram of a uniform meter rod suspended at its centre of gravity (50 cm mark) with 5N acting at 'O' and 10N acting at 'P', and a reaction 'R' shown. Numeric values (50 cm, 100 cm) were recovered from OCR but the exact geometry/layout of the rod and force positions is image-dependent. Needs figure to confirm answer (a, 80 cm).",
     "source_file": "mdcat_2014.py",
     "tag_confidence": "high"
@@ -99,17 +99,17 @@
     "topic": "Fluid Dynamics",
     "subtopic": "Fluid Drag",
     "difficulty": null,
-    "question_text": "Which of the following is the best graphical representation between drag force 'F' on a spherical object of radius 'r' and its speed 'v' through a fluid of viscosity 'η'? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
+    "question_text": "Which of the following is the best graphical representation between drag force 'F' on a spherical object of radius 'r' and its speed 'v' through a fluid of viscosity 'η'?",
     "options": {
-      "a": "Graph A",
-      "b": "Graph B",
-      "c": "Graph C",
-      "d": "Graph D"
+      "a": "Straight line rising from the origin",
+      "b": "Curve falling as v increases",
+      "c": "Horizontal line (F constant)",
+      "d": "Vertical line (v constant)"
     },
     "correct_answer": "a",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "Four Force(F)-vs-speed(v) graphs (options A-D) for drag force on a sphere through a viscous fluid, shown only as images with no distinguishing text. Needs figure to confirm answer (c).",
     "source_file": "mdcat_2014.py",
     "tag_confidence": "high"
@@ -122,7 +122,7 @@
     "topic": "Fluid Dynamics",
     "subtopic": "Fluid Flow (Streamline, Turbulent)",
     "difficulty": null,
-    "question_text": "What is the speed of an incompressible non-viscous liquid flowing out from 'B' contained in a container as shown in the figure? Where AB = 5 m and g = 10 m/s2. [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
+    "question_text": "What is the speed of an incompressible non-viscous liquid flowing out from 'B' contained in a container as shown in the figure? Where AB = 5 m and g = 10 m/s².",
     "options": {
       "a": "5 m/s",
       "b": "10 m/s",
@@ -131,8 +131,8 @@
     },
     "correct_answer": "b",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "Diagram of a container with points 'A' and 'B', where AB = 5 m and a small opening of height 5 cm near 'B' is shown. The exact layout (heights, position of opening) is image-dependent. Needs figure to confirm answer (b, 10 m/s).",
     "source_file": "mdcat_2014.py",
     "tag_confidence": "high"
@@ -237,7 +237,7 @@
     "topic": "Force and Motion",
     "subtopic": "Newton''s Laws of Motion",
     "difficulty": null,
-    "question_text": "A 100 kg man is standing in an elevator, which accidently falls freely. What will be the weight of the person in the freely falling elevator (take g=10 m/s2)",
+    "question_text": "A 100 kg man is standing in an elevator, which accidently falls freely. What will be the weight of the person in the freely falling elevator (take g=10 m/s²)",
     "options": {
       "a": "1000 N",
       "b": "10 N",
@@ -283,7 +283,7 @@
     "topic": "Rotational and Circular Motion",
     "subtopic": "Simple Harmonic Motion (SHM)",
     "difficulty": null,
-    "question_text": "A body performs simple harmonic motion with a period of 0.063 s. The maximum speed is 3.0 ms-1. What are the values of the amplitude 'xo (m)' and angular frequency 'ω (rads-1)'?",
+    "question_text": "A body performs simple harmonic motion with a period of 0.063 s. The maximum speed is 3.0 ms⁻¹. What are the values of the amplitude 'xo (m)' and angular frequency 'ω (rads⁻¹)'?",
     "options": {
       "a": "xo = 0.03, ω = 100",
       "b": "xo = 0.19, ω = 16",
@@ -293,7 +293,7 @@
     "correct_answer": "a",
     "explanation": null,
     "is_active": true,
-    "needs_review": true,
+    "needs_review": false,
     "notes": null,
     "source_file": "mdcat_2014.py",
     "tag_confidence": "high"
@@ -329,17 +329,17 @@
     "topic": "Work and Energy",
     "subtopic": "Energy",
     "difficulty": null,
-    "question_text": "Potential energy of a mass spring system with respect to displacement during simple harmonic motion (SHM) is shown in the figure. Which of the following represents the total energy of mass spring system during SHM? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
+    "question_text": "Potential energy of a mass spring system with respect to displacement during simple harmonic motion (SHM) is shown in the figure. Which of the following represents the total energy of mass spring system during SHM?",
     "options": {
-      "a": "Graph A",
-      "b": "Graph B",
-      "c": "Graph C",
-      "d": "Graph D"
+      "a": "U-shaped curve, zero at x = 0",
+      "b": "Arch-shaped curve, maximum at x = 0",
+      "c": "Peak at x = 0 falling to zero at ±x₀",
+      "d": "Horizontal straight line"
     },
     "correct_answer": "d",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "Four graphs (options A-D) representing total energy vs displacement for a mass-spring system in SHM, shown only as images. Needs figure to confirm answer (b).",
     "source_file": "mdcat_2014.py",
     "tag_confidence": "high"
@@ -352,7 +352,7 @@
     "topic": "Work and Energy",
     "subtopic": "Energy",
     "difficulty": null,
-    "question_text": "Three graphs for three types of materials are shown in the figure (Stress vs Strain, labelled X, Y, Z). Which row describes the correct materials? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
+    "question_text": "Three graphs for three types of materials (stress against strain, labelled X, Y and Z) are shown in the figure. Which row describes the correct materials?",
     "options": {
       "a": "X: Brittle, Y: Ductile, Z: Polymer",
       "b": "X: Brittle, Y: Polymer, Z: Ductile",
@@ -361,8 +361,8 @@
     },
     "correct_answer": "d",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "Three Stress-vs-Strain graphs (labelled X, Y, Z) shown as images; the answer options are text rows matching X/Y/Z to material types, but the graph shapes themselves are needed to determine which curve is brittle/ductile/polymer. Needs figure to confirm answer (a).",
     "source_file": "mdcat_2014.py",
     "tag_confidence": "low"
@@ -421,7 +421,7 @@
     "topic": "Work and Energy",
     "subtopic": "Work",
     "difficulty": null,
-    "question_text": "Which feature of the following graph represents Young's Modulus? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] (Strain on one axis, Stress on the other)",
+    "question_text": "Which feature of the following graph represents Young's Modulus? (Strain on the vertical axis, Stress on the horizontal axis)",
     "options": {
       "a": "Area under graph",
       "b": "Gradient of the graph",
@@ -431,7 +431,7 @@
     "correct_answer": "c",
     "explanation": null,
     "is_active": true,
-    "needs_review": true,
+    "needs_review": false,
     "notes": null,
     "source_file": "mdcat_2014.py",
     "tag_confidence": "low"
@@ -513,7 +513,7 @@
     "topic": "Electronics",
     "subtopic": "Rectification (Half and Full Wave)",
     "difficulty": null,
-    "question_text": "Three NAND gates are connected as shown in the figure. Which of the following logic gate is formed in the connected circuit? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
+    "question_text": "Three NAND gates are connected as shown in the figure. Which of the following logic gate is formed in the connected circuit?",
     "options": {
       "a": "OR",
       "b": "AND",
@@ -522,8 +522,8 @@
     },
     "correct_answer": "a",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "Circuit diagram of three NAND gates connected together (inputs A, B, output X) shown as an image. Needs figure to confirm answer (b, AND).",
     "source_file": "mdcat_2014.py",
     "tag_confidence": "low"
@@ -536,17 +536,17 @@
     "topic": "Electronics",
     "subtopic": "PN Junction (Forward and Reverse Bias)",
     "difficulty": null,
-    "question_text": "What is the output of the truth table for x = AB' + A'B? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
+    "question_text": "What is the output x = AB̄ + AB of the truth table for inputs (A, B) = (0, 0), (0, 1), (1, 0), (1, 1)?",
     "options": {
-      "a": "Output column A",
-      "b": "Output column B",
-      "c": "Output column C",
-      "d": "Output column D"
+      "a": "0, 0, 1, 1",
+      "b": "1, 1, 1, 0",
+      "c": "1, 0, 0, 1",
+      "d": "0, 1, 1, 1"
     },
     "correct_answer": "a",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "Truth table for output x = AB' + A'B (partially recovered from OCR) with blank Output column in the question, and four candidate output-column images (A-D) as options. Output values for options were partially recovered (A: 0,0,1,1; B: 1,1,1,0; C: 1,0,0,1; D: 0,1,1,1) but should be checked against the original figure. Needs figure to confirm answer (a).",
     "source_file": "mdcat_2014.py",
     "tag_confidence": "low"
@@ -559,7 +559,7 @@
     "topic": "Current Electricity",
     "subtopic": "Internal Resistance of Sources",
     "difficulty": null,
-    "question_text": "What is the reading of Ammeter as shown in the circuit diagram? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] (two 6V cells and a 3Ω resistor)",
+    "question_text": "What is the reading of Ammeter as shown in the circuit diagram?",
     "options": {
       "a": "1 A",
       "b": "15 A",
@@ -582,7 +582,7 @@
     "topic": "Current Electricity",
     "subtopic": "Resistivity and Temperature Coefficient",
     "difficulty": null,
-    "question_text": "Three 6Ω resistors are connected as shown in the diagram. What is the resistance between points 'A' and 'B'? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
+    "question_text": "Three 6Ω resistors are connected as shown in the diagram. What is the resistance between points 'A' and 'B'?",
     "options": {
       "a": "6 Ω",
       "b": "16 Ω",
@@ -591,8 +591,8 @@
     },
     "correct_answer": "d",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "Diagram of three 6Ω resistors arranged between points 'A' and 'B' (series/parallel layout shown only as an image). Needs figure to confirm answer (a, 6 Ω).",
     "source_file": "mdcat_2014.py",
     "tag_confidence": "low"
@@ -605,17 +605,17 @@
     "topic": "Electromagnetism",
     "subtopic": "Magnetic Flux Density",
     "difficulty": null,
-    "question_text": "The distance between the plates of a parallel plate capacitor is 2.0 mm and area of each plate is 2.0 m². The plates are in a vacuum. A potential difference of 1.0 x 10^4 V is applied across the plates. Find the capacitance.",
+    "question_text": "The distance between the plates of a parallel plate capacitor is 2.0 mm and area of each plate is 2.0 m². The plates are in a vacuum. A potential difference of 1.0 × 10⁴ V is applied across the plates. Find the capacitance.",
     "options": {
-      "a": "4 x 10^-3 F",
-      "b": "3.54 x 10^-9 F",
-      "c": "8.85 x 10^-9 F",
-      "d": "9.0 x 10^-9 F"
+      "a": "4 × 10⁻³ F",
+      "b": "3.54 × 10⁻⁹ F",
+      "c": "8.85 × 10⁻⁹ F",
+      "d": "9.0 × 10⁻⁹ F"
     },
     "correct_answer": "c",
     "explanation": null,
     "is_active": true,
-    "needs_review": true,
+    "needs_review": false,
     "notes": null,
     "source_file": "mdcat_2014.py",
     "tag_confidence": "low"
@@ -630,10 +630,10 @@
     "difficulty": null,
     "question_text": "A solenoid 15 cm long has 300 turns of wire. A current of 5 A flows through it. What is the magnitude of magnetic field inside the solenoid?",
     "options": {
-      "a": "75 x 10^7 T",
-      "b": "60 x 10^+3 T",
-      "c": "4π x 10^-3 T",
-      "d": "750π x 10^+3 T"
+      "a": "75 × 10⁷ T",
+      "b": "60 × 10⁺³ T",
+      "c": "4π × 10⁻³ T",
+      "d": "750π × 10⁺³ T"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -651,7 +651,7 @@
     "topic": "Electromagnetism",
     "subtopic": "Magnetic Flux Density",
     "difficulty": null,
-    "question_text": "Due to current in a straight conductor, the magnetic field lines' density",
+    "question_text": "Due to current in a straight conductor, the difference (spacing) between magnetic field lines",
     "options": {
       "a": "Increases away from conductor",
       "b": "Decreases away from conductor",
@@ -697,7 +697,7 @@
     "topic": "Electromagnetism",
     "subtopic": "Electromagnetic Induction",
     "difficulty": null,
-    "question_text": "Stimulated emission of two photons 'A' and 'B' during LASER action is shown in figure (an excited atom emitting photon A at energy level E2/E1, and photon B via stimulated emission). What is the relation of wavelengths of two photons?",
+    "question_text": "Stimulated emission of two photons 'A' and 'B' during LASER action is shown in figure. What is the relation of wavelengths of two photons?",
     "options": {
       "a": "λA = λB",
       "b": "λA > λB",
@@ -707,7 +707,7 @@
     "correct_answer": "a",
     "explanation": null,
     "is_active": true,
-    "needs_review": true,
+    "needs_review": false,
     "notes": null,
     "source_file": "mdcat_2014.py",
     "tag_confidence": "high"
@@ -766,17 +766,17 @@
     "topic": "Electromagnetism",
     "subtopic": "Electromagnetic Induction",
     "difficulty": null,
-    "question_text": "Which one of the following spectra is most typical of the output of an X-ray tube? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
+    "question_text": "Which one of the following spectra is most typical of the output of an X-ray tube?",
     "options": {
-      "a": "Graph A",
-      "b": "Graph B",
-      "c": "Graph C",
-      "d": "Graph D"
+      "a": "Smooth continuous curve with no peaks",
+      "b": "Single broad hump",
+      "c": "Continuous background with sharp characteristic peaks",
+      "d": "Several separate peaks and humps with little background"
     },
     "correct_answer": "c",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "Four Intensity-vs-Wavelength spectra (options A-D) for X-ray tube output, shown only as images with no distinguishing text. Needs figure to confirm answer (a).",
     "source_file": "mdcat_2014.py",
     "tag_confidence": "high"
@@ -814,15 +814,15 @@
     "difficulty": null,
     "question_text": "What will be the energy of accelerated electron used to produce X-rays when the accelerating potential is 2 kV?",
     "options": {
-      "a": "2 x 10^-19 J",
-      "b": "1.6 x 10^-19 J",
-      "c": "3.2 x 10^19 J",
-      "d": "3.2 x 10^-16 J"
+      "a": "2 × 10⁻¹⁹ J",
+      "b": "1.6 × 10⁻¹⁹ J",
+      "c": "3.2 × 10¹⁹ J",
+      "d": "3.2 × 10⁻¹⁶ J"
     },
     "correct_answer": "d",
     "explanation": null,
     "is_active": true,
-    "needs_review": true,
+    "needs_review": false,
     "notes": null,
     "source_file": "mdcat_2014.py",
     "tag_confidence": "high"
@@ -904,7 +904,7 @@
     "topic": "Nuclear Physics",
     "subtopic": "Spontaneous and Random Nuclear Decay",
     "difficulty": null,
-    "question_text": "A Uranium isotope 232/92 U undergoes one α-decay and one β-decay. What is the final product's atomic number?",
+    "question_text": "A Uranium isotope ²³²₉₂U undergoes one α-decay and one ⁰₋₁β-decay. What is the final product?",
     "options": {
       "a": "90",
       "b": "92",
@@ -913,8 +913,8 @@
     },
     "correct_answer": "b",
     "explanation": null,
-    "is_active": true,
-    "needs_review": false,
+    "is_active": false,
+    "needs_review": true,
     "notes": null,
     "source_file": "mdcat_2014.py",
     "tag_confidence": "high"
@@ -973,7 +973,7 @@
     "topic": "Nuclear Physics",
     "subtopic": "Spontaneous and Random Nuclear Decay",
     "difficulty": null,
-    "question_text": "Three paths of radioactive radiations are observed as shown in the figure in the presence of an electric field (paths labelled 1, 2, 3 between '+' and '−' plates). Which type of radiation is shown in path 1? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
+    "question_text": "Three paths of radioactive radiations are observed as shown in the figure in the presence of an electric field (paths labelled 1, 2, 3 between '+' and '−' plates). Which type of radiation is shown in path 1?",
     "options": {
       "a": "Alpha",
       "b": "Beta",
@@ -982,8 +982,8 @@
     },
     "correct_answer": "c",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "Diagram showing three radioactive radiation paths (labelled 1, 2, 3) curving between '+' and '−' plates of an electric field, shown only as an image. Needs figure to confirm answer (b, Beta).",
     "source_file": "mdcat_2014.py",
     "tag_confidence": "high"
@@ -1019,7 +1019,7 @@
     "topic": "Thermochemistry and Energetics",
     "subtopic": "Hess''s Law",
     "difficulty": null,
-    "question_text": "A polymer of empirical formula CH2 has molar mass of 28000 g mol-1. Its molecular formula will be",
+    "question_text": "A polymer of empirical formula CH₂ has molar mass of 28000 g mol⁻¹. Its molecular formula will be",
     "options": {
       "a": "100 times that of its empirical formula",
       "b": "200 times that of its empirical formula",
@@ -1029,7 +1029,7 @@
     "correct_answer": "d",
     "explanation": null,
     "is_active": true,
-    "needs_review": true,
+    "needs_review": false,
     "notes": null,
     "source_file": "mdcat_2014.py",
     "tag_confidence": "low"
@@ -1042,12 +1042,12 @@
     "topic": "Fundamental Concepts of Chemistry",
     "subtopic": "Moles and Avogadro''s Number",
     "difficulty": null,
-    "question_text": "The number of molecules in 9 g of ice (H2O) is",
+    "question_text": "The number of molecules in 9 g of ice (H₂O) is",
     "options": {
-      "a": "6.02 x 10^24",
-      "b": "6.02 x 10^23",
-      "c": "3.01 x 10^24",
-      "d": "3.01 x 10^23"
+      "a": "6.02 × 10²⁴",
+      "b": "6.02 × 10²³",
+      "c": "3.01 × 10²⁴",
+      "d": "3.01 × 10²³"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -1090,9 +1090,9 @@
     "difficulty": null,
     "question_text": "At a given temperature and pressure, the one which shows marked deviation from ideal behavior is",
     "options": {
-      "a": "N2",
-      "b": "N3",
-      "c": "CO2",
+      "a": "N₂",
+      "b": "N₃",
+      "c": "CO₂",
       "d": "He"
     },
     "correct_answer": "c",
@@ -1111,17 +1111,17 @@
     "topic": "Atomic Structure",
     "subtopic": "Electronic Configuration",
     "difficulty": null,
-    "question_text": "According to the number of protons, neutrons and electrons given in the table (As: 33p/42n/30e, Ga: 31p/39n/28e, Ca: 20p/20n/20e), which one of the following options is correct?",
+    "question_text": "According to the number of protons, neutrons and electrons given in the table (As: 33 p, 42 n, 30 e; Ga: 31 p, 39 n, 28 e; Ca: 20 p, 20 n, 20 e), which one of the following options is correct?",
     "options": {
-      "a": "As-3, Ga+3, Ca",
-      "b": "As+1, Ga+2, Ca",
-      "c": "As+3, Ga+3, Ca+2",
-      "d": "As+1, Ga, Ca+2"
+      "a": "As³⁻, Ga³⁺, Ca",
+      "b": "As⁺, Ga²⁺, Ca",
+      "c": "As³⁺, Ga³⁺, Ca²⁺",
+      "d": "As⁺, Ga, Ca²⁺"
     },
     "correct_answer": "c",
     "explanation": null,
-    "is_active": true,
-    "needs_review": false,
+    "is_active": false,
+    "needs_review": true,
     "notes": null,
     "source_file": "mdcat_2014.py",
     "tag_confidence": "high"
@@ -1134,17 +1134,17 @@
     "topic": "Atomic Structure",
     "subtopic": "Discovery of Proton",
     "difficulty": null,
-    "question_text": "If the e/m value of electron is 1.7588 x 10^11 coulombs Kg-1, then what would be the mass of electron in grams (charge on electron is 1.6022 x 10^-19 coulombs)?",
+    "question_text": "If the e/m value of electron is 1.7588 × 10¹¹ coulombs Kg⁻¹, then what would be the mass of electron in grams (charge on electron is 1.6022 × 10⁻¹⁹ coulombs)?",
     "options": {
-      "a": "9.1095 x 10^-31 g",
-      "b": "91.095 x 10^-31 g",
-      "c": "9.1095 x 10^-28 g",
-      "d": "0.919095 x 10^-33 g"
+      "a": "9.1095 × 10⁻³¹ g",
+      "b": "91.095 × 10⁻³¹ g",
+      "c": "9.1095 × 10⁻²⁸ g",
+      "d": "0.919095 × 10⁻³³ g"
     },
-    "correct_answer": "a",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
-    "needs_review": true,
+    "needs_review": false,
     "notes": null,
     "source_file": "mdcat_2014.py",
     "tag_confidence": "low"
@@ -1157,17 +1157,17 @@
     "topic": "Chemical Bonding",
     "subtopic": "Sigma and Pi Bonds",
     "difficulty": null,
-    "question_text": "The suitable representation of dot structure of chlorine molecule is: [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
+    "question_text": "The suitable representation of dot structure of chlorine molecule is:",
     "options": {
-      "a": "Structure A",
-      "b": "Structure B",
-      "c": "Structure C",
-      "d": "Structure D"
+      "a": "Each Cl with its own dots and no electron pair shared between them",
+      "b": "One shared electron pair, each Cl with three lone pairs",
+      "c": "Two bond lines between the Cl atoms, one lone pair on each",
+      "d": "One shared electron pair, one lone pair on each Cl"
     },
     "correct_answer": "b",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "Four dot-and-cross (Lewis) structure diagrams (options A-D) of the chlorine molecule, shown only as images with no text. Needs figure to confirm answer (b).",
     "source_file": "mdcat_2014.py",
     "tag_confidence": "high"
@@ -1203,17 +1203,17 @@
     "topic": "Thermochemistry and Energetics",
     "subtopic": "Exothermic and Endothermic Reactions",
     "difficulty": null,
-    "question_text": "2H2 + O2 → 2H2O, ΔH = +285.5 kJ mol-1 (as written the reaction should release energy on formation; treat the sign as printed). What will be the enthalpy change in the above reaction?",
+    "question_text": "2H₂ + O₂ → 2H₂O  ΔH = +285.5 kJ mol⁻¹. What will be the enthalpy change in the above reaction?",
     "options": {
       "a": "205.5 kJ/mol",
       "b": "Zero kJ/mol",
-      "c": "-205.5 kJ/mol",
+      "c": "−205.5 kJ/mol",
       "d": "1 kJ/mol"
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
-    "is_active": true,
-    "needs_review": false,
+    "is_active": false,
+    "needs_review": true,
     "notes": null,
     "source_file": "mdcat_2014.py",
     "tag_confidence": "high"
@@ -1226,12 +1226,12 @@
     "topic": "Thermochemistry and Energetics",
     "subtopic": "Exothermic and Endothermic Reactions",
     "difficulty": null,
-    "question_text": "Combustion of graphite to form CO2 can be done by two ways: C + O2 → CO2, ΔH = -393.7 kJ mol-1; C + ½O2 → CO, ΔH = ?; CO + ½O2 → CO2, ΔH = -283 kJ mol-1. What will be the enthalpy of formation of CO?",
+    "question_text": "Combustion of graphite to form CO₂ can be done by two ways: C + O₂ → CO₂, ΔH = -393.7 kJ mol⁻¹; C + ½O₂ → CO, ΔH = ?; CO + ½O₂ → CO₂, ΔH = -283 kJ mol⁻¹. What will be the enthalpy of formation of CO?",
     "options": {
-      "a": "-676 kJ mol-1",
-      "b": "-110 kJ mol-1",
-      "c": "110 kJ mol-1",
-      "d": "676 kJ mol-1"
+      "a": "-676 kJ mol⁻¹",
+      "b": "-110 kJ mol⁻¹",
+      "c": "110 kJ mol⁻¹",
+      "d": "676 kJ mol⁻¹"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -1249,17 +1249,17 @@
     "topic": "Chemical Equilibrium",
     "subtopic": "Le Chatelier''s Principle",
     "difficulty": null,
-    "question_text": "The value of equilibrium constant (Kc) for the reaction 2HF(s) ⇌ H2(g) + F2(g) is 10^-13 at 2000°C. Calculate the value of Kp for this reaction:",
+    "question_text": "The value of equilibrium constant (Kc) for the reaction 2HF(g) ⇌ H₂(g) + F₂(g) is 10⁻¹³ at 2000 °C. Calculate the value of Kp for this reaction:",
     "options": {
-      "a": "2 x 10^-13",
-      "b": "10^-13",
-      "c": "186 x 10^-13",
-      "d": "3.48 x 10^-9"
+      "a": "2 × 10⁻¹³",
+      "b": "10⁻¹³",
+      "c": "186 × 10⁻¹³",
+      "d": "3.48 × 10⁻⁹"
     },
     "correct_answer": "b",
     "explanation": null,
     "is_active": true,
-    "needs_review": true,
+    "needs_review": false,
     "notes": null,
     "source_file": "mdcat_2014.py",
     "tag_confidence": "low"
@@ -1272,7 +1272,7 @@
     "topic": "Liquids",
     "subtopic": "Evaporation, Boiling Point, Vapor Pressure",
     "difficulty": null,
-    "question_text": "The vapor pressure lines for pure as well as solutions of different concentrations are shown, with T1>T2>T3>T4. Which line represents pure water? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
+    "question_text": "The vapor pressure lines for pure as well as solutions of different concentrations are shown, with T₁ > T₂ > T₃ > T₄. Which line represents pure water?",
     "options": {
       "a": "Line (i)",
       "b": "Line (ii)",
@@ -1281,8 +1281,8 @@
     },
     "correct_answer": "a",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "Vapour-pressure-vs-temperature graph with four lines (i)-(iv) at different concentrations, shown as an image. Needs figure to confirm answer (a, line (i)).",
     "source_file": "mdcat_2014.py",
     "tag_confidence": "high"
@@ -1295,7 +1295,7 @@
     "topic": "s and p Block Elements",
     "subtopic": "Periodic Trends (Radii, IE, EA, Electronegativity)",
     "difficulty": null,
-    "question_text": "In SO4^-2 the oxidation number of Sulphur is",
+    "question_text": "In SO₄²⁻ the oxidation number of Sulphur is",
     "options": {
       "a": "-8",
       "b": "+8",
@@ -1305,7 +1305,7 @@
     "correct_answer": "d",
     "explanation": null,
     "is_active": true,
-    "needs_review": true,
+    "needs_review": false,
     "notes": null,
     "source_file": "mdcat_2014.py",
     "tag_confidence": "low"
@@ -1341,7 +1341,7 @@
     "topic": "Fundamental Principles of Organic Chemistry",
     "subtopic": "Definition and Classification of Organic Compounds",
     "difficulty": null,
-    "question_text": "What will be the pH of a solution of NaOH with a concentration of 10^-3 M?",
+    "question_text": "What will be the pH of a solution of NaOH with a concentration of 10⁻³ M?",
     "options": {
       "a": "3",
       "b": "14",
@@ -1351,7 +1351,7 @@
     "correct_answer": "c",
     "explanation": null,
     "is_active": true,
-    "needs_review": true,
+    "needs_review": false,
     "notes": null,
     "source_file": "mdcat_2014.py",
     "tag_confidence": "low"
@@ -1387,12 +1387,12 @@
     "topic": "Reaction Kinetics",
     "subtopic": "Rate of Reaction and Rate Equation",
     "difficulty": null,
-    "question_text": "For the reaction 2NO + O2 ⇌ 2NO2, the rate equation for the forward reaction is",
+    "question_text": "For the reaction 2NO + O₂ ⇌ 2NO₂, the rate equation for the forward reaction is",
     "options": {
-      "a": "Rate = k[NO][O2]",
-      "b": "Rate = k[NO]²[O2]",
-      "c": "Rate = k[NO2]²",
-      "d": "Rate = k[NO2]"
+      "a": "Rate = k[NO][O₂]",
+      "b": "Rate = k[NO]²[O₂]",
+      "c": "Rate = k[NO₂]²",
+      "d": "Rate = k[NO₂]"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -1433,7 +1433,7 @@
     "topic": "Liquids",
     "subtopic": "Evaporation, Boiling Point, Vapor Pressure",
     "difficulty": null,
-    "question_text": "One mole of glucose was dissolved in 1 kg of water, ethanol, ether and benzene separately and the molal boiling point constant of each individual solution was found to be 0.52, 1.75, 2.16 and 2.70 °C kg mol-1 respectively. Which of the following figures (I-IV) shows benzene as solvent in solution? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
+    "question_text": "One mole of glucose was dissolved in 1 kg of water, ethanol, ether and benzene separately and the molal boiling point constant of each individual solution was found to be 0.52, 1.75, 2.16 and 2.70 °C kg mol⁻¹ respectively. Which of the following figures (I–IV) shows benzene as solvent in solution?",
     "options": {
       "a": "I",
       "b": "II",
@@ -1442,8 +1442,8 @@
     },
     "correct_answer": "a",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "Four boiling-point-elevation apparatus diagrams (labelled I-IV, each showing a solvent/solution setup with mercury manometer) shown as images. Needs figure to confirm answer (d, IV).",
     "source_file": "mdcat_2014.py",
     "tag_confidence": "high"
@@ -1482,8 +1482,8 @@
     "question_text": "Arrange the following elements according to the trend of ionization energies. (C, N, Ne, B)",
     "options": {
       "a": "Ne < N < C < B",
-      "b": "B < N < C < Na",
-      "c": "B < C < N < Na",
+      "b": "B < N < C < Ne",
+      "c": "B < C < N < Ne",
       "d": "Ne < B < C < N"
     },
     "correct_answer": "c",
@@ -1525,17 +1525,17 @@
     "topic": "Atomic Structure",
     "subtopic": "Electronic Configuration",
     "difficulty": null,
-    "question_text": "Electronic configuration of Manganese (Mn) is shown via orbital-box diagrams for 3d and 4s subshells. [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
+    "question_text": "Electronic configuration of Manganese (Mn) is",
     "options": {
-      "a": "Configuration A",
-      "b": "Configuration B",
-      "c": "Configuration C",
-      "d": "Configuration D"
+      "a": "[Ar] 3d: ↑ ↑ ↑ ↑ ↑, 4s: ↑↓",
+      "b": "[Ar] 3d: ↑↓ ↑↓ ↑↓ ↑↓ ↑↓, 4s: ↑",
+      "c": "[Ar] 3d: ↑↓ ↑↓ ↑ ↑ ↑, 4s: ↑↓",
+      "d": "[Ar] 3d: ↑↓ ↑↓ ↑↓ ↑ ↑, 4s: ↑"
     },
     "correct_answer": "a",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "Four orbital-box diagrams (options A-D) showing the 3d/4s electron configuration of Manganese, shown only as images (arrows/box-filling not transcribable). Needs figure to confirm answer (a).",
     "source_file": "mdcat_2014.py",
     "tag_confidence": "high"
@@ -1557,7 +1557,7 @@
     },
     "correct_answer": "c",
     "explanation": null,
-    "is_active": true,
+    "is_active": false,
     "needs_review": true,
     "notes": null,
     "source_file": "mdcat_2014.py",
@@ -1573,15 +1573,15 @@
     "difficulty": null,
     "question_text": "Which one of the following is the correct equation of 1st ionization of sulphuric acid?",
     "options": {
-      "a": "H2SO4(aq) + H2O(l) → 2H+ + SO4^2- (single arrow)",
-      "b": "H2SO4(aq) + H2O(l) → H+(aq) + HSO4- (single arrow)",
-      "c": "H2SO4(aq) + H2O(l) ⇌ 2H+ + SO4^2- (equilibrium arrow)",
-      "d": "H2SO4(aq) + H2O(l) ⇌ H3O+ + SO4^2- (equilibrium arrow)"
+      "a": "H₂SO₄(aq) + H₂O(l) → 2H⁺ + SO₄²⁻",
+      "b": "H₂SO₄(aq) + H₂O(l) → H⁺(aq) + HSO₄⁻",
+      "c": "H₂SO₄(aq) + H₂O(l) ⇌ 2H⁺ + SO₄²⁻",
+      "d": "H₂SO₄(aq) + H₂O(l) ⇌ H₃O⁺ + SO₄²⁻"
     },
     "correct_answer": "b",
     "explanation": null,
     "is_active": true,
-    "needs_review": true,
+    "needs_review": false,
     "notes": null,
     "source_file": "mdcat_2014.py",
     "tag_confidence": "low"
@@ -1596,10 +1596,10 @@
     "difficulty": null,
     "question_text": "Which one of the following is the correct chemical reaction for Ammonia formation by Haber process?",
     "options": {
-      "a": "N2(g) + 3H2(g) → 2NH3(g) (single arrow)",
-      "b": "2N(g) + 3H2(g) ⇌ NH3(g)",
-      "c": "2N(g) + 3H2(g) → 2NH3(g) (single arrow)",
-      "d": "N2(g) + 3H2(g) ⇌ 2NH3(g)"
+      "a": "N₂(g) + 3H₂(g) → 2NH₃(g)",
+      "b": "2N(g) + 3H₂(g) ⇌ NH₃(g)",
+      "c": "2N(g) + 3H₂(g) → 2NH₃(g)",
+      "d": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g)"
     },
     "correct_answer": "d",
     "explanation": null,
@@ -1663,17 +1663,17 @@
     "topic": "Chemistry of Hydrocarbons",
     "subtopic": "Shapes of Alkenes (Sigma/Pi Bonds)",
     "difficulty": null,
-    "question_text": "Which one of the following pairs of compounds is cis and trans isomers of each other? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] (four pairs of substituted-alkene skeletal structures)",
+    "question_text": "Which one of the following pairs of compounds is cis and trans isomers of each other?",
     "options": {
-      "a": "Pair A",
-      "b": "Pair B",
-      "c": "Pair C",
-      "d": "Pair D"
+      "a": "CH₃CH₂–CH=CH–CH₃ drawn with the two H atoms on the same side, and with them on opposite sides",
+      "b": "CH₃–CH=CH–CH₃ (CH₃ groups on the same side) and CH₃–CH=CH₂",
+      "c": "BrCH=CHCl with Br and Cl on the same side, drawn twice",
+      "d": "(Br)(C₂H₅)C=C(Cl)(C₂H₅) and (Br)(CH₃)C=C(Br)(C₂H₅)"
     },
     "correct_answer": "a",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "Four skeletal structures (options A-D) of substituted alkenes, shown as images, to identify a cis/trans isomer pair. OCR recovered fragments of the carbon skeletons but not a reliable full structure. Needs figure to confirm answer (a).",
     "source_file": "mdcat_2014.py",
     "tag_confidence": "low"
@@ -1688,10 +1688,10 @@
     "difficulty": null,
     "question_text": "Which one of the following compounds is a ketone?",
     "options": {
-      "a": "CH3-O-CH2-CH3",
-      "b": "CH3-CO-CH2-CH3",
-      "c": "CH3COCOOH",
-      "d": "CH3-CH2CHO"
+      "a": "CH₃-O-CH₂-CH₃",
+      "b": "CH₃-CO-CH₂-CH₃",
+      "c": "CH₃COCOOH",
+      "d": "CH₃-CH₂CHO"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -1778,12 +1778,12 @@
     "topic": "Alkyl Halides",
     "subtopic": "Nucleophilic Substitution Mechanisms",
     "difficulty": null,
-    "question_text": "If halogenoalkanes are mixed with an excess of ethanoic ammonia and heated under pressure, amines are formed. Which amine is formed in the reaction CH3CH2Br + NH3 → Amine?",
+    "question_text": "If halogenoalkanes are mixed with an excess of ethanoic ammonia and heated under pressure, amines are formed. Which amine is formed in the reaction CH₃CH₂Br + NH₃ → Amine?",
     "options": {
-      "a": "CH3-CH2-NH-CH2-CH3",
-      "b": "CH3-CH2-NH2",
-      "c": "CH3-CH2-CH2-NH2",
-      "d": "H2N-CH2-CH2-NH2"
+      "a": "CH₃-CH₂-NH-CH₂-CH₃",
+      "b": "CH₃-CH₂-NH₂",
+      "c": "CH₃-CH₂-CH₂-NH₂",
+      "d": "H₂N-CH₂-CH₂-NH₂"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -1870,17 +1870,17 @@
     "topic": "Chemical Bonding",
     "subtopic": "Sigma and Pi Bonds",
     "difficulty": null,
-    "question_text": "The formula of 2,4,6-tribromophenol is [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] (four benzene-ring structures showing Br substitution positions)",
+    "question_text": "The formula of 2,4,6-tribromophenol is",
     "options": {
-      "a": "Structure A",
-      "b": "Structure B",
-      "c": "Structure C",
-      "d": "Structure D"
+      "a": "C₆H₃Br₃ — three Br at alternate ring positions, no –OH",
+      "b": "C₆H₂Br₃OH — Br at both ortho positions and the para position to –OH",
+      "c": "C₆H₂Br₃OH — Br on three adjacent carbons, meta, para and meta to –OH",
+      "d": "C₆H₂Br₃OH — Br at both ortho positions and one meta position to –OH"
     },
     "correct_answer": "b",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "Four structural-formula diagrams (options A-D) of 2,4,6-tribromophenol showing Br substitution positions on a benzene ring, shown as images. Needs figure to confirm answer (b).",
     "source_file": "mdcat_2014.py",
     "tag_confidence": "high"
@@ -1939,17 +1939,17 @@
     "topic": "Aldehydes and Ketones",
     "subtopic": "Nucleophilic Addition Reactions",
     "difficulty": null,
-    "question_text": "The structural formula of the product of reaction of acetone with 2,4-dinitrophenylhydrazine is: [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
+    "question_text": "The structural formula of the product of reaction of acetone with 2,4-dinitrophenylhydrazine is:",
     "options": {
-      "a": "Structure A",
-      "b": "Structure B",
-      "c": "Structure C",
-      "d": "Structure D"
+      "a": "CH₃(H)C=N–NH–C₆H₄–NO₂ (one NO₂, para)",
+      "b": "(CH₃)₂C=N–NH–C₆H₄–NO₂ (one NO₂, para)",
+      "c": "CH₃(H)C=N–NH–C₆H₃(NO₂)₂ (NO₂ at 2 and 4)",
+      "d": "(CH₃)₂C=N–NH–C₆H₃(NO₂)₂ (NO₂ at 2 and 4)"
     },
     "correct_answer": "d",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "Four structural-formula diagrams (options A-D) of the 2,4-dinitrophenylhydrazone derivative of acetone, shown as images; OCR recovered partial fragments (CH3-C=N-N(H)-C6H3(NO2)2) but not the full distinguishing structure of each option. Needs figure to confirm answer (d).",
     "source_file": "mdcat_2014.py",
     "tag_confidence": "high"
@@ -1962,17 +1962,17 @@
     "topic": "Chemistry of Hydrocarbons",
     "subtopic": "Chemistry of Alcohols (Ethers, Esters)",
     "difficulty": null,
-    "question_text": "For the reaction: ? + HCN --Base--> CH3-C(OH)(CN)-C2H5. [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
+    "question_text": "For the reaction: ? + HCN --Base--> CH₃-C(OH)(CN)-C₂H₅.",
     "options": {
-      "a": "C2H5COCH3",
-      "b": "C2H5CH(CH3)OH",
-      "c": "CH3COCH3",
-      "d": "C2H5CH2CHO"
+      "a": "C₂H₅COCH₃",
+      "b": "C₂H₅CH(CH₃)OH",
+      "c": "CH₃COCH₃",
+      "d": "C₂H₅CH₂CHO"
     },
     "correct_answer": "a",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "Reaction scheme showing an unknown carbonyl compound '?' reacting with HCN (base-catalyzed) to give a cyanohydrin product CH3-C(OH)(CN)-C2H5, shown partly as an image. Needs figure to confirm answer (a, C2H5COCH3).",
     "source_file": "mdcat_2014.py",
     "tag_confidence": "high"
@@ -2077,17 +2077,17 @@
     "topic": "Fundamental Principles of Organic Chemistry",
     "subtopic": "Definition and Classification of Organic Compounds",
     "difficulty": null,
-    "question_text": "Which one of the following is Glutamic Acid? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] (four amino-acid structures)",
+    "question_text": "Which one of the following is Glutamic Acid?",
     "options": {
-      "a": "Structure A",
-      "b": "Structure B",
-      "c": "Structure C",
-      "d": "Structure D"
+      "a": "H₂N–CH(CH₂CH₂COOH)–COOH",
+      "b": "H₂N–CH(CH₂COOH)–COOH",
+      "c": "H₂N–CH₂–COOH",
+      "d": "H₂N–CH(CH₃)–COOH"
     },
     "correct_answer": "a",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "Four structural-formula diagrams (options A-D) of amino acids, to identify Glutamic Acid; OCR recovered partial fragments (H2N-CH(R)-COOH with different R groups) but not a fully reliable distinguishing structure. Needs figure to confirm answer (a).",
     "source_file": "mdcat_2014.py",
     "tag_confidence": "high"
@@ -2123,7 +2123,7 @@
     "topic": "s and p Block Elements",
     "subtopic": "Group I Reactions",
     "difficulty": null,
-    "question_text": "The structure shown below (partially recovered: CH=C-CH2-CH(NH2)-COOH with an imidazole-like N/NH ring) represents: [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
+    "question_text": "The structure shown below (a five-membered ring –C=CH–N=CH–NH– carrying –CH₂–CH(NH₂)–COOH) represents:",
     "options": {
       "a": "Proline",
       "b": "Histidine",
@@ -2132,8 +2132,8 @@
     },
     "correct_answer": "b",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "Structural formula of an amino acid with an imidazole-like ring (partially recovered: CH=C-CH2-CH(NH2)-COOH with N/NH ring atoms) to be identified. Needs figure to confirm answer (b, Histidine).",
     "source_file": "mdcat_2014.py",
     "tag_confidence": "low"
@@ -2309,15 +2309,15 @@
     "difficulty": null,
     "question_text": "Polystyrene is an addition polymer. Which one of the following structures represents the monomer of polystyrene?",
     "options": {
-      "a": "CH2=CH2",
-      "b": "CH2=CH-CH3",
-      "c": "CH2=CH-Cl",
-      "d": "CH2=CH-C6H5"
+      "a": "CH₂=CH₂",
+      "b": "CH₂=CH-CH₃",
+      "c": "CH₂=CH-Cl",
+      "d": "CH₂=CH-C₆H₅"
     },
     "correct_answer": "d",
     "explanation": null,
     "is_active": true,
-    "needs_review": true,
+    "needs_review": false,
     "notes": null,
     "source_file": "mdcat_2014.py",
     "tag_confidence": "low"
@@ -2445,12 +2445,12 @@
     "topic": "Formal and Lexical Aspect of Language",
     "subtopic": "Punctuation",
     "difficulty": null,
-    "question_text": "SPOT THE ERROR: We were ten miles up the highway (when I happened)[a] (to saw this)[b] (classified advertisement)[c] (in the newspaper.)[d]",
+    "question_text": "SPOT THE ERROR: (We were)[a] ten miles (up the)[b] highway when I happened (to saw this)[c] classified advertisement (in the)[d] newspaper.",
     "options": {
-      "a": "when I happened",
-      "b": "to saw this",
-      "c": "classified advertisement",
-      "d": "in the newspaper."
+      "a": "We were",
+      "b": "up the",
+      "c": "to saw this",
+      "d": "in the"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -2468,12 +2468,12 @@
     "topic": "Formal and Lexical Aspect of Language",
     "subtopic": "Punctuation",
     "difficulty": null,
-    "question_text": "SPOT THE ERROR: “(All is well)[a] (what ends well)[b],” (said the father)[c] (when he had finished the story.)[d]",
+    "question_text": "SPOT THE ERROR: “All (is well what)[a] ends well”, (said the)[b] father (when he had)[c] finished (the story)[d].",
     "options": {
-      "a": "All is well",
-      "b": "what ends well",
-      "c": "said the father",
-      "d": "when he had finished the story."
+      "a": "is well what",
+      "b": "said the",
+      "c": "when he had",
+      "d": "the story"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -2491,12 +2491,12 @@
     "topic": "Formal and Lexical Aspect of Language",
     "subtopic": "Punctuation",
     "difficulty": null,
-    "question_text": "SPOT THE ERROR: (Rubber tubes upon which children had swing in backyards)[a] (hung suspended)[b] (like stopped clock)[c] pendulums in the blazing air.[d]",
+    "question_text": "SPOT THE ERROR: Rubber tubes (upon which)[a] children (had swing in backyards)[b] hung (suspended like)[c] stopped clock pendulums (in the)[d] blazing air.",
     "options": {
-      "a": "Rubber tubes upon which children had swing in backyards",
-      "b": "hung suspended",
-      "c": "like stopped clock",
-      "d": "pendulums in the blazing air."
+      "a": "upon which",
+      "b": "had swing in backyards",
+      "c": "suspended like",
+      "d": "in the"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -2514,12 +2514,12 @@
     "topic": "Formal and Lexical Aspect of Language",
     "subtopic": "Punctuation",
     "difficulty": null,
-    "question_text": "SPOT THE ERROR: (The child was fully dressed)[a] (and sitting)[b] (in her father's lap)[c] (near the kitchen table.)[d]",
+    "question_text": "SPOT THE ERROR: The child was (fully)[a] dressed and (sitting)[b] (in)[c] her father's lap near the (kitchen table)[d].",
     "options": {
-      "a": "The child was fully dressed",
-      "b": "and sitting",
-      "c": "in her father's lap",
-      "d": "near the kitchen table."
+      "a": "fully",
+      "b": "sitting",
+      "c": "in",
+      "d": "kitchen table"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -2537,12 +2537,12 @@
     "topic": "Formal and Lexical Aspect of Language",
     "subtopic": "Punctuation",
     "difficulty": null,
-    "question_text": "SPOT THE ERROR: (The three Abdal Rahman,)[a] (like his illustrious predecessor,)[b] (was a young man of twenty-three)[c] when he took office.[d]",
+    "question_text": "SPOT THE ERROR: (The three)[a] Abdal Rahman, (like his)[b] illustrious predecessor, (was a)[c] young man of twenty-three (when he)[d] took office.",
     "options": {
-      "a": "The three Abdal Rahman,",
-      "b": "like his illustrious predecessor,",
-      "c": "was a young man of twenty-three",
-      "d": "when he took office."
+      "a": "The three",
+      "b": "like his",
+      "c": "was a",
+      "d": "when he"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -2560,17 +2560,17 @@
     "topic": "Formal and Lexical Aspect of Language",
     "subtopic": "Punctuation",
     "difficulty": null,
-    "question_text": "SPOT THE ERROR: Enlarged and beautified by later Caliphs, (Al-Zahra become the)[a] (nucleus of a royal suburb)[b] (whose remain partly evacuated)[c] (in and after 1910, can still be seen.)[d]",
+    "question_text": "SPOT THE ERROR: Enlarged and beautified (by later)[a] Caliphs, Al-Zahra (become the)[b] nucleus of a royal suburb (whose remain)[c] partly evacuated (in and after)[d] 1910, can still be seen.",
     "options": {
-      "a": "Al-Zahra become the",
-      "b": "nucleus of a royal suburb",
-      "c": "whose remain partly evacuated",
-      "d": "in and after 1910, can still be seen."
+      "a": "by later",
+      "b": "become the",
+      "c": "whose remain",
+      "d": "in and after"
     },
     "correct_answer": "c",
     "explanation": null,
-    "is_active": true,
-    "needs_review": false,
+    "is_active": false,
+    "needs_review": true,
     "notes": null,
     "source_file": "mdcat_2014.py",
     "tag_confidence": "high"
@@ -3694,10 +3694,10 @@
       "c": "Porifera",
       "d": "Platyhelminthes"
     },
-    "correct_answer": "b",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
-    "needs_review": true,
+    "needs_review": false,
     "notes": null,
     "source_file": "mdcat_2014.py",
     "tag_confidence": "low"
@@ -3901,10 +3901,10 @@
       "c": "Neutrophils",
       "d": "Lymphocytes"
     },
-    "correct_answer": "d",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
-    "needs_review": true,
+    "needs_review": false,
     "notes": null,
     "source_file": "mdcat_2014.py",
     "tag_confidence": "low"
@@ -4476,7 +4476,7 @@
       "c": "2",
       "d": "5"
     },
-    "correct_answer": "a",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4499,7 +4499,7 @@
       "c": "Active immunity",
       "d": "Passive immunity"
     },
-    "correct_answer": "b",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4906,7 +4906,7 @@
     "topic": "Evolution",
     "subtopic": "Concept of Evolution",
     "difficulty": null,
-    "question_text": "How many food chains are present in the following food web (Fox, Grass Snake, Dog, Frog, Beetle, Spider, Caterpillar, Slug, Wood Boring Beetle, Wood Louse feeding from Leaves, Wood, and Bark)? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
+    "question_text": "How many food chains are present in the following food web (Fox, Grass Snake, Dog, Frog, Beetle, Spider, Caterpillar, Slug, Wood Boring Beetle, Wood Louse feeding from Leaves, Wood, and Bark)?",
     "options": {
       "a": "5",
       "b": "3",
@@ -4915,8 +4915,8 @@
     },
     "correct_answer": "d",
     "explanation": null,
-    "is_active": false,
-    "needs_review": true,
+    "is_active": true,
+    "needs_review": false,
     "notes": "Food web diagram showing Fox, Grass Snake, Dog, Frog, Beetle, Spider, Caterpillar, Slug, Wood Boring Beetle, Wood Louse, Leaves, Wood, and Bark connected by feeding-relationship arrows, shown as an image. Needs figure to confirm answer (d, 4 food chains).",
     "source_file": "mdcat_2014.py",
     "tag_confidence": "high"
@@ -4952,12 +4952,12 @@
     "topic": "Inheritance",
     "subtopic": "Mendel's Laws of Inheritance",
     "difficulty": null,
-    "question_text": "A gene that has more than one phenotypic effect is called",
+    "question_text": "When a gene suppresses the effects of a gene at another locus, this is known as",
     "options": {
-      "a": "Pleiotropic",
-      "b": "Epistatic",
-      "c": "Dominant",
-      "d": "Mutant"
+      "a": "Epistasis",
+      "b": "Co-dominance",
+      "c": "Complete dominance",
+      "d": "Mutation"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -4975,12 +4975,12 @@
     "topic": "Inheritance",
     "subtopic": "Mendel's Laws of Inheritance",
     "difficulty": null,
-    "question_text": "A gene which masks the expression of another non-allelic gene is called",
+    "question_text": "In male the sex determining gene is",
     "options": {
-      "a": "Pleiotropic",
-      "b": "Epistatic",
-      "c": "Dominant",
-      "d": "Mutant"
+      "a": "XY",
+      "b": "SRY",
+      "c": "SYX",
+      "d": "SXX"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -4998,12 +4998,12 @@
     "topic": "Biological Molecules",
     "subtopic": "Structure of DNA",
     "difficulty": null,
-    "question_text": "Position of a gene within a DNA molecule is",
+    "question_text": "A gene which affects two or more unrelated characteristics is called",
     "options": {
-      "a": "Locus",
-      "b": "Origin",
-      "c": "Amplicon",
-      "d": "Filial"
+      "a": "Pleiotropic",
+      "b": "Epistatic",
+      "c": "Dominant",
+      "d": "Mutant"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -5021,12 +5021,12 @@
     "topic": "Biological Molecules",
     "subtopic": "Structure of DNA",
     "difficulty": null,
-    "question_text": "Sickle cell anemia is a type of",
+    "question_text": "Position of a gene within a DNA molecule is",
     "options": {
-      "a": "Insertion",
-      "b": "Transposition",
-      "c": "Deletion",
-      "d": "Base Substitution"
+      "a": "Locus",
+      "b": "Origin",
+      "c": "Amplicon",
+      "d": "Filial"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -5044,12 +5044,12 @@
     "topic": "Biological Molecules",
     "subtopic": "Structure of DNA",
     "difficulty": null,
-    "question_text": "Position of a gene within a DNA molecule is",
+    "question_text": "Sickle cell anemia is a type of",
     "options": {
-      "a": "Locus",
-      "b": "Origin",
-      "c": "Amplicon",
-      "d": "Filial"
+      "a": "Insertion",
+      "b": "Transposition",
+      "c": "Deletion",
+      "d": "Base Substitution"
     },
     "correct_answer": "d",
     "explanation": null,

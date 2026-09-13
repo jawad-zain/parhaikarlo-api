@@ -30,7 +30,7 @@
     "topic": "Rotational and Circular Motion",
     "subtopic": "Angular Displacement",
     "difficulty": null,
-    "question_text": "Radian is a unit of angular displacement which can also be measured in degrees. How many radians are equal to one degree? 180 2π",
+    "question_text": "Radian is a unit of angular displacement which can also be measured in degrees. How many radians are equal to one degree?",
     "options": {
       "a": "180/π",
       "b": "π/180",
@@ -57,7 +57,7 @@
     "options": {
       "a": "mg + mv",
       "b": "mg",
-      "c": "mg ― mv",
+      "c": "mg − mv",
       "d": "zero"
     },
     "correct_answer": "b",
@@ -78,12 +78,12 @@
     "difficulty": null,
     "question_text": "An object having spherical shape of radius ‘r’ experiences a retarding force F from a fluid of co- efficient of viscosity ‘η’ when moving through the fluid with speed ‘v’. What is the ratio of retarding force to speed?",
     "options": {
-      "a": "K.E. = e²V",
-      "b": "K.E. = hc/λ",
-      "c": "K.E. = hf²",
-      "d": "K.E. = eV"
+      "a": "6πηr²",
+      "b": "6πη/r²",
+      "c": "6πηr",
+      "d": "6πη/r"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -260,7 +260,7 @@
     "topic": "Waves",
     "subtopic": "Wave Speed",
     "difficulty": null,
-    "question_text": "A source of sound wave emits waves of frequency ‘f’. If ‘v’ is speed of sound waves, then what will be the wavelength of the waves v v uo",
+    "question_text": "A source of sound wave emits waves of frequency ‘f’. If ‘v’ is speed of sound waves, then what will be the wavelength of the waves?",
     "options": {
       "a": "v/f",
       "b": "vf",
@@ -398,11 +398,11 @@
     "topic": "Thermodynamics",
     "subtopic": "Kinetic Theory of Gases",
     "difficulty": null,
-    "question_text": "Which of the following is the expression of root mean square speed of a gas having n number of molecules contained in the container? v1 2 + v2 2 +…+ vx 2 v1 + v2 +…+ vx",
+    "question_text": "Which of the following is the expression of root mean square speed of a gas having n number of molecules contained in the container?",
     "options": {
       "a": "√[(v₁² + v₂² + … + vₙ²)/N]",
       "b": "(v₁² + v₂² + … + vₙ²)/N",
-      "c": "(v₁ + v₂ + … + vₙ)/N",
+      "c": "√[(v₁ + v₂ + … + vₙ)/N]",
       "d": "(v₁ + v₂ + … + vₙ)/N"
     },
     "correct_answer": "a",
@@ -490,7 +490,7 @@
     "topic": "Thermodynamics",
     "subtopic": "First Law of Thermodynamics",
     "difficulty": null,
-    "question_text": "In which of the following, the change in internal energy is more? B A B P(Pa) P(Pa) A C D C 3 V(m3) V(m )",
+    "question_text": "Two P–V graphs show systems A and B, each taken round a closed cycle. In which of the following, the change in internal energy is more?",
     "options": {
       "a": "In system A",
       "b": "In system B",
@@ -610,7 +610,7 @@
       "a": "3R",
       "b": "R",
       "c": "R/3",
-      "d": "R3"
+      "d": "R³"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -699,9 +699,9 @@
     "difficulty": null,
     "question_text": "Wavelength of X-rays is the order of:",
     "options": {
-      "a": "10-6 m",
-      "b": "10-10 m",
-      "c": "10-13 m",
+      "a": "10⁻⁶ m",
+      "b": "10⁻¹⁰ m",
+      "c": "10⁻¹³ m",
       "d": "100 m"
     },
     "correct_answer": "b",
@@ -750,7 +750,7 @@
       "c": "Coherent monochromatic light is emitted",
       "d": "There is a population inversion of photons"
     },
-    "correct_answer": "d",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -766,11 +766,11 @@
     "topic": "Current Electricity",
     "subtopic": "Steady Current",
     "difficulty": null,
-    "question_text": "Three resistors of resistance R1, R2 and R3 are connected as shown in the figure. Equivalent resistance is:",
+    "question_text": "Three resistors of resistance R₁, R₂ and R₃ are connected as shown in the figure (R₁ in series with R₂ and R₃, which are in parallel with each other). Equivalent resistance is:",
     "options": {
       "a": "R₁ + R₂ + R₃",
       "b": "(R₁ + R₂ + R₃)/(R₁R₂)",
-      "c": "(R₁R₂ + R₂R₃ + R₂R₃)/(R₁ + R₂)",
+      "c": "(R₁R₂ + R₁R₃ + R₂R₃)/(R₂ + R₃)",
       "d": "R₁R₂R₃/(R₂R₃)"
     },
     "correct_answer": "c",
@@ -812,12 +812,12 @@
     "topic": "Electromagnetism",
     "subtopic": "X-rays (Production and Spectrum)",
     "difficulty": null,
-    "question_text": "When electrons lose all their kinetic energy in the first collision, the entire kinetic appears as an X-ray photon of energy: hc",
+    "question_text": "When electrons lose all their kinetic energy in the first collision, the entire kinetic energy appears as an X-ray photon of energy:",
     "options": {
       "a": "K.E. = eV",
-      "b": "K.E. = hλmin/c",
-      "c": "K.E. = hc/λmin",
-      "d": "K.E. = h/λmax"
+      "b": "K.E. = hλ_min/c",
+      "c": "K.E. = hc/λ_min",
+      "d": "K.E. = h/λ_max"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -950,7 +950,7 @@
     "topic": "Nuclear Physics",
     "subtopic": "Spontaneous and Random Nuclear Decay",
     "difficulty": null,
-    "question_text": "Which one of the following particles is emitted as a result of the nuclear reaction Ra-226 → Rn-222?",
+    "question_text": "Which one of the following particles is emitted as a result of the nuclear reaction ²²⁶Ra → ²²²Rn?",
     "options": {
       "a": "Beta",
       "b": "Alpha",
@@ -1044,7 +1044,7 @@
     "difficulty": null,
     "question_text": "How many 'Cl' (chlorine) atoms are in two moles of chlorine?",
     "options": {
-      "a": "2 × 6.02 × 10²³ atoms",
+      "a": "2 × 6.02 × 10⁻²³ atoms",
       "b": "35.5 × 6.02 × 10²³ atoms",
       "c": "2 × 10²³ atoms",
       "d": "2 × 6.02 × 10²³ atoms"
@@ -1274,9 +1274,9 @@
     "difficulty": null,
     "question_text": "Molarity is defined as the number of moles of any substance dissolved:",
     "options": {
-      "a": "Per dm3 of water",
+      "a": "Per dm³ of water",
       "b": "In one gram of water",
-      "c": "Per m3 of water",
+      "c": "Per m³ of water",
       "d": "In 100 ml of water"
     },
     "correct_answer": "a",
@@ -1550,7 +1550,7 @@
     "difficulty": null,
     "question_text": "Pick the correct statement:",
     "options": {
-      "a": "Chelates are usually more stable than ordinary",
+      "a": "Chelates are usually more stable than ordinary complexes",
       "b": "Ordinary complexes are more stable than chelates",
       "c": "Monodentate ligands form the chelates complexes",
       "d": "Chelates have no ring structures"
@@ -1601,7 +1601,7 @@
       "c": "Carbon dioxide",
       "d": "Hydrogen present in air"
     },
-    "correct_answer": "a",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1647,7 +1647,7 @@
       "c": "Very less reactive gas",
       "d": "Moderately reactive gas"
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1709,7 +1709,7 @@
     "topic": "Chemistry of Hydrocarbons",
     "subtopic": "Friedel-Crafts alkylation reaction",
     "difficulty": null,
-    "question_text": "Benzene in the presence of AlCl3 produces acetophenone when reacts with:",
+    "question_text": "Benzene in the presence of AlCl₃ produces acetophenone when reacts with:",
     "options": {
       "a": "Acetyl chloride",
       "b": "Acetic acid",
@@ -1732,7 +1732,7 @@
     "topic": "Chemistry of Hydrocarbons",
     "subtopic": "Chemical Reactions of Benzene",
     "difficulty": null,
-    "question_text": "The substitution of a '-H' by '-NO2' group in benzene is called:",
+    "question_text": "The substitution of a '–H' by '–NO₂' group in benzene is called:",
     "options": {
       "a": "Nitration",
       "b": "Ammunolusis",
@@ -1801,7 +1801,7 @@
     "topic": "Aldehydes and Ketones",
     "subtopic": "Preparation",
     "difficulty": null,
-    "question_text": "An alcohol is converted to an aldehyde with same number of carbon atoms as that of alcohol in the presence of K2Cr2O7/H2SO4 the alcohol is:",
+    "question_text": "An alcohol is converted to an aldehyde with same number of carbon atoms as that of alcohol in the presence of K₂Cr₂O₇/H₂SO₄. The alcohol is:",
     "options": {
       "a": "CH₃CH(Cl)CH₂OH",
       "b": "CH₃CH₂CH₂OH",
@@ -1826,10 +1826,10 @@
     "difficulty": null,
     "question_text": "Which of the following is a secondary alcohol?",
     "options": {
-      "a": "H3C-CH(OH)-CH3 (isopropanol)",
-      "b": "H3C-CH2-CH2-OH (propan-1-ol)",
-      "c": "H3C-CH(CH3)-CH2-OH (isobutanol)",
-      "d": "H3C-CH(CH3)-CH2-C(CH3)(OH)-CH3"
+      "a": "H₃C–CH(OH)–CH₃",
+      "b": "H₃C–CH₂–CH₂–OH",
+      "c": "H₃C–CH(CH₃)–CH₂–OH",
+      "d": "H₃C–CH(CH₃)–CH₂–C(CH₃)(OH)–CH₃"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -1893,7 +1893,7 @@
     "topic": "Aldehydes and Ketones",
     "subtopic": "Oxidation Reactions",
     "difficulty": null,
-    "question_text": "Consider the following reaction: R―CHO + 2[Ag(NH3)2]OH R―COONH4 + 2Ag + 2NH3 + H2O This reaction represents one of the following tests.",
+    "question_text": "Consider the following reaction: R–CHO + 2[Ag(NH₃)₂]OH → R–COONH₄ + 2Ag + 2NH₃ + H₂O. This reaction represents one of the following tests.",
     "options": {
       "a": "Fehling test",
       "b": "Benedict test",
@@ -1918,7 +1918,7 @@
     "difficulty": null,
     "question_text": "In the reaction HCHO + HCN → cyanohydrin, the nucleophile is:",
     "options": {
-      "a": "CN―",
+      "a": "CN⁻",
       "b": "HCl",
       "c": "Cl",
       "d": "OH"
@@ -1941,10 +1941,10 @@
     "difficulty": null,
     "question_text": "Which one of the following compounds belongs to the homologous series of aldehydes?",
     "options": {
-      "a": "HCOCl (formyl chloride)",
-      "b": "HCONH2 (formamide)",
-      "c": "HCHO (formaldehyde)",
-      "d": "HCOOC2H5 (ethyl formate)"
+      "a": "HCOCl",
+      "b": "HCONH₂",
+      "c": "HCHO",
+      "d": "HCOOC₂H₅"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -1962,7 +1962,7 @@
     "topic": "Carboxylic Acids",
     "subtopic": "Conversion to Derivatives (Acyl Halides, Anhydrides, Esters)",
     "difficulty": null,
-    "question_text": "CH3COOH + PCl5 ? The products of the above reaction are:",
+    "question_text": "CH₃COOH + PCl₅ → ? The products of the above reaction are:",
     "options": {
       "a": "CH₃COCl + POCl₃ + HCl",
       "b": "CH₃COCl + POCl₂ + HCl",
@@ -1985,7 +1985,7 @@
     "topic": "Carboxylic Acids",
     "subtopic": "Nomenclature, Structure, Preparation",
     "difficulty": null,
-    "question_text": "CH3CN + HCl A + B (in the presence of water) In the above reaction, A and B are:",
+    "question_text": "CH₃CN + HCl → A + B (in the presence of water). In the above reaction, A and B are:",
     "options": {
       "a": "Acetic acid and acid amide",
       "b": "Acetic acid and ammonia",
@@ -2008,7 +2008,7 @@
     "topic": "Carboxylic Acids",
     "subtopic": "Reactivity of Carboxylic Acids",
     "difficulty": null,
-    "question_text": "Consider the following reaction: CH3COOH + Mg (metal) ? What product will form?",
+    "question_text": "Consider the following reaction: CH₃COOH + Mg (metal) → ? What product will form?",
     "options": {
       "a": "Magnesium formate",
       "b": "Magnesium acetate",
@@ -2031,7 +2031,7 @@
     "topic": "Macromolecules",
     "subtopic": "Classification and Structure of Proteins",
     "difficulty": null,
-    "question_text": "The ―NH―CO is called:",
+    "question_text": "The –NH–CO– is called:",
     "options": {
       "a": "Amide group",
       "b": "Amino group",
@@ -2056,10 +2056,10 @@
     "difficulty": null,
     "question_text": "Which one of the following is an alpha amino acid?",
     "options": {
-      "a": "CH3-CH(NH2)-COOH (alanine)",
-      "b": "CH3-C(H)(CH2NH2)-COOH",
-      "c": "CH3-CH(NH2)-CH2-COOH",
-      "d": "CH3-CH(COOH)-CH(NH2)-CH3"
+      "a": "CH₃–CH(NH₂)–COOH",
+      "b": "CH₃–CH(CH₂NH₂)–COOH",
+      "c": "CH₃–CH(NH₂)–CH₂–COOH",
+      "d": "CH₃–CH(COOH)–CH(NH₂)–CH₃"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -2102,10 +2102,10 @@
     "difficulty": null,
     "question_text": "At intermediate value of pH, amino acids form Zwitter ions containing:",
     "options": {
-      "a": "―N+H3 and COO―",
-      "b": "―NH3 and COO―",
-      "c": "―N+H3 and COOH",
-      "d": "―NH3 and COOH"
+      "a": "–N⁺H₃ and COO⁻",
+      "b": "–NH₃ and COO⁻",
+      "c": "–N⁺H₃ and COOH",
+      "d": "–NH₃ and COOH"
     },
     "correct_answer": "a",
     "explanation": null,
@@ -2171,10 +2171,10 @@
     "difficulty": null,
     "question_text": "Aspartic acid is an acidic amino acid. Which of the following has its chemical formula?",
     "options": {
-      "a": "CH3-CH(NH2)-COOH",
-      "b": "HOOC-CH(NH2)-CH2-COOH (aspartic acid)",
-      "c": "CH3-CH(NH2)-CH2-COOH",
-      "d": "CH3-C(H)(NH2)-CH-COOH"
+      "a": "CH₃–CH(NH₂)–COOH",
+      "b": "HOOC–CH(NH₂)–CH₂–COOH",
+      "c": "CH₃–CH(NH₂)–CH₂–COOH",
+      "d": "CH₃–CH₂–CH(NH₂)–COOH"
     },
     "correct_answer": "b",
     "explanation": null,
@@ -2590,7 +2590,7 @@
       "c": "The government should accrue taxes to strengthen the economy of the country.",
       "d": "The government should accrue taxes by strengthen the economy of the country."
     },
-    "correct_answer": "a",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2613,7 +2613,7 @@
       "c": "Foreign trade has assumed greater importance in recent years.",
       "d": "Foreign trade shall assumed greater importance in recent years."
     },
-    "correct_answer": "a",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2636,7 +2636,7 @@
       "c": "The space programme has been battered by bureaucratic wrangling.",
       "d": "The space programme has been battered to bureaucratic wrangling."
     },
-    "correct_answer": "a",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2659,7 +2659,7 @@
       "c": "He will had to deal with the problem by showing adroitness.",
       "d": "He will having to deal with the problem by showing adroitness."
     },
-    "correct_answer": "a",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3230,7 +3230,7 @@
     "question_text": "Fatty acid are the organic compounds containing hydrogen, oxygen and one of the following are",
     "options": {
       "a": "–COOH",
-      "b": "–NH2",
+      "b": "–NH₂",
       "c": "Acyl",
       "d": "Sucrose"
     },
@@ -3436,10 +3436,10 @@
     "difficulty": null,
     "question_text": "Which of the following will be hemophilic?",
     "options": {
-      "a": "XHXh",
-      "b": "XHXH",
-      "c": "XhY",
-      "d": "XHY"
+      "a": "XᴴXʰ",
+      "b": "XᴴXᴴ",
+      "c": "XʰY",
+      "d": "XᴴY"
     },
     "correct_answer": "c",
     "explanation": null,
@@ -4338,7 +4338,7 @@
       "c": "Transgenic Bacteria",
       "d": "Clones"
     },
-    "correct_answer": "a",
+    "correct_answer": "d",
     "explanation": null,
     "is_active": true,
     "needs_review": true,
@@ -4890,7 +4890,7 @@
       "c": "All Primitive Cells",
       "d": "All Aerobic Cells"
     },
-    "correct_answer": "c",
+    "correct_answer": "d",
     "explanation": null,
     "is_active": true,
     "needs_review": false,

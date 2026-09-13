@@ -38,7 +38,7 @@
       "c": "An electron emitted by the nucleus as a result of the decay of neutron inside the nucleus.",
       "d": "A pulse of electromagnetic wave."
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -182,7 +182,7 @@
       "c": "200 μ farad.",
       "d": "2000 μ farad"
     },
-    "correct_answer": "c",
+    "correct_answer": "d",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -302,7 +302,7 @@
       "c": "Doubles.",
       "d": "Decreases parabolically."
     },
-    "correct_answer": "c",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -350,7 +350,7 @@
       "c": "22.8.",
       "d": "9.8."
     },
-    "correct_answer": "a",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -566,7 +566,7 @@
       "c": "Equal to.",
       "d": "None of these."
     },
-    "correct_answer": "a",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -587,8 +587,8 @@
     "options": {
       "a": "l.",
       "b": "1/l.",
-      "c": "v l.",
-      "d": "v1/l."
+      "c": "√l.",
+      "d": "√(1/l)."
     },
     "correct_answer": "d",
     "explanation": null,
@@ -686,7 +686,7 @@
       "c": "Few milliamperes.",
       "d": "Both A and C."
     },
-    "correct_answer": "d",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -777,9 +777,9 @@
     "difficulty": null,
     "question_text": "Force in terms of base units is expressed as",
     "options": {
-      "a": "kg ms-2.",
-      "b": "kg m2s-2.",
-      "c": "kg m2s-3.",
+      "a": "kg m s⁻².",
+      "b": "kg m² s⁻².",
+      "c": "kg m² s⁻³.",
       "d": "None of these."
     },
     "correct_answer": "a",
@@ -854,7 +854,7 @@
       "c": "Third power.",
       "d": "Third root."
     },
-    "correct_answer": "c",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -902,7 +902,7 @@
       "c": "220 Hz.",
       "d": "None of these."
     },
-    "correct_answer": "d",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -919,14 +919,14 @@
     "topic": "Current Electricity",
     "subtopic": "Resistivity and Temperature Coefficient",
     "difficulty": null,
-    "question_text": "A wire has resistance 100 Ohm at 0 oC and 200 Ohm at 100 oC. What is its temperature coefficient in K-1?",
+    "question_text": "A wire has resistance 100 Ohm at 0 °C and 200 Ohm at 100 °C. What is its temperature coefficient in K⁻¹?",
     "options": {
-      "a": "-0.01.",
-      "b": "-1/273.",
+      "a": "−0.01.",
+      "b": "−1/273.",
       "c": "0.01.",
       "d": "1/273."
     },
-    "correct_answer": "d",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -950,7 +950,7 @@
       "c": "Orbital & spin.",
       "d": "Orbital x spin."
     },
-    "correct_answer": "d",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -974,7 +974,7 @@
       "c": "Shorter.",
       "d": "Both A and C."
     },
-    "correct_answer": "d",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1022,7 +1022,7 @@
       "c": "Silicon solar cell.",
       "d": "Dry battery cell."
     },
-    "correct_answer": "a",
+    "correct_answer": "d",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1039,11 +1039,11 @@
     "topic": "Measurements",
     "subtopic": "Dimensional Analysis",
     "difficulty": null,
-    "question_text": "The units of E in E=mc2 are",
+    "question_text": "The units of E in E = mc² are",
     "options": {
-      "a": "kg m s-2.",
-      "b": "N m s-2.",
-      "c": "kg m2 s-2.",
+      "a": "kg m s⁻².",
+      "b": "N m s⁻².",
+      "c": "kg m² s⁻².",
       "d": "Both B and C."
     },
     "correct_answer": "c",
@@ -1094,7 +1094,7 @@
       "c": "8 m/sec.",
       "d": "4 m/sec."
     },
-    "correct_answer": "c",
+    "correct_answer": "d",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1118,7 +1118,7 @@
       "c": "Fluids.",
       "d": "Soil."
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1142,7 +1142,7 @@
       "c": "Eyepiece size to object size.",
       "d": "None of these"
     },
-    "correct_answer": "c",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1166,7 +1166,7 @@
       "c": "Copper.",
       "d": "Platinum."
     },
-    "correct_answer": "d",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1375,7 +1375,7 @@
     "topic": "Waves",
     "subtopic": "Young's Double Slit Experiment",
     "difficulty": null,
-    "question_text": "A yellow light of wavelength 500 mm emitted by a single source passes through two narrow slits 1 mm apart. How far apart are two adjacent bright fringes when interference is observed on a screen 10 m away?",
+    "question_text": "A yellow light of wavelength 500 nm emitted by a single source passes through two narrow slits 1 mm apart. How far apart are two adjacent bright fringes when interference is observed on a screen 10 m away?",
     "options": {
       "a": "5 mm.",
       "b": "1.33 mm.",
@@ -1401,10 +1401,10 @@
     "difficulty": null,
     "question_text": "The heat produced by a current I in the wire of resistance R during time interval t is",
     "options": {
-      "a": "I2/Rt.",
-      "b": "I2Rt.",
-      "c": "I2/R/t.",
-      "d": "IR2t."
+      "a": "I²/Rt.",
+      "b": "I²Rt.",
+      "c": "I²/R/t.",
+      "d": "IR²t."
     },
     "correct_answer": "b",
     "explanation": null,
@@ -1428,7 +1428,7 @@
       "a": "Glass.",
       "b": "Copper.",
       "c": "Cast iron.",
-      "d": "High carbon steel. CHEMISTRY"
+      "d": "High carbon steel."
     },
     "correct_answer": "b",
     "explanation": null,
@@ -1447,14 +1447,14 @@
     "topic": "Chemical Bonding",
     "subtopic": "Ionic Character of Covalent Bond",
     "difficulty": null,
-    "question_text": "Which type of bonding is present in NH4Cl?",
+    "question_text": "Which type of bonding is present in NH₄Cl?",
     "options": {
       "a": "Ionic.",
       "b": "Covalent.",
       "c": "Coordinate covalent.",
       "d": "All of these."
     },
-    "correct_answer": "c",
+    "correct_answer": "d",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1471,7 +1471,7 @@
     "topic": "Electrochemistry",
     "subtopic": "Redox Reactions",
     "difficulty": null,
-    "question_text": "When CuSO4 is electrolyzed in aqueous solution using copper electrodes, then the substance which deposits at the cathode is:",
+    "question_text": "When CuSO₄ is electrolyzed in aqueous solution using copper electrodes, then the substance which deposits at the cathode is:",
     "options": {
       "a": "Copper metal.",
       "b": "Copper ions.",
@@ -1526,7 +1526,7 @@
       "c": "Carbon dioxide.",
       "d": "Sulfur dioxide."
     },
-    "correct_answer": "a",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1618,7 +1618,7 @@
     "question_text": "__________ has dipole moment.",
     "options": {
       "a": "CO.",
-      "b": "CO2.",
+      "b": "CO₂.",
       "c": "Benzene.",
       "d": "All of these."
     },
@@ -1639,7 +1639,7 @@
     "topic": "Chemical Equilibrium",
     "subtopic": "Haber's Process",
     "difficulty": null,
-    "question_text": "__________ is used as catalyst in Haber’s process for NH3 gas manufacture.",
+    "question_text": "__________ is used as catalyst in Haber’s process for NH₃ gas manufacture.",
     "options": {
       "a": "Iron.",
       "b": "Carbon.",
@@ -1857,9 +1857,9 @@
     "difficulty": null,
     "question_text": "Which of the following formation is endothermic reaction?",
     "options": {
-      "a": "2H2(g) + O2(g) 2H2O(l).",
-      "b": "C(s) + O2(g) CO2(g).",
-      "c": "N2(g) + O2(g) N2O2(g).",
+      "a": "2H₂(g) + O₂(g) → 2H₂O(l).",
+      "b": "C(s) + O₂(g) → CO₂(g).",
+      "c": "N₂(g) + O₂(g) → N₂O₂(g).",
       "d": "None of these."
     },
     "correct_answer": "c",
@@ -1903,7 +1903,7 @@
     "topic": "Chemical Bonding",
     "subtopic": "Ionic Character of Covalent Bond",
     "difficulty": null,
-    "question_text": "AlI3 (Aluminium Iodide) is electrically a __________",
+    "question_text": "AlI₃ (Aluminium Iodide) is electrically a __________",
     "options": {
       "a": "Conductor.",
       "b": "Non-conductor.",
@@ -1958,7 +1958,7 @@
       "c": "Ammonium nitrite.",
       "d": "None of these."
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -1977,12 +1977,12 @@
     "difficulty": null,
     "question_text": "Sulphuric acid is used to manufacture",
     "options": {
-      "a": "HCl and HNO3.",
-      "b": "H3PO4.",
+      "a": "HCl and HNO₃.",
+      "b": "H₃PO₄.",
       "c": "Both A and B.",
       "d": "Both HCl and 2COOH."
     },
-    "correct_answer": "a",
+    "correct_answer": "d",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2054,7 +2054,7 @@
       "c": "6 moles.",
       "d": "4 moles."
     },
-    "correct_answer": "b",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2078,7 +2078,7 @@
       "c": "Gas.",
       "d": "Isotope."
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2097,8 +2097,8 @@
     "difficulty": null,
     "question_text": "__________ hybridization leads to a regular tetrahedral structure.",
     "options": {
-      "a": "sp3.",
-      "b": "sp2.",
+      "a": "sp³.",
+      "b": "sp².",
       "c": "sp.",
       "d": "All of these."
     },
@@ -2146,8 +2146,8 @@
     "question_text": "Magnesium reacts with hydrogen at high pressure in the presence of catalyst __________ forming magnesium hydride.",
     "options": {
       "a": "Dolomite.",
-      "b": "MgI2.",
-      "c": "Mg3N2.",
+      "b": "MgI₂.",
+      "c": "Mg₃N₂.",
       "d": "Epsom salt."
     },
     "correct_answer": "b",
@@ -2174,7 +2174,7 @@
       "c": "Oxygen.",
       "d": "Both A & C."
     },
-    "correct_answer": "a",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2198,7 +2198,7 @@
       "c": "Remains constant.",
       "d": "Decreases then increases."
     },
-    "correct_answer": "c",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2287,7 +2287,7 @@
     "topic": "s and p Block Elements",
     "subtopic": "Group IV Reactions",
     "difficulty": null,
-    "question_text": "Al2O3(SiO2).2H2O is called",
+    "question_text": "Al₂O₃(SiO₂)·2H₂O is called",
     "options": {
       "a": "Clay.",
       "b": "Talc.",
@@ -2313,12 +2313,12 @@
     "difficulty": null,
     "question_text": "CaO forms fertilize slag by reacting with",
     "options": {
-      "a": "P2O5.",
-      "b": "Fe2O3.",
+      "a": "P₂O₅.",
+      "b": "Fe₂O₃.",
       "c": "Silica.",
       "d": "FO."
     },
-    "correct_answer": "c",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2462,7 +2462,7 @@
       "c": "Oxygen.",
       "d": "None of these."
     },
-    "correct_answer": "c",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2479,14 +2479,14 @@
     "topic": "Liquids",
     "subtopic": "Hydrogen Bonding",
     "difficulty": null,
-    "question_text": "Boiling point of HF is __________ H2O.",
+    "question_text": "Boiling point of HF is __________ H₂O.",
     "options": {
       "a": "Lower than.",
       "b": "Higher than.",
       "c": "Equal to.",
       "d": "Almost same as."
     },
-    "correct_answer": "d",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2505,12 +2505,12 @@
     "difficulty": null,
     "question_text": "__________ is necessary for development of leaves and it tends to accumulate in leaves and bark.",
     "options": {
-      "a": "NO2.",
+      "a": "NO₂.",
       "b": "Calcium.",
       "c": "Gypsum.",
       "d": "Nitrogen."
     },
-    "correct_answer": "d",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2529,12 +2529,12 @@
     "difficulty": null,
     "question_text": "Which of the following is pale yellow to reddish yellow in color?",
     "options": {
-      "a": "Pb2O.",
-      "b": "PbO2.",
+      "a": "Pb₂O.",
+      "b": "PbO₂.",
       "c": "PbO.",
-      "d": "2PbCO3.Pb(OH)2."
+      "d": "2PbCO₃·Pb(OH)₂."
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2625,9 +2625,9 @@
     "difficulty": null,
     "question_text": "Na may be denoted by __________ electron configuration notation",
     "options": {
-      "a": "1s2 2s1.",
-      "b": "[Ar] 4s1.",
-      "c": "[Ne] 3s1.",
+      "a": "1s² 2s¹.",
+      "b": "[Ar] 4s¹.",
+      "c": "[Ne] 3s¹.",
       "d": "None of these."
     },
     "correct_answer": "c",
@@ -2651,7 +2651,7 @@
     "options": {
       "a": "KOH.",
       "b": "Gypsum.",
-      "c": "CaCl2.",
+      "c": "CaCl₂.",
       "d": "Silica sand."
     },
     "correct_answer": "c",
@@ -2671,7 +2671,7 @@
     "topic": "Gases",
     "subtopic": "Ideal Gas Equation",
     "difficulty": null,
-    "question_text": "100 m3 of a gas at 3 atm pressure and 27 oC is transferred to a chamber of 300 m3 volume maintained at a temperature of 327 oC. What will be the pressure in chamber?",
+    "question_text": "100 m³ of a gas at 3 atm pressure and 27 °C is transferred to a chamber of 300 m³ volume maintained at a temperature of 327 °C. What will be the pressure in chamber?",
     "options": {
       "a": "6 atm.",
       "b": "4 atm.",
@@ -2767,7 +2767,7 @@
     "topic": "s and p Block Elements",
     "subtopic": "Group IV Reactions",
     "difficulty": null,
-    "question_text": "Al2F2SiO4 is named as",
+    "question_text": "Al₂F₂SiO₄ is named as",
     "options": {
       "a": "Gibbsite.",
       "b": "Emerald.",
@@ -2776,8 +2776,8 @@
     },
     "correct_answer": "d",
     "explanation": null,
-    "is_active": true,
-    "needs_review": false,
+    "is_active": false,
+    "needs_review": true,
     "notes": null,
     "is_visual_required": false,
     "source_file": "mdcat_2008.py",
@@ -2798,7 +2798,7 @@
       "c": "Nitrogen peroxide.",
       "d": "Nitrous anhydride."
     },
-    "correct_answer": "d",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2839,14 +2839,14 @@
     "topic": "Fundamental Principles of Organic Chemistry",
     "subtopic": "Isomerism (Stereoisomerism)",
     "difficulty": null,
-    "question_text": "CH3-O-CH3 is example of __________ isomerism.",
+    "question_text": "CH₃–O–CH₃ is example of __________ isomerism.",
     "options": {
       "a": "Metamerism.",
       "b": "Functional group.",
       "c": "Chain.",
       "d": "Position."
     },
-    "correct_answer": "d",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -2868,7 +2868,7 @@
       "a": "Acrylic resins.",
       "b": "Polyester resins.",
       "c": "PVCs.",
-      "d": "Polyamide resins. ENGLISH"
+      "d": "Polyamide resins."
     },
     "correct_answer": "b",
     "explanation": null,
@@ -2964,7 +2964,7 @@
       "a": "Looking.",
       "b": "Planning.",
       "c": "Seeing.",
-      "d": "Going. SPOT THE ERROR: In the following sentences, some segments of each sentence are underlined. Your task is to identify that underlined segment of the sentence, which contains the mistake that needs to be corrected. Fill the Circle corresponding to that letter under the segment in the MCQ Response From."
+      "d": "Going."
     },
     "correct_answer": "a",
     "explanation": null,
@@ -3011,7 +3011,7 @@
     "options": {
       "a": "that if",
       "b": "germs were",
-      "c": "excluded of wounds",
+      "c": "of wounds",
       "d": "inflammation was"
     },
     "correct_answer": "c",
@@ -3040,8 +3040,8 @@
     },
     "correct_answer": "c",
     "explanation": null,
-    "is_active": true,
-    "needs_review": false,
+    "is_active": false,
+    "needs_review": true,
     "notes": null,
     "is_visual_required": false,
     "source_file": "mdcat_2008.py",
@@ -3110,7 +3110,7 @@
       "c": "that accord",
       "d": "own inward"
     },
-    "correct_answer": "d",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3127,7 +3127,7 @@
     "topic": "Writing Skills",
     "subtopic": "Faulty Sentence Structure",
     "difficulty": null,
-    "question_text": "",
+    "question_text": "Choose the CORRECT sentence.",
     "options": {
       "a": "He lacked both the training and the equipment needed in the job.",
       "b": "He lacked both the training and the equipment needed by the job.",
@@ -3151,7 +3151,7 @@
     "topic": "Writing Skills",
     "subtopic": "Faulty Sentence Structure",
     "difficulty": null,
-    "question_text": "",
+    "question_text": "Choose the CORRECT sentence.",
     "options": {
       "a": "They tried to pacify him for kindness and affection.",
       "b": "They tried to pacify him in kindness and affection.",
@@ -3175,7 +3175,7 @@
     "topic": "Writing Skills",
     "subtopic": "Faulty Sentence Structure",
     "difficulty": null,
-    "question_text": "",
+    "question_text": "Choose the CORRECT sentence.",
     "options": {
       "a": "Then he sat down in corner and remained queit.",
       "b": "Then he sat down in corner and remained quite.",
@@ -3199,14 +3199,14 @@
     "topic": "Writing Skills",
     "subtopic": "Faulty Sentence Structure",
     "difficulty": null,
-    "question_text": "",
+    "question_text": "Choose the CORRECT sentence.",
     "options": {
       "a": "He was drenched with the hotness of his fear.",
       "b": "He was drenched in the hotness of his fear.",
       "c": "He was drenched by the hotness of his fear.",
       "d": "He was drenched off the hotness of his fear."
     },
-    "correct_answer": "a",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3223,7 +3223,7 @@
     "topic": "Writing Skills",
     "subtopic": "Faulty Sentence Structure",
     "difficulty": null,
-    "question_text": "",
+    "question_text": "Choose the CORRECT sentence.",
     "options": {
       "a": "Why did you disagree with me?",
       "b": "Why did you disagree to me?",
@@ -3247,7 +3247,7 @@
     "topic": "Writing Skills",
     "subtopic": "Faulty Sentence Structure",
     "difficulty": null,
-    "question_text": "",
+    "question_text": "Choose the CORRECT sentence.",
     "options": {
       "a": "Do not stuff your head by things you do not understand.",
       "b": "Do not stuff your head with things you do not understand.",
@@ -3271,7 +3271,7 @@
     "topic": "Writing Skills",
     "subtopic": "Faulty Sentence Structure",
     "difficulty": null,
-    "question_text": "",
+    "question_text": "Choose the CORRECT sentence.",
     "options": {
       "a": "A day later he reached his first glimpse of Lahore.",
       "b": "A day later he took his first glimpse of Lahore.",
@@ -3295,7 +3295,7 @@
     "topic": "Writing Skills",
     "subtopic": "Faulty Sentence Structure",
     "difficulty": null,
-    "question_text": "",
+    "question_text": "Choose the CORRECT sentence.",
     "options": {
       "a": "This will have a bad impact to the economy.",
       "b": "This will have a bad impact on the economy.",
@@ -3319,7 +3319,7 @@
     "topic": "Writing Skills",
     "subtopic": "Faulty Sentence Structure",
     "difficulty": null,
-    "question_text": "",
+    "question_text": "Choose the CORRECT sentence.",
     "options": {
       "a": "It would save him from dying of thirst.",
       "b": "It would save him from dying from thirst.",
@@ -3343,12 +3343,12 @@
     "topic": "Writing Skills",
     "subtopic": "Faulty Sentence Structure",
     "difficulty": null,
-    "question_text": "",
+    "question_text": "Choose the CORRECT sentence.",
     "options": {
       "a": "All this flashed by his mind in an instant of protest.",
       "b": "All this flashed on his mind in an instant of protest.",
       "c": "All this flashed through his mind in an instant of protest.",
-      "d": "All this flashed by off mind in an instant of protest. In each of the following question, four alternative meanings of a word are given. You have to select the NEAREST CORRECT MEANING of the given word and fill the appropriate Circle on the MCQ Response Form."
+      "d": "All this flashed by off mind in an instant of protest."
     },
     "correct_answer": "c",
     "explanation": null,
@@ -3588,7 +3588,7 @@
       "a": "Dogged.",
       "b": "Diet.",
       "c": "Sleep.",
-      "d": "Medicine to be taken. BIOLOGY"
+      "d": "Medicine to be taken."
     },
     "correct_answer": "c",
     "explanation": null,
@@ -3710,7 +3710,7 @@
       "c": "From the 3' to the 5' end of the strand being assembled.",
       "d": "In both directions if DNA ligase is present."
     },
-    "correct_answer": "b",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3734,7 +3734,7 @@
       "c": "C-H.",
       "d": "H-O."
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3806,7 +3806,7 @@
       "c": "Cockroach.",
       "d": "Both A and B."
     },
-    "correct_answer": "d",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3830,7 +3830,7 @@
       "c": "Ectotherms.",
       "d": "None of these."
     },
-    "correct_answer": "b",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3878,7 +3878,7 @@
       "c": "Homogametic.",
       "d": "Both B and C."
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -3950,7 +3950,7 @@
       "c": "HCV.",
       "d": "None of these."
     },
-    "correct_answer": "b",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4094,7 +4094,7 @@
       "c": "Hormones.",
       "d": "Nutrition."
     },
-    "correct_answer": "d",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4382,7 +4382,7 @@
       "c": "Intermediate filaments.",
       "d": "Both A and B."
     },
-    "correct_answer": "d",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4550,7 +4550,7 @@
       "c": "Hydrostatic skeleton.",
       "d": "Both A and B."
     },
-    "correct_answer": "d",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4598,7 +4598,7 @@
       "c": "Cytokinesis.",
       "d": "None of these."
     },
-    "correct_answer": "a",
+    "correct_answer": "b",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4622,7 +4622,7 @@
       "c": "Homologous.",
       "d": "Hypologous."
     },
-    "correct_answer": "a",
+    "correct_answer": "c",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -4910,7 +4910,7 @@
       "c": "Insecta.",
       "d": "Crustacea."
     },
-    "correct_answer": "c",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -5006,7 +5006,7 @@
       "c": "30.",
       "d": "50."
     },
-    "correct_answer": "b",
+    "correct_answer": "d",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -5078,7 +5078,7 @@
       "c": "Four.",
       "d": "Five or three."
     },
-    "correct_answer": "b",
+    "correct_answer": "a",
     "explanation": null,
     "is_active": true,
     "needs_review": false,
@@ -5121,10 +5121,10 @@
     "difficulty": null,
     "question_text": "The optimum temperature for enzymes of human body is",
     "options": {
-      "a": "32 oF.",
-      "b": "46 oC.",
+      "a": "32 °F.",
+      "b": "46 °C.",
       "c": "313 K.",
-      "d": "37 oC."
+      "d": "37 °C."
     },
     "correct_answer": "d",
     "explanation": null,
@@ -5268,7 +5268,7 @@
       "a": "Nerve cells.",
       "b": "Bone cells.",
       "c": "Brain cells.",
-      "d": "None of these. (MCAT Preparations 2017 – ARK) (Copyright Protected MCAT Preparations 2017 – ARK)"
+      "d": "None of these."
     },
     "correct_answer": "c",
     "explanation": null,

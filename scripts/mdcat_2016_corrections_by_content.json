@@ -306,5 +306,236 @@
     "d": "'Isosteric' means binding at the same site, which is the opposite of what is shown."
    }
   }
+ },
+ {
+  "year": 2016,
+  "question_number": 1,
+  "match_question_text": "Which of the following graph represents the output of an X-ray? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
+  "match_option_a": "Graph A",
+  "set": {
+   "question_text": "Which of the following graph represents the output of an X-ray?",
+   "correct_answer": "A",
+   "is_active": true,
+   "is_verified": true,
+   "explanation_short": "An X-ray tube gives a smooth continuous spectrum with sharp characteristic peaks on top of it — only graph A shows both.",
+   "explanation_long": "X-rays are made when fast electrons hit a heavy-metal target. Electrons slowed down by the target nuclei emit braking radiation (bremsstrahlung) over a whole range of wavelengths, giving a smooth continuous background. Some electrons also knock out inner-shell electrons; when outer electrons drop into the vacancy they emit photons of fixed energy, the characteristic Kα and Kβ lines, seen as sharp spikes. Graph A is the only one with a continuous curve plus sharp peaks. (A real spectrum starts at a minimum cut-off wavelength λmin = hc/eV rather than at the origin, but A is still the only correct shape.)",
+   "explanation_trick": "X-ray output = smooth hill + sharp spikes (continuous + characteristic).",
+   "explanation_options": {
+    "a": "Correct — continuous bremsstrahlung background with two characteristic line peaks.",
+    "b": "Only a smooth continuous curve; the characteristic peaks are missing.",
+    "c": "A single smooth hump like a thermal (black-body) curve, with no characteristic lines.",
+    "d": "A smooth rise and plateau with no sharp lines — no characteristic spectrum."
+   }
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 32,
+  "match_question_text": "Total resistance between 'A' and 'B' in the given circuit is: [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] (four 5Ω resistors arranged between points A and B)",
+  "match_option_a": "5.6 Ω",
+  "set": {
+   "question_text": "Total resistance between 'A' and 'B' in the given circuit is:",
+   "correct_answer": "D",
+   "is_active": true,
+   "is_verified": true,
+   "explanation_short": "The three 5 Ω resistors in parallel give 5/3 ≈ 1.67 Ω; adding the 5 Ω in series gives ≈ 6.67 Ω, i.e. 6.6 Ω.",
+   "explanation_long": "Current entering at A first passes through the single 5 Ω resistor, then splits across three 5 Ω resistors that all connect the top wire to the bottom wire leading to B, so those three are in parallel. For n equal resistors in parallel, R = R/n = 5/3 ≈ 1.67 Ω. This parallel group is in series with the first 5 Ω resistor, so R_AB = 5 + 1.67 = 6.67 Ω, which the paper prints as 6.6 Ω.",
+   "explanation_trick": "Equal resistors in parallel: divide by how many there are (5/3), then add the series resistor.",
+   "explanation_options": {
+    "a": "5.6 Ω is too small — the parallel group adds about 1.67 Ω to the series 5 Ω, not 0.6 Ω.",
+    "b": "3.33 Ω is less than the series 5 Ω alone, so it cannot be the total.",
+    "c": "0.33 Ω is far too small; a 5 Ω resistor in series means the total must exceed 5 Ω.",
+    "d": "Correct — 5 + 5/3 = 6.67 Ω ≈ 6.6 Ω."
+   }
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 53,
+  "match_question_text": "Choose the right molecule. [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
+  "match_option_a": "CH₃",
+  "set": {
+   "question_text": "Choose the right molecule.",
+   "correct_answer": "D",
+   "is_active": true,
+   "is_verified": true,
+   "explanation_short": "The central atom has 5 valence electrons and shares one with each of three H atoms, keeping one lone pair — that is NH₃.",
+   "explanation_long": "In the diagram the small circle is a hydrogen atom with one electron (×). The large circle is an atom with five outer electrons: one pair at the top and three single electrons. Each single electron pairs with a hydrogen electron to form a covalent bond, so the product has three shared pairs and one lone pair on the central atom. An atom with five valence electrons that forms three bonds and keeps one lone pair is nitrogen, so the molecule is NH₃. (The sketch draws only one H on the left, but three H atoms are bonded in the product.)",
+   "explanation_trick": "3 bond pairs + 1 lone pair on the centre = NH₃; 2 bond pairs + 2 lone pairs would be H₂O.",
+   "explanation_options": {
+    "a": "CH₃ is a methyl radical, not a stable molecule, and carbon (4 valence electrons) would have no lone pair here.",
+    "b": "CO contains no hydrogen, but the figure shows three hydrogen atoms bonded.",
+    "c": "H₂O would show only two hydrogens and two lone pairs on oxygen.",
+    "d": "Correct — three N–H shared pairs and one lone pair on nitrogen."
+   }
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 54,
+  "match_question_text": "Structure shown is: [-C(=O)-C₆H₄-C(=O)-O-CH₂-CH₂-O-]ₙ [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]. Indicate the name of above given structure.",
+  "match_option_a": "Nylon 6,6",
+  "set": {
+   "question_text": "Indicate the name of above given structure.",
+   "correct_answer": "D",
+   "is_active": true,
+   "is_verified": true,
+   "explanation_short": "The repeat unit is joined by ester (–CO–O–) links between a benzene-1,4-dicarbonyl group and –O–CH₂–CH₂–O–: this is PET (Terylene/Dacron), a polyester.",
+   "explanation_long": "Look at the linking group in the chain. Each repeat unit contains –CO–O– ester linkages formed between terephthalic acid (benzene-1,4-dicarboxylic acid) and ethylene glycol (HO–CH₂–CH₂–OH), with water lost at each link. A polymer whose units are joined by ester bonds is a polyester; this one is polyethylene terephthalate (PET, sold as Terylene or Dacron). The printed UHS key and the solved copy both give C (PVA), but PVA (polyvinyl acetate) is an addition polymer with a –CH₂–CH(OCOCH₃)– backbone — no benzene ring and no ester links in the main chain — so it cannot be this structure. The correct answer is D.",
+   "explanation_trick": "–CO–O– links in the main chain = polyester; –CO–NH– links = polyamide (nylon).",
+   "explanation_options": {
+    "a": "Nylon-6,6 is a polyamide with –CO–NH– links (adipic acid + hexamethylenediamine), with no ester links and no benzene ring.",
+    "b": "Adipic acid, HOOC–(CH₂)₄–COOH, is a single monomer, not a polymer, and has no benzene ring.",
+    "c": "PVA has a –CH₂–CH(OCOCH₃)– carbon backbone with no ring; the official key's choice does not fit the drawn structure.",
+    "d": "Correct — ester links between terephthalic acid and ethylene glycol make this PET, a polyester."
+   }
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 64,
+  "match_question_text": "Structure shown (ethylene, H₂C=CH₂). [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] Calculate the number of σ bonds and π bonds in the molecule.",
+  "match_option_a": "1π and 5σ bonds",
+  "set": {
+   "question_text": "Calculate the number of σ bonds and π bonds in the molecule.",
+   "correct_answer": "A",
+   "is_active": true,
+   "is_verified": true,
+   "explanation_short": "Ethene has four C–H single bonds (4σ) and one C=C double bond (1σ + 1π), so 5σ and 1π bonds.",
+   "explanation_long": "Every single covalent bond is a σ bond. A double bond contains one σ bond (head-on overlap of sp² orbitals) and one π bond (sideways overlap of the unhybridised p orbitals). In ethene, H₂C=CH₂, each carbon forms two C–H bonds, giving four C–H σ bonds, and the C=C double bond adds one more σ and one π. Total: 5σ and 1π bonds.",
+   "explanation_trick": "Every bond line counts one σ; each extra line in a double or triple bond is a π.",
+   "explanation_options": {
+    "a": "Correct — 4 C–H σ + 1 C–C σ = 5σ, and the second line of the double bond is 1π.",
+    "b": "2π would need a triple bond; ethene has only one double bond.",
+    "c": "Only one bond is a double bond, so 3π is impossible, and the four C–H bonds alone already give 4σ.",
+    "d": "12 bonds is far too many — ethene has just five bonded atom pairs (four C–H and one C=C)."
+   }
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 69,
+  "match_question_text": "The diagram shows a galvanic cell (Cu electrode in 1M CuSO₄ solution, H₂ electrode in 1M HCl solution, joined by a porous partition). [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] The current will flow from:",
+  "match_option_a": "Hydrogen electrode to copper electrode",
+  "set": {
+   "question_text": "The diagram shows a galvanic cell. The current will flow from:",
+   "correct_answer": "B",
+   "is_active": true,
+   "is_verified": true,
+   "explanation_short": "Cu (E° = +0.34 V) is the positive cathode and the hydrogen electrode (0 V) is the negative anode, so conventional current in the wire flows from the copper electrode to the hydrogen electrode.",
+   "explanation_long": "Compare standard reduction potentials: Cu²⁺/Cu is +0.34 V and the standard hydrogen electrode is 0.00 V. The couple with the higher potential is reduced, so Cu²⁺ + 2e⁻ → Cu happens at the copper electrode (cathode, positive) and H₂ → 2H⁺ + 2e⁻ at the hydrogen electrode (anode, negative). Electrons released at the hydrogen electrode travel through the wire and voltmeter to the copper electrode. Electric current is defined as the flow of positive charge, opposite to electron flow, so in the external circuit the current flows from the copper electrode to the hydrogen electrode. The printed UHS key gives A (hydrogen electrode to copper electrode); that is the direction of electron flow, not of current, so B is taken as the answer here.",
+   "explanation_trick": "Electrons leave the anode; current leaves the cathode (+) in the outer circuit — always opposite directions.",
+   "explanation_options": {
+    "a": "This is the direction electrons move through the wire (anode → cathode); conventional current is the reverse. The UHS key chose this option.",
+    "b": "Correct — current flows in the external circuit from the positive copper cathode to the negative hydrogen anode.",
+    "c": "This describes charge movement inside one half-cell, not the flow between the two electrodes that the question asks about.",
+    "d": "Inside the cell it is anions that drift from the CuSO₄ side toward the hydrogen electrode, which is opposite to current, and it is not an electrode-to-electrode path."
+   }
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 86,
+  "match_question_text": "Skeletal formula of an organic compound is given below (hydrocarbon). [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] IUPAC name of the compound is:",
+  "match_option_a": "3,3-dimethyl-3-hexene",
+  "set": {
+   "question_text": "Skeletal formula of an organic compound is given below: It is a hydrocarbon. IUPAC name of the compound is:",
+   "correct_answer": "B",
+   "is_active": true,
+   "is_verified": true,
+   "explanation_short": "The longest chain through the C=C has six carbons, with the double bond at C3 and a methyl on each of C3 and C4: 3,4-dimethyl-3-hexene.",
+   "explanation_long": "Each corner or line end in a skeletal formula is a carbon carrying enough hydrogens to make four bonds. The longest chain that includes the double bond runs from the left ethyl end through the two doubly bonded carbons to the right ethyl end: six carbons, so the parent is hexene. Numbering from either end puts the double bond between C3 and C4 (3-hexene), and the two short vertical lines are methyl groups on C3 and C4. The name is 3,4-dimethyl-3-hexene (3,4-dimethylhex-3-ene), C₈H₁₆.",
+   "explanation_trick": "Longest chain through the double bond first (6 C, C=C at 3), then the branches (methyls on 3 and 4).",
+   "explanation_options": {
+    "a": "3,3-dimethyl would put both methyls on C3, but a doubly bonded C3 has room for only one substituent; here the methyls are on different carbons.",
+    "b": "Correct — hex-3-ene chain with methyl groups on C3 and C4.",
+    "c": "3-hexene ignores the two methyl branches (it is C₆H₁₂, not C₈H₁₆).",
+    "d": "The double bond is in the middle of the chain (C3=C4), not at the end (C1), and the methyls are not on C2 and C3."
+   }
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 92,
+  "match_question_text": "Structure of an alcohol (branched carbon skeleton ending in -OH). [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] Which one of the following is the proper classification of above formula:",
+  "match_option_a": "Primary",
+  "set": {
+   "question_text": "Which one of the following is the proper classification of above formula:",
+   "correct_answer": "C",
+   "is_active": true,
+   "is_verified": true,
+   "explanation_short": "The carbon carrying –OH is bonded to three other carbons (three CH₃ groups), so this is a tertiary alcohol — 2-methylpropan-2-ol (tert-butyl alcohol).",
+   "explanation_long": "Alcohols are classified by the carbon that carries the –OH group. If that carbon is attached to one other carbon the alcohol is primary, to two it is secondary, and to three it is tertiary. In the structure the –OH carbon is joined to three CH₃ groups (left, top and bottom) and has no hydrogen of its own. The compound is (CH₃)₃C–OH, 2-methylpropan-2-ol (tert-butyl alcohol), a tertiary alcohol.",
+   "explanation_trick": "Count the carbons attached to the C–OH carbon: 1 = primary, 2 = secondary, 3 = tertiary.",
+   "explanation_options": {
+    "a": "A primary alcohol has –OH on a carbon joined to only one other carbon (–CH₂OH); here there are three.",
+    "b": "A secondary alcohol's –OH carbon is joined to two carbons and keeps one H; here it has three carbons and no H.",
+    "c": "Correct — the –OH carbon carries three methyl groups.",
+    "d": "Polyhydric alcohols have two or more –OH groups; this molecule has only one."
+   }
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 93,
+  "match_question_text": "Which one of the following is an appropriate structure of product of bromination? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
+  "match_option_a": "Structure A",
+  "set": {
+   "question_text": "Which one of the following is an appropriate structure of product of bromination?",
+   "correct_answer": "C",
+   "is_active": true,
+   "is_verified": true,
+   "explanation_short": "Phenol reacts with bromine water at once to give a white precipitate of 2,4,6-tribromophenol — Br at both ortho positions and the para position (structure C).",
+   "explanation_long": "The –OH group strongly activates the benzene ring and directs incoming groups to the ortho (2, 6) and para (4) positions. In bromine water phenol reacts rapidly without a catalyst and all three activated positions are substituted, giving 2,4,6-tribromophenol as a white precipitate (C₆H₅OH + 3Br₂ → C₆H₂Br₃OH + 3HBr). Structure C has Br on the two carbons next to the –OH carbon and on the carbon opposite it. (With Br₂ in a non-polar solvent such as CS₂ at low temperature only monobromination occurs, giving mainly p-bromophenol with some o-bromophenol.)",
+   "explanation_trick": "–OH is ortho/para directing: bromine water fills 2, 4 and 6 → 2,4,6-tribromophenol.",
+   "explanation_options": {
+    "a": "2,3,4-tribromophenol puts a Br on C3, a meta position that –OH does not activate.",
+    "b": "o-Bromophenol is only a minor monobromination product in a non-polar solvent; with bromine water all three ortho/para positions are brominated.",
+    "c": "Correct — 2,4,6-tribromophenol.",
+    "d": "2,3,6-tribromophenol has a Br on the meta position C3 and leaves the para position empty."
+   }
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 94,
+  "match_question_text": "Structure of a nitro-substituted phenol (three -NO2 groups). [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] Which one of the following is an appropriate name of above compound?",
+  "match_option_a": "1,3,6-Trinitrophenol",
+  "set": {
+   "question_text": "Which one of the following is an appropriate name of above compound?",
+   "correct_answer": "D",
+   "is_active": true,
+   "is_verified": true,
+   "explanation_short": "The ring carries –OH with –NO₂ groups at both ortho positions and the para position: 2,4,6-trinitrophenol, commonly called picric acid.",
+   "explanation_long": "Number the ring from the carbon bearing –OH as C1. The three nitro groups sit on C2 and C6 (next to the –OH) and on C4 (opposite it), so the systematic name is 2,4,6-trinitrophenol. Its common name is picric acid: the three strongly electron-withdrawing –NO₂ groups stabilise the phenoxide ion so much that it is a far stronger acid than phenol (pKa about 0.4 compared with 10). It is a yellow crystalline solid once used as an explosive and a dye.",
+   "explanation_trick": "2,4,6-trinitrophenol = picric acid (compare 2,4,6-trinitrotoluene = TNT).",
+   "explanation_options": {
+    "a": "Numbering starts at the –OH carbon (C1), so the nitro groups are at 2, 4 and 6; \"1,3,6\" would put a nitro group on the –OH carbon itself.",
+    "b": "m-Nitrophenol has only one –NO₂ group, at C3; this compound has three.",
+    "c": "Tartaric acid is HOOC–CH(OH)–CH(OH)–COOH, a dicarboxylic acid with no benzene ring or nitro groups.",
+    "d": "Correct — picric acid is 2,4,6-trinitrophenol."
+   }
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 95,
+  "match_question_text": "Structure: (CH₃)₂C=N-NH-C₆H₃(NO₂)₂. [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] It is the general formula of:",
+  "match_option_a": "2,4-Dinitrophenyl hydrazine",
+  "set": {
+   "question_text": "It is the general formula of:",
+   "correct_answer": "D",
+   "is_active": true,
+   "is_verified": true,
+   "explanation_short": "The structure has a C=N–NH– link joined to a benzene ring carrying NO₂ at positions 2 and 4 — it is a 2,4-dinitrophenylhydrazone (here the one formed from acetone).",
+   "explanation_long": "2,4-Dinitrophenylhydrazine (2,4-DNPH, Brady's reagent) is H₂N–NH–C₆H₃(NO₂)₂. It reacts with aldehydes and ketones by condensation (addition–elimination): the –NH₂ group attacks the C=O carbon and water is lost, forming a C=N bond. The product is a 2,4-dinitrophenylhydrazone, R₂C=N–NH–C₆H₃(NO₂)₂, usually an orange-yellow precipitate used to detect carbonyl compounds. The structure shown, (CH₃)₂C=N–NH–C₆H₃(NO₂)₂, is the 2,4-dinitrophenylhydrazone of acetone; counting the ring carbon attached to NH as C1, the nitro groups are on C2 and C4.",
+   "explanation_trick": "-hydrazine still has a free –NH₂; -hydrazone has formed C=N with a carbonyl compound.",
+   "explanation_options": {
+    "a": "2,4-Dinitrophenylhydrazine is the reagent, H₂N–NH–C₆H₃(NO₂)₂, with a free –NH₂ and no C=N bond.",
+    "b": "The ring carbon bonded to NH is C1, so the nitro groups are at 2 and 4; \"1,3\" numbering is wrong.",
+    "c": "A plain phenylhydrazone has an unsubstituted benzene ring; this one carries two nitro groups.",
+    "d": "Correct — C=N–NH– linked to a 2,4-dinitrophenyl ring."
+   }
+  }
  }
 ]

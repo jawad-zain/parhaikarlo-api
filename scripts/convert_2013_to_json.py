@@ -1,4 +1,9 @@
 """
+DO NOT RE-RUN (2026-09-13): MDCAT_2013.json and the DB carry a content re-check that this
+content re-check (answers vs science, rebuilt structure options, typography). Its KEY_RAW is the printed UHS key,
+which is wrong on ~20 items (Q2,12,13,17,44,46,64,68,69,79,90,93,116,124,145,156,204,214); Q104/Q112 are deactivated.
+Source of truth: parsed-mcqs/MDCAT_2013.json + scripts/mdcat_2013_corrections_by_content.json.
+
 Adapter: mdcat_2013.py -> parsed-mcqs/MDCAT_2013.json
 
 Differences from the 2014 adapter:

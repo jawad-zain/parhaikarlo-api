@@ -1,4 +1,9 @@
 """
+DO NOT RE-RUN (2026-09-13): MDCAT_2014.json and the DB carry a content re-check that this
+content re-check (answers vs science, spot-the-error rebuilt to the paper's underlined segments, Q216/Q218 stems restored,
+structure options rebuilt, typography). Q25/40/49/53/68/112 are deactivated.
+Source of truth: parsed-mcqs/MDCAT_2014.json + scripts/mdcat_2014_corrections_by_content.json.
+
 Adapter: mdcat_2014.py → parsed-mcqs/2014.json
 
 Differences from 2022 adapter:
