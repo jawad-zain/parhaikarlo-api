@@ -316,5 +316,63 @@
    "option_b": "1.6 × 10⁻¹⁹ J",
    "option_c": "125 × 1.6 × 10⁻¹⁹ J"
   }
+ },
+ {
+  "year": 2019,
+  "question_number": 28,
+  "match_question_text": "Which of the following blood vessels contain semilunar valves?",
+  "match_option_a": "Arteries",
+  "set": {
+   "correct_answer": "B",
+   "explanation_short": "Veins contain pocket-shaped semilunar valves along their length that stop blood flowing backwards.",
+   "explanation_long": "Blood in veins is under low pressure, so veins (especially in the limbs) have semilunar, pocket-like valves that open toward the heart and close against backflow. Arteries carry high-pressure blood and have no valves in their walls; the aortic and pulmonary semilunar valves sit at the exits of the ventricles, where these arteries leave the heart. The UHS key and the FSc textbook give veins.",
+   "explanation_trick": "Low-pressure vessels need valves → veins.",
+   "explanation_options": {
+    "a": "Arteries have no valves along their walls; the aortic and pulmonary valves belong to the heart's outlets.",
+    "b": "Correct — veins have semilunar valves that prevent backflow.",
+    "c": "Arterioles have no valves.",
+    "d": "Capillaries are one cell thick and have no valves."
+   }
+  }
+ },
+ {
+  "year": 2019,
+  "question_number": 196,
+  "match_question_text": "SPOT THE ERROR — Let's hurry. The bus is leaving to the last stop.",
+  "match_option_a": "Let's",
+  "set": {
+   "option_a": "Let's",
+   "option_b": "The",
+   "option_c": "is",
+   "option_d": "to",
+   "correct_answer": "D",
+   "explanation_short": "'Leave for' a destination, not 'leave to' — the underlined 'to' (D) is the error.",
+   "explanation_long": "When 'leave' means to set off towards a place, it takes 'for': the bus is leaving for the last stop. 'Let's', 'The' and 'is' are all used correctly, so the error is segment D.",
+   "explanation_trick": "Leave for a place; leave from a place.",
+   "explanation_options": {
+    "a": "'Let's hurry' is correct.",
+    "b": "'The bus' is correct.",
+    "c": "'is leaving' (present continuous for a near-future plan) is correct.",
+    "d": "Correct — 'to' should be 'for': leaving for the last stop."
+   }
+  }
+ },
+ {
+  "year": 2019,
+  "question_number": 198,
+  "match_question_text": "SPOT THE ERROR — Education and economic progress along with good governance is the factor that take a country towards quick development.",
+  "match_option_a": "along with",
+  "set": {
+   "correct_answer": "B",
+   "explanation_short": "The subject 'Education and economic progress' is plural, so 'is the factor' should be 'are the factors'.",
+   "explanation_long": "Two nouns joined by 'and' (education and economic progress) make a plural subject; a phrase introduced by 'along with' does not change that. The verb and complement must be plural: 'are the factors that take a country towards quick development'. Once B is corrected, 'take' agrees with 'factors', so B is the segment containing the error. This is the UHS key's answer.",
+   "explanation_trick": "A and B = plural; 'along with' adds nothing to the count.",
+   "explanation_options": {
+    "a": "'along with' is used correctly.",
+    "b": "Correct — the plural subject needs 'are the factors'.",
+    "c": "'take' is correct once the subject-verb error in B is fixed (factors … take).",
+    "d": "'towards' is used correctly."
+   }
+  }
  }
 ]

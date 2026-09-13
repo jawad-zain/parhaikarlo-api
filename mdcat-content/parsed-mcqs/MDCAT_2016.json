@@ -240,7 +240,7 @@
   "question_text": "The unit for electric charge is Coulomb and one Coulomb in terms of base unit is equivalent to:",
   "options": {
    "a": "Am",
-   "b": "Js-1",
+   "b": "Js⁻¹",
    "c": "As",
    "d": "C"
   },
@@ -513,7 +513,7 @@
   "topic": "Thermodynamics",
   "subtopic": "First Law of Thermodynamics",
   "difficulty": null,
-  "question_text": "The relation R/NA = 1.38 x 10^-25 JK-1 in a gas law is known as:",
+  "question_text": "The relation R/NA = 1.38 × 10⁻²⁵ JK⁻¹ in a gas law is known as:",
   "options": {
    "a": "Avogadro's constant",
    "b": "Charles constant",
@@ -1205,10 +1205,10 @@
   "difficulty": null,
   "question_text": "Choose the right molecule. [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
   "options": {
-   "a": "CH3",
+   "a": "CH₃",
    "b": "CO",
-   "c": "H2O",
-   "d": "NH3"
+   "c": "H₂O",
+   "d": "NH₃"
   },
   "correct_answer": "d",
   "explanation": null,
@@ -1226,7 +1226,7 @@
   "topic": "Chemistry of Hydrocarbons",
   "subtopic": "Nomenclature of Alkynes",
   "difficulty": null,
-  "question_text": "Structure shown is: [-C(=O)-C6H4-C(=O)-O-CH2-CH2-O-]n [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]. Indicate the name of above given structure.",
+  "question_text": "Structure shown is: [-C(=O)-C₆H₄-C(=O)-O-CH₂-CH₂-O-]ₙ [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]. Indicate the name of above given structure.",
   "options": {
    "a": "Nylon 6,6",
    "b": "Adipic Acid",
@@ -1297,10 +1297,10 @@
   "difficulty": null,
   "question_text": "The gas which is mainly produced in landfills from the waste is:",
   "options": {
-   "a": "CH4",
-   "b": "CO2",
-   "c": "SO2",
-   "d": "Cl2"
+   "a": "CH₄",
+   "b": "CO₂",
+   "c": "SO₂",
+   "d": "Cl₂"
   },
   "correct_answer": "a",
   "explanation": null,
@@ -1366,7 +1366,7 @@
   "difficulty": null,
   "question_text": "London dispersion forces are the only forces present among the:",
   "options": {
-   "a": "Molecules of H2O in liquid state",
+   "a": "Molecules of H₂O in liquid state",
    "b": "Molecules of HCl gas",
    "c": "Atoms of helium in gaseous state at high temperature",
    "d": "Molecules of solid chlorine"
@@ -1456,7 +1456,7 @@
   "topic": "Chemical Bonding",
   "subtopic": "Sigma and Pi Bonds",
   "difficulty": null,
-  "question_text": "Structure shown (ethylene, H2C=CH2). [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] Calculate the number of σ bonds and π bonds in the molecule.",
+  "question_text": "Structure shown (ethylene, H₂C=CH₂). [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] Calculate the number of σ bonds and π bonds in the molecule.",
   "options": {
    "a": "1π and 5σ bonds",
    "b": "2π and 4σ bonds",
@@ -1502,7 +1502,7 @@
   "topic": "Thermochemistry and Energetics",
   "subtopic": "Exothermic and Endothermic Reactions",
   "difficulty": null,
-  "question_text": "Mg + ½O2(g) → MgO(g) + -692 kJmol-1 at STP. Enthalpy of the above reaction will be called:",
+  "question_text": "Mg + ½O₂(g) → MgO(g) + -692 kJmol⁻¹ at STP. Enthalpy of the above reaction will be called:",
   "options": {
    "a": "ΔH°at",
    "b": "ΔH°s",
@@ -1571,12 +1571,12 @@
   "topic": "Electrochemistry",
   "subtopic": "Redox Reactions",
   "difficulty": null,
-  "question_text": "The diagram shows a galvanic cell (Cu electrode in 1M CuSO4 solution, H2 electrode in 1M HCl solution, joined by a porous partition). [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] The current will flow from:",
+  "question_text": "The diagram shows a galvanic cell (Cu electrode in 1M CuSO₄ solution, H₂ electrode in 1M HCl solution, joined by a porous partition). [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] The current will flow from:",
   "options": {
    "a": "Hydrogen electrode to copper electrode",
    "b": "Copper electrode to hydrogen electrode",
    "c": "Hydrogen electrode to HCl solution",
-   "d": "CuSO4 solution to hydrogen electrode"
+   "d": "CuSO₄ solution to hydrogen electrode"
   },
   "correct_answer": "a",
   "explanation": null,
@@ -1640,12 +1640,12 @@
   "topic": "Chemical Equilibrium",
   "subtopic": "Solubility Products",
   "difficulty": null,
-  "question_text": "Value of Ksp for PbSO4 system at 25°C is equal to:",
+  "question_text": "Value of Ksp for PbSO₄ system at 25°C is equal to:",
   "options": {
-   "a": "1.6 x 10^-5 mol2dm-6",
-   "b": "1.6 x 10^-6 mol2dm-6",
-   "c": "1.6 x 10^-8 mol2dm-6",
-   "d": "1.6 x 10^-7 mol2dm-6"
+   "a": "1.6 × 10⁻⁵ mol²dm⁻⁶",
+   "b": "1.6 × 10⁻⁶ mol²dm⁻⁶",
+   "c": "1.6 × 10⁻⁸ mol²dm⁻⁶",
+   "d": "1.6 × 10⁻⁷ mol²dm⁻⁶"
   },
   "correct_answer": "c",
   "explanation": null,
@@ -1755,7 +1755,7 @@
   "topic": "Chemical Equilibrium",
   "subtopic": "Le Chatelier''s Principle",
   "difficulty": null,
-  "question_text": "2NaOH(aq) + Cl2(g) → NaCl + NaClO + H2O proceed at:",
+  "question_text": "2NaOH(aq) + Cl₂(g) → NaCl + NaClO + H₂O proceed at:",
   "options": {
    "a": "500°C",
    "b": "200°C",
@@ -1778,12 +1778,12 @@
   "topic": "Gases",
   "subtopic": "Ideal Gas Equation",
   "difficulty": null,
-  "question_text": "Which halogen molecule 'X2' has lowest dissociation energy?",
+  "question_text": "Which halogen molecule 'X₂' has lowest dissociation energy?",
   "options": {
-   "a": "Cl2",
-   "b": "Br2",
-   "c": "I2",
-   "d": "F2"
+   "a": "Cl₂",
+   "b": "Br₂",
+   "c": "I₂",
+   "d": "F₂"
   },
   "correct_answer": "d",
   "explanation": null,
@@ -1824,7 +1824,7 @@
   "topic": "Transition Elements",
   "subtopic": "Electronic Structure of d-block",
   "difficulty": null,
-  "question_text": "Which element of 3d series of periodic table shows the electronic configuration of 3d6, 4s2?",
+  "question_text": "Which element of 3d series of periodic table shows the electronic configuration of 3d⁶, 4s²?",
   "options": {
    "a": "Copper",
    "b": "Cobalt",
@@ -1873,7 +1873,7 @@
   "question_text": "Which one of the following is anhydride of sulphuric acid?",
   "options": {
    "a": "Sulphur (II) oxide",
-   "b": "Sulphur (VI) oxide",
+   "b": "Sulphur (IV) oxide",
    "c": "Iron pyrite",
    "d": "Sulphur (VI) oxide"
   },
@@ -1893,10 +1893,10 @@
   "topic": "Thermochemistry and Energetics",
   "subtopic": "First Law of Thermodynamics",
   "difficulty": null,
-  "question_text": "During contact process of H2SO4 synthesis, the following reaction occurs: 2SO2(g) + O2(g) ⇌ 2SO3(g), ΔH = -96 kJmol-1. Which step is used to increase the yield of SO3?",
+  "question_text": "During contact process of H₂SO₄ synthesis, the following reaction occurs: 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), ΔH = -96 kJmol⁻¹. Which step is used to increase the yield of SO₃?",
   "options": {
    "a": "Temperature is raised to very high degree",
-   "b": "SO3 formed is removed very quickly",
+   "b": "SO₃ formed is removed very quickly",
    "c": "Both temperature and pressure are kept very low",
    "d": "An excess of air is used to drive the equilibrium to the right side"
   },
@@ -1916,7 +1916,7 @@
   "topic": "Chemical Equilibrium",
   "subtopic": "Le Chatelier''s Principle",
   "difficulty": null,
-  "question_text": "Synthesis of ammonia by Haber's process is a reversible reaction: N2(g) + 3H2(g) ⇌ 2NH3(g), ΔH = -92 kJmol-1. What should be done to increase the yield of ammonia?",
+  "question_text": "Synthesis of ammonia by Haber's process is a reversible reaction: N₂(g) + 3H₂(g) ⇌ 2NH₃(g), ΔH = -92 kJmol⁻¹. What should be done to increase the yield of ammonia?",
   "options": {
    "a": "Pressure should be decreased",
    "b": "Ammonia should remain in reaction mixture",
@@ -1941,10 +1941,10 @@
   "difficulty": null,
   "question_text": "Which one of the following reactions shows combustion of a saturated hydrocarbon?",
   "options": {
-   "a": "C2H4 + 3O2 → 2CO2 + 2H2O",
-   "b": "CH4 + 2O2 → CO2 + 2H2O",
-   "c": "CH4 + ½O2 (Cu, 400°C, 200 atm) → CH3OH",
-   "d": "C2H2 + 5/2 O2 → 2CO2 + H2O"
+   "a": "C₂H₄ + 3O₂ → 2CO₂ + 2H₂O",
+   "b": "CH₄ + 2O₂ → CO₂ + 2H₂O",
+   "c": "CH₄ + ½O₂ (Cu, 400°C, 200 atm) → CH₃OH",
+   "d": "C₂H₂ + 5/2 O₂ → 2CO₂ + H₂O"
   },
   "correct_answer": "b",
   "explanation": null,
@@ -2008,7 +2008,7 @@
   "topic": "Alkyl Halides",
   "subtopic": "Nucleophilic Substitution Mechanisms",
   "difficulty": null,
-  "question_text": "Consider the reaction given below: CH3CH2Br --KOH/alcohol--> H2C=CH2 + HBr. Mechanism followed by the reaction is:",
+  "question_text": "Consider the reaction given below: CH₃CH₂Br —KOH/alcohol→ H₂C=CH₂ + HBr. Mechanism followed by the reaction is:",
   "options": {
    "a": "E2",
    "b": "E1",
@@ -2033,10 +2033,10 @@
   "difficulty": null,
   "question_text": "The average bond energy of C-Br is:",
   "options": {
-   "a": "228 kJmol-1",
-   "b": "200 kJmol-1",
-   "c": "250 kJmol-1",
-   "d": "290 kJmol-1"
+   "a": "228 kJmol⁻¹",
+   "b": "200 kJmol⁻¹",
+   "c": "250 kJmol⁻¹",
+   "d": "290 kJmol⁻¹"
   },
   "correct_answer": "d",
   "explanation": null,
@@ -2056,10 +2056,10 @@
   "difficulty": null,
   "question_text": "Which one of the following is NOT a nucleophile:",
   "options": {
-   "a": "NH2⁻",
-   "b": "H2O",
-   "c": "BF3",
-   "d": "CH3⁻"
+   "a": "NH₂⁻",
+   "b": "H₂O",
+   "c": "BF₃",
+   "d": "CH₃⁻"
   },
   "correct_answer": "c",
   "explanation": null,
@@ -2079,8 +2079,8 @@
   "difficulty": null,
   "question_text": "Which one of the following is an appropriate indication of positive iodoform test?",
   "options": {
-   "a": "Formation of H2O",
-   "b": "Release of H2 gas",
+   "a": "Formation of H₂O",
+   "b": "Release of H₂ gas",
    "c": "Brick red precipitate",
    "d": "Yellow crystal"
   },
@@ -2169,7 +2169,7 @@
   "topic": "Chemistry of Hydrocarbons",
   "subtopic": "MOT of Benzene, Resonance, Resonance Energy",
   "difficulty": null,
-  "question_text": "Structure: (CH3)2C=N-NH-C6H3(NO2)2. [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] It is the general formula of:",
+  "question_text": "Structure: (CH₃)₂C=N-NH-C₆H₃(NO₂)₂. [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] It is the general formula of:",
   "options": {
    "a": "2,4-Dinitrophenyl hydrazine",
    "b": "1,3-Dinitrophenyl hydrazone",
@@ -2238,12 +2238,12 @@
   "topic": "Chemical Equilibrium",
   "subtopic": "Haber''s Process",
   "difficulty": null,
-  "question_text": "CH3COOH + CH3CH2OH ⇌ CH3COOC2H5 + H2O. Which one of the following will act as a catalyst in above reaction?",
+  "question_text": "CH₃COOH + CH₃CH₂OH ⇌ CH₃COOC₂H₅ + H₂O. Which one of the following will act as a catalyst in above reaction?",
   "options": {
-   "a": "HNO3",
-   "b": "H2SO4",
+   "a": "HNO₃",
+   "b": "H₂SO₄",
    "c": "Acidified potassium dichromate",
-   "d": "SOCl2"
+   "d": "SOCl₂"
   },
   "correct_answer": "b",
   "explanation": null,
@@ -2261,12 +2261,12 @@
   "topic": "Thermochemistry and Energetics",
   "subtopic": "Exothermic and Endothermic Reactions",
   "difficulty": null,
-  "question_text": "CH3COOH + PCl5 → ? Which one of the following options shows the products of above reaction?",
+  "question_text": "CH₃COOH + PCl₅ → ? Which one of the following options shows the products of above reaction?",
   "options": {
-   "a": "POCl2 + CH3COCl2 + HCl",
-   "b": "POCl3 + CH3COCl2 + H2",
-   "c": "CH3COCl + POCl2 + HCl",
-   "d": "POCl3 + CH3COCl + HCl"
+   "a": "POCl₂ + CH₃COCl₂ + HCl",
+   "b": "POCl₃ + CH₃COCl₂ + H₂",
+   "c": "CH₃COCl + POCl₂ + HCl",
+   "d": "POCl₃ + CH₃COCl + HCl"
   },
   "correct_answer": "d",
   "explanation": null,
@@ -2332,9 +2332,9 @@
   "difficulty": null,
   "question_text": "When acid is added to an amino acid, which one of the following will act as a base?",
   "options": {
-   "a": "NH3+",
+   "a": "NH₃⁺",
    "b": "COO⁻",
-   "c": "H+",
+   "c": "H⁺",
    "d": "R group"
   },
   "correct_answer": "b",
@@ -3572,11 +3572,11 @@
   "topic": "Bioenergetics",
   "subtopic": "Respiration",
   "difficulty": null,
-  "question_text": "Cyclic flow or C4 photosynthesis produces:",
+  "question_text": "Cyclic flow or C₄ photosynthesis produces:",
   "options": {
-   "a": "ATP and CO2",
+   "a": "ATP and CO₂",
    "b": "ATP",
-   "c": "Only CO2",
+   "c": "Only CO₂",
    "d": "Only Oxygen"
   },
   "correct_answer": "b",
@@ -3848,7 +3848,7 @@
   "topic": "Enzymes",
   "subtopic": "Factors Affecting Enzyme Action",
   "difficulty": null,
-  "question_text": "An enzyme required Mg++ to catalyze the substrate. The Mg++ is best identified as:",
+  "question_text": "An enzyme required Mg²⁺ to catalyze the substrate. The Mg²⁺ is best identified as:",
   "options": {
    "a": "Prosthetic group",
    "b": "Activator",
@@ -3871,17 +3871,17 @@
   "topic": "Enzymes",
   "subtopic": "Enzyme Inhibitors",
   "difficulty": null,
-  "question_text": "Diagram shows an inhibitor bound to an enzyme, not at the substrate's binding site. [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] This figure represents _________ inhibitor.",
+  "question_text": "This figure represents __________ inhibitor.",
   "options": {
    "a": "Non-competitive",
    "b": "Competitive",
    "c": "Irreversible",
    "d": "Isosteric"
   },
-  "correct_answer": "b",
+  "correct_answer": "a",
   "explanation": null,
-  "is_active": false,
-  "needs_review": true,
+  "is_active": true,
+  "needs_review": false,
   "notes": "Diagram showing an inhibitor binding an enzyme away from the substrate/active site. Needs figure to confirm answer (b, Competitive) — note the layout as OCR'd (inhibitor not at the substrate site) would suggest non-competitive, so this should be re-checked against the original figure.",
   "source_file": "mdcat_2016.py",
   "tag_confidence": "high"
@@ -4541,7 +4541,7 @@
   "question_text": "The decline in the thickness of ozone layer is caused by:",
   "options": {
    "a": "Increasing level of nitrogen oxide",
-   "b": "Decreasing level of O2",
+   "b": "Decreasing level of O₂",
    "c": "Decreasing level of CFCs",
    "d": "Increasing level of CFCs"
   },

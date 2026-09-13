@@ -159,15 +159,6 @@
  },
  {
   "year": 2018,
-  "question_number": 146,
-  "match_question_text": "Which of the following would react with ozone in the atmosphere?",
-  "match_option_a": "F radical (F•)",
-  "set": {
-   "option_b": "O₂"
-  }
- },
- {
-  "year": 2018,
   "question_number": 147,
   "match_question_text": "A 5 watt LED bulb converts 80% of the power into light photons of wavelength 660 nm. What is the number of photons emitted from the bulb in one second.",
   "match_option_a": "5.8 x 10^34",
@@ -367,6 +358,43 @@
    "option_b": "0.50 × 10⁻² V",
    "option_c": "1.0 × 10⁻² V",
    "option_d": "1.0 × 10⁻³ V"
+  }
+ },
+ {
+  "year": 2018,
+  "question_number": 146,
+  "match_question_text": "Which of the following would react with ozone in the atmosphere?",
+  "match_option_a": "F radical (F•)",
+  "set": {
+   "option_b": "O₂",
+   "correct_answer": "D",
+   "explanation_short": "Chlorine radicals (Cl•), released when UV light breaks down CFCs, attack ozone in the stratosphere: Cl• + O₃ → ClO• + O₂.",
+   "explanation_long": "CFCs are stable in the lower atmosphere but are split by UV light in the stratosphere, releasing Cl• radicals. Each Cl• reacts with ozone to give ClO• and O₂; ClO• then reacts with atomic oxygen to regenerate Cl•, so one chlorine atom can destroy thousands of ozone molecules. This catalytic chain is the ozone depletion the question refers to.",
+   "explanation_trick": "Ozone hole = CFCs → Cl• radicals.",
+   "explanation_options": {
+    "a": "Fluorine from CFCs is locked up as stable HF and does not destroy ozone significantly.",
+    "b": "O₂ is a product of ozone breakdown, not a species that attacks it.",
+    "c": "O• does combine with ozone in the natural ozone–oxygen cycle, but the atmospheric ozone attack taught here is by Cl• from CFCs.",
+    "d": "Correct — Cl• radicals from CFCs react with ozone and destroy it catalytically."
+   }
+  }
+ },
+ {
+  "year": 2018,
+  "question_number": 193,
+  "match_question_text": "I know how to __________ a throat for inspection.",
+  "match_option_a": "Force",
+  "set": {
+   "correct_answer": "C",
+   "explanation_short": "To \"expose\" something is to uncover it so it can be seen — a doctor exposes a throat for inspection.",
+   "explanation_long": "The sentence needs a verb meaning to make the throat visible for examination. \"Expose\" fits exactly. \"Force\" suggests violence, \"prepare\" does not mean making it visible, and \"open a throat\" would mean cutting it.",
+   "explanation_trick": "Expose = uncover for viewing.",
+   "explanation_options": {
+    "a": "'Force a throat' is unidiomatic and suggests violence.",
+    "b": "'Prepare a throat' does not mean making it visible for inspection.",
+    "c": "Correct — you expose a throat for inspection.",
+    "d": "'Open a throat' would mean cutting it open."
+   }
   }
  }
 ]

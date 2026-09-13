@@ -1,0 +1,310 @@
+[
+ {
+  "year": 2016,
+  "question_number": 11,
+  "match_question_text": "The unit for electric charge is Coulomb and one Coulomb in terms of base unit is equivalent to:",
+  "match_option_a": "Am",
+  "set": {
+   "option_b": "Js⁻¹"
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 23,
+  "match_question_text": "The relation R/NA = 1.38 x 10^-25 JK-1 in a gas law is known as:",
+  "match_option_a": "Avogadro's constant",
+  "set": {
+   "question_text": "The relation R/NA = 1.38 × 10⁻²⁵ JK⁻¹ in a gas law is known as:"
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 53,
+  "match_question_text": "Choose the right molecule. [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
+  "match_option_a": "CH3",
+  "set": {
+   "option_a": "CH₃",
+   "option_c": "H₂O",
+   "option_d": "NH₃"
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 54,
+  "match_question_text": "Structure shown is: [-C(=O)-C6H4-C(=O)-O-CH2-CH2-O-]n [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]. Indicate the name of above given structure.",
+  "match_option_a": "Nylon 6,6",
+  "set": {
+   "question_text": "Structure shown is: [-C(=O)-C₆H₄-C(=O)-O-CH₂-CH₂-O-]ₙ [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]. Indicate the name of above given structure."
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 57,
+  "match_question_text": "The gas which is mainly produced in landfills from the waste is:",
+  "match_option_a": "CH4",
+  "set": {
+   "option_a": "CH₄",
+   "option_b": "CO₂",
+   "option_c": "SO₂",
+   "option_d": "Cl₂"
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 60,
+  "match_question_text": "London dispersion forces are the only forces present among the:",
+  "match_option_a": "Molecules of H2O in liquid state",
+  "set": {
+   "option_a": "Molecules of H₂O in liquid state"
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 64,
+  "match_question_text": "Structure shown (ethylene, H2C=CH2). [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] Calculate the number of σ bonds and π bonds in the molecule.",
+  "match_option_a": "1π and 5σ bonds",
+  "set": {
+   "question_text": "Structure shown (ethylene, H₂C=CH₂). [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] Calculate the number of σ bonds and π bonds in the molecule."
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 66,
+  "match_question_text": "Mg + ½O2(g) → MgO(g) + -692 kJmol-1 at STP. Enthalpy of the above reaction will be called:",
+  "match_option_a": "ΔH°at",
+  "set": {
+   "question_text": "Mg + ½O₂(g) → MgO(g) + -692 kJmol⁻¹ at STP. Enthalpy of the above reaction will be called:"
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 69,
+  "match_question_text": "The diagram shows a galvanic cell (Cu electrode in 1M CuSO4 solution, H2 electrode in 1M HCl solution, joined by a porous partition). [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] The current will flow from:",
+  "match_option_a": "Hydrogen electrode to copper electrode",
+  "set": {
+   "question_text": "The diagram shows a galvanic cell (Cu electrode in 1M CuSO₄ solution, H₂ electrode in 1M HCl solution, joined by a porous partition). [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] The current will flow from:",
+   "option_d": "CuSO₄ solution to hydrogen electrode"
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 72,
+  "match_question_text": "Value of Ksp for PbSO4 system at 25°C is equal to:",
+  "match_option_a": "1.6 x 10^-5 mol2dm-6",
+  "set": {
+   "question_text": "Value of Ksp for PbSO₄ system at 25°C is equal to:",
+   "option_a": "1.6 × 10⁻⁵ mol²dm⁻⁶",
+   "option_b": "1.6 × 10⁻⁶ mol²dm⁻⁶",
+   "option_c": "1.6 × 10⁻⁸ mol²dm⁻⁶",
+   "option_d": "1.6 × 10⁻⁷ mol²dm⁻⁶"
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 77,
+  "match_question_text": "2NaOH(aq) + Cl2(g) → NaCl + NaClO + H2O proceed at:",
+  "match_option_a": "500°C",
+  "set": {
+   "question_text": "2NaOH(aq) + Cl₂(g) → NaCl + NaClO + H₂O proceed at:"
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 78,
+  "match_question_text": "Which halogen molecule 'X2' has lowest dissociation energy?",
+  "match_option_a": "Cl2",
+  "set": {
+   "question_text": "Which halogen molecule 'X₂' has lowest dissociation energy?",
+   "option_a": "Cl₂",
+   "option_b": "Br₂",
+   "option_c": "I₂",
+   "option_d": "F₂"
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 80,
+  "match_question_text": "Which element of 3d series of periodic table shows the electronic configuration of 3d6, 4s2?",
+  "match_option_a": "Copper",
+  "set": {
+   "question_text": "Which element of 3d series of periodic table shows the electronic configuration of 3d⁶, 4s²?"
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 82,
+  "match_question_text": "Which one of the following is anhydride of sulphuric acid?",
+  "match_option_a": "Sulphur (II) oxide",
+  "set": {
+   "option_b": "Sulphur (IV) oxide"
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 83,
+  "match_question_text": "During contact process of H2SO4 synthesis, the following reaction occurs: 2SO2(g) + O2(g) ⇌ 2SO3(g), ΔH = -96 kJmol-1. Which step is used to increase the yield of SO3?",
+  "match_option_a": "Temperature is raised to very high degree",
+  "set": {
+   "question_text": "During contact process of H₂SO₄ synthesis, the following reaction occurs: 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), ΔH = -96 kJmol⁻¹. Which step is used to increase the yield of SO₃?",
+   "option_b": "SO₃ formed is removed very quickly"
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 84,
+  "match_question_text": "Synthesis of ammonia by Haber's process is a reversible reaction: N2(g) + 3H2(g) ⇌ 2NH3(g), ΔH = -92 kJmol-1. What should be done to increase the yield of ammonia?",
+  "match_option_a": "Pressure should be decreased",
+  "set": {
+   "question_text": "Synthesis of ammonia by Haber's process is a reversible reaction: N₂(g) + 3H₂(g) ⇌ 2NH₃(g), ΔH = -92 kJmol⁻¹. What should be done to increase the yield of ammonia?"
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 85,
+  "match_question_text": "Which one of the following reactions shows combustion of a saturated hydrocarbon?",
+  "match_option_a": "C2H4 + 3O2 → 2CO2 + 2H2O",
+  "set": {
+   "option_a": "C₂H₄ + 3O₂ → 2CO₂ + 2H₂O",
+   "option_b": "CH₄ + 2O₂ → CO₂ + 2H₂O",
+   "option_c": "CH₄ + ½O₂ (Cu, 400°C, 200 atm) → CH₃OH",
+   "option_d": "C₂H₂ + 5/2 O₂ → 2CO₂ + H₂O"
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 88,
+  "match_question_text": "Consider the reaction given below: CH3CH2Br --KOH/alcohol--> H2C=CH2 + HBr. Mechanism followed by the reaction is:",
+  "match_option_a": "E2",
+  "set": {
+   "question_text": "Consider the reaction given below: CH₃CH₂Br —KOH/alcohol→ H₂C=CH₂ + HBr. Mechanism followed by the reaction is:"
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 89,
+  "match_question_text": "The average bond energy of C-Br is:",
+  "match_option_a": "228 kJmol-1",
+  "set": {
+   "option_a": "228 kJmol⁻¹",
+   "option_b": "200 kJmol⁻¹",
+   "option_c": "250 kJmol⁻¹",
+   "option_d": "290 kJmol⁻¹"
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 90,
+  "match_question_text": "Which one of the following is NOT a nucleophile:",
+  "match_option_a": "NH2⁻",
+  "set": {
+   "option_a": "NH₂⁻",
+   "option_b": "H₂O",
+   "option_c": "BF₃",
+   "option_d": "CH₃⁻"
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 91,
+  "match_question_text": "Which one of the following is an appropriate indication of positive iodoform test?",
+  "match_option_a": "Formation of H2O",
+  "set": {
+   "option_a": "Formation of H₂O",
+   "option_b": "Release of H₂ gas"
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 95,
+  "match_question_text": "Structure: (CH3)2C=N-NH-C6H3(NO2)2. [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] It is the general formula of:",
+  "match_option_a": "2,4-Dinitrophenyl hydrazine",
+  "set": {
+   "question_text": "Structure: (CH₃)₂C=N-NH-C₆H₃(NO₂)₂. [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] It is the general formula of:"
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 98,
+  "match_question_text": "CH3COOH + CH3CH2OH ⇌ CH3COOC2H5 + H2O. Which one of the following will act as a catalyst in above reaction?",
+  "match_option_a": "HNO3",
+  "set": {
+   "question_text": "CH₃COOH + CH₃CH₂OH ⇌ CH₃COOC₂H₅ + H₂O. Which one of the following will act as a catalyst in above reaction?",
+   "option_a": "HNO₃",
+   "option_b": "H₂SO₄",
+   "option_d": "SOCl₂"
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 99,
+  "match_question_text": "CH3COOH + PCl5 → ? Which one of the following options shows the products of above reaction?",
+  "match_option_a": "POCl2 + CH3COCl2 + HCl",
+  "set": {
+   "question_text": "CH₃COOH + PCl₅ → ? Which one of the following options shows the products of above reaction?",
+   "option_a": "POCl₂ + CH₃COCl₂ + HCl",
+   "option_b": "POCl₃ + CH₃COCl₂ + H₂",
+   "option_c": "CH₃COCl + POCl₂ + HCl",
+   "option_d": "POCl₃ + CH₃COCl + HCl"
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 102,
+  "match_question_text": "When acid is added to an amino acid, which one of the following will act as a base?",
+  "match_option_a": "NH3+",
+  "set": {
+   "option_a": "NH₃⁺",
+   "option_c": "H⁺"
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 156,
+  "match_question_text": "Cyclic flow or C4 photosynthesis produces:",
+  "match_option_a": "ATP and CO2",
+  "set": {
+   "question_text": "Cyclic flow or C₄ photosynthesis produces:",
+   "option_a": "ATP and CO₂",
+   "option_c": "Only CO₂"
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 168,
+  "match_question_text": "An enzyme required Mg++ to catalyze the substrate. The Mg++ is best identified as:",
+  "match_option_a": "Prosthetic group",
+  "set": {
+   "question_text": "An enzyme required Mg²⁺ to catalyze the substrate. The Mg²⁺ is best identified as:"
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 198,
+  "match_question_text": "The decline in the thickness of ozone layer is caused by:",
+  "match_option_a": "Increasing level of nitrogen oxide",
+  "set": {
+   "option_b": "Decreasing level of O₂"
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 169,
+  "match_question_text": "Diagram shows an inhibitor bound to an enzyme, not at the substrate's binding site. [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.] This figure represents _________ inhibitor.",
+  "match_option_a": "Non-competitive",
+  "set": {
+   "question_text": "This figure represents __________ inhibitor.",
+   "correct_answer": "A",
+   "is_active": true,
+   "is_verified": true,
+   "explanation_short": "The inhibitor binds to the enzyme at a site separate from where the substrate binds, so it is a non-competitive inhibitor.",
+   "explanation_long": "In the figure the substrate still fits the active site, while the inhibitor attaches elsewhere on the enzyme (an allosteric site) and distorts it so catalysis cannot happen. Because inhibitor and substrate do not compete for the same site, adding more substrate cannot overcome the inhibition — the defining feature of non-competitive inhibition.",
+   "explanation_trick": "Same site = competitive; different site = non-competitive.",
+   "explanation_options": {
+    "a": "Correct — the inhibitor binds away from the active site, so it is non-competitive.",
+    "b": "A competitive inhibitor would occupy the active site itself, where the substrate binds.",
+    "c": "Irreversible inhibitors bind covalently and permanently; the figure shows a separate binding site, not permanent destruction.",
+    "d": "'Isosteric' means binding at the same site, which is the opposite of what is shown."
+   }
+  }
+ }
+]

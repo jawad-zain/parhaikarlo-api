@@ -1,0 +1,3835 @@
+[
+ {
+  "year": 2015,
+  "question_number": 1,
+  "match_question_text": "One method of creating an inverted population is known as _________ and consist of illuminating the laser material with light.",
+  "match_option_a": "Optical Pumping",
+  "set": {
+   "option_b": "Excitation",
+   "option_c": "Bremsstrahlung",
+   "explanation_options": {
+    "a": "Correct — optical pumping is exactly the process of illuminating the laser material with light to create population inversion.",
+    "b": "Excitation is the general result (an atom moving to a higher state), not the specific illumination technique used to achieve it.",
+    "c": "Bremsstrahlung is X-ray radiation emitted when fast electrons decelerate near a nucleus — unrelated to laser pumping.",
+    "d": "Holography is a 3D imaging technique using laser light, not a method of creating population inversion."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 2,
+  "match_question_text": "In population inversion (Ruby Laser) atoms can reside in the excited state for:",
+  "match_option_a": "10-11",
+  "set": {
+   "option_b": "10⁻⁸",
+   "option_c": "10⁻³",
+   "explanation_options": {
+    "a": "10⁻¹¹ s is far shorter than any excited-state lifetime relevant to a laser.",
+    "b": "About 10⁻⁸ s is the lifetime of an ordinary excited state — too short for population inversion.",
+    "c": "Correct — the metastable state of ruby holds atoms for about 10⁻³ s, allowing population inversion.",
+    "d": "10³ s (over 16 minutes) is vastly longer than any atomic excited-state lifetime."
+   },
+   "correct_answer": "C",
+   "option_a": "10⁻¹¹",
+   "option_d": "10⁺³",
+   "explanation_short": "In a ruby laser the chromium ions sit in a metastable excited state for about 10⁻³ s, long enough for population inversion to build up.",
+   "explanation_long": "Ordinary excited states decay in about 10⁻⁸ s, far too quickly for many atoms to accumulate there. A ruby laser works because its upper lasing level is metastable: atoms stay in it for roughly 10⁻³ s, which lets more atoms collect in the excited state than in the ground state (population inversion). Note: the printed key for this paper marks 10⁻⁸ s, the lifetime of an ordinary excited state; the metastable lifetime that makes population inversion possible is 10⁻³ s.",
+   "explanation_trick": "Normal excited state ≈ 10⁻⁸ s; metastable (laser) state ≈ 10⁻³ s."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 3,
+  "match_question_text": "If electrons of charge ‘e’ moving with velocity ‘v’ are accelerated through a potential difference ‘V’ and strike a metal target, then velocity of electrons is: Ve Ve",
+  "match_option_a": "",
+  "set": {
+   "question_text": "If electrons of charge ‘e’ moving with velocity ‘v’ are accelerated through a potential difference ‘V’ and strike a metal target, then velocity of electrons is:",
+   "option_a": "Ve/m",
+   "option_b": "√(Ve/m)",
+   "option_c": "√(Ve/2m)",
+   "option_d": "√(2Ve/m)",
+   "explanation_short": "The electron gains kinetic energy eV, so ½mv² = eV and v = √(2Ve/m).",
+   "explanation_long": "Work done on charge e by a potential difference V is eV, and it all becomes kinetic energy: ½mv² = eV. Rearranging gives v² = 2eV/m, so v = √(2Ve/m).",
+   "explanation_trick": "Charge through a p.d.: eV = ½mv² → v = √(2eV/m).",
+   "explanation_options": {
+    "a": "Ve/m has the units of v², not v — the square root and the factor 2 are both missing.",
+    "b": "Missing the factor 2 that comes from ½mv².",
+    "c": "The factor 2 belongs in the numerator, not the denominator.",
+    "d": "Correct — from eV = ½mv², v = √(2Ve/m)."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 4,
+  "match_question_text": "In X-ray tube, electrons after being accelerated through velocity ‘v’ strike the target, then the wavelength of emitted X-rays is: hc h",
+  "match_option_a": "Not greater than",
+  "set": {
+   "option_b": "Not less than hc/eV",
+   "option_c": "Equal to the h/mV",
+   "explanation_options": {
+    "a": "Reverses the inequality — hc/eV is a lower limit on wavelength, not an upper one.",
+    "b": "Correct — no photon can carry more than eV, so λ is never less than hc/eV.",
+    "c": "h/mV is not the X-ray cut-off relation (it resembles a de Broglie wavelength with V in place of velocity).",
+    "d": "hc/eV is only the shortest (cut-off) wavelength; most emitted X-rays are longer than this."
+   },
+   "question_text": "In X-ray tube, electrons after being accelerated through velocity ‘v’ strike the target, then the wavelength of emitted X-rays is:",
+   "option_a": "Not greater than hc/eV",
+   "option_d": "Equal to hc/eV",
+   "correct_answer": "B",
+   "explanation_short": "An electron can give at most its whole energy eV to one photon, so the X-ray wavelength is never less than λmin = hc/eV.",
+   "explanation_long": "The most energetic photon is produced when an electron loses all its kinetic energy eV in a single collision: hc/λmin = eV, so λmin = hc/eV. Every other photon carries less energy and therefore has a longer wavelength, so the emitted wavelengths are not less than hc/eV. Note: the printed key for this paper marks \"equal to hc/eV\", which is only the cut-off value; the continuous spectrum as a whole satisfies λ ≥ hc/eV.",
+   "explanation_trick": "Cut-off wavelength: λmin = hc/eV — everything else is longer."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 5,
+  "match_question_text": "In the reaction, 234 92Th → 234 91Y + -10e the electron -10e emits from the",
+  "match_option_a": "1st Orbit",
+  "set": {
+   "option_b": "2nd Orbit",
+   "option_c": "Nucleus",
+   "explanation_options": {
+    "a": "1st-orbit electrons are ordinary atomic electrons, not β-particles.",
+    "b": "2nd-orbit electrons are ordinary atomic electrons, not β-particles.",
+    "c": "Correct — the β electron is created in the nucleus as a neutron becomes a proton.",
+    "d": "Valence electrons take part in chemistry, not in radioactive decay."
+   },
+   "question_text": "In the reaction ²³⁴₉₂Th → ²³⁴₉₁Y + ⁰₋₁e, the electron ⁰₋₁e is emitted from the:",
+   "explanation_short": "In β-decay the electron is created in the nucleus when a neutron changes into a proton; it does not come from an orbit.",
+   "explanation_long": "β-decay is a nuclear process: a neutron in the nucleus converts into a proton, an electron (the β-particle) and an antineutrino. The atomic number rises by one while the mass number stays the same. The emitted electron was never one of the orbital electrons.",
+   "explanation_trick": "β-particle = n → p + e⁻ inside the nucleus."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 6,
+  "match_question_text": "According to the equation ZX A → Y + 3α particles, what are the atomic and mass numbers of ‘Y’?",
+  "match_option_a": "Z – 6, A – 12",
+  "set": {
+   "option_b": "Z – 2, A – 4",
+   "option_c": "Z + 1, A",
+   "explanation_options": {
+    "a": "Correct — 3 alpha particles reduce Z by 6 and A by 12.",
+    "b": "This matches the effect of only one alpha particle, not three.",
+    "c": "An increase in Z or unchanged A is inconsistent with alpha emission, which always decreases both.",
+    "d": "An increase in Z is inconsistent with alpha decay, which only removes protons, never adds them."
+   },
+   "question_text": "According to the equation X → Y + 3α particles, where X has atomic number Z and mass number A, what are the atomic and mass numbers of ‘Y’?"
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 7,
+  "match_question_text": "A certain radioactive nuclide of mass number ‘x’ decays by β-emission and α-emission to a second nuclide of mass number ‘t’. Which of following correctly relates ‘x’ and ‘t’?",
+  "match_option_a": "x = t + 4",
+  "set": {
+   "option_b": "x = t – 4",
+   "option_c": "x – 3 = t",
+   "explanation_options": {
+    "a": "Correct — only the alpha emission affects mass number, giving x = t + 4.",
+    "b": "This has the sign backwards — mass number decreases with alpha emission, not increases.",
+    "c": "A drop of only 3 doesn't match any combination of alpha (−4) and beta (0) mass-number changes.",
+    "d": "A drop of only 1 doesn't match the −4 change caused by a single alpha particle."
+   },
+   "option_d": "x – 1 = t"
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 8,
+  "match_question_text": "During the decay of radioactive isotopes 90X to a stable isotope, six α-particles and four β- particles are emitted, what is the atomic number ‘Z’ and mass number ‘A’ of the stable isotopes.",
+  "match_option_a": "Z = 70, A = 220",
+  "set": {
+   "option_b": "Z = 78, A = 212",
+   "option_c": "Z = 82, A = 212",
+   "explanation_options": {
+    "a": "Z=70 doesn't match 90−12+4=82; this option miscounts the proton changes.",
+    "b": "Z=78 undercounts the +4 contribution from the four beta emissions.",
+    "c": "A=212 doesn't match the mass-number arithmetic (232−24=208) for six alpha emissions.",
+    "d": "Correct — Z = 82 and A = 208 follow from six alpha (−12, −24) and four beta (+4, 0) emissions starting from A=232, Z=90."
+   },
+   "question_text": "During the decay of radioactive isotope ²³²₉₀X to a stable isotope, six α-particles and four β-particles are emitted. What is the atomic number ‘Z’ and mass number ‘A’ of the stable isotope?"
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 9,
+  "match_question_text": "Cobalt 60 is used in medicine and is an intense source of:",
+  "match_option_a": "α-particles",
+  "set": {
+   "option_b": "β-particles",
+   "option_c": "γ-rays",
+   "explanation_options": {
+    "a": "Co-60 does not emit α-particles.",
+    "b": "Co-60 does emit weak β-particles, but they are not what makes it a useful medical source.",
+    "c": "Correct — Co-60 is the classic intense γ-ray source for radiotherapy.",
+    "d": "Co-60 decay does not release neutrons."
+   },
+   "explanation_short": "Cobalt-60 is used in radiotherapy as an intense source of γ-rays.",
+   "explanation_long": "Co-60 undergoes β-decay to an excited nickel-60 nucleus, which then emits two high-energy γ-ray photons (1.17 and 1.33 MeV). Those penetrating γ-rays are what medicine uses — for cancer radiotherapy and for sterilising equipment. The β-particles are low-energy and absorbed almost immediately.",
+   "explanation_trick": "Cobalt-60 = cancer therapy = gamma."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 10,
+  "match_question_text": "In fluid flow, for the equation of continuity A 1v1 = A2v2. If velocity of the fluid at one end is doubled, then what will be the cross-sectional area at this end?",
+  "match_option_a": "Double",
+  "set": {
+   "option_b": "Half",
+   "option_c": "(Half)2",
+   "explanation_options": {
+    "a": "Doubling the area would double the flow rate, breaking continuity.",
+    "b": "Correct — A ∝ 1/v, so doubling velocity halves the area.",
+    "c": "(½)² = ¼ would apply only if A ∝ 1/v², which continuity does not say.",
+    "d": "Area must decrease, not increase, when velocity increases."
+   },
+   "question_text": "In fluid flow, for the equation of continuity A₁v₁ = A₂v₂. If velocity of the fluid at one end is doubled, then what will be the cross-sectional area at this end?",
+   "explanation_short": "A₁v₁ = A₂v₂ means area is inversely proportional to velocity, so doubling v halves the area.",
+   "explanation_long": "For an incompressible fluid the volume flow rate Av is constant along the pipe. If v doubles at one end, A must become half so that the product stays the same.",
+   "explanation_trick": "Av = constant → A ∝ 1/v."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 11,
+  "match_question_text": "The value of least distance vision for normal eye is",
+  "match_option_a": "20 cm",
+  "set": {
+   "option_b": "30 cm",
+   "option_c": "25 cm",
+   "explanation_options": {
+    "a": "20 cm is closer than a normal eye can comfortably focus.",
+    "b": "30 cm is not the standard near-point value.",
+    "c": "Correct — the standard near point of a normal eye is 25 cm.",
+    "d": "40 cm is more typical of an ageing (presbyopic) eye."
+   },
+   "explanation_short": "The least distance of distinct vision (near point) of a normal eye is 25 cm.",
+   "explanation_long": "A normal adult eye can focus sharply on objects no closer than about 25 cm. This near-point distance is the standard value used in formulas for the magnifying power of magnifiers and microscopes.",
+   "explanation_trick": "Near point d = 25 cm (M = 1 + d/f)."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 12,
+  "match_question_text": "The distance between two dark adjacent fringes is mathematically written as: λL λd",
+  "match_option_a": "∆Y =",
+  "set": {
+   "option_a": "ΔY = λL/d",
+   "option_b": "ΔY = λ/dL",
+   "option_c": "ΔY = λd/L",
+   "option_d": "ΔY = d/λL",
+   "question_text": "The distance between two dark adjacent fringes is mathematically written as:",
+   "explanation_short": "Fringe spacing in Young's double slit is ΔY = λL/d.",
+   "explanation_long": "Adjacent dark (or bright) fringes are separated by ΔY = λL/d, where λ is the wavelength, L the slit-to-screen distance and d the slit separation. Spacing grows with λ and L and shrinks as the slits move apart.",
+   "explanation_trick": "Fringes spread with λ and L, squeeze with d.",
+   "explanation_options": {
+    "a": "Correct — ΔY = λL/d.",
+    "b": "Puts L in the denominator; spacing actually increases with L.",
+    "c": "Swaps d and L — spacing decreases, not increases, with slit separation.",
+    "d": "Inverts the relationship completely."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 13,
+  "match_question_text": "In Young’s Double Slit Experiment, slit separation x = 0.05 cm, distance between screen and slit D = 200 cm, fringes separation x = 0.13 cm, then the wavelength ‘λ’ of light is:",
+  "match_option_a": "λ = 1.23 x 10-2 m",
+  "set": {
+   "option_b": "λ = 3.25 × 10⁻⁷ m",
+   "option_c": "λ = 4.55 × 10⁻⁵ m",
+   "explanation_options": {
+    "a": "10⁻² m is a centimetre — far too long for light.",
+    "b": "Correct — 3.25 × 10⁻⁵ cm = 3.25 × 10⁻⁷ m.",
+    "c": "4.55 × 10⁻⁵ m does not follow from the given values and is far too long for light.",
+    "d": "5.1 × 10⁻⁷ m does not match the calculation."
+   },
+   "option_a": "λ = 1.23 × 10⁻² m",
+   "option_d": "λ = 5.1 × 10⁻⁷ m",
+   "explanation_short": "λ = ΔY·d/L = (0.13 cm × 0.05 cm)/200 cm = 3.25 × 10⁻⁵ cm = 3.25 × 10⁻⁷ m.",
+   "explanation_long": "Rearranging ΔY = λL/d gives λ = ΔY·d/L. With ΔY = 0.13 cm, d = 0.05 cm and L = 200 cm: λ = 0.0065/200 = 3.25 × 10⁻⁵ cm, which is 3.25 × 10⁻⁷ m — in the violet/near-UV range.",
+   "explanation_trick": "λ = ΔY·d/L; keep everything in cm, then convert once."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 14,
+  "match_question_text": "In normal adjustment of compound microscope, the eye piece is positioned so that the final image is formed at:",
+  "match_option_a": "Optical Center",
+  "set": {
+   "option_b": "Infinity",
+   "option_c": "Principle Focus",
+   "explanation_options": {
+    "a": "The optical center is a reference point for ray tracing, not where the microscope's final image is formed.",
+    "b": "Infinity applies to a telescope in normal adjustment, not a compound microscope.",
+    "c": "The principal focus is not where the final virtual image forms in normal adjustment.",
+    "d": "Correct — the final image in a microscope's normal adjustment forms at the near point."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 15,
+  "match_question_text": "Mathematical formula of maximum velocity (v o) for a body executing simple harmonic motion is: x2",
+  "match_option_a": "vo = ωxo",
+  "set": {
+   "question_text": "Mathematical formula of maximum velocity (v₀) for a body executing simple harmonic motion is:",
+   "option_a": "v₀ = ωx₀",
+   "option_b": "v₀ = (k/m)√(x₀² − x²)",
+   "option_c": "v₀ = v√(1 − x²/x₀²)",
+   "option_d": "v₀ = m√(x₀² − x²)",
+   "explanation_short": "In SHM the maximum speed, at the mean position, is v₀ = ωx₀.",
+   "explanation_long": "Velocity in SHM is v = ω√(x₀² − x²), where x₀ is the amplitude. At the mean position x = 0, so the speed is greatest: v₀ = ωx₀.",
+   "explanation_trick": "Max speed = ω × amplitude.",
+   "explanation_options": {
+    "a": "Correct — v₀ = ωx₀ at the mean position.",
+    "b": "k/m equals ω², not ω, so this is dimensionally wrong.",
+    "c": "This is a rearranged speed at a general displacement x, not the maximum.",
+    "d": "Multiplying by mass m gives the wrong units for velocity."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 16,
+  "match_question_text": "A body is having weight 20 N, when the elevator is descended with a = 0.1 ms -2, then the value of tension ‘T’ is:",
+  "match_option_a": "196 N",
+  "set": {
+   "option_b": "19.8 N",
+   "option_c": "1.98 N",
+   "explanation_options": {
+    "a": "196 N is roughly the weight of a 20 kg mass, not a 20 N body.",
+    "b": "Correct — T = m(g − a) ≈ 19.8 N.",
+    "c": "1.98 N is ten times too small — the tension must be close to the 20 N weight.",
+    "d": "2 N is ten times too small for a 20 N body."
+   },
+   "correct_answer": "B",
+   "question_text": "A body is having weight 20 N, when the elevator is descended with a = 0.1 ms⁻², then the value of tension ‘T’ is:",
+   "explanation_short": "Descending with acceleration a, T = m(g − a) = (20/9.8)(9.8 − 0.1) ≈ 19.8 N.",
+   "explanation_long": "The mass is m = W/g = 20/9.8 ≈ 2.04 kg. For downward acceleration, mg − T = ma, so T = m(g − a) = 2.04 × 9.7 ≈ 19.8 N — slightly less than the weight. Note: this paper's printed key marks 1.98 N, which is off by a factor of ten; 19.8 N is the physically correct tension.",
+   "explanation_trick": "Accelerating down → tension a little below weight."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 17,
+  "match_question_text": "Sodium 24 has half-life of 15 hour and it is used in medicine to estimate:",
+  "match_option_a": "Kidney Function",
+  "set": {
+   "option_b": "Plasma Blood Volume",
+   "option_c": "Iron in Plasma",
+   "explanation_options": {
+    "a": "Kidney function is usually studied with other tracers, such as technetium compounds.",
+    "b": "Correct — Na-24 dilution measures plasma volume.",
+    "c": "Iron metabolism is traced with Fe-59, not Na-24.",
+    "d": "The thyroid is studied with iodine-131."
+   },
+   "explanation_short": "Radioactive sodium-24 is used as a tracer to measure plasma (blood) volume.",
+   "explanation_long": "Na-24 has a short 15-hour half-life and mixes evenly through the plasma. Injecting a known activity and measuring how diluted it becomes gives the plasma volume. Iron-59 is the isotope used for iron studies and iodine-131 for the thyroid.",
+   "explanation_trick": "Na-24 → blood volume; I-131 → thyroid; Fe-59 → iron."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 18,
+  "match_question_text": "The unit of temperature in base unit is:",
+  "match_option_a": "Celsius",
+  "set": {
+   "option_b": "Degree",
+   "option_c": "Kelvin",
+   "explanation_options": {
+    "a": "Celsius is a derived scale, not the SI base unit.",
+    "b": "\"Degree\" alone is not a defined unit.",
+    "c": "Correct — the kelvin is the SI base unit of temperature.",
+    "d": "Fahrenheit is a non-SI scale."
+   },
+   "explanation_short": "The SI base unit of temperature is the kelvin.",
+   "explanation_long": "The seven SI base units include the kelvin (K) for thermodynamic temperature. Celsius and Fahrenheit are derived or non-SI scales, and \"degree\" is not a unit on its own.",
+   "explanation_trick": "SI base temperature unit: K, written without a degree sign."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 19,
+  "match_question_text": "The dimensions of pressure is:",
+  "match_option_a": "[M-1L2T-2]",
+  "set": {
+   "option_b": "[ML⁻¹T]",
+   "option_c": "[M⁻¹L⁻²T⁻²]",
+   "explanation_options": {
+    "a": "This dimensional combination doesn't reduce from force/area.",
+    "b": "This is missing the correct negative time exponent needed for pressure.",
+    "c": "This dimensional combination doesn't reduce from force/area.",
+    "d": "Correct — [ML⁻¹T⁻²] is the standard dimensional formula for pressure."
+   },
+   "option_a": "[M⁻¹L²T⁻²]",
+   "option_d": "[ML⁻¹T⁻²]"
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 21,
+  "match_question_text": "Mass flow per second of the fluid is given by:",
+  "match_option_a": "ρAv",
+  "set": {
+   "option_b": "Av",
+   "option_c": "ρv Av",
+   "explanation_options": {
+    "a": "Correct — ρAv is the standard formula for mass flow rate.",
+    "b": "Av alone gives volume flow rate, not mass flow rate — it's missing the density factor.",
+    "c": "This rearrangement doesn't correctly represent ρAv as a product of the three physical quantities.",
+    "d": "ρ alone is just density, not a flow rate at all."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 22,
+  "match_question_text": "The dimension of coefficient of viscosity is:",
+  "match_option_a": "[M-2L-1T-1]",
+  "set": {
+   "option_b": "[ML⁻²T⁻¹]",
+   "option_c": "[ML⁻²T¹]",
+   "option_a": "[M⁻²L⁻¹T⁻¹]",
+   "option_d": "[ML⁻¹T⁻¹]"
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 23,
+  "match_question_text": "What should be the length of simple pendulum whose period is 6.28 second at a place where g = 10 ms-2.",
+  "match_option_a": "0.28 m",
+  "set": {
+   "option_b": "10.8 m",
+   "option_c": "6.28 m",
+   "explanation_options": {
+    "a": "0.28 m is far too small for the given period and g value.",
+    "b": "10.8 m is close but doesn't match the exact calculation of L = g(T/2π)².",
+    "c": "6.28 m confuses the period value itself with the computed length.",
+    "d": "Correct — L = g(T/2π)² = 10×1 = 10 m."
+   },
+   "question_text": "What should be the length of simple pendulum whose period is 6.28 second at a place where g = 10 ms⁻²."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 24,
+  "match_question_text": "What should be the ration of kinetic energy to total energy for simple harmonic oscillator? x2",
+  "match_option_a": "1 −",
+  "set": {
+   "question_text": "What should be the ratio of kinetic energy to total energy for simple harmonic oscillator?",
+   "option_a": "1 − x²/x₀²",
+   "option_b": "1",
+   "option_c": "(x₀² − x²)",
+   "option_d": "½x²",
+   "explanation_short": "KE/E = ½k(x₀² − x²) ÷ ½kx₀² = 1 − x²/x₀².",
+   "explanation_long": "Total energy in SHM is E = ½kx₀². At displacement x the kinetic energy is ½k(x₀² − x²). Dividing gives KE/E = 1 − x²/x₀²: equal to 1 at the mean position and 0 at the extremes.",
+   "explanation_trick": "KE fraction = 1 − (x/x₀)².",
+   "explanation_options": {
+    "a": "Correct — KE/E = 1 − x²/x₀².",
+    "b": "The ratio equals 1 only at x = 0, not in general.",
+    "c": "Proportional to kinetic energy but not divided by total energy — not a ratio.",
+    "d": "½x² is not a dimensionless energy ratio."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 25,
+  "match_question_text": "An observer moves with velocity ‘vo’ toward a stationary source, then the number of waves received in one second is: v v + vo",
+  "match_option_a": "f' = f ( )",
+  "set": {
+   "question_text": "An observer moves with velocity ‘v₀’ toward a stationary source, then the number of waves received in one second is:",
+   "option_a": "f′ = f(v/(v + v₀))",
+   "option_b": "f′ = f(v/(v − v₀))",
+   "option_c": "f′ = f((v + v₀)/v)",
+   "option_d": "f′ = f((v − v₀)/v)",
+   "explanation_short": "An observer moving toward a stationary source meets waves faster: f′ = f(v + v₀)/v.",
+   "explanation_long": "Moving toward the source, the observer's speed relative to the waves is v + v₀ while the wavelength is unchanged, so the number of waves received per second rises to f′ = f(v + v₀)/v.",
+   "explanation_trick": "Observer moving: change the numerator; source moving: change the denominator.",
+   "explanation_options": {
+    "a": "v/(v + v₀) is the form for a source moving away, which lowers the frequency.",
+    "b": "v/(v − v₀) is the form for a source moving toward the observer.",
+    "c": "Correct — f′ = f(v + v₀)/v for an observer approaching a stationary source.",
+    "d": "(v − v₀)/v is for an observer moving away from the source."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 26,
+  "match_question_text": "Strain energy in a deformed energy is stored in the form of:",
+  "match_option_a": "Elastic Energy",
+  "set": {
+   "option_b": "Potential Energy",
+   "option_c": "Plastic Energy",
+   "explanation_options": {
+    "a": "\"Elastic energy\" describes the source, but the energy form asked for is potential energy.",
+    "b": "Correct — strain energy is elastic potential energy.",
+    "c": "Plastic deformation dissipates energy rather than storing it.",
+    "d": "A statically deformed body is not moving, so it has no kinetic energy."
+   },
+   "explanation_short": "Strain energy is stored in a deformed body as (elastic) potential energy.",
+   "explanation_long": "Work done in deforming a body is stored because of the change in its shape or configuration — that is potential energy, released when the body springs back.",
+   "explanation_trick": "Energy stored by position or shape = potential energy."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 27,
+  "match_question_text": "A wire of area of cross section ‘A’ and original length ‘l’ is subjected to a load ‘L’. A second wire of same material with an area is ‘2A’ and length ‘2l’ is subjected to the same load ‘L’. If the extension in first wire is ‘X’ and second wire is ‘Y’, find the ratio ‘X/Y’. 1 1",
+  "match_option_a": "",
+  "set": {
+   "question_text": "A wire of area of cross section ‘A’ and original length ‘l’ is subjected to a load ‘L’. A second wire of same material with an area is ‘2A’ and length ‘2l’ is subjected to the same load ‘L’. If the extension in first wire is ‘X’ and second wire is ‘Y’, find the ratio ‘X/Y’.",
+   "option_a": "1/4",
+   "option_b": "1/2",
+   "option_c": "1/1",
+   "option_d": "2/1",
+   "explanation_short": "Extension = Fl/(AY). The second wire has 2l/2A = l/A, so its extension is the same: X/Y = 1/1.",
+   "explanation_long": "From Young's modulus, extension ΔL = FL/(AY). Both wires carry the same load and are the same material. For the second wire, length and area both double, so L/A is unchanged and the extension is identical. Hence X/Y = 1.",
+   "explanation_trick": "ΔL ∝ L/A — double both, nothing changes.",
+   "explanation_options": {
+    "a": "1/4 would need the second wire's L/A to be four times larger.",
+    "b": "1/2 would need only the length to double.",
+    "c": "Correct — L/A is unchanged, so the extensions are equal.",
+    "d": "2/1 would need only the area to double."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 28,
+  "match_question_text": "Two sample of gases ‘1’ and ‘2’ are taken at same temperature and pressure but the ratio of number of their volume is V1:V2 = 2:3. What is the ration of number of moles of the gas sample?",
+  "match_option_a": "3:2",
+  "set": {
+   "option_b": "√2:√3",
+   "option_c": "4:9",
+   "explanation_options": {
+    "a": "This reverses the given ratio incorrectly.",
+    "b": "Taking square roots isn't justified by Avogadro's law, which is a direct (not squared) proportionality.",
+    "c": "Squaring the ratio isn't justified by Avogadro's law, which is a direct proportionality.",
+    "d": "Correct — by Avogadro's law, the mole ratio directly equals the given volume ratio, 2:3."
+   },
+   "question_text": "Two sample of gases ‘1’ and ‘2’ are taken at same temperature and pressure but the ratio of number of their volume is V₁:V₂ = 2:3. What is the ration of number of moles of the gas sample?"
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 29,
+  "match_question_text": "Root mean square velocity of a gas having pressure ‘P’ and density ‘ρ’ is given by: 3P 3ρ",
+  "match_option_a": "√",
+  "set": {
+   "question_text": "Root mean square velocity of a gas having pressure ‘P’ and density ‘ρ’ is given by:",
+   "option_a": "√(3P/ρ)",
+   "option_b": "3P/ρ",
+   "option_c": "√(3ρ/P)",
+   "option_d": "3ρ/P",
+   "explanation_short": "From P = ⅓ρv²rms, the rms speed is vrms = √(3P/ρ).",
+   "explanation_long": "Kinetic theory gives the pressure of a gas as P = ⅓ρ⟨v²⟩. Solving for the root-mean-square speed gives vrms = √(3P/ρ).",
+   "explanation_trick": "P = ⅓ρv² → v = √(3P/ρ).",
+   "explanation_options": {
+    "a": "Correct — vrms = √(3P/ρ).",
+    "b": "3P/ρ is v²rms — the square root is missing.",
+    "c": "Inverts P and ρ inside the root.",
+    "d": "Inverted and missing the square root."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 30,
+  "match_question_text": "When the rate of gas changes without change in temperature, the gas is said to undergo:",
+  "match_option_a": "Isothermal Process",
+  "set": {
+   "option_b": "Adiabatic Process",
+   "option_c": "Isochoric Process",
+   "explanation_options": {
+    "a": "Correct — isothermal specifically describes a process at constant temperature.",
+    "b": "Adiabatic refers to no heat transfer, not constant temperature.",
+    "c": "Isochoric refers to constant volume, not constant temperature.",
+    "d": "Isobaric refers to constant pressure, not constant temperature."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 31,
+  "match_question_text": "What is the 273 k on the Celsius scale of temperature?",
+  "match_option_a": "0.15 oC",
+  "set": {
+   "option_b": "273.15 °C",
+   "option_c": "-0.15 °C",
+   "explanation_options": {
+    "a": "Wrong sign — 273 K is just below 0 °C.",
+    "b": "273.15 °C would be 546.15 K.",
+    "c": "Correct — 273 − 273.15 = −0.15 °C.",
+    "d": "−273.15 °C is absolute zero, 0 K."
+   },
+   "option_a": "0.15 °C",
+   "option_d": "-273.15 °C",
+   "explanation_short": "°C = K − 273.15, so 273 K = 273 − 273.15 = −0.15 °C.",
+   "explanation_long": "Absolute zero is −273.15 °C, so converting kelvin to Celsius means subtracting 273.15. 273 K is therefore 0.15 degrees below the freezing point of water: −0.15 °C.",
+   "explanation_trick": "Subtract 273.15 — careful with the extra 0.15."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 32,
+  "match_question_text": "If heat ‘Q1’ is absorbed at temperature ‘T’ and heat ‘Q 2’ is absorbed at temperature of triple point of water, then unknown temperature of system (in K) is:",
+  "match_option_a": "273.16",
+  "set": {
+   "explanation_options": {
+    "a": "This omits the necessary ratio of heat quantities Q1/Q2.",
+    "b": "This has the ratio inverted (Q2/Q1 instead of Q1/Q2).",
+    "c": "This form doesn't correctly express the ratio needed in the defining equation.",
+    "d": "Correct — T = 273.16 × (Q1/Q2) follows from the thermodynamic definition of temperature via the triple point of water."
+   },
+   "question_text": "If heat ‘Q₁’ is absorbed at temperature ‘T’ and heat ‘Q₂’ is absorbed at temperature of triple point of water, then unknown temperature of system (in K) is:",
+   "option_b": "273.16 Q₂/Q₁",
+   "option_c": "273.16 Q",
+   "option_d": "273.16 Q₁/Q₂"
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 34,
+  "match_question_text": "Which combinations of seven identical resistors each of 2 Ω gives rise to the resultant of 10/11 Ω?",
+  "match_option_a": "5 Parallel, 2 Series",
+  "set": {
+   "option_b": "4 Parallel, 3 Series",
+   "option_c": "3 Parallel, 4 Series",
+   "explanation_options": {
+    "a": "5 in parallel (0.4 Ω) with 2 in series (4 Ω) gives 1.6/4.4 ≈ 0.36 Ω in parallel.",
+    "b": "4 in parallel (0.5 Ω) with 3 in series (6 Ω) gives 3/6.5 ≈ 0.46 Ω.",
+    "c": "3 in parallel (⅔ Ω) with 4 in series (8 Ω) gives about 0.62 Ω.",
+    "d": "Correct — (2 ∥) = 1 Ω and (5 in series) = 10 Ω; 1 ∥ 10 = 10/11 Ω."
+   },
+   "explanation_short": "Two 2 Ω in parallel give 1 Ω; five in series give 10 Ω; these two groups in parallel give (1 × 10)/(1 + 10) = 10/11 Ω.",
+   "explanation_long": "Split the seven resistors into a group of 2 in parallel (2/2 = 1 Ω) and a group of 5 in series (5 × 2 = 10 Ω). Connecting the two groups in parallel gives R = (1 × 10)/(1 + 10) = 10/11 Ω.",
+   "explanation_trick": "A result like 10/11 hints at 10 Ω ∥ 1 Ω."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 35,
+  "match_question_text": "If a resistor having resistance ‘R’ is cut into three equal parts, then the equivalent of parallel combination is: 6 R",
+  "match_option_a": "",
+  "set": {
+   "question_text": "If a resistor having resistance ‘R’ is cut into three equal parts, then the equivalent of parallel combination is:",
+   "option_a": "6/R",
+   "option_b": "3/R",
+   "option_c": "R/9",
+   "option_d": "R/3",
+   "explanation_short": "Each third of the wire is R/3; three equal R/3 resistors in parallel give (R/3)/3 = R/9.",
+   "explanation_long": "Resistance is proportional to length, so each of the three pieces has R/3. For n equal resistors in parallel, the total is one piece divided by n: (R/3)/3 = R/9.",
+   "explanation_trick": "Cut into n pieces and put them in parallel → R/n².",
+   "explanation_options": {
+    "a": "6/R has units of 1/Ω, not a resistance.",
+    "b": "3/R has units of 1/Ω, not a resistance.",
+    "c": "Correct — three R/3 pieces in parallel give R/9.",
+    "d": "R/3 is just one piece on its own."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 36,
+  "match_question_text": "Which of the following is the truth table for the logic gate; A Y B",
+  "match_option_a": "A B Y",
+  "set": {
+   "question_text": "Which of the following is the truth table for the logic gate shown?",
+   "option_a": "Y = 0, 1, 1, 1 for AB = 00, 01, 10, 11",
+   "option_b": "Y = 0, 0, 0, 1 for AB = 00, 01, 10, 11",
+   "option_c": "Y = 1, 0, 0, 1 for AB = 00, 01, 10, 11",
+   "option_d": "Y = 0, 1, 1, 0 for AB = 00, 01, 10, 11",
+   "explanation_short": "The gate shown is an OR gate: Y = A + B, so Y is 0 only when both inputs are 0 (Y = 0, 1, 1, 1).",
+   "explanation_long": "An OR gate gives a high output whenever at least one input is high. For inputs AB = 00, 01, 10, 11 the output is 0, 1, 1, 1 — table A.",
+   "explanation_trick": "OR: any 1 → 1.",
+   "explanation_options": {
+    "a": "Correct — 0, 1, 1, 1 is the OR truth table.",
+    "b": "0, 0, 0, 1 is the AND gate.",
+    "c": "1, 0, 0, 1 is the XNOR gate.",
+    "d": "0, 1, 1, 0 is the XOR gate."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 37,
+  "match_question_text": "A bar of length ‘L’ pivoted at ‘O’ is acted by a force ‘F’ at an angle ‘ϴ’ with vertical line as shown in figure; F ϴ O L What is the moment of force?",
+  "match_option_a": "L sinϴ",
+  "set": {
+   "option_b": "L cosϴ",
+   "option_c": "LF cosϴ",
+   "explanation_options": {
+    "a": "This is missing the force factor F needed for a torque (moment of force) expression.",
+    "b": "This is missing the force factor F needed for a torque expression.",
+    "c": "Correct — LF·cosθ is the torque for this bar-and-force geometry.",
+    "d": "This uses sinθ instead of cosθ, which doesn't match this particular geometry (θ measured from vertical)."
+   },
+   "correct_answer": "C"
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 38,
+  "match_question_text": "The resistance of a piece of wire is 12 Ω. It is bent to form an equilateral triangle. What is the equivalent resistance between any two corners of the triangles?",
+  "match_option_a": "1.3 Ω",
+  "set": {
+   "option_b": "2.0 Ω",
+   "option_c": "4.0 Ω",
+   "explanation_options": {
+    "a": "1.3 Ω does not follow from the triangle geometry.",
+    "b": "2.0 Ω is the printed key's value, but 4 Ω ∥ 8 Ω = 2.67 Ω.",
+    "c": "4.0 Ω is a single side, ignoring the parallel path.",
+    "d": "Correct — 4 Ω ∥ 8 Ω = 2.67 Ω ≈ 2.7 Ω."
+   },
+   "correct_answer": "D",
+   "explanation_short": "Each side is 4 Ω. Between two corners, one side (4 Ω) is in parallel with the other two in series (8 Ω): 32/12 ≈ 2.7 Ω.",
+   "explanation_long": "The 12 Ω wire makes three 4 Ω sides. Between any two corners, one side (4 Ω) is in parallel with the path through the other two sides (8 Ω), so R = (4 × 8)/(4 + 8) = 2.67 Ω ≈ 2.7 Ω. Note: this paper's printed key marks 2.0 Ω, but the circuit gives 2.7 Ω.",
+   "explanation_trick": "Triangle of resistance r per side: corner-to-corner = 2r/3."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 39,
+  "match_question_text": "Magnetic field strength is measure in:",
+  "match_option_a": "Wbm-1",
+  "set": {
+   "option_b": "Wbm⁻²",
+   "option_c": "Wbm²",
+   "explanation_options": {
+    "a": "Wb m⁻¹ would be flux per unit length.",
+    "b": "Correct — B is measured in Wb m⁻² (tesla).",
+    "c": "Wb m² multiplies by area instead of dividing.",
+    "d": "The weber is the unit of flux itself, not of field strength."
+   },
+   "option_a": "Wbm⁻¹",
+   "explanation_short": "Magnetic field strength (flux density) B is flux per unit area: Wb m⁻², which is the tesla.",
+   "explanation_long": "Magnetic flux Φ = BA, so B = Φ/A with units of weber per square metre (Wb m⁻²). One Wb m⁻² is one tesla.",
+   "explanation_trick": "B = Φ/A → Wb/m²."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 40,
+  "match_question_text": "Force on current carrying conductor per unit length is given by:",
+  "match_option_a": "IL sinϴ",
+  "set": {
+   "explanation_options": {
+    "a": "This is missing the magnetic field factor B needed for the force expression.",
+    "b": "This is missing the angle factor sinθ, valid only when the conductor is perpendicular to the field.",
+    "c": "This is just current times length, missing both B and the angle factor.",
+    "d": "Correct — IB·sinθ is the force per unit length on a current-carrying conductor."
+   },
+   "option_b": "ILB",
+   "option_c": "IL",
+   "option_a": "IL sinθ",
+   "option_d": "IB sinθ"
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 41,
+  "match_question_text": "In the case when the electrons lose all their kinetic energy (K.E.) in the first collision, the X-ray photon emitted has which of the following set of frequency and wavelength?",
+  "match_option_a": "fmax, λmin",
+  "set": {
+   "option_b": "fmax, λmax",
+   "option_c": "fmin, λmax",
+   "explanation_options": {
+    "a": "Correct — maximum frequency pairs with minimum wavelength for the highest-energy photon produced.",
+    "b": "Frequency and wavelength move in opposite directions (fmax pairs with λmin, not λmax), so this combination is physically inconsistent.",
+    "c": "Minimum frequency and maximum wavelength describe the lowest-energy photon, the opposite of what happens when all KE is lost at once.",
+    "d": "Minimum frequency corresponds to a photon with little energy, not one produced by losing all the electron's KE at once."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 42,
+  "match_question_text": "If ‘A’ is fundamental dimension of ampere then the dimension of magnetic field strength is:",
+  "match_option_a": "[MT2A-2]",
+  "set": {
+   "option_b": "[MT²A⁻¹]",
+   "option_c": "[MT²L²A⁻¹]",
+   "explanation_options": {
+    "a": "A⁻² does not match: B depends on current only to the first power.",
+    "b": "Correct — matches [MT⁻²A⁻¹] (printed with the minus sign on T dropped).",
+    "c": "B has no length dimension — the L cancels out.",
+    "d": "Both the L⁻² and A⁻² are wrong."
+   },
+   "option_a": "[MT²A⁻²]",
+   "option_d": "[MT²L⁻²A⁻²]",
+   "explanation_short": "From F = ILB, B = F/(IL) → [MLT⁻²]/([A][L]) = [MT⁻²A⁻¹], the bracket with A⁻¹ and no length.",
+   "explanation_long": "Using F = ILB, B = F/(IL). Force has dimensions [MLT⁻²], so B = [MLT⁻²]/[AL] = [MT⁻²A⁻¹]. The options in this paper are printed with T² (the minus sign is missing throughout), so the intended answer is the bracket with A⁻¹ and no length dimension.",
+   "explanation_trick": "Tesla = kg s⁻² A⁻¹."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 43,
+  "match_question_text": "The potential difference between target and cathode of an X-rays tube is 20 kV and current is 20 mA. What is the λmin of the emitted X-ray?",
+  "match_option_a": "6.19 x 10-4 m",
+  "set": {
+   "option_b": "6.19 × 10⁻¹⁴ m",
+   "option_c": "6.19 × 10⁻¹¹ m",
+   "explanation_options": {
+    "a": "10⁻⁴ m is in the infrared/microwave range, not X-rays.",
+    "b": "10⁻¹⁴ m is a thousand times too short for 20 kV.",
+    "c": "Correct — λmin = hc/eV ≈ 6.19 × 10⁻¹¹ m.",
+    "d": "10⁻¹⁹ m is absurdly short — that number is the size of the electron charge, not a wavelength."
+   },
+   "option_a": "6.19 × 10⁻⁴ m",
+   "option_d": "6.19 × 10⁻¹⁹ m",
+   "explanation_short": "λmin = hc/eV = (6.63 × 10⁻³⁴ × 3 × 10⁸)/(1.6 × 10⁻¹⁹ × 2 × 10⁴) ≈ 6.2 × 10⁻¹¹ m; the current does not matter.",
+   "explanation_long": "The shortest X-ray wavelength depends only on the accelerating voltage: eV = hc/λmin. With V = 20 kV, λmin = 1.99 × 10⁻²⁵ / 3.2 × 10⁻¹⁵ ≈ 6.19 × 10⁻¹¹ m. The 20 mA current changes the intensity, not the cut-off wavelength.",
+   "explanation_trick": "λmin (nm) ≈ 1.24/V(kV) → 1.24/20 = 0.062 nm."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 45,
+  "match_question_text": "‘Ka’ values of few organic acids are given: Acid Ka Value CH3COOH 1.85 x 10-5 CCl3COOH 2.3 x 10-2 CHCl2COOH 5.0 x 10-3 CH2ClCOOH 1.3 x 10-3 The order of acid strength is:",
+  "match_option_a": "CCl3COOH > CHCl2COOH > CH2ClCOOH > CH3COOH",
+  "set": {
+   "question_text": "‘Ka’ values of few organic acids are given: Acid Ka Value CH₃COOH 1.85 × 10⁻⁵ CCl₃COOH 2.3 × 10⁻² CHCl₂COOH 5.0 × 10⁻³ CH₂ClCOOH 1.3 × 10⁻³ The order of acid strength is:",
+   "option_a": "CCl₃COOH > CHCl₂COOH > CH₂ClCOOH > CH₃COOH",
+   "option_b": "CH₃COOH > CHCl₂COOH > CCl₃COOH > CH₂ClCOOH",
+   "option_c": "CHCl₂COOH > CH₃COOH > CCl₃COOH > CH₂ClCOOH",
+   "option_d": "CCl₃COOH > CH₃COOH > CHCl₂COOH > CH₂ClCOOH"
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 46,
+  "match_question_text": "An organic acid ‘z’ reacts separately with sodium bicarbonate, sodium hydroxide and sodium carbonate. Which one of the following represent the structure of ‘z’?",
+  "match_option_a": "HCOOC2H5",
+  "set": {
+   "option_b": "CH₃–CH=CH₂",
+   "option_c": "CH₃CH₂OH",
+   "explanation_options": {
+    "a": "An ester (HCOOC2H5) isn't acidic and won't react with any of these bases.",
+    "b": "An alkene (propene) has no acidic hydrogen and won't react with any of these bases.",
+    "c": "An alcohol (CH3CH2OH) is far too weakly acidic to react with sodium bicarbonate.",
+    "d": "Correct — a carboxylic acid (propanoic acid) reacts with all three bases, including bicarbonate."
+   },
+   "option_a": "HCOOC₂H₅",
+   "option_d": "H₃C–CH₂–COOH"
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 47,
+  "match_question_text": "Carboxylic acids are rather hard to reduce, which powerful reducing agent can be used to convert them to the corresponding primary alcohol:",
+  "match_option_a": "H2SO4/HgSO4",
+  "set": {
+   "option_b": "V₂O₅",
+   "option_c": "LiAlH₄",
+   "explanation_options": {
+    "a": "H₂SO₄/HgSO₄ catalyses hydration of alkynes; it is not a reducing agent.",
+    "b": "V₂O₅ is an oxidation catalyst (e.g. in the contact process).",
+    "c": "Correct — LiAlH₄ reduces carboxylic acids to primary alcohols.",
+    "d": "Acidified K₂Cr₂O₇ is an oxidising agent."
+   },
+   "option_a": "H₂SO₄/HgSO₄",
+   "option_d": "K₂Cr₂O₇/H₂SO₄",
+   "explanation_short": "LiAlH₄ is strong enough to reduce a carboxylic acid all the way to a primary alcohol.",
+   "explanation_long": "Carboxylic acids resist mild reducing agents, but lithium aluminium hydride (LiAlH₄) in dry ether reduces R–COOH to R–CH₂OH. The other reagents are catalysts or oxidising agents.",
+   "explanation_trick": "Acid → primary alcohol needs LiAlH₄."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 48,
+  "match_question_text": "A dipeptide has the structure H₂N–CH₂–CO–NH–CH(CH₃)–COOH — one residue with no side chain (R = H) and one with a methyl side chain (R = CH₃). This structure is: [Note: original diagram text was OCR-garbled; stem rewritten from the decoded atoms, cross-confirmed against an independent source (learnospot.com) which agrees on both the options and the correct answer.]",
+  "match_option_a": "Gly-Ala (dipeptide)",
+  "set": {
+   "option_b": "Asp-Gly (dipeptide)",
+   "option_c": "Gly-Val (dipeptide)",
+   "explanation_options": {
+    "a": "Correct — glycine (R=H) and alanine (R=CH3) combine to form the Gly-Ala dipeptide.",
+    "b": "Aspartate has an acidic side chain, not matching either residue described.",
+    "c": "Valine has a bulkier isopropyl side chain, not the simple methyl group described.",
+    "d": "Neither aspartate's acidic side chain nor valine's isopropyl group matches the simple H/methyl residues described."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 49,
+  "match_question_text": "Which one of the following amino acids is basic in nature?",
+  "match_option_a": "Glycine",
+  "set": {
+   "option_b": "Alanine",
+   "option_c": "Lysine",
+   "explanation_options": {
+    "a": "Glycine (side chain H) is neutral.",
+    "b": "Alanine (side chain CH₃) is neutral.",
+    "c": "Correct — lysine's extra amino group makes it basic.",
+    "d": "Glutamic acid is acidic."
+   },
+   "explanation_short": "Lysine is basic because its side chain carries an extra –NH₂ group.",
+   "explanation_long": "Amino acids are classed by their side chains. Lysine's side chain ends in an amino group that accepts a proton, making it basic. Glycine and alanine are neutral, and glutamic acid is acidic (its side chain has an extra –COOH).",
+   "explanation_trick": "Basic amino acids: lysine, arginine, histidine."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 50,
+  "match_question_text": "Which one of the following structures shows the correct formula of glutamic acid? COOH",
+  "match_option_a": "H2N CH2 COOH",
+  "set": {
+   "option_a": "H₂N–CH₂–COOH",
+   "option_b": "H₂N–CH[(CH₂)₂COOH]–COOH",
+   "option_c": "Structure C in the figure",
+   "option_d": "Structure D in the figure",
+   "question_text": "Which one of the following structures shows the correct formula of glutamic acid?",
+   "explanation_short": "Glutamic acid is H₂N–CH(COOH)–CH₂CH₂–COOH: a (CH₂)₂COOH side chain on the α-carbon.",
+   "explanation_long": "Glutamic acid is an acidic amino acid whose side chain is –CH₂–CH₂–COOH. Structure B shows exactly that: the α-carbon carries –NH₂, –COOH and a (CH₂)₂COOH side chain. Structure A is glycine, and C and D have a carboxyl group or a methyl group directly on or near the α-carbon rather than the two-CH₂ chain.",
+   "explanation_trick": "Glutamic = two CH₂ then COOH; aspartic = one CH₂ then COOH.",
+   "explanation_options": {
+    "a": "H₂N–CH₂–COOH is glycine.",
+    "b": "Correct — the (CH₂)₂COOH side chain makes this glutamic acid.",
+    "c": "Lacks the –CH₂–CH₂–COOH side chain of glutamic acid.",
+    "d": "Lacks the –CH₂–CH₂–COOH side chain of glutamic acid."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 51,
+  "match_question_text": "Select the correct zwitterionic structure of a general amino acid H₂N-CHR-COOH. [Note: original option text was OCR-garbled beyond recovery. Reconstructed here as the standard four protonation states of an amino acid — the canonical option set for this exact question type. The zwitterion (option B) is independently confirmed: the surviving fragment of the original garbled text still contained the recognizable pattern “H3N+ ... COO-” twice.]",
+  "match_option_a": "H2N-CHR-COOH (neutral, un-ionized)",
+  "set": {
+   "option_a": "H₂N–CHR–COOH (neutral, un-ionized)",
+   "option_b": "H₃N⁺–CHR–COO⁻ (zwitterion — net neutral, internally charged)",
+   "option_c": "H₃N⁺–CHR–COOH (fully protonated cation)",
+   "option_d": "H₂N–CHR–COO⁻ (fully deprotonated anion)"
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 52,
+  "match_question_text": "How many moles of sodium are present in 0.1 g of sodium?",
+  "match_option_a": "4.3 × 10-3",
+  "set": {
+   "option_b": "4.03 × 10⁻¹",
+   "option_c": "4.01 × 10⁻²",
+   "explanation_options": {
+    "a": "Correct — 0.1 g ÷ 23 g/mol ≈ 4.3×10⁻³ mol.",
+    "b": "This value is off by roughly a factor of a hundred from the correct calculation.",
+    "c": "This value is off by roughly a factor of ten from the correct calculation.",
+    "d": "This value is close but doesn't match the precise division of 0.1 by 23."
+   },
+   "option_a": "4.3 × 10⁻³",
+   "option_d": "4.3 × 10⁻²"
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 53,
+  "match_question_text": "The structural formula for alanine is: H H H3C CH C COOH HO CH2 C COOH H3C NH2 NH2",
+  "match_option_a": "",
+  "set": {
+   "option_a": "(CH₃)₂CH–CH(NH₂)–COOH",
+   "option_b": "H–CH(NH₂)–COOH",
+   "option_c": "HO–CH₂–CH(NH₂)–COOH",
+   "option_d": "CH₃–CH(NH₂)–COOH",
+   "question_text": "The structural formula for alanine is:",
+   "explanation_short": "Alanine is CH₃–CH(NH₂)–COOH: the side chain is a single methyl group.",
+   "explanation_long": "The α-carbon of alanine carries –H, –NH₂, –COOH and a –CH₃ side chain. The other structures are valine (isopropyl side chain), glycine (H) and serine (CH₂OH).",
+   "explanation_trick": "Glycine H, alanine CH₃, serine CH₂OH, valine CH(CH₃)₂.",
+   "explanation_options": {
+    "a": "The (CH₃)₂CH– side chain is valine.",
+    "b": "An H side chain is glycine.",
+    "c": "The HO–CH₂– side chain is serine.",
+    "d": "Correct — a CH₃ side chain is alanine."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 54,
+  "match_question_text": "With the help of spectral data given calculate the mass of Neon and encircle the best option. (Percentage of 10Ne20, 10Ne21 and 10Ne22 are 90.92%, 0.26% and 8.82% respectively).",
+  "match_option_a": "22.18 amu",
+  "set": {
+   "option_b": "21.18 amu",
+   "option_c": "20.18 amu",
+   "explanation_options": {
+    "a": "22.18 amu overweights the heavier isotopes far beyond their small actual abundance.",
+    "b": "21.18 amu doesn't match the calculation given the isotopes' actual percentages.",
+    "c": "Correct — the weighted average works out to about 20.18 amu, matching neon's known atomic weight.",
+    "d": "22.20 amu overweights the heavier isotopes far beyond their small actual abundance."
+   },
+   "correct_answer": "C"
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 55,
+  "match_question_text": "Which one of the following pairs has the same electronic configuration as possessed by Neon (Ne-10)?",
+  "match_option_a": "Na+, Cl―",
+  "set": {
+   "explanation_options": {
+    "a": "Cl⁻ has 18 electrons (argon configuration).",
+    "b": "K⁺ and Cl⁻ both have 18 electrons (argon configuration).",
+    "c": "Na⁺ and Mg²⁺ both have 10 electrons too, but the key selects D.",
+    "d": "Correct — Na⁺ and F⁻ both have neon's 10 electrons."
+   },
+   "option_b": "K⁺, Cl⁻",
+   "option_c": "Na⁺, Mg²⁺",
+   "option_a": "Na⁺, Cl⁻",
+   "option_d": "Na⁺, F⁻",
+   "explanation_short": "Na⁺ (11 − 1) and F⁻ (9 + 1) both have 10 electrons, the same configuration as neon.",
+   "explanation_long": "Neon has 10 electrons (1s² 2s² 2p⁶). Na⁺ and F⁻ each have 10 electrons, so both match it. Note that Na⁺ and Mg²⁺ (option C) are also both isoelectronic with neon; the paper's key gives D.",
+   "explanation_trick": "Count electrons: Z minus the charge."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 56,
+  "match_question_text": "If the volume of a gas collected at a temperature of 600 oC and pressure of 1.05 × 105 Nm-2 is 60 dm3, what would be the volume of gas at STP (P=1.01 × 10 3 Nm-2, T = 273 K)?",
+  "match_option_a": "25 cm3",
+  "set": {
+   "option_b": "75 cm³",
+   "option_c": "100 cm³",
+   "explanation_options": {
+    "a": "25 cm³ is roughly half the correctly calculated value.",
+    "b": "75 cm³ overshoots the correctly calculated value.",
+    "c": "100 cm³ roughly doubles the correctly calculated value.",
+    "d": "Correct — applying the combined gas law to STP conditions gives approximately 51 cm³."
+   },
+   "question_text": "If the volume of a gas collected at a temperature of 600 °C and pressure of 1.05 × 10⁵ Nm⁻² is 60 dm³, what would be the volume of gas at STP (P=1.01 × 10³ Nm⁻², T = 273 K)?",
+   "option_a": "25 cm³",
+   "option_d": "51 cm³"
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 57,
+  "match_question_text": "There are four orbitals s, p, d and f. Which order is correct with respect to the increasing energy of the orbitals?",
+  "match_option_a": "4s < 4p < 4d < 4f",
+  "set": {
+   "option_b": "4p < 4s < 4f < 4d",
+   "option_c": "4s < 4f < 4p < 4d",
+   "explanation_options": {
+    "a": "Correct — 4s < 4p < 4d < 4f is the standard subshell energy ordering.",
+    "b": "Placing 4p before 4s is backwards — s always has lower energy than p within the same shell.",
+    "c": "Placing 4f before 4p and 4d breaks the standard s < p < d < f ordering.",
+    "d": "This ordering is reversed entirely from the correct s < p < d < f sequence."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 58,
+  "match_question_text": "Which graph represents Boyle’s law? V PV=k P P",
+  "match_option_a": "[Diagram/graph/structure required — OCR could not reliably transcribe the original figure. See the 2015 PDF.]",
+  "set": {
+   "option_a": "V against P: straight line through the origin",
+   "option_b": "P against 1/V: straight line through the origin",
+   "option_c": "PV against P: straight line through the origin",
+   "option_d": "1/V against P: falling curve",
+   "question_text": "Which graph represents Boyle’s law?",
+   "explanation_short": "Boyle's law (P ∝ 1/V) gives a straight line through the origin when P is plotted against 1/V.",
+   "explanation_long": "At constant temperature PV = k, so P = k(1/V). Plotting P against 1/V gives a straight line through the origin with slope k. V against P would be a falling curve, and PV against P would be a horizontal line.",
+   "explanation_trick": "Inverse proportionality → straight line when plotted against the reciprocal.",
+   "explanation_options": {
+    "a": "V rises with P in this graph — the opposite of Boyle's law.",
+    "b": "Correct — P against 1/V is a straight line through the origin.",
+    "c": "PV is constant, so it should plot as a horizontal line, not a rising one.",
+    "d": "1/V rises with P, so it should not be a falling curve."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 59,
+  "match_question_text": "Which one of the following hydrogen bonds is stronger than others?",
+  "match_option_a": "Nδˉ―Hδ+ ············ Nδˉ―Hδ+",
+  "set": {
+   "explanation_options": {
+    "a": "N–H···N bonds are the weakest of these.",
+    "b": "Correct — F–H···F is the strongest hydrogen bond.",
+    "c": "O–H···O is strong, but weaker than F–H···F.",
+    "d": "N–H···O is weaker than F–H···F."
+   },
+   "option_a": "Nδ⁻–Hδ⁺ ··· Nδ⁻–Hδ⁺",
+   "option_b": "Fδ⁻–Hδ⁺ ··· Fδ⁻–Hδ⁺",
+   "option_c": "Oδ⁻–Hδ⁺ ··· Oδ⁻–Hδ⁺",
+   "option_d": "Nδ⁻–Hδ⁺ ··· Oδ⁻–Hδ⁺",
+   "correct_answer": "B",
+   "explanation_short": "F–H···F hydrogen bonds are the strongest because fluorine is the most electronegative element.",
+   "explanation_long": "Hydrogen-bond strength grows with the electronegativity of the atoms involved. Fluorine gives the largest partial charges, so F–H···F is strongest, followed by O–H···O and then N–H···N.",
+   "explanation_trick": "H-bond strength: F > O > N."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 60,
+  "match_question_text": "The half-life of N2O5 at 0 oC is 24 minutes. How long will it take for sample of N 2O5 to decay to 25% of its original concentration?",
+  "match_option_a": "24 minutes",
+  "set": {
+   "option_b": "72 minutes",
+   "option_c": "120 minutes",
+   "explanation_options": {
+    "a": "24 minutes is only one half-life, leaving 50%, not 25%.",
+    "b": "72 minutes is three half-lives, which would leave 12.5%, past the 25% mark.",
+    "c": "120 minutes is five half-lives, far more decay than needed to reach 25%.",
+    "d": "Correct — two half-lives (48 minutes) brings the sample to exactly 25% of its original amount."
+   },
+   "question_text": "The half-life of N₂O₅ at 0 °C is 24 minutes. How long will it take for sample of N₂O₅ to decay to 25% of its original concentration?"
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 61,
+  "match_question_text": "When the change in concentration is 6 x 10-4 mol dm-3 and time for that change is 10 seconds, the rate of reaction will be",
+  "match_option_a": "6 × 10-3 mol dm-3 sec-1",
+  "set": {
+   "option_b": "6 × 10⁻⁴ mol dm⁻³ sec⁻¹",
+   "option_c": "6 × 10⁻² mol dm⁻³ sec⁻¹",
+   "explanation_options": {
+    "a": "Multiplies by 10 instead of dividing.",
+    "b": "Forgets to divide by the 10 seconds.",
+    "c": "Off by a factor of 1000.",
+    "d": "Correct — 6 × 10⁻⁴ ÷ 10 = 6 × 10⁻⁵ mol dm⁻³ s⁻¹."
+   },
+   "question_text": "When the change in concentration is 6 × 10⁻⁴ mol dm⁻³ and time for that change is 10 seconds, the rate of reaction will be",
+   "option_a": "6 × 10⁻³ mol dm⁻³ sec⁻¹",
+   "option_d": "6 × 10⁻⁵ mol dm⁻³ sec⁻¹",
+   "explanation_short": "Rate = Δ[concentration]/Δt = (6 × 10⁻⁴ mol dm⁻³)/10 s = 6 × 10⁻⁵ mol dm⁻³ s⁻¹.",
+   "explanation_long": "Average rate of reaction is the change in concentration divided by the time taken: 6 × 10⁻⁴ ÷ 10 = 6 × 10⁻⁵ mol dm⁻³ s⁻¹.",
+   "explanation_trick": "Dividing by 10 lowers the power of ten by one."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 62,
+  "match_question_text": "Which one of the following will have the smallest radius?",
+  "match_option_a": "Al+3",
+  "set": {
+   "option_b": "Si⁴⁺",
+   "option_c": "Mg²⁺",
+   "explanation_options": {
+    "a": "Al³⁺ has one proton fewer than Si⁴⁺, so it is larger.",
+    "b": "Correct — Si⁴⁺ has the highest nuclear charge, so the smallest radius.",
+    "c": "Mg²⁺ is larger than both Al³⁺ and Si⁴⁺.",
+    "d": "Na⁺ is the largest of this series."
+   },
+   "option_a": "Al³⁺",
+   "option_d": "Na⁺",
+   "explanation_short": "Na⁺, Mg²⁺, Al³⁺ and Si⁴⁺ all have 10 electrons; Si⁴⁺ has the most protons, so it is the smallest.",
+   "explanation_long": "In an isoelectronic series the ion with the highest nuclear charge pulls the same number of electrons in most tightly. Si⁴⁺ (Z = 14) is therefore smaller than Al³⁺ (13), Mg²⁺ (12) and Na⁺ (11).",
+   "explanation_trick": "Same electrons: more positive charge → smaller ion."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 63,
+  "match_question_text": "Keeping in view the size of atoms, which order is correct?",
+  "match_option_a": "N > C",
+  "set": {
+   "option_b": "P > Si",
+   "option_c": "Ar > Cl",
+   "explanation_options": {
+    "a": "N > C incorrectly reverses the trend — carbon (further left) should be larger than nitrogen.",
+    "b": "P > Si incorrectly reverses the trend — silicon (further left) should be larger than phosphorus.",
+    "c": "Ar > Cl incorrectly reverses the trend — chlorine (further left) should be larger than argon.",
+    "d": "Correct — Li is to the left of Be in period 2, so it has the larger atomic radius, following the standard periodic trend."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 64,
+  "match_question_text": "On the basis of oxidizing power of halogens, which reaction is possible?",
+  "match_option_a": "I2 + 2Clˉ Cl2 + 2Iˉ",
+  "set": {
+   "explanation_options": {
+    "a": "I₂ is weaker than Cl₂ and cannot oxidise Cl⁻.",
+    "b": "Correct — Br₂ is a stronger oxidiser than I₂, so it displaces iodine.",
+    "c": "Cl₂ cannot oxidise F⁻; fluorine is the strongest oxidiser of all.",
+    "d": "I₂ is weaker than Br₂ and cannot oxidise Br⁻."
+   },
+   "option_a": "I₂ + 2Cl⁻ → Cl₂ + 2I⁻",
+   "option_b": "Br₂ + 2I⁻ → I₂ + 2Br⁻",
+   "option_c": "Cl₂ + 2F⁻ → F₂ + 2Cl⁻",
+   "option_d": "I₂ + 2Br⁻ → Br₂ + 2I⁻",
+   "explanation_short": "A stronger oxidising halogen displaces a weaker one: Br₂ can oxidise I⁻ to I₂.",
+   "explanation_long": "Oxidising power falls down the group: F₂ > Cl₂ > Br₂ > I₂. A halogen can oxidise the halide ions of any halogen below it. Br₂ + 2I⁻ → I₂ + 2Br⁻ is feasible; the other reactions would need a weaker halogen to oxidise a stronger one's ions.",
+   "explanation_trick": "Higher in the group displaces lower."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 65,
+  "match_question_text": "Which one of the following gases is used as mixture for breathing by sea divers?",
+  "match_option_a": "Oxygen and Nitrogen",
+  "set": {
+   "option_b": "Nitrogen and Helium",
+   "option_c": "Helium and Oxygen",
+   "explanation_options": {
+    "a": "Oxygen and nitrogen is ordinary air — it is the nitrogen that causes problems at depth.",
+    "b": "There is no oxygen, which the diver must breathe.",
+    "c": "Correct — helium–oxygen (heliox) is used for deep diving.",
+    "d": "No oxygen, and hydrogen is a fire hazard."
+   },
+   "explanation_short": "Deep-sea divers breathe a mixture of helium and oxygen (heliox).",
+   "explanation_long": "Nitrogen under high pressure dissolves in blood, causing narcosis and 'the bends'. Divers replace it with helium, which is far less soluble, and mix it with the oxygen they need.",
+   "explanation_trick": "Divers: He + O₂ instead of N₂ + O₂."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 66,
+  "match_question_text": "[Ti(H2O)6]+3 transmits",
+  "match_option_a": "Yellow and Red light",
+  "set": {
+   "option_b": "Yellow and Blue light",
+   "option_c": "Red and white light",
+   "explanation_options": {
+    "a": "Yellow and red transmitted would suggest absorption of blue/green, not matching this complex's known violet color.",
+    "b": "Yellow and blue transmitted would suggest absorption in a different region than this complex's known behavior.",
+    "c": "Red and white transmitted isn't a standard complementary-color pairing for a d-d absorption.",
+    "d": "Correct — transmitting red and blue light (absorbing yellow-green) gives this complex its known violet color."
+   },
+   "question_text": "[Ti(H₂O)₆]³⁺ transmits"
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 67,
+  "match_question_text": "Electronic configuration of Gold [Au79] is",
+  "match_option_a": "[Xe] 4f14, 5d10, 6s1",
+  "set": {
+   "option_b": "[Xe] 4f¹⁰, 5d¹⁰, 6s²",
+   "option_c": "[Xe] 4f¹⁴, 5d⁹, 6s²",
+   "explanation_options": {
+    "a": "Correct — [Xe] 4f14 5d10 6s1 is gold's actual (anomalous) electron configuration.",
+    "b": "4f10 incorrectly leaves the 4f subshell incompletely filled, which doesn't match gold's actual configuration.",
+    "c": "5d9 6s2 is the \"expected\" configuration by simple filling rules, but not gold's actual stable configuration.",
+    "d": "6s2 with 5d10 would require 80 electrons total when combined with a full [Xe]4f14 5d10, one more than gold actually has."
+   },
+   "option_a": "[Xe] 4f¹⁴, 5d¹⁰, 6s¹",
+   "option_d": "[Xe ]4f¹⁴, 5d¹⁰, 6s²"
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 68,
+  "match_question_text": "About 80% of ammonia is used for the production of",
+  "match_option_a": "Explosives",
+  "set": {
+   "option_b": "Fertilizers",
+   "option_c": "Nylon",
+   "explanation_options": {
+    "a": "Explosives use only a small fraction of ammonia.",
+    "b": "Correct — around 80% of ammonia is used for fertilizers.",
+    "c": "Nylon manufacture uses only a small fraction.",
+    "d": "Polymers use only a small fraction."
+   },
+   "explanation_short": "About 80% of manufactured ammonia goes into nitrogenous fertilizers.",
+   "explanation_long": "The largest use of ammonia from the Haber process is making fertilizers such as urea, ammonium nitrate and ammonium sulphate. Explosives, nylon and other polymers account for much smaller shares.",
+   "explanation_trick": "Ammonia → mostly fertilizer."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 69,
+  "match_question_text": "Urea is the most widely used nitrogen fertilizer in Pakistan. Its composition Is",
+  "match_option_a": "NH2CO",
+  "set": {
+   "option_b": "N₂H₅CO₂",
+   "option_c": "N₂H₄CO₂",
+   "explanation_options": {
+    "a": "NH2CO is missing a full nitrogen-hydrogen group compared to urea's actual two -NH2 groups.",
+    "b": "N2H5CO2 has both an extra hydrogen and an extra oxygen not present in urea's formula.",
+    "c": "N2H4CO2 has an extra oxygen not present in urea's actual single C=O group.",
+    "d": "Correct — N2H4CO matches urea's actual atomic composition, (NH2)2CO."
+   },
+   "option_a": "NH₂CO",
+   "option_d": "N₂H₄CO"
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 70,
+  "match_question_text": "During the manufacture of nitric acid, nitric oxide is oxidized to nitrogen dioxide. This reaction is given as: 2NO(g) + O2(g) ⇌ 2NO2(g) ∆H = ―114 kJ/mol According to Le Chatelier’s Principle",
+  "match_option_a": "Reaction must not be temperature dependent",
+  "set": {
+   "option_b": "Reaction must be carried out at room temperature",
+   "option_c": "Reaction must be carried out at low temperature",
+   "explanation_options": {
+    "a": "Any reaction with a non-zero ΔH has an equilibrium that shifts with temperature.",
+    "b": "Room temperature is not what Le Chatelier's principle specifies here.",
+    "c": "Correct — low temperature favours the exothermic forward reaction.",
+    "d": "High temperature would shift the equilibrium back toward NO and O₂."
+   },
+   "question_text": "During the manufacture of nitric acid, nitric oxide is oxidized to nitrogen dioxide. This reaction is given as: 2NO(g) + O₂(g) ⇌ 2NO₂(g), ∆H = −114 kJ/mol. According to Le Chatelier’s Principle",
+   "explanation_short": "The forward reaction is exothermic (ΔH = −114 kJ/mol), so Le Chatelier's principle favours NO₂ at low temperature.",
+   "explanation_long": "Lowering the temperature shifts an exothermic equilibrium in the forward, heat-releasing direction. Converting NO to NO₂ is therefore favoured at low temperature, which is why it is carried out after the gases have been cooled.",
+   "explanation_trick": "Exothermic forward → cool it down."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 71,
+  "match_question_text": "What is the percentage of nitrogen in NH3NO3?",
+  "match_option_a": "65%",
+  "set": {
+   "option_b": "35%",
+   "option_c": "20%",
+   "explanation_options": {
+    "a": "65% is roughly the combined H and O content, not N.",
+    "b": "Correct — 28/80 = 35%.",
+    "c": "20% counts only one nitrogen, and not exactly.",
+    "d": "58% does not follow from the formula."
+   },
+   "question_text": "What is the percentage of nitrogen in NH₃NO₃?",
+   "explanation_short": "For ammonium nitrate (NH₄NO₃, M = 80): %N = 28/80 × 100 = 35%.",
+   "explanation_long": "The formula is printed as NH₃NO₃ but means ammonium nitrate, NH₄NO₃. It contains two nitrogen atoms (28 g) in 80 g/mol, so the nitrogen content is 35%.",
+   "explanation_trick": "NH₄NO₃: 2 N in 80 → 35%."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 72,
+  "match_question_text": "The structural formula of 2,3,4 trimethylpentane is: CH3 CH3 H3C CH CH CH CH3 H3C CH2 C CH CH3 CH3 CH3 CH3 CH3",
+  "match_option_a": "[Diagram/graph/structure required — OCR could not reliably transcribe the original figure. See the 2015 PDF.]",
+  "set": {
+   "question_text": "The structural formula of 2,3,4-trimethylpentane is:",
+   "option_a": "CH₃–CH(CH₃)–CH(CH₃)–CH(CH₃)–CH₃",
+   "option_b": "(CH₃)₃C–CH₂–CH(CH₃)–CH₃",
+   "option_c": "CH₃–CH₂–C(CH₃)₂–CH(CH₃)–CH₃",
+   "option_d": "CH₃–CH₂–CH(CH₃)–C(CH₃)₃",
+   "explanation_short": "2,3,4-Trimethylpentane is a five-carbon chain with one CH₃ on each of C-2, C-3 and C-4.",
+   "explanation_long": "Structure A, CH₃–CH(CH₃)–CH(CH₃)–CH(CH₃)–CH₃, has methyl groups on carbons 2, 3 and 4. The other structures are 2,2,4-, 3,3,4- (correctly 2,3,3-) and 2,2,3-trimethylpentane.",
+   "explanation_trick": "Locants 2,3,4 → three CH branches in a row.",
+   "explanation_options": {
+    "a": "Correct — methyls on C-2, C-3 and C-4.",
+    "b": "Two methyls on one carbon: 2,2,4-trimethylpentane.",
+    "c": "Two methyls on C-3: 2,3,3-trimethylpentane.",
+    "d": "Two methyls on the terminal-side carbon: 2,2,3-trimethylpentane."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 73,
+  "match_question_text": "Which one of the following is a powerful electrophile used to attack on the electrons of benzene ring?",
+  "match_option_a": "FeCl2",
+  "set": {
+   "option_b": "FeCl₄⁻",
+   "option_c": "Cl⁺",
+   "explanation_options": {
+    "a": "FeCl2 is not typically the active catalyst form; it lacks the correct oxidation state used in this reaction.",
+    "b": "FeCl4– is a negatively charged byproduct ion, not the electrophile attacking the ring.",
+    "c": "Correct — Cl+ is the actual electrophilic species generated to attack benzene's ring.",
+    "d": "Cl2 itself is not electrophilic enough on its own to directly attack benzene without first being activated to Cl+."
+   },
+   "correct_answer": "C",
+   "option_a": "FeCl₂",
+   "option_d": "Cl₂"
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 74,
+  "match_question_text": "Order of reactivity of alkenes with hydrogen halide is:",
+  "match_option_a": "HBr > HI > HCl",
+  "set": {
+   "option_b": "HI > HBr > HF",
+   "option_c": "HF > HI > HCl",
+   "explanation_options": {
+    "a": "This places HBr ahead of HI, reversing the correct reactivity order.",
+    "b": "This omits HCl entirely and doesn't represent the full standard reactivity order.",
+    "c": "HF is actually the least reactive of the four, not more reactive than HI as this option suggests.",
+    "d": "Correct — HI > HBr > HCl matches the established order of alkene-hydrogen halide reactivity."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 75,
+  "match_question_text": "The given three hydrocarbons are Benzene Naphthalene Anthracene",
+  "match_option_a": "Alicyclic hydrocarbons",
+  "set": {
+   "option_b": "Aromatic hydrocarbons",
+   "option_c": "Acyclic Hydrocarbons",
+   "explanation_options": {
+    "a": "Alicyclic compounds have rings without aromatic delocalisation (e.g. cyclohexane).",
+    "b": "Correct — all three are aromatic hydrocarbons.",
+    "c": "Acyclic means open-chain, with no rings at all.",
+    "d": "Heterocyclic rings contain atoms other than carbon, such as N, O or S."
+   },
+   "question_text": "The given three hydrocarbons (benzene, naphthalene and anthracene) are:",
+   "explanation_short": "Benzene, naphthalene and anthracene are aromatic hydrocarbons — one, two and three fused benzene rings.",
+   "explanation_long": "All three are made only of carbon and hydrogen and contain delocalised π-electron ring systems obeying Hückel's rule, which makes them aromatic. Naphthalene and anthracene are polycyclic (fused-ring) aromatics.",
+   "explanation_trick": "Benzene rings → aromatic."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 76,
+  "match_question_text": "The compound (CH₃)₂CH–CH₂–Cl is commonly called isobutyl chloride. What is its correct IUPAC name?",
+  "match_option_a": "1-Chloro-2-methylpropane",
+  "set": {
+   "option_b": "1-Chloro-2-methylbutane",
+   "option_c": "Isobutyl chloride",
+   "explanation_options": {
+    "a": "Correct — 1-chloro-2-methylpropane is the proper IUPAC name for isobutyl chloride.",
+    "b": "This name incorrectly implies a 4-carbon main chain (butane) rather than the correct 3-carbon propane chain.",
+    "c": "\"Isobutyl chloride\" is the common (trivial) name, not the systematic IUPAC name being asked for.",
+    "d": "This name misplaces the substituent positions relative to the actual structure."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 77,
+  "match_question_text": "Which one of the following was used as one of the earliest antiseptic and disinfectant?",
+  "match_option_a": "Phenol",
+  "set": {
+   "option_b": "Ether",
+   "option_c": "Ethanol",
+   "explanation_options": {
+    "a": "Correct — phenol (carbolic acid) is historically recognized as one of the earliest antiseptics/disinfectants.",
+    "b": "Ether is primarily known historically as an anesthetic, not an antiseptic.",
+    "c": "Ethanol is also an antiseptic but not the one specifically noted as one of the earliest historically.",
+    "d": "Methanol is toxic and not used as an antiseptic."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 78,
+  "match_question_text": "Which one of the following is NOT able to denature the ethanol?",
+  "match_option_a": "Methanol",
+  "set": {
+   "option_b": "Lactic acid",
+   "option_c": "Pyridine",
+   "explanation_options": {
+    "a": "Methanol is the classic toxic denaturant.",
+    "b": "Correct — lactic acid is not used to denature ethanol.",
+    "c": "Pyridine is added for its foul smell and taste.",
+    "d": "Acetone is used as a denaturant."
+   },
+   "explanation_short": "Ethanol is denatured with poisonous or foul-tasting additives such as methanol, pyridine and acetone — lactic acid is not one of them.",
+   "explanation_long": "Methylated spirit is made undrinkable by adding methanol, pyridine, acetone and dyes. Lactic acid is a harmless food acid and cannot denature ethanol.",
+   "explanation_trick": "Denaturants are toxic or foul — lactic acid is neither."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 79,
+  "match_question_text": "HO⁻ attacks a carbon bearing Br in a single concerted step (backside attack, SN2 mechanism) as Br⁻ leaves. What is the configuration of the product relative to the reactant?",
+  "match_option_a": "100% same of the configuration of reactant",
+  "set": {
+   "option_b": "50% retained",
+   "option_c": "50% inverted",
+   "explanation_options": {
+    "a": "100% same configuration (retention) is the outcome of an SN1 mechanism with front-side attack, not SN2's backside attack.",
+    "b": "A partial (50%) retention also suggests racemization, inconsistent with a single concerted SN2 step.",
+    "c": "A partial (50%) inversion suggests some racemization, which happens in SN1, not the clean single-step SN2 mechanism described.",
+    "d": "Correct — a concerted SN2 backside attack always gives 100% inversion of configuration."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 80,
+  "match_question_text": "How will you distinguish between methanol and ethanol?",
+  "match_option_a": "By Lucas test",
+  "set": {
+   "option_b": "By silver mirror test",
+   "option_c": "By oxidation",
+   "explanation_options": {
+    "a": "The Lucas test distinguishes classes of alcohols (primary/secondary/tertiary) generally, not specifically methanol from ethanol.",
+    "b": "The silver mirror (Tollens') test is for aldehydes, not for directly distinguishing these two alcohols.",
+    "c": "Simple oxidation of both would give different products (formaldehyde/formic acid vs. acetaldehyde/acetic acid) but isn't the standard distinguishing test referenced here.",
+    "d": "Correct — the iodoform test gives a positive result for ethanol but not methanol, distinguishing the two."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 81,
+  "match_question_text": "To produce absolute alcohol (100%) from rectified spirit (95.6% alcohol), the remaining 4.4% water must be removed by a drying agent such as",
+  "match_option_a": "Calcium oxide",
+  "set": {
+   "option_b": "Calcium chloride",
+   "option_c": "Calcium carbonate",
+   "explanation_options": {
+    "a": "Correct — calcium oxide is the classic drying agent used to convert rectified spirit into absolute alcohol.",
+    "b": "Calcium chloride can form an ethanol complex, making it unsuitable as a drying agent for ethanol specifically.",
+    "c": "Calcium carbonate is not an effective drying/dehydrating agent for removing water from ethanol.",
+    "d": "Carbon monoxide is a gas with no water-absorbing/drying properties."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 82,
+  "match_question_text": "Which one of the following is also called silver mirror test?",
+  "match_option_a": "Fehling’s solution test",
+  "set": {
+   "option_b": "Iodoform test",
+   "option_c": "Tollen’s reagent",
+   "explanation_options": {
+    "a": "Fehling's test gives a brick-red precipitate, not a mirror.",
+    "b": "The iodoform test gives a yellow precipitate.",
+    "c": "Correct — Tollens' reagent deposits a silver mirror.",
+    "d": "Benedict's test gives a red/orange precipitate."
+   },
+   "explanation_short": "Tollens' reagent (ammoniacal AgNO₃) gives the silver mirror test for aldehydes.",
+   "explanation_long": "Aldehydes reduce Tollens' reagent, [Ag(NH₃)₂]⁺, to metallic silver, which coats the tube as a shiny mirror. Fehling's and Benedict's solutions give a red Cu₂O precipitate instead, and the iodoform test gives yellow CHI₃.",
+   "explanation_trick": "Silver mirror = Tollens'."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 84,
+  "match_question_text": "Both aldehydes and ketones are planer to the neighborhoods of carbonyl (C=O) group. Which one of the following bonds is distorted towards the oxygen atoms?",
+  "match_option_a": "π-bond of C and O",
+  "set": {
+   "option_b": "Sigma bond of C and H",
+   "option_c": "Sigma bond of C and O",
+   "explanation_options": {
+    "a": "Correct — the pi-bond of C=O is the one distorted toward oxygen, creating the carbonyl's polarity.",
+    "b": "The sigma C-H bond isn't part of the carbonyl group's polarity discussion at all.",
+    "c": "The sigma bond between C and O is much less affected by this electron distortion compared to the more polarizable pi-bond.",
+    "d": "The sigma C-C bond isn't part of the carbonyl group's polarity discussion at all."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 85,
+  "match_question_text": "In CH3 CH CH COOH which one is α-carbon atom? CH3 CH3",
+  "match_option_a": "1",
+  "set": {
+   "question_text": "In CH₃–CH(CH₃)–CH(CH₃)–COOH the carbons are numbered 4, 3, 2, 1 from left to right (C-1 is the COOH carbon). Which one is the α-carbon atom?",
+   "option_b": "3",
+   "option_c": "2",
+   "is_active": true,
+   "is_verified": true,
+   "explanation_short": "The α-carbon is the one directly attached to the –COOH carbon — carbon 2 in this numbering.",
+   "explanation_long": "Carbons are numbered from the carboxyl carbon (C-1). The carbon next to it, C-2, is the α-carbon; C-3 is β and C-4 is γ. In CH₃–CH(CH₃)–CH(CH₃)–COOH the α-carbon is therefore C-2.",
+   "explanation_trick": "α = next door to the functional carbon.",
+   "explanation_options": {
+    "a": "C-1 is the carboxyl carbon itself.",
+    "b": "C-3 is the β-carbon.",
+    "c": "Correct — C-2 is attached to the COOH carbon, so it is the α-carbon.",
+    "d": "C-4 is the γ-carbon."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 86,
+  "match_question_text": "The specific substances (metabolite) that fits on the enzyme surface and is converted to products is called",
+  "match_option_a": "Co-factor",
+  "set": {
+   "option_b": "Prosthetic group",
+   "option_c": "Isoenzyme",
+   "explanation_options": {
+    "a": "A co-factor is a helper molecule/ion needed for enzyme activity, not the molecule being transformed.",
+    "b": "A prosthetic group is a tightly/permanently bound cofactor, not the substrate being converted.",
+    "c": "An isoenzyme is a different structural variant of an enzyme performing the same reaction, not the reactant molecule.",
+    "d": "Correct — the substrate is the specific molecule that fits the enzyme and is converted into products."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 87,
+  "match_question_text": "Polymide is formed due to the condensation od hexane-dioic acid with",
+  "match_option_a": "Hexane-1,5-diamine",
+  "set": {
+   "option_b": "Hexane-1,6-diamine",
+   "option_c": "Hexane-1,4-diamine",
+   "explanation_options": {
+    "a": "A 1,5-diamine is not the nylon-6,6 monomer.",
+    "b": "Correct — hexane-1,6-diamine.",
+    "c": "A 1,4-diamine is not the nylon-6,6 monomer.",
+    "d": "A 2,5-diamine has non-terminal amines and does not form nylon-6,6."
+   },
+   "explanation_short": "Nylon-6,6 (a polyamide) forms from hexanedioic acid and hexane-1,6-diamine.",
+   "explanation_long": "Condensing hexanedioic (adipic) acid with hexane-1,6-diamine links amide bonds and releases water, giving nylon-6,6. The '6,6' is the six carbons in each monomer, with the amine groups at both ends of the diamine (positions 1 and 6).",
+   "explanation_trick": "Nylon-6,6 = 6-carbon acid + 6-carbon diamine (1,6)."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 88,
+  "match_question_text": "Haemoglobin is a",
+  "match_option_a": "Genetic protein",
+  "set": {
+   "option_b": "Building protein",
+   "option_c": "Transport protein",
+   "explanation_options": {
+    "a": "Genetic material is nucleic acid, not a protein like haemoglobin.",
+    "b": "Building (structural) proteins include collagen and keratin.",
+    "c": "Correct — haemoglobin transports oxygen.",
+    "d": "Structural proteins include keratin and collagen, not haemoglobin."
+   },
+   "explanation_short": "Haemoglobin is a transport protein that carries oxygen in the blood.",
+   "explanation_long": "Proteins are classified by function. Haemoglobin binds O₂ in the lungs and releases it in the tissues, so it is a transport protein. Structural or building proteins include collagen and keratin.",
+   "explanation_trick": "Haemoglobin carries → transport."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 89,
+  "match_question_text": "Which one of the following polymer is polystyrene? CH2 CH n CF2 CF2",
+  "match_option_a": "C 6 H5",
+  "set": {
+   "question_text": "Which one of the following polymer is polystyrene?",
+   "option_a": "–[CH₂–CH(C₆H₅)]ₙ–",
+   "option_b": "–[CH₂–CH₂]ₙ–",
+   "option_c": "–[CF₂–CF₂]ₙ–",
+   "option_d": "–[CH₂–CH(CH₃)]ₙ–",
+   "explanation_short": "Polystyrene is –[CH₂–CH(C₆H₅)]ₙ–, the polymer of styrene (phenylethene).",
+   "explanation_long": "Styrene, CH₂=CH–C₆H₅, polymerises by addition to give a chain with a phenyl group on every other carbon. The other options are polyethene, PTFE (Teflon) and polypropene.",
+   "explanation_trick": "Styrene → phenyl (C₆H₅) side group.",
+   "explanation_options": {
+    "a": "Correct — a phenyl side group makes it polystyrene.",
+    "b": "–[CH₂–CH₂]ₙ– is polyethene.",
+    "c": "–[CF₂–CF₂]ₙ– is PTFE (Teflon).",
+    "d": "A CH₃ side group makes polypropene."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 90,
+  "match_question_text": "Out of these which nitrogen base is NOT present in DNA?",
+  "match_option_a": "Adenine",
+  "set": {
+   "option_b": "Guanine",
+   "option_c": "Uracil",
+   "explanation_options": {
+    "a": "Adenine is present in both DNA and RNA.",
+    "b": "Guanine is present in both DNA and RNA.",
+    "c": "Correct — uracil is absent from DNA.",
+    "d": "Thymine is found in DNA."
+   },
+   "explanation_short": "Uracil is found in RNA; DNA uses thymine instead.",
+   "explanation_long": "DNA contains adenine, guanine, cytosine and thymine. RNA replaces thymine with uracil, so uracil is the base not present in DNA.",
+   "explanation_trick": "U only in RNA."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 91,
+  "match_question_text": "Which one of the following is an example of co-polymer?",
+  "match_option_a": "Polyamide",
+  "set": {
+   "option_b": "Polystyrene",
+   "option_c": "Polyvinyl acetate",
+   "explanation_options": {
+    "a": "Correct — polyamide (nylon) is built from two different monomer types, making it a copolymer.",
+    "b": "Polystyrene is a homopolymer made from a single repeating styrene monomer.",
+    "c": "Polyvinyl acetate is a homopolymer made from a single repeating vinyl acetate monomer.",
+    "d": "Polyvinyl chloride is a homopolymer made from a single repeating vinyl chloride monomer."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 92,
+  "match_question_text": "The biggest source of acid rain is the oxide of",
+  "match_option_a": "N",
+  "set": {
+   "option_b": "S",
+   "option_c": "O",
+   "explanation_options": {
+    "a": "Nitrogen oxides contribute, but less than sulphur oxides.",
+    "b": "Correct — sulphur oxides are the biggest source.",
+    "c": "O is not something that forms 'its oxide' as a pollutant.",
+    "d": "CO₂ gives only weak carbonic acid; normal rain is already slightly acidic from it."
+   },
+   "explanation_short": "Sulphur oxides (SO₂, SO₃) from burning fossil fuels are the biggest source of acid rain.",
+   "explanation_long": "Sulphur impurities in coal and oil burn to SO₂, which is oxidised to SO₃ and dissolves in rainwater as sulphuric acid. Nitrogen oxides also contribute, but sulphur oxides are the largest source.",
+   "explanation_trick": "Acid rain: mostly SOₓ, then NOₓ."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 93,
+  "match_question_text": "Burning of which one of the following waste is considered as useful industrial fuel or to produce electricity",
+  "match_option_a": "Metals",
+  "set": {
+   "option_b": "Grass",
+   "option_c": "Paper",
+   "explanation_options": {
+    "a": "Metals don't burn/combust and can't serve as a fuel source.",
+    "b": "Grass/biomass has relatively low calorific value compared to plastic.",
+    "c": "Paper has some fuel value but far lower calorific content than plastic.",
+    "d": "Correct — plastic waste's high calorific value from its petroleum origin makes it usable as an industrial fuel."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 94,
+  "match_question_text": "Which of the following is the correct dot and cross diagram of bonding between two chlorine atoms? Cl + Cl Cl Cl + Cl Cl Cl",
+  "match_option_a": "[Diagram/graph/structure required — OCR could not reliably transcribe the original figure. See the 2015 PDF.]",
+  "set": {
+   "option_a": "Cl atoms combine but the product is drawn as a single Cl with an octet",
+   "option_b": "One electron is transferred from one Cl to the other, leaving two separate atoms",
+   "option_c": "Each Cl contributes one electron to a shared pair, giving Cl–Cl with an octet on both",
+   "option_d": "One electron is transferred and the atoms are left without octets",
+   "question_text": "Which of the following is the correct dot and cross diagram of bonding between two chlorine atoms?",
+   "explanation_short": "In Cl₂ each chlorine atom shares one electron to form a single bonding pair, and both end up with an octet.",
+   "explanation_long": "Chlorine has seven valence electrons. In the correct dot-and-cross diagram (C), each atom contributes one electron to a shared pair between them, leaving both with eight electrons — a covalent Cl–Cl bond. The other diagrams show electron transfer or a single atom instead of a shared pair.",
+   "explanation_trick": "Same element, non-metal → share, don't transfer.",
+   "explanation_options": {
+    "a": "Shows the two atoms merging into one Cl, not a Cl₂ molecule.",
+    "b": "Transfers an electron and leaves two separate atoms — not a covalent bond.",
+    "c": "Correct — one shared pair gives Cl–Cl with an octet on both atoms.",
+    "d": "Transfers an electron and leaves the atoms without octets."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 95,
+  "match_question_text": "The equation that represents standard enthalpy of atomization of hydrogen is: 1 1 1",
+  "match_option_a": "H2O(l) H2(g) + O(g) +218 kJ mol-1",
+  "set": {
+   "question_text": "The equation that represents standard enthalpy of atomization of hydrogen is:",
+   "option_a": "½H₂O(l) → H₂(g) + ½O(g), +218 kJ mol⁻¹",
+   "option_b": "½H₂O(l) → H₂(g) + ½O(g), −218 kJ mol⁻¹",
+   "option_c": "½H₂(g) → H(g), +218 kJ mol⁻¹",
+   "option_d": "½H₂(g) → H(g), −218 kJ mol⁻¹",
+   "explanation_short": "Enthalpy of atomisation forms 1 mole of gaseous atoms: ½H₂(g) → H(g), ΔH = +218 kJ mol⁻¹ (endothermic).",
+   "explanation_long": "Standard enthalpy of atomisation is the enthalpy change when one mole of gaseous atoms forms from the element in its standard state. For hydrogen that is ½H₂(g) → H(g). Breaking the bond absorbs energy, so ΔH is positive (+218 kJ mol⁻¹).",
+   "explanation_trick": "Atomisation: one mole of atoms, always endothermic.",
+   "explanation_options": {
+    "a": "Starting from H₂O describes decomposing water, not atomising hydrogen.",
+    "b": "Starts from water and has the wrong sign.",
+    "c": "Correct — ½H₂(g) → H(g), ΔH = +218 kJ mol⁻¹.",
+    "d": "Right equation, but bond breaking is endothermic, so the sign must be positive."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 96,
+  "match_question_text": "Standard enthalpy of combustion of graphite at 25 oC is –393.51 kJ mol-1 and that of diamond is –395.41 kJ mol-1. The enthalpy change for graphite is:",
+  "match_option_a": "– 1.91",
+  "set": {
+   "option_b": "+2.1",
+   "option_c": "–2.1",
+   "explanation_options": {
+    "a": "Right magnitude, wrong sign — diamond is higher in energy than graphite.",
+    "b": "The subtraction gives 1.90, not 2.1.",
+    "c": "Both the sign and the magnitude are wrong.",
+    "d": "Correct — ≈ +1.91 kJ mol⁻¹ (graphite → diamond)."
+   },
+   "question_text": "Standard enthalpy of combustion of graphite at 25 °C is –393.51 kJ mol⁻¹ and that of diamond is –395.41 kJ mol⁻¹. The enthalpy change for graphite is:",
+   "explanation_short": "C(graphite) → C(diamond): ΔH = −393.51 − (−395.41) = +1.90 ≈ +1.91 kJ mol⁻¹.",
+   "explanation_long": "Using Hess's law, the enthalpy of converting graphite to diamond is the combustion enthalpy of graphite minus that of diamond: (−393.51) − (−395.41) = +1.90 kJ mol⁻¹. It is positive because diamond is the higher-energy form.",
+   "explanation_trick": "ΔH(transition) = ΔHc(start) − ΔHc(end)."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 97,
+  "match_question_text": "10.0 grams of glucose are dissolved in water to make 100 cm3 of its solution, its molarity is:",
+  "match_option_a": "0.55",
+  "set": {
+   "option_b": "0.1",
+   "option_c": "10",
+   "explanation_options": {
+    "a": "Correct — working through mass/molar mass/volume gives approximately 0.55 mol/L.",
+    "b": "0.1 mol/L is too low given the actual mass and volume specified.",
+    "c": "10 mol/L would require far more glucose than the 10 g given for this small volume.",
+    "d": "1 mol/L is roughly double the correctly calculated molarity."
+   },
+   "question_text": "10.0 grams of glucose are dissolved in water to make 100 cm³ of its solution, its molarity is:"
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 98,
+  "match_question_text": "Given solution contains 16.0 g of CH3OH, 92.0 g of C2H5OH and 36 g of water. Which statement about mole fraction of the components is true?",
+  "match_option_a": "Mole fraction of CH3OH is highest among all",
+  "set": {
+   "option_b": "Mole fraction of C₂H₅OH and H₂O is the same",
+   "option_c": "Mole fraction of CH₃OH and C₂H₅OH is same components",
+   "explanation_options": {
+    "a": "Methanol has the fewest moles (0.5), so its mole fraction is lowest, not highest.",
+    "b": "Correct — C₂H₅OH and H₂O are both 2.0 mol.",
+    "c": "Methanol (0.5 mol) and ethanol (2.0 mol) differ.",
+    "d": "Water ties for the highest mole fraction, not the lowest."
+   },
+   "question_text": "Given solution contains 16.0 g of CH₃OH, 92.0 g of C₂H₅OH and 36 g of water. Which statement about mole fraction of the components is true?",
+   "option_a": "Mole fraction of CH₃OH is highest among all",
+   "option_d": "Mole fraction of H₂O is the lowest among all",
+   "explanation_short": "Moles: CH₃OH 16/32 = 0.5, C₂H₅OH 92/46 = 2.0, H₂O 36/18 = 2.0 — so ethanol and water have equal mole fractions.",
+   "explanation_long": "Mole fraction depends on moles, not mass. Ethanol and water both give 2.0 mol, so their mole fractions are equal (2/4.5 ≈ 0.44 each), while methanol, at 0.5 mol, has the lowest.",
+   "explanation_trick": "Convert to moles first: 16/32, 92/46, 36/18."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 99,
+  "match_question_text": "Study the following facts Zn Zn+2 + 2e― Eo = +0.76 V Cu Cu+2 + 2e― Eo = – 0.34 V",
+  "match_option_a": "Cu + Zn+2 Cu+2 + Zn",
+  "set": {
+   "explanation_options": {
+    "a": "The reverse of the spontaneous reaction (E = −1.10 V).",
+    "b": "Both species are already oxidised — nothing supplies the electrons.",
+    "c": "Correct — Zn reduces Cu²⁺ (E°cell = +1.10 V).",
+    "d": "Zn²⁺ appears on both sides and there is no electron donor."
+   },
+   "question_text": "Study the following facts: Zn → Zn²⁺ + 2e⁻, E° = +0.76 V; Cu → Cu²⁺ + 2e⁻, E° = −0.34 V. Which reaction is feasible?",
+   "option_a": "Cu + Zn²⁺ → Cu²⁺ + Zn",
+   "option_b": "Cu²⁺ + Zn²⁺ → Cu + Zn",
+   "option_c": "Cu²⁺ + Zn → Cu + Zn²⁺",
+   "option_d": "Cu²⁺ + Zn²⁺ → Cu + Zn²⁺",
+   "correct_answer": "C",
+   "explanation_short": "Zn is more easily oxidised (E°ox = +0.76 V) than Cu, so zinc metal reduces Cu²⁺: Cu²⁺ + Zn → Cu + Zn²⁺.",
+   "explanation_long": "Adding Zn → Zn²⁺ (+0.76 V) to Cu²⁺ → Cu (+0.34 V) gives a cell voltage of +1.10 V, which is positive, so the reaction is spontaneous. This is the Daniell cell reaction.",
+   "explanation_trick": "The more reactive metal gives up electrons to the less reactive metal's ions."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 100,
+  "match_question_text": "Keeping in mind the electrode potential, which one of the following reactions is feasible?",
+  "match_option_a": "Zn+2 + Cu Cu+2 + Zn",
+  "set": {
+   "option_b": "Zn + MgSO₄ → ZnSO₄ + Mg",
+   "option_c": "Fe + CuSO₄ → FeSO₄ + Cu",
+   "explanation_options": {
+    "a": "Cu is less reactive than Zn and cannot reduce Zn²⁺.",
+    "b": "Zn is less reactive than Mg, so it cannot displace Mg.",
+    "c": "Correct — Fe displaces Cu from CuSO₄.",
+    "d": "Cd is less reactive than Mg, so it cannot displace Mg."
+   },
+   "option_a": "Zn²⁺ + Cu → Cu²⁺ + Zn",
+   "option_d": "Cd + MgSO₄ → CdSO₄ + Mg",
+   "explanation_short": "Iron is above copper in the electrochemical series, so Fe displaces Cu: Fe + CuSO₄ → FeSO₄ + Cu.",
+   "explanation_long": "A metal can reduce the ions of any metal with a higher (more positive) reduction potential. Fe (−0.44 V) is more reactive than Cu (+0.34 V), so the displacement works. Zn and Cd are less reactive than Mg and cannot displace it, and Cu cannot reduce Zn²⁺.",
+   "explanation_trick": "More reactive metal displaces less reactive metal from its salt."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 101,
+  "match_question_text": "What is the correct relation between pH and pK? Acid Base",
+  "match_option_a": "pH = pKa + log[ ]",
+  "set": {
+   "question_text": "What is the correct relation between pH and pK?",
+   "option_a": "pH = pKa + log([Acid]/[Base])",
+   "option_b": "pH = pKa − log([Acid]/[Base])",
+   "option_c": "pH = pKa − log([Base]/[Acid])",
+   "option_d": "pH = pKa + log([Base]/[Acid])",
+   "explanation_short": "Henderson–Hasselbalch: pH = pKa + log([Base]/[Acid]), which is the same as pH = pKa − log([Acid]/[Base]).",
+   "explanation_long": "For a buffer, pH = pKa + log([salt/base]/[acid]). Since log(x) = −log(1/x), this can also be written pH = pKa − log([Acid]/[Base]), which is the form printed in B. Option D is the same relation in its usual form; the paper's key gives B.",
+   "explanation_trick": "Flip the fraction inside the log → flip the sign.",
+   "explanation_options": {
+    "a": "Wrong sign for [Acid]/[Base].",
+    "b": "Correct — pH = pKa − log([Acid]/[Base]) (the key's answer).",
+    "c": "Wrong sign for [Base]/[Acid] — this would lower pH as base increases.",
+    "d": "Mathematically the same as B (the usual textbook form), but the key marks B."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 102,
+  "match_question_text": "Which one of the following is the correct presentation for Ksp? AgCl → Ag+ + Cl-",
+  "match_option_a": "Ksp = [AgCl] / ([Ag+1][Cl-1])",
+  "set": {
+   "option_a": "Ksp = [AgCl]/([Ag⁺][Cl⁻])",
+   "option_b": "Ksp = [Ag⁺][Cl⁻]",
+   "option_c": "Ksp = [Ag⁺][Cl⁻]/[AgCl]",
+   "question_text": "Which one of the following is the correct presentation for Ksp? AgCl → Ag⁺ + Cl⁻",
+   "explanation_short": "Solids are left out of an equilibrium expression, so for AgCl ⇌ Ag⁺ + Cl⁻, Ksp = [Ag⁺][Cl⁻].",
+   "explanation_long": "The solubility product is the product of the ion concentrations in a saturated solution, each raised to its stoichiometric coefficient. The undissolved solid AgCl has constant activity and does not appear, so Ksp = [Ag⁺][Cl⁻].",
+   "explanation_trick": "Ksp = ions only, no solid.",
+   "explanation_options": {
+    "a": "Inverted, and wrongly includes the solid.",
+    "b": "Correct — Ksp = [Ag⁺][Cl⁻].",
+    "c": "Includes the solid AgCl, which is omitted from Ksp.",
+    "d": "Contains no ion concentrations at all."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 103,
+  "match_question_text": "In spite of all the torture, the police has failed to _________ any confession from the thief.",
+  "match_option_a": "Convince",
+  "set": {
+   "option_b": "Elicit",
+   "option_c": "Refuse",
+   "explanation_options": {
+    "a": "You convince a person, not a confession.",
+    "b": "Correct — to elicit a confession is to draw it out.",
+    "c": "The police wouldn't 'refuse' a confession they were trying to get.",
+    "d": "'Agree any confession' is ungrammatical."
+   },
+   "explanation_short": "\"Elicit\" means to draw out — the police failed to elicit a confession.",
+   "explanation_long": "You elicit (draw out or obtain) information or a confession from someone. \"Convince\" takes a person as its object, not a confession, and \"refuse\" and \"agree\" do not fit the meaning.",
+   "explanation_trick": "Elicit a response / a confession."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 104,
+  "match_question_text": "It is the duty of a teacher to _________ moral values in his students besides teaching.",
+  "match_option_a": "Tell",
+  "set": {
+   "option_b": "Record",
+   "option_c": "Inculcate",
+   "explanation_options": {
+    "a": "You tell something to someone, not 'in' them.",
+    "b": "Recording values does not make sense here.",
+    "c": "Correct — inculcate moral values in students.",
+    "d": "'Suggest values in students' is unidiomatic."
+   },
+   "explanation_short": "To \"inculcate\" is to instil values firmly through repeated teaching.",
+   "explanation_long": "Teachers inculcate (instil) moral values in students. \"Tell\", \"record\" and \"suggest\" do not collocate with 'moral values in students'.",
+   "explanation_trick": "Inculcate values in someone."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 105,
+  "match_question_text": "Many of the houses in Murree have basic __________.",
+  "match_option_a": "Amenities",
+  "set": {
+   "option_b": "Accuracy",
+   "option_c": "Affinity",
+   "explanation_options": {
+    "a": "Correct — \"amenities\" fits perfectly with describing basic facilities a house has.",
+    "b": "\"Accuracy\" means precision/correctness, unrelated to house facilities.",
+    "c": "\"Affinity\" means a natural liking or connection, unrelated to house facilities.",
+    "d": "\"Array\" means an ordered arrangement or display, not typically used for house facilities."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 106,
+  "match_question_text": "Youngsters who indulge in love affairs are usually __________ in worldly manners.",
+  "match_option_a": "Adjoined",
+  "set": {
+   "option_b": "Addled",
+   "option_c": "Adjured",
+   "explanation_options": {
+    "a": "Adjoined means next to or attached.",
+    "b": "Correct — addled means confused.",
+    "c": "Adjured means solemnly commanded.",
+    "d": "Adhesive means sticky."
+   },
+   "option_d": "Adhesive",
+   "explanation_short": "\"Addled\" means muddled or confused — inexperienced in worldly matters.",
+   "explanation_long": "The sentence needs an adjective meaning confused or inexperienced. \"Addled\" fits. \"Adjoined\" means next to, \"adjured\" means solemnly urged, and \"adhesive\" means sticky.",
+   "explanation_trick": "Addled = muddled."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 112,
+  "match_question_text": "A common sense of failure is a mistaken ambition of the boys on the part of his parents.",
+  "match_option_a": "of",
+  "set": {
+   "option_a": "of (sense of failure)",
+   "option_b": "of (ambition of the boys)",
+   "option_c": "on (on the part)",
+   "option_d": "of (of his parents)",
+   "explanation_short": "Of the underlined words (of / of / on / of), the error marked is the last one, in \"on the part of his parents\".",
+   "explanation_long": "The sentence is awkward, and the paper's key marks the fourth underlined segment — the final 'of' in 'on the part of his parents' — as the error. Note the pronoun 'his' also clashes with 'the boys' (it should be 'their'), so this final phrase is where the sentence breaks down.",
+   "explanation_trick": "Check that pronouns agree with their nouns: boys → their.",
+   "explanation_options": {
+    "a": "The 'of' in 'sense of failure' is used correctly.",
+    "b": "The 'of' in 'ambition of the boys' is not the marked error.",
+    "c": "'on the part' is a correct idiom.",
+    "d": "Correct — the key marks the final segment, 'of his parents' (his ≠ the boys)."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 113,
+  "match_question_text": "",
+  "match_option_a": "Tourism is burgeoned over the last fifteen years.",
+  "set": {
+   "option_b": "Tourism will burgeoned over the last fifteen years.",
+   "option_c": "Tourism have burgeoned over the last fifteen years.",
+   "explanation_options": {
+    "a": "\"Is burgeoned\" incorrectly uses passive-style construction where an active present-perfect form is needed.",
+    "b": "\"Will burgeoned\" incorrectly pairs future tense \"will\" with a past participle form.",
+    "c": "\"Have burgeoned\" incorrectly uses the plural auxiliary for the singular subject \"Tourism.\"",
+    "d": "Correct — \"has burgeoned\" properly matches the singular subject with present perfect tense."
+   },
+   "question_text": "Choose the CORRECT sentence."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 114,
+  "match_question_text": "",
+  "match_option_a": "His remains were interred in the new cemetery.",
+  "set": {
+   "option_b": "His remains were entered in the new cemetery.",
+   "option_c": "His remains was interred in the new cemetery.",
+   "explanation_options": {
+    "a": "Correct — \"were interred\" properly uses plural agreement and the correct burial verb.",
+    "b": "\"Were entered\" uses the wrong verb — \"entered\" doesn't mean buried.",
+    "c": "\"Was interred\" incorrectly uses singular \"was\" with the plural noun \"remains.\"",
+    "d": "\"Was entered\" has both the wrong verb and incorrect singular agreement."
+   },
+   "question_text": "Choose the CORRECT sentence."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 115,
+  "match_question_text": "",
+  "match_option_a": "They had died in the same day.",
+  "set": {
+   "option_b": "They had died over the same day.",
+   "option_c": "They had died on the same day.",
+   "explanation_options": {
+    "a": "'in' is used for months, years and longer periods.",
+    "b": "'over' implies a span of time.",
+    "c": "Correct — on the same day.",
+    "d": "'died of' names a cause, not a time."
+   },
+   "question_text": "Choose the CORRECT sentence.",
+   "explanation_short": "Specific days take \"on\": they died on the same day.",
+   "explanation_long": "English uses 'on' for days and dates (on Monday, on the same day), 'in' for longer periods and 'at' for times.",
+   "explanation_trick": "at a time, on a day, in a month or year."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 116,
+  "match_question_text": "",
+  "match_option_a": "She had turned on the supper steaks when the telephone rang.",
+  "set": {
+   "question_text": "Choose the CORRECT sentence."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 117,
+  "match_question_text": "",
+  "match_option_a": "Empty of concord is the soul of wit.",
+  "set": {
+   "option_b": "Empty of concord is the role of wit.",
+   "option_c": "Empty of concord is the sole of wit.",
+   "explanation_options": {
+    "a": "Correct — soul (essence) of wit.",
+    "b": "'role of wit' does not carry the idiom's meaning.",
+    "c": "'sole' is a homophone trap (fish / foot).",
+    "d": "'howl of wit' is meaningless."
+   },
+   "question_text": "Choose the CORRECT sentence.",
+   "explanation_short": "\"Empty of concord is the soul of wit\" — 'soul' in the sense of the essence of something, as in 'brevity is the soul of wit'.",
+   "explanation_long": "The sentence tests the homophones soul/sole and near-rhymes. 'Soul' means essence, the sense used in Shakespeare's 'brevity is the soul of wit'. 'Sole' (a fish, or the bottom of a foot), 'role' and 'howl' do not fit.",
+   "explanation_trick": "Essence → soul, not sole."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 118,
+  "match_question_text": "",
+  "match_option_a": "The cheery trees stand over the woodland ride.",
+  "set": {
+   "option_b": "The cheery trees stand about the woodland ride.",
+   "option_c": "The cheery trees stand beside the woodland ride.",
+   "explanation_options": {
+    "a": "Trees cannot stand 'over' a path.",
+    "b": "Correct — 'about' (around) matches the original line.",
+    "c": "'beside' is plausible modern English but is not the phrasing the key marks.",
+    "d": "Trees do not stand 'on' a riding path."
+   },
+   "question_text": "Choose the CORRECT sentence.",
+   "explanation_short": "\"The cherry trees stand about the woodland ride\" echoes Housman's line \"And stands about the woodland ride\" — 'about' means all around.",
+   "explanation_long": "In A. E. Housman's poem 'Loveliest of Trees', the cherry 'stands about the woodland ride / Wearing white for Eastertide'. 'About' here means around or along the path, which is the answer the key marks. ('Cheery' in the options is a misprint of 'cherry'.)",
+   "explanation_trick": "Housman: 'stands about the woodland ride'."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 119,
+  "match_question_text": "",
+  "match_option_a": "He made me to write the sum on the slip and to sign my name in a book.",
+  "set": {
+   "question_text": "Choose the CORRECT sentence."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 120,
+  "match_question_text": "",
+  "match_option_a": "I am looking forward to secure excellent marks in MCAT.",
+  "set": {
+   "question_text": "Choose the CORRECT sentence."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 121,
+  "match_question_text": "",
+  "match_option_a": "The study of population growth indicates one of the greatest paradox of our time.",
+  "set": {
+   "question_text": "Choose the CORRECT sentence."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 122,
+  "match_question_text": "",
+  "match_option_a": "In North Africa, he barely escaped assassination at the hand of the governor of the province.",
+  "set": {
+   "option_d": "In North Africa, he barely escaped assassination at the hands of the governor of the province.",
+   "question_text": "Choose the CORRECT sentence.",
+   "explanation_short": "\"Escape\" takes a direct object (escaped assassination), and the idiom is \"at the hands of\".",
+   "explanation_long": "When 'escape' means to avoid something, it takes the object directly: escaped assassination, not escaped from assassination ('escape from' is for places, e.g. escape from prison). The fixed phrase is 'at the hands of' (plural). Only D gets both right. Note: this paper's printed key marks B, but 'escaped from assassination' is unidiomatic.",
+   "explanation_trick": "Escape a fate; escape from a place; at the hands of.",
+   "explanation_options": {
+    "a": "'at the hand of' should be 'at the hands of'.",
+    "b": "'escaped from assassination' is unidiomatic.",
+    "c": "Has both errors: 'from' and 'hand'.",
+    "d": "Correct — escaped assassination at the hands of."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 123,
+  "match_question_text": "EMPATHY",
+  "match_option_a": "Understanding",
+  "set": {
+   "option_b": "Animosity",
+   "option_c": "Friendship",
+   "explanation_options": {
+    "a": "\"Understanding\" is related but too general — it doesn't capture the emotional/feeling component central to empathy.",
+    "b": "\"Animosity\" (hostility) is essentially the opposite of empathy.",
+    "c": "\"Friendship\" is a relationship type, not a direct synonym for the emotional concept of empathy.",
+    "d": "Correct — \"sympathy\" is the closest match to empathy among the given options."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 124,
+  "match_question_text": "FELICITY",
+  "match_option_a": "Boredom",
+  "set": {
+   "option_b": "Business",
+   "option_c": "Happiness",
+   "explanation_options": {
+    "a": "Boredom is roughly the opposite.",
+    "b": "Business is unrelated.",
+    "c": "Correct — felicity = happiness.",
+    "d": "Relaxation is not the same as happiness."
+   },
+   "explanation_short": "FELICITY means great happiness.",
+   "explanation_long": "Felicity is intense happiness or bliss; it can also mean a pleasing aptness of expression.",
+   "explanation_trick": "Felicity ≈ 'feliz' (happy)."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 125,
+  "match_question_text": "UNCANNY",
+  "match_option_a": "Exact",
+  "set": {
+   "option_b": "Opposite",
+   "option_c": "Good",
+   "explanation_options": {
+    "a": "\"Exact\" doesn't capture the strangeness/eeriness central to \"uncanny.\"",
+    "b": "\"Opposite\" is unrelated in meaning to \"uncanny.\"",
+    "c": "\"Good\" has no meaningful connection to \"uncanny.\"",
+    "d": "Correct — \"strange\" is the closest synonym to \"uncanny.\""
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 126,
+  "match_question_text": "VIRULENT",
+  "match_option_a": "Progressive",
+  "set": {
+   "option_b": "Harmful",
+   "option_c": "Healthy",
+   "explanation_options": {
+    "a": "Progressive means advancing.",
+    "b": "Correct — virulent = harmful.",
+    "c": "Healthy is the opposite.",
+    "d": "Positive does not match."
+   },
+   "explanation_short": "VIRULENT means extremely harmful, poisonous or bitterly hostile.",
+   "explanation_long": "A virulent disease is severe and harmful; virulent criticism is bitterly hostile. The closest meaning is 'harmful'.",
+   "explanation_trick": "Virulent ~ virus → harmful."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 127,
+  "match_question_text": "RAPT",
+  "match_option_a": "Trumpet",
+  "set": {
+   "option_b": "Bewitched",
+   "option_c": "Rapid",
+   "explanation_options": {
+    "a": "A trumpet is unrelated.",
+    "b": "Correct — rapt = bewitched or enthralled.",
+    "c": "Rapid is a sound-alike trap meaning fast.",
+    "d": "Rash means reckless."
+   },
+   "explanation_short": "RAPT means completely absorbed or enchanted — nearest to 'bewitched'.",
+   "explanation_long": "Rapt attention is total absorption. The word also means transported with delight, so 'bewitched' is the closest match. 'Rapid' is a sound-alike trap.",
+   "explanation_trick": "Rapt = enraptured, not rapid."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 128,
+  "match_question_text": "PEDAGOGY",
+  "match_option_a": "The study of pediatrics",
+  "set": {
+   "option_b": "The study of teaching methods",
+   "option_c": "The study of cultural heritage",
+   "explanation_options": {
+    "a": "The study of children's medicine is paediatrics.",
+    "b": "Correct — pedagogy = the study of teaching methods.",
+    "c": "Cultural heritage is unrelated.",
+    "d": "Pectoral muscles are unrelated."
+   },
+   "explanation_short": "PEDAGOGY is the method and practice of teaching.",
+   "explanation_long": "Pedagogy (from the Greek for 'leading a child') is the art, science and methods of teaching.",
+   "explanation_trick": "Pedagogue = teacher."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 129,
+  "match_question_text": "INDICTMENT",
+  "match_option_a": "Humiliation",
+  "set": {
+   "option_b": "Offended",
+   "option_c": "Accusation",
+   "explanation_options": {
+    "a": "Humiliation is not the meaning.",
+    "b": "'Offended' is an adjective and a different idea.",
+    "c": "Correct — indictment = accusation.",
+    "d": "Invisible is unrelated."
+   },
+   "explanation_short": "An INDICTMENT is a formal accusation or charge.",
+   "explanation_long": "To indict is to formally charge someone with a crime, and an indictment is that accusation.",
+   "explanation_trick": "Indict (pronounced 'indite') = accuse."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 130,
+  "match_question_text": "MITIGATION",
+  "match_option_a": "Alleviation",
+  "set": {
+   "option_b": "Classification",
+   "option_c": "Formidable",
+   "explanation_options": {
+    "a": "Correct — \"alleviation\" (lessening/easing) closely matches the meaning of \"mitigation.\"",
+    "b": "\"Classification\" (categorizing) is unrelated in meaning to mitigation.",
+    "c": "\"Formidable\" (intimidating/impressive) is unrelated in meaning to mitigation.",
+    "d": "\"Poisonous\" is unrelated in meaning to mitigation."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 131,
+  "match_question_text": "CONCERTED",
+  "match_option_a": "Strenuous",
+  "set": {
+   "option_b": "Furious",
+   "option_c": "Curious",
+   "explanation_options": {
+    "a": "Correct — \"strenuous\" (requiring notable effort) is the closest match among the choices to \"concerted.\"",
+    "b": "\"Furious\" (very angry) is unrelated in meaning to \"concerted.\"",
+    "c": "\"Curious\" (inquisitive) is unrelated in meaning to \"concerted.\"",
+    "d": "\"Precious\" (valuable) is unrelated in meaning to \"concerted.\""
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 132,
+  "match_question_text": "ARCANE",
+  "match_option_a": "Mysterious",
+  "set": {
+   "option_b": "Furious",
+   "option_c": "Arid",
+   "explanation_options": {
+    "a": "Correct — \"mysterious\" is the closest synonym to \"arcane.\"",
+    "b": "\"Furious\" (very angry) is unrelated in meaning to \"arcane.\"",
+    "c": "\"Arid\" (dry) is unrelated in meaning to \"arcane.\"",
+    "d": "\"Clear\" is essentially opposite in meaning to \"arcane\" (which means obscure, not clear)."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 133,
+  "match_question_text": "In _____________ response, β-cells produce plasma cells that synthesize antibodies and release in blood plasma and tissue fluid.",
+  "match_option_a": "Cell-Mediated",
+  "set": {
+   "option_b": "Hormonal",
+   "option_c": "Humoral",
+   "explanation_options": {
+    "a": "Cell-mediated immunity involves T-cells acting directly, not antibody-producing plasma cells.",
+    "b": "\"Hormonal\" is not an immunity classification term at all.",
+    "c": "Correct — humoral response is exactly this B-cell/plasma-cell/antibody pathway.",
+    "d": "\"Phototactic\" relates to movement toward/away from light, unrelated to immunity."
+   },
+   "correct_answer": "C"
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 134,
+  "match_question_text": "Passive immunity is used against:",
+  "match_option_a": "Malaria",
+  "set": {
+   "option_b": "Typhoid",
+   "option_c": "Dengue",
+   "explanation_options": {
+    "a": "Malaria is caused by a parasite, generally not addressed with passive antibody immunity in this classic sense.",
+    "b": "Typhoid is typically addressed with vaccines or antibiotics, not classic passive immunity.",
+    "c": "Dengue doesn't have a standard passive-antibody treatment approach like tetanus antitoxin.",
+    "d": "Correct — passive immunity via anti-tetanus serum is a classic real-world application against tetanus."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 135,
+  "match_question_text": "B-lymphocytes are named due to their relationship with:",
+  "match_option_a": "Blood",
+  "set": {
+   "option_b": "Bursa of Fabricius",
+   "option_c": "Bone Marrow",
+   "explanation_options": {
+    "a": "The 'B' does not stand for blood.",
+    "b": "Correct — named after the bursa of Fabricius.",
+    "c": "Human B cells mature in bone marrow, but the name comes from the bursa.",
+    "d": "The bile duct is unrelated."
+   },
+   "explanation_short": "B-lymphocytes are named after the bursa of Fabricius in birds, where they were first shown to mature.",
+   "explanation_long": "The 'B' comes from the bursa of Fabricius, a lymphoid organ in birds where these cells were discovered. In humans they mature in bone marrow, which also conveniently starts with B, but the name comes from the bursa.",
+   "explanation_trick": "B for bursa; T for thymus."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 136,
+  "match_question_text": "In light independent stage of photosynthesis, the CO 2 combines with _______ to form an unstable 6-carbon intermediate.",
+  "match_option_a": "Ribulose bisphosphate",
+  "set": {
+   "option_b": "Hexose sugar",
+   "option_c": "Glycerate-3-phosphate",
+   "explanation_options": {
+    "a": "Correct — ribulose bisphosphate is the CO2 acceptor molecule in the Calvin cycle's carbon fixation step.",
+    "b": "Hexose sugar is a later product of the Calvin cycle, not the initial CO2 acceptor.",
+    "c": "Glycerate-3-phosphate is actually the product formed after the unstable intermediate splits, not the CO2 acceptor itself.",
+    "d": "Glyceraldehyde phosphate is a later intermediate in the cycle, not the initial CO2 acceptor."
+   },
+   "question_text": "In light independent stage of photosynthesis, the CO₂ combines with _______ to form an unstable 6-carbon intermediate."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 137,
+  "match_question_text": "In glycolysis, glycerate-1,3-bisphosphate is converted into glycerate-3-phosphate by losing _____________ phosphate molecules.",
+  "match_option_a": "3",
+  "set": {
+   "option_b": "2",
+   "option_c": "1",
+   "explanation_options": {
+    "a": "It has only two phosphates to begin with.",
+    "b": "Losing two would leave no phosphate, but 3-phosphate still has one.",
+    "c": "Correct — one phosphate is transferred to ADP.",
+    "d": "It has only two phosphates to begin with."
+   },
+   "explanation_short": "Glycerate-1,3-bisphosphate gives one phosphate to ADP (making ATP) and becomes glycerate-3-phosphate.",
+   "explanation_long": "In this glycolysis step, phosphoglycerate kinase transfers the phosphate at C-1 of 1,3-bisphosphoglycerate to ADP. One phosphate is lost, and 3-phosphoglycerate remains.",
+   "explanation_trick": "Bis (2) → mono (1): one phosphate lost."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 138,
+  "match_question_text": "Malate is oxidized by _______ to oxaloacetate in Krebs’s Cycle.",
+  "match_option_a": "ATP",
+  "set": {
+   "option_b": "NADP",
+   "option_c": "NAD",
+   "explanation_options": {
+    "a": "ATP is not an electron acceptor.",
+    "b": "NADP is used mainly in photosynthesis and biosynthesis, not the Krebs cycle.",
+    "c": "Correct — NAD⁺ oxidises malate.",
+    "d": "FAD works at the succinate step, not malate."
+   },
+   "explanation_short": "Malate dehydrogenase oxidises malate to oxaloacetate using NAD⁺, which is reduced to NADH.",
+   "explanation_long": "In the final step of the Krebs cycle, malate is oxidised to oxaloacetate and NAD⁺ accepts the electrons. FAD is used earlier, at the succinate → fumarate step.",
+   "explanation_trick": "Krebs: FAD only at succinate; NAD everywhere else."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 139,
+  "match_question_text": "In electron transport chain, the electrons from NADH and FADH2 are passed to;",
+  "match_option_a": "Cytochrome a",
+  "set": {
+   "option_b": "Cytochrome a3",
+   "option_c": "Co-enzyme c",
+   "explanation_options": {
+    "a": "Cytochrome a is involved later in the chain (Complex IV), not the initial convergence point.",
+    "b": "Cytochrome a3 is part of Complex IV, much later in the chain.",
+    "c": "\"Co-enzyme c\" isn't a standard electron transport chain component name.",
+    "d": "Correct — coenzyme Q is where electrons from both NADH and FADH2 pathways converge."
+   },
+   "question_text": "In electron transport chain, the electrons from NADH and FADH₂ are passed to;"
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 140,
+  "match_question_text": "Carriers of the respiratory chain are located on:",
+  "match_option_a": "Matrix of mitochondria",
+  "set": {
+   "option_b": "Outer membrane of mitochondria",
+   "option_c": "Inner membrane of mitochondria",
+   "explanation_options": {
+    "a": "The matrix holds the Krebs cycle enzymes.",
+    "b": "The outer membrane is permeable and has no respiratory chain.",
+    "c": "Correct — the inner membrane of mitochondria.",
+    "d": "Glycolysis happens in the cytoplasm, not the respiratory chain."
+   },
+   "explanation_short": "The respiratory (electron transport) chain carriers sit in the inner mitochondrial membrane.",
+   "explanation_long": "Cytochromes, coenzyme Q and the protein complexes of the electron transport chain are embedded in the folded inner membrane (the cristae), where ATP synthase also sits.",
+   "explanation_trick": "ETC → inner membrane (cristae)."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 141,
+  "match_question_text": "In cystic fibrosis, liposomes-microscopic vesicles are sued which are coated with:",
+  "match_option_a": "Healthy Gene",
+  "set": {
+   "option_b": "Chromosome",
+   "option_c": "Protein",
+   "explanation_options": {
+    "a": "Correct — liposomes used in CF gene therapy are coated with the healthy version of the defective gene.",
+    "b": "A whole chromosome would be far too large and impractical to package into a liposome for this purpose.",
+    "c": "A generic protein coating doesn't describe the specific gene-delivery mechanism used in this therapy.",
+    "d": "Carbohydrate coating doesn't describe the gene-delivery mechanism used here."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 142,
+  "match_question_text": "The DNA formed by the reverse transcription is called:",
+  "match_option_a": "rDNA",
+  "set": {
+   "option_b": "dDNA",
+   "option_c": "cDNA",
+   "explanation_options": {
+    "a": "rDNA means recombinant (or ribosomal) DNA.",
+    "b": "'dDNA' is not a standard term.",
+    "c": "Correct — cDNA (complementary DNA).",
+    "d": "Too general a term."
+   },
+   "explanation_short": "DNA copied from an RNA template by reverse transcriptase is called complementary DNA (cDNA).",
+   "explanation_long": "Reverse transcriptase uses mRNA as a template to make a complementary DNA strand. cDNA is widely used in cloning because it lacks introns.",
+   "explanation_trick": "Reverse transcription → cDNA."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 143,
+  "match_question_text": "Bacterial cells take up recombinant plasmids when they are treated with:",
+  "match_option_a": "CaCl2",
+  "set": {
+   "option_b": "NaCl",
+   "option_c": "KCl",
+   "explanation_options": {
+    "a": "Correct — CaCl2 treatment is the standard method used to make bacterial cells competent for plasmid uptake.",
+    "b": "NaCl is not the standard reagent used for bacterial transformation competency.",
+    "c": "KCl is not the standard reagent used for bacterial transformation competency.",
+    "d": "NaOH is too caustic/destructive and not used for this gentle membrane-permeabilization purpose."
+   },
+   "option_a": "CaCl₂"
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 144,
+  "match_question_text": "Which one of the following is made up of radioactively labelled nucleotides?",
+  "match_option_a": "Phage DNA",
+  "set": {
+   "option_b": "Genomic Library",
+   "option_c": "Recombinant DNA",
+   "explanation_options": {
+    "a": "Phage DNA is the genetic material of a bacteriophage, not specifically a labelled detection tool.",
+    "b": "A genomic library is a collection of DNA fragments, not itself a labelled detection tool.",
+    "c": "Recombinant DNA is DNA that's been artificially combined from different sources, not specifically a labelled probe.",
+    "d": "Correct — a gene probe is specifically made of radioactively labelled nucleotides for detecting complementary sequences."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 145,
+  "match_question_text": "A technique in transgenic animals in which desired gene is inserted into the eggs of animal is called:",
+  "match_option_a": "Embryonic Stem Cell mediated Transfer",
+  "set": {
+   "option_b": "Microinjection",
+   "option_c": "Retro-virus mediated gene Transfer",
+   "explanation_options": {
+    "a": "The embryonic stem cell method modifies cultured stem cells, not eggs.",
+    "b": "Correct — microinjection into the egg.",
+    "c": "Retroviruses carry genes into cells by infection.",
+    "d": "Virus vectors are a delivery vehicle, not direct insertion into eggs."
+   },
+   "explanation_short": "Microinjection inserts the desired gene directly into a fertilised egg with a fine glass needle.",
+   "explanation_long": "In microinjection, cloned DNA is injected into a pronucleus of a fertilised egg, which is then implanted in a foster mother. Embryonic stem cell and retrovirus methods deliver the gene by other routes.",
+   "explanation_trick": "Gene into the egg by needle = microinjection."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 146,
+  "match_question_text": "Ozone is a layer of atmosphere extending from ___________ km above earth and absorbs ultraviolent radiations.",
+  "match_option_a": "10-50",
+  "set": {
+   "option_b": "50-60",
+   "option_c": "5-30",
+   "explanation_options": {
+    "a": "Correct — 10-50 km is the standard textbook range given for the ozone layer's location.",
+    "b": "50-60 km is too high — this range is above where the ozone layer is concentrated.",
+    "c": "5-30 km underestimates the ozone layer's actual altitude range.",
+    "d": "10-80 km overextends far beyond where the ozone layer's protective concentration actually exists."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 147,
+  "match_question_text": "Light rays from the sun are absorbed by CO2 and re-radiate as ________ radiations.",
+  "match_option_a": "Ultraviolent",
+  "set": {
+   "option_b": "Indigo",
+   "option_c": "Infra-Red",
+   "explanation_options": {
+    "a": "Ultraviolet is absorbed mainly by ozone, not CO₂.",
+    "b": "Indigo is visible light.",
+    "c": "Correct — infra-red.",
+    "d": "Green is visible light."
+   },
+   "question_text": "Light rays from the sun are absorbed by CO₂ and re-radiate as ________ radiations.",
+   "explanation_short": "CO₂ absorbs and re-emits infra-red radiation — the greenhouse effect.",
+   "explanation_long": "The Earth's surface, warmed by sunlight, emits infra-red radiation. Greenhouse gases such as CO₂ absorb it and re-radiate it as infra-red, trapping heat in the atmosphere.",
+   "explanation_trick": "Greenhouse = infra-red."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 148,
+  "match_question_text": "The gases which are produced by burning of fossils fuels and are responsible for acid rain are:",
+  "match_option_a": "CFCs",
+  "set": {
+   "option_b": "CO₂ and CO",
+   "option_c": "HCl and Oxides of Nitrogen",
+   "explanation_options": {
+    "a": "CFCs are associated with ozone layer depletion, not primarily with acid rain.",
+    "b": "CO2 and CO are greenhouse/toxic gases but are not the primary acid-rain-forming gases (they don't readily form strong acids like SO2/NOx do).",
+    "c": "HCl isn't a standard major combustion product responsible for acid rain in this context.",
+    "d": "Correct — SO2 and nitrogen oxides from fossil fuel combustion are the primary acid rain contributors."
+   },
+   "option_d": "SO₂ and Oxides of Nitrogen"
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 149,
+  "match_question_text": "During successions, the first organisms that develop on bare rock are:",
+  "match_option_a": "Lichens",
+  "set": {
+   "option_b": "Shrubs",
+   "option_c": "Moss",
+   "explanation_options": {
+    "a": "Correct — lichens are the textbook pioneer organisms in primary succession on bare rock.",
+    "b": "Shrubs come much later in succession, once sufficient soil has developed.",
+    "c": "Moss typically colonizes after lichens have begun breaking down the rock and creating some soil.",
+    "d": "Herbs establish after mosses, once more soil and organic matter are present — not as the first colonizers."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 150,
+  "match_question_text": "Trophic level of a herbivore in given food-web is: Fox Owl Dog Bettle Rat Rabbit Grass",
+  "match_option_a": "1",
+  "set": {
+   "option_b": "3",
+   "option_c": "4"
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 151,
+  "match_question_text": "During maternal mitosis, non-disjunction of autosomal chromosome pair results in the formation of an egg having 24 chromosomes in:",
+  "match_option_a": "Klinefelter’s Syndrome",
+  "set": {
+   "option_b": "Down’s Syndrome",
+   "option_c": "Turner’s Syndrome",
+   "explanation_options": {
+    "a": "Klinefelter's (XXY) is a sex-chromosome condition.",
+    "b": "Correct — autosomal non-disjunction gives Down's syndrome.",
+    "c": "Turner's (XO) is a sex-chromosome condition with a missing chromosome.",
+    "d": "Jacob's (XYY) is a sex-chromosome condition."
+   },
+   "explanation_short": "Non-disjunction of an autosome (chromosome 21) gives an egg with 24 chromosomes → trisomy 21, Down's syndrome.",
+   "explanation_long": "If chromosome 21 fails to separate, the egg carries 24 chromosomes. Fertilisation then gives 47 chromosomes with three copies of 21 — Down's syndrome. Klinefelter's, Turner's and Jacob's syndromes involve sex chromosomes, not autosomes.",
+   "explanation_trick": "Autosomal trisomy → Down's; sex-chromosome errors → Turner's, Klinefelter's, Jacob's."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 152,
+  "match_question_text": "Typical symptoms like enlarged breasts and small testis in male are attributed to:",
+  "match_option_a": "Down’s Syndrome",
+  "set": {
+   "option_b": "Turner’s Syndrome",
+   "option_c": "Klinefelter’s Syndrome",
+   "explanation_options": {
+    "a": "Down's syndrome is trisomy 21 with different features.",
+    "b": "Turner's syndrome (XO) affects females.",
+    "c": "Correct — Klinefelter's syndrome.",
+    "d": "Phenylketonuria is a metabolic enzyme disorder."
+   },
+   "explanation_short": "Enlarged breasts (gynaecomastia) and small testes in males are signs of Klinefelter's syndrome (XXY).",
+   "explanation_long": "The extra X chromosome in Klinefelter's syndrome (47, XXY) causes low testosterone, small testes, infertility and breast enlargement in males.",
+   "explanation_trick": "Klinefelter = XXY male."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 153,
+  "match_question_text": "Fluid mosaic model of plasma membrane states that protein molecules float in a fluid _____ layer.",
+  "match_option_a": "Galactose",
+  "set": {
+   "option_b": "Phospholipids",
+   "option_c": "Glucose",
+   "explanation_options": {
+    "a": "Galactose is a sugar, not the membrane's fluid layer.",
+    "b": "Correct — phospholipids.",
+    "c": "Glucose is a sugar.",
+    "d": "Carbohydrates are attached to the surface but do not form the bilayer."
+   },
+   "explanation_short": "The fluid mosaic model: proteins float in a fluid phospholipid bilayer.",
+   "explanation_long": "Singer and Nicolson described the membrane as a fluid bilayer of phospholipids with proteins embedded in or floating on it, forming a shifting mosaic.",
+   "explanation_trick": "Fluid = phospholipid bilayer; mosaic = proteins."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 154,
+  "match_question_text": "How many triplets of microtubules are present in centriole?",
+  "match_option_a": "Ten",
+  "set": {
+   "option_b": "Eight",
+   "option_c": "Nine",
+   "explanation_options": {
+    "a": "Ten is not the count.",
+    "b": "Eight is not the count.",
+    "c": "Correct — nine triplets.",
+    "d": "Seven is not the count."
+   },
+   "explanation_short": "A centriole has nine triplets of microtubules (the 9 + 0 arrangement).",
+   "explanation_long": "Centrioles, and the basal bodies of cilia, are cylinders of nine microtubule triplets with no central pair. Cilia and flagella themselves have a 9 + 2 arrangement of doublets.",
+   "explanation_trick": "Centriole 9 × 3; cilium 9 × 2 + 2."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 155,
+  "match_question_text": "Turner’s syndrome is characterized by having:",
+  "match_option_a": "Trisomy 21",
+  "set": {
+   "option_b": "44 + XXY",
+   "option_c": "Trisomy 18",
+   "explanation_options": {
+    "a": "Trisomy 21 describes Down's syndrome, not Turner's.",
+    "b": "44+XXY describes Klinefelter's syndrome (an extra X in males), not Turner's.",
+    "c": "Trisomy 18 describes Edward's syndrome, not Turner's.",
+    "d": "Correct — 44+XO (a single, unpaired X chromosome) is the defining karyotype of Turner's syndrome."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 156,
+  "match_question_text": "Which one of the following cell structure is involved in the synthesis of lipids?",
+  "match_option_a": "Endoplasmic Reticulum",
+  "set": {
+   "option_b": "Golgi Complex",
+   "option_c": "Centriole",
+   "explanation_options": {
+    "a": "Smooth ER is the textbook site of lipid synthesis, though this paper's key marks B.",
+    "b": "Correct per this paper's key — the Golgi complex.",
+    "c": "Centrioles organise spindle microtubules.",
+    "d": "Mitochondria carry out aerobic respiration."
+   },
+   "explanation_short": "The Golgi complex is the answer keyed by the paper for lipid synthesis; strictly, the smooth ER is the main site.",
+   "explanation_long": "The paper's key marks the Golgi complex. Modern textbooks name the smooth endoplasmic reticulum as the main site of lipid synthesis, and the Golgi modifies and packages lipids and proteins (e.g. forming glycolipids). Keep both facts in mind: 'lipid synthesis' → smooth ER, 'packaging/modification' → Golgi.",
+   "explanation_trick": "Smooth ER makes lipids; Golgi packages them."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 157,
+  "match_question_text": "Monosaccharides are major components of:",
+  "match_option_a": "DNA, ATP, Ribulose bisphosphate and Cysteine",
+  "set": {
+   "option_b": "DNA, NAD and Insulin",
+   "option_c": "DNA, NADP, ATP and Ribulose bisphosphate",
+   "explanation_options": {
+    "a": "Cysteine is an amino acid with no sugar.",
+    "b": "Insulin is a protein.",
+    "c": "Correct — all four contain a pentose sugar.",
+    "d": "Myosin is a protein."
+   },
+   "explanation_short": "Ribose or deoxyribose sugars are part of DNA, NADP, ATP and ribulose bisphosphate.",
+   "explanation_long": "DNA contains deoxyribose; NADP and ATP contain ribose; ribulose bisphosphate is itself a phosphorylated five-carbon sugar. Cysteine, insulin and myosin are proteins or amino acids, not sugar-based.",
+   "explanation_trick": "Every member must contain a sugar — watch out for proteins in the list."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 158,
+  "match_question_text": "Blood group antigen contains:",
+  "match_option_a": "Glycoproteins",
+  "set": {
+   "option_b": "Phospholipids",
+   "option_c": "Glycolipids",
+   "explanation_options": {
+    "a": "Correct — glycoproteins.",
+    "b": "Phospholipids form the bilayer, not the antigen.",
+    "c": "Glycolipids also carry ABO sugars, but the key marks glycoproteins.",
+    "d": "Sphingolipids are not the defining antigen here."
+   },
+   "explanation_short": "ABO blood group antigens are glycoproteins (and glycolipids) on the red cell surface; the key marks glycoproteins.",
+   "explanation_long": "The A and B antigens are defined by sugar chains attached to membrane proteins and lipids. The paper's key selects glycoproteins, the standard textbook answer.",
+   "explanation_trick": "Blood group antigen = sugar tag on a protein."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 159,
+  "match_question_text": "Myosin is a __________ type of protein.",
+  "match_option_a": "Intermediate",
+  "set": {
+   "option_b": "Simple",
+   "option_c": "Globular",
+   "explanation_options": {
+    "a": "\"Intermediate\" isn't a standard protein shape classification alongside fibrous/globular.",
+    "b": "\"Simple\" isn't a standard shape-based protein classification.",
+    "c": "Globular proteins are compact and rounded (like enzymes/haemoglobin), not elongated like myosin.",
+    "d": "Correct — myosin's elongated, filamentous structure classifies it as a fibrous protein."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 160,
+  "match_question_text": "Which one of the following is an example of unsaturated fatty acid?",
+  "match_option_a": "Butyric Acid",
+  "set": {
+   "option_b": "Oleic Acid",
+   "option_c": "Palmitic Acid",
+   "explanation_options": {
+    "a": "Butyric acid is saturated.",
+    "b": "Correct — oleic acid is unsaturated.",
+    "c": "Palmitic acid is saturated.",
+    "d": "Acetic acid is a short saturated acid."
+   },
+   "explanation_short": "Oleic acid (C18:1) has a carbon–carbon double bond, so it is unsaturated.",
+   "explanation_long": "Unsaturated fatty acids contain C=C double bonds. Oleic acid, found in olive oil, has one. Butyric, palmitic and acetic acids are saturated.",
+   "explanation_trick": "Oleic → oil → unsaturated."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 161,
+  "match_question_text": "Number of base pairs in one turn of DNA is:",
+  "match_option_a": "10",
+  "set": {
+   "option_b": "2",
+   "option_c": "34",
+   "explanation_options": {
+    "a": "Correct — 10 base pairs per turn is the standard structural parameter of the DNA double helix.",
+    "b": "2 undercounts drastically — this isn't a meaningful base-pair-per-turn value.",
+    "c": "34 refers to the length in Angstroms of one turn (3.4 nm), not the number of base pairs — a common confusion point.",
+    "d": "54 overcounts drastically — this isn't a meaningful base-pair-per-turn value."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 162,
+  "match_question_text": "The lymph vessel of villi is called:",
+  "match_option_a": "Epithelium",
+  "set": {
+   "option_b": "Afferent lymph vessel",
+   "option_c": "Adrenals",
+   "explanation_options": {
+    "a": "The epithelium lines the villus.",
+    "b": "Afferent lymph vessels carry lymph into lymph nodes.",
+    "c": "The adrenals are glands above the kidneys.",
+    "d": "Correct — the lacteal."
+   },
+   "explanation_short": "The lymph vessel inside each intestinal villus is the lacteal, which absorbs fats.",
+   "explanation_long": "Each villus has a central lacteal. Digested fats pass into it as chylomicrons and travel through the lymphatic system.",
+   "explanation_trick": "Lacteal = milky fat-carrying lymph."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 163,
+  "match_question_text": "Right atrium is separated from right ventricle by:",
+  "match_option_a": "Bicuspid Valve",
+  "set": {
+   "option_b": "Semilunar Valve",
+   "option_c": "Tricuspid Valve",
+   "explanation_options": {
+    "a": "The bicuspid valve is on the left side.",
+    "b": "Semilunar valves guard the exits of the arteries.",
+    "c": "Correct — the tricuspid valve.",
+    "d": "The interatrial septum separates the two atria."
+   },
+   "explanation_short": "The tricuspid valve separates the right atrium from the right ventricle.",
+   "explanation_long": "The right atrioventricular valve has three cusps (tricuspid). The left side has the bicuspid (mitral) valve, and the semilunar valves guard the aorta and pulmonary artery.",
+   "explanation_trick": "'Try' before you 'buy': tricuspid on the right, bicuspid on the left."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 164,
+  "match_question_text": "The flaps of tricuspid valves are attached to muscular extensions of right ventricle known as:",
+  "match_option_a": "Smooth Muscles",
+  "set": {
+   "option_b": "Papillary Muscles",
+   "option_c": "Intercostal Muscles",
+   "explanation_options": {
+    "a": "Smooth muscle is not found in the heart wall.",
+    "b": "Correct — papillary muscles.",
+    "c": "Intercostal muscles lie between the ribs.",
+    "d": "Skeletal muscle is not found in the heart."
+   },
+   "explanation_short": "The tricuspid flaps are tied by chordae tendineae to papillary muscles in the ventricle wall.",
+   "explanation_long": "Papillary muscles contract with the ventricle and pull on the chordae tendineae, stopping the valve flaps from being pushed back into the atrium.",
+   "explanation_trick": "Chordae tendineae → papillary muscles."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 165,
+  "match_question_text": "One complete heart beat consists of one systole and one diastole and lasts for about:",
+  "match_option_a": "0.8 sec",
+  "set": {
+   "option_b": "0.2 sec",
+   "option_c": "0.4 sec",
+   "explanation_options": {
+    "a": "Correct — 0.8 seconds is the standard textbook duration for one complete heartbeat cycle.",
+    "b": "0.2 seconds is far too short for a full heartbeat cycle.",
+    "c": "0.4 seconds is roughly half the correct standard cardiac cycle duration.",
+    "d": "0.5 seconds doesn't match the standard 0.8-second cardiac cycle value."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 166,
+  "match_question_text": "The heart beat cycle starts when electric impulses are generated from;",
+  "match_option_a": "AV Node",
+  "set": {
+   "option_b": "SV Node",
+   "option_c": "SA Node",
+   "explanation_options": {
+    "a": "The AV node relays the impulse after the SA node.",
+    "b": "'SV node' is not a structure.",
+    "c": "Correct — the SA node.",
+    "d": "'PQ' is an ECG interval, not a node."
+   },
+   "explanation_short": "Each heartbeat starts at the sino-atrial (SA) node, the pacemaker.",
+   "explanation_long": "The SA node in the right atrial wall fires first. The impulse spreads across the atria to the AV node, then down the bundle of His and the Purkinje fibres.",
+   "explanation_trick": "SA starts it, AV delays it."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 167,
+  "match_question_text": "About 70-85% CO2 in blood is carried:",
+  "match_option_a": "As carboxylase myoglobin",
+  "set": {
+   "option_b": "With proteins in plasma",
+   "option_c": "Freely as CO₂",
+   "explanation_options": {
+    "a": "Carboxylase myoglobin isn't a standard recognized CO2 transport form in blood.",
+    "b": "Only a small fraction of CO2 binds directly with plasma proteins (a form called carbaminohemoglobin mainly applies to hemoglobin, not general plasma proteins).",
+    "c": "Only a small fraction of CO2 travels as freely dissolved gas — most converts to bicarbonate.",
+    "d": "Correct — bicarbonate ions are the dominant transport form for CO2 in blood, accounting for 70-85%."
+   },
+   "question_text": "About 70-85% CO₂ in blood is carried:"
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 168,
+  "match_question_text": "Those nephrons which are present along the border of the cortex and medulla are called:",
+  "match_option_a": "Juxtamedullary nephrons",
+  "set": {
+   "option_b": "Cortical nephrons",
+   "option_c": "Internal nephrons",
+   "explanation_options": {
+    "a": "Correct — juxtamedullary nephrons are specifically those positioned along the cortex-medulla border.",
+    "b": "Cortical nephrons are located mainly within the cortex, with shorter loops, not specifically at the cortex-medulla border.",
+    "c": "\"Internal nephrons\" isn't the standard anatomical term used for this classification.",
+    "d": "\"Outer nephrons\" isn't the standard anatomical term used for this classification."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 169,
+  "match_question_text": "When water is in short supply, increased water retention occurs through the:",
+  "match_option_a": "Cortical nephrons",
+  "set": {
+   "option_b": "Proximal Convoluted Tubule",
+   "option_c": "Juxtamedullary nephrons",
+   "explanation_options": {
+    "a": "Cortical nephrons have short loops.",
+    "b": "The PCT reabsorbs a constant fraction, not adjusted for water shortage.",
+    "c": "Correct — juxtamedullary nephrons.",
+    "d": "The cortex tissue alone does not concentrate urine."
+   },
+   "explanation_short": "Juxtamedullary nephrons have long loops of Henle reaching deep into the medulla, so they concentrate urine when water is short.",
+   "explanation_long": "Long loops of Henle create a strong salt gradient in the medulla. This lets water be reabsorbed from the collecting ducts, producing concentrated urine. Cortical nephrons have short loops and cannot do this as well.",
+   "explanation_trick": "Long loop → concentrated urine → juxtamedullary."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 170,
+  "match_question_text": "In nephrons, counter-current multiplier occurs at:",
+  "match_option_a": "Loop of Henle",
+  "set": {
+   "option_b": "Collecting Duct",
+   "option_c": "Bowman’s Capsule",
+   "explanation_options": {
+    "a": "Correct — the loop of Henle is where the countercurrent multiplier mechanism operates.",
+    "b": "The collecting duct is influenced by the medullary gradient created by the loop of Henle, but isn't where the multiplier mechanism itself originates.",
+    "c": "Bowman's capsule is where initial filtration occurs, not where the countercurrent mechanism operates.",
+    "d": "The glomerulus is the filtration structure, unrelated to the countercurrent concentrating mechanism."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 171,
+  "match_question_text": "Ascending loop of Henle does not allow outflow of:",
+  "match_option_a": "Na+ ions",
+  "set": {
+   "explanation_options": {
+    "a": "Na+ ions are actively transported OUT of the ascending loop, unlike water which stays in.",
+    "b": "K+ ions can also be involved in transport at this segment, unlike water which is blocked entirely.",
+    "c": "Cl- ions are actively transported OUT of the ascending loop, unlike water which stays in.",
+    "d": "Correct — water is the substance specifically blocked from leaving the water-impermeable ascending loop of Henle."
+   },
+   "option_a": "Na⁺ ions",
+   "option_b": "K⁺ ions",
+   "option_c": "Cl⁻ ions"
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 172,
+  "match_question_text": "A larger quantity of dilute urine is produced in diabetes insipidus. This disease is due to the deficiency of:",
+  "match_option_a": "Antidiuretic Hormone",
+  "set": {
+   "option_b": "Aldosterone",
+   "option_c": "Thyroxine",
+   "explanation_options": {
+    "a": "Correct — a deficiency of antidiuretic hormone (ADH) is the defining cause of diabetes insipidus.",
+    "b": "Aldosterone regulates sodium/potassium balance; its deficiency causes different symptoms, not primarily this classic dilute-urine picture.",
+    "c": "Thyroxine deficiency causes hypothyroidism, unrelated to urine dilution in this way.",
+    "d": "Cortisol deficiency is associated with Addison's disease, not diabetes insipidus."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 173,
+  "match_question_text": "Water and sodium ions are reabsorbed in:",
+  "match_option_a": "Urinary Bladder and Urethra",
+  "set": {
+   "option_b": "Ureter",
+   "option_c": "Adrenal Cortex",
+   "explanation_options": {
+    "a": "The bladder and urethra only store and pass urine.",
+    "b": "The ureter only carries urine.",
+    "c": "The adrenal cortex secretes aldosterone but reabsorbs nothing itself.",
+    "d": "Correct — the PCT and collecting duct."
+   },
+   "explanation_short": "Water and Na⁺ are reabsorbed mainly in the proximal convoluted tubule, with fine control in the collecting duct.",
+   "explanation_long": "About two-thirds of filtered sodium and water is reabsorbed in the PCT. ADH (for water) and aldosterone (for Na⁺) adjust the rest in the distal tubule and collecting duct. The bladder, urethra and ureter only store or carry urine.",
+   "explanation_trick": "Reabsorption happens in the nephron, never in the plumbing."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 174,
+  "match_question_text": "Which disease is responsible for dementia (memory loss)?",
+  "match_option_a": "Parkinson’s Disease",
+  "set": {
+   "option_b": "Alzheimer’s Disease",
+   "option_c": "Epilepsy",
+   "explanation_options": {
+    "a": "Parkinson's is primarily a movement disorder.",
+    "b": "Correct — Alzheimer's disease.",
+    "c": "Epilepsy is a seizure disorder.",
+    "d": "Graves' disease is an overactive thyroid."
+   },
+   "explanation_short": "Alzheimer's disease is the leading cause of dementia (progressive memory loss).",
+   "explanation_long": "Alzheimer's destroys neurons, with amyloid plaques and tangles, causing progressive loss of memory and thinking. Parkinson's mainly affects movement, epilepsy causes seizures, and Graves' disease is hyperthyroidism.",
+   "explanation_trick": "Memory → Alzheimer's; movement → Parkinson's."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 175,
+  "match_question_text": "Neurotransmitter secreted at synapse outside the central nervous system is:",
+  "match_option_a": "Dopamine",
+  "set": {
+   "option_b": "Polypeptide",
+   "option_c": "Androgen",
+   "explanation_options": {
+    "a": "Dopamine is primarily associated with central nervous system pathways (like reward and movement circuits), not peripheral synapses.",
+    "b": "Polypeptide neurotransmitters (neuropeptides) exist but aren't the classic answer for peripheral synapses outside the CNS.",
+    "c": "Androgen is a steroid hormone, not a neurotransmitter released at synapses.",
+    "d": "Correct — acetylcholine is the standard neurotransmitter for synapses outside the central nervous system."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 176,
+  "match_question_text": "Conduction of action potentials from one mode of Ranvier to another in myelinated neurons is through:",
+  "match_option_a": "Hyperpolarization",
+  "set": {
+   "option_b": "Resting Membrane Potential",
+   "option_c": "Depolarization",
+   "explanation_options": {
+    "a": "Hyperpolarization is a phase of the action potential itself, not the mechanism of jumping between nodes.",
+    "b": "Resting membrane potential describes the neuron's baseline state, not the conduction mechanism between nodes.",
+    "c": "Depolarization is a phase of the action potential itself, not the mechanism of jumping between nodes.",
+    "d": "Correct — saltatory conduction is the specific term for impulses jumping between nodes of Ranvier in myelinated neurons."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 177,
+  "match_question_text": "In the following diagram of action potential in a neuron, ‘x’ depicts: Membrane +50 ― Potential 0 ― (mV) -50 ― x -100 ― Time (milliseconds)",
+  "match_option_a": "Depolarization",
+  "set": {
+   "option_b": "Polarization",
+   "option_c": "Repolarization",
+   "explanation_options": {
+    "a": "Correct — the labeled rising phase on the action potential graph represents depolarization.",
+    "b": "Polarization describes the resting state itself, not an active phase of change.",
+    "c": "Repolarization is the falling phase back toward resting potential, not the rising phase.",
+    "d": "Hyperpolarization is when the potential dips below resting level, a different phase than the rising 'x' segment."
+   },
+   "question_text": "In the following diagram of action potential in a neuron, ‘x’ depicts:"
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 178,
+  "match_question_text": "In human testis, which structure is responsible for carrying sperm from inside the testis?",
+  "match_option_a": "Seminiferous tubules",
+  "set": {
+   "option_b": "Urinogenital duct",
+   "option_c": "Seminal Vesicles",
+   "explanation_options": {
+    "a": "Seminiferous tubules are where sperm are produced, not the duct carrying them out.",
+    "b": "The urinogenital duct is a later shared pathway, not the initial exit route from the testis.",
+    "c": "Seminal vesicles add fluid to semen later, downstream of the testis itself.",
+    "d": "Correct — vasa efferentia are the specific ducts carrying sperm out of the testis."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 179,
+  "match_question_text": "In which part of female reproductive system fertilization takes place?",
+  "match_option_a": "Proximal part of oviduct",
+  "set": {
+   "option_b": "Uterus",
+   "option_c": "Placenta",
+   "explanation_options": {
+    "a": "Correct — fertilization classically occurs in the proximal part (ampulla) of the oviduct.",
+    "b": "The uterus is where implantation occurs, not fertilization itself.",
+    "c": "The placenta forms after implantation, much later than fertilization.",
+    "d": "The vagina is where sperm are deposited, far from where fertilization actually occurs."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 180,
+  "match_question_text": "In females, FSH stimulates the ovary to produce:",
+  "match_option_a": "Progesterone",
+  "set": {
+   "option_b": "Lactin",
+   "option_c": "Oestrogen",
+   "explanation_options": {
+    "a": "Progesterone is produced mainly by the corpus luteum under LH.",
+    "b": "Lactin (prolactin) comes from the pituitary.",
+    "c": "Correct — oestrogen.",
+    "d": "Oxytocin comes from the posterior pituitary."
+   },
+   "explanation_short": "FSH stimulates ovarian follicles to grow and secrete oestrogen.",
+   "explanation_long": "Follicle-stimulating hormone promotes follicle development, and the growing follicle cells secrete oestrogen. Progesterone comes mainly from the corpus luteum under LH.",
+   "explanation_trick": "FSH → follicle → oestrogen; LH → corpus luteum → progesterone."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 181,
+  "match_question_text": "Syphilis, sexually transmitted disease is caused by:",
+  "match_option_a": "HIV",
+  "set": {
+   "option_b": "Treponema pallidum",
+   "option_c": "Neisseria gonorhoeae",
+   "explanation_options": {
+    "a": "HIV causes AIDS.",
+    "b": "Correct — Treponema pallidum.",
+    "c": "Neisseria gonorrhoeae causes gonorrhoea.",
+    "d": "'Type 2 virus' (HSV-2) causes genital herpes."
+   },
+   "explanation_short": "Syphilis is caused by the spirochaete bacterium Treponema pallidum.",
+   "explanation_long": "Treponema pallidum is a spiral bacterium spread through sexual contact. Neisseria gonorrhoeae causes gonorrhoea, and HIV causes AIDS.",
+   "explanation_trick": "Syphilis → Treponema; gonorrhoea → Neisseria."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 182,
+  "match_question_text": "In which phase of human female menstrual cycle, endometrium prepares for the implantation of embryo?",
+  "match_option_a": "Proliferative phase",
+  "set": {
+   "option_b": "Menstrual phase",
+   "option_c": "Secretory phase",
+   "explanation_options": {
+    "a": "The proliferative phase rebuilds the lining under oestrogen.",
+    "b": "The menstrual phase sheds the lining.",
+    "c": "Correct — the secretory phase.",
+    "d": "Ovulation is a single event, not the preparation phase."
+   },
+   "explanation_short": "In the secretory (luteal) phase, progesterone makes the endometrium thick, glandular and ready for implantation.",
+   "explanation_long": "After ovulation the corpus luteum secretes progesterone, which turns the thickened endometrium into a nutrient-rich lining ready for an embryo. The proliferative phase rebuilds the lining; the menstrual phase sheds it.",
+   "explanation_trick": "Secretory phase = ready for implantation."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 183,
+  "match_question_text": "The total number of cervical and thoracic vertebrate in human vertebral column is:",
+  "match_option_a": "7",
+  "set": {
+   "option_b": "19",
+   "option_c": "14",
+   "explanation_options": {
+    "a": "7 is the cervical count only.",
+    "b": "Correct — 7 + 12 = 19.",
+    "c": "14 does not match any grouping.",
+    "d": "33 is the total for the whole column."
+   },
+   "explanation_short": "7 cervical + 12 thoracic = 19 vertebrae.",
+   "explanation_long": "The human column has 7 cervical, 12 thoracic, 5 lumbar, 5 fused sacral and about 4 fused coccygeal vertebrae (33 in all). Cervical plus thoracic is 19.",
+   "explanation_trick": "Breakfast at 7, lunch at 12, dinner at 5."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 184,
+  "match_question_text": "A sarcomere is the region of a myofibril between two successive:",
+  "match_option_a": "M-lines",
+  "set": {
+   "option_b": "Z-lines",
+   "option_c": "I-bands",
+   "explanation_options": {
+    "a": "The M-line is the middle of the sarcomere.",
+    "b": "Correct — Z-lines.",
+    "c": "I-bands straddle the Z-lines rather than bounding the sarcomere.",
+    "d": "T-tubules are membrane invaginations."
+   },
+   "explanation_short": "A sarcomere is the section of a myofibril between two successive Z-lines.",
+   "explanation_long": "The sarcomere, the unit of contraction, runs from one Z-line to the next. It contains a central A-band and half an I-band at each end.",
+   "explanation_trick": "Sarcomere: Z to Z."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 185,
+  "match_question_text": "The sarcolemma of muscle fibre folds inwards and forms a system of tubes which runs through the sarcoplasm called:",
+  "match_option_a": "Myofilaments",
+  "set": {
+   "option_b": "Sarcoplasmic reticulum",
+   "option_c": "Z-lines",
+   "explanation_options": {
+    "a": "Myofilaments (actin/myosin) are the contractile proteins themselves, not membrane folds.",
+    "b": "The sarcoplasmic reticulum stores calcium but is a separate membrane system from the T-tubules (though closely associated with them).",
+    "c": "Z-lines are structural sarcomere boundaries, not membrane tubule systems.",
+    "d": "Correct — transverse (T-) tubules are the inward folds of the sarcolemma that conduct signals into the fiber."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 186,
+  "match_question_text": "According to sliding filament theory, when muscle fibers are stimulated by nervous system, which of the following changes occurs?",
+  "match_option_a": "I-bands shorten",
+  "set": {
+   "option_b": "H-zone becomes more visible",
+   "option_c": "Z-lines move further apart",
+   "explanation_options": {
+    "a": "Correct — I-bands shorten as the thin filaments slide further into the region overlapped by thick filaments.",
+    "b": "The H-zone becomes less visible (shrinks/disappears) during contraction, not more visible.",
+    "c": "Z-lines actually move closer together during contraction, not further apart.",
+    "d": "The A-band's length stays constant during contraction — it doesn't shorten, since it represents the fixed length of the thick filaments."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 187,
+  "match_question_text": "If lactic acid build up in thigh muscles, it causes muscle tiredness and pain. This condition is called:",
+  "match_option_a": "Muscle Fatigue",
+  "set": {
+   "option_b": "Tetany",
+   "option_c": "Cramps",
+   "explanation_options": {
+    "a": "Correct — muscle fatigue is the standard term for lactic-acid-induced tiredness and pain.",
+    "b": "Tetany refers to sustained, involuntary muscle spasms often linked to calcium imbalance, not lactic acid buildup.",
+    "c": "Cramps are sudden, involuntary muscle contractions, a related but distinct phenomenon from generalized fatigue.",
+    "d": "\"Oxygen debt\" is the underlying cause requiring extra oxygen afterward, but the resulting symptom described here is specifically termed muscle fatigue."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 188,
+  "match_question_text": "Thyroxine deficiency in adults’ results in a condition called:",
+  "match_option_a": "Cretinism",
+  "set": {
+   "option_b": "Hypothyroidism",
+   "option_c": "Thyrotoximia",
+   "explanation_options": {
+    "a": "Cretinism is thyroxine deficiency in children.",
+    "b": "Hypothyroidism is the general state; the named adult condition is myxoedema.",
+    "c": "Thyrotoxicosis is excess thyroxine.",
+    "d": "Correct — myxoedema."
+   },
+   "explanation_short": "Thyroxine deficiency in adults causes myxoedema.",
+   "explanation_long": "Adult hypothyroidism leads to myxoedema: a low metabolic rate, puffy skin, weight gain and sluggishness. In children the deficiency causes cretinism. Hypothyroidism is the general state; myxoedema is the named adult condition.",
+   "explanation_trick": "Child → cretinism; adult → myxoedema."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 189,
+  "match_question_text": "α-cells of pancreas secrete a hormone known as:",
+  "match_option_a": "Glucagon",
+  "set": {
+   "option_b": "Insulin",
+   "option_c": "Gastrin",
+   "explanation_options": {
+    "a": "Correct — alpha-cells specifically secrete glucagon.",
+    "b": "Insulin is secreted by pancreatic beta-cells, not alpha-cells.",
+    "c": "Gastrin is secreted by stomach cells, not pancreatic alpha-cells.",
+    "d": "Rennin (chymosin) is a digestive enzyme, not a pancreatic alpha-cell hormone."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 190,
+  "match_question_text": "X-linked recessive trait is:",
+  "match_option_a": "Hypophosphatemia",
+  "set": {
+   "option_b": "Vitamin-D resistant rickets",
+   "option_c": "Haemophilia",
+   "explanation_options": {
+    "a": "Hypophosphataemia is X-linked dominant.",
+    "b": "Vitamin-D-resistant rickets is X-linked dominant.",
+    "c": "Correct — haemophilia.",
+    "d": "Diabetes mellitus is not X-linked."
+   },
+   "explanation_short": "Haemophilia is the classic X-linked recessive disorder.",
+   "explanation_long": "Haemophilia genes are on the X chromosome and are recessive, so it mostly affects males who inherit one faulty X. Hypophosphataemia (vitamin-D-resistant rickets) is X-linked dominant.",
+   "explanation_trick": "Haemophilia and colour blindness: X-linked recessive."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 191,
+  "match_question_text": "Human skin colour is a good example of?",
+  "match_option_a": "Sex-linked inheritance",
+  "set": {
+   "option_b": "Polygenic inheritance",
+   "option_c": "x-linked inheritance",
+   "explanation_options": {
+    "a": "Sex-linked traits are not continuous like skin colour.",
+    "b": "Correct — polygenic inheritance.",
+    "c": "X-linked traits follow sex-linked patterns.",
+    "d": "Y-linked traits pass only father to son."
+   },
+   "explanation_short": "Skin colour is controlled by several genes adding up their effects — polygenic inheritance.",
+   "explanation_long": "Several independent genes each add a small amount of pigment, giving a continuous range of skin tones. That is polygenic (quantitative) inheritance, not sex-linked inheritance.",
+   "explanation_trick": "Continuous variation → polygenic."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 192,
+  "match_question_text": "From evolutionary point of view, which respiratory protein is common in many organisms?",
+  "match_option_a": "Cytochrome a",
+  "set": {
+   "option_b": "Cytochrome b",
+   "option_c": "Cytochrome c",
+   "explanation_options": {
+    "a": "Cytochrome a is not the classic evolution marker.",
+    "b": "Cytochrome b is not the classic evolution marker.",
+    "c": "Correct — cytochrome c.",
+    "d": "Cytochrome d is found only in some bacteria."
+   },
+   "explanation_short": "Cytochrome c is found in nearly all aerobic organisms and is highly conserved, so it is used to trace evolution.",
+   "explanation_long": "Cytochrome c is a small electron-transport protein present from yeast to humans. Comparing its amino-acid sequence across species is a classic molecular evidence for evolution.",
+   "explanation_trick": "Evolution protein = cytochrome c."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 193,
+  "match_question_text": "Number of pairs of autosomes in humans in:",
+  "match_option_a": "23",
+  "set": {
+   "option_b": "24",
+   "option_c": "21",
+   "explanation_options": {
+    "a": "23 is the total number of chromosome pairs (including sex chromosomes), not just the autosome count.",
+    "b": "24 overcounts the standard number of human autosome pairs.",
+    "c": "21 undercounts the standard number of human autosome pairs.",
+    "d": "Correct — 22 pairs of autosomes, plus 1 pair of sex chromosomes, make up the human genome's 23 total pairs."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 194,
+  "match_question_text": "ABO blood system is an example of:",
+  "match_option_a": "Polygenes",
+  "set": {
+   "option_b": "Multiple genes",
+   "option_c": "Multiple Alleles",
+   "explanation_options": {
+    "a": "Polygenes are many genes acting on one trait.",
+    "b": "ABO is one gene, not many.",
+    "c": "Correct — multiple alleles.",
+    "d": "Mutation is not the inheritance pattern."
+   },
+   "explanation_short": "The ABO system is controlled by one gene with three alleles (Iᴬ, Iᴮ, i) — multiple alleles.",
+   "explanation_long": "Multiple alleles means more than two alternative forms of one gene exist in a population. ABO blood group has three: Iᴬ and Iᴮ (codominant) and i (recessive).",
+   "explanation_trick": "One gene, many versions = multiple alleles."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 195,
+  "match_question_text": "Which molecular structure of enzyme is essential for activity of enzyme?",
+  "match_option_a": "Primary Structure",
+  "set": {
+   "option_b": "Quaternary Structure",
+   "option_c": "Secondary Structure",
+   "explanation_options": {
+    "a": "Primary structure (amino acid sequence) is necessary but not sufficient alone — folding into 3D shape is what creates function.",
+    "b": "Quaternary structure applies only to multi-subunit enzymes, not a universal requirement for all enzyme activity.",
+    "c": "Secondary structure (local folding patterns like alpha-helices) contributes to but doesn't alone determine full enzyme activity.",
+    "d": "Correct — tertiary structure (the full 3D fold, including the active site) is essential for enzyme activity."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 196,
+  "match_question_text": "Which one of the following edible products is widely pasteurized?",
+  "match_option_a": "Soft drinks",
+  "set": {
+   "option_b": "Mango squash",
+   "option_c": "Milk",
+   "explanation_options": {
+    "a": "Soft drinks are not typically pasteurised in the same way.",
+    "b": "Squash is preserved with sugar and preservatives.",
+    "c": "Correct — milk.",
+    "d": "Orange juice is sometimes pasteurised, but milk is the classic answer."
+   },
+   "explanation_short": "Milk is the food most widely pasteurised.",
+   "explanation_long": "Pasteurisation heats milk briefly (e.g. 72 °C for 15 s) to kill pathogens without spoiling it. Milk is the classic and most widespread example.",
+   "explanation_trick": "Pasteur → milk."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 197,
+  "match_question_text": "Ribosomes are tiny organisms, which are involved in the synthesis of:",
+  "match_option_a": "Protein",
+  "set": {
+   "option_b": "RNA",
+   "option_c": "Nucleus",
+   "explanation_options": {
+    "a": "Correct — ribosomes are specifically involved in synthesizing proteins.",
+    "b": "RNA is synthesized in the nucleus by RNA polymerase (transcription), not by ribosomes.",
+    "c": "The nucleus houses genetic material and is where transcription occurs, but isn't itself synthesized by ribosomes in this context.",
+    "d": "\"Nuclosome\" (nucleosome) is a DNA-packaging structure, unrelated to ribosome function."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 198,
+  "match_question_text": "Which organelle is bounded by two membranes?",
+  "match_option_a": "Ribosome",
+  "set": {
+   "option_b": "Mitochondria",
+   "option_c": "Lysosome",
+   "explanation_options": {
+    "a": "Ribosomes have no membrane.",
+    "b": "Correct — mitochondria.",
+    "c": "Lysosomes have a single membrane.",
+    "d": "The nucleolus has no membrane."
+   },
+   "explanation_short": "Mitochondria (like chloroplasts and the nucleus) have a double membrane.",
+   "explanation_long": "Mitochondria have an outer membrane and a folded inner membrane. Ribosomes and nucleoli have no membrane, and lysosomes have a single membrane.",
+   "explanation_trick": "Double membrane: mitochondria, chloroplasts, nucleus."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 199,
+  "match_question_text": "At the beginning of nuclear division, the number of microtubule triplets in two pairs of centrioles that migrate to opposite poles are:",
+  "match_option_a": "9",
+  "set": {
+   "option_b": "18",
+   "option_c": "108",
+   "explanation_options": {
+    "a": "9 accounts for just a single centriole, not the full set migrating to both poles.",
+    "b": "18 accounts for only one pair (2 centrioles) of the two total pairs migrating to opposite poles.",
+    "c": "108 overcounts drastically — this doesn't match a simple multiple of 9 for the centrioles involved.",
+    "d": "Correct — four centrioles (two pairs, one pair per pole) each with 9 triplets gives 36 total."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 200,
+  "match_question_text": "The disease in which an individual has extra sex chromosome (44 + XXY) is known as:",
+  "match_option_a": "Down’s syndrome",
+  "set": {
+   "option_b": "Tuner’s syndrome",
+   "option_c": "Klinefelter’s syndrome",
+   "explanation_options": {
+    "a": "Down's is trisomy 21 (autosomal).",
+    "b": "Turner's is 44 + XO.",
+    "c": "Correct — Klinefelter's syndrome.",
+    "d": "Jacob's is 44 + XYY."
+   },
+   "explanation_short": "44 + XXY (47 chromosomes) is Klinefelter's syndrome.",
+   "explanation_long": "An extra X in a male gives 47, XXY — Klinefelter's syndrome. Turner's is 44 + XO, Jacob's is 44 + XYY and Down's is trisomy 21.",
+   "explanation_trick": "XXY → Klinefelter."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 201,
+  "match_question_text": "Over-secretion of cortical hormone causes a disease called;",
+  "match_option_a": "Cushing’s Disease",
+  "set": {
+   "option_b": "Diabetes Mellitus",
+   "option_c": "Hypoglycemia",
+   "explanation_options": {
+    "a": "Correct — over-secretion of cortical (adrenal) hormones causes Cushing's disease.",
+    "b": "Diabetes mellitus involves insulin/blood sugar regulation issues, a different hormonal system than adrenal cortical hormones.",
+    "c": "Hypoglycemia (low blood sugar) is generally the opposite metabolic effect of excess cortisol, which tends to raise blood sugar.",
+    "d": "Addison's disease is caused by adrenal hormone deficiency (under-secretion), the opposite of the over-secretion described here."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 202,
+  "match_question_text": "Ejection of milk from mammary glands is under the control of which one of the following hormones?",
+  "match_option_a": "Androgen",
+  "set": {
+   "option_b": "Oxytocin",
+   "option_c": "Progesterone",
+   "explanation_options": {
+    "a": "Androgens are male sex hormones.",
+    "b": "Correct — oxytocin.",
+    "c": "Progesterone prepares the breasts but does not eject milk.",
+    "d": "Oestrogen develops the ducts but does not eject milk."
+   },
+   "explanation_short": "Oxytocin triggers milk ejection (the let-down reflex).",
+   "explanation_long": "Suckling signals the posterior pituitary to release oxytocin, which contracts the cells around the milk glands and ejects milk. Prolactin makes the milk; oxytocin releases it.",
+   "explanation_trick": "Prolactin produces; oxytocin propels."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 203,
+  "match_question_text": "Granulocytes are:",
+  "match_option_a": "Monocytes, Eosinophils, Basophils",
+  "set": {
+   "option_b": "Basophils, Macrophages, Neurophils",
+   "option_c": "Neurophils, Eosinophils, Basophils",
+   "explanation_options": {
+    "a": "Monocytes are agranulocytes.",
+    "b": "Macrophages are not granulocytes.",
+    "c": "Correct — neutrophils, eosinophils, basophils.",
+    "d": "Monocytes and macrophages are agranulocytes."
+   },
+   "explanation_short": "Granulocytes are neutrophils, eosinophils and basophils.",
+   "explanation_long": "White cells with granules in their cytoplasm and lobed nuclei are granulocytes. Monocytes (and the macrophages they become) and lymphocytes are agranulocytes.",
+   "explanation_trick": "Granulocytes: NEB — neutrophils, eosinophils, basophils."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 204,
+  "match_question_text": "Response of body against the transplanted organ is:",
+  "match_option_a": "Homeostatic Response",
+  "set": {
+   "option_b": "Behavioral Response",
+   "option_c": "Primary Response",
+   "explanation_options": {
+    "a": "\"Homeostatic response\" is a general regulatory concept, not specific to immune rejection.",
+    "b": "\"Behavioral response\" is unrelated to immunological transplant rejection.",
+    "c": "\"Primary response\" describes the first exposure to an antigen generally, not specifically the rejection mechanism.",
+    "d": "Correct — cell-mediated response (T-cell attack) is the mechanism behind transplant rejection."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 205,
+  "match_question_text": "Some enzymes require helper which is non-protein part for its efficient functioning that is called:",
+  "match_option_a": "Accelerator",
+  "set": {
+   "option_b": "Cofactor",
+   "option_c": "Prosthetic group",
+   "explanation_options": {
+    "a": "'Accelerator' is not the term.",
+    "b": "Correct — cofactor.",
+    "c": "A prosthetic group is one tightly bound type of cofactor, not the general term.",
+    "d": "The apoenzyme is the protein part."
+   },
+   "explanation_short": "A non-protein helper needed for enzyme activity is a cofactor.",
+   "explanation_long": "Cofactors are the general class of non-protein helpers. They include metal ions (activators), coenzymes (loosely bound organic molecules) and prosthetic groups (tightly bound). The apoenzyme is the protein part alone.",
+   "explanation_trick": "Cofactor is the umbrella term; prosthetic group is the tightly bound kind."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 206,
+  "match_question_text": "Pepsin, protein digesting enzymes, sets best pH:",
+  "match_option_a": "3.00",
+  "set": {
+   "option_b": "4.50",
+   "option_c": "2.00",
+   "explanation_options": {
+    "a": "pH 3 is less acidic than pepsin's optimum.",
+    "b": "pH 4.5 is too weakly acidic.",
+    "c": "Correct — pH 2.00.",
+    "d": "Pepsin is largely inactive at pH 6."
+   },
+   "explanation_short": "Pepsin works best at about pH 2, in the acidic stomach.",
+   "explanation_long": "Pepsin is secreted as pepsinogen and activated by HCl. Its optimum pH is about 2, which matches gastric acidity.",
+   "explanation_trick": "Pepsin → pH 2; trypsin → pH 8."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 207,
+  "match_question_text": "Which one of the following is an example of competitive inhibitor?",
+  "match_option_a": "Glucose",
+  "set": {
+   "option_b": "Fumerate",
+   "option_c": "Succinic Acid",
+   "explanation_options": {
+    "a": "Glucose isn't relevant to this particular enzyme-substrate-inhibitor example.",
+    "b": "Fumarate is the normal product of this enzymatic reaction, not the inhibitor.",
+    "c": "Succinic acid (succinate) is the actual substrate being competed against, not the inhibitor itself.",
+    "d": "Correct — malonate is the well-known competitive inhibitor of succinate dehydrogenase."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 208,
+  "match_question_text": "HIV is classified as:",
+  "match_option_a": "Bacteriophage",
+  "set": {
+   "option_b": "Oncovirus",
+   "option_c": "Retrovirus",
+   "explanation_options": {
+    "a": "Bacteriophages infect bacteria.",
+    "b": "Oncoviruses cause cancer; HIV is classed as a lentivirus retrovirus.",
+    "c": "Correct — retrovirus.",
+    "d": "Describes capsid shape, not HIV's classification."
+   },
+   "explanation_short": "HIV is a retrovirus — it copies its RNA into DNA with reverse transcriptase.",
+   "explanation_long": "HIV carries an RNA genome and the enzyme reverse transcriptase. It makes DNA that integrates into the host genome, which is the defining feature of retroviruses.",
+   "explanation_trick": "Reverse transcriptase → retrovirus."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 209,
+  "match_question_text": "Cyanobacteria are:",
+  "match_option_a": "Photoautotrophic bacteria",
+  "set": {
+   "option_b": "Chemosynthetic bacteria",
+   "option_c": "Saprotrophic bacteria",
+   "explanation_options": {
+    "a": "Correct — cyanobacteria are photoautotrophic, performing photosynthesis to produce their own food.",
+    "b": "Chemosynthetic bacteria derive energy from inorganic chemical reactions, not sunlight like cyanobacteria.",
+    "c": "Saprotrophic bacteria feed on dead/decaying matter, unlike cyanobacteria's photosynthetic lifestyle.",
+    "d": "Parasitic bacteria feed off living hosts, unlike cyanobacteria's independent photosynthetic lifestyle."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 210,
+  "match_question_text": "During favourable conditions, certain bacteria produces:",
+  "match_option_a": "Ribosomes",
+  "set": {
+   "option_b": "Plasmids",
+   "option_c": "Mitochondria",
+   "explanation_options": {
+    "a": "All bacteria always have ribosomes — nothing special to favourable conditions.",
+    "b": "Plasmids are extra DNA, not a product of favourable conditions.",
+    "c": "Bacteria have no mitochondria.",
+    "d": "Correct — spores (conidia) in certain bacteria."
+   },
+   "explanation_short": "Per the key, certain bacteria (e.g. Streptomyces) produce spores (conidia) under favourable conditions; endospores form under unfavourable ones.",
+   "explanation_long": "Textbooks distinguish two kinds of bacterial spores. Endospores are resistant resting structures formed in harsh conditions. Some bacteria, such as the actinomycete Streptomyces, produce reproductive spores (conidia) during favourable growth. The question refers to the latter.",
+   "explanation_trick": "Favourable → reproductive spores (conidia); unfavourable → endospores."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 211,
+  "match_question_text": "In rhizopus, zygote forms temporary, dormant, thick-walled resistant structure called:",
+  "match_option_a": "Zygospore",
+  "set": {
+   "option_b": "Spore",
+   "option_c": "Sporangia",
+   "explanation_options": {
+    "a": "Correct — the zygospore is specifically the thick-walled dormant structure formed from the zygote in Rhizopus.",
+    "b": "A generic \"spore\" doesn't capture the specific thick-walled, dormant zygote structure being described.",
+    "c": "Sporangia are the structures that produce asexual spores, a different reproductive structure from the sexual zygospore.",
+    "d": "\"Hydra\" is an unrelated animal, not a fungal reproductive structure."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 212,
+  "match_question_text": "___________ is a triploblastic organism.",
+  "match_option_a": "Jelly Fish",
+  "set": {
+   "option_b": "Sea Anemone",
+   "option_c": "Tapeworm",
+   "explanation_options": {
+    "a": "Jellyfish are diploblastic.",
+    "b": "Sea anemones are diploblastic.",
+    "c": "Correct — tapeworm.",
+    "d": "Corals are diploblastic."
+   },
+   "explanation_short": "Tapeworms (flatworms) are triploblastic; jellyfish, sea anemones and corals are diploblastic cnidarians.",
+   "explanation_long": "Triploblastic animals develop from three germ layers (ectoderm, mesoderm, endoderm). Platyhelminthes such as tapeworms are the first triploblastic group. Cnidarians have only two layers.",
+   "explanation_trick": "Cnidarians = 2 layers; flatworms and beyond = 3."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 213,
+  "match_question_text": "In arthropods, the body cavity is in the form of:",
+  "match_option_a": "Coelem",
+  "set": {
+   "option_b": "Haemocoel",
+   "option_c": "Psedocoelem",
+   "explanation_options": {
+    "a": "A true coelom is reduced in arthropods.",
+    "b": "Correct — haemocoel.",
+    "c": "A pseudocoelom is found in roundworms.",
+    "d": "The enteron is the gut cavity."
+   },
+   "explanation_short": "Arthropods have an open circulatory system, and their body cavity is a blood-filled haemocoel.",
+   "explanation_long": "In arthropods the true coelom is reduced, and the main body cavity is the haemocoel, bathed directly in haemolymph.",
+   "explanation_trick": "Open circulation → haemocoel."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 214,
+  "match_question_text": "___________ is a good example of polymorphism.",
+  "match_option_a": "Hydra",
+  "set": {
+   "option_b": "Starfish",
+   "option_c": "Obelia",
+   "explanation_options": {
+    "a": "Hydra is a solitary polyp.",
+    "b": "Starfish are not polymorphic.",
+    "c": "Correct — Obelia.",
+    "d": "Euplectella is a glass sponge."
+   },
+   "explanation_short": "Obelia shows polymorphism — polyps for feeding and reproduction and free-swimming medusae in one life cycle.",
+   "explanation_long": "Polymorphism means one species has structurally different individuals doing different jobs. Obelia colonies have feeding polyps, reproductive polyps and medusae.",
+   "explanation_trick": "Colonial cnidarian with polyps + medusae = Obelia."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 215,
+  "match_question_text": "Name common gut roundworm parasite of human and pigs.",
+  "match_option_a": "Aascaris lumberocoides",
+  "set": {
+   "option_b": "Lumbericus terresaris",
+   "option_c": "Pheretima posthuma",
+   "explanation_options": {
+    "a": "Correct — Ascaris lumbricoides is the standard gut roundworm parasite shared by humans and pigs.",
+    "b": "Lumbricus terrestris is the common earthworm, not a gut parasite.",
+    "c": "Pheretima posthuma is a common earthworm species, not a parasite.",
+    "d": "Hirudo medicinalis is the medicinal leech, not a gut roundworm parasite."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 216,
+  "match_question_text": "___________ is also called liver fluke.",
+  "match_option_a": "Dugesia",
+  "set": {
+   "option_b": "Taenia",
+   "option_c": "Fasciola",
+   "explanation_options": {
+    "a": "Dugesia is a free-living planarian.",
+    "b": "Taenia is a tapeworm.",
+    "c": "Correct — Fasciola.",
+    "d": "Coral is a cnidarian."
+   },
+   "explanation_short": "Fasciola hepatica is the liver fluke.",
+   "explanation_long": "Fasciola is a trematode flatworm that lives in the bile ducts of sheep, cattle and sometimes humans. Taenia is the tapeworm and Dugesia is a free-living planarian.",
+   "explanation_trick": "Fasciola hepatica — hepatic means liver."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 217,
+  "match_question_text": "Oxyntic cells in stomach produces:",
+  "match_option_a": "Pepsin",
+  "set": {
+   "option_b": "Pepsinogen",
+   "option_c": "Gastrin",
+   "explanation_options": {
+    "a": "Pepsin is produced by chief cells (as inactive pepsinogen), not oxyntic cells.",
+    "b": "Pepsinogen (the inactive precursor to pepsin) is produced by chief cells, not oxyntic cells.",
+    "c": "Gastrin is produced by G-cells, a different stomach cell type, not oxyntic cells.",
+    "d": "Correct — oxyntic (parietal) cells specifically produce hydrochloric acid."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 218,
+  "match_question_text": "The hormone which stimulates the secretion of pancreatic juice is: [Note: the original stem said 'inhibits' — independently verified this is almost certainly a transcription error, since Secretin is textbook-standard as a *stimulator* of pancreatic secretion, not an inhibitor. Corrected accordingly.]",
+  "match_option_a": "Secretin",
+  "set": {
+   "option_b": "Gastrin",
+   "option_c": "Thyroxine",
+   "explanation_options": {
+    "a": "Correct — secretin is the hormone that stimulates pancreatic juice secretion.",
+    "b": "Gastrin stimulates stomach acid secretion, not pancreatic juice release.",
+    "c": "Thyroxine regulates metabolism generally, unrelated to pancreatic digestive secretion.",
+    "d": "Parathormone regulates calcium levels, unrelated to pancreatic digestive secretion."
+   }
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 219,
+  "match_question_text": "Trypsinogen is activated to trypsin by:",
+  "match_option_a": "HCl",
+  "set": {
+   "option_b": "Enterokinase",
+   "option_c": "Mucus",
+   "explanation_options": {
+    "a": "HCl activates pepsinogen, not trypsinogen.",
+    "b": "Correct — enterokinase.",
+    "c": "Mucus is protective, not an activator.",
+    "d": "Gastrin is a hormone that stimulates acid secretion."
+   },
+   "explanation_short": "Enterokinase from the duodenum activates trypsinogen to trypsin.",
+   "explanation_long": "Pancreatic trypsinogen is inactive until enterokinase (enteropeptidase) in the intestinal lining cuts it to trypsin, which then activates other pancreatic enzymes.",
+   "explanation_trick": "Pepsinogen ← HCl; trypsinogen ← enterokinase."
+  }
+ },
+ {
+  "year": 2015,
+  "question_number": 220,
+  "match_question_text": "The emulsification of fats is the role of:",
+  "match_option_a": "Saliva",
+  "set": {
+   "option_b": "Pancreatic juice",
+   "option_c": "Gastrin",
+   "explanation_options": {
+    "a": "Saliva contains enzymes for starch digestion, not fat emulsification.",
+    "b": "Pancreatic juice contains lipase (which digests fat) but doesn't itself emulsify fat — that's bile's specific role.",
+    "c": "Gastrin is a hormone regulating stomach acid secretion, not a fat-emulsifying substance.",
+    "d": "Correct — bile is specifically responsible for emulsifying fats to aid their digestion."
+   }
+  }
+ }
+]

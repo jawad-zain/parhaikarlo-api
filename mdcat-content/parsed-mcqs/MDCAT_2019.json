@@ -635,7 +635,7 @@
    "c": "Arterioles",
    "d": "Capillaries"
   },
-  "correct_answer": "a",
+  "correct_answer": "b",
   "explanation": null,
   "is_active": true,
   "needs_review": false,
@@ -4495,11 +4495,11 @@
   "question_text": "SPOT THE ERROR — Let's hurry. The bus is leaving to the last stop.",
   "options": {
    "a": "Let's",
-   "b": "The bus is",
-   "c": "leaving to",
-   "d": "the last stop."
+   "b": "The",
+   "c": "is",
+   "d": "to"
   },
-  "correct_answer": "c",
+  "correct_answer": "d",
   "explanation": null,
   "is_active": true,
   "needs_review": false,
@@ -4545,7 +4545,7 @@
    "c": "take",
    "d": "towards"
   },
-  "correct_answer": "c",
+  "correct_answer": "b",
   "explanation": null,
   "is_active": true,
   "needs_review": false,

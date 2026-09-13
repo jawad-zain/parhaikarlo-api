@@ -319,16 +319,6 @@
  },
  {
   "year": 2017,
-  "question_number": 202,
-  "match_question_text": "Acidic character of amino acid is due to:",
-  "match_option_a": "-NH2",
-  "set": {
-   "option_b": "-N⁺H₃",
-   "option_d": "-COO⁻"
-  }
- },
- {
-  "year": 2017,
   "question_number": 204,
   "match_question_text": "The amide linkage in Nylon-6,6 has the structure:",
   "match_option_a": "-NH2-CO-",
@@ -452,6 +442,26 @@
    "option_b": "Polypeptide → Dipeptides",
    "option_c": "Fats → Fatty acids/glycerol",
    "option_d": "Protein → Amino Acids"
+  }
+ },
+ {
+  "year": 2017,
+  "question_number": "Chemistry 40",
+  "match_question_text": "Acidic character of amino acid is due to:",
+  "match_option_a": "-NH2",
+  "set": {
+   "option_b": "-N⁺H₃",
+   "option_d": "-COO⁻",
+   "correct_answer": "B",
+   "explanation_short": "Amino acids exist as zwitterions (H₃N⁺–CHR–COO⁻); the acidic character comes from the –N⁺H₃ group, which donates H⁺.",
+   "explanation_long": "In the solid state and in solution near neutral pH, an amino acid's –COOH has already given its proton to the –NH₂ group, forming the dipolar zwitterion H₃N⁺–CHR–COO⁻. In that form the group that can release H⁺ to a base is –N⁺H₃, so it is responsible for the acidic character, while –COO⁻ accepts H⁺ and gives the basic character. This is the answer in the UHS key and the FSc textbook.",
+   "explanation_trick": "Zwitterion: –N⁺H₃ gives H⁺ (acid), –COO⁻ takes H⁺ (base).",
+   "explanation_options": {
+    "a": "–NH₂ is a proton acceptor (basic), and in the zwitterion it is already protonated.",
+    "b": "Correct — in the zwitterion, –N⁺H₃ is the group that donates H⁺.",
+    "c": "–COOH is acidic in the un-ionised molecule, but amino acids exist as zwitterions, where it has already become –COO⁻.",
+    "d": "–COO⁻ accepts a proton, so it is responsible for the basic character."
+   }
   }
  }
 ]
