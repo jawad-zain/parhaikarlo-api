@@ -13,7 +13,8 @@ For each entry:
   - skips (does not duplicate) if the question already has a QuestionImage
     pointing at a file that exists on disk, unless --replace-broken is set
     (in which case broken rows -- pointing at missing files -- are removed
-    and replaced)
+    and replaced), or --replace-existing is set (the existing file is
+    overwritten in place when the staged filename matches it -- for re-crops)
   - copies the file into MEDIA_ROOT/question_images/<filename>
   - creates a QuestionImage row (source_name/source_year from --source-name
     / --source-year)
@@ -42,6 +43,7 @@ class Command(BaseCommand):
         parser.add_argument("--source-year", type=int, default=None, help="QuestionImage.source_year")
         parser.add_argument("--apply", action="store_true", help="Actually write changes. Omit for dry-run.")
         parser.add_argument("--replace-broken", action="store_true", help="Replace existing QuestionImage rows whose file is missing on disk")
+        parser.add_argument("--replace-existing", action="store_true", help="Overwrite the file of a question's single existing image in place (staged filename must match it); the old file is kept as <filename>.replaced in the staging dir")
 
     def handle(self, *args, **opts):
         manifest_path = Path(opts["manifest"])
@@ -60,7 +62,7 @@ class Command(BaseCommand):
 
         dest_dir = Path(settings.MEDIA_ROOT) / "question_images"
 
-        added = skipped_existing = missing_question = missing_file = replaced = 0
+        added = skipped_existing = missing_question = missing_file = replaced = replaced_existing = 0
         seen_dest_names = set()
 
         with transaction.atomic():
@@ -94,6 +96,26 @@ class Command(BaseCommand):
                         verified.append(img)
                     else:
                         broken.append(img)
+
+                if verified and opts["replace_existing"]:
+                    # Re-crop of an existing image: overwrite its file in place
+                    # so the QuestionImage row (and any other DB copy of it)
+                    # stays valid. Only when the staged name matches exactly.
+                    same = [img for img in verified if Path(img.image.name).name == filename]
+                    if len(verified) != 1 or not same:
+                        self.stdout.write(self.style.ERROR(
+                            f"question {qid}: --replace-existing needs exactly one existing image "
+                            f"named {filename}; found {[Path(i.image.name).name for i in verified]}"
+                        ))
+                        continue
+                    dest_path = Path(same[0].image.path)
+                    self.stdout.write(f"question {qid}: {filename} -> {same[0].image.name} (overwriting existing file)")
+                    if apply:
+                        backup = staging_dir / f"{filename}.replaced"
+                        shutil.copy2(dest_path, backup)
+                        shutil.copy2(src_path, dest_path)
+                    replaced_existing += 1
+                    continue
 
                 if verified:
                     skipped_existing += 1
@@ -148,7 +170,7 @@ class Command(BaseCommand):
         self.stdout.write("")
         self.stdout.write(self.style.SUCCESS(
             f"[{mode}] added={added} skipped_existing={skipped_existing} "
-            f"replaced_broken={replaced} missing_question={missing_question} missing_file={missing_file}"
+            f"replaced_broken={replaced} replaced_existing={replaced_existing} missing_question={missing_question} missing_file={missing_file}"
         ))
         if not apply:
             self.stdout.write("Re-run with --apply to persist.")

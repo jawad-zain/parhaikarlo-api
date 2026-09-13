@@ -46,7 +46,24 @@ def run(years, apply_changes):
         total += len(corrections)
         print(f"\n=== MDCAT {year}: {len(corrections)} corrected questions ===")
 
+        # A question fixed in several passes has one entry per pass, each keyed
+        # on the text the previous pass left behind. Once a later pass has
+        # applied, the earlier entry's post-fix text is gone too; it is still
+        # "already applied" if a later entry picks up exactly where it ends.
+        match_keys = {(c["match_question_text"], c["match_option_a"])
+                      for c in corrections}
+
         for c in corrections:
+            post_key = (c["set"].get("question_text", c["match_question_text"]),
+                        c["set"].get("option_a", c["match_option_a"]))
+            if post_key != (c["match_question_text"], c["match_option_a"]) \
+                    and post_key in match_keys:
+                if not Question.objects.filter(
+                        past_paper__year=c["year"],
+                        question_text=c["match_question_text"],
+                        option_a=c["match_option_a"]).exists():
+                    already += 1
+                    continue
             qs = Question.objects.filter(
                 past_paper__year=c["year"],
                 question_text=c["match_question_text"],
