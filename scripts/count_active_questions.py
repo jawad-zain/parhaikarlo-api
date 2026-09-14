@@ -45,3 +45,17 @@ print("\n=== per mock test (active / total) ===")
 for m in MockTest.objects.select_related("exam").order_by("exam__name", "id"):
     qs = m.questions.all()
     print(f"  {m.exam} | {m.name}: {qs.filter(is_active=True).count()} / {qs.count()}  (mock is_active={m.is_active})")
+
+print("\n=== standalone practice, active, by exam/subject ===")
+from collections import Counter  # noqa: E402
+
+practice_qs = Question.objects.filter(
+    is_active=True, past_paper__isnull=True
+).exclude(id__in=mock_ids).select_related("subtopic__topic__subject__exam")
+counts = Counter(
+    f"{q.subtopic.topic.subject.exam.name} | {q.subtopic.topic.subject.name}"
+    for q in practice_qs
+)
+for k, v in sorted(counts.items()):
+    print(f"  {v}  {k}")
+print("  total:", sum(counts.values()))
