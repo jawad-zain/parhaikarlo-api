@@ -14,9 +14,17 @@ User decisions (2026-09-15):
 - For Excretion (no bare name exists), canonical = "Human Physiology - Excretion".
 - For Chemistry Thermochemistry, canonical = the bare "Thermochemistry".
 
+IMPORTANT: groups are matched by (subject name, exact topic name), NOT by
+numeric id. Topic ids are NOT consistent between local and production - a
+first version of this script hardcoded local ids and, per a production
+dry-run on 2026-09-15, those same ids point to entirely unrelated topics on
+prod (e.g. local id=265 is Biology "Human Reproduction"; prod id=265 is a
+Logical Reasoning topic "Letters and Symbol Series"). Matching by name is
+safe regardless of what ids happen to be in a given environment.
+
 Usage: python scripts/merge_biology_chemistry_duplicate_topics.py [--dry-run]
-Idempotent: safe to re-run - duplicate topics are gone after the first run,
-so a second run finds nothing to do.
+Idempotent: safe to re-run - once a group's duplicate names are gone, that
+group is skipped (reported, not an error).
 """
 import argparse
 import os
@@ -30,32 +38,52 @@ django.setup()
 
 from django.db import transaction
 
-from content.models import Question, Subtopic, Topic
+from content.models import Question, Subject, Topic
 
-# (canonical_topic_id, [duplicate_topic_ids...])
+# (subject_name, canonical_topic_name, [duplicate_topic_names...])
 GROUPS = [
-    (57, [206, 260]),   # Biology: Circulation
-    (110, [205, 259]),  # Biology: Digestion
-    (103, [207, 261]),  # Biology: Respiration
-    (61, [210, 265]),   # Biology: Reproduction
-    (208, [262]),       # Biology: Human Physiology - Excretion (canonical, no bare name exists)
-    (200, [256, 141]),  # Biology: Cell Cycle & Division
-    (199, [255]),       # Biology: Cell Membrane & Transport
-    (203, [257]),       # Biology: Classification & Diversity
-    (214, [70]),        # Chemistry: Thermochemistry
+    ("Biology", "Circulation", ["Human Physiology - Circulation", "Human Circulation"]),
+    ("Biology", "Digestion", ["Human Physiology - Digestion", "Human Digestion"]),
+    ("Biology", "Respiration", ["Human Physiology - Respiration", "Human Respiration"]),
+    ("Biology", "Reproduction", ["Human Physiology - Reproduction", "Human Reproduction"]),
+    ("Biology", "Human Physiology - Excretion", ["Human Excretion"]),  # no bare name exists
+    ("Biology", "Cell Cycle & Division", ["Cell Cycle and Division", "Cell Division"]),
+    ("Biology", "Cell Membrane & Transport", ["Cell Membrane and Transport"]),
+    ("Biology", "Classification & Diversity", ["Classification and Diversity"]),
+    ("Chemistry", "Thermochemistry", ["Thermochemistry and Energetics"]),
 ]
 
 
+def get_topic_by_name(subject: Subject, name: str) -> Topic:
+    """Exact, case-sensitive match on purpose - these names are known-exact
+    from a live DB query, and a fuzzy match risks grabbing the wrong topic."""
+    return Topic.objects.get(subject=subject, name=name)
+
+
 def merge(dry_run: bool):
-    for canon_id, dup_ids in GROUPS:
-        canon = Topic.objects.select_related("subject").get(id=canon_id)
+    for subject_name, canon_name, dup_names in GROUPS:
+        subject = Subject.objects.get(name=subject_name)
+        try:
+            canon = get_topic_by_name(subject, canon_name)
+        except Topic.DoesNotExist:
+            print(f"SKIP group ({subject_name!r}/{canon_name!r}): canonical topic not found")
+            continue
+
         print("=" * 70)
-        print(f"CANONICAL: id={canon.id} {canon.name!r} (subject={canon.subject.name})")
+        print(f"CANONICAL: id={canon.id} {canon.name!r} (subject={subject_name})")
 
         canon_subs_by_name = {s.name.strip().lower(): s for s in canon.subtopics.all()}
 
-        for dup_id in dup_ids:
-            dup = Topic.objects.get(id=dup_id)
+        for dup_name in dup_names:
+            try:
+                dup = get_topic_by_name(subject, dup_name)
+            except Topic.DoesNotExist:
+                print(f"  SKIP dup {dup_name!r}: not found (already merged?)")
+                continue
+
+            # Sanity check: never merge a topic into itself.
+            assert dup.id != canon.id, f"canonical and dup resolved to the same topic id {dup.id}"
+
             print(f"  merging DUP id={dup.id} {dup.name!r} ->")
 
             for sub in list(dup.subtopics.all()):
@@ -88,10 +116,10 @@ def merge(dry_run: bool):
                         sub.save(update_fields=["topic"])
                     canon_subs_by_name[key] = sub  # avoid double-handling if a later dup repeats this name
 
-            remaining = dup.subtopics.count() if dry_run else dup.subtopics.count()
             if dry_run:
                 print(f"    (dry-run) would delete now-empty duplicate topic {dup.id}")
             else:
+                remaining = dup.subtopics.count()
                 if remaining == 0:
                     dup.delete()
                     print(f"    deleted now-empty duplicate topic {dup.id}")
