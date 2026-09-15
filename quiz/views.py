@@ -1130,3 +1130,38 @@ class PastPaperStartView(APIView):
             AttemptDetailSerializer(attempt, context={'request': request}).data,
             status=status.HTTP_201_CREATED,
         )
+
+class PastPaperProgressView(APIView):
+    """GET /api/quiz/past-papers/progress/?exam=<id>&paper=<id>
+
+    Per-user OMR answer-sheet grid for every active past paper in scope,
+    joined client-side to the public past-papers list by past_paper_id.
+    `latest_attempt.states[i]` is question number i+1; see
+    services.get_past_paper_progress for numbering and state precedence.
+
+    Score of record vs grid: `score_correct`/`score_total` are the attempt's
+    stored correct_count/total_questions and are what "you got X/Y" text
+    must use. `counts` is tallied from the CURRENT grid, so it can diverge —
+    e.g. a question answered correctly and deactivated afterwards shows as
+    `inactive`, making counts.correct < score_correct. Use `counts` only for
+    the visual breakdown.
+    """
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request):
+        from .services import get_past_paper_progress
+
+        filters = {}
+        for param, key in (('exam', 'exam_id'), ('paper', 'paper_id')):
+            raw = request.query_params.get(param)
+            if raw in (None, ''):
+                continue
+            try:
+                filters[key] = int(raw)
+            except ValueError:
+                return Response(
+                    {'error': f'{param} must be an integer'},
+                    status=status.HTTP_400_BAD_REQUEST,
+                )
+
+        return Response(get_past_paper_progress(request.user, **filters))

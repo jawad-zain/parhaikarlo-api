@@ -2,6 +2,7 @@ from django.urls import path
 
 from .views import (
     PastPaperStartView,
+    PastPaperProgressView,
     QuestionListView,
     AnalyticsDashboardView,
     WeakTopicsView,
@@ -119,6 +120,12 @@ urlpatterns = [
     "weak-topics/drill/",
     WeakTopicsDrillView.as_view(),
     name="weak-topics-drill",
+    ),
+
+    path(
+        'past-papers/progress/',
+        PastPaperProgressView.as_view(),
+        name='past-paper-progress',
     ),
 
     path(

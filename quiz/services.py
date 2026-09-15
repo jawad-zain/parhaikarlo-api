@@ -587,3 +587,154 @@ def create_past_paper_attempt(user, past_paper, device_class='desktop'):
     ])
 
     return attempt
+
+
+# ---------------------------------------------------------------------------
+# Past-paper OMR progress grid
+# ---------------------------------------------------------------------------
+
+PAST_PAPER_SLOT_STATES = (
+    'correct', 'wrong', 'wrong_retried', 'unanswered',
+    'not_offered', 'inactive', 'missing',
+)
+
+
+def get_past_paper_progress(user, exam_id=None, paper_id=None):
+    """Per-question OMR grid of `user`'s latest completed past_paper attempt,
+    one entry per active PastPaper in scope (ordered -year, then id).
+
+    Constant query count (4) regardless of how many papers are in scope.
+    Everything is keyed on question_id — never order_in_attempt, which is a
+    snapshot rank that shifts once questions are deactivated.
+
+    Numbering: "printed" iff the paper has rows and every row (active or not)
+    has a unique paper_order >= 1 — slot = paper_order, gaps are `missing`.
+    Otherwise "derived": slot = rank of the row by Question.id.
+
+    Slot state precedence: missing > inactive (inactive OR unverified now) >
+    not_offered (active now, absent from the attempt) > unanswered (selected
+    null) > correct > wrong_retried (wrong first try, attempts_count > 1) >
+    wrong.
+    """
+    from django.db.models import Count, F, Q
+    from content.models import PastPaper
+
+    # 1. Papers in scope + their question rows (LEFT JOIN, so papers with no
+    #    questions still appear, with a single all-null question tuple).
+    paper_filter = {'is_active': True}
+    if exam_id is not None:
+        paper_filter['exam_id'] = exam_id
+    if paper_id is not None:
+        paper_filter['id'] = paper_id
+    rows = (
+        PastPaper.objects.filter(**paper_filter)
+        .order_by('-year', 'id', 'questions__id')
+        .values_list(
+            'id', 'questions__id', 'questions__paper_order',
+            'questions__is_active', 'questions__is_verified',
+        )
+    )
+    papers = {}  # insertion order == response order
+    for pid, qid, po, active, verified in rows:
+        bucket = papers.setdefault(pid, [])
+        if qid is not None:
+            bucket.append((qid, po, active and verified))
+
+    attempt_filter = {
+        'user': user,
+        'mode': 'past_paper',
+        'past_paper__is_active': True,
+    }
+    if exam_id is not None:
+        attempt_filter['past_paper__exam_id'] = exam_id
+    if paper_id is not None:
+        attempt_filter['past_paper_id'] = paper_id
+
+    # 2. Completed attempts; the first per paper is the latest.
+    latest = {}
+    for aid, pid, submitted_at, correct, total in (
+        Attempt.objects.filter(is_completed=True, **attempt_filter)
+        .order_by('past_paper_id', F('submitted_at').desc(nulls_last=True), '-id')
+        .values_list('id', 'past_paper_id', 'submitted_at',
+                     'correct_count', 'total_questions')
+    ):
+        latest.setdefault(pid, (aid, submitted_at, correct, total))
+
+    # 3. Items of those latest attempts only.
+    answers = {}
+    if latest:
+        for aid, qid, selected, is_correct, tries in (
+            AttemptQuestion.objects
+            .filter(attempt_id__in=[v[0] for v in latest.values()])
+            .values_list('attempt_id', 'question_id', 'selected_option',
+                         'is_correct', 'attempts_count')
+        ):
+            answers.setdefault(aid, {})[qid] = (selected, is_correct, tries)
+
+    # 4. In-progress attempts (newest per paper).
+    in_progress = {}
+    for aid, pid, answered, total in (
+        Attempt.objects.filter(is_completed=False, **attempt_filter)
+        .annotate(answered=Count(
+            'items', filter=Q(items__selected_option__isnull=False),
+        ))
+        .order_by('past_paper_id', '-started_at', '-id')
+        .values_list('id', 'past_paper_id', 'answered', 'total_questions')
+    ):
+        in_progress.setdefault(
+            pid, {'attempt_id': aid, 'answered': answered, 'total': total},
+        )
+
+    result = []
+    for pid, qrows in papers.items():
+        orders = [po for _, po, _ in qrows]
+        printed = (
+            bool(qrows)
+            and all(po is not None and po >= 1 for po in orders)
+            and len(set(orders)) == len(orders)
+        )
+
+        latest_payload = None
+        att = latest.get(pid)
+        if att is not None:
+            aid, submitted_at, score_correct, score_total = att
+            items = answers.get(aid, {})
+            states = ['missing'] * (max(orders) if printed else len(qrows))
+            for rank, (qid, po, live) in enumerate(qrows):
+                if not live:
+                    state = 'inactive'
+                elif qid not in items:
+                    state = 'not_offered'
+                else:
+                    selected, is_correct, tries = items[qid]
+                    if selected is None:
+                        state = 'unanswered'
+                    elif is_correct:
+                        state = 'correct'
+                    elif tries > 1:
+                        state = 'wrong_retried'
+                    else:
+                        state = 'wrong'
+                states[po - 1 if printed else rank] = state
+
+            counts = dict.fromkeys(PAST_PAPER_SLOT_STATES, 0)
+            for state in states:
+                counts[state] += 1
+
+            latest_payload = {
+                'attempt_id': aid,
+                'submitted_at': submitted_at,
+                'score_correct': score_correct,
+                'score_total': score_total,
+                'counts': counts,
+                'states': states,
+            }
+
+        result.append({
+            'past_paper_id': pid,
+            'numbering': 'printed' if printed else 'derived',
+            'latest_attempt': latest_payload,
+            'in_progress': in_progress.get(pid),
+        })
+
+    return result
