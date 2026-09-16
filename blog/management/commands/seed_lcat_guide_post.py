@@ -20,10 +20,11 @@ Sourcing rules followed here (same bar as the MDCAT posts):
   rather than filled in from coaching-site numbers that contradict each
   other. Same "flag the gap, never fabricate" rule the past papers post
   follows.
-* No LUMS mock tests are advertised: the LCAT mocks exist as authored files
-  only and are not in any database yet. No dated LCAT past paper is implied
-  either — see lib/officialSamples.ts on the frontend for why that
-  distinction is load-bearing.
+* The 8 full-length LCAT mocks are live in the DB as of 2026-09 and are
+  advertised here (linked from /mocks/lums). No dated LCAT past paper is
+  implied though — see lib/officialSamples.ts on the frontend for why that
+  distinction is load-bearing; the mocks are ParhaiKrlo-authored practice
+  tests, not a released LUMS paper.
 
 The body deliberately has no "## FAQs" heading. The frontend injects the
 FAQ block (from Post.faqs, as both visible <details> and FAQPage JSON-LD)
@@ -394,6 +395,11 @@ Each question carries an **AI explanation**: get one wrong, and you can pull up 
 answer works, why the option you picked was built to catch you, and which domain the concept belongs \
 to — without waiting on a tutor.
 
+Once the domains stop being the problem, the thing to practise is the three-hour sitting itself. \
+ParhaiKrlo has 8 full-length [LCAT mock tests](/mocks/lums), timed and weighted the same way across \
+Verbal and Math, with instant scoring and an explanation on every question. That is where "Never \
+sitting a full three-hour paper" above gets fixed.
+
 If you are also preparing for MDCAT, the [MDCAT hub](/exams/mdcat) has verified [past \
 papers](/past-papers) going back to 2008, the full [PMDC syllabus \
 breakdown](/blog/mdcat-2026-syllabus), and timed [mock tests](/mocks).
@@ -495,7 +501,8 @@ FAQS = [
             "so much unreliable information about the test circulates. What LUMS has released is an "
             "official sample question set covering both the Verbal and Math sections, and that sample is "
             "on ParhaiKrlo, tagged to the eight official content domains with AI explanations on every "
-            "question."
+            "question. ParhaiKrlo also has 8 full-length LCAT mock tests, built to the same pattern, for "
+            "timed practice beyond the official sample."
         ),
     },
 ]
