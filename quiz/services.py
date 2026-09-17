@@ -1,9 +1,8 @@
 from django.db import transaction
+from django.db.models import Count, OuterRef, Q, Subquery
 from django.utils import timezone
 from .models import Attempt, AttemptQuestion
-from content.models import Question
-from .models import Attempt, AttemptQuestion
-from content.models import Question
+from content.models import Question, practice_bank_q
 
 
 class QuizCreationError(Exception):
@@ -11,7 +10,47 @@ class QuizCreationError(Exception):
     pass
 
 
-def select_questions_for_practice(user, exam, subject=None, topic=None, subtopic=None, difficulty=None, limit=20):
+def with_last_answer(qs, user):
+    """Annotate `last_correct` on a Question queryset: whether the user's most
+    recent answer to it (any attempt, first pick only) was right. None means
+    they have never answered it. Drives practice-bank progress: answered =
+    done, latest answer wrong = still a mistake, even if once right before."""
+    latest = (
+        AttemptQuestion.objects.filter(
+            question=OuterRef('pk'), attempt__user=user, answered_at__isnull=False,
+        )
+        .order_by('-answered_at')
+        .values('is_correct')[:1]
+    )
+    return qs.annotate(last_correct=Subquery(latest))
+
+
+def get_practice_bank_progress(user, exam):
+    """Per-subject and per-topic done/mistake counts over the exam's practice
+    bank, for the progress bars on the Practice tab's subject cards."""
+    qs = with_last_answer(
+        Question.objects.filter(
+            practice_bank_q(), subtopic__topic__subject__exam=exam,
+            is_active=True, is_verified=True,
+        ),
+        user,
+    )
+    counts = dict(
+        done=Count('id', filter=Q(last_correct__isnull=False)),
+        mistakes=Count('id', filter=Q(last_correct=False)),
+    )
+    subjects = {
+        r['subtopic__topic__subject']: {'done': r['done'], 'mistakes': r['mistakes']}
+        for r in qs.values('subtopic__topic__subject').annotate(**counts)
+    }
+    topics = {
+        r['subtopic__topic']: {'done': r['done'], 'mistakes': r['mistakes']}
+        for r in qs.values('subtopic__topic').annotate(**counts)
+    }
+    return {'subjects': subjects, 'topics': topics}
+
+
+def select_questions_for_practice(user, exam, subject=None, topic=None, subtopic=None, difficulty=None, limit=20, source=None, bank_mode='new'):
     """
     Pick questions for a practice session.
     MVP: random sample from filtered pool.
@@ -37,22 +76,37 @@ def select_questions_for_practice(user, exam, subject=None, topic=None, subtopic
         qs = qs.filter(subtopic=subtopic)
     if difficulty:
         qs = qs.filter(difficulty=difficulty)
+    if source == 'bank':
+        qs = qs.filter(practice_bank_q())
+        # 'new' works through the bank without repeats until it's finished;
+        # 'mistakes' re-serves whatever the latest answer got wrong; 'all'
+        # is a plain shuffle of the whole bank.
+        if bank_mode in ('new', 'mistakes'):
+            qs = with_last_answer(qs, user)
+            if bank_mode == 'new':
+                qs = qs.filter(last_correct__isnull=True)
+            else:
+                qs = qs.filter(last_correct=False)
 
     question_ids = list(qs.order_by('?').values_list('id', flat=True)[:limit])
 
     if not question_ids:
+        if source == 'bank' and bank_mode == 'new':
+            raise QuizCreationError("You've already answered every question here.")
+        if source == 'bank' and bank_mode == 'mistakes':
+            raise QuizCreationError('No mistakes left to redo here.')
         raise QuizCreationError('No questions available for this selection.')
     return question_ids
 
 
 @transaction.atomic
-def create_practice_attempt(user, exam, subject=None, topic=None, subtopic=None, difficulty=None, limit=20, device_class='desktop'):
+def create_practice_attempt(user, exam, subject=None, topic=None, subtopic=None, difficulty=None, limit=20, device_class='desktop', source=None, bank_mode='new'):
     """
     Create a practice Attempt + snapshot N AttemptQuestion rows in one DB transaction.
     """
     question_ids = select_questions_for_practice(
         user=user, exam=exam, subject=subject, topic=topic, subtopic=subtopic,
-        difficulty=difficulty, limit=limit,
+        difficulty=difficulty, limit=limit, source=source, bank_mode=bank_mode,
     )
 
     attempt = Attempt.objects.create(

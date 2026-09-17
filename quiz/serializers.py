@@ -198,6 +198,21 @@ class AttemptCreateSerializer(serializers.Serializer):
         max_value=50,
     )
 
+    # 'bank' restricts the pool to practice-bank questions (see
+    # content.models.practice_bank_q); omitted means every verified question.
+    source = serializers.ChoiceField(
+        choices=['bank'],
+        required=False,
+        allow_null=True,
+    )
+
+    # Only read with source='bank': 'new' = never answered, 'mistakes' =
+    # latest answer wrong, 'all' = whole bank shuffled.
+    bank_mode = serializers.ChoiceField(
+        choices=['new', 'mistakes', 'all'],
+        default='new',
+    )
+
 
 class AttemptDetailSerializer(serializers.ModelSerializer):
     """For POST /attempts response — returns attempt + questions."""

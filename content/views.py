@@ -6,7 +6,7 @@ from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from .models import ConceptNote, Exam, PastPaper, Question, Subject, Topic, Subtopic
+from .models import ConceptNote, Exam, PastPaper, Question, Subject, Topic, Subtopic, practice_bank_q
 from .serializers import ExamSerializer, PastPaperSerializer
 
 
@@ -193,6 +193,85 @@ class SyllabusView(APIView):
             'exam': {'id': exam.id, 'name': exam.name, 'slug': exam.slug},
             'subjects': payload,
         })
+
+
+class PracticeBankView(APIView):
+    """
+    GET /api/content/practice-banks/
+
+    Practice-bank question counts for every active exam, per subject, for
+    the cards on the Practice tab. A bank question is one in neither a past
+    paper nor a mock (practice_bank_q). Exams with no bank yet still come
+    back, with total 0, so the page can show them as coming soon.
+    """
+    permission_classes = [AllowAny]
+
+    # Bump the suffix whenever the payload shape changes, so a deploy never
+    # serves the old shape from cache.
+    CACHE_KEY = 'content:practice_banks:v2'
+    CACHE_TTL = 600  # 10 minutes
+
+    def get(self, request):
+        data = cache.get(self.CACHE_KEY)
+        if data is None:
+            data = self._compute()
+            cache.set(self.CACHE_KEY, data, self.CACHE_TTL)
+        return Response(data)
+
+    def _compute(self):
+        bank = Question.objects.filter(
+            practice_bank_q(), is_active=True, is_verified=True,
+        )
+
+        subject_rows = {
+            r['subtopic__topic__subject']: r
+            for r in bank.values('subtopic__topic__subject').annotate(
+                total=Count('id'),
+                topics=Count('subtopic__topic', distinct=True),
+                easy=Count('id', filter=Q(difficulty='easy')),
+                medium=Count('id', filter=Q(difficulty='medium')),
+                hard=Count('id', filter=Q(difficulty='hard')),
+            )
+        }
+
+        topics_by_subject = {}
+        topic_rows = (
+            bank.values('subtopic__topic__subject', 'subtopic__topic', 'subtopic__topic__name')
+            .annotate(n=Count('id'))
+            .order_by('-n', 'subtopic__topic__name')
+        )
+        for r in topic_rows:
+            topics_by_subject.setdefault(r['subtopic__topic__subject'], []).append(
+                {'id': r['subtopic__topic'], 'name': r['subtopic__topic__name'], 'question_count': r['n']}
+            )
+
+        exams = []
+        for exam in Exam.objects.filter(is_active=True).prefetch_related('subjects').order_by('name'):
+            subjects = []
+            for subject in sorted(exam.subjects.all(), key=lambda x: (-x.weight_percent, x.order, x.name)):
+                row = subject_rows.get(subject.id)
+                if not row or not subject.is_active:
+                    continue
+                subjects.append({
+                    'id': subject.id,
+                    'name': subject.name,
+                    'slug': subject.slug,
+                    'weight_percent': subject.weight_percent,
+                    'question_count': row['total'],
+                    'topic_count': row['topics'],
+                    'easy_count': row['easy'],
+                    'medium_count': row['medium'],
+                    'hard_count': row['hard'],
+                    # Biggest first; the card shows the first few as chips
+                    # and the full list, with progress, under "Topics".
+                    'topics': topics_by_subject.get(subject.id, []),
+                })
+            exams.append({
+                'exam': {'id': exam.id, 'name': exam.name, 'slug': exam.slug},
+                'total_questions': sum(x['question_count'] for x in subjects),
+                'subjects': subjects,
+            })
+        return exams
 
 
 class TopicNoteView(APIView):

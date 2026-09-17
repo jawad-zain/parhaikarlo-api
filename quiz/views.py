@@ -28,6 +28,7 @@ from .services import (
     QuizCreationError,
     get_weak_topics,
     create_weak_topics_drill,
+    get_practice_bank_progress,
 )
 
 from .serializers import (
@@ -80,7 +81,9 @@ class AttemptCreateView(APIView):
         # session" from the manual practice form, and weak-topic drills,
         # are meant to draw a fresh random set each time, so they always
         # create a new attempt.
-        if topic or subtopic:
+        # Bank sessions skip resuming: each one draws the student's next
+        # unanswered questions, so a fresh attempt is the point.
+        if (topic or subtopic) and data.get('source') != 'bank':
             existing = Attempt.objects.filter(
                 user=request.user,
                 mode='practice',
@@ -104,6 +107,8 @@ class AttemptCreateView(APIView):
                 subtopic=subtopic,
                 difficulty=data.get('difficulty'),
                 limit=data.get('limit', 20),
+                source=data.get('source'),
+                bank_mode=data.get('bank_mode', 'new'),
             )
         except QuizCreationError as e:
             return Response({'error': str(e)}, status=status.HTTP_400_BAD_REQUEST)
@@ -1130,6 +1135,20 @@ class PastPaperStartView(APIView):
             AttemptDetailSerializer(attempt, context={'request': request}).data,
             status=status.HTTP_201_CREATED,
         )
+
+class PracticeBankProgressView(APIView):
+    """GET /api/quiz/practice-bank/progress/?exam=<id>
+
+    The signed-in student's progress through an exam's practice bank:
+    {"subjects": {subject_id: {done, mistakes}}, "topics": {topic_id: ...}}.
+    Joined client-side to the public /api/content/practice-banks/ totals.
+    """
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request):
+        exam = get_object_or_404(Exam, id=request.query_params.get('exam') or 0)
+        return Response(get_practice_bank_progress(request.user, exam))
+
 
 class PastPaperProgressView(APIView):
     """GET /api/quiz/past-papers/progress/?exam=<id>&paper=<id>

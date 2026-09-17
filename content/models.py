@@ -158,6 +158,16 @@ class PastPaper(models.Model):
         return f"{self.exam.name} — {self.name}"
 
 
+def practice_bank_q(prefix=''):
+    """Q() matching practice-bank questions: MCQs written for open practice,
+    in neither a past paper nor any mock. `prefix` lets a related query use
+    it, e.g. practice_bank_q('questions__')."""
+    return models.Q(**{
+        f'{prefix}past_paper__isnull': True,
+        f'{prefix}fixed_in_mock_tests__isnull': True,
+    })
+
+
 class Question(models.Model):
     """One MCQ. Attached to a Subtopic (required) and optionally a PastPaper."""
 

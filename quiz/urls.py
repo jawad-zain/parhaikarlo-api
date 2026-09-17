@@ -3,6 +3,7 @@ from django.urls import path
 from .views import (
     PastPaperStartView,
     PastPaperProgressView,
+    PracticeBankProgressView,
     QuestionListView,
     AnalyticsDashboardView,
     WeakTopicsView,
@@ -120,6 +121,12 @@ urlpatterns = [
     "weak-topics/drill/",
     WeakTopicsDrillView.as_view(),
     name="weak-topics-drill",
+    ),
+
+    path(
+        'practice-bank/progress/',
+        PracticeBankProgressView.as_view(),
+        name='practice-bank-progress',
     ),
 
     path(
