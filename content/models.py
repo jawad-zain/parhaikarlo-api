@@ -1,3 +1,4 @@
+from django.conf import settings
 from django.db import models
 
 
@@ -368,4 +369,66 @@ class ConceptNote(models.Model):
 
     def __str__(self):
         return f"Note: {self.topic}"
-    
+
+
+class QuestionReport(models.Model):
+    """A student telling us a question is wrong.
+
+    The archive is transcribed from scans of papers whose own answer keys are
+    sometimes wrong (see the answer-key policy on the site), so the people
+    best placed to catch a bad row are the ones sitting the paper. Before
+    this there was nowhere for them to say so.
+
+    Deliberately accepts reports from signed-out visitors: requiring an
+    account to report a typo is how you stop hearing about typos. `user` is
+    recorded when there is one, and `email` is optional and only used to
+    reply.
+    """
+
+    KIND_CHOICES = [
+        ('wrong_answer', 'Marked answer looks wrong'),
+        ('typo', 'Typo or formatting problem'),
+        ('image', 'Missing or unreadable image'),
+        ('explanation', 'Explanation is wrong or unclear'),
+        ('other', 'Something else'),
+    ]
+
+    STATUS_CHOICES = [
+        ('new', 'New'),
+        ('accepted', 'Accepted — question fixed'),
+        ('rejected', 'Rejected — question was right'),
+        ('duplicate', 'Duplicate'),
+    ]
+
+    question = models.ForeignKey(
+        Question,
+        on_delete=models.CASCADE,
+        related_name='reports',
+    )
+    user = models.ForeignKey(
+        settings.AUTH_USER_MODEL,
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        related_name='question_reports',
+    )
+    kind = models.CharField(max_length=20, choices=KIND_CHOICES, default='other')
+    message = models.TextField(blank=True)
+
+    # Optional, and only so we can reply. Never required to file a report.
+    email = models.EmailField(blank=True)
+
+    status = models.CharField(max_length=12, choices=STATUS_CHOICES, default='new')
+
+    # Filled in when the report is triaged — what we did about it.
+    resolution = models.TextField(blank=True)
+
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        ordering = ['-created_at']
+        indexes = [models.Index(fields=['status', '-created_at'])]
+
+    def __str__(self):
+        return f"Report on Q{self.question_id}: {self.get_kind_display()}"

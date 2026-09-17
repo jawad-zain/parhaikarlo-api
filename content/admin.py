@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Exam, Subject, Topic, Subtopic, PastPaper, Question, ConceptNote
+from .models import Exam, Subject, Topic, Subtopic, PastPaper, Question, ConceptNote, QuestionReport
 from .models import PastPaper, Question
 from .models import Exam, Subject, Topic, Subtopic
 
@@ -96,4 +96,35 @@ class ConceptNoteAdmin(admin.ModelAdmin):
     list_filter = ('topic__subject__exam', 'topic__subject', 'is_indexed', 'is_active')
     search_fields = ('title', 'body')
     autocomplete_fields = ('topic',)
-    readonly_fields = ('version', 'is_indexed', 'created_at', 'updated_at')        
+    readonly_fields = ('version', 'is_indexed', 'created_at', 'updated_at')
+
+
+@admin.register(QuestionReport)
+class QuestionReportAdmin(admin.ModelAdmin):
+    """Triage queue for student-reported question errors.
+
+    Sorted newest-first with the status filter defaulting to nothing, so the
+    unhandled ones are simply the 'new' rows at the top. The question text is
+    shown inline because the whole job is "is this report right?", and
+    opening each question one by one to find out is the slow way.
+    """
+
+    list_display = ('created_at', 'status', 'kind', 'question_id', 'question_preview', 'reporter')
+    list_filter = ('status', 'kind', 'created_at')
+    search_fields = ('message', 'email', 'question__question_text')
+    list_select_related = ('question', 'user')
+    readonly_fields = ('question', 'user', 'kind', 'message', 'email', 'created_at', 'updated_at')
+    fields = ('question', 'user', 'email', 'kind', 'message', 'status', 'resolution',
+              'created_at', 'updated_at')
+    list_editable = ('status',)
+
+    @admin.display(description='Question')
+    def question_preview(self, obj):
+        text = obj.question.question_text or ''
+        return text[:90] + ('...' if len(text) > 90 else '')
+
+    @admin.display(description='From')
+    def reporter(self, obj):
+        if obj.user_id:
+            return obj.user.email or f'user {obj.user_id}'
+        return obj.email or 'anonymous'

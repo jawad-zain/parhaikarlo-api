@@ -154,6 +154,12 @@ REST_FRAMEWORK = {
     ],
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     'PAGE_SIZE': 20,
+    # Only the endpoints that opt in with ScopedRateThrottle are limited.
+    # /api/content/reports/ accepts writes from signed-out visitors, so it
+    # is capped per IP; nothing else on the API takes anonymous writes.
+    'DEFAULT_THROTTLE_RATES': {
+        'question_report': '20/hour',
+    },
 }
 
 SIMPLE_JWT = {
