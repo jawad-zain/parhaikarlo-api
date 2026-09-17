@@ -537,5 +537,23 @@
     "d": "Correct — C=N–NH– linked to a 2,4-dinitrophenyl ring."
    }
   }
+ },
+ {
+  "year": 2016,
+  "question_number": 164,
+  "match_question_text": "Which one of the following is the formula structure of D (α) glucose? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
+  "match_option_a": "Structure A",
+  "set": {
+   "question_text": "Which one of the following is the formula structure of D (α) glucose?"
+  }
+ },
+ {
+  "year": 2016,
+  "question_number": 171,
+  "match_question_text": "Which one of the following graphs shows how the rate of reaction of pepsin is affected by pH? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
+  "match_option_a": "Graph A",
+  "set": {
+   "question_text": "Which one of the following graphs shows how the rate of reaction of pepsin is affected by pH?"
+  }
  }
 ]

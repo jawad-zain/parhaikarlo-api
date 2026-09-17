@@ -396,5 +396,14 @@
     "d": "'Open a throat' would mean cutting it open."
    }
   }
+ },
+ {
+  "year": 2018,
+  "question_number": 150,
+  "match_question_text": "An input voltage Vin of 0.50 V is applied to an op-amp connected as shown in the diagram. What is the output voltage Vout?",
+  "match_option_a": "8.0 V",
+  "set": {
+   "question_text": "An input voltage Vin of 0.50 V is applied to an op-amp connected as shown in the diagram (non-inverting amplifier: 10 kΩ feedback resistor, 2.5 kΩ resistor from the inverting input to 0 V, supply ±6.0 V). What is the output voltage Vout?"
+  }
  }
 ]

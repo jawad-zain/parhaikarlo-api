@@ -8677,7 +8677,13 @@
       "b": "It has no CH₂OH group on carbon 5 (just an OH), so it is not a hexose like glucose.",
       "c": "It carries an extra CH₂OH on carbon 1 and the wrong OH pattern — this is a ketose-type (fructose-like) ring, not glucose.",
       "d": "A five-membered (furanose) ring with a five-carbon skeleton — this is a pentose such as ribose, not glucose."
-     }
+     },
+     "aliases": [
+      [
+       "Which one of the following is the formula structure of D (α) glucose? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
+       "Structure A"
+      ]
+     ]
     },
     {
      "question_text": "Secondary structure of protein is found in:",
@@ -8836,7 +8842,13 @@
       "b": "Only starts working above pH 4 and is highest near pH 5 — wrong range for a stomach enzyme.",
       "c": "Peaks near pH 7 and stays high in alkaline conditions — fits an intestinal enzyme, not pepsin.",
       "d": "Correct — the sharp peak at about pH 2 matches pepsin's acidic optimum."
-     }
+     },
+     "aliases": [
+      [
+       "Which one of the following graphs shows how the rate of reaction of pepsin is affected by pH? [Diagram/graph/structure required — not transcribable from OCR text. See original PDF page for the figure.]",
+       "Graph A"
+      ]
+     ]
     },
     {
      "question_text": "All viruses can reproduce within living organisms only, so they are known as:",
@@ -17858,7 +17870,13 @@
       "b": "1.2 V would need a gain of about 2.4, which these resistors do not give.",
       "c": "Correct — gain 1 + 10/2.5 = 5, and 5 × 0.50 V = 2.5 V.",
       "d": "4.9 V would need a gain of about 9.8, as if the resistors were 22.5 kΩ and 2.5 kΩ."
-     }
+     },
+     "aliases": [
+      [
+       "An input voltage Vin of 0.50 V is applied to an op-amp connected as shown in the diagram. What is the output voltage Vout?",
+       "8.0 V"
+      ]
+     ]
     },
     {
      "question_text": "A signal of -80 mV is applied to the inverting terminal of the amplifier while the non-inverting terminal is grounded. The gain of the amplifier is 25, using Rin (R₁) equal to 3Ω and Rf (R₂) equal to 75Ω. What would be the value of the output signal?",
