@@ -68,8 +68,17 @@ class SiteStatsView(APIView):
     """
     permission_classes = [AllowAny]
 
-    CACHE_KEY = 'content:site_stats'
+    # Bump the suffix whenever the payload shape changes (v2 added `exams`
+    # and made total_papers count dated papers only).
+    CACHE_KEY = 'content:site_stats:v2'
     CACHE_TTL = 600  # 10 minutes
+
+    # An exam board's own specimen paper sits in a PastPaper row with an
+    # invented year (year is NOT NULL), so it is not a dated past paper and
+    # must not be counted as one. Mirrors OFFICIAL_SAMPLES in the frontend's
+    # lib/officialSamples.ts — keep the two in sync until PastPaper has a
+    # `kind` field.
+    OFFICIAL_SAMPLE_SLUGS = {'lums-sample-past-paper'}
 
     def get(self, request):
         data = cache.get(self.CACHE_KEY)
@@ -94,12 +103,42 @@ class SiteStatsView(APIView):
             .values_list('name', flat=True)
         )
 
+        # One counting rule for every surface that prints these numbers:
+        #   papers    = dated past papers only (official samples separate)
+        #   questions = every active question tagged to the exam — past
+        #               papers, mocks and the practice bank together; the
+        #               per-source split is returned so copy can say which
+        #               it means.
+        papers = PastPaper.objects.filter(is_active=True)
+        active_q = Question.objects.filter(is_active=True)
+        mocks = MockTest.objects.filter(is_active=True)
+
+        exams = []
+        for exam in Exam.objects.filter(is_active=True).order_by('name'):
+            exam_papers = papers.filter(exam=exam)
+            exam_q = active_q.filter(subtopic__topic__subject__exam=exam)
+            exam_mocks = mocks.filter(exam=exam)
+            exams.append({
+                'slug': exam.slug,
+                'name': exam.name,
+                'papers': exam_papers.exclude(slug__in=self.OFFICIAL_SAMPLE_SLUGS).count(),
+                'sample_papers': exam_papers.filter(slug__in=self.OFFICIAL_SAMPLE_SLUGS).count(),
+                'questions': exam_q.count(),
+                'past_paper_questions': exam_q.filter(past_paper__isnull=False).count(),
+                'mock_questions': exam_q.filter(fixed_in_mock_tests__isnull=False).distinct().count(),
+                'bank_questions': exam_q.filter(practice_bank_q()).count(),
+                'full_mocks': exam_mocks.filter(kind='full').count(),
+                'sectional_mocks': exam_mocks.filter(kind='sectional').count(),
+            })
+
         return {
-            'total_papers': PastPaper.objects.filter(is_active=True).count(),
-            'total_questions': Question.objects.filter(is_active=True).count(),
-            'total_mock_tests': MockTest.objects.filter(is_active=True).count(),
+            'total_papers': papers.exclude(slug__in=self.OFFICIAL_SAMPLE_SLUGS).count(),
+            'total_sample_papers': papers.filter(slug__in=self.OFFICIAL_SAMPLE_SLUGS).count(),
+            'total_questions': active_q.count(),
+            'total_mock_tests': mocks.count(),
             'total_subjects': Subject.objects.filter(is_active=True).count(),
             'live_exams': live_exams,
+            'exams': exams,
         }
 
 
