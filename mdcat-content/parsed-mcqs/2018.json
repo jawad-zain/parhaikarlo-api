@@ -3283,18 +3283,18 @@
   "question_number": 150,
   "subject": "Physics",
   "topic": "Electronics",
-  "subtopic": "Rectification (Half and Full Wave)",
+  "subtopic": "Operational Amplifiers (OP-AMP)",
   "difficulty": null,
-  "question_text": "[Diagram required — not transcribable from OCR text. See original PDF page for the figure/graph/circuit.] [Original stem: \"An input voltage Vin of 0.50 V is applied to an op-amp connected as shown in the diagram. What is the output voltage Vout?\" — shows an op-amp circuit with labeled resistor values]",
+  "question_text": "An input voltage Vin of 0.50 V is applied to an op-amp connected as shown in the diagram (non-inverting amplifier: 10 kΩ feedback resistor, 2.5 kΩ resistor from the inverting input to 0 V, supply ±6.0 V). What is the output voltage Vout?",
   "options": {
-   "a": "[Diagram required — not transcribable from OCR text. See original PDF page for the figure/graph/circuit.]",
-   "b": "[Diagram required — not transcribable from OCR text. See original PDF page for the figure/graph/circuit.]",
-   "c": "[Diagram required — not transcribable from OCR text. See original PDF page for the figure/graph/circuit.]",
-   "d": "[Diagram required — not transcribable from OCR text. See original PDF page for the figure/graph/circuit.]"
+   "a": "8.0 V",
+   "b": "1.2 V",
+   "c": "2.5 V",
+   "d": "4.9 V"
   },
   "correct_answer": "c",
   "explanation": null,
-  "is_active": false,
+  "is_active": true,
   "needs_review": false,
   "notes": "Question shows an op-amp circuit diagram with labeled resistor values and an input voltage of 0.50 V; asks for output voltage Vout. Exact resistor values, feedback topology, and node connections are only visible in the circuit image and could not be reliably OCR'd/transcribed as text.",
   "source_file": "mdcat_2018.py"

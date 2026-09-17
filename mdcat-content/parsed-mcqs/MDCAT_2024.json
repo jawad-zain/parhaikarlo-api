@@ -39,7 +39,8 @@
   "needs_review": false,
   "source_file": "MDCAT_2024.PDF",
   "subtopic": "Viruses",
-  "tag_confidence": "high"
+  "tag_confidence": "high",
+  "is_active": false
  },
  {
   "id": "mdcat-2024-q3",
@@ -228,7 +229,8 @@
   "needs_review": false,
   "source_file": "MDCAT_2024.PDF",
   "subtopic": "Carbohydrates",
-  "tag_confidence": "high"
+  "tag_confidence": "high",
+  "is_active": false
  },
  {
   "id": "mdcat-2024-q12",
@@ -2307,7 +2309,8 @@
   "needs_review": false,
   "source_file": "MDCAT_2024.PDF",
   "subtopic": "Reactivity of Benzene",
-  "tag_confidence": "high"
+  "tag_confidence": "high",
+  "is_active": false
  },
  {
   "id": "mdcat-2024-q111",
