@@ -25,6 +25,11 @@ Sourcing rules followed here (same bar as the MDCAT posts):
   implied though — see lib/officialSamples.ts on the frontend for why that
   distinction is load-bearing; the mocks are ParhaiKrlo-authored practice
   tests, not a released LUMS paper.
+* No weighting claim is made for the LCAT mocks. LUMS publishes a duration
+  ("Approximately 3 hours") and eight content domains in its official sample
+  paper, and no section or question counts at all, so there is no published
+  split to match. Same rule the frontend enforces in the site's lib/mocks.ts
+  (followsOfficialSplit).
 
 The body deliberately has no "## FAQs" heading. The frontend injects the
 FAQ block (from Post.faqs, as both visible <details> and FAQPage JSON-LD)
@@ -396,7 +401,7 @@ answer works, why the option you picked was built to catch you, and which domain
 to — without waiting on a tutor.
 
 Once the domains stop being the problem, the thing to practise is the three-hour sitting itself. \
-ParhaiKrlo has 8 full-length [LCAT mock tests](/mocks/lums), timed and weighted the same way across \
+ParhaiKrlo has 8 full-length [LCAT mock tests](/mocks/lums), each timed in a single sitting across \
 Verbal and Math, with instant scoring and an explanation on every question. That is where "Never \
 sitting a full three-hour paper" above gets fixed.
 

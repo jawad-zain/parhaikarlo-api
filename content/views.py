@@ -6,8 +6,10 @@ from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
+from rest_framework.throttling import ScopedRateThrottle
+
 from .models import ConceptNote, Exam, PastPaper, Question, Subject, Topic, Subtopic, practice_bank_q
-from .serializers import ExamSerializer, PastPaperSerializer
+from .serializers import ExamSerializer, PastPaperSerializer, QuestionReportSerializer
 
 
 class ExamListView(generics.ListAPIView):
@@ -342,3 +344,25 @@ class TopicNoteView(APIView):
             'body': note.body,
             'updated_at': note.updated_at,
         })
+
+
+class QuestionReportView(generics.CreateAPIView):
+    """POST /api/content/reports/ - a student flags a question as wrong.
+
+    Open to signed-out visitors on purpose: this archive is transcribed from
+    scans, and the people who spot a bad row are the ones sitting the paper.
+    Making them create an account first is how you stop hearing about it.
+
+    Throttled per IP (see DEFAULT_THROTTLE_RATES) because an open write
+    endpoint is an open write endpoint. Nothing is returned but the id - the
+    reports are triage material for the admin, not public content.
+    """
+
+    serializer_class = QuestionReportSerializer
+    permission_classes = [AllowAny]
+    throttle_classes = [ScopedRateThrottle]
+    throttle_scope = 'question_report'
+
+    def perform_create(self, serializer):
+        user = self.request.user if self.request.user.is_authenticated else None
+        serializer.save(user=user)

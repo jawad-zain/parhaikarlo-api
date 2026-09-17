@@ -1,6 +1,6 @@
 from rest_framework import serializers
 from django.db.models import Count, Q
-from .models import Exam, PastPaper
+from .models import Exam, PastPaper, QuestionReport
 
 
 class ExamSerializer(serializers.ModelSerializer):
@@ -26,3 +26,27 @@ class PastPaperSerializer(serializers.ModelSerializer):
             'easy_count', 'medium_count', 'hard_count',
             'student_note',
         ]
+
+
+class QuestionReportSerializer(serializers.ModelSerializer):
+    """Write-only: a report is filed, never read back by the student.
+
+    `question` is the only required field. A report with no message is still
+    worth having - it says "look at this one" - so `message` stays optional,
+    and `email` is only there so we can reply.
+    """
+
+    class Meta:
+        model = QuestionReport
+        fields = ['id', 'question', 'kind', 'message', 'email']
+        read_only_fields = ['id']
+
+    def validate_question(self, value):
+        if not value.is_active:
+            # An inactive question is one we have already pulled, so there is
+            # nothing to report - but say so rather than accepting silently.
+            raise serializers.ValidationError('That question is not currently live.')
+        return value
+
+    def validate_message(self, value):
+        return value.strip()[:4000]
