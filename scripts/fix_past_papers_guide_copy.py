@@ -14,8 +14,11 @@ drop to 180 MCQs.
 The table below is the live per-subject count of active questions on every
 MDCAT paper (it sums to 3,360, the figure /past-papers prints).
 
-NOT touched here, on purpose: the "3.5 hours" timing lines. The exam length
-is pass 11, which needs PMDC's own notification before anything is written.
+It also told students to practise "under 3.5 hours" and that the mocks run
+"the same 3.5-hour timer". MDCAT 2026 is three hours: UHS's admittance-card
+notice gives the sitting as 10:00 AM to 1:00 PM on 20 September 2026 (PMDC's
+own notices set the 180 MCQs but never the length). The mocks run 180
+minutes. Those lines — two in the body, one in an FAQ answer — now say so.
 
 Each fix is an exact string swap. Already-applied fixes are skipped, so this
 is safe to re-run; if any expected text is missing entirely, nothing is
@@ -88,6 +91,18 @@ FIXES = [
     ("body",
      "Total MCQs settled at 200 with a 3.5-hour window.",
      "Papers ran 200 MCQs from 2022 to 2024; 2025 dropped to 180, the format MDCAT 2026 keeps."),
+    ("body",
+     "Now you sit papers strictly under 3.5 hours in mock conditions.",
+     "Now you sit papers strictly timed in mock conditions, at the real exam's pace of a minute a question — MDCAT 2026 is 180 MCQs in three hours."),
+    ("body",
+     "same weightage, same 3.5-hour timer",
+     "same 180-MCQ weightage, same three-hour timer"),
+]
+
+# FAQ answers live in a JSON list, so they are matched per answer string.
+FAQ_FIXES = [
+    ("switch to strictly timed papers under 3.5 hours in mock conditions",
+     "switch to strictly timed papers in mock conditions, at the real exam's pace of a minute a question"),
 ]
 
 post = Post.objects.filter(slug=SLUG).first()
@@ -104,6 +119,18 @@ else:
             applied += 1
         else:
             missing.append(f"{field}: {old[:70]}...")
+    faqs = [dict(f) for f in post.faqs]
+    for old, new in FAQ_FIXES:
+        hits = [f for f in faqs if old in f["answer"]]
+        if any(new in f["answer"] for f in faqs):
+            already += 1
+        elif hits:
+            for f in hits:
+                f["answer"] = f["answer"].replace(old, new)
+            post.faqs = faqs
+            applied += 1
+        else:
+            missing.append(f"faqs: {old[:70]}...")
     if missing:
         print("ABORT — expected text not found, nothing saved:")
         for m in missing:
@@ -115,6 +142,7 @@ else:
         print(f"OK: {applied} fix(es) applied, {already} already in place")
     else:
         print(f"NO-OP: all {already} fixes already in place")
-    leftover = [w for w in ("graduate", "flagged it") if w in (post.body + post.excerpt + post.meta_description)]
+    text = post.body + post.excerpt + post.meta_description + str(post.faqs)
+    leftover = [w for w in ("graduate", "flagged it", "3.5") if w in text]
     if leftover:
         print("WARNING: still contains", leftover)
