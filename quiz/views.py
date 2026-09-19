@@ -177,10 +177,27 @@ class AttemptAnswerView(APIView):
         # the frontend only learns whether THIS pick was right or wrong,
         # so a wrong retry doesn't reveal the answer. The review endpoint
         # (after submit) still returns the correct_answer as before.
-        return Response({
+        payload = {
             'is_correct': is_correct_now,
             'correct_answer': None,
-        })
+        }
+        # Learning modes only: the stored reasoning for the option just
+        # clicked, which the student can choose to open on the card. A wrong
+        # pick gets that option's "why it's wrong" and nothing more — no
+        # short/trick, which name the right answer. Mock/sectional get
+        # nothing extra; their explanations stay on the results page.
+        if is_retry_flow:
+            question = aq.question
+            why = {
+                'option': (question.explanation_options or {}).get(
+                    data['selected_option'].lower(), ''
+                ),
+            }
+            if is_correct_now:
+                why['short'] = question.explanation_short
+                why['trick'] = question.explanation_trick
+            payload['why'] = why
+        return Response(payload)
 
 
 class AttemptSubmitView(APIView):
