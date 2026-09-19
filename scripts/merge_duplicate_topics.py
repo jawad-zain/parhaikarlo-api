@@ -20,6 +20,10 @@ Questions are never edited - they move with their subtopic, which is what
 "re-tagging" means here. Where source and target already hold a subtopic of
 the same name, the questions are repointed and the empty duplicate deleted.
 
+Practice attempts point at a topic/subtopic with on_delete=PROTECT, so before
+anything is deleted its attempts are repointed at whatever it merged into -
+history is kept, and the delete can't be blocked.
+
 Idempotent, and matched by name rather than id so it runs on production
 unchanged. Deleting a topic changes /syllabus/<subject>/<topic> URLs, so
 every merge here has a matching redirect in the frontend's next.config.ts.
@@ -32,6 +36,7 @@ from django.db import transaction
 from django.utils.text import slugify
 
 from content.models import Subject, Topic, Subtopic, Question
+from quiz.models import Attempt
 
 DRY_RUN = False
 
@@ -84,6 +89,18 @@ TOPIC_MERGES = {
         "Photosynthesis": "Bioenergetics",
         "Diversity of Life": "Classification & Diversity",
         "Kingdom Plantae": "Plant Biology",
+    },
+    # PMDC's six LR themes (/blog/mdcat-2026-syllabus). Six sub-skills also
+    # existed as top-level topics beside the theme that already lists them
+    # as a subtopic, each copy with its own question pool - so "Syllogism"
+    # gave a different set depending on which link a student clicked.
+    "Logical Reasoning": {
+        "Analogies": "Letters and Symbol Series",
+        "Coding-Decoding": "Letters and Symbol Series",
+        "Number Series": "Letters and Symbol Series",
+        "Syllogism": "Logical Deductions",
+        "Blood Relations": "Logical Problems",
+        "Direction Sense": "Logical Problems",
     },
 }
 
@@ -173,6 +190,7 @@ def move_subtopic(st, target_topic, log):
         return 0
     if twin:
         n = Question.objects.filter(subtopic=st).update(subtopic=twin)
+        Attempt.objects.filter(subtopic=st).update(subtopic=twin)
         log.append("      merged '%s' into %s > %s (%d questions)" % (st.name, target_topic.name, twin.name, n))
         st.delete()
         return n
@@ -209,6 +227,7 @@ def run():
             for st in list(source.subtopics.all()):
                 move_subtopic(st, target, log)
             if source.subtopics.count() == 0:
+                Attempt.objects.filter(topic=source).update(topic=target)
                 source.delete()
                 log.append("      deleted empty topic '%s'" % source_name)
             else:
@@ -229,6 +248,7 @@ def run():
         log.append("    %s > %s -> %s" % (topic_name, st_name, target_name))
         move_subtopic(st, target, log)
         if topic.subtopics.count() == 0:
+            Attempt.objects.filter(topic=topic).update(topic=target)
             topic.delete()
             log.append("      deleted empty topic '%s'" % topic_name)
 
@@ -245,12 +265,15 @@ def run():
         if not loser or not winner:
             continue
         n = Question.objects.filter(subtopic=loser).update(subtopic=winner)
+        Attempt.objects.filter(subtopic=loser).update(subtopic=winner)
         loser.delete()
         log.append("    %s: '%s' -> '%s' (%d questions)" % (topic_name, loser_name, winner_name, n))
 
     log.append("  == empty subtopics")
     for st in list(Subtopic.objects.all()):
         if st.questions.count() == 0:
+            if Attempt.objects.filter(subtopic=st).exists():
+                continue  # someone practised it; an empty subtopic is harmless
             log.append("    deleted %s / %s > %s" % (st.topic.subject.name, st.topic.name, st.name))
             st.delete()
 
